@@ -1,0 +1,33 @@
+{
+  "source_file": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Footprints\\CP2102N_Official_Altium\\export\\Altium\\cp2102n-a01-gqfn24.PcbLib",
+  "source_sha256": "3b152722dbaba65766e5dd9bed7f86698d455ac3c876d59b39c7cab75a905d39",
+  "output_file": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Footprints\\CP2102N_Datasheet_Rev15\\CP2102N-A02-GQFN24_DS15.PcbLib",
+  "output_sha256": "8168b1e25eecaf3b5cab8cd415cabce197c906609e6c73e44c8101a0f89ccab1",
+  "pattern": "CP2102N-A02-GQFN24_DS15",
+  "datasheet": "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf#page=39",
+  "perimeter_pad_mm": [
+    0.85,
+    0.3
+  ],
+  "row_centers_mm": 3.9,
+  "pitch_mm": 0.5,
+  "ep_extent_mm": [
+    2.55,
+    2.55
+  ],
+  "ep_chamfer_mm": 0.25,
+  "ep_number": "25",
+  "ep_implementation": "Union of three overlapping SMD pads sharing designator 25",
+  "mask_expansion_mm": 0.060002419999999994,
+  "paste_perimeter_expansion_mm": 0,
+  "paste_center_windows_mm": [
+    0.9,
+    0.9
+  ],
+  "paste_center_pitch_mm": 1.2,
+  "physical_pad_objects": 27,
+  "unique_pad_numbers": 25,
+  "primitive_count": 53,
+  "source_3d_body_and_embedded_model_streams_preserved": true,
+  "note": "User-modified derivative; not an unmodified manufacturer export. Native Altium UI validation pending."
+}

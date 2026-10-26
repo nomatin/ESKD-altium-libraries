@@ -1,0 +1,452 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\MY_LIB.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES;IMEX=1";
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Конденсаторы$
+[Table1]
+SchemaName=
+TableName=Конденсаторы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[Table2]
+SchemaName=
+TableName=Микросхемы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[Table3]
+SchemaName=
+TableName=Резисторы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap1]
+Options=FieldName=Конденсаторы$.ID|TableNameOnly=Конденсаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Конденсаторы$.Type|TableNameOnly=Конденсаторы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Конденсаторы$.Value|TableNameOnly=Конденсаторы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Конденсаторы$.ESKD_value|TableNameOnly=Конденсаторы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Конденсаторы$.Tolerance|TableNameOnly=Конденсаторы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Конденсаторы$.Power|TableNameOnly=Конденсаторы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Конденсаторы$.Voltage|TableNameOnly=Конденсаторы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Конденсаторы$.Package|TableNameOnly=Конденсаторы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Конденсаторы$.Manufacturer|TableNameOnly=Конденсаторы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Конденсаторы$.MPN|TableNameOnly=Конденсаторы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Конденсаторы$.CommentBase|TableNameOnly=Конденсаторы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Конденсаторы$.Library Ref|TableNameOnly=Конденсаторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Конденсаторы$.Library Path|TableNameOnly=Конденсаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Конденсаторы$.Footprint Ref|TableNameOnly=Конденсаторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Конденсаторы$.Footprint Path|TableNameOnly=Конденсаторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Конденсаторы$.Notes|TableNameOnly=Конденсаторы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Конденсаторы$.Dielectric|TableNameOnly=Конденсаторы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Конденсаторы$.Comment|TableNameOnly=Конденсаторы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Конденсаторы$.Description|TableNameOnly=Конденсаторы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Резисторы$.ID|TableNameOnly=Резисторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Резисторы$.Type|TableNameOnly=Резисторы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Резисторы$.Value|TableNameOnly=Резисторы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Резисторы$.ESKD_value|TableNameOnly=Резисторы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Резисторы$.Tolerance|TableNameOnly=Резисторы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Резисторы$.Power|TableNameOnly=Резисторы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Резисторы$.Voltage|TableNameOnly=Резисторы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Резисторы$.Package|TableNameOnly=Резисторы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Резисторы$.Manufacturer|TableNameOnly=Резисторы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Резисторы$.MPN|TableNameOnly=Резисторы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=Резисторы$.CommentBase|TableNameOnly=Резисторы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=Резисторы$.Library Ref|TableNameOnly=Резисторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=Резисторы$.Library Path|TableNameOnly=Резисторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=Резисторы$.Footprint Ref|TableNameOnly=Резисторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=Резисторы$.Footprint Path|TableNameOnly=Резисторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=Резисторы$.Notes|TableNameOnly=Резисторы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=Резисторы$.Dielectric|TableNameOnly=Резисторы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=Резисторы$.Comment|TableNameOnly=Резисторы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Резисторы$.Description|TableNameOnly=Резисторы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap39]
+Options=FieldName=Микросхемы$.ID|TableNameOnly=Микросхемы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap40]
+Options=FieldName=Микросхемы$.Type|TableNameOnly=Микросхемы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap41]
+Options=FieldName=Микросхемы$.Value|TableNameOnly=Микросхемы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap42]
+Options=FieldName=Микросхемы$.ESKD_value|TableNameOnly=Микросхемы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap43]
+Options=FieldName=Микросхемы$.Tolerance|TableNameOnly=Микросхемы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap44]
+Options=FieldName=Микросхемы$.Power|TableNameOnly=Микросхемы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap45]
+Options=FieldName=Микросхемы$.Voltage|TableNameOnly=Микросхемы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap46]
+Options=FieldName=Микросхемы$.Package|TableNameOnly=Микросхемы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap47]
+Options=FieldName=Микросхемы$.Manufacturer|TableNameOnly=Микросхемы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap48]
+Options=FieldName=Микросхемы$.MPN|TableNameOnly=Микросхемы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap49]
+Options=FieldName=Микросхемы$.CommentBase|TableNameOnly=Микросхемы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap50]
+Options=FieldName=Микросхемы$.Library Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap51]
+Options=FieldName=Микросхемы$.Library Path|TableNameOnly=Микросхемы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap52]
+Options=FieldName=Микросхемы$.Footprint Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap53]
+Options=FieldName=Микросхемы$.Footprint Path|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap54]
+Options=FieldName=Микросхемы$.Notes|TableNameOnly=Микросхемы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap55]
+Options=FieldName=Микросхемы$.Dielectric|TableNameOnly=Микросхемы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap56]
+Options=FieldName=Микросхемы$.Comment|TableNameOnly=Микросхемы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap57]
+Options=FieldName=Микросхемы$.Description|TableNameOnly=Микросхемы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap58]
+Options=FieldName=Микросхемы$.OperatingTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap59]
+Options=FieldName=Микросхемы$.OperatingTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap60]
+Options=FieldName=Микросхемы$.TemperatureReference|TableNameOnly=Микросхемы$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap61]
+Options=FieldName=Микросхемы$.StorageTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap62]
+Options=FieldName=Микросхемы$.StorageTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap63]
+Options=FieldName=Микросхемы$.JunctionTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMin|FieldType=1|ParameterName=JunctionTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap64]
+Options=FieldName=Микросхемы$.JunctionTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMax|FieldType=1|ParameterName=JunctionTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap65]
+Options=FieldName=Микросхемы$.Datasheet|TableNameOnly=Микросхемы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap66]
+Options=FieldName=Микросхемы$.DatasheetRevision|TableNameOnly=Микросхемы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap67]
+Options=FieldName=Микросхемы$.ComponentLink1Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap68]
+Options=FieldName=Микросхемы$.ComponentLink1URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table4]
+SchemaName=
+TableName=Разъёмы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap69]
+Options=FieldName=Разъёмы$.ID|TableNameOnly=Разъёмы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=Разъёмы$.Type|TableNameOnly=Разъёмы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=Разъёмы$.Value|TableNameOnly=Разъёмы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=Разъёмы$.ESKD_value|TableNameOnly=Разъёмы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=Разъёмы$.Tolerance|TableNameOnly=Разъёмы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=Разъёмы$.Power|TableNameOnly=Разъёмы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
+Options=FieldName=Разъёмы$.Voltage|TableNameOnly=Разъёмы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap76]
+Options=FieldName=Разъёмы$.Package|TableNameOnly=Разъёмы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap77]
+Options=FieldName=Разъёмы$.Manufacturer|TableNameOnly=Разъёмы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap78]
+Options=FieldName=Разъёмы$.MPN|TableNameOnly=Разъёмы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap79]
+Options=FieldName=Разъёмы$.CommentBase|TableNameOnly=Разъёмы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap80]
+Options=FieldName=Разъёмы$.Library Ref|TableNameOnly=Разъёмы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap81]
+Options=FieldName=Разъёмы$.Library Path|TableNameOnly=Разъёмы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap82]
+Options=FieldName=Разъёмы$.Footprint Ref|TableNameOnly=Разъёмы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap83]
+Options=FieldName=Разъёмы$.Footprint Path|TableNameOnly=Разъёмы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap84]
+Options=FieldName=Разъёмы$.Notes|TableNameOnly=Разъёмы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap85]
+Options=FieldName=Разъёмы$.Dielectric|TableNameOnly=Разъёмы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap86]
+Options=FieldName=Разъёмы$.Comment|TableNameOnly=Разъёмы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap87]
+Options=FieldName=Разъёмы$.Description|TableNameOnly=Разъёмы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap88]
+Options=FieldName=Разъёмы$.Datasheet|TableNameOnly=Разъёмы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap89]
+Options=FieldName=Разъёмы$.DatasheetRevision|TableNameOnly=Разъёмы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap90]
+Options=FieldName=Разъёмы$.ComponentLink1Description|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap91]
+Options=FieldName=Разъёмы$.ComponentLink1URL|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table5]
+SchemaName=
+TableName=Переключатели$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap92]
+Options=FieldName=Переключатели$.ID|TableNameOnly=Переключатели$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap93]
+Options=FieldName=Переключатели$.Type|TableNameOnly=Переключатели$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap94]
+Options=FieldName=Переключатели$.Value|TableNameOnly=Переключатели$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap95]
+Options=FieldName=Переключатели$.ESKD_value|TableNameOnly=Переключатели$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap96]
+Options=FieldName=Переключатели$.Tolerance|TableNameOnly=Переключатели$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap97]
+Options=FieldName=Переключатели$.Power|TableNameOnly=Переключатели$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap98]
+Options=FieldName=Переключатели$.Voltage|TableNameOnly=Переключатели$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap99]
+Options=FieldName=Переключатели$.Package|TableNameOnly=Переключатели$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap100]
+Options=FieldName=Переключатели$.Manufacturer|TableNameOnly=Переключатели$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap101]
+Options=FieldName=Переключатели$.MPN|TableNameOnly=Переключатели$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap102]
+Options=FieldName=Переключатели$.CommentBase|TableNameOnly=Переключатели$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap103]
+Options=FieldName=Переключатели$.Library Ref|TableNameOnly=Переключатели$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap104]
+Options=FieldName=Переключатели$.Library Path|TableNameOnly=Переключатели$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap105]
+Options=FieldName=Переключатели$.Footprint Ref|TableNameOnly=Переключатели$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap106]
+Options=FieldName=Переключатели$.Footprint Path|TableNameOnly=Переключатели$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap107]
+Options=FieldName=Переключатели$.Notes|TableNameOnly=Переключатели$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap108]
+Options=FieldName=Переключатели$.Dielectric|TableNameOnly=Переключатели$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap109]
+Options=FieldName=Переключатели$.Comment|TableNameOnly=Переключатели$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap110]
+Options=FieldName=Переключатели$.Description|TableNameOnly=Переключатели$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap111]
+Options=FieldName=Переключатели$.Datasheet|TableNameOnly=Переключатели$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap112]
+Options=FieldName=Переключатели$.DatasheetRevision|TableNameOnly=Переключатели$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap113]
+Options=FieldName=Переключатели$.ComponentLink1Description|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap114]
+Options=FieldName=Переключатели$.ComponentLink1URL|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap115]
+Options=FieldName=Переключатели$.CurrentRating|TableNameOnly=Переключатели$|FieldNameOnly=CurrentRating|FieldType=1|ParameterName=CurrentRating|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap116]
+Options=FieldName=Переключатели$.OperatingTemperatureMin|TableNameOnly=Переключатели$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap117]
+Options=FieldName=Переключатели$.OperatingTemperatureMax|TableNameOnly=Переключатели$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap118]
+Options=FieldName=Переключатели$.TemperatureReference|TableNameOnly=Переключатели$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap119]
+Options=FieldName=Переключатели$.ContactForm|TableNameOnly=Переключатели$|FieldNameOnly=ContactForm|FieldType=1|ParameterName=ContactForm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap120]
+Options=FieldName=Переключатели$.Positions|TableNameOnly=Переключатели$|FieldNameOnly=Positions|FieldType=1|ParameterName=Positions|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table6]
+SchemaName=
+TableName=Светодиоды$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap121]
+Options=FieldName=Светодиоды$.ID|TableNameOnly=Светодиоды$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap122]
+Options=FieldName=Светодиоды$.Type|TableNameOnly=Светодиоды$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap123]
+Options=FieldName=Светодиоды$.Value|TableNameOnly=Светодиоды$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap124]
+Options=FieldName=Светодиоды$.ESKD_value|TableNameOnly=Светодиоды$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap125]
+Options=FieldName=Светодиоды$.Tolerance|TableNameOnly=Светодиоды$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap126]
+Options=FieldName=Светодиоды$.Power|TableNameOnly=Светодиоды$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap127]
+Options=FieldName=Светодиоды$.Voltage|TableNameOnly=Светодиоды$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap128]
+Options=FieldName=Светодиоды$.Package|TableNameOnly=Светодиоды$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap129]
+Options=FieldName=Светодиоды$.Manufacturer|TableNameOnly=Светодиоды$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap130]
+Options=FieldName=Светодиоды$.MPN|TableNameOnly=Светодиоды$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap131]
+Options=FieldName=Светодиоды$.CommentBase|TableNameOnly=Светодиоды$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap132]
+Options=FieldName=Светодиоды$.Library Ref|TableNameOnly=Светодиоды$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap133]
+Options=FieldName=Светодиоды$.Library Path|TableNameOnly=Светодиоды$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap134]
+Options=FieldName=Светодиоды$.Footprint Ref|TableNameOnly=Светодиоды$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap135]
+Options=FieldName=Светодиоды$.Footprint Path|TableNameOnly=Светодиоды$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap136]
+Options=FieldName=Светодиоды$.Notes|TableNameOnly=Светодиоды$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap137]
+Options=FieldName=Светодиоды$.Dielectric|TableNameOnly=Светодиоды$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap138]
+Options=FieldName=Светодиоды$.Comment|TableNameOnly=Светодиоды$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap139]
+Options=FieldName=Светодиоды$.Description|TableNameOnly=Светодиоды$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap140]
+Options=FieldName=Светодиоды$.Datasheet|TableNameOnly=Светодиоды$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap141]
+Options=FieldName=Светодиоды$.DatasheetRevision|TableNameOnly=Светодиоды$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap142]
+Options=FieldName=Светодиоды$.ComponentLink1Description|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap143]
+Options=FieldName=Светодиоды$.ComponentLink1URL|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap144]
+Options=FieldName=Светодиоды$.Color|TableNameOnly=Светодиоды$|FieldNameOnly=Color|FieldType=1|ParameterName=Color|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap145]
+Options=FieldName=Светодиоды$.WavelengthNm|TableNameOnly=Светодиоды$|FieldNameOnly=WavelengthNm|FieldType=1|ParameterName=WavelengthNm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap146]
+Options=FieldName=Светодиоды$.ForwardVoltageTypicalV|TableNameOnly=Светодиоды$|FieldNameOnly=ForwardVoltageTypicalV|FieldType=1|ParameterName=ForwardVoltageTypicalV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap147]
+Options=FieldName=Светодиоды$.ForwardVoltageMaxV|TableNameOnly=Светодиоды$|FieldNameOnly=ForwardVoltageMaxV|FieldType=1|ParameterName=ForwardVoltageMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap148]
+Options=FieldName=Светодиоды$.TestCurrentMa|TableNameOnly=Светодиоды$|FieldNameOnly=TestCurrentMa|FieldType=1|ParameterName=TestCurrentMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap149]
+Options=FieldName=Светодиоды$.ViewingAngleDeg|TableNameOnly=Светодиоды$|FieldNameOnly=ViewingAngleDeg|FieldType=1|ParameterName=ViewingAngleDeg|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap150]
+Options=FieldName=Светодиоды$.IntensityMinMcd|TableNameOnly=Светодиоды$|FieldNameOnly=IntensityMinMcd|FieldType=1|ParameterName=IntensityMinMcd|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap151]
+Options=FieldName=Светодиоды$.IntensityTypicalMcd|TableNameOnly=Светодиоды$|FieldNameOnly=IntensityTypicalMcd|FieldType=1|ParameterName=IntensityTypicalMcd|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap152]
+Options=FieldName=Светодиоды$.PinMapping|TableNameOnly=Светодиоды$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap153]
+Options=FieldName=Светодиоды$.ChipMaterial|TableNameOnly=Светодиоды$|FieldNameOnly=ChipMaterial|FieldType=1|ParameterName=ChipMaterial|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap154]
+Options=FieldName=Светодиоды$.Family|TableNameOnly=Светодиоды$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table7]
+SchemaName=
+TableName=Тестовые точки$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap155]
+Options=FieldName=Тестовые точки$.ID|TableNameOnly=Тестовые точки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap156]
+Options=FieldName=Тестовые точки$.Type|TableNameOnly=Тестовые точки$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap157]
+Options=FieldName=Тестовые точки$.Value|TableNameOnly=Тестовые точки$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap158]
+Options=FieldName=Тестовые точки$.ESKD_value|TableNameOnly=Тестовые точки$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap159]
+Options=FieldName=Тестовые точки$.Tolerance|TableNameOnly=Тестовые точки$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap160]
+Options=FieldName=Тестовые точки$.Power|TableNameOnly=Тестовые точки$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap161]
+Options=FieldName=Тестовые точки$.Voltage|TableNameOnly=Тестовые точки$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap162]
+Options=FieldName=Тестовые точки$.Package|TableNameOnly=Тестовые точки$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap163]
+Options=FieldName=Тестовые точки$.Manufacturer|TableNameOnly=Тестовые точки$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap164]
+Options=FieldName=Тестовые точки$.MPN|TableNameOnly=Тестовые точки$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap165]
+Options=FieldName=Тестовые точки$.CommentBase|TableNameOnly=Тестовые точки$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap166]
+Options=FieldName=Тестовые точки$.Library Ref|TableNameOnly=Тестовые точки$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap167]
+Options=FieldName=Тестовые точки$.Library Path|TableNameOnly=Тестовые точки$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap168]
+Options=FieldName=Тестовые точки$.Footprint Ref|TableNameOnly=Тестовые точки$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap169]
+Options=FieldName=Тестовые точки$.Footprint Path|TableNameOnly=Тестовые точки$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap170]
+Options=FieldName=Тестовые точки$.Notes|TableNameOnly=Тестовые точки$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap171]
+Options=FieldName=Тестовые точки$.Dielectric|TableNameOnly=Тестовые точки$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap172]
+Options=FieldName=Тестовые точки$.Comment|TableNameOnly=Тестовые точки$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap173]
+Options=FieldName=Тестовые точки$.Description|TableNameOnly=Тестовые точки$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap174]
+Options=FieldName=Тестовые точки$.Datasheet|TableNameOnly=Тестовые точки$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap175]
+Options=FieldName=Тестовые точки$.DatasheetRevision|TableNameOnly=Тестовые точки$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap176]
+Options=FieldName=Тестовые точки$.ComponentLink1Description|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap177]
+Options=FieldName=Тестовые точки$.ComponentLink1URL|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap178]
+Options=FieldName=Тестовые точки$.DiameterMm|TableNameOnly=Тестовые точки$|FieldNameOnly=DiameterMm|FieldType=1|ParameterName=DiameterMm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap179]
+Options=FieldName=Тестовые точки$.ComponentType|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentType|FieldType=1|ParameterName=ComponentType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

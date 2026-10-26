@@ -1,0 +1,33 @@
+{
+  "footprint": "CONNFLY_DS1040_01RT",
+  "pads": [
+    {
+      "number": "1",
+      "layer": 74,
+      "xy_mm": [
+        0.0,
+        3.8099999999999996
+      ],
+      "copper_diameter_mm": 1.5239999999999998,
+      "drill_mm": 0.9700005999999999,
+      "plated_flag": 1
+    },
+    {
+      "number": "2",
+      "layer": 74,
+      "xy_mm": [
+        0.0,
+        -3.8099999999999996
+      ],
+      "copper_diameter_mm": 1.5239999999999998,
+      "drill_mm": 0.9700005999999999,
+      "plated_flag": 1
+    }
+  ],
+  "STEP_source": "JLCEDA/EasyEDA Official Library C3024979",
+  "STEP_sha256": "cc223fb5b198d28d080c47938d3e5b9bf2da410b4f0f59f53ac00f34b2cd4943",
+  "library_sha256": "9ede7571c17df6df34b406f554f9e0123d2201c7a1bf5cf471750e6a2eb8eca8",
+  "model_approximate": true,
+  "existing_shared_libraries_unchanged": true,
+  "native_Altium_open_test": false
+}

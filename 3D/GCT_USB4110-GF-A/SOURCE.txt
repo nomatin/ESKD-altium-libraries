@@ -1,0 +1,11 @@
+USB4110-GF-A STEP model
+Retrieved: 2026-10-21
+Source: https://github.com/leptun/leptunKicadLib.pretty/blob/main/USB4110-GF-A.stp
+Download: https://raw.githubusercontent.com/leptun/leptunKicadLib.pretty/main/USB4110-GF-A.stp
+SHA256: 6EF1A6EB03FA58EA8BDFB41B01E969F95B4FC2325F77AEF30692538D911D9B83
+Format: ISO-10303-21 STEP AP214, units millimetres; file header identifies USB4110-GF-A.STEP, SolidWorks 2018, 2021-06-21.
+Source is a third-party KiCad library, not an authenticated manufacturer download. Manufacturer origin and redistribution licence have not been independently established.
+Validation: complete STEP end marker present; model successfully loaded and rendered by KiCad 9.0. Preview inspected and shows GCT USB-C receptacle with four shell tabs, locating pegs and signal tails.
+Raw model has Y as the vertical direction. KiCad preview uses X rotation 270 degrees; this is a preview setting, and the original STEP file is unchanged.
+Not yet embedded or aligned in the Altium PcbLib. Exact model dimensions and mechanical tolerances have not been audited.
+Official KiCad footprint exists as Connector_USB:USB_C_Receptacle_GCT_USB4110 and references a STEP file missing from the installed KiCad 9 models and from the upstream master raw URL checked today.

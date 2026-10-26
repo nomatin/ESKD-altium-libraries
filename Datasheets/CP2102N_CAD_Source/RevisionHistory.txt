@@ -1,0 +1,9 @@
+Version 1.15: Separated revision history for each device, reordered internal structuring.
+Version 1.14: Corrected ZGM130S.bxl to remove EPAD; 
+	      Added product category manifest files to each product category zip file and edited this document to reflect that procedural change going forward; 
+	      Updated "generateManifests.py" to add family manifest filename to each family manifest file list.
+Version 1.13: Restored all correct EFR32MG and EFR32FG BXL files.
+Version 1.12: Restored EFR32BG family BXL files corrected by EMA, as well as files for EFR32BG1xx32F256GJ43 (CSP) variants, which were unaffected by the pinout swap error.
+Version 1.11: Removed all EFR32xG1x.bxl files for review.
+Version 1.10: Added new BXL files for EFR32xG21, EFR32xG22, misc. 
+Version 1.00: Initial release.

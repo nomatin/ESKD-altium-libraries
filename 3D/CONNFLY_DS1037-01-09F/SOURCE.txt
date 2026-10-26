@@ -1,0 +1,5 @@
+User-supplied model, copied byte-identically from:
+C:/Users/Nomatin/Downloads/D-SUB DS1037-01-09FNAKT74.stp
+File header: T-FLEX CAD Version 17.1.33.0; TFLEX Exchange 2024.6; 2026-10-24.
+SHA256: 0131231cdecbabcd5edb89212a7279d534f3ba7d5d8e32e2958f464113374cd0
+Embedded in CONNFLY_DS1037_01_09F. See ../../Footprints/CONNFLY_DS1037-01-09F/REVIEW.md for placement and model dimensional deviations.

@@ -1,0 +1,980 @@
+{
+  "CP2102N-A02-GQFN24_DS15": {
+    "pads": [
+      {
+        "number": "1",
+        "xy": [
+          -1.95,
+          -1.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "2",
+        "xy": [
+          -1.95,
+          -0.75
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "3",
+        "xy": [
+          -1.95,
+          -0.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "4",
+        "xy": [
+          -1.95,
+          0.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "5",
+        "xy": [
+          -1.95,
+          0.75
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "6",
+        "xy": [
+          -1.95,
+          1.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "7",
+        "xy": [
+          -1.25,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "8",
+        "xy": [
+          -0.75,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "9",
+        "xy": [
+          -0.25,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "10",
+        "xy": [
+          0.25,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "11",
+        "xy": [
+          0.75,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "12",
+        "xy": [
+          1.25,
+          1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "13",
+        "xy": [
+          1.95,
+          1.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "14",
+        "xy": [
+          1.95,
+          0.75
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "15",
+        "xy": [
+          1.95,
+          0.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "16",
+        "xy": [
+          1.95,
+          -0.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "17",
+        "xy": [
+          1.95,
+          -0.75
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "18",
+        "xy": [
+          1.95,
+          -1.25
+        ],
+        "size": [
+          0.85,
+          0.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "19",
+        "xy": [
+          1.25,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "20",
+        "xy": [
+          0.75,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "21",
+        "xy": [
+          0.25,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "22",
+        "xy": [
+          -0.25,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "23",
+        "xy": [
+          -0.75,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "24",
+        "xy": [
+          -1.25,
+          -1.95
+        ],
+        "size": [
+          0.3,
+          0.85
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": 0.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "25",
+        "xy": [
+          0.0,
+          0.125
+        ],
+        "size": [
+          2.55,
+          2.3
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": -2.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "25",
+        "xy": [
+          0.125,
+          0.0
+        ],
+        "size": [
+          2.3,
+          2.55
+        ],
+        "angle": 0.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": -2.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      },
+      {
+        "number": "25",
+        "xy": [
+          -1.025,
+          -1.025
+        ],
+        "size": [
+          0.35355,
+          0.35355
+        ],
+        "angle": 45.0,
+        "shape": 1,
+        "mask": 0.06,
+        "paste": -2.0,
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ]
+      }
+    ],
+    "graphics": [
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Paste",
+        "start": [
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0
+        ],
+        "width": 0.0,
+        "shape": 4,
+        "filled": true,
+        "points": [
+          [
+            -0.15,
+            -1.05
+          ],
+          [
+            -1.05,
+            -1.05
+          ],
+          [
+            -1.05,
+            -0.15
+          ],
+          [
+            -0.15,
+            -0.15
+          ]
+        ]
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Paste",
+        "start": [
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0
+        ],
+        "width": 0.0,
+        "shape": 4,
+        "filled": true,
+        "points": [
+          [
+            -0.15,
+            0.15
+          ],
+          [
+            -1.05,
+            0.15
+          ],
+          [
+            -1.05,
+            1.05
+          ],
+          [
+            -0.15,
+            1.05
+          ]
+        ]
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Paste",
+        "start": [
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0
+        ],
+        "width": 0.0,
+        "shape": 4,
+        "filled": true,
+        "points": [
+          [
+            1.05,
+            -1.05
+          ],
+          [
+            0.15,
+            -1.05
+          ],
+          [
+            0.15,
+            -0.15
+          ],
+          [
+            1.05,
+            -0.15
+          ]
+        ]
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Paste",
+        "start": [
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0
+        ],
+        "width": 0.0,
+        "shape": 4,
+        "filled": true,
+        "points": [
+          [
+            1.05,
+            0.15
+          ],
+          [
+            0.15,
+            0.15
+          ],
+          [
+            0.15,
+            1.05
+          ],
+          [
+            1.05,
+            1.05
+          ]
+        ]
+      },
+      {
+        "kind": "PCB_TEXT",
+        "layer": "B.Fab",
+        "text": "${REFERENCE}"
+      },
+      {
+        "kind": "PCB_TEXT",
+        "layer": "F.Silkscreen",
+        "text": "${REFERENCE}"
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          -2.0,
+          -0.73
+        ],
+        "end": [
+          -0.73,
+          -2.0
+        ],
+        "width": 0.0254,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          -2.0,
+          2.0
+        ],
+        "end": [
+          2.0,
+          2.0
+        ],
+        "width": 0.0254,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          2.0,
+          2.0
+        ],
+        "end": [
+          2.0,
+          -2.0
+        ],
+        "width": 0.0254,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          2.0,
+          -2.0
+        ],
+        "end": [
+          -2.0,
+          -2.0
+        ],
+        "width": 0.0254,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          -2.0,
+          -2.0
+        ],
+        "end": [
+          -2.0,
+          2.0
+        ],
+        "width": 0.0254,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "B.Fab",
+        "start": [
+          -1.879,
+          -1.25
+        ],
+        "end": [
+          -1.879,
+          -1.3262
+        ],
+        "width": 0.0254,
+        "shape": 3,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          -1.65,
+          1.7
+        ],
+        "end": [
+          -1.7,
+          1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          -1.7,
+          1.65
+        ],
+        "end": [
+          -1.7,
+          1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          -1.65,
+          -1.7
+        ],
+        "end": [
+          -1.7,
+          -1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          -1.7,
+          -1.65
+        ],
+        "end": [
+          -1.7,
+          -1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          1.65,
+          1.7
+        ],
+        "end": [
+          1.7,
+          1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          1.7,
+          1.65
+        ],
+        "end": [
+          1.7,
+          1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          1.65,
+          -1.7
+        ],
+        "end": [
+          1.7,
+          -1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          1.7,
+          -1.65
+        ],
+        "end": [
+          1.7,
+          -1.7
+        ],
+        "width": 0.1,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "F.Silkscreen",
+        "start": [
+          -2.55,
+          -1.75
+        ],
+        "end": [
+          -2.55,
+          -2.05
+        ],
+        "width": 0.15,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "User.Eco2",
+        "start": [
+          -2.65,
+          2.65
+        ],
+        "end": [
+          2.65,
+          2.65
+        ],
+        "width": 0.05,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "User.Eco2",
+        "start": [
+          2.65,
+          2.65
+        ],
+        "end": [
+          2.65,
+          -2.65
+        ],
+        "width": 0.05,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "User.Eco2",
+        "start": [
+          2.65,
+          -2.65
+        ],
+        "end": [
+          -2.65,
+          -2.65
+        ],
+        "width": 0.05,
+        "shape": 0,
+        "filled": false
+      },
+      {
+        "kind": "PCB_SHAPE",
+        "layer": "User.Eco2",
+        "start": [
+          -2.65,
+          -2.65
+        ],
+        "end": [
+          -2.65,
+          2.65
+        ],
+        "width": 0.05,
+        "shape": 0,
+        "filled": false
+      }
+    ],
+    "models": [
+      {
+        "filename": "kicad-embed://QFN24_4X4.step"
+      }
+    ]
+  }
+}

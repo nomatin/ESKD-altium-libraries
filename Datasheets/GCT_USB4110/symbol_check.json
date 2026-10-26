@@ -1,0 +1,76 @@
+{
+  "component": "USB4110-GF-A",
+  "source": "https://gct.co/files/drawings/usb4110.pdf",
+  "drawing_revision": "B4, 22/05/2024",
+  "pin_designator_convention": "Paired contact IDs identify the four shared PCB tails. One common SH pin represents all four shell tabs as requested. Future footprint must name all four shell pads SH, or explicitly map them to SH.",
+  "pins": [
+    {
+      "number": "A1/B12",
+      "signal": "GND",
+      "type": "Passive"
+    },
+    {
+      "number": "A4/B9",
+      "signal": "VBUS",
+      "type": "Passive"
+    },
+    {
+      "number": "B8",
+      "signal": "SBU2",
+      "type": "Passive"
+    },
+    {
+      "number": "A5",
+      "signal": "CC1",
+      "type": "Passive"
+    },
+    {
+      "number": "B7",
+      "signal": "D-2",
+      "type": "Passive"
+    },
+    {
+      "number": "A6",
+      "signal": "D+1",
+      "type": "Passive"
+    },
+    {
+      "number": "A7",
+      "signal": "D-1",
+      "type": "Passive"
+    },
+    {
+      "number": "B6",
+      "signal": "D+2",
+      "type": "Passive"
+    },
+    {
+      "number": "A8",
+      "signal": "SBU1",
+      "type": "Passive"
+    },
+    {
+      "number": "B5",
+      "signal": "CC2",
+      "type": "Passive"
+    },
+    {
+      "number": "A9/B4",
+      "signal": "VBUS",
+      "type": "Passive"
+    },
+    {
+      "number": "A12/B1",
+      "signal": "GND",
+      "type": "Passive"
+    },
+    {
+      "number": "SH",
+      "signal": "SHELL",
+      "type": "Passive"
+    }
+  ],
+  "footprint_assigned": false,
+  "native_altium_checked": false,
+  "sha256": "0d6cc9e2e87b3c1ce1d9bc72d37747cd2de469476dce87297296a6d4e5a4d0ff"
+}

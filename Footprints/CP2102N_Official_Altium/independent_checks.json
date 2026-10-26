@@ -1,0 +1,26 @@
+{
+  "QFN24_4X4": {
+    "pad_geometry_matches_source": true,
+    "paste_polygons_match_source": true,
+    "unique_pads": 25,
+    "minimum_copper_clearance_mm": 0.25,
+    "paste_window_area_mm2": 1.3806249999999995,
+    "sha256_pcblib": "3b152722dbaba65766e5dd9bed7f86698d455ac3c876d59b39c7cab75a905d39"
+  },
+  "QFN24_4X4-M": {
+    "pad_geometry_matches_source": true,
+    "paste_polygons_match_source": true,
+    "unique_pads": 25,
+    "minimum_copper_clearance_mm": 0.19999999999999996,
+    "paste_window_area_mm2": 1.44,
+    "sha256_pcblib": "3b152722dbaba65766e5dd9bed7f86698d455ac3c876d59b39c7cab75a905d39"
+  },
+  "QFN24_4X4-L": {
+    "pad_geometry_matches_source": true,
+    "paste_polygons_match_source": true,
+    "unique_pads": 25,
+    "minimum_copper_clearance_mm": 0.2749999999999999,
+    "paste_window_area_mm2": 1.3224999999999998,
+    "sha256_pcblib": "3b152722dbaba65766e5dd9bed7f86698d455ac3c876d59b39c7cab75a905d39"
+  }
+}

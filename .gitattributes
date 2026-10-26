@@ -1,0 +1,11 @@
+# Preserve library and source files byte for byte.
+* -text
+*.SchLib binary
+*.PcbLib binary
+*.IntLib binary
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.zip binary
+*.png binary
+*.OLB binary

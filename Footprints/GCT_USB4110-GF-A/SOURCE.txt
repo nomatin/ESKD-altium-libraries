@@ -1,0 +1,11 @@
+USB4110-GF-A CAD source record
+Retrieved: 2026-10-21
+Manufacturer page: https://gct.co/connector/usb4110
+CAD partner: https://app.ultralibrarian.com/details/3db0fb39-9b49-11ea-b5d0-0aebb021a1ea/Global-Connector-Technology/USB4110-GF-A
+Footprint: USB4110-GF-A_GCT, native Altium Designer, metric export.
+Original archive preserved as ul_USB4110-GF-A.zip; original package is in Original/.
+The PcbLib has no embedded 3D models. STEP AP214 was selected, but Ultra Librarian returned no STEP file in either the combined or 3D-only download.
+3D retrieval remains pending. Direct GCT CADENAS portal requires its own login.
+Footprint has been downloaded intact; geometric validation against the manufacturer drawing has not been performed.
+
+Update 2026-10-21: standalone STEP retrieved from third-party KiCad library, saved in MY_LIB/3D/GCT_USB4110-GF-A; see its SOURCE.txt. Independent footprint review: work/USB4110-GF-A_footprint_review.md.
