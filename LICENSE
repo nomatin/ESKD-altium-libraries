@@ -1,0 +1,36 @@
+MY_LIB — License notice
+Copyright (c) 2026 Nomatin and the respective contributors.
+
+The original materials of MY_LIB, to the extent that the applicable rights
+are held by the project's authors, are licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0).
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+
+The complete, controlling license terms are incorporated by reference:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Plain-text version:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt
+
+Commercial use is not granted under this license. Separate permission from
+the relevant rights holder is required for commercial use that requires
+permission under the licensed rights.
+
+This license notice applies to original schematic symbols, footprints,
+models, documentation and the authors' protectable contributions to the
+component database. It does not assert exclusive rights in facts or grant
+rights that the authors do not hold.
+
+Third-party datasheets, original CAD models, libraries, archives and other
+third-party materials are excluded from this license grant. Their original
+rights and applicable terms remain in force. See THIRD_PARTY_NOTICES.md.
+
+Краткое пояснение на русском языке
+
+Авторские материалы MY_LIB предоставляются по CC BY-NC 4.0: только для
+некоммерческого использования, с указанием автора, ссылкой на лицензию
+и указанием изменений. Коммерческое использование этой лицензией
+не разрешается. Для него требуется отдельное разрешение правообладателя.
+Полные условия определяются текстом лицензии по ссылке выше; это пояснение
+не заменяет и не изменяет их. Материалы предоставляются без гарантий
+в соответствии с условиями лицензии.
