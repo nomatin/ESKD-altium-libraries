@@ -18,3 +18,11 @@ Project Outputs*/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Local agent notes and verification reports
+AGENTS.md
+**/*.md
+!/README.md
+!/ALTIUM_SETUP.md
+!/THIRD_PARTY_NOTICES.md
+!/Simulation/USBLC6-2SC6/README.md

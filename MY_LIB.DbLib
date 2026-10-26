@@ -438,15 +438,79 @@ Options=FieldName=Тестовые точки$.Dielectric|TableNameOnly=Тестовые точки$|Field
 Options=FieldName=Тестовые точки$.Comment|TableNameOnly=Тестовые точки$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap173]
 Options=FieldName=Тестовые точки$.Description|TableNameOnly=Тестовые точки$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap174]
-Options=FieldName=Тестовые точки$.Datasheet|TableNameOnly=Тестовые точки$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap175]
-Options=FieldName=Тестовые точки$.DatasheetRevision|TableNameOnly=Тестовые точки$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap176]
-Options=FieldName=Тестовые точки$.ComponentLink1Description|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap177]
-Options=FieldName=Тестовые точки$.ComponentLink1URL|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap178]
 Options=FieldName=Тестовые точки$.DiameterMm|TableNameOnly=Тестовые точки$|FieldNameOnly=DiameterMm|FieldType=1|ParameterName=DiameterMm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap179]
 Options=FieldName=Тестовые точки$.ComponentType|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentType|FieldType=1|ParameterName=ComponentType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap180]
+Options=FieldName=Резисторы$.ComponentLink2URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap181]
+Options=FieldName=Резисторы$.ComponentLink2Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap182]
+Options=FieldName=Резисторы$.HelpURL|TableNameOnly=Резисторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap183]
+Options=FieldName=Резисторы$.ComponentLink1URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap184]
+Options=FieldName=Резисторы$.ComponentLink1Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap185]
+Options=FieldName=Резисторы$.Datasheet|TableNameOnly=Резисторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap186]
+Options=FieldName=Конденсаторы$.ComponentLink2URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap187]
+Options=FieldName=Конденсаторы$.ComponentLink2Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap188]
+Options=FieldName=Конденсаторы$.HelpURL|TableNameOnly=Конденсаторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap189]
+Options=FieldName=Конденсаторы$.ComponentLink1URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap190]
+Options=FieldName=Конденсаторы$.ComponentLink1Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap191]
+Options=FieldName=Конденсаторы$.Datasheet|TableNameOnly=Конденсаторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap192]
+Options=FieldName=Микросхемы$.ComponentLink2URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap193]
+Options=FieldName=Микросхемы$.ComponentLink2Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap194]
+Options=FieldName=Микросхемы$.HelpURL|TableNameOnly=Микросхемы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap195]
+Options=FieldName=Разъёмы$.ComponentLink2URL|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap196]
+Options=FieldName=Разъёмы$.ComponentLink2Description|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap197]
+Options=FieldName=Разъёмы$.HelpURL|TableNameOnly=Разъёмы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap198]
+Options=FieldName=Переключатели$.ComponentLink2URL|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap199]
+Options=FieldName=Переключатели$.ComponentLink2Description|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap200]
+Options=FieldName=Переключатели$.HelpURL|TableNameOnly=Переключатели$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap201]
+Options=FieldName=Светодиоды$.ComponentLink2URL|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap202]
+Options=FieldName=Светодиоды$.ComponentLink2Description|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap203]
+Options=FieldName=Светодиоды$.HelpURL|TableNameOnly=Светодиоды$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
