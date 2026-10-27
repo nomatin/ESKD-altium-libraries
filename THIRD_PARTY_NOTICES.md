@@ -5,14 +5,21 @@
 В репозитории присутствуют документация, исходные CAD-модели, архивы и другие материалы сторонних источников, в том числе:
 
 - даташиты и чертежи YAGEO, Silicon Labs, STMicroelectronics, Texas Instruments, Bourns, GCT, CONNFLY и Oasistek;
+- документация TDK MPZ2012S и Murata BLM21PG в `Datasheets/Ferrite_Beads/`;
 - CAD-материалы, полученные от производителей и через Ultra Librarian, включая исходные архивы и каталоги `Original/` и `export/`;
 - сторонние посадочные места и библиотеки `PBL - SMD Packages.PcbLib`, `PBL - THD Packages.PcbLib`, `PBL - Special.PcbLib`;
 - исходные STEP-модели и модели моделирования стороннего происхождения.
 
 Перечень описывает известные группы материалов и не является полным реестром прав. Происхождение конкретного файла смотрите в соседних `SOURCE.txt`, исходном архиве и уведомлениях внутри файла. Сохраняйте имеющиеся сведения об авторстве и условиях использования.
 
+STEP `3D/Ferrite_Beads/IND_2012_TDK.step` и `IND_BLM21_MUR.step` получены 27.10.2026 из скачанных пользователем комплектов Ultra Librarian для [TDK MPZ2012S300AT000](https://app.ultralibrarian.com/details/77F7A3C7-1073-11E9-AB3A-0A3560A4CCCC/TDK/MPZ2012S300AT000) и [Murata BLM21PG221SN1D](https://app.ultralibrarian.com/details/23d1471b-10a0-11e9-ab3a-0a3560a4cccc/Murata/BLM21PG221SN1D). Сайт помечает комплекты «Built by Ultra Librarian»; они не заявляются как заводские модели TDK/Murata. Исходные ZIP и вложенные уведомления сохранены в `Footprints/Ferrite_Beads/Original/`. Эти STEP побайтно сохранены и встроены в `Footprints/MY_LIB_Inductors.PcbLib`; геометрия площадок, шелкографии и механических контуров создана заново по даташитам, а бинарная структура записей использована из местных библиотек и исходных комплектов.
+
+УГО `Ferrite_Bead` в `Symbols/MY_LIB_Inductors.SchLib` самостоятельно перерисовано по геометрическому образцу `_Ind_ferrit` из локальной библиотеки DBUR `COILS.SchLib`. Готовые потоки и записи исходного компонента не импортировались; записи созданы заново. В DBUR этот образец используется для Murata BLM21AG102SN1. Цвета нового УГО изменены на чёрные, оформление полей приведено к правилам MY_LIB.
+
 Локальные даташиты `Datasheets/cp2102n-datasheet.pdf` (Silicon Labs, Rev. 1.5) и `Datasheets/USBLC6-2_ST.pdf` (STMicroelectronics DS4260, Rev. 7) загружены из [копии у Adafruit](https://cdn-learn.adafruit.com/assets/assets/000/109/587/original/cp2102n-datasheet.pdf) и [копии у Comet](https://store.comet.bg/download-file.php?id=30778). Документы серий [YAGEO RC_L](https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L) и [YAGEO CC X7R](https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V) получены с сайта производителя. В Excel-базе отдельные ссылки ведут на сайты производителей.
 
 Если явная лицензия стороннего материала не указана, это не означает разрешения на свободное распространение или коммерческое использование. Перед повторным распространением либо применением такого материала уточните условия у соответствующего правообладателя.
+
+Для серий ферритов локальные TDK MPZ2012 commercial/automotive и Murata ENFA0005 получены с сайтов производителей. `Murata_QNFA9102.pdf` — заводская спецификация JENF243A_9102P-01 из [копии Win Source](https://live-final.oss-us-west-1.aliyuncs.com/3000001283/BLM21AG121SH1D.pdf), включая добавленные поставщиком обложку и последнюю страницу. `Murata_BLM21PG_C51E_excerpt.pdf` — неизменённые страницы 90–91 каталога Murata C51E от 07.01.2022 из [копии ChipDip](https://static.chipdip.ru/lib/369/DOC025369611.pdf); сохранены заводские обозначения и уведомления. Ссылки в базе на сайты Murata ведут на соответствующие заводские спецификации; происхождение локальных зеркальных копий этим не изменяется.
 
 Изменения, выполненные авторами MY_LIB в сторонних материалах, могут подпадать под лицензию проекта только в пределах прав на эти изменения; права на исходные материалы сохраняются. Торговые марки и названия производителей принадлежат их владельцам; их упоминание не означает одобрения библиотеки.

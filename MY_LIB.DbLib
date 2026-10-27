@@ -15,7 +15,7 @@ LibraryDatabaseType=
 LibraryDatabasePath=
 DatabasePathRelative=0
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=Symbols;Footprints
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
@@ -438,79 +438,161 @@ Options=FieldName=Тестовые точки$.Dielectric|TableNameOnly=Тестовые точки$|Field
 Options=FieldName=Тестовые точки$.Comment|TableNameOnly=Тестовые точки$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap173]
 Options=FieldName=Тестовые точки$.Description|TableNameOnly=Тестовые точки$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap178]
+[FieldMap174]
 Options=FieldName=Тестовые точки$.DiameterMm|TableNameOnly=Тестовые точки$|FieldNameOnly=DiameterMm|FieldType=1|ParameterName=DiameterMm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap179]
+[FieldMap175]
 Options=FieldName=Тестовые точки$.ComponentType|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentType|FieldType=1|ParameterName=ComponentType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap180]
+[FieldMap176]
 Options=FieldName=Резисторы$.ComponentLink2URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap181]
+[FieldMap177]
 Options=FieldName=Резисторы$.ComponentLink2Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap182]
+[FieldMap178]
 Options=FieldName=Резисторы$.HelpURL|TableNameOnly=Резисторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap183]
+[FieldMap179]
 Options=FieldName=Резисторы$.ComponentLink1URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap184]
+[FieldMap180]
 Options=FieldName=Резисторы$.ComponentLink1Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap185]
+[FieldMap181]
 Options=FieldName=Резисторы$.Datasheet|TableNameOnly=Резисторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap186]
+[FieldMap182]
 Options=FieldName=Конденсаторы$.ComponentLink2URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap187]
+[FieldMap183]
 Options=FieldName=Конденсаторы$.ComponentLink2Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap188]
+[FieldMap184]
 Options=FieldName=Конденсаторы$.HelpURL|TableNameOnly=Конденсаторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap189]
+[FieldMap185]
 Options=FieldName=Конденсаторы$.ComponentLink1URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap190]
+[FieldMap186]
 Options=FieldName=Конденсаторы$.ComponentLink1Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap191]
+[FieldMap187]
 Options=FieldName=Конденсаторы$.Datasheet|TableNameOnly=Конденсаторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap192]
+[FieldMap188]
 Options=FieldName=Микросхемы$.ComponentLink2URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap193]
+[FieldMap189]
 Options=FieldName=Микросхемы$.ComponentLink2Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap194]
+[FieldMap190]
 Options=FieldName=Микросхемы$.HelpURL|TableNameOnly=Микросхемы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap195]
+[FieldMap191]
 Options=FieldName=Разъёмы$.ComponentLink2URL|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap196]
+[FieldMap192]
 Options=FieldName=Разъёмы$.ComponentLink2Description|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap197]
+[FieldMap193]
 Options=FieldName=Разъёмы$.HelpURL|TableNameOnly=Разъёмы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap198]
+[FieldMap194]
 Options=FieldName=Переключатели$.ComponentLink2URL|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap199]
+[FieldMap195]
 Options=FieldName=Переключатели$.ComponentLink2Description|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap200]
+[FieldMap196]
 Options=FieldName=Переключатели$.HelpURL|TableNameOnly=Переключатели$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap201]
+[FieldMap197]
 Options=FieldName=Светодиоды$.ComponentLink2URL|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap202]
+[FieldMap198]
 Options=FieldName=Светодиоды$.ComponentLink2Description|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 
-[FieldMap203]
+[FieldMap199]
 Options=FieldName=Светодиоды$.HelpURL|TableNameOnly=Светодиоды$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table8]
+SchemaName=
+TableName=Ферриты$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap200]
+Options=FieldName=Ферриты$.ID|TableNameOnly=Ферриты$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap201]
+Options=FieldName=Ферриты$.Type|TableNameOnly=Ферриты$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap202]
+Options=FieldName=Ферриты$.Value|TableNameOnly=Ферриты$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap203]
+Options=FieldName=Ферриты$.ESKD_value|TableNameOnly=Ферриты$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap204]
+Options=FieldName=Ферриты$.Tolerance|TableNameOnly=Ферриты$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap205]
+Options=FieldName=Ферриты$.Power|TableNameOnly=Ферриты$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap206]
+Options=FieldName=Ферриты$.Voltage|TableNameOnly=Ферриты$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap207]
+Options=FieldName=Ферриты$.Package|TableNameOnly=Ферриты$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap208]
+Options=FieldName=Ферриты$.Manufacturer|TableNameOnly=Ферриты$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap209]
+Options=FieldName=Ферриты$.MPN|TableNameOnly=Ферриты$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap210]
+Options=FieldName=Ферриты$.CommentBase|TableNameOnly=Ферриты$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap211]
+Options=FieldName=Ферриты$.Library Ref|TableNameOnly=Ферриты$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap212]
+Options=FieldName=Ферриты$.Library Path|TableNameOnly=Ферриты$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap213]
+Options=FieldName=Ферриты$.Footprint Ref|TableNameOnly=Ферриты$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap214]
+Options=FieldName=Ферриты$.Footprint Path|TableNameOnly=Ферриты$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap215]
+Options=FieldName=Ферриты$.Notes|TableNameOnly=Ферриты$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap216]
+Options=FieldName=Ферриты$.Dielectric|TableNameOnly=Ферриты$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap217]
+Options=FieldName=Ферриты$.Comment|TableNameOnly=Ферриты$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap218]
+Options=FieldName=Ферриты$.Description|TableNameOnly=Ферриты$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap219]
+Options=FieldName=Ферриты$.Datasheet|TableNameOnly=Ферриты$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap220]
+Options=FieldName=Ферриты$.ComponentLink1Description|TableNameOnly=Ферриты$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap221]
+Options=FieldName=Ферриты$.ComponentLink1URL|TableNameOnly=Ферриты$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap222]
+Options=FieldName=Ферриты$.ComponentLink2Description|TableNameOnly=Ферриты$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap223]
+Options=FieldName=Ферриты$.ComponentLink2URL|TableNameOnly=Ферриты$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap224]
+Options=FieldName=Ферриты$.HelpURL|TableNameOnly=Ферриты$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap225]
+Options=FieldName=Ферриты$.ImpedanceOhm|TableNameOnly=Ферриты$|FieldNameOnly=ImpedanceOhm|FieldType=1|ParameterName=ImpedanceOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap226]
+Options=FieldName=Ферриты$.TestFrequencyMHz|TableNameOnly=Ферриты$|FieldNameOnly=TestFrequencyMHz|FieldType=1|ParameterName=TestFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap227]
+Options=FieldName=Ферриты$.RatedCurrentA|TableNameOnly=Ферриты$|FieldNameOnly=RatedCurrentA|FieldType=1|ParameterName=RatedCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap228]
+Options=FieldName=Ферриты$.RatedCurrent125CA|TableNameOnly=Ферриты$|FieldNameOnly=RatedCurrent125CA|FieldType=1|ParameterName=RatedCurrent125CA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap229]
+Options=FieldName=Ферриты$.DCResistanceMaxOhm|TableNameOnly=Ферриты$|FieldNameOnly=DCResistanceMaxOhm|FieldType=1|ParameterName=DCResistanceMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap230]
+Options=FieldName=Ферриты$.OperatingTemperatureMin|TableNameOnly=Ферриты$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap231]
+Options=FieldName=Ферриты$.OperatingTemperatureMax|TableNameOnly=Ферриты$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap232]
+Options=FieldName=Ферриты$.TemperatureReference|TableNameOnly=Ферриты$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap233]
+Options=FieldName=Ферриты$.Family|TableNameOnly=Ферриты$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap234]
+Options=FieldName=Ферриты$.Grade|TableNameOnly=Ферриты$|FieldNameOnly=Grade|FieldType=1|ParameterName=Grade|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap235]
+Options=FieldName=Ферриты$.Packaging|TableNameOnly=Ферриты$|FieldNameOnly=Packaging|FieldType=1|ParameterName=Packaging|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap236]
+Options=FieldName=Ферриты$.PackagingQuantity|TableNameOnly=Ферриты$|FieldNameOnly=PackagingQuantity|FieldType=1|ParameterName=PackagingQuantity|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap237]
+Options=FieldName=Ферриты$.DatasheetRevision|TableNameOnly=Ферриты$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
