@@ -690,3 +690,5 @@ Options=FieldName=Резисторы$.Sim Spice Prefix|TableNameOnly=Резисторы$|FieldName
 Options=FieldName=Резисторы$.Sim Port Map|TableNameOnly=Резисторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap281]
 Options=FieldName=Резисторы$.Sim File|TableNameOnly=Резисторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap282]
+Options=FieldName=Резисторы$.TCR|TableNameOnly=Резисторы$|FieldNameOnly=TCR|FieldType=1|ParameterName=TCR|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
