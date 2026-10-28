@@ -1,0 +1,218 @@
+[
+  {
+    "series": "1N4148W",
+    "manufacturer": "Vishay",
+    "footprint": "SOD123",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "K": "K",
+      "A": "A"
+    },
+    "source": "https://www.vishay.com/docs/86356/1n4148w.pdf",
+    "note": "Existing lands: X length 1.00, Y width 0.80, centres +/-1.85 mm. Compatible alternative; not exact manufacturer recommended 0.85 square lands at +/-1.675 mm."
+  },
+  {
+    "series": "1N4148WS",
+    "manufacturer": "Vishay",
+    "footprint": "SOD323",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "K": "K",
+      "A": "A"
+    },
+    "source": "https://www.vishay.com/docs/86455/1n4148ws.pdf",
+    "note": "Existing lands 0.60 x 0.70, centres +/-1.25 mm. Compatible alternative; not exact recommended 0.80 x 0.60 at +/-1.20 mm."
+  },
+  {
+    "series": "BAS16",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A",
+      "2": "NC",
+      "3": "K"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BAS16.pdf",
+    "note": "Existing lands: 1.00 x 0.60 mm, row spacing 2.30 mm, pitch 1.90 mm. Physical pads 1/2/3 retained, including NC."
+  },
+  {
+    "series": "BAV70",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A1",
+      "2": "A2",
+      "3": "K1/K2"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BAV70.pdf",
+    "note": "Existing lands: 1.00 x 0.60 mm, row spacing 2.30 mm, pitch 1.90 mm. Physical pads 1/2/3 retained, including NC."
+  },
+  {
+    "series": "BAV99",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BAV99.pdf",
+    "note": "Existing lands: 1.00 x 0.60 mm, row spacing 2.30 mm, pitch 1.90 mm. Physical pads 1/2/3 retained, including NC."
+  },
+  {
+    "series": "S1A-S1Y",
+    "manufacturer": "Diotec Semiconductor",
+    "footprint": "SMA_Diotec",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "A": "A",
+      "K": "K"
+    },
+    "source": "https://diotec.com/files/diotec/productfiles/datasheet/s1a.pdf",
+    "note": "New lands 1.40 x 1.70 mm, centres +/-2.10 mm. Source minimum pad layout: https://diotec.com/files/diotec/files/pdf/products/generalinformation/5_solder-pads.pdf . A left / K right. Generic KiCad SMA STEP, not exact manufacturer CAD."
+  },
+  {
+    "series": "ES1A-ES1J",
+    "manufacturer": "Diotec Semiconductor",
+    "footprint": "SMA_Diotec",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "A": "A",
+      "K": "K"
+    },
+    "source": "https://diotec.com/files/diotec/productfiles/datasheet/es1a.pdf",
+    "note": "New lands 1.40 x 1.70 mm, centres +/-2.10 mm. Source minimum pad layout: https://diotec.com/files/diotec/files/pdf/products/generalinformation/5_solder-pads.pdf . A left / K right. Generic KiCad SMA STEP, not exact manufacturer CAD."
+  },
+  {
+    "series": "BAT54 / BAT54A / BAT54C / BAT54S",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "BAT54": {
+        "1": "A",
+        "2": "NC",
+        "3": "K"
+      },
+      "BAT54A": {
+        "1": "K1",
+        "2": "K2",
+        "3": "A1/A2"
+      },
+      "BAT54C": {
+        "1": "A1",
+        "2": "A2",
+        "3": "K1/K2"
+      },
+      "BAT54S": {
+        "1": "A1",
+        "2": "K2",
+        "3": "K1/A2"
+      }
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BAT54.pdf",
+    "note": "Separate official sheets BAT54A.pdf, BAT54C.pdf and BAT54S.pdf; same physical footprint, distinct internal circuits."
+  },
+  {
+    "series": "SS12A-SS120A",
+    "manufacturer": "Yangjie",
+    "footprint": "SMA_Yangjie",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "A": "A",
+      "K": "K"
+    },
+    "source": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS12A%20THRU%20SS120A.pdf",
+    "note": "New manufacturer recommended lands 2.50 x 1.70 mm, centres +/-2.00 mm; inner gap 1.50, outer span 6.50. A left / K right. Generic KiCad SMA STEP, not exact manufacturer CAD."
+  },
+  {
+    "series": "SS22A-SS220A",
+    "manufacturer": "Yangjie",
+    "footprint": "SMA_Yangjie",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "A": "A",
+      "K": "K"
+    },
+    "source": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS22A%20THRU%20SS220A%20.pdf",
+    "note": "New manufacturer recommended lands 2.50 x 1.70 mm, centres +/-2.00 mm; inner gap 1.50, outer span 6.50. A left / K right. Generic KiCad SMA STEP, not exact manufacturer CAD."
+  },
+  {
+    "series": "SS32A-SS320A",
+    "manufacturer": "Yangjie",
+    "footprint": "SMA_Yangjie",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "A": "A",
+      "K": "K"
+    },
+    "source": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS32A%20THRU%20SS320A.pdf",
+    "note": "New manufacturer recommended lands 2.50 x 1.70 mm, centres +/-2.00 mm; inner gap 1.50, outer span 6.50. A left / K right. Generic KiCad SMA STEP, not exact manufacturer CAD."
+  },
+  {
+    "series": "BZT52-B",
+    "manufacturer": "Nexperia",
+    "footprint": "SOD123",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "K",
+      "2": "A"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf",
+    "note": "Existing A/K footprint requires symbol-to-pad mapping: manufacturer 1 -> K, 2 -> A. Compatible land alternative; not exact Nexperia recommended land geometry. 590 mW rating requires cathode copper area 1 cm2; standard footprint condition is 350 mW."
+  },
+  {
+    "series": "BZT52-C",
+    "manufacturer": "Nexperia",
+    "footprint": "SOD123",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "K",
+      "2": "A"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf",
+    "note": "Existing A/K footprint requires symbol-to-pad mapping: manufacturer 1 -> K, 2 -> A. Compatible land alternative; not exact Nexperia recommended land geometry. 590 mW rating requires cathode copper area 1 cm2; standard footprint condition is 350 mW."
+  },
+  {
+    "series": "BZX84-A",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A",
+      "2": "NC",
+      "3": "K"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf",
+    "note": "Tolerance suffix does not change package. Physical NC pad 2 retained."
+  },
+  {
+    "series": "BZX84-B",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A",
+      "2": "NC",
+      "3": "K"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf",
+    "note": "Tolerance suffix does not change package. Physical NC pad 2 retained."
+  },
+  {
+    "series": "BZX84-C",
+    "manufacturer": "Nexperia",
+    "footprint": "SOT23-3",
+    "footprint_library": "Footprints/PBL - SMD Packages.PcbLib",
+    "pin_mapping": {
+      "1": "A",
+      "2": "NC",
+      "3": "K"
+    },
+    "source": "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf",
+    "note": "Tolerance suffix does not change package. Physical NC pad 2 retained."
+  }
+]

@@ -1,0 +1,28 @@
+KiCad library material
+Copyright: KiCad library contributors, kicad StepUp, and individual authors
+identified in the preserved embedded STEP headers.
+
+Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+KiCad library license and exception:
+https://www.kicad.org/libraries/license/
+
+Exception:
+To the extent that the creation of electronic designs that use 'Licensed
+Material' can be considered to be 'Adapted Material', then the copyright
+holder waives article 3 of the license with respect to these designs and
+any generated files which use data provided as part of the 'Licensed Material'.
+
+The exception permits use of the library data in electronic designs without
+requiring disclosure or relicensing of the design. Redistribution of the
+library data itself, including modified collections, remains subject to
+CC-BY-SA 4.0 and preservation of attribution and license notices.
+
+The converted 238 Connfly-named KiCad entries and their models retain this
+license. Conversion and DS1023 graphical-outline modifications are described
+in SOURCE.txt. This notice does not relicense other entries of MY_LIB.
+
+These libraries are provided without warranty. The names Connfly and KiCad
+identify source or intended connector families and do not imply endorsement.

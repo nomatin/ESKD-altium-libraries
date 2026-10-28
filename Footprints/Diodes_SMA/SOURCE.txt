@@ -1,0 +1,15 @@
+Added 2026-10-28: SMA_Diotec and SMA_Yangjie in ../PBL - SMD Packages.PcbLib.
+Original 144 components and all their model streams retained byte for byte. No Excel/DbLib or schematic symbol changes.
+Copper lands follow manufacturer drawings; silk and mechanical outlines authored for MY_LIB.
+SMA_Diotec: pads 1.40 x 1.70 mm, centres +/-2.10 mm, outer span 5.60 mm.
+SMA_Yangjie: pads 2.50 x 1.70 mm, centres +/-2.00 mm, inner gap 1.50, outer span 6.50 mm.
+Pads A left, K right. Mask expansion +0.05 mm, paste 0.
+Fab: Mechanical 1; placement boundary: Mechanical 15.
+Both embed unmodified ready KiCad 9.0 D_SMA.step, SHA256 1cfddd4e3b1bf22b8fc6ee3258c2aade882ed7b85b528e23b9db42437775a1db, rotated 180 degrees about Z to put cathode band on K.
+This is a generic SMA model, not exact Diotec or Yangjie CAD. No 3D models created.
+STEP upstream: https://gitlab.com/kicad/libraries/kicad-packages3D/-/blob/master/Diode_SMD.3dshapes/D_SMA.step
+License: https://www.kicad.org/libraries/license/ (CC-BY-SA 4.0 with electronic-design exception). Original model header retained.
+Diotec land drawing: https://diotec.com/files/diotec/files/pdf/products/generalinformation/5_solder-pads.pdf
+Yangjie sources and all 16 family mappings: SERIES_MAPPING.json.
+Independent KiCad import verified pads, mask, paste, graphic endpoints and layers. Model bytes, Altium weighted checksum, ID, index and rotation checked. Native Altium rendering has not been checked (UI not used by project instruction).
+Reused SOD123, SOD323 and SOT23-3 are geometrically compatible alternatives, not exact manufacturer recommended lands; existing models are generic dimensional references.

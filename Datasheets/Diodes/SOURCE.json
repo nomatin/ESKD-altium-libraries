@@ -1,0 +1,103 @@
+{
+  "documents": [
+    {
+      "key": "1N4148W",
+      "name": "1N4148W_Vishay.pdf",
+      "manufacturer_url": "https://www.vishay.com/docs/86356/1n4148w.pdf",
+      "revision": "Rev. 1.0, 16-Nov-2023",
+      "sha256": "a39b522cdd61e128c49240a6608d162b6e9297dcb2b482b967b2587024525916"
+    },
+    {
+      "key": "1N4148WS",
+      "name": "1N4148WS_Vishay.pdf",
+      "manufacturer_url": "https://www.vishay.com/docs/86455/1n4148ws.pdf",
+      "revision": "Rev. 1.2, 03-Mar-2026",
+      "sha256": "b65902ca8a40129463cacd5b0bbf8282c1ad3bf14df44ca26f026a2bffeefa39"
+    },
+    {
+      "key": "BAS16",
+      "name": "BAS16_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BAS16.pdf",
+      "revision": "Rev. 6, 24-Sep-2014; local archived family sheet",
+      "sha256": "62b95fd7894c0cfea2f5fe75276157cb4705627ddfda70cd189d00c313fa4bc3"
+    },
+    {
+      "key": "BAV70",
+      "name": "BAV70_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BAV70.pdf",
+      "revision": "Rev. 8, 18-Mar-2015; local archived family sheet",
+      "sha256": "72e80c83561f29b6782401f562b0fef5056ecf45ed2f15a39fb8238f5dffb78f"
+    },
+    {
+      "key": "BAV99",
+      "name": "BAV99_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BAV99.pdf",
+      "revision": "01-Jul-2022",
+      "sha256": "eee189be4a00fafe335f6bcff9023833c5692b34c9931bde3a723c71984bf30f"
+    },
+    {
+      "key": "S1",
+      "name": "S1A_S1Y_Diotec.pdf",
+      "manufacturer_url": "https://diotec.com/files/diotec/productfiles/datasheet/s1a.pdf",
+      "revision": "2026-04-02",
+      "sha256": "5518e4395537127fb047a94dc7a66e1007c6489207576afc44554e28ff806926"
+    },
+    {
+      "key": "ES1",
+      "name": "ES1A_ES1J_Diotec.pdf",
+      "manufacturer_url": "https://diotec.com/files/diotec/productfiles/datasheet/es1a.pdf",
+      "revision": "2026-08-11",
+      "sha256": "1064faed079a3e0119db663fc7626e4131b407d9e5667a82eb6970a55334d001"
+    },
+    {
+      "key": "BAT54",
+      "name": "BAT54_series_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BAT54.pdf",
+      "revision": "Rev. 5, 05-Oct-2012; local archived family sheet",
+      "sha256": "33d72ddf054a43306960a36be84d33dd8dcefb25f8d1760cc21c03a94e7b65fd"
+    },
+    {
+      "key": "SS1",
+      "name": "SS12A_SS120A_Yangjie.pdf",
+      "manufacturer_url": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS12A%20THRU%20SS120A.pdf",
+      "revision": "Rev. 2.8, 19-Sep-2022",
+      "sha256": "274b004d5fd4c817f2b0c1ce63a15f75db49286e4ea5deed140b81f5b6da90c2"
+    },
+    {
+      "key": "SS2",
+      "name": "SS22A_SS220A_Yangjie.pdf",
+      "manufacturer_url": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS22A%20THRU%20SS220A%20.pdf",
+      "revision": "Rev. 2.7, 19-Sep-2022",
+      "sha256": "0470da330486faa66cb13e1458dfc2b577ae40bbd1f910180c724459456c0e4b"
+    },
+    {
+      "key": "SS3",
+      "name": "SS32A_SS320A_Yangjie.pdf",
+      "manufacturer_url": "https://www.21yangjie.com/pdf/zlqj/xtjejg/SS32A%20THRU%20SS320A.pdf",
+      "revision": "Rev. 2.4, 28-Apr-2014",
+      "sha256": "ce5ef04575768edf7b0d54b0733d66cdd9b276486f362d954fdf317c5b3675a1"
+    },
+    {
+      "key": "BZT52-B",
+      "name": "BZT52_B_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf",
+      "revision": "Rev. 2, 06-Feb-2024; B selection",
+      "sha256": "5b391e3b029da35921e5a80a24902860fa1c3d370b28acfa4829f71d0617fe8e"
+    },
+    {
+      "key": "BZT52-C",
+      "name": "BZT52_C_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf",
+      "revision": "Rev. 1, 16-Mar-2017; C selection",
+      "sha256": "0f9228d42b6677a5fc91d7197d87ebd484101328682c1c35bd966c273d57c577"
+    },
+    {
+      "key": "BZX84",
+      "name": "BZX84_Nexperia.pdf",
+      "manufacturer_url": "https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf",
+      "revision": "Rev. 7, 01-Jan-2023",
+      "sha256": "aea6d41b86ef0835827891909becd83dfec8180e9cde90dc51affb8829c206e0"
+    }
+  ],
+  "note": "Original manufacturer PDFs, including archived family documents mirrored by distributors. BAS16 local archive is an NXP predecessor document. Revision and current manufacturer URL are recorded for each document."
+}
