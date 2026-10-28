@@ -1,0 +1,7 @@
+* Ideal two-terminal resistor for MY_LIB database components.
+* Rvalue is in ohms and is supplied by each component's netlist template.
+* 0R jumpers use 0.05 ohm: conservative boundary of YAGEO RC_L R < 50 mOhm.
+* No parasitic, temperature, tolerance or power-limit behavior is modeled.
+.SUBCKT MY_LIB_IDEAL_R 1 2 PARAMS: Rvalue=1
+Rideal 1 2 {Rvalue}
+.ENDS MY_LIB_IDEAL_R
