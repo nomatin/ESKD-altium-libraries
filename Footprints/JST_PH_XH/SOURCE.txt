@@ -1,0 +1,17 @@
+JST PH / XH baseline series, added 2026-10-28 with user approval.
+118 reviewed KiCad 9.0 footprints, 118 embedded ready-made STEP, no footprints without STEP.
+Copper sizes, pad positions, drills, plating and geometric silk/fabrication/courtyard are preserved. KiCad rounded-corner ratios quantized to nearest Altium integer corner percentage (maximum radius difference 0.0025 mm).
+F.Fab maps to Mechanical 1; F.CrtYd maps to Mechanical 15. Dynamic KiCad ${REFERENCE} text is not an imported static label; geometric body and pin-1 markers are preserved.
+3D: 75 original KiCad STEP; 15 PH top SMT STEP supplied by user from Sig Elso GrabCAD archive; 14 PH side SMT W. Lain STEP; 3 XH SMT ready STEP via TrailCurrent; 3 XH-AM ready STEP via EasyEDA; 8 further XH-AM original ASCON STEP from user-supplied xh-connectors-1.snapshot.18.zip (archive SHA-256 881726cafc01415ed22e154797b4ec828da5af89aaa9f64278dd11469e8596bd). Existing STEP bytes and headers preserved. No CAD models generated or modified.
+PH top SMT approximate reference model height is 6.725 mm versus 6.6 mm catalog; PH side approximate height difference about 0.09 mm accepted by user. References are not asserted to be exact manufacturer CAD.
+MODEL_INDEX.csv records embedded names, hashes and provenance. MISSING_STEP.csv is currently empty (header only): all 118 baseline variants have STEP. Earlier unsuitable C161871 for B4B-XH-AM has been replaced by a boss-equipped ready model from the user archive.
+Footprint and KiCad 3D license: https://www.kicad.org/libraries/license/
+Upstream: https://gitlab.com/kicad/libraries/kicad-footprints and https://gitlab.com/kicad/libraries/kicad-packages3D
+PH ready top SMT: https://grabcad.com/library/jst-ph-2-0mm-connector-pack-through-hole-smt-ds1066-1 (Sig Elso; original ZIP supplied by user)
+PH ready side SMT: https://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm (W. Lain; accompanying license preserved)
+XH ready SMT: https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries (original STEP headers retain upstream ASCON provenance)
+XH-AM ready models: https://easyeda.com/ (C20088533, C161869, C161870); individual source metadata retained locally.
+Models embedded using Altium weighted checksum, not CRC32; MODELID/index/checksum/rotation/DZ verified.
+All 118 patterns independently imported by KiCad and compared to original pad geometry and all line/arc endpoints, widths and mechanical layers. This does not establish native Altium 3D rendering. UI not used per project rules.
+
+2026-10-28 user numbering convention: 64 MP solder pads in 32 SMT footprints renamed to N+1. Both mounting pads share the same next signal-pin number. NPTH remains unnumbered. All other pad data, graphics and STEP unchanged. See MODEL_INDEX.csv Mounting_Pad_Designator.
