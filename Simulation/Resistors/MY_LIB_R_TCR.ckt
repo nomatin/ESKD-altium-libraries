@@ -1,0 +1,16 @@
+* MY_LIB first-order resistor temperature model.
+* Component data source ONLY: YAGEO RC_L, Nov. 14 2025 V.14.
+* Table 2, page 5: RC0603 0.1W / RC0805 0.125W, 1 and 5 percent:
+* 1 <= R <= 10 ohms: +/-200 ppm/C; 10 ohms < R <= 1 megohm: +/-100 ppm/C.
+* The user selected the POSITIVE specification limit for simulation.
+* This is a linear corner estimate, NOT a measured or typical TCR.
+* Table 5, page 8: reference +25 C, TCR tested at -55 C and +125 C.
+* R(T) = Rvalue * (1 + TC1value * (T - 25 C)). TC1value is per degree C.
+* Rated operating range is -55..155 C; above +125 C this linear model
+* extrapolates the TCR test interval, not a guaranteed measured curve.
+* No self-heating, initial tolerance, aging or power limiting is modeled.
+* Jumper TCR is not specified; 0R components keep their separate model.
+.SUBCKT MY_LIB_R_TCR 1 2 PARAMS: Rvalue=1 TC1value=0
+Rthermal 1 2 RTCR {Rvalue}
+.MODEL RTCR R (TC1={TC1value} TNOM=25)
+.ENDS MY_LIB_R_TCR
