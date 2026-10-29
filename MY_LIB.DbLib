@@ -728,3 +728,29 @@ Options=FieldName=Конденсаторы$.Sim Spice Prefix|TableNameOnly=Конденсаторы$|Fie
 Options=FieldName=Конденсаторы$.Sim Port Map|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap300]
 Options=FieldName=Конденсаторы$.Sim File|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap301]
+Options=FieldName=Ферриты$.Sim Model Name|TableNameOnly=Ферриты$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap302]
+Options=FieldName=Ферриты$.Sim Description|TableNameOnly=Ферриты$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap303]
+Options=FieldName=Ферриты$.Sim Kind|TableNameOnly=Ферриты$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap304]
+Options=FieldName=Ферриты$.Sim SubKind|TableNameOnly=Ферриты$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap305]
+Options=FieldName=Ферриты$.Sim Netlist|TableNameOnly=Ферриты$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap306]
+Options=FieldName=Ферриты$.Sim Spice Prefix|TableNameOnly=Ферриты$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap307]
+Options=FieldName=Ферриты$.Sim Port Map|TableNameOnly=Ферриты$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap308]
+Options=FieldName=Ферриты$.Sim File|TableNameOnly=Ферриты$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap309]
+Options=FieldName=Ферриты$.SimulationModelSource|TableNameOnly=Ферриты$|FieldNameOnly=SimulationModelSource|FieldType=1|ParameterName=SimulationModelSource|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap310]
+Options=FieldName=Ферриты$.SimulationModelType|TableNameOnly=Ферриты$|FieldNameOnly=SimulationModelType|FieldType=1|ParameterName=SimulationModelType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap311]
+Options=FieldName=Ферриты$.SimulationReferenceTemperatureC|TableNameOnly=Ферриты$|FieldNameOnly=SimulationReferenceTemperatureC|FieldType=1|ParameterName=SimulationReferenceTemperatureC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap312]
+Options=FieldName=Ферриты$.SimulationDCBiasCurrentA|TableNameOnly=Ферриты$|FieldNameOnly=SimulationDCBiasCurrentA|FieldType=1|ParameterName=SimulationDCBiasCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap313]
+Options=FieldName=Ферриты$.SimulationSignalCondition|TableNameOnly=Ферриты$|FieldNameOnly=SimulationSignalCondition|FieldType=1|ParameterName=SimulationSignalCondition|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
