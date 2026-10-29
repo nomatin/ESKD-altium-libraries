@@ -1,0 +1,59 @@
+* MY_LIB_USBLC6_2SC6_DS - independently authored datasheet transcription
+* Not a factory-distributed model; not calibrated against another netlist.
+* Sole device source: ST USBLC6-2 datasheet DS4260 Rev 7, December 2021,
+* local file MY_LIB/Datasheets/USBLC6-2_ST.pdf.
+* Topology: page 10 Figure 15; diode and R/L values: page 11 Figure 16.
+* Physical pin assignment: page 1 functional top view and page 11 Figure 17.
+*
+* IMPORTANT: the datasheet restricts this simulation model to Tamb=27 C.
+* Run at .TEMP 27. Other temperatures are unvalidated simulator extrapolation.
+* Device Tj ratings and the leakage-vs-temperature curve do not validate this
+* model over temperature. No thermal, damage or ESD survivability model.
+*
+* Pin order is physical package order, NOT signal-flow order:
+*   1 = I/O1 (D+in),  2 = GND, 3 = I/O2 (D-in),
+*   4 = I/O2 (D-out), 5 = VBUS, 6 = I/O1 (D+out).
+* I/O1 and I/O2 are electrically symmetric; D+/D- names follow Figure 17.
+* Pins 1/6 and 3/4 join through two separate lead R/L branches, not a short.
+*
+* Published parasitics: each I/O lead AND VBUS: L=750 pH, R=110 mOhm;
+* GND lead: L=550 pH, R=60 mOhm. External PCB parasitics are not included.
+* Figure 17's external 100 nF VBUS bypass capacitor is not part of the device.
+*
+* Seven diode parameters below are printed in Figure 16. The author explicitly
+* selects common SPICE defaults IS=1e-14 A, N=1, EG=1.11 eV, XTI=3, FC=0.5
+* for unpublished properties. These are assumptions, NOT measured device data.
+* Other omitted properties retain host defaults. TNOM=27 is a reference setting,
+* selected from the explicit datasheet model-temperature restriction.
+* No fitting to Table 2 limits, curves, or any external model was performed.
+*
+.SUBCKT MY_LIB_USBLC6_2SC6_DS 1 2 3 4 5 6
+L_IO1_IN 1 N1L 750p
+R_IO1_IN N1L IO1 110m
+R_IO1_OUT IO1 N6L 110m
+L_IO1_OUT N6L 6 750p
+
+L_IO2_IN 3 N3L 750p
+R_IO2_IN N3L IO2 110m
+R_IO2_OUT IO2 N4L 110m
+L_IO2_OUT N4L 4 750p
+
+L_GND 2 N2L 550p
+R_GND N2L GNDi 60m
+R_VBUS VBUSi N5L 110m
+L_VBUS N5L 5 750p
+
+* SPICE diode order: anode, cathode.
+D_IO1_LOW GNDi IO1 DS_LOW
+D_IO1_HIGH IO1 VBUSi DS_HIGH
+D_IO2_LOW GNDi IO2 DS_LOW
+D_IO2_HIGH IO2 VBUSi DS_HIGH
+D_RAIL GNDi VBUSi DS_ZENER
+
+.MODEL DS_LOW D (BV=50 CJO=0.9p IBV=1m M=0.3333 RS=0.2
++ VJ=0.6 TT=0.1u IS=1e-14 N=1 EG=1.11 XTI=3 FC=0.5 TNOM=27)
+.MODEL DS_HIGH D (BV=50 CJO=2.0p IBV=1m M=0.3333 RS=0.52
++ VJ=0.6 TT=0.1u IS=1e-14 N=1 EG=1.11 XTI=3 FC=0.5 TNOM=27)
+.MODEL DS_ZENER D (BV=7.3 CJO=40p IBV=1m M=0.3333 RS=0.84
++ VJ=0.6 TT=0.1u IS=1e-14 N=1 EG=1.11 XTI=3 FC=0.5 TNOM=27)
+.ENDS MY_LIB_USBLC6_2SC6_DS

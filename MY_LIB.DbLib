@@ -754,3 +754,19 @@ Options=FieldName=Ферриты$.SimulationReferenceTemperatureC|TableNameOnly=Ферриты
 Options=FieldName=Ферриты$.SimulationDCBiasCurrentA|TableNameOnly=Ферриты$|FieldNameOnly=SimulationDCBiasCurrentA|FieldType=1|ParameterName=SimulationDCBiasCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap313]
 Options=FieldName=Ферриты$.SimulationSignalCondition|TableNameOnly=Ферриты$|FieldNameOnly=SimulationSignalCondition|FieldType=1|ParameterName=SimulationSignalCondition|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap314]
+Options=FieldName=Микросхемы$.Sim Model Name|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap315]
+Options=FieldName=Микросхемы$.Sim Description|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap316]
+Options=FieldName=Микросхемы$.Sim Kind|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap317]
+Options=FieldName=Микросхемы$.Sim SubKind|TableNameOnly=Микросхемы$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap318]
+Options=FieldName=Микросхемы$.Sim Netlist|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap319]
+Options=FieldName=Микросхемы$.Sim Spice Prefix|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap320]
+Options=FieldName=Микросхемы$.Sim Port Map|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap321]
+Options=FieldName=Микросхемы$.Sim File|TableNameOnly=Микросхемы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

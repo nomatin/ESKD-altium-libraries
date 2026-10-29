@@ -1,6 +1,8 @@
 # Local backups and Altium history
 Simulation/Ferrites/TDK/*.mod
 Simulation/Ferrites/Murata/*.mod
+Simulation/USBLC6-2SC6/LocalVendor/
+Simulation/CDSOT23-SM712/LocalVendor/
 Backup/
 History/
 __Previews/
@@ -29,5 +31,6 @@ AGENTS.md
 !/THIRD_PARTY_NOTICES.md
 !/SIMULATION_ASSUMPTIONS.md
 !/Simulation/USBLC6-2SC6/README.md
+!/Simulation/CDSOT23-SM712/README.md
 !/Simulation/Ferrites/TDK/README.md
 !/Simulation/Ferrites/Murata/README.md

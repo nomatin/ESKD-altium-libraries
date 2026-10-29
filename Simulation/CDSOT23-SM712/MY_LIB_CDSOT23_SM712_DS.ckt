@@ -1,0 +1,61 @@
+* Author-created datasheet-only approximation; NOT a Bourns factory model.
+* ONLY DEVICE SOURCE: MY_LIB/Datasheets/CDSOT23-SM712_Bourns.pdf
+* All 5 pages reviewed visually and as text; electrical data: p1, TA=25C.
+* Revision shown on p4: REV.06/24. No existing SM712 model was consulted.
+* Ports are PHYSICAL SOT23 pins 1,2,3 (p1 circuit, p2 package drawing).
+* Two asymmetric bidirectional branches: 1--3 and 2--3; pin3 common.
+* Positive V(1,3)/V(2,3): 12V working side. Negative: 7V side.
+*
+* PUBLISHED p1: VWM 12/7V; ID max 1u/20uA at VWM;
+* VBR MIN 13.3/7.5V at 1mA; VC MAX 19/11V at 1A,
+* 20/12V at 5A, 26/14V at 17A. CD TYP 75pF at 0V,1MHz.
+* These min/max values are NOT one measured or typical device curve.
+* AUTHOR CHOICE: continuous piecewise-linear interpolation through them,
+* including linear leakage from origin and last-slope extrapolation >17A.
+* Derived slopes (delta I/delta V) are interpolation, NOT measured diode RS.
+* This mixed boundary scenario is NOT a universally conservative corner.
+*
+* AUTHOR CHOICE: one constant 75pF per external branch; no C(V)/C(f),
+* parasitic L, avalanche delay, reverse recovery, heating, damage or spread.
+* Individual physical junction parameters are unknown, not fabricated.
+* No diode .MODEL means no implicit IS/N/EG/XTI/TT temperature law.
+* No temperature dependence: electrical validity limited to 25C anchors.
+* Published -55..150C operating rating is NOT a modeled temperature curve.
+* p3 TL derating/power-duration graphs do NOT determine a thermal network.
+* Published 400W and 17A 8/20us limits are NOT enforced by this netlist.
+* 26V*17A=442W exceeds 400W; do not treat separate maxima as jointly safe.
+* No claim of simultaneous two-channel pulse capability or ESD accuracy.
+* Provenance and limitations: README.md in this directory.
+* Syntax: behavioral current sources with max(); simulator check required.
+*
+.SUBCKT MY_LIB_CDSOT23_SM712_DS 1 2 3
+* H0..H4: positive-side slopes; L0..L4: negative-side slopes.
+.PARAM H0={1u/12} H1={(1m-1u)/1.3} H2={(1-1m)/5.7} H3=4 H4=2
+.PARAM L0={20u/7} L1={(1m-20u)/0.5} L2={(1-1m)/3.5} L3=4 L4=6
+* Branch 1-3: positive current from physical pin 1 into pin 3.
+BH1 1 3 I={H0*max(V(1,3),0)
++ +(H1-H0)*max(V(1,3)-12,0)
++ +(H2-H1)*max(V(1,3)-13.3,0)
++ +(H3-H2)*max(V(1,3)-19,0)
++ +(H4-H3)*max(V(1,3)-20,0)}
+* Reverse current from common pin 3 into physical pin 1.
+BL1 3 1 I={L0*max(V(3,1),0)
++ +(L1-L0)*max(V(3,1)-7,0)
++ +(L2-L1)*max(V(3,1)-7.5,0)
++ +(L3-L2)*max(V(3,1)-11,0)
++ +(L4-L3)*max(V(3,1)-12,0)}
+C1 1 3 75p
+* Branch 2-3: positive current from physical pin 2 into pin 3.
+BH2 2 3 I={H0*max(V(2,3),0)
++ +(H1-H0)*max(V(2,3)-12,0)
++ +(H2-H1)*max(V(2,3)-13.3,0)
++ +(H3-H2)*max(V(2,3)-19,0)
++ +(H4-H3)*max(V(2,3)-20,0)}
+* Reverse current from common pin 3 into physical pin 2.
+BL2 3 2 I={L0*max(V(3,2),0)
++ +(L1-L0)*max(V(3,2)-7,0)
++ +(L2-L1)*max(V(3,2)-7.5,0)
++ +(L3-L2)*max(V(3,2)-11,0)
++ +(L4-L3)*max(V(3,2)-12,0)}
+C2 2 3 75p
+.ENDS MY_LIB_CDSOT23_SM712_DS
