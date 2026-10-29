@@ -692,3 +692,39 @@ Options=FieldName=Резисторы$.Sim Port Map|TableNameOnly=Резисторы$|FieldNameOnly
 Options=FieldName=Резисторы$.Sim File|TableNameOnly=Резисторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap282]
 Options=FieldName=Резисторы$.TCR|TableNameOnly=Резисторы$|FieldNameOnly=TCR|FieldType=1|ParameterName=TCR|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap283]
+Options=FieldName=Конденсаторы$.CapacitanceNominalF|TableNameOnly=Конденсаторы$|FieldNameOnly=CapacitanceNominalF|FieldType=1|ParameterName=CapacitanceNominalF|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap284]
+Options=FieldName=Конденсаторы$.DissipationFactorMax|TableNameOnly=Конденсаторы$|FieldNameOnly=DissipationFactorMax|FieldType=1|ParameterName=DissipationFactorMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap285]
+Options=FieldName=Конденсаторы$.DFTestFrequencyHz|TableNameOnly=Конденсаторы$|FieldNameOnly=DFTestFrequencyHz|FieldType=1|ParameterName=DFTestFrequencyHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap286]
+Options=FieldName=Конденсаторы$.DFTestVoltageVrms|TableNameOnly=Конденсаторы$|FieldNameOnly=DFTestVoltageVrms|FieldType=1|ParameterName=DFTestVoltageVrms|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap287]
+Options=FieldName=Конденсаторы$.DFTestTemperatureC|TableNameOnly=Конденсаторы$|FieldNameOnly=DFTestTemperatureC|FieldType=1|ParameterName=DFTestTemperatureC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap288]
+Options=FieldName=Конденсаторы$.InsulationTimeConstantMinS|TableNameOnly=Конденсаторы$|FieldNameOnly=InsulationTimeConstantMinS|FieldType=1|ParameterName=InsulationTimeConstantMinS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap289]
+Options=FieldName=Конденсаторы$.InsulationResistanceMinOhm|TableNameOnly=Конденсаторы$|FieldNameOnly=InsulationResistanceMinOhm|FieldType=1|ParameterName=InsulationResistanceMinOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap290]
+Options=FieldName=Конденсаторы$.InsulationTestVoltageV|TableNameOnly=Конденсаторы$|FieldNameOnly=InsulationTestVoltageV|FieldType=1|ParameterName=InsulationTestVoltageV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap291]
+Options=FieldName=Конденсаторы$.InsulationTestDurationS|TableNameOnly=Конденсаторы$|FieldNameOnly=InsulationTestDurationS|FieldType=1|ParameterName=InsulationTestDurationS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap292]
+Options=FieldName=Конденсаторы$.EquivalentSeriesResistanceOhm|TableNameOnly=Конденсаторы$|FieldNameOnly=EquivalentSeriesResistanceOhm|FieldType=1|ParameterName=EquivalentSeriesResistanceOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap293]
+Options=FieldName=Конденсаторы$.Sim Model Name|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap294]
+Options=FieldName=Конденсаторы$.Sim Description|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap295]
+Options=FieldName=Конденсаторы$.Sim Kind|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap296]
+Options=FieldName=Конденсаторы$.Sim SubKind|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap297]
+Options=FieldName=Конденсаторы$.Sim Netlist|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap298]
+Options=FieldName=Конденсаторы$.Sim Spice Prefix|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap299]
+Options=FieldName=Конденсаторы$.Sim Port Map|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap300]
+Options=FieldName=Конденсаторы$.Sim File|TableNameOnly=Конденсаторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

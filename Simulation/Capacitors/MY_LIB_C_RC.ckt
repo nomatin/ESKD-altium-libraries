@@ -1,0 +1,10 @@
+* MY_LIB YAGEO CC X7R: nominal capacitance, DFmax-derived Rs, minimum insulation.
+* Source: YAGEO CC X7R March 6 2026 V.27 pp14-15,20.
+* Rs=DFmax/(2*pi*1000*Cnom); Rins=min(1e10,K/Cnom).
+* Constant Rs is justified at 1kHz only. Leakage adds a small extra AC loss.
+* No tolerance, temperature, DC bias, ESL, aging, absorption or breakdown.
+.SUBCKT MY_LIB_C_RC 1 2 PARAMS: Cvalue=1n Rsvalue=1 Rinsvalue=1e10
+Rloss 1 3 {Rsvalue}
+Cmain 3 2 {Cvalue}
+Rleak 1 2 {Rinsvalue}
+.ENDS MY_LIB_C_RC
