@@ -1,0 +1,46 @@
+[
+  {
+    "test": "murata_datasheet_dc.json",
+    "status": "PASS",
+    "checks": 66,
+    "passed": 66,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "murata_datasheet_ac_100MHz.json",
+    "status": "PASS",
+    "checks": 63,
+    "passed": 63,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "murata_vendor_ac.json",
+    "status": "PASS",
+    "checks": 66,
+    "passed": 66,
+    "failed": 0,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 7656
+  },
+  {
+    "test": "murata_vendor_dc.json",
+    "status": "PASS",
+    "checks": 44,
+    "passed": 44,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "murata_endpoint_vendor_ac.json",
+    "status": "PASS",
+    "checks": 22,
+    "passed": 22,
+    "failed": 0,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 22
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-30",
+  "simulator": "Altium MixedSim 24.4 via Spice Tester 0.5",
+  "conditions": {
+    "temperature_c": 25,
+    "dc_bias_a": 0,
+    "ac": "small signal; 1 A normalization in linear networks"
+  },
+  "summary": [
+    {
+      "test": "tdk_datasheet_dc.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "tdk_datasheet_ac_100MHz.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "tdk_vendor_ac.json",
+      "status": "PASS",
+      "checks": 18,
+      "passed": 18,
+      "failed": 0,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 2088
+    },
+    {
+      "test": "tdk_vendor_dc.json",
+      "status": "PASS",
+      "checks": 12,
+      "passed": 12,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "tdk_endpoint_vendor_ac.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "failed": 0,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 6
+    }
+  ],
+  "models": [
+    {
+      "id": "L0002",
+      "ids": [
+        "L0002"
+      ],
+      "mpn": "MPZ2012S101AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S101AT000_TERRA.ckt",
+      "model_sha256": "3e2d27f4851df9b4bbea835df5193dc810414b3b2e395218b59227deed4b00e8",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S101AT000_p.mod",
+      "vendor_sha256": "623239cf8132e7f08c95d39ab75355bf00127017005f3c904332e5cbb4aa81cb",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S101AT000.csv",
+      "reference_sha256": "e6e3f921dc89521753bd2875c9a15f179d289190fa6f962c49e177426cf3c9df"
+    },
+    {
+      "id": "L0006",
+      "ids": [
+        "L0006"
+      ],
+      "mpn": "MPZ2012S102AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S102AT000_TERRA.ckt",
+      "model_sha256": "1fa521ace33320a536582f5fa5d3e4be8d7994c4700c4392526b403c23246719",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S102AT000_p.mod",
+      "vendor_sha256": "70076e807132157ac2feadc5696e860eac59eb40fa0cbac8fdf4b78cc943038d",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S102AT000.csv",
+      "reference_sha256": "8fd031011821494d82762c057b60d8db364a81655f0acd182fe4c0d235bd3b3f"
+    },
+    {
+      "id": "L0003",
+      "ids": [
+        "L0003"
+      ],
+      "mpn": "MPZ2012S221AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S221AT000_TERRA.ckt",
+      "model_sha256": "a7404d5a7eff8f6fd5172040138a6a9da53b7c554a9b39844399c2436d599469",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S221AT000_p.mod",
+      "vendor_sha256": "b2ca5d64544f6be39e4c963d1dbcc212335def82b3b64ce9795d346620d8e40d",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S221AT000.csv",
+      "reference_sha256": "2b3149f14a63abd4b87b7b13ca58003738146231c1e0243b5c26cb3ad1b8ec23"
+    },
+    {
+      "id": "L0001",
+      "ids": [
+        "L0001"
+      ],
+      "mpn": "MPZ2012S300AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S300AT000_TERRA.ckt",
+      "model_sha256": "62e1bf2e9b45a4ff8c8c0b9a2930b368ded0f5aeb12106c3e369722cdc4a279e",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S300AT000_p.mod",
+      "vendor_sha256": "9c5fc646b88997e8e0ce33014057c3d707cf6d83c89c0b00e82a9c3082295872",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S300AT000.csv",
+      "reference_sha256": "09eeabda0a55b734773730c89badd37102018b4100b14827801f22adc47a1a1b"
+    },
+    {
+      "id": "L0004",
+      "ids": [
+        "L0004"
+      ],
+      "mpn": "MPZ2012S331AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S331AT000_TERRA.ckt",
+      "model_sha256": "7c8a1f3d22d27cb0f3f065b9daf675dca73695b3269f356a7fecfbd80195616d",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S331AT000_p.mod",
+      "vendor_sha256": "12ece88188f23664fed91abc5fae7ed2827ae7b223466311628d8d13663602fe",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S331AT000.csv",
+      "reference_sha256": "55c7c54df547d9baa21d4ba172fa73d3ef0b85bf1e27aafbf845d671dfc7d678"
+    },
+    {
+      "id": "L0005",
+      "ids": [
+        "L0005"
+      ],
+      "mpn": "MPZ2012S601AT000",
+      "family": "TDK",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S601AT000_TERRA.ckt",
+      "model_sha256": "f042edd30174ae969336e88338746b0815392986578056504759d3c81a3c3154",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\TDK\\MPZ2012S601AT000_p.mod",
+      "vendor_sha256": "5cac7f9828a5a3918cad24280cfce28c3a7bef3d8e3de4e9ed22d08be1d58c03",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\tdk_terra\\reference_outputs\\MPZ2012S601AT000.csv",
+      "reference_sha256": "05522a82b6c035b483d4cf0cef8e9e7bf9496385ca362df2e1f94bb28b8df62b"
+    }
+  ],
+  "sources": {
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_BLM21PG_C51E_excerpt.pdf": "249a7b8de1f4c7ee493e09c3aa4e5dc23ca439c89b9b93632954db286193eecd",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_ENFA0005.pdf": "5b7501782653960e453eb4f1096c2803df2a4a94a1f4c5cb6bc16e0c3cd6d996",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_QNFA9102.pdf": "8984fd2123a6ce953b56089e0965877a231c1af16045d111680e1934e6706a00",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\TDK_MPZ2012_automotive.pdf": "2f59f7024009425d744e3b3347fcb91310c816124fdce2215188def915a7c64e",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\TDK_MPZ2012_commercial.pdf": "c8b428baaacfffa1b685848153d1cfef1fb8702157b173093cd19f32d25a68bc"
+  },
+  "test_sha256": {
+    "tdk_datasheet_dc.json": "bfa01e49ad4882149706c6ad14662ce0b7634cd1aa92e7432cd196eb852dc237",
+    "tdk_datasheet_ac_100MHz.json": "7ec18946bf748c0c6ced3b3b4c1803fd441bdcf5ea13e2b027b7fee2e0a1df55",
+    "tdk_vendor_ac.json": "1d94eb5651ac2517e9dda309f06f6c650f1f33e4ee48e6cf5361045e4eec3d97",
+    "tdk_vendor_dc.json": "90d5f6f9b71b012ddfc16077fc0c499b8bedcfeee06455a970cdde926d85a0b8",
+    "tdk_endpoint_vendor_ac.json": "522cde3946604e45993a66d418e3e610519e07165908cf04b28a42d2f7ce8be1"
+  },
+  "skipped": [
+    {
+      "id": "L0007",
+      "mpn": "MPZ2012S300ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0008",
+      "mpn": "MPZ2012S101ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0009",
+      "mpn": "MPZ2012S221ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0010",
+      "mpn": "MPZ2012S331ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0011",
+      "mpn": "MPZ2012S601ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0012",
+      "mpn": "MPZ2012S102ATD25",
+      "reason": "No bound simulation model"
+    }
+  ],
+  "models_unchanged": true
+}

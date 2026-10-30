@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-30",
+  "simulator": "Altium MixedSim 24.4 via Spice Tester 0.5",
+  "conditions": {
+    "temperature_c": 25,
+    "dc_bias_a": 0,
+    "ac": "small signal; 1 A normalization in linear networks"
+  },
+  "summary": [
+    {
+      "test": "murata_datasheet_dc.json",
+      "status": "PASS",
+      "checks": 66,
+      "passed": 66,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "murata_datasheet_ac_100MHz.json",
+      "status": "PASS",
+      "checks": 63,
+      "passed": 63,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "murata_vendor_ac.json",
+      "status": "PASS",
+      "checks": 66,
+      "passed": 66,
+      "failed": 0,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 7656
+    },
+    {
+      "test": "murata_vendor_dc.json",
+      "status": "PASS",
+      "checks": 44,
+      "passed": 44,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "murata_endpoint_vendor_ac.json",
+      "status": "PASS",
+      "checks": 22,
+      "passed": 22,
+      "failed": 0,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 22
+    }
+  ],
+  "models": [
+    {
+      "id": "L0060",
+      "ids": [
+        "L0058",
+        "L0059",
+        "L0060"
+      ],
+      "mpn": "BLM21PG102SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG102SH1_MYLIB.ckt",
+      "model_sha256": "86446326366e1f216f1b615661811b7d7cce364031f36411c5a69ce1c7a29868",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG102SH1.mod",
+      "vendor_sha256": "4b863722b8f852c6d1707a907d92396d7299796522e9b7445fa7fe527721ade5",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG102SH1.csv",
+      "reference_sha256": "7c2fa86189c03159ec1c1e6cccca64ea98e0ce27de2036912e899ab598b70186"
+    },
+    {
+      "id": "L0036",
+      "ids": [
+        "L0034",
+        "L0035",
+        "L0036"
+      ],
+      "mpn": "BLM21PG102SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG102SN1_MYLIB.ckt",
+      "model_sha256": "afb5b33c25819ac670bede24b3956e52fe509c22b53e100bf050ef59153ad44c",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG102SN1.mod",
+      "vendor_sha256": "8975ba6134b97de57cc145fa1bf55aacfaee3857bb7aa405889ee944fe3fc328",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG102SN1.csv",
+      "reference_sha256": "7c2fa86189c03159ec1c1e6cccca64ea98e0ce27de2036912e899ab598b70186"
+    },
+    {
+      "id": "L0048",
+      "ids": [
+        "L0046",
+        "L0047",
+        "L0048"
+      ],
+      "mpn": "BLM21PG121SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SH1_MYLIB.ckt",
+      "model_sha256": "bf63a517dbee4f7a246f1c5ea7418acd3ef4a4ed94ca772b55ae8fae859230a7",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SH1.mod",
+      "vendor_sha256": "4686886eed3275db9111b36f293b8fd95155bd606c5c1534f700c433eeaaf3b3",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG121SH1.csv",
+      "reference_sha256": "c301bc2b3de696fdeefa9d9e2855f4b0b6017033838ac5b4b6defd45e311d04b"
+    },
+    {
+      "id": "L0024",
+      "ids": [
+        "L0022",
+        "L0023",
+        "L0024"
+      ],
+      "mpn": "BLM21PG121SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SN1_MYLIB.ckt",
+      "model_sha256": "5a5a933552809214e280c12c3cf81dd2fb63c005dabd5d1599227b8fd22d8d3c",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SN1.mod",
+      "vendor_sha256": "b322ea476e03691b066b25c154194a0d7149f9770550e711a755b51a3f78a68f",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG121SN1.csv",
+      "reference_sha256": "ca22720a95a10b036035c26e4a7f02958cb7fe46bc244477067e8bcb075fcca3"
+    },
+    {
+      "id": "L0072",
+      "ids": [
+        "L0070",
+        "L0071",
+        "L0072"
+      ],
+      "mpn": "BLM21PG121SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SZ1_MYLIB.ckt",
+      "model_sha256": "e83ad5f9b4667d71b6eb7e4326f814d6fd6fb53b0020f1dc5a8a081d0cd7e50b",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG121SZ1.mod",
+      "vendor_sha256": "17368ce4b9521acb842e0465b070ab5fc3db2412d58df5e628cddd46025d92ac",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG121SZ1.csv",
+      "reference_sha256": "ca22720a95a10b036035c26e4a7f02958cb7fe46bc244477067e8bcb075fcca3"
+    },
+    {
+      "id": "L0039",
+      "ids": [
+        "L0037",
+        "L0038",
+        "L0039"
+      ],
+      "mpn": "BLM21PG220SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SH1_MYLIB.ckt",
+      "model_sha256": "96cec93d24f3f34da9b91e57c1c32fffeec01f1c1cba52e90a54f248860d83e3",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SH1.mod",
+      "vendor_sha256": "f1f9a89cca2d115899d859732e9b7001380312c533369171850726abe8738cde",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG220SH1.csv",
+      "reference_sha256": "28b9e8381057827a0552eb15edd57b545019d14d2d912bab4b29ef9d97adf044"
+    },
+    {
+      "id": "L0015",
+      "ids": [
+        "L0013",
+        "L0014",
+        "L0015"
+      ],
+      "mpn": "BLM21PG220SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SN1_MYLIB.ckt",
+      "model_sha256": "162d2c52257213ea54b1d31f6619c3354c3cc985880bf5e8b4b94fd1cb4e2751",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SN1.mod",
+      "vendor_sha256": "394f8fe0d568e50ac78b82e29c9a62c34451f495b174919c13c1d6d9990bf27d",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG220SN1.csv",
+      "reference_sha256": "f32a3c6520a788417b1df0a12af448babb62ea0cfd49a06fdc826dc776a6dfd8"
+    },
+    {
+      "id": "L0063",
+      "ids": [
+        "L0061",
+        "L0062",
+        "L0063"
+      ],
+      "mpn": "BLM21PG220SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SZ1_MYLIB.ckt",
+      "model_sha256": "b64822b28551337638f6d1ef894e94a61c6dfa7b01f4ce32d2c0a1b0bffb6c0f",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG220SZ1.mod",
+      "vendor_sha256": "659f9eee0abd726af148d846a185a0db0088f3cd4294fd4fa9cdd00b8c9ba564",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG220SZ1.csv",
+      "reference_sha256": "28b9e8381057827a0552eb15edd57b545019d14d2d912bab4b29ef9d97adf044"
+    },
+    {
+      "id": "L0051",
+      "ids": [
+        "L0049",
+        "L0050",
+        "L0051"
+      ],
+      "mpn": "BLM21PG221SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SH1_MYLIB.ckt",
+      "model_sha256": "76ab07685152473ff7a6a58766198910eb055659239a7acb353d2bb994e77f38",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SH1.mod",
+      "vendor_sha256": "8e8c80b703986801ad174e8b5556e37d8c341bc474aa5389d6541c85c34a0ec1",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG221SH1.csv",
+      "reference_sha256": "3d566d18c7aa16ee753c4fa713e20bcad0c54d3b26a402534b9ea3702a1e339c"
+    },
+    {
+      "id": "L0027",
+      "ids": [
+        "L0025",
+        "L0026",
+        "L0027"
+      ],
+      "mpn": "BLM21PG221SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SN1_MYLIB.ckt",
+      "model_sha256": "760e5c3a46ffa47b656843e03247db6487c560310125b43ceaeeef02e3579f70",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SN1.mod",
+      "vendor_sha256": "dadfd9eaa6e424071efbcacbe186fb921c0986ca6e26b6da6b9536de9776256a",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG221SN1.csv",
+      "reference_sha256": "7b73aa3085784d182f2289f9ca61ad920922407ab76bd7848f3726df4f1ce5f1"
+    },
+    {
+      "id": "L0075",
+      "ids": [
+        "L0073",
+        "L0074",
+        "L0075"
+      ],
+      "mpn": "BLM21PG221SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SZ1_MYLIB.ckt",
+      "model_sha256": "f90ce10778382dc6bf1344c301d354c98e3b9db5b84581deb93ac1060206dbb3",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG221SZ1.mod",
+      "vendor_sha256": "f4f2a751e4f0516a3bcc9e047505c7afa58508fb6d012281623149e9b023c3bc",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG221SZ1.csv",
+      "reference_sha256": "7b73aa3085784d182f2289f9ca61ad920922407ab76bd7848f3726df4f1ce5f1"
+    },
+    {
+      "id": "L0042",
+      "ids": [
+        "L0040",
+        "L0041",
+        "L0042"
+      ],
+      "mpn": "BLM21PG300SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SH1_MYLIB.ckt",
+      "model_sha256": "51d4ced898dcaadc0427ea929bb378acc5abdc9bbf58426781f4350129527fea",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SH1.mod",
+      "vendor_sha256": "388f796f3e254c14d6ee34832db5dc7b4405796ad521634000ee388d20369d32",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG300SH1.csv",
+      "reference_sha256": "b020c018bbcf905d128a730fa13ad73286698c82d8ee03855dc430e6087620f8"
+    },
+    {
+      "id": "L0018",
+      "ids": [
+        "L0016",
+        "L0017",
+        "L0018"
+      ],
+      "mpn": "BLM21PG300SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SN1_MYLIB.ckt",
+      "model_sha256": "7911b5e977cd065de30832f58fd75e95bd5631d1ec4606db8248807608c17f1b",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SN1.mod",
+      "vendor_sha256": "a7fd1ea34c882f82cecbd4eac91c22ce9e68b08f2933f23b488a0c19cb8fd5d7",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG300SN1.csv",
+      "reference_sha256": "5a34c1b05e073a201b602382ec1c8cf57068a67e2c18fbcb15c600002e167822"
+    },
+    {
+      "id": "L0066",
+      "ids": [
+        "L0064",
+        "L0065",
+        "L0066"
+      ],
+      "mpn": "BLM21PG300SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SZ1_MYLIB.ckt",
+      "model_sha256": "123d19747a11d6b3690dd854bed2a1d7f27ff7a06eacf338105677f0d9dabdb4",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG300SZ1.mod",
+      "vendor_sha256": "10c255b6f27441d68790db8494d9df12e1da524a1324d257ce648d56e4bd31ba",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG300SZ1.csv",
+      "reference_sha256": "5a34c1b05e073a201b602382ec1c8cf57068a67e2c18fbcb15c600002e167822"
+    },
+    {
+      "id": "L0054",
+      "ids": [
+        "L0052",
+        "L0053",
+        "L0054"
+      ],
+      "mpn": "BLM21PG331SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SH1_MYLIB.ckt",
+      "model_sha256": "85968cc6b9ac8680cc1848d0a5210f9efb1663d0bc41deaf15e9aa9067935230",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SH1.mod",
+      "vendor_sha256": "ac8b4bc51d0efb4579caa4ff2832933a1254471be0f88387353da2732786fdc0",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG331SH1.csv",
+      "reference_sha256": "26853cd36c40a92b4ee777b84eade851560f14a6ffbbf9d4f8b75257357b7b2b"
+    },
+    {
+      "id": "L0030",
+      "ids": [
+        "L0028",
+        "L0029",
+        "L0030"
+      ],
+      "mpn": "BLM21PG331SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SN1_MYLIB.ckt",
+      "model_sha256": "14d0de71af51036b9d94673d04311dfadad848e72dc709b145061bd66a501361",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SN1.mod",
+      "vendor_sha256": "d202cfaa639664c56d39aeff0296da62ba86c59917ca412e69a7cbf01fa5f65d",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG331SN1.csv",
+      "reference_sha256": "736c09ead8096e7915ab85622c667e51b22b9d248340efe996b2932f0591c57b"
+    },
+    {
+      "id": "L0078",
+      "ids": [
+        "L0076",
+        "L0077",
+        "L0078"
+      ],
+      "mpn": "BLM21PG331SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SZ1_MYLIB.ckt",
+      "model_sha256": "d5e9e27c12bcd8ef9e0907532d5b04c700d83a41f6599a6b152ebc87e3b0a43d",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG331SZ1.mod",
+      "vendor_sha256": "d38b4eb2b137183ffdf270a224c97ac0fea71c70fdabf452b038279df5dbeaa7",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG331SZ1.csv",
+      "reference_sha256": "736c09ead8096e7915ab85622c667e51b22b9d248340efe996b2932f0591c57b"
+    },
+    {
+      "id": "L0045",
+      "ids": [
+        "L0043",
+        "L0044",
+        "L0045"
+      ],
+      "mpn": "BLM21PG600SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SH1_MYLIB.ckt",
+      "model_sha256": "c984bab3b57f1692e8157d082c5a3d7fb8205e0c19cba4ec7eeaee20392816b8",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SH1.mod",
+      "vendor_sha256": "e64f66a60c7037eaacdbe4fd271601647eae27e81234903592e098f39605c598",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG600SH1.csv",
+      "reference_sha256": "e7d0b1124a4af0013d1ef0ae58505c1a3a36b467f7efca0c5eefc7575d2783a5"
+    },
+    {
+      "id": "L0021",
+      "ids": [
+        "L0019",
+        "L0020",
+        "L0021"
+      ],
+      "mpn": "BLM21PG600SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SN1_MYLIB.ckt",
+      "model_sha256": "967bf5bade8cd0daa25ad8c1900a0529a764aa884cefd36810fd42a2e185f166",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SN1.mod",
+      "vendor_sha256": "fb80b04d43a5765b63a7b47c7bfca3ad2ec69d77e127020db1a193cb1d3cfaa4",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG600SN1.csv",
+      "reference_sha256": "e7d0b1124a4af0013d1ef0ae58505c1a3a36b467f7efca0c5eefc7575d2783a5"
+    },
+    {
+      "id": "L0069",
+      "ids": [
+        "L0067",
+        "L0068",
+        "L0069"
+      ],
+      "mpn": "BLM21PG600SZ1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SZ1_MYLIB.ckt",
+      "model_sha256": "7c3c5340fd4c70bfe033248d2345f6f864f3f9d053b86f8db3c357a3139b1c0c",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG600SZ1.mod",
+      "vendor_sha256": "6f4b4e536887690aefd6967cf87d6b5be0143383b79c3dd5bad95c554b47b4a6",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG600SZ1.csv",
+      "reference_sha256": "159106615ab2a3b8e561c449ca47f93603999c6891589aa3ad21a88ce8c799de"
+    },
+    {
+      "id": "L0057",
+      "ids": [
+        "L0055",
+        "L0056",
+        "L0057"
+      ],
+      "mpn": "BLM21PG601SH1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG601SH1_MYLIB.ckt",
+      "model_sha256": "c716fb80c19d7008c554fe54c7ff2195d05610c607a7c35cd14524275b06456e",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG601SH1.mod",
+      "vendor_sha256": "fd19465cf2bb725cbef8ca2544473419dcdda7ef3ce03a7720a138371b833499",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG601SH1.csv",
+      "reference_sha256": "5955777d6ca0e822e987756a3de114381f8bf51582a64753c28d46149038cf38"
+    },
+    {
+      "id": "L0033",
+      "ids": [
+        "L0031",
+        "L0032",
+        "L0033"
+      ],
+      "mpn": "BLM21PG601SN1B",
+      "family": "Murata",
+      "model": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG601SN1_MYLIB.ckt",
+      "model_sha256": "9dcdb812878a5e917b11fbac69496dcd67ffac5acf904c98002b3409b40a2c33",
+      "vendor": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Simulation\\Ferrites\\Murata\\BLM21PG601SN1.mod",
+      "vendor_sha256": "0c7e02f49f7993dc3ddb571862d2f0a0c7aeda50c41aff694621d75082fabe69",
+      "reference_csv": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\murata_blackbox\\reference_outputs\\BLM21PG601SN1.csv",
+      "reference_sha256": "5955777d6ca0e822e987756a3de114381f8bf51582a64753c28d46149038cf38"
+    }
+  ],
+  "sources": {
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_BLM21PG_C51E_excerpt.pdf": "249a7b8de1f4c7ee493e09c3aa4e5dc23ca439c89b9b93632954db286193eecd",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_ENFA0005.pdf": "5b7501782653960e453eb4f1096c2803df2a4a94a1f4c5cb6bc16e0c3cd6d996",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\Murata_QNFA9102.pdf": "8984fd2123a6ce953b56089e0965877a231c1af16045d111680e1934e6706a00",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\TDK_MPZ2012_automotive.pdf": "2f59f7024009425d744e3b3347fcb91310c816124fdce2215188def915a7c64e",
+    "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\TDK_MPZ2012_commercial.pdf": "c8b428baaacfffa1b685848153d1cfef1fb8702157b173093cd19f32d25a68bc"
+  },
+  "test_sha256": {
+    "murata_datasheet_dc.json": "6aab47a3af424d6c1a0c002a58491c36ee70e43125ca870c1ec5ac0e6e4ea330",
+    "murata_datasheet_ac_100MHz.json": "e826f472adf1e88862ad079537d968ed4f2495c76f169c5fda29ebf7eae2c379",
+    "murata_vendor_ac.json": "ef3605ce37de3704cd4f3872f0094417d006de2dca90023dc7aeffe37358171d",
+    "murata_vendor_dc.json": "d268506aa8d26219a31f210df56547cef771abc2b6052f087b05e26858ebed89",
+    "murata_endpoint_vendor_ac.json": "e7b41525e03b496c694e7161bb03c8424eb457de25607610ceea38b322bd84b5"
+  },
+  "skipped": [
+    {
+      "id": "L0007",
+      "mpn": "MPZ2012S300ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0008",
+      "mpn": "MPZ2012S101ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0009",
+      "mpn": "MPZ2012S221ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0010",
+      "mpn": "MPZ2012S331ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0011",
+      "mpn": "MPZ2012S601ATD25",
+      "reason": "No bound simulation model"
+    },
+    {
+      "id": "L0012",
+      "mpn": "MPZ2012S102ATD25",
+      "reason": "No bound simulation model"
+    }
+  ],
+  "models_unchanged": true
+}

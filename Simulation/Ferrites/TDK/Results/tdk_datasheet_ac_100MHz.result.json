@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "test": "tdk_datasheet_ac_100MHz",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 19.9999,
+      "max": 40.0001,
+      "value": 33.00272465353736,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 74.9999,
+      "max": 125.0001,
+      "value": 93.1070417150642,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 164.9999,
+      "max": 275.0001,
+      "value": 191.9419484294155,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 247.4999,
+      "max": 412.5001,
+      "value": 309.76876110158787,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 449.9999,
+      "max": 750.0001,
+      "value": 581.5375262511652,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 749.9999,
+      "max": 1250.0001,
+      "value": 1067.17384669701,
+      "unit": "Ohm",
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\6feb106147bf4961817fd9cc8d401691",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\6feb106147bf4961817fd9cc8d401691\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_0485148fc84e44d09ff3d32587e34528.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

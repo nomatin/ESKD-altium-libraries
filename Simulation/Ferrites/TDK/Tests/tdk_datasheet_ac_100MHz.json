@@ -1,0 +1,86 @@
+{
+  "name": "tdk_datasheet_ac_100MHz",
+  "models": [
+    "../MPZ2012S300AT000_TERRA.ckt",
+    "../MPZ2012S101AT000_TERRA.ckt",
+    "../MPZ2012S221AT000_TERRA.ckt",
+    "../MPZ2012S331AT000_TERRA.ckt",
+    "../MPZ2012S601AT000_TERRA.ckt",
+    "../MPZ2012S102AT000_TERRA.ckt"
+  ],
+  "spice": "* Datasheet impedance at 100MHz; zero bias\n.OPTIONS TEMP=25\nVDRV src 0 DC 0 AC 1\nVSL0001 src nL0001 0\nXL0001 nL0001 0 MPZ2012S300AT000_TERRA\nVSL0002 src nL0002 0\nXL0002 nL0002 0 MPZ2012S101AT000_TERRA\nVSL0003 src nL0003 0\nXL0003 nL0003 0 MPZ2012S221AT000_TERRA\nVSL0004 src nL0004 0\nXL0004 nL0004 0 MPZ2012S331AT000_TERRA\nVSL0005 src nL0005 0\nXL0005 nL0005 0 MPZ2012S601AT000_TERRA\nVSL0006 src nL0006 0\nXL0006 nL0006 0 MPZ2012S102AT000_TERRA\n.AC LIN 1 100Meg 100Meg\n.PLOT AC V(nL0001) I(VSL0001)\n.PLOT AC V(nL0002) I(VSL0002)\n.PLOT AC V(nL0003) I(VSL0003)\n.PLOT AC V(nL0004) I(VSL0004)\n.PLOT AC V(nL0005) I(VSL0005)\n.PLOT AC V(nL0006) I(VSL0006)\n.END\n",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 19.9999,
+      "max": 40.0001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 74.9999,
+      "max": 125.0001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 164.9999,
+      "max": 275.0001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 247.4999,
+      "max": 412.5001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 449.9999,
+      "max": 750.0001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 749.9999,
+      "max": 1250.0001
+    }
+  ]
+}

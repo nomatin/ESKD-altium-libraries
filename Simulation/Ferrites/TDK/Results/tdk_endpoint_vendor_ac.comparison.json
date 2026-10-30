@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "criterion": "abs(Z_MYLIB-Z_VENDOR)/abs(Z_VENDOR) <= 0.03 on every exported point; identical 1 A AC injection",
+  "models": [
+    {
+      "id": "L0002",
+      "ids": [
+        "L0002"
+      ],
+      "mpn": "MPZ2012S101AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.00042384065665842206,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0006",
+      "ids": [
+        "L0006"
+      ],
+      "mpn": "MPZ2012S102AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.02030059952865169,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0003",
+      "ids": [
+        "L0003"
+      ],
+      "mpn": "MPZ2012S221AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.008194191389281626,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0001",
+      "ids": [
+        "L0001"
+      ],
+      "mpn": "MPZ2012S300AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.0012015810226078687,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0004",
+      "ids": [
+        "L0004"
+      ],
+      "mpn": "MPZ2012S331AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.013626810474195911,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0005",
+      "ids": [
+        "L0005"
+      ],
+      "mpn": "MPZ2012S601AT000",
+      "points": 1,
+      "frequency_min_hz": 3000000000.0,
+      "frequency_max_hz": 3000000000.0,
+      "max_relative_complex_error": 0.022499484929544854,
+      "worst_frequency_hz": 3000000000.0,
+      "limit": 0.03,
+      "passed": true
+    }
+  ]
+}

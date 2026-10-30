@@ -1,0 +1,760 @@
+{
+  "name": "murata_endpoint_vendor_ac",
+  "models": [
+    "../BLM21PG102SH1_MYLIB.ckt",
+    "../BLM21PG102SH1.mod",
+    "../BLM21PG102SN1_MYLIB.ckt",
+    "../BLM21PG102SN1.mod",
+    "../BLM21PG121SH1_MYLIB.ckt",
+    "../BLM21PG121SH1.mod",
+    "../BLM21PG121SN1_MYLIB.ckt",
+    "../BLM21PG121SN1.mod",
+    "../BLM21PG121SZ1_MYLIB.ckt",
+    "../BLM21PG121SZ1.mod",
+    "../BLM21PG220SH1_MYLIB.ckt",
+    "../BLM21PG220SH1.mod",
+    "../BLM21PG220SN1_MYLIB.ckt",
+    "../BLM21PG220SN1.mod",
+    "../BLM21PG220SZ1_MYLIB.ckt",
+    "../BLM21PG220SZ1.mod",
+    "../BLM21PG221SH1_MYLIB.ckt",
+    "../BLM21PG221SH1.mod",
+    "../BLM21PG221SN1_MYLIB.ckt",
+    "../BLM21PG221SN1.mod",
+    "../BLM21PG221SZ1_MYLIB.ckt",
+    "../BLM21PG221SZ1.mod",
+    "../BLM21PG300SH1_MYLIB.ckt",
+    "../BLM21PG300SH1.mod",
+    "../BLM21PG300SN1_MYLIB.ckt",
+    "../BLM21PG300SN1.mod",
+    "../BLM21PG300SZ1_MYLIB.ckt",
+    "../BLM21PG300SZ1.mod",
+    "../BLM21PG331SH1_MYLIB.ckt",
+    "../BLM21PG331SH1.mod",
+    "../BLM21PG331SN1_MYLIB.ckt",
+    "../BLM21PG331SN1.mod",
+    "../BLM21PG331SZ1_MYLIB.ckt",
+    "../BLM21PG331SZ1.mod",
+    "../BLM21PG600SH1_MYLIB.ckt",
+    "../BLM21PG600SH1.mod",
+    "../BLM21PG600SN1_MYLIB.ckt",
+    "../BLM21PG600SN1.mod",
+    "../BLM21PG600SZ1_MYLIB.ckt",
+    "../BLM21PG600SZ1.mod",
+    "../BLM21PG601SH1_MYLIB.ckt",
+    "../BLM21PG601SH1.mod",
+    "../BLM21PG601SN1_MYLIB.ckt",
+    "../BLM21PG601SN1.mod"
+  ],
+  "spice": "* Native MY_LIB versus original manufacturer SPICE; 25C, zero bias\n.OPTIONS TEMP=25\nVSL0060 sL0060 nL0060 0\nIL0060 0 sL0060 DC 0 AC 1\nIRL0060 0 rL0060 DC 0 AC 1\nXL0060 nL0060 0 BLM21PG102SH1_MYLIB\nXRL0060 rL0060 0 BLM21PG102SH1\nEL0060 dL0060 0 nL0060 rL0060 1\nVSL0036 sL0036 nL0036 0\nIL0036 0 sL0036 DC 0 AC 1\nIRL0036 0 rL0036 DC 0 AC 1\nXL0036 nL0036 0 BLM21PG102SN1_MYLIB\nXRL0036 rL0036 0 BLM21PG102SN1\nEL0036 dL0036 0 nL0036 rL0036 1\nVSL0048 sL0048 nL0048 0\nIL0048 0 sL0048 DC 0 AC 1\nIRL0048 0 rL0048 DC 0 AC 1\nXL0048 nL0048 0 BLM21PG121SH1_MYLIB\nXRL0048 rL0048 0 BLM21PG121SH1\nEL0048 dL0048 0 nL0048 rL0048 1\nVSL0024 sL0024 nL0024 0\nIL0024 0 sL0024 DC 0 AC 1\nIRL0024 0 rL0024 DC 0 AC 1\nXL0024 nL0024 0 BLM21PG121SN1_MYLIB\nXRL0024 rL0024 0 BLM21PG121SN1\nEL0024 dL0024 0 nL0024 rL0024 1\nVSL0072 sL0072 nL0072 0\nIL0072 0 sL0072 DC 0 AC 1\nIRL0072 0 rL0072 DC 0 AC 1\nXL0072 nL0072 0 BLM21PG121SZ1_MYLIB\nXRL0072 rL0072 0 BLM21PG121SZ1\nEL0072 dL0072 0 nL0072 rL0072 1\nVSL0039 sL0039 nL0039 0\nIL0039 0 sL0039 DC 0 AC 1\nIRL0039 0 rL0039 DC 0 AC 1\nXL0039 nL0039 0 BLM21PG220SH1_MYLIB\nXRL0039 rL0039 0 BLM21PG220SH1\nEL0039 dL0039 0 nL0039 rL0039 1\nVSL0015 sL0015 nL0015 0\nIL0015 0 sL0015 DC 0 AC 1\nIRL0015 0 rL0015 DC 0 AC 1\nXL0015 nL0015 0 BLM21PG220SN1_MYLIB\nXRL0015 rL0015 0 BLM21PG220SN1\nEL0015 dL0015 0 nL0015 rL0015 1\nVSL0063 sL0063 nL0063 0\nIL0063 0 sL0063 DC 0 AC 1\nIRL0063 0 rL0063 DC 0 AC 1\nXL0063 nL0063 0 BLM21PG220SZ1_MYLIB\nXRL0063 rL0063 0 BLM21PG220SZ1\nEL0063 dL0063 0 nL0063 rL0063 1\nVSL0051 sL0051 nL0051 0\nIL0051 0 sL0051 DC 0 AC 1\nIRL0051 0 rL0051 DC 0 AC 1\nXL0051 nL0051 0 BLM21PG221SH1_MYLIB\nXRL0051 rL0051 0 BLM21PG221SH1\nEL0051 dL0051 0 nL0051 rL0051 1\nVSL0027 sL0027 nL0027 0\nIL0027 0 sL0027 DC 0 AC 1\nIRL0027 0 rL0027 DC 0 AC 1\nXL0027 nL0027 0 BLM21PG221SN1_MYLIB\nXRL0027 rL0027 0 BLM21PG221SN1\nEL0027 dL0027 0 nL0027 rL0027 1\nVSL0075 sL0075 nL0075 0\nIL0075 0 sL0075 DC 0 AC 1\nIRL0075 0 rL0075 DC 0 AC 1\nXL0075 nL0075 0 BLM21PG221SZ1_MYLIB\nXRL0075 rL0075 0 BLM21PG221SZ1\nEL0075 dL0075 0 nL0075 rL0075 1\nVSL0042 sL0042 nL0042 0\nIL0042 0 sL0042 DC 0 AC 1\nIRL0042 0 rL0042 DC 0 AC 1\nXL0042 nL0042 0 BLM21PG300SH1_MYLIB\nXRL0042 rL0042 0 BLM21PG300SH1\nEL0042 dL0042 0 nL0042 rL0042 1\nVSL0018 sL0018 nL0018 0\nIL0018 0 sL0018 DC 0 AC 1\nIRL0018 0 rL0018 DC 0 AC 1\nXL0018 nL0018 0 BLM21PG300SN1_MYLIB\nXRL0018 rL0018 0 BLM21PG300SN1\nEL0018 dL0018 0 nL0018 rL0018 1\nVSL0066 sL0066 nL0066 0\nIL0066 0 sL0066 DC 0 AC 1\nIRL0066 0 rL0066 DC 0 AC 1\nXL0066 nL0066 0 BLM21PG300SZ1_MYLIB\nXRL0066 rL0066 0 BLM21PG300SZ1\nEL0066 dL0066 0 nL0066 rL0066 1\nVSL0054 sL0054 nL0054 0\nIL0054 0 sL0054 DC 0 AC 1\nIRL0054 0 rL0054 DC 0 AC 1\nXL0054 nL0054 0 BLM21PG331SH1_MYLIB\nXRL0054 rL0054 0 BLM21PG331SH1\nEL0054 dL0054 0 nL0054 rL0054 1\nVSL0030 sL0030 nL0030 0\nIL0030 0 sL0030 DC 0 AC 1\nIRL0030 0 rL0030 DC 0 AC 1\nXL0030 nL0030 0 BLM21PG331SN1_MYLIB\nXRL0030 rL0030 0 BLM21PG331SN1\nEL0030 dL0030 0 nL0030 rL0030 1\nVSL0078 sL0078 nL0078 0\nIL0078 0 sL0078 DC 0 AC 1\nIRL0078 0 rL0078 DC 0 AC 1\nXL0078 nL0078 0 BLM21PG331SZ1_MYLIB\nXRL0078 rL0078 0 BLM21PG331SZ1\nEL0078 dL0078 0 nL0078 rL0078 1\nVSL0045 sL0045 nL0045 0\nIL0045 0 sL0045 DC 0 AC 1\nIRL0045 0 rL0045 DC 0 AC 1\nXL0045 nL0045 0 BLM21PG600SH1_MYLIB\nXRL0045 rL0045 0 BLM21PG600SH1\nEL0045 dL0045 0 nL0045 rL0045 1\nVSL0021 sL0021 nL0021 0\nIL0021 0 sL0021 DC 0 AC 1\nIRL0021 0 rL0021 DC 0 AC 1\nXL0021 nL0021 0 BLM21PG600SN1_MYLIB\nXRL0021 rL0021 0 BLM21PG600SN1\nEL0021 dL0021 0 nL0021 rL0021 1\nVSL0069 sL0069 nL0069 0\nIL0069 0 sL0069 DC 0 AC 1\nIRL0069 0 rL0069 DC 0 AC 1\nXL0069 nL0069 0 BLM21PG600SZ1_MYLIB\nXRL0069 rL0069 0 BLM21PG600SZ1\nEL0069 dL0069 0 nL0069 rL0069 1\nVSL0057 sL0057 nL0057 0\nIL0057 0 sL0057 DC 0 AC 1\nIRL0057 0 rL0057 DC 0 AC 1\nXL0057 nL0057 0 BLM21PG601SH1_MYLIB\nXRL0057 rL0057 0 BLM21PG601SH1\nEL0057 dL0057 0 nL0057 rL0057 1\nVSL0033 sL0033 nL0033 0\nIL0033 0 sL0033 DC 0 AC 1\nIRL0033 0 rL0033 DC 0 AC 1\nXL0033 nL0033 0 BLM21PG601SN1_MYLIB\nXRL0033 rL0033 0 BLM21PG601SN1\nEL0033 dL0033 0 nL0033 rL0033 1\n.AC LIN 1 3G 3G\n.PLOT AC V(nL0015) V(rL0015) V(dL0015) I(VSL0015)\n.PLOT AC V(nL0018) V(rL0018) V(dL0018) I(VSL0018)\n.PLOT AC V(nL0021) V(rL0021) V(dL0021) I(VSL0021)\n.PLOT AC V(nL0024) V(rL0024) V(dL0024) I(VSL0024)\n.PLOT AC V(nL0027) V(rL0027) V(dL0027) I(VSL0027)\n.PLOT AC V(nL0030) V(rL0030) V(dL0030) I(VSL0030)\n.PLOT AC V(nL0033) V(rL0033) V(dL0033) I(VSL0033)\n.PLOT AC V(nL0036) V(rL0036) V(dL0036) I(VSL0036)\n.PLOT AC V(nL0039) V(rL0039) V(dL0039) I(VSL0039)\n.PLOT AC V(nL0042) V(rL0042) V(dL0042) I(VSL0042)\n.PLOT AC V(nL0045) V(rL0045) V(dL0045) I(VSL0045)\n.PLOT AC V(nL0048) V(rL0048) V(dL0048) I(VSL0048)\n.PLOT AC V(nL0051) V(rL0051) V(dL0051) I(VSL0051)\n.PLOT AC V(nL0054) V(rL0054) V(dL0054) I(VSL0054)\n.PLOT AC V(nL0057) V(rL0057) V(dL0057) I(VSL0057)\n.PLOT AC V(nL0060) V(rL0060) V(dL0060) I(VSL0060)\n.PLOT AC V(nL0063) V(rL0063) V(dL0063) I(VSL0063)\n.PLOT AC V(nL0066) V(rL0066) V(dL0066) I(VSL0066)\n.PLOT AC V(nL0069) V(rL0069) V(dL0069) I(VSL0069)\n.PLOT AC V(nL0072) V(rL0072) V(dL0072) I(VSL0072)\n.PLOT AC V(nL0075) V(rL0075) V(dL0075) I(VSL0075)\n.PLOT AC V(nL0078) V(rL0078) V(dL0078) I(VSL0078)\n.END\n",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0060)",
+      "current": "i(VSL0060)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.7842992475046597
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0036)",
+      "current": "i(VSL0036)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.7842992475046597
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0048)",
+      "current": "i(VSL0048)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0024)",
+      "current": "i(VSL0024)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0072)",
+      "current": "i(VSL0072)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0039)",
+      "current": "i(VSL0039)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.749570002711665
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0015)",
+      "current": "i(VSL0015)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.7495700027116652
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0063)",
+      "current": "i(VSL0063)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.749570002711665
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0051)",
+      "current": "i(VSL0051)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.3646973857025346
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0027)",
+      "current": "i(VSL0027)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.364697385702535
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0075)",
+      "current": "i(VSL0075)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.364697385702535
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0042)",
+      "current": "i(VSL0042)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604466
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0018)",
+      "current": "i(VSL0018)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604463
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0066)",
+      "current": "i(VSL0066)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604463
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0054)",
+      "current": "i(VSL0054)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.812945900657609
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0030)",
+      "current": "i(VSL0030)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.8129459006576087
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0078)",
+      "current": "i(VSL0078)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.8129459006576087
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0045)",
+      "current": "i(VSL0045)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.552894387827793
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0021)",
+      "current": "i(VSL0021)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.552894387827793
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0069)",
+      "current": "i(VSL0069)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.5528943878277928
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0057)",
+      "current": "i(VSL0057)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.6019149695647628
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0033)",
+      "current": "i(VSL0033)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.6019149695647628
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "type": "signal",
+        "name": "L0060_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0060)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0060_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0060)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0036_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0036)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0036_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0036)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0048_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0048)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0048_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0048)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0024_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0024)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0024_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0024)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0072_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0072)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0072_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0072)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0039_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0039)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0039_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0039)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0015_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0015)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0015_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0015)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0063_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0063)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0063_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0063)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0051_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0051)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0051_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0051)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0027_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0027)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0027_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0027)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0075_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0075)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0075_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0075)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0042_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0042)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0042_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0042)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0018_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0018)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0018_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0018)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0066_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0066)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0066_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0066)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0054_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0054)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0054_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0054)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0030_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0030)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0030_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0030)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0078_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0078)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0078_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0078)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0045_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0045)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0045_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0045)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0021_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0021)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0021_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0021)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0069_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0069)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0069_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0069)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0057_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0057)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0057_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0057)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0033_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0033)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0033_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0033)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      }
+    ]
+  }
+}

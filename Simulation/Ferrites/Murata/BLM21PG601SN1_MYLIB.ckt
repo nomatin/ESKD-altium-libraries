@@ -1,9 +1,11 @@
 * Independent passive RLC fit to sampled output of a Murata model (ngspice).
 * Derived from Murata model behavior; 25 degC, 0 A DC bias, small signal.
-* Fit range 1 MHz to 3 GHz; DC set from supplied near-DC output.
+* Fit range 1 MHz to 3 GHz.
+* Rdc=0.14 Ohm: initial datasheet maximum, not typical measured resistance.
+* 2026-10-30: overrides vendor-SPICE DC value 0.17 Ohm; remaining RLC unchanged.
 .SUBCKT BLM21PG601SN1_MYLIB 1 2
 Cpar 1 2 2.70085096308167e-14
-Rdc 1 n0 0.170000000002307
+Rdc 1 n0 0.14
 Linf n0 n1 1.03511098664583e-11
 R1 n1 n2 998196.023928692
 L1 n1 n2 1.00002720216733e-11

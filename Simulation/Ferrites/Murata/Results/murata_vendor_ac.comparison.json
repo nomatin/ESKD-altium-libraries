@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "criterion": "abs(Z_MYLIB-Z_VENDOR)/abs(Z_VENDOR) <= 0.03 on every exported point; identical 1 A AC injection",
+  "models": [
+    {
+      "id": "L0060",
+      "ids": [
+        "L0058",
+        "L0059",
+        "L0060"
+      ],
+      "mpn": "BLM21PG102SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 2.767618673844552e-06,
+      "worst_frequency_hz": 120226443.46174066,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0036",
+      "ids": [
+        "L0034",
+        "L0035",
+        "L0036"
+      ],
+      "mpn": "BLM21PG102SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 2.7676186738621113e-06,
+      "worst_frequency_hz": 120226443.46174066,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0048",
+      "ids": [
+        "L0046",
+        "L0047",
+        "L0048"
+      ],
+      "mpn": "BLM21PG121SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 2.29661347952535e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0024",
+      "ids": [
+        "L0022",
+        "L0023",
+        "L0024"
+      ],
+      "mpn": "BLM21PG121SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 2.2966134205456825e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0072",
+      "ids": [
+        "L0070",
+        "L0071",
+        "L0072"
+      ],
+      "mpn": "BLM21PG121SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 2.296613480599686e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0039",
+      "ids": [
+        "L0037",
+        "L0038",
+        "L0039"
+      ],
+      "mpn": "BLM21PG220SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 4.3977944590723615e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0015",
+      "ids": [
+        "L0013",
+        "L0014",
+        "L0015"
+      ],
+      "mpn": "BLM21PG220SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 4.3977944590723615e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0063",
+      "ids": [
+        "L0061",
+        "L0062",
+        "L0063"
+      ],
+      "mpn": "BLM21PG220SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 4.3977944590723615e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0051",
+      "ids": [
+        "L0049",
+        "L0050",
+        "L0051"
+      ],
+      "mpn": "BLM21PG221SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.003180524719612369,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0027",
+      "ids": [
+        "L0025",
+        "L0026",
+        "L0027"
+      ],
+      "mpn": "BLM21PG221SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.0031805247196121838,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0075",
+      "ids": [
+        "L0073",
+        "L0074",
+        "L0075"
+      ],
+      "mpn": "BLM21PG221SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.0031805247196121946,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0042",
+      "ids": [
+        "L0040",
+        "L0041",
+        "L0042"
+      ],
+      "mpn": "BLM21PG300SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 5.0154502941198895e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0018",
+      "ids": [
+        "L0016",
+        "L0017",
+        "L0018"
+      ],
+      "mpn": "BLM21PG300SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 5.0154502865386214e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0066",
+      "ids": [
+        "L0064",
+        "L0065",
+        "L0066"
+      ],
+      "mpn": "BLM21PG300SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 5.0154502857515774e-05,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0054",
+      "ids": [
+        "L0052",
+        "L0053",
+        "L0054"
+      ],
+      "mpn": "BLM21PG331SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.001825695769020217,
+      "worst_frequency_hz": 1995262314.9688625,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0030",
+      "ids": [
+        "L0028",
+        "L0029",
+        "L0030"
+      ],
+      "mpn": "BLM21PG331SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.00182569576902048,
+      "worst_frequency_hz": 1995262314.9688625,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0078",
+      "ids": [
+        "L0076",
+        "L0077",
+        "L0078"
+      ],
+      "mpn": "BLM21PG331SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.0018256957685241454,
+      "worst_frequency_hz": 1995262314.9688625,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0045",
+      "ids": [
+        "L0043",
+        "L0044",
+        "L0045"
+      ],
+      "mpn": "BLM21PG600SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 1.3340638426901273e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0021",
+      "ids": [
+        "L0019",
+        "L0020",
+        "L0021"
+      ],
+      "mpn": "BLM21PG600SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 1.3340639630442218e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0069",
+      "ids": [
+        "L0067",
+        "L0068",
+        "L0069"
+      ],
+      "mpn": "BLM21PG600SZ1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 1.3340620422827547e-06,
+      "worst_frequency_hz": 2951209226.6663585,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0057",
+      "ids": [
+        "L0055",
+        "L0056",
+        "L0057"
+      ],
+      "mpn": "BLM21PG601SH1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.0010824067970867188,
+      "worst_frequency_hz": 1000000.0,
+      "limit": 0.03,
+      "passed": true
+    },
+    {
+      "id": "L0033",
+      "ids": [
+        "L0031",
+        "L0032",
+        "L0033"
+      ],
+      "mpn": "BLM21PG601SN1B",
+      "points": 348,
+      "frequency_min_hz": 1000000.0,
+      "frequency_max_hz": 2951209226.6663585,
+      "max_relative_complex_error": 0.0010824067970867518,
+      "worst_frequency_hz": 1000000.0,
+      "limit": 0.03,
+      "passed": true
+    }
+  ]
+}

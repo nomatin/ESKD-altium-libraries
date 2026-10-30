@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "test": "tdk_datasheet_dc",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "measurement": "last",
+      "signal": "v(nL0001)",
+      "min": 0,
+      "max": 1.0001000000000001e-05,
+      "value": 7.000000000220546e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0002)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.4000000005406465e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0003)",
+      "min": 0,
+      "max": 4.0001000000000005e-05,
+      "value": 2.7999999991324685e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0004)",
+      "min": 0,
+      "max": 5.0001000000000005e-05,
+      "value": 3.5000000003541984e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0005)",
+      "min": 0,
+      "max": 0.00010000100000000001,
+      "value": 7.000000000079307e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0006)",
+      "min": 0,
+      "max": 0.00015000099999999998,
+      "value": 0.00010499999988768528,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\5d6153325d844d74b5a9be8baa9323ae",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\5d6153325d844d74b5a9be8baa9323ae\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_33c692264bc044d482e63b3f9b797529.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

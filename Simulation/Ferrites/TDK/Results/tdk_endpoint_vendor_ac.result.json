@@ -1,0 +1,321 @@
+{
+  "status": "PASS",
+  "test": "tdk_endpoint_vendor_ac",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 2.277037492836022,
+      "value": 0.032170035539982225,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.2831453474747099,
+      "value": 0.8682873278712235,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9690323715299627,
+      "value": 0.5378209368002533,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.2815273125717976,
+      "value": 0.051328629957997814,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.8255392523854486,
+      "value": 0.8292092468487271,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.3427974277763337,
+      "value": 1.0070750163228404,
+      "unit": "Ohm",
+      "passed": true
+    }
+  ],
+  "error": null,
+  "graphs": [
+    {
+      "name": "L0002_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        57.40546509877196
+      ],
+      "imag": [
+        -49.681091389754165
+      ]
+    },
+    {
+      "name": "L0002_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        57.3746960562144
+      ],
+      "imag": [
+        -49.69048166167432
+      ]
+    },
+    {
+      "name": "L0006_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        21.640972893885746
+      ],
+      "imag": [
+        -37.69608025155561
+      ]
+    },
+    {
+      "name": "L0006_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        20.845556475015307
+      ],
+      "imag": [
+        -37.34789121621262
+      ]
+    },
+    {
+      "name": "L0003_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.781102392939374
+      ],
+      "imag": [
+        -55.512571970204796
+      ]
+    },
+    {
+      "name": "L0003_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.267064629044555
+      ],
+      "imag": [
+        -55.35440580014711
+      ]
+    },
+    {
+      "name": "L0001_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        42.27131621196414
+      ],
+      "imag": [
+        -6.12433871975595
+      ]
+    },
+    {
+      "name": "L0001_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        42.268821536405206
+      ],
+      "imag": [
+        -6.175606690724389
+      ]
+    },
+    {
+      "name": "L0004_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        28.606253172912986
+      ],
+      "imag": [
+        -54.431992710038635
+      ]
+    },
+    {
+      "name": "L0004_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        27.84308209108586
+      ],
+      "imag": [
+        -54.107712160325505
+      ]
+    },
+    {
+      "name": "L0005_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        22.856527147517188
+      ],
+      "imag": [
+        -39.53084324900563
+      ]
+    },
+    {
+      "name": "L0005_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        22.021389103860834
+      ],
+      "imag": [
+        -38.96804263018979
+      ]
+    }
+  ],
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\16f2b992323541428e9e215eff728950",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\16f2b992323541428e9e215eff728950\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_ecf0f60251eb475d9daeeb19c5c0b7fa.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

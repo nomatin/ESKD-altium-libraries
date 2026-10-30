@@ -1,0 +1,46 @@
+[
+  {
+    "test": "tdk_datasheet_dc.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "tdk_datasheet_ac_100MHz.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "tdk_vendor_ac.json",
+    "status": "PASS",
+    "checks": 18,
+    "passed": 18,
+    "failed": 0,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 2088
+  },
+  {
+    "test": "tdk_vendor_dc.json",
+    "status": "PASS",
+    "checks": 12,
+    "passed": 12,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "tdk_endpoint_vendor_ac.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "failed": 0,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 6
+  }
+]

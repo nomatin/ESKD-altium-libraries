@@ -1,0 +1,50 @@
+{
+  "name": "tdk_datasheet_dc",
+  "models": [
+    "../MPZ2012S300AT000_TERRA.ckt",
+    "../MPZ2012S101AT000_TERRA.ckt",
+    "../MPZ2012S221AT000_TERRA.ckt",
+    "../MPZ2012S331AT000_TERRA.ckt",
+    "../MPZ2012S601AT000_TERRA.ckt",
+    "../MPZ2012S102AT000_TERRA.ckt"
+  ],
+  "spice": "* Datasheet initial DCR; 1mA diagnostic; linear model\n .OPTIONS TEMP=25\nIL0001 0 nL0001 DC 1m\nXL0001 nL0001 0 MPZ2012S300AT000_TERRA\nIL0002 0 nL0002 DC 1m\nXL0002 nL0002 0 MPZ2012S101AT000_TERRA\nIL0003 0 nL0003 DC 1m\nXL0003 nL0003 0 MPZ2012S221AT000_TERRA\nIL0004 0 nL0004 DC 1m\nXL0004 nL0004 0 MPZ2012S331AT000_TERRA\nIL0005 0 nL0005 DC 1m\nXL0005 nL0005 0 MPZ2012S601AT000_TERRA\nIL0006 0 nL0006 DC 1m\nXL0006 nL0006 0 MPZ2012S102AT000_TERRA\n.TRAN 1n 10n\n.PLOT TRAN V(nL0001)\n.PLOT TRAN V(nL0002)\n.PLOT TRAN V(nL0003)\n.PLOT TRAN V(nL0004)\n.PLOT TRAN V(nL0005)\n.PLOT TRAN V(nL0006)\n.END\n",
+  "checks": [
+    {
+      "measurement": "last",
+      "signal": "v(nL0001)",
+      "min": 0,
+      "max": 1.0001000000000001e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0002)",
+      "min": 0,
+      "max": 2.0001e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0003)",
+      "min": 0,
+      "max": 4.0001000000000005e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0004)",
+      "min": 0,
+      "max": 5.0001000000000005e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0005)",
+      "min": 0,
+      "max": 0.00010000100000000001
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0006)",
+      "min": 0,
+      "max": 0.00015000099999999998
+    }
+  ]
+}

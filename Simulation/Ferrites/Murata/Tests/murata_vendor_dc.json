@@ -1,0 +1,316 @@
+{
+  "name": "murata_vendor_dc",
+  "models": [
+    "../BLM21PG102SH1_MYLIB.ckt",
+    "../BLM21PG102SH1.mod",
+    "../BLM21PG102SN1_MYLIB.ckt",
+    "../BLM21PG102SN1.mod",
+    "../BLM21PG121SH1_MYLIB.ckt",
+    "../BLM21PG121SH1.mod",
+    "../BLM21PG121SN1_MYLIB.ckt",
+    "../BLM21PG121SN1.mod",
+    "../BLM21PG121SZ1_MYLIB.ckt",
+    "../BLM21PG121SZ1.mod",
+    "../BLM21PG220SH1_MYLIB.ckt",
+    "../BLM21PG220SH1.mod",
+    "../BLM21PG220SN1_MYLIB.ckt",
+    "../BLM21PG220SN1.mod",
+    "../BLM21PG220SZ1_MYLIB.ckt",
+    "../BLM21PG220SZ1.mod",
+    "../BLM21PG221SH1_MYLIB.ckt",
+    "../BLM21PG221SH1.mod",
+    "../BLM21PG221SN1_MYLIB.ckt",
+    "../BLM21PG221SN1.mod",
+    "../BLM21PG221SZ1_MYLIB.ckt",
+    "../BLM21PG221SZ1.mod",
+    "../BLM21PG300SH1_MYLIB.ckt",
+    "../BLM21PG300SH1.mod",
+    "../BLM21PG300SN1_MYLIB.ckt",
+    "../BLM21PG300SN1.mod",
+    "../BLM21PG300SZ1_MYLIB.ckt",
+    "../BLM21PG300SZ1.mod",
+    "../BLM21PG331SH1_MYLIB.ckt",
+    "../BLM21PG331SH1.mod",
+    "../BLM21PG331SN1_MYLIB.ckt",
+    "../BLM21PG331SN1.mod",
+    "../BLM21PG331SZ1_MYLIB.ckt",
+    "../BLM21PG331SZ1.mod",
+    "../BLM21PG600SH1_MYLIB.ckt",
+    "../BLM21PG600SH1.mod",
+    "../BLM21PG600SN1_MYLIB.ckt",
+    "../BLM21PG600SN1.mod",
+    "../BLM21PG600SZ1_MYLIB.ckt",
+    "../BLM21PG600SZ1.mod",
+    "../BLM21PG601SH1_MYLIB.ckt",
+    "../BLM21PG601SH1.mod",
+    "../BLM21PG601SN1_MYLIB.ckt",
+    "../BLM21PG601SN1.mod"
+  ],
+  "spice": "* DC comparison versus original manufacturer SPICE\n.OPTIONS TEMP=25\nVSL0060 sL0060 nL0060 0\nIL0060 0 sL0060 DC 1m\nIRL0060 0 rL0060 DC 1m\nXL0060 nL0060 0 BLM21PG102SH1_MYLIB\nXRL0060 rL0060 0 BLM21PG102SH1\nEL0060 dL0060 0 nL0060 rL0060 1\nVSL0036 sL0036 nL0036 0\nIL0036 0 sL0036 DC 1m\nIRL0036 0 rL0036 DC 1m\nXL0036 nL0036 0 BLM21PG102SN1_MYLIB\nXRL0036 rL0036 0 BLM21PG102SN1\nEL0036 dL0036 0 nL0036 rL0036 1\nVSL0048 sL0048 nL0048 0\nIL0048 0 sL0048 DC 1m\nIRL0048 0 rL0048 DC 1m\nXL0048 nL0048 0 BLM21PG121SH1_MYLIB\nXRL0048 rL0048 0 BLM21PG121SH1\nEL0048 dL0048 0 nL0048 rL0048 1\nVSL0024 sL0024 nL0024 0\nIL0024 0 sL0024 DC 1m\nIRL0024 0 rL0024 DC 1m\nXL0024 nL0024 0 BLM21PG121SN1_MYLIB\nXRL0024 rL0024 0 BLM21PG121SN1\nEL0024 dL0024 0 nL0024 rL0024 1\nVSL0072 sL0072 nL0072 0\nIL0072 0 sL0072 DC 1m\nIRL0072 0 rL0072 DC 1m\nXL0072 nL0072 0 BLM21PG121SZ1_MYLIB\nXRL0072 rL0072 0 BLM21PG121SZ1\nEL0072 dL0072 0 nL0072 rL0072 1\nVSL0039 sL0039 nL0039 0\nIL0039 0 sL0039 DC 1m\nIRL0039 0 rL0039 DC 1m\nXL0039 nL0039 0 BLM21PG220SH1_MYLIB\nXRL0039 rL0039 0 BLM21PG220SH1\nEL0039 dL0039 0 nL0039 rL0039 1\nVSL0015 sL0015 nL0015 0\nIL0015 0 sL0015 DC 1m\nIRL0015 0 rL0015 DC 1m\nXL0015 nL0015 0 BLM21PG220SN1_MYLIB\nXRL0015 rL0015 0 BLM21PG220SN1\nEL0015 dL0015 0 nL0015 rL0015 1\nVSL0063 sL0063 nL0063 0\nIL0063 0 sL0063 DC 1m\nIRL0063 0 rL0063 DC 1m\nXL0063 nL0063 0 BLM21PG220SZ1_MYLIB\nXRL0063 rL0063 0 BLM21PG220SZ1\nEL0063 dL0063 0 nL0063 rL0063 1\nVSL0051 sL0051 nL0051 0\nIL0051 0 sL0051 DC 1m\nIRL0051 0 rL0051 DC 1m\nXL0051 nL0051 0 BLM21PG221SH1_MYLIB\nXRL0051 rL0051 0 BLM21PG221SH1\nEL0051 dL0051 0 nL0051 rL0051 1\nVSL0027 sL0027 nL0027 0\nIL0027 0 sL0027 DC 1m\nIRL0027 0 rL0027 DC 1m\nXL0027 nL0027 0 BLM21PG221SN1_MYLIB\nXRL0027 rL0027 0 BLM21PG221SN1\nEL0027 dL0027 0 nL0027 rL0027 1\nVSL0075 sL0075 nL0075 0\nIL0075 0 sL0075 DC 1m\nIRL0075 0 rL0075 DC 1m\nXL0075 nL0075 0 BLM21PG221SZ1_MYLIB\nXRL0075 rL0075 0 BLM21PG221SZ1\nEL0075 dL0075 0 nL0075 rL0075 1\nVSL0042 sL0042 nL0042 0\nIL0042 0 sL0042 DC 1m\nIRL0042 0 rL0042 DC 1m\nXL0042 nL0042 0 BLM21PG300SH1_MYLIB\nXRL0042 rL0042 0 BLM21PG300SH1\nEL0042 dL0042 0 nL0042 rL0042 1\nVSL0018 sL0018 nL0018 0\nIL0018 0 sL0018 DC 1m\nIRL0018 0 rL0018 DC 1m\nXL0018 nL0018 0 BLM21PG300SN1_MYLIB\nXRL0018 rL0018 0 BLM21PG300SN1\nEL0018 dL0018 0 nL0018 rL0018 1\nVSL0066 sL0066 nL0066 0\nIL0066 0 sL0066 DC 1m\nIRL0066 0 rL0066 DC 1m\nXL0066 nL0066 0 BLM21PG300SZ1_MYLIB\nXRL0066 rL0066 0 BLM21PG300SZ1\nEL0066 dL0066 0 nL0066 rL0066 1\nVSL0054 sL0054 nL0054 0\nIL0054 0 sL0054 DC 1m\nIRL0054 0 rL0054 DC 1m\nXL0054 nL0054 0 BLM21PG331SH1_MYLIB\nXRL0054 rL0054 0 BLM21PG331SH1\nEL0054 dL0054 0 nL0054 rL0054 1\nVSL0030 sL0030 nL0030 0\nIL0030 0 sL0030 DC 1m\nIRL0030 0 rL0030 DC 1m\nXL0030 nL0030 0 BLM21PG331SN1_MYLIB\nXRL0030 rL0030 0 BLM21PG331SN1\nEL0030 dL0030 0 nL0030 rL0030 1\nVSL0078 sL0078 nL0078 0\nIL0078 0 sL0078 DC 1m\nIRL0078 0 rL0078 DC 1m\nXL0078 nL0078 0 BLM21PG331SZ1_MYLIB\nXRL0078 rL0078 0 BLM21PG331SZ1\nEL0078 dL0078 0 nL0078 rL0078 1\nVSL0045 sL0045 nL0045 0\nIL0045 0 sL0045 DC 1m\nIRL0045 0 rL0045 DC 1m\nXL0045 nL0045 0 BLM21PG600SH1_MYLIB\nXRL0045 rL0045 0 BLM21PG600SH1\nEL0045 dL0045 0 nL0045 rL0045 1\nVSL0021 sL0021 nL0021 0\nIL0021 0 sL0021 DC 1m\nIRL0021 0 rL0021 DC 1m\nXL0021 nL0021 0 BLM21PG600SN1_MYLIB\nXRL0021 rL0021 0 BLM21PG600SN1\nEL0021 dL0021 0 nL0021 rL0021 1\nVSL0069 sL0069 nL0069 0\nIL0069 0 sL0069 DC 1m\nIRL0069 0 rL0069 DC 1m\nXL0069 nL0069 0 BLM21PG600SZ1_MYLIB\nXRL0069 rL0069 0 BLM21PG600SZ1\nEL0069 dL0069 0 nL0069 rL0069 1\nVSL0057 sL0057 nL0057 0\nIL0057 0 sL0057 DC 1m\nIRL0057 0 rL0057 DC 1m\nXL0057 nL0057 0 BLM21PG601SH1_MYLIB\nXRL0057 rL0057 0 BLM21PG601SH1\nEL0057 dL0057 0 nL0057 rL0057 1\nVSL0033 sL0033 nL0033 0\nIL0033 0 sL0033 DC 1m\nIRL0033 0 rL0033 DC 1m\nXL0033 nL0033 0 BLM21PG601SN1_MYLIB\nXRL0033 rL0033 0 BLM21PG601SN1\nEL0033 dL0033 0 nL0033 rL0033 1\n.TRAN 1n 10n\n.PLOT TRAN V(nL0015) V(dL0015)\n.PLOT TRAN V(nL0018) V(dL0018)\n.PLOT TRAN V(nL0021) V(dL0021)\n.PLOT TRAN V(nL0024) V(dL0024)\n.PLOT TRAN V(nL0027) V(dL0027)\n.PLOT TRAN V(nL0030) V(dL0030)\n.PLOT TRAN V(nL0033) V(dL0033)\n.PLOT TRAN V(nL0036) V(dL0036)\n.PLOT TRAN V(nL0039) V(dL0039)\n.PLOT TRAN V(nL0042) V(dL0042)\n.PLOT TRAN V(nL0045) V(dL0045)\n.PLOT TRAN V(nL0048) V(dL0048)\n.PLOT TRAN V(nL0051) V(dL0051)\n.PLOT TRAN V(nL0054) V(dL0054)\n.PLOT TRAN V(nL0057) V(dL0057)\n.PLOT TRAN V(nL0060) V(dL0060)\n.PLOT TRAN V(nL0063) V(dL0063)\n.PLOT TRAN V(nL0066) V(dL0066)\n.PLOT TRAN V(nL0069) V(dL0069)\n.PLOT TRAN V(nL0072) V(dL0072)\n.PLOT TRAN V(nL0075) V(dL0075)\n.PLOT TRAN V(nL0078) V(dL0078)\n.END\n",
+  "checks": [
+    {
+      "measurement": "last",
+      "signal": "v(nL0060)",
+      "min": 0.00019998000000350983,
+      "max": 0.0002000200000035105
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0060)",
+      "min": -2.0000000000351016e-08,
+      "max": 2.0000000000351016e-08
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0036)",
+      "min": 0.00019998000000350983,
+      "max": 0.0002000200000035105
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0036)",
+      "min": -2.0000000000351016e-08,
+      "max": 2.0000000000351016e-08
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0048)",
+      "min": 2.1997800000337856e-05,
+      "max": 2.2002200000337926e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0048)",
+      "min": -2.2000000000337893e-09,
+      "max": 2.2000000000337893e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0024)",
+      "min": 2.1997800000337856e-05,
+      "max": 2.2002200000337926e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0024)",
+      "min": -2.2000000000337893e-09,
+      "max": 2.2000000000337893e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0072)",
+      "min": 2.1997800000337856e-05,
+      "max": 2.2002200000337926e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0072)",
+      "min": -2.2000000000337893e-09,
+      "max": 2.2000000000337893e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0039)",
+      "min": 2.9990000000636723e-06,
+      "max": 3.0010000000636725e-06
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0039)",
+      "min": -1e-09,
+      "max": 1e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0015)",
+      "min": 2.9990000000636723e-06,
+      "max": 3.0010000000636725e-06
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0015)",
+      "min": -1e-09,
+      "max": 1e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0063)",
+      "min": 2.9990000000636723e-06,
+      "max": 3.0010000000636725e-06
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0063)",
+      "min": -1e-09,
+      "max": 1e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0051)",
+      "min": 2.9997000000661585e-05,
+      "max": 3.000300000066172e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0051)",
+      "min": -3.0000000000661653e-09,
+      "max": 3.0000000000661653e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0027)",
+      "min": 2.9997000000661585e-05,
+      "max": 3.000300000066172e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0027)",
+      "min": -3.0000000000661653e-09,
+      "max": 3.0000000000661653e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0075)",
+      "min": 2.9997000000661585e-05,
+      "max": 3.000300000066172e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0075)",
+      "min": -3.0000000000661653e-09,
+      "max": 3.0000000000661653e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0042)",
+      "min": 9.999000000084351e-06,
+      "max": 1.000100000008437e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0042)",
+      "min": -1.000000000008436e-09,
+      "max": 1.000000000008436e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0018)",
+      "min": 9.999000000084351e-06,
+      "max": 1.000100000008437e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0018)",
+      "min": -1.000000000008436e-09,
+      "max": 1.000000000008436e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0066)",
+      "min": 9.999000000084351e-06,
+      "max": 1.000100000008437e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0066)",
+      "min": -1.000000000008436e-09,
+      "max": 1.000000000008436e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0054)",
+      "min": 4.99950000010188e-05,
+      "max": 5.0005000001019e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0054)",
+      "min": -5.0000000001018906e-09,
+      "max": 5.0000000001018906e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0030)",
+      "min": 4.99950000010188e-05,
+      "max": 5.0005000001019e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0030)",
+      "min": -5.0000000001018906e-09,
+      "max": 5.0000000001018906e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0078)",
+      "min": 4.99950000010188e-05,
+      "max": 5.0005000001019e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0078)",
+      "min": -5.0000000001018906e-09,
+      "max": 5.0000000001018906e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0045)",
+      "min": 9.99900000021922e-06,
+      "max": 1.0001000000219264e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0045)",
+      "min": -1.0000000000219243e-09,
+      "max": 1.0000000000219243e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0021)",
+      "min": 9.99900000021922e-06,
+      "max": 1.0001000000219264e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0021)",
+      "min": -1.0000000000219243e-09,
+      "max": 1.0000000000219243e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0069)",
+      "min": 9.99900000021922e-06,
+      "max": 1.0001000000219264e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0069)",
+      "min": -1.0000000000219243e-09,
+      "max": 1.0000000000219243e-09
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0057)",
+      "min": 0.000139986,
+      "max": 0.00014001400000000002
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0057)",
+      "min": -3.0017000002307274e-05,
+      "max": -2.9983000002306814e-05
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0033)",
+      "min": 0.000139986,
+      "max": 0.00014001400000000002
+    },
+    {
+      "measurement": "last",
+      "signal": "v(dL0033)",
+      "min": -3.0017000002307274e-05,
+      "max": -2.9983000002306814e-05
+    }
+  ]
+}

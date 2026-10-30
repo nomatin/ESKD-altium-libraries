@@ -1,0 +1,553 @@
+{
+  "status": "PASS",
+  "test": "murata_datasheet_dc",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "measurement": "last",
+      "signal": "v(nL0013)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.0000000001330562e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0014)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.0000000001330562e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0015)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000174688e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0016)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 9.999999888199926e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0017)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000068205945e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0018)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000068205945e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0019)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 9.999999981325269e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0020)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000022192481e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0021)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000016204454e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0022)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.2000000000448917e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0023)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.2000000000448917e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0024)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.2000000000488968e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0025)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.0000000000633934e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0026)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.000000000068963e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0027)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.0000000000633934e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0028)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.00000000014417e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0029)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.0000000001351955e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0030)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.0000000001351955e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0031)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.00013999999999969468,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0032)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.00013999999999969468,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0033)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.00013999999999969468,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0034)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000266346,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0035)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000266346,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0036)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000266346,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0037)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000306532e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0038)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000306532e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0039)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000306532e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0040)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 9.999999888199926e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0041)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000035331844e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0042)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000077505997e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0043)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000032494807e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0044)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000030598541e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0045)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.000000000380495e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0046)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.200000000136871e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0047)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.199999998965608e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0048)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.1999999999415682e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0049)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.0000000000495153e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0050)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.000000000049404e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0051)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.000000000049404e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0052)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.000000000162954e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0053)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.0000000001686025e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0054)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.000000000162954e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0055)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.0001399999999995698,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0056)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.0001399999999996233,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0057)",
+      "min": 0,
+      "max": 0.000140001,
+      "value": 0.0001399999999995698,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0058)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000130338,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0059)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000048102,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0060)",
+      "min": 0,
+      "max": 0.000200001,
+      "value": 0.00020000000000121884,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0061)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000049793e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0062)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.0000000001608106e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0063)",
+      "min": 0,
+      "max": 9.001e-06,
+      "value": 3.000000000049793e-06,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0064)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000000327245e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0065)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000000119094e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0066)",
+      "min": 0,
+      "max": 1.4001e-05,
+      "value": 1.0000000095884146e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0067)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000032019591e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0068)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000023799587e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0069)",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.0000000025396297e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0070)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.1999999999178232e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0071)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.2000000000296264e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0072)",
+      "min": 0,
+      "max": 3.0001e-05,
+      "value": 2.2000000000241763e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0073)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 2.9999999811361315e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0074)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.0000000000633934e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0075)",
+      "min": 0,
+      "max": 4.5001e-05,
+      "value": 3.0000000000521987e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0076)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.0000000001643395e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0077)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.0000000000080626e-05,
+      "passed": true
+    },
+    {
+      "measurement": "last",
+      "signal": "v(nL0078)",
+      "min": 0,
+      "max": 7.000100000000001e-05,
+      "value": 5.000000000204308e-05,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\bc618fbfe1b640719c19663b7ddf046e",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\bc618fbfe1b640719c19663b7ddf046e\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_f2ee9c3e42fd4121808cee13565b4e73.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

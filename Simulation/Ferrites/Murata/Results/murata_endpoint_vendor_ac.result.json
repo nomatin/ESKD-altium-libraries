@@ -1,0 +1,1105 @@
+{
+  "status": "PASS",
+  "test": "murata_endpoint_vendor_ac",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0060)",
+      "current": "i(VSL0060)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.7842992475046597,
+      "value": 0.00013145742128937432,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0036)",
+      "current": "i(VSL0036)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.7842992475046597,
+      "value": 0.00013145742129820368,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0048)",
+      "current": "i(VSL0048)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935,
+      "value": 0.0001797464762728453,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0024)",
+      "current": "i(VSL0024)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935,
+      "value": 0.00017974647700737636,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0072)",
+      "current": "i(VSL0072)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.9691461946047935,
+      "value": 0.0001797464753096371,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0039)",
+      "current": "i(VSL0039)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.749570002711665,
+      "value": 0.0012465475094428817,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0015)",
+      "current": "i(VSL0015)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.7495700027116652,
+      "value": 0.0012465475094428817,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0063)",
+      "current": "i(VSL0063)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.749570002711665,
+      "value": 0.0012465475094428817,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0051)",
+      "current": "i(VSL0051)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.3646973857025346,
+      "value": 0.17653832455493365,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0027)",
+      "current": "i(VSL0027)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.364697385702535,
+      "value": 0.17653832455492346,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0075)",
+      "current": "i(VSL0075)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.364697385702535,
+      "value": 0.17653832455492272,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0042)",
+      "current": "i(VSL0042)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604466,
+      "value": 0.0020416243548977346,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0018)",
+      "current": "i(VSL0018)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604463,
+      "value": 0.002041624349460106,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0066)",
+      "current": "i(VSL0066)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0752147289604463,
+      "value": 0.002041624354659453,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0054)",
+      "current": "i(VSL0054)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.812945900657609,
+      "value": 0.13361609584256268,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0030)",
+      "current": "i(VSL0030)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.8129459006576087,
+      "value": 0.13361609584256956,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0078)",
+      "current": "i(VSL0078)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.8129459006576087,
+      "value": 0.1336160958222606,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0045)",
+      "current": "i(VSL0045)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.552894387827793,
+      "value": 8.662183614108329e-05,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0021)",
+      "current": "i(VSL0021)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.552894387827793,
+      "value": 8.662181789084126e-05,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0069)",
+      "current": "i(VSL0069)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.5528943878277928,
+      "value": 8.662178574732012e-05,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0057)",
+      "current": "i(VSL0057)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.6019149695647628,
+      "value": 0.028493238415795114,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0033)",
+      "current": "i(VSL0033)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.6019149695647628,
+      "value": 0.028493238415798955,
+      "unit": "Ohm",
+      "passed": true
+    }
+  ],
+  "error": null,
+  "graphs": [
+    {
+      "name": "L0060_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.263544628987166
+      ],
+      "imag": [
+        -53.36367401990313
+      ]
+    },
+    {
+      "name": "L0060_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.263581925072867
+      ],
+      "imag": [
+        -53.363800075666994
+      ]
+    },
+    {
+      "name": "L0036_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.26354462898716
+      ],
+      "imag": [
+        -53.36367401990312
+      ]
+    },
+    {
+      "name": "L0036_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.263581925072867
+      ],
+      "imag": [
+        -53.363800075666994
+      ]
+    },
+    {
+      "name": "L0048_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.03827430855014
+      ],
+      "imag": [
+        -42.47988177499668
+      ]
+    },
+    {
+      "name": "L0048_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.03818896610189
+      ],
+      "imag": [
+        -42.48003996937793
+      ]
+    },
+    {
+      "name": "L0024_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.038274308549035
+      ],
+      "imag": [
+        -42.47988177499523
+      ]
+    },
+    {
+      "name": "L0024_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.03818896610187
+      ],
+      "imag": [
+        -42.4800399693779
+      ]
+    },
+    {
+      "name": "L0072_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.0382743085478
+      ],
+      "imag": [
+        -42.47988177499651
+      ]
+    },
+    {
+      "name": "L0072_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        50.03818896610189
+      ],
+      "imag": [
+        -42.48003996937793
+      ]
+    },
+    {
+      "name": "L0039_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.749223715853937
+      ],
+      "imag": [
+        3.4354822532624643
+      ]
+    },
+    {
+      "name": "L0039_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.748493837705293
+      ],
+      "imag": [
+        3.434471729348135
+      ]
+    },
+    {
+      "name": "L0015_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.749223715853937
+      ],
+      "imag": [
+        3.4354822532624643
+      ]
+    },
+    {
+      "name": "L0015_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.748493837705293
+      ],
+      "imag": [
+        3.434471729348135
+      ]
+    },
+    {
+      "name": "L0063_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.749223715853937
+      ],
+      "imag": [
+        3.4354822532624643
+      ]
+    },
+    {
+      "name": "L0063_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        24.748493837705293
+      ],
+      "imag": [
+        3.434471729348135
+      ]
+    },
+    {
+      "name": "L0051_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        27.01194732029858
+      ],
+      "imag": [
+        -36.45638489964458
+      ]
+    },
+    {
+      "name": "L0051_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.974955597347133
+      ],
+      "imag": [
+        -36.629004111987086
+      ]
+    },
+    {
+      "name": "L0027_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        27.011947320298585
+      ],
+      "imag": [
+        -36.45638489964458
+      ]
+    },
+    {
+      "name": "L0027_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.97495559734712
+      ],
+      "imag": [
+        -36.62900411198707
+      ]
+    },
+    {
+      "name": "L0075_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        27.01194732029858
+      ],
+      "imag": [
+        -36.45638489964458
+      ]
+    },
+    {
+      "name": "L0075_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        26.97495559734712
+      ],
+      "imag": [
+        -36.62900411198707
+      ]
+    },
+    {
+      "name": "L0042_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.81659001532198
+      ],
+      "imag": [
+        1.3424034574348491
+      ]
+    },
+    {
+      "name": "L0042_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.81540458488493
+      ],
+      "imag": [
+        1.340741234620232
+      ]
+    },
+    {
+      "name": "L0018_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.816590015322355
+      ],
+      "imag": [
+        1.3424034574279018
+      ]
+    },
+    {
+      "name": "L0018_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.81540458488493
+      ],
+      "imag": [
+        1.340741234620232
+      ]
+    },
+    {
+      "name": "L0066_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.81659001532182
+      ],
+      "imag": [
+        1.342403457434668
+      ]
+    },
+    {
+      "name": "L0066_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        35.81540458488493
+      ],
+      "imag": [
+        1.340741234620232
+      ]
+    },
+    {
+      "name": "L0054_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.814770154785894
+      ],
+      "imag": [
+        -51.86912721953707
+      ]
+    },
+    {
+      "name": "L0054_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.78879167579504
+      ],
+      "imag": [
+        -52.00019353747395
+      ]
+    },
+    {
+      "name": "L0030_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.81477015478593
+      ],
+      "imag": [
+        -51.86912721953707
+      ]
+    },
+    {
+      "name": "L0030_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.78879167579504
+      ],
+      "imag": [
+        -52.00019353747395
+      ]
+    },
+    {
+      "name": "L0078_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.814770154761483
+      ],
+      "imag": [
+        -51.86912721955294
+      ]
+    },
+    {
+      "name": "L0078_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        30.788791675795036
+      ],
+      "imag": [
+        -52.000193537473955
+      ]
+    },
+    {
+      "name": "L0045_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.02340350070781
+      ],
+      "imag": [
+        -19.317636511391644
+      ]
+    },
+    {
+      "name": "L0045_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.02342086650748
+      ],
+      "imag": [
+        -19.317721374643398
+      ]
+    },
+    {
+      "name": "L0021_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.023403500686804
+      ],
+      "imag": [
+        -19.31763651141454
+      ]
+    },
+    {
+      "name": "L0021_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.02342086650746
+      ],
+      "imag": [
+        -19.317721374643373
+      ]
+    },
+    {
+      "name": "L0069_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.02340350064625
+      ],
+      "imag": [
+        -19.317636511455678
+      ]
+    },
+    {
+      "name": "L0069_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        48.02342086650748
+      ],
+      "imag": [
+        -19.317721374643398
+      ]
+    },
+    {
+      "name": "L0057_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        29.141616616324644
+      ],
+      "imag": [
+        -44.72425287187866
+      ]
+    },
+    {
+      "name": "L0057_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        29.17008585063819
+      ],
+      "imag": [
+        -44.7254222020372
+      ]
+    },
+    {
+      "name": "L0033_mylib",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        29.14161661632464
+      ],
+      "imag": [
+        -44.724252871878655
+      ]
+    },
+    {
+      "name": "L0033_vendor",
+      "analysis": "ac",
+      "x_unit": "Hz",
+      "y_unit": "V",
+      "points_total": 1,
+      "points_returned": 1,
+      "x": [
+        3000000000.0
+      ],
+      "real": [
+        29.17008585063819
+      ],
+      "imag": [
+        -44.7254222020372
+      ]
+    }
+  ],
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7caed0d620cf4faba6242abbfd54ed3c",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7caed0d620cf4faba6242abbfd54ed3c\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_68670f776826449abc3b5d90a9827dfc.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

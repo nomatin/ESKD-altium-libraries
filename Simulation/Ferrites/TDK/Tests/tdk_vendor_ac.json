@@ -1,0 +1,360 @@
+{
+  "name": "tdk_vendor_ac",
+  "models": [
+    "../MPZ2012S101AT000_TERRA.ckt",
+    "../MPZ2012S101AT000_p.mod",
+    "../MPZ2012S102AT000_TERRA.ckt",
+    "../MPZ2012S102AT000_p.mod",
+    "../MPZ2012S221AT000_TERRA.ckt",
+    "../MPZ2012S221AT000_p.mod",
+    "../MPZ2012S300AT000_TERRA.ckt",
+    "../MPZ2012S300AT000_p.mod",
+    "../MPZ2012S331AT000_TERRA.ckt",
+    "../MPZ2012S331AT000_p.mod",
+    "../MPZ2012S601AT000_TERRA.ckt",
+    "../MPZ2012S601AT000_p.mod"
+  ],
+  "spice": "* Native MY_LIB versus original manufacturer SPICE; 25C, zero bias\n.OPTIONS TEMP=25\nVSL0002 sL0002 nL0002 0\nIL0002 0 sL0002 DC 0 AC 1\nIRL0002 0 rL0002 DC 0 AC 1\nXL0002 nL0002 0 MPZ2012S101AT000_TERRA\nXRL0002 rL0002 0 MPZ2012S101AT000_p\nEL0002 dL0002 0 nL0002 rL0002 1\nVSL0006 sL0006 nL0006 0\nIL0006 0 sL0006 DC 0 AC 1\nIRL0006 0 rL0006 DC 0 AC 1\nXL0006 nL0006 0 MPZ2012S102AT000_TERRA\nXRL0006 rL0006 0 MPZ2012S102AT000_p\nEL0006 dL0006 0 nL0006 rL0006 1\nVSL0003 sL0003 nL0003 0\nIL0003 0 sL0003 DC 0 AC 1\nIRL0003 0 rL0003 DC 0 AC 1\nXL0003 nL0003 0 MPZ2012S221AT000_TERRA\nXRL0003 rL0003 0 MPZ2012S221AT000_p\nEL0003 dL0003 0 nL0003 rL0003 1\nVSL0001 sL0001 nL0001 0\nIL0001 0 sL0001 DC 0 AC 1\nIRL0001 0 rL0001 DC 0 AC 1\nXL0001 nL0001 0 MPZ2012S300AT000_TERRA\nXRL0001 rL0001 0 MPZ2012S300AT000_p\nEL0001 dL0001 0 nL0001 rL0001 1\nVSL0004 sL0004 nL0004 0\nIL0004 0 sL0004 DC 0 AC 1\nIRL0004 0 rL0004 DC 0 AC 1\nXL0004 nL0004 0 MPZ2012S331AT000_TERRA\nXRL0004 rL0004 0 MPZ2012S331AT000_p\nEL0004 dL0004 0 nL0004 rL0004 1\nVSL0005 sL0005 nL0005 0\nIL0005 0 sL0005 DC 0 AC 1\nIRL0005 0 rL0005 DC 0 AC 1\nXL0005 nL0005 0 MPZ2012S601AT000_TERRA\nXRL0005 rL0005 0 MPZ2012S601AT000_p\nEL0005 dL0005 0 nL0005 rL0005 1\n.AC DEC 100 1Meg 3G\n.PLOT AC V(nL0001) V(rL0001) V(dL0001) I(VSL0001)\n.PLOT AC V(nL0002) V(rL0002) V(dL0002) I(VSL0002)\n.PLOT AC V(nL0003) V(rL0003) V(dL0003) I(VSL0003)\n.PLOT AC V(nL0004) V(rL0004) V(dL0004) I(VSL0004)\n.PLOT AC V(nL0005) V(rL0005) V(dL0005) I(VSL0005)\n.PLOT AC V(nL0006) V(rL0006) V(dL0006) I(VSL0006)\n.END\n",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.09022446977501536
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 2.8395424737096318
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0002)",
+      "current": "i(VSL0002)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 3.538994663020009
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.9933437611025795
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 32.496827277718396
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0006)",
+      "current": "i(VSL0006)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 3.530053877289474
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.20815152892363092
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 5.841998425852202
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0003)",
+      "current": "i(VSL0003)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 4.743100628992377
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.03292745690790527
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.0058705443979217
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0001)",
+      "current": "i(VSL0001)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 1.3408931359185137
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.2836908558902456
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 9.504434334743765
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0004)",
+      "current": "i(VSL0004)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 5.034058168079996
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 0.4828133109542376
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 100000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 17.702238591686427
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dL0005)",
+      "current": "i(VSL0005)",
+      "current_sign": 1,
+      "frequency_hz": 1000000000.0,
+      "frequency_sampling": "exact",
+      "component": "magnitude",
+      "min": 0,
+      "max": 3.7244866700701533
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "type": "signal",
+        "name": "L0002_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0002)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0002_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0002)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0006_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0006)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0006_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0006)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0003_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0003)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0003_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0003)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0001_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0001)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0001_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0001)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0004_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0004)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0004_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0004)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0005_mylib",
+        "analysis": "ac",
+        "signal": "v(nL0005)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "L0005_vendor",
+        "analysis": "ac",
+        "signal": "v(rL0005)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      }
+    ]
+  }
+}
