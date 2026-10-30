@@ -1,0 +1,457 @@
+{
+  "name": "led_forward_curves",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* Oasistek LEDs; independent datasheet samples and native implementation at 25 C\n.OPTIONS TEMP=25\nVSCALE scale 0 DC .02\nXHL0001 0 nHL0001 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nGHL0001 0 nHL0001 scale 0 1\nXHL0002 0 nHL0002 MY_LIB_LED_DS PARAMS: ISvalue=6.17954710579e-27 Nvalue=2 RSvalue=0\nGHL0002 0 nHL0002 scale 0 1\nXHL0003 0 nHL0003 MY_LIB_LED_DS PARAMS: ISvalue=5.89179164752e-17 Nvalue=2.36134457042 RSvalue=11.2171341937\nGHL0003 0 nHL0003 scale 0 1\nXHL0004 0 nHL0004 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nGHL0004 0 nHL0004 scale 0 1\nXHL0007 0 nHL0007 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nGHL0007 0 nHL0007 scale 0 1\nXHL0008 0 nHL0008 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nGHL0008 0 nHL0008 scale 0 1\nXHL0009 0 nHL0009 MY_LIB_LED_DS PARAMS: ISvalue=8.21368101376e-51 Nvalue=1 RSvalue=13.4860774673\nGHL0009 0 nHL0009 scale 0 1\nXHL0010 0 nHL0010 MY_LIB_LED_DS PARAMS: ISvalue=3.70122335036e-32 Nvalue=1.10600411162 RSvalue=5.97834742796\nGHL0010 0 nHL0010 scale 0 1\nXHL0014 0 nHL0014 MY_LIB_LED_DS PARAMS: ISvalue=1.74866282599e-18 Nvalue=2 RSvalue=0\nGHL0014 0 nHL0014 scale 0 1\n.DC VSCALE .001 .025 .0005\n.PLOT DC V(nHL0001)\n.PLOT DC V(nHL0002)\n.PLOT DC V(nHL0003)\n.PLOT DC V(nHL0004)\n.PLOT DC V(nHL0007)\n.PLOT DC V(nHL0008)\n.PLOT DC V(nHL0009)\n.PLOT DC V(nHL0010)\n.PLOT DC V(nHL0014)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0001)",
+      "measurement": "first",
+      "min": 3.0440638230747283,
+      "max": 3.048063823074728
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0001)",
+      "measurement": "last",
+      "min": 3.209466266694695,
+      "max": 3.2134662666946947
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0002)",
+      "measurement": "first",
+      "min": 2.744063823074824,
+      "max": 2.7480638230748236
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0002)",
+      "measurement": "last",
+      "min": 2.909466266694791,
+      "max": 2.9134662666947904
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "measurement": "first",
+      "min": 1.8573554854948446,
+      "max": 1.8613554854948446
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "measurement": "last",
+      "min": 2.321852787231746,
+      "max": 2.3258527872317454
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0004)",
+      "measurement": "first",
+      "min": 1.8440638230747959,
+      "max": 1.8480638230747959
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0004)",
+      "measurement": "last",
+      "min": 2.009466266694763,
+      "max": 2.0134662666947625
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0007)",
+      "measurement": "first",
+      "min": 1.8440638230747959,
+      "max": 1.8480638230747959
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0007)",
+      "measurement": "last",
+      "min": 2.009466266694763,
+      "max": 2.0134662666947625
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0008)",
+      "measurement": "first",
+      "min": 3.0440638230747283,
+      "max": 3.048063823074728
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0008)",
+      "measurement": "last",
+      "min": 3.209466266694695,
+      "max": 3.2134662666946947
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "measurement": "first",
+      "min": 2.797031398851223,
+      "max": 2.8010313988512228
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "measurement": "last",
+      "min": 3.2033984798764066,
+      "max": 3.207398479876406
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "measurement": "first",
+      "min": 1.8642752755473153,
+      "max": 1.8682752755473153
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "measurement": "last",
+      "min": 2.099223505176195,
+      "max": 2.1032235051761945
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0014)",
+      "measurement": "first",
+      "min": 1.744063823074723,
+      "max": 1.748063823074723
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0014)",
+      "measurement": "last",
+      "min": 1.9094662666946898,
+      "max": 1.9134662666946898
+    }
+  ],
+  "measurements": [
+    {
+      "id": "HL0001_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0001)",
+      "x": 0.02,
+      "limits": {
+        "min": 3.197,
+        "max": 3.2030000000000003
+      }
+    },
+    {
+      "id": "HL0002_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0002)",
+      "x": 0.02,
+      "limits": {
+        "min": 2.897,
+        "max": 2.903
+      }
+    },
+    {
+      "id": "HL0003_curve_1",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.003,
+      "limits": {
+        "min": 1.91,
+        "max": 2.01
+      }
+    },
+    {
+      "id": "HL0003_curve_2",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.007,
+      "limits": {
+        "min": 1.99,
+        "max": 2.09
+      }
+    },
+    {
+      "id": "HL0003_curve_3",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.012,
+      "limits": {
+        "min": 2.08,
+        "max": 2.1799999999999997
+      }
+    },
+    {
+      "id": "HL0003_curve_4",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.017,
+      "limits": {
+        "min": 2.16,
+        "max": 2.26
+      }
+    },
+    {
+      "id": "HL0003_curve_5",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.022,
+      "limits": {
+        "min": 2.23,
+        "max": 2.3299999999999996
+      }
+    },
+    {
+      "id": "HL0003_table_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "x": 0.02,
+      "limits": {
+        "min": 1.798,
+        "max": 2.4019999999999997
+      }
+    },
+    {
+      "id": "HL0004_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0004)",
+      "x": 0.02,
+      "limits": {
+        "min": 1.997,
+        "max": 2.003
+      }
+    },
+    {
+      "id": "HL0007_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0007)",
+      "x": 0.02,
+      "limits": {
+        "min": 1.997,
+        "max": 2.003
+      }
+    },
+    {
+      "id": "HL0008_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0008)",
+      "x": 0.02,
+      "limits": {
+        "min": 3.197,
+        "max": 3.2030000000000003
+      }
+    },
+    {
+      "id": "HL0009_curve_1",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.005,
+      "limits": {
+        "min": 2.85,
+        "max": 2.9499999999999997
+      }
+    },
+    {
+      "id": "HL0009_curve_2",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.01,
+      "limits": {
+        "min": 2.9200000000000004,
+        "max": 3.02
+      }
+    },
+    {
+      "id": "HL0009_curve_3",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.015,
+      "limits": {
+        "min": 3.0,
+        "max": 3.0999999999999996
+      }
+    },
+    {
+      "id": "HL0009_curve_4",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.02,
+      "limits": {
+        "min": 3.08,
+        "max": 3.1799999999999997
+      }
+    },
+    {
+      "id": "HL0009_curve_5",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.025,
+      "limits": {
+        "min": 3.16,
+        "max": 3.26
+      }
+    },
+    {
+      "id": "HL0009_table_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "x": 0.02,
+      "limits": {
+        "min": 2.798,
+        "max": 3.4019999999999997
+      }
+    },
+    {
+      "id": "HL0010_curve_1",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "x": 0.005,
+      "limits": {
+        "min": 1.89,
+        "max": 1.99
+      }
+    },
+    {
+      "id": "HL0010_curve_2",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "x": 0.01,
+      "limits": {
+        "min": 1.935,
+        "max": 2.035
+      }
+    },
+    {
+      "id": "HL0010_curve_3",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "x": 0.015,
+      "limits": {
+        "min": 1.9749999999999999,
+        "max": 2.0749999999999997
+      }
+    },
+    {
+      "id": "HL0010_curve_4",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "x": 0.02,
+      "limits": {
+        "min": 2.012,
+        "max": 2.1119999999999997
+      }
+    },
+    {
+      "id": "HL0010_curve_5",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "x": 0.025,
+      "limits": {
+        "min": 2.0500000000000003,
+        "max": 2.15
+      }
+    },
+    {
+      "id": "HL0014_typical_20mA",
+      "type": "at",
+      "analysis": "dc",
+      "signal": "v(nHL0014)",
+      "x": 0.02,
+      "limits": {
+        "min": 1.897,
+        "max": 1.9029999999999998
+      }
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "name": "HL0001_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0001)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0002_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0002)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0003_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0003)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0004_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0004)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0007_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0007)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0008_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0008)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0009_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0009)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0010_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0010)",
+        "max_points": 100
+      },
+      {
+        "name": "HL0014_forward_curve",
+        "type": "signal",
+        "analysis": "dc",
+        "signal": "v(nHL0014)",
+        "max_points": 100
+      }
+    ]
+  }
+}

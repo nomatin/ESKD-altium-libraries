@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "test": "led_fixed_temperature_p25",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0001)",
+      "measurement": "last",
+      "min": 3.1979999999998876,
+      "max": 3.201999999999887,
+      "value": 3.1999544954907355,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0002)",
+      "measurement": "last",
+      "min": 2.8979999999999833,
+      "max": 2.901999999999983,
+      "value": 2.899963071599807,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "measurement": "last",
+      "min": 2.2522292129618604,
+      "max": 2.25622921296186,
+      "value": 2.2542253909905194,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0004)",
+      "measurement": "last",
+      "min": 1.9979999999999551,
+      "max": 2.001999999999955,
+      "value": 1.9999887999267045,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0007)",
+      "measurement": "last",
+      "min": 1.9979999999999551,
+      "max": 2.001999999999955,
+      "value": 1.9999887999267045,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0008)",
+      "measurement": "last",
+      "min": 3.1979999999998876,
+      "max": 3.201999999999887,
+      "value": 3.1999544954907355,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "measurement": "last",
+      "min": 3.130234959192503,
+      "max": 3.1342349591925025,
+      "value": 3.132176125706757,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "measurement": "last",
+      "min": 2.0629908989817007,
+      "max": 2.0669908989817003,
+      "value": 2.0649607201596716,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0014)",
+      "measurement": "last",
+      "min": 1.8979999999998822,
+      "max": 1.9019999999998822,
+      "value": 1.899991658629624,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(therm)",
+      "measurement": "last",
+      "min": 0.9999,
+      "max": 1.0001,
+      "value": 1.0,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\c852b0cabe274aab8b7152666785c6e5",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\c852b0cabe274aab8b7152666785c6e5\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_ba3ed871d7904f4893106b0cbf3846c4.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "elapsed_seconds": 6.161,
+  "tester_path": "C:\\Users\\Nomatin\\projects\\Spice Tester\\dbur_test.py"
+}

@@ -794,3 +794,36 @@ Options=FieldName=Диоды$.Sim Port Map|TableNameOnly=Диоды$|FieldNameOnly=Sim Por
 
 [FieldMap329]
 Options=FieldName=Диоды$.Sim File|TableNameOnly=Диоды$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap330]
+Options=FieldName=Светодиоды$.Sim Model Name|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap331]
+Options=FieldName=Светодиоды$.Sim Description|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap332]
+Options=FieldName=Светодиоды$.Sim Kind|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap333]
+Options=FieldName=Светодиоды$.Sim SubKind|TableNameOnly=Светодиоды$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap334]
+Options=FieldName=Светодиоды$.Sim Netlist|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap335]
+Options=FieldName=Светодиоды$.Sim Spice Prefix|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap336]
+Options=FieldName=Светодиоды$.Sim Port Map|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap337]
+Options=FieldName=Светодиоды$.Sim File|TableNameOnly=Светодиоды$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap338]
+Options=FieldName=Светодиоды$.LED_IS|TableNameOnly=Светодиоды$|FieldNameOnly=LED_IS|FieldType=1|ParameterName=LED_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap339]
+Options=FieldName=Светодиоды$.LED_N|TableNameOnly=Светодиоды$|FieldNameOnly=LED_N|FieldType=1|ParameterName=LED_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap340]
+Options=FieldName=Светодиоды$.LED_RS|TableNameOnly=Светодиоды$|FieldNameOnly=LED_RS|FieldType=1|ParameterName=LED_RS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

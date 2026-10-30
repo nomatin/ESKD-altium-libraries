@@ -1,0 +1,623 @@
+{
+  "model": "MY_LIB_LED_DS",
+  "pin_order": {
+    "1": "K",
+    "2": "A"
+  },
+  "temperature_c": 25,
+  "components": [
+    {
+      "id": "HL0001",
+      "mpn": "TO-1608BC-BF",
+      "params": {
+        "ISvalue": 1.8006604177960446e-29,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-1608BC-BF.pdf",
+      "source_sha256": "023ccd01380df865215c0e30b432c3f6bcc7d790132c9929e87b7a06666b9815",
+      "revision": "Rev A-1; 2015-11-16; GS15110003",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 3.2,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 3.2,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 3.2,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    },
+    {
+      "id": "HL0002",
+      "mpn": "TO-1608BC-PG",
+      "params": {
+        "ISvalue": 6.179547105787983e-27,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=6.17954710579e-27 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-1608BC-PG.pdf",
+      "source_sha256": "0203c48fc1d285e5083cfb085858087a388ba1b973c6c2aecd5cdbccccfa0e02",
+      "revision": "Rev A; 2017-05-18; GS1705005",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 2.9,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 2.9,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 2.9,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    },
+    {
+      "id": "HL0003",
+      "mpn": "TO-1608BC-MGE",
+      "params": {
+        "ISvalue": 5.891791647517926e-17,
+        "Nvalue": 2.3613445704240448,
+        "RSvalue": 11.217134193691976
+      },
+      "instance_parameters": "ISvalue=5.89179164752e-17 Nvalue=2.36134457042 RSvalue=11.2171341937",
+      "basis": "digitized_typical_curve",
+      "source": "../../Datasheets/Oasistek_LED/TO-1608BC-MGE.pdf",
+      "source_sha256": "bac1d2cdd7a69dd421286312c6931403ad22cc15d7ed671973995d0904cc5dcd",
+      "revision": "Rev A-1; 2015-11-16; GS1511006",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": null,
+        "vf_min_v": 1.8,
+        "vf_max_v": 2.4
+      },
+      "model_vf20_v": 2.2542292129651975,
+      "fit_points": [
+        {
+          "if_a": 0.001,
+          "vf_v": 1.86,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.005,
+          "vf_v": 2.0,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 2.1,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.015,
+          "vf_v": 2.18,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 2.26,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.025,
+          "vf_v": 2.32,
+          "reading_tolerance_v": 0.04
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.003,
+          "vf_v": 1.96,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.007,
+          "vf_v": 2.04,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 2.13,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.017,
+          "vf_v": 2.21,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.022,
+          "vf_v": 2.28,
+          "tolerance_v": 0.05
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS"
+      ]
+    },
+    {
+      "id": "HL0004",
+      "mpn": "TO-1608BC-MYF",
+      "params": {
+        "ISvalue": 2.497647439357814e-19,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-1608BC-MYF.pdf",
+      "source_sha256": "3fb6a20ddb7786c9adf126933f90dccbb7015ebc5c4e68863112f991f253a78d",
+      "revision": "Rev A-1; 2015-11-16; GS1511023",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 2.0,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 2.0,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 2.0,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    },
+    {
+      "id": "HL0007",
+      "mpn": "TO-1608BC-MRE",
+      "params": {
+        "ISvalue": 2.497647439357814e-19,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-1608BC-MRE.pdf",
+      "source_sha256": "bc2a30ebfd022d51ce5b4d66c4e4690e38c6d9cae7d32058c183ad86af643375",
+      "revision": "Rev A-1; 2017-05-18; GS1705006",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 2.0,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 2.0,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 2.0,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    },
+    {
+      "id": "HL0008",
+      "mpn": "TO-2013BC-BF",
+      "params": {
+        "ISvalue": 1.8006604177960446e-29,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-2013BC-BF.pdf",
+      "source_sha256": "e2ea0a420c0217d18aea6b1315cc304d964d49c9cff8773abde4cd6ada4bf0d3",
+      "revision": "Rev A-1; 2015-11-16; GS1511032",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 3.2,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 3.2,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 3.2,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    },
+    {
+      "id": "HL0009",
+      "mpn": "TO-2013BC-PG",
+      "params": {
+        "ISvalue": 8.213681013757457e-51,
+        "Nvalue": 1.0,
+        "RSvalue": 13.486077467259584
+      },
+      "instance_parameters": "ISvalue=8.21368101376e-51 Nvalue=1 RSvalue=13.4860774673",
+      "basis": "digitized_typical_curve",
+      "source": "../../Datasheets/Oasistek_LED/TO-2013BC-PG.pdf",
+      "source_sha256": "bbaf9835dfd51793fdf43c6961e54f4d3be74273ffe2c2fee41546b99fb59edd",
+      "revision": "Rev A-1; 2017-06-09; GS1706012",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": null,
+        "vf_min_v": 2.8,
+        "vf_max_v": 3.4
+      },
+      "model_vf20_v": 3.1322349591917025,
+      "fit_points": [
+        {
+          "if_a": 0.003,
+          "vf_v": 2.862,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.007,
+          "vf_v": 2.931,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 3.0,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.017,
+          "vf_v": 3.086,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.022,
+          "vf_v": 3.157,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.027,
+          "vf_v": 3.243,
+          "reading_tolerance_v": 0.04
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.005,
+          "vf_v": 2.9,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 2.97,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.015,
+          "vf_v": 3.05,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 3.13,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.025,
+          "vf_v": 3.21,
+          "tolerance_v": 0.05
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=1 fixed to avoid unphysical negative ideality from nearly straight printed curve"
+      ]
+    },
+    {
+      "id": "HL0010",
+      "mpn": "TO-2013BC-MGE",
+      "params": {
+        "ISvalue": 3.701223350358158e-32,
+        "Nvalue": 1.1060041116150625,
+        "RSvalue": 5.978347427964856
+      },
+      "instance_parameters": "ISvalue=3.70122335036e-32 Nvalue=1.10600411162 RSvalue=5.97834742796",
+      "basis": "digitized_typical_curve",
+      "source": "../../Datasheets/Oasistek_LED/TO-2013BC-MGE.pdf",
+      "source_sha256": "065b4c2a78895b461959280fba387b9496800b98bc1fc914b79e20938492be0a",
+      "revision": "Rev A-1; 2009-01-28; GS100130",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 2.0,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 2.064990898973127,
+      "fit_points": [
+        {
+          "if_a": 0.003,
+          "vf_v": 1.907,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.007,
+          "vf_v": 1.964,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 2.001,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.017,
+          "vf_v": 2.039,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.022,
+          "vf_v": 2.077,
+          "reading_tolerance_v": 0.04
+        },
+        {
+          "if_a": 0.027,
+          "vf_v": 2.119,
+          "reading_tolerance_v": 0.04
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.005,
+          "vf_v": 1.94,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 1.985,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.015,
+          "vf_v": 2.025,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 2.062,
+          "tolerance_v": 0.05
+        },
+        {
+          "if_a": 0.025,
+          "vf_v": 2.1,
+          "tolerance_v": 0.05
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "Printed curve gives about2.06V at20mA while tabletyp is2.0V; curve used, no forced reconciliation"
+      ]
+    },
+    {
+      "id": "HL0014",
+      "mpn": "TO-2013BC-MRE",
+      "params": {
+        "ISvalue": 1.748662825985991e-18,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=1.74866282599e-18 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-2013BC-MRE.pdf",
+      "source_sha256": "9aaad5c5d87b2f5be49c8734bbcb10ca62dddc1b7555edb11f96df24e20d83c4",
+      "revision": "Rev A-2; 2017-05-25; GS1705011",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 1.9,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 1.9000000000000001,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 1.9,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
+    }
+  ],
+  "model_file": "MY_LIB_LED_DS.ckt",
+  "model_sha256": "d925cd9a144322d23b0b0de4404abc558416e43e611ae6d4888c0083caa29bb3"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "test": "led_parameter_transfer",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nBASE)",
+      "measurement": "last",
+      "min": 2.263354066173872,
+      "max": 2.2673540661738714,
+      "value": 2.2653381391189846,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nIS10)",
+      "measurement": "last",
+      "min": 2.145035366806301,
+      "max": 2.1490353668063005,
+      "value": 2.147022822131612,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nN3)",
+      "measurement": "last",
+      "min": 3.346031099260808,
+      "max": 3.3500310992608076,
+      "value": 3.3480065931510588,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nRS20)",
+      "measurement": "last",
+      "min": 2.5633540661738716,
+      "max": 2.567354066173871,
+      "value": 2.565338139118985,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\9b128d718abe4fc282b229d6cc92d102",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\9b128d718abe4fc282b229d6cc92d102\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_07cf0a097e6f44acafdc3d48f84e492a.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "elapsed_seconds": 6.466,
+  "tester_path": "C:\\Users\\Nomatin\\projects\\Spice Tester\\dbur_test.py"
+}

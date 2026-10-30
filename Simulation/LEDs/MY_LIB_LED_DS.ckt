@@ -1,0 +1,26 @@
+* MY_LIB original Oasistek LED electrical approximation from datasheets only.
+* No manufacturer SPICE model was used. External pin order: 1=K, 2=A.
+* Component-specific ISvalue/Nvalue/RSvalue must be passed by Excel/DbLib.
+* Fit/calibration is at +25 C, normally 1..25mA. See parameter provenance.
+* Six components have only one VFtyp point at20mA: N=2 and RS=0 are assumed.
+* Three components use digitized manufacturer typical curves, not measurements.
+* This model does not model emitted light, heating, current/power limits,
+* luminous intensity, spectra, tolerances, aging, capacitance or recovery time.
+* CJO=0 TT=0 explicitly disable unknown dynamics, not a measured-zero claim.
+* BV is omitted: the5V reverse rating is NOT a measured breakdown voltage.
+* IS is a forward-fit coefficient, NOT a measured reverse leakage current.
+* Dforward TEMP=25 fixes this electrical junction at25C even when global
+* TEMP differs. No actual LED temperature dependence or self-heating modeled.
+* EG=0 XTI=0 are explicit; with fixed device TEMP they do not calibrate a T law.
+* Numerical implementation: native tests did not retain tiny direct MODEL IS.
+* MODEL IS is
+* therefore fixed1e-28 and diodeAREA=ISvalue/1e-28 produces fitted effectiveIS.
+* AREA is numerical scaling, NOT physical die area. NativeAREA also divides
+* modelRS, so modelRS=RSvalue*AREA preserves the original fitted effectiveRS.
+* Fitted targets/parameters are unchanged; no voltage offset or added R used.
+* Defaults give an illustrative2.0V@20mA single-point curve, not a specificMPN.
+.SUBCKT MY_LIB_LED_DS 1 2 PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+Dforward 2 1 DLED {ISvalue/1e-28} TEMP=25
+.MODEL DLED D (IS=1e-28 N={Nvalue} RS={RSvalue*ISvalue/1e-28} TNOM=25
++ EG=0 XTI=0 CJO=0 TT=0)
+.ENDS MY_LIB_LED_DS

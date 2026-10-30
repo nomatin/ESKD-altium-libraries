@@ -6,7 +6,7 @@
 
 ## Состав
 
-На 30 октября 2026 года в базе **1546 компонентов**, из них **1167 со SPICE-моделями**.
+На 30 октября 2026 года в базе **1546 компонентов**, из них **1182 со SPICE-моделями**.
 
 | Категория | Позиций | Покрытие SPICE | Основные серии |
 |---|---:|---:|---|
@@ -14,8 +14,8 @@
 | Конденсаторы | 276 | 276 / 276 (100%) | YAGEO CC X7R |
 | Диоды | 235 | 235 / 235 (100%) | Vishay, Nexperia, Diotec, Yangjie |
 | Разъёмы | 358 | 0 / 358 (0%) | GCT, CONNFLY, JST PH/XH |
-| Ферриты | 78 | 72 / 78 (92,3%) | TDK, Murata |
-| Светодиоды | 9 | 0 / 9 (0%) | Oasistek |
+| Ферриты | 78 | 78 / 78 (100%) | TDK, Murata |
+| Светодиоды | 9 | [9 / 9 (100%)](Simulation/LEDs/README.md) | Oasistek |
 | Микросхемы | 4 | 2 / 4 (50%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712 |
 | Переключатели | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Тестовые точки | 3 | 0 / 3 (0%) | Площадки Ø1 / 1,5 / 2 мм |
@@ -49,9 +49,9 @@ git pull --ff-only
 
 ## SPICE
 
-Модели доступны для резисторов, конденсаторов, диодов, части ферритов и двух защитных микросхем. Резисторы, конденсаторы, диоды, USBLC6-2SC6 и CDSOT23-SM712 проверялись в Altium Designer 24.4 MixedSim в статических, частотных и переходных режимах; набор испытаний зависит от модели. Модели ферритов сравнивались в ngspice с официальными моделями; в Altium они не проверены.
+Модели доступны для резисторов, конденсаторов, диодов, светодиодов, части ферритов и двух защитных микросхем. Резисторы, конденсаторы, диоды, светодиоды, USBLC6-2SC6 и CDSOT23-SM712 проверялись в Altium Designer 24.4 MixedSim в статических, частотных и переходных режимах; набор испытаний зависит от модели. Модели ферритов сравнивались в ngspice с официальными моделями; в Altium они не проверены.
 
-Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` и `Results/` рядом с моделями.
+Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` и `Results/` рядом с моделями.
 
 Успешный тест подтверждает только заданные условия проверки и не гарантирует соответствие всех характеристик реальному компоненту. Некоторые модели являются приближениями; изучайте их ограничения перед расчётом.
 

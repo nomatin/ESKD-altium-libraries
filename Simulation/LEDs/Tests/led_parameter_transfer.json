@@ -1,0 +1,37 @@
+{
+  "name": "led_parameter_transfer",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* Public parameter transfer and local-model scope regression\n.OPTIONS TEMP=25\nVSCALE scale 0 DC 1\nXBASE 0 nBASE MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=2 RSvalue=5\nGBASE 0 nBASE scale 0 .02\nXIS10 0 nIS10 MY_LIB_LED_DS PARAMS: ISvalue=1e-19 Nvalue=2 RSvalue=5\nGIS10 0 nIS10 scale 0 .02\nXN3 0 nN3 MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=3 RSvalue=5\nGN3 0 nN3 scale 0 .02\nXRS20 0 nRS20 MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=2 RSvalue=20\nGRS20 0 nRS20 scale 0 .02\n.DC VSCALE .5 1 .5\n.PLOT DC V(nBASE)\n.PLOT DC V(nIS10)\n.PLOT DC V(nN3)\n.PLOT DC V(nRS20)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nBASE)",
+      "measurement": "last",
+      "min": 2.263354066173872,
+      "max": 2.2673540661738714
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nIS10)",
+      "measurement": "last",
+      "min": 2.145035366806301,
+      "max": 2.1490353668063005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nN3)",
+      "measurement": "last",
+      "min": 3.346031099260808,
+      "max": 3.3500310992608076
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nRS20)",
+      "measurement": "last",
+      "min": 2.5633540661738716,
+      "max": 2.567354066173871
+    }
+  ]
+}

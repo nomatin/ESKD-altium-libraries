@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "test": "led_reverse_blocking",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0001)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0002)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.000000000000005e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0003)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.000058920123998e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0004)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.000000249770574e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0007)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.000000249770574e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0008)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0009)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 4.999999999932569e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0010)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 4.999999999970108e-12,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSHL0014)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.0000017487036455e-12,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\cf7409bbea3e4cf0aa587427ba172aca",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\cf7409bbea3e4cf0aa587427ba172aca\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_313d053099d64d24825ae78ed2417260.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "elapsed_seconds": 6.334,
+  "tester_path": "C:\\Users\\Nomatin\\projects\\Spice Tester\\dbur_test.py"
+}

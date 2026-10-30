@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "components": 9,
+  "test_files": 9,
+  "total_checks": 133,
+  "total_measurements": 41,
+  "total_verifications": 174,
+  "model_sha256": "d925cd9a144322d23b0b0de4404abc558416e43e611ae6d4888c0083caa29bb3",
+  "tester": "C:/Users/Nomatin/projects/Spice Tester/dbur_test.py",
+  "tests": [
+    {
+      "test": "led_database_netlist.json",
+      "status": "PASS",
+      "checks": 9,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "e14c64ad27d8a5614c34c88c5a6316166a8601378051594bdaabe22539cd4b5d"
+    },
+    {
+      "test": "led_fixed_temperature_m55.json",
+      "status": "PASS",
+      "checks": 10,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "0b612451e36d0d6dd4c2c5d278d9f20453b75c1e732471c8d53fe27516e64542"
+    },
+    {
+      "test": "led_fixed_temperature_p25.json",
+      "status": "PASS",
+      "checks": 10,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "2f58f7671c7456c6bbae960b177934c21f4f46f5a5f0840c6665f53ff9ae9274"
+    },
+    {
+      "test": "led_fixed_temperature_p85.json",
+      "status": "PASS",
+      "checks": 10,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "0bbb2bbc66519d79f6a3e30abe75f9ff2fa7193b57f2f64c271472669c1b4f84"
+    },
+    {
+      "test": "led_forward_curves.json",
+      "status": "PASS",
+      "checks": 18,
+      "measurements": 23,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "3255fc1ea2b63436c75a81ff52b33466dd9aa7d72f65d3ef93e075b8057e2e4f"
+    },
+    {
+      "test": "led_incremental_resistance.json",
+      "status": "PASS",
+      "checks": 54,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "c342868d45c79570c7adbb0061054a12d812d40c5cb669e322814aa1c55deb5c"
+    },
+    {
+      "test": "led_parameter_transfer.json",
+      "status": "PASS",
+      "checks": 4,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "b8cc4f33a15d710b540d68ab670c240efbebac58a7ea3e0a4d7c33527aed86db"
+    },
+    {
+      "test": "led_pwm_application.json",
+      "status": "PASS",
+      "checks": 9,
+      "measurements": 18,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "c5a01f09f71e495c4804c14c2a684d16151ed13809030739da7632f635c136f5"
+    },
+    {
+      "test": "led_reverse_blocking.json",
+      "status": "PASS",
+      "checks": 9,
+      "measurements": 0,
+      "all_checks_passed": true,
+      "all_measurements_passed": true,
+      "input_sha256": "891c2e20608f92db6d89d5b6ff8d7dda702cc31029697315fe6edfd145fbe2fc"
+    }
+  ],
+  "counts": {
+    "Резисторы": {
+      "total": 582,
+      "spice": 582
+    },
+    "Конденсаторы": {
+      "total": 276,
+      "spice": 276
+    },
+    "Микросхемы": {
+      "total": 4,
+      "spice": 2
+    },
+    "Разъёмы": {
+      "total": 358,
+      "spice": 0
+    },
+    "Переключатели": {
+      "total": 1,
+      "spice": 0
+    },
+    "Светодиоды": {
+      "total": 9,
+      "spice": 9
+    },
+    "Тестовые точки": {
+      "total": 3,
+      "spice": 0
+    },
+    "Ферриты": {
+      "total": 78,
+      "spice": 78
+    },
+    "Диоды": {
+      "total": 235,
+      "spice": 235
+    }
+  },
+  "ace_and_normal_excel_verified": true,
+  "native_dblib_placement_verified": false,
+  "curve_based": 3,
+  "single_point": 6,
+  "fixed_junction_temperature_c": 25
+}

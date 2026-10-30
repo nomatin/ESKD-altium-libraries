@@ -1,0 +1,18 @@
+* Public parameter transfer and local-model scope regression
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\LEDs\MY_LIB_LED_DS.ckt"
+.OPTIONS TEMP=25
+VSCALE scale 0 DC 1
+XBASE 0 nBASE MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=2 RSvalue=5
+GBASE 0 nBASE scale 0 .02
+XIS10 0 nIS10 MY_LIB_LED_DS PARAMS: ISvalue=1e-19 Nvalue=2 RSvalue=5
+GIS10 0 nIS10 scale 0 .02
+XN3 0 nN3 MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=3 RSvalue=5
+GN3 0 nN3 scale 0 .02
+XRS20 0 nRS20 MY_LIB_LED_DS PARAMS: ISvalue=1e-20 Nvalue=2 RSvalue=20
+GRS20 0 nRS20 scale 0 .02
+.DC VSCALE .5 1 .5
+.PLOT DC V(nBASE)
+.PLOT DC V(nIS10)
+.PLOT DC V(nN3)
+.PLOT DC V(nRS20)
+.END

@@ -1,0 +1,339 @@
+{
+  "name": "led_pwm_application",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* 5 V PWM through 330 ohm; 25 C fixed diode temperature\n.OPTIONS TEMP=25 METHOD=GEAR ITL4=100\nVDRV supply 0 PULSE(0 5 100u 1u 1u 300u 600u)\nRHL0001 supply nHL0001 330\nXHL0001 0 nHL0001 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nRHL0002 supply nHL0002 330\nXHL0002 0 nHL0002 MY_LIB_LED_DS PARAMS: ISvalue=6.17954710579e-27 Nvalue=2 RSvalue=0\nRHL0003 supply nHL0003 330\nXHL0003 0 nHL0003 MY_LIB_LED_DS PARAMS: ISvalue=5.89179164752e-17 Nvalue=2.36134457042 RSvalue=11.2171341937\nRHL0004 supply nHL0004 330\nXHL0004 0 nHL0004 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nRHL0007 supply nHL0007 330\nXHL0007 0 nHL0007 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nRHL0008 supply nHL0008 330\nXHL0008 0 nHL0008 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nRHL0009 supply nHL0009 330\nXHL0009 0 nHL0009 MY_LIB_LED_DS PARAMS: ISvalue=8.21368101376e-51 Nvalue=1 RSvalue=13.4860774673\nRHL0010 supply nHL0010 330\nXHL0010 0 nHL0010 MY_LIB_LED_DS PARAMS: ISvalue=3.70122335036e-32 Nvalue=1.10600411162 RSvalue=5.97834742796\nRHL0014 supply nHL0014 330\nXHL0014 0 nHL0014 MY_LIB_LED_DS PARAMS: ISvalue=1.74866282599e-18 Nvalue=2 RSvalue=0\n.TRAN 1u 650u\n.PLOT TRAN V(nHL0001)\n.PLOT TRAN V(nHL0002)\n.PLOT TRAN V(nHL0003)\n.PLOT TRAN V(nHL0004)\n.PLOT TRAN V(nHL0007)\n.PLOT TRAN V(nHL0008)\n.PLOT TRAN V(nHL0009)\n.PLOT TRAN V(nHL0010)\n.PLOT TRAN V(nHL0014)\n.END\n",
+  "checks": [
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0001)",
+      "measurement": "max",
+      "min": 3.132057413411422,
+      "max": 3.1380574134114223
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0002)",
+      "measurement": "max",
+      "min": 2.8395441995879667,
+      "max": 2.845544199587967
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0003)",
+      "measurement": "max",
+      "min": 2.076683743177636,
+      "max": 2.082683743177636
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0004)",
+      "measurement": "max",
+      "min": 1.957162849129,
+      "max": 1.9631628491289999
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0007)",
+      "measurement": "max",
+      "min": 1.957162849129,
+      "max": 1.9631628491289999
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0008)",
+      "measurement": "max",
+      "min": 3.132057413411422,
+      "max": 3.1380574134114223
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0009)",
+      "measurement": "max",
+      "min": 2.914957961657749,
+      "max": 2.920957961657749
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0010)",
+      "measurement": "max",
+      "min": 1.9749745625405326,
+      "max": 1.9809745625405324
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(nHL0014)",
+      "measurement": "max",
+      "min": 1.8587992445723314,
+      "max": 1.8647992445723311
+    }
+  ],
+  "measurements": [
+    {
+      "id": "HL0001_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0001)",
+      "x": 0.00025,
+      "limits": {
+        "min": 3.132057413411422,
+        "max": 3.1380574134114223
+      }
+    },
+    {
+      "id": "HL0001_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0001)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0002_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0002)",
+      "x": 0.00025,
+      "limits": {
+        "min": 2.8395441995879667,
+        "max": 2.845544199587967
+      }
+    },
+    {
+      "id": "HL0002_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0002)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0003_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0003)",
+      "x": 0.00025,
+      "limits": {
+        "min": 2.076683743177636,
+        "max": 2.082683743177636
+      }
+    },
+    {
+      "id": "HL0003_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0003)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0004_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0004)",
+      "x": 0.00025,
+      "limits": {
+        "min": 1.957162849129,
+        "max": 1.9631628491289999
+      }
+    },
+    {
+      "id": "HL0004_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0004)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0007_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0007)",
+      "x": 0.00025,
+      "limits": {
+        "min": 1.957162849129,
+        "max": 1.9631628491289999
+      }
+    },
+    {
+      "id": "HL0007_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0007)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0008_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0008)",
+      "x": 0.00025,
+      "limits": {
+        "min": 3.132057413411422,
+        "max": 3.1380574134114223
+      }
+    },
+    {
+      "id": "HL0008_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0008)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0009_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0009)",
+      "x": 0.00025,
+      "limits": {
+        "min": 2.914957961657749,
+        "max": 2.920957961657749
+      }
+    },
+    {
+      "id": "HL0009_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0009)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0010_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0010)",
+      "x": 0.00025,
+      "limits": {
+        "min": 1.9749745625405326,
+        "max": 1.9809745625405324
+      }
+    },
+    {
+      "id": "HL0010_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0010)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    },
+    {
+      "id": "HL0014_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0014)",
+      "x": 0.00025,
+      "limits": {
+        "min": 1.8587992445723314,
+        "max": 1.8647992445723311
+      }
+    },
+    {
+      "id": "HL0014_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(nHL0014)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "name": "HL0001_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0001)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0002_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0002)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0003_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0003)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0004_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0004)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0007_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0007)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0008_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0008)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0009_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0009)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0010_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0010)",
+        "max_points": 120
+      },
+      {
+        "name": "HL0014_pwm",
+        "type": "signal",
+        "analysis": "tran",
+        "signal": "v(nHL0014)",
+        "max_points": 120
+      }
+    ]
+  }
+}

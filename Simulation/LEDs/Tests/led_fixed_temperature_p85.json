@@ -1,0 +1,79 @@
+{
+  "name": "led_fixed_temperature_p85",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* Fixed diode temperature and independent resistor thermometer; global 85 C\n.OPTIONS TEMP=85\nVSCALE scale 0 DC 1\nRTHERM therm 0 RTEST 1000\n.MODEL RTEST R (TC1=.001 TNOM=25)\nGTHERM 0 therm scale 0 .001\nXHL0001 0 nHL0001 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nGHL0001 0 nHL0001 scale 0 .02\nXHL0002 0 nHL0002 MY_LIB_LED_DS PARAMS: ISvalue=6.17954710579e-27 Nvalue=2 RSvalue=0\nGHL0002 0 nHL0002 scale 0 .02\nXHL0003 0 nHL0003 MY_LIB_LED_DS PARAMS: ISvalue=5.89179164752e-17 Nvalue=2.36134457042 RSvalue=11.2171341937\nGHL0003 0 nHL0003 scale 0 .02\nXHL0004 0 nHL0004 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nGHL0004 0 nHL0004 scale 0 .02\nXHL0007 0 nHL0007 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nGHL0007 0 nHL0007 scale 0 .02\nXHL0008 0 nHL0008 MY_LIB_LED_DS PARAMS: ISvalue=1.8006604178e-29 Nvalue=2 RSvalue=0\nGHL0008 0 nHL0008 scale 0 .02\nXHL0009 0 nHL0009 MY_LIB_LED_DS PARAMS: ISvalue=8.21368101376e-51 Nvalue=1 RSvalue=13.4860774673\nGHL0009 0 nHL0009 scale 0 .02\nXHL0010 0 nHL0010 MY_LIB_LED_DS PARAMS: ISvalue=3.70122335036e-32 Nvalue=1.10600411162 RSvalue=5.97834742796\nGHL0010 0 nHL0010 scale 0 .02\nXHL0014 0 nHL0014 MY_LIB_LED_DS PARAMS: ISvalue=1.74866282599e-18 Nvalue=2 RSvalue=0\nGHL0014 0 nHL0014 scale 0 .02\n.DC VSCALE .5 1 .5\n.PLOT DC V(therm)\n.PLOT DC V(nHL0001)\n.PLOT DC V(nHL0002)\n.PLOT DC V(nHL0003)\n.PLOT DC V(nHL0004)\n.PLOT DC V(nHL0007)\n.PLOT DC V(nHL0008)\n.PLOT DC V(nHL0009)\n.PLOT DC V(nHL0010)\n.PLOT DC V(nHL0014)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0001)",
+      "measurement": "last",
+      "min": 3.1979999999998876,
+      "max": 3.201999999999887
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0002)",
+      "measurement": "last",
+      "min": 2.8979999999999833,
+      "max": 2.901999999999983
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0003)",
+      "measurement": "last",
+      "min": 2.2522292129618604,
+      "max": 2.25622921296186
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0004)",
+      "measurement": "last",
+      "min": 1.9979999999999551,
+      "max": 2.001999999999955
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0007)",
+      "measurement": "last",
+      "min": 1.9979999999999551,
+      "max": 2.001999999999955
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0008)",
+      "measurement": "last",
+      "min": 3.1979999999998876,
+      "max": 3.201999999999887
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0009)",
+      "measurement": "last",
+      "min": 3.130234959192503,
+      "max": 3.1342349591925025
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0010)",
+      "measurement": "last",
+      "min": 2.0629908989817007,
+      "max": 2.0669908989817003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nHL0014)",
+      "measurement": "last",
+      "min": 1.8979999999998822,
+      "max": 1.9019999999998822
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(therm)",
+      "measurement": "last",
+      "min": 1.0599,
+      "max": 1.0601
+    }
+  ]
+}
