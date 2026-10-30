@@ -49,7 +49,7 @@ git pull --ff-only
 
 ## SPICE
 
-Модели доступны для резисторов, конденсаторов, диодов, светодиодов, части ферритов и двух защитных микросхем. Резисторы, конденсаторы, диоды, светодиоды, USBLC6-2SC6 и CDSOT23-SM712 проверялись в Altium Designer 24.4 MixedSim в статических, частотных и переходных режимах; набор испытаний зависит от модели. Модели ферритов сравнивались в ngspice с официальными моделями; в Altium они не проверены.
+Модели доступны для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов и ферритов, а также двух защитных микросхем. Все эти группы проверялись в standalone NSX Altium Designer 24.4 MixedSim; набор статических, частотных и переходных испытаний зависит от модели. Ферриты TDK AT000 и Murata также сравнивались с официальными моделями в ngspice; для TDK ATD25 эталонные и собственные модели проверены в MixedSim. Эти расчёты не проверяют размещение компонентов через UI DbLib.
 
 Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` и `Results/` рядом с моделями.
 
