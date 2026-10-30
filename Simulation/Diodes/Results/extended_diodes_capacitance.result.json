@@ -1,0 +1,2367 @@
+{
+  "status": "PASS",
+  "test": "extended_diodes_capacitance",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "1c013aedac8a46e4ba1cfef6e87802ef",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\1c013aedac8a46e4ba1cfef6e87802ef",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\1c013aedac8a46e4ba1cfef6e87802ef\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_735080edc6864822919bcef014008aac.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "cs_VD0001j1",
+      "type": "capacitance_series",
+      "value": 1.500008560197016e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0002j1",
+      "type": "capacitance_series",
+      "value": 1.500008560197016e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0003j1",
+      "type": "capacitance_series",
+      "value": 1.5000707270133307e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0004j1",
+      "type": "capacitance_series",
+      "value": 1.5000707270133307e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0004j2",
+      "type": "capacitance_series",
+      "value": 1.5000707270133307e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0005j1",
+      "type": "capacitance_series",
+      "value": 1.5000707270133307e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0005j2",
+      "type": "capacitance_series",
+      "value": 1.5000707270132289e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-12,
+        "max": 1.5150000000000001e-12
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0024j1",
+      "type": "capacitance_series",
+      "value": 1.0000000085433641e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0025j1",
+      "type": "capacitance_series",
+      "value": 1.0000000085433646e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0025j2",
+      "type": "capacitance_series",
+      "value": 1.0000000085433643e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0026j1",
+      "type": "capacitance_series",
+      "value": 1.0000000085433641e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0026j2",
+      "type": "capacitance_series",
+      "value": 1.0000000085433641e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0027j1",
+      "type": "capacitance_series",
+      "value": 1.0000000085433641e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0027j2",
+      "type": "capacitance_series",
+      "value": 1.0000000085433643e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.899999999978333e-12,
+        "max": 1.0099999999977897e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0055j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0056j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0057j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0058j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0059j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0060j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0061j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0062j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0063j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0064j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0065j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0066j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0067j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0068j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0069j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0070j1",
+      "type": "capacitance_series",
+      "value": 9.000000000652798e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.91e-11,
+        "max": 9.09e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0071j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0072j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0073j1",
+      "type": "capacitance_series",
+      "value": 8.000000000734398e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.92e-11,
+        "max": 8.08e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0074j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0075j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0076j1",
+      "type": "capacitance_series",
+      "value": 7.000000000839311e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.930000000000001e-11,
+        "max": 7.07e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0077j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0078j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0079j1",
+      "type": "capacitance_series",
+      "value": 5.5000000010682143e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.445e-11,
+        "max": 5.555e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0080j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0081j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0082j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0083j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0084j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0085j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0086j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0087j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0088j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0089j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0090j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0091j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0092j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0093j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0094j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0095j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0096j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0097j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0098j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0099j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0100j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0101j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0102j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0103j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0104j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0105j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0106j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0107j1",
+      "type": "capacitance_series",
+      "value": 9.000000000652798e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.91e-11,
+        "max": 9.09e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0108j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0109j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0110j1",
+      "type": "capacitance_series",
+      "value": 8.000000000734398e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.92e-11,
+        "max": 8.08e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0111j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0112j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0113j1",
+      "type": "capacitance_series",
+      "value": 7.000000000839311e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.930000000000001e-11,
+        "max": 7.07e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0114j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0115j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0116j1",
+      "type": "capacitance_series",
+      "value": 5.5000000010682143e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.445e-11,
+        "max": 5.555e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0117j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0118j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0119j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0120j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0121j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0122j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0123j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0124j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0125j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0126j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0127j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0128j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0129j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0130j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0131j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0132j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0133j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0134j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0135j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0136j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0137j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0138j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0139j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0140j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0141j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0142j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0143j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0144j1",
+      "type": "capacitance_series",
+      "value": 9.000000000652798e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.91e-11,
+        "max": 9.09e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0145j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0146j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0147j1",
+      "type": "capacitance_series",
+      "value": 8.000000000734398e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.92e-11,
+        "max": 8.08e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0148j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0149j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0150j1",
+      "type": "capacitance_series",
+      "value": 7.000000000839311e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.930000000000001e-11,
+        "max": 7.07e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0151j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0152j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0153j1",
+      "type": "capacitance_series",
+      "value": 5.5000000010682143e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.445e-11,
+        "max": 5.555e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0154j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0155j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0156j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0157j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0158j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0159j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0160j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0161j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0162j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0163j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0164j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0165j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0166j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0167j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0168j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0169j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0170j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0171j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0172j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0173j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0174j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0175j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0176j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0177j1",
+      "type": "capacitance_series",
+      "value": 9.000000000652798e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.91e-11,
+        "max": 9.09e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0178j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0179j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0180j1",
+      "type": "capacitance_series",
+      "value": 8.000000000734398e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.92e-11,
+        "max": 8.08e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0181j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0182j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0183j1",
+      "type": "capacitance_series",
+      "value": 7.000000000839311e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.930000000000001e-11,
+        "max": 7.07e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0184j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0185j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0186j1",
+      "type": "capacitance_series",
+      "value": 5.5000000010682143e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.445e-11,
+        "max": 5.555e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0187j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0188j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0189j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0190j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0191j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0192j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0193j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0194j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0195j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0196j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0197j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0198j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0199j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0200j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0201j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0202j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0203j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0204j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0205j1",
+      "type": "capacitance_series",
+      "value": 4.5000000000130555e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-10,
+        "max": 4.545e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0206j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0207j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0208j1",
+      "type": "capacitance_series",
+      "value": 3.0000000000195835e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.97e-10,
+        "max": 3.03e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0209j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0210j1",
+      "type": "capacitance_series",
+      "value": 2.000000000029376e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9800000000000001e-10,
+        "max": 2.02e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0211j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0212j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0213j1",
+      "type": "capacitance_series",
+      "value": 1.500000000039168e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.485e-10,
+        "max": 1.515e-10
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0214j1",
+      "type": "capacitance_series",
+      "value": 9.000000000652798e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.91e-11,
+        "max": 9.09e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0215j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0216j1",
+      "type": "capacitance_series",
+      "value": 8.500000000691198e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.415e-11,
+        "max": 8.585e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0217j1",
+      "type": "capacitance_series",
+      "value": 8.000000000734398e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.92e-11,
+        "max": 8.08e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0218j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0219j1",
+      "type": "capacitance_series",
+      "value": 7.500000000783357e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0220j1",
+      "type": "capacitance_series",
+      "value": 7.000000000839311e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.930000000000001e-11,
+        "max": 7.07e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0221j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0222j1",
+      "type": "capacitance_series",
+      "value": 6.000000000979196e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.94e-11,
+        "max": 6.06e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0223j1",
+      "type": "capacitance_series",
+      "value": 5.5000000010682143e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.445e-11,
+        "max": 5.555e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0224j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0225j1",
+      "type": "capacitance_series",
+      "value": 5.000000001175037e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.9500000000000004e-11,
+        "max": 5.05e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0226j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0227j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0228j1",
+      "type": "capacitance_series",
+      "value": 4.5000000013055954e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.455e-11,
+        "max": 4.545e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0229j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0230j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0231j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0232j1",
+      "type": "capacitance_series",
+      "value": 4.000000001468795e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.96e-11,
+        "max": 4.04e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0233j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0234j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    },
+    {
+      "id": "cs_VD0235j1",
+      "type": "capacitance_series",
+      "value": 3.500000001678623e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.4650000000000004e-11,
+        "max": 3.535e-11
+      },
+      "run_id": "1c013aedac8a46e4ba1cfef6e87802ef"
+    }
+  ]
+}

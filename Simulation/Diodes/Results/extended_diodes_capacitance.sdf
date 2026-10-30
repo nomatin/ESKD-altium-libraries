@@ -1,0 +1,6358 @@
+SDF: 1.0
+TotalPoints: 391
+#ChartSetupsBegin
+Chart: AC Analysis
+ChartId: EMLCZJER
+ChartView: 4
+ChartTitle: 
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 10
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 1.00000000000000E+002
+ChartXMin: 1.00000000000000E+006
+ChartXMax: 1.00100000000000E+006
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 2
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: Hz
+ChartXLabel: Frequency
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 10
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: TRUE
+CellAxisAutoMax: TRUE
+CellAxisAutoDiv: TRUE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 1.00000000000000E-004
+CellAxisOffset: -5.00000000000000E-004
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: v(nVD0001j1)
+WaveEq: v(nVD0001j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0001j1)
+WaveEq: i(VSVD0001j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0002j1)
+WaveEq: v(nVD0002j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0002j1)
+WaveEq: i(VSVD0002j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0003j1)
+WaveEq: v(nVD0003j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0003j1)
+WaveEq: i(VSVD0003j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0004j1)
+WaveEq: v(nVD0004j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0004j1)
+WaveEq: i(VSVD0004j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0004j2)
+WaveEq: v(nVD0004j2)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0004j2)
+WaveEq: i(VSVD0004j2)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0005j1)
+WaveEq: v(nVD0005j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0005j1)
+WaveEq: i(VSVD0005j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0005j2)
+WaveEq: v(nVD0005j2)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0005j2)
+WaveEq: i(VSVD0005j2)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0024j1)
+WaveEq: v(nVD0024j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0024j1)
+WaveEq: i(VSVD0024j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0025j1)
+WaveEq: v(nVD0025j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0025j1)
+WaveEq: i(VSVD0025j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0025j2)
+WaveEq: v(nVD0025j2)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0025j2)
+WaveEq: i(VSVD0025j2)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0026j1)
+WaveEq: v(nVD0026j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0026j1)
+WaveEq: i(VSVD0026j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0026j2)
+WaveEq: v(nVD0026j2)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0026j2)
+WaveEq: i(VSVD0026j2)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0027j1)
+WaveEq: v(nVD0027j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0027j1)
+WaveEq: i(VSVD0027j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0027j2)
+WaveEq: v(nVD0027j2)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0027j2)
+WaveEq: i(VSVD0027j2)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0055j1)
+WaveEq: v(nVD0055j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0055j1)
+WaveEq: i(VSVD0055j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0056j1)
+WaveEq: v(nVD0056j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0056j1)
+WaveEq: i(VSVD0056j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0057j1)
+WaveEq: v(nVD0057j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0057j1)
+WaveEq: i(VSVD0057j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0058j1)
+WaveEq: v(nVD0058j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0058j1)
+WaveEq: i(VSVD0058j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0059j1)
+WaveEq: v(nVD0059j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0059j1)
+WaveEq: i(VSVD0059j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0060j1)
+WaveEq: v(nVD0060j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0060j1)
+WaveEq: i(VSVD0060j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0061j1)
+WaveEq: v(nVD0061j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0061j1)
+WaveEq: i(VSVD0061j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0062j1)
+WaveEq: v(nVD0062j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0062j1)
+WaveEq: i(VSVD0062j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0063j1)
+WaveEq: v(nVD0063j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0063j1)
+WaveEq: i(VSVD0063j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0064j1)
+WaveEq: v(nVD0064j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0064j1)
+WaveEq: i(VSVD0064j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0065j1)
+WaveEq: v(nVD0065j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0065j1)
+WaveEq: i(VSVD0065j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0066j1)
+WaveEq: v(nVD0066j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0066j1)
+WaveEq: i(VSVD0066j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0067j1)
+WaveEq: v(nVD0067j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0067j1)
+WaveEq: i(VSVD0067j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0068j1)
+WaveEq: v(nVD0068j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0068j1)
+WaveEq: i(VSVD0068j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0069j1)
+WaveEq: v(nVD0069j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0069j1)
+WaveEq: i(VSVD0069j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0070j1)
+WaveEq: v(nVD0070j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0070j1)
+WaveEq: i(VSVD0070j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0071j1)
+WaveEq: v(nVD0071j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0071j1)
+WaveEq: i(VSVD0071j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0072j1)
+WaveEq: v(nVD0072j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0072j1)
+WaveEq: i(VSVD0072j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0073j1)
+WaveEq: v(nVD0073j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0073j1)
+WaveEq: i(VSVD0073j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0074j1)
+WaveEq: v(nVD0074j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0074j1)
+WaveEq: i(VSVD0074j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0075j1)
+WaveEq: v(nVD0075j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0075j1)
+WaveEq: i(VSVD0075j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0076j1)
+WaveEq: v(nVD0076j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0076j1)
+WaveEq: i(VSVD0076j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0077j1)
+WaveEq: v(nVD0077j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0077j1)
+WaveEq: i(VSVD0077j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0078j1)
+WaveEq: v(nVD0078j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0078j1)
+WaveEq: i(VSVD0078j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0079j1)
+WaveEq: v(nVD0079j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0079j1)
+WaveEq: i(VSVD0079j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0080j1)
+WaveEq: v(nVD0080j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0080j1)
+WaveEq: i(VSVD0080j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0081j1)
+WaveEq: v(nVD0081j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0081j1)
+WaveEq: i(VSVD0081j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0082j1)
+WaveEq: v(nVD0082j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0082j1)
+WaveEq: i(VSVD0082j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0083j1)
+WaveEq: v(nVD0083j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0083j1)
+WaveEq: i(VSVD0083j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0084j1)
+WaveEq: v(nVD0084j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0084j1)
+WaveEq: i(VSVD0084j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0085j1)
+WaveEq: v(nVD0085j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0085j1)
+WaveEq: i(VSVD0085j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0086j1)
+WaveEq: v(nVD0086j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0086j1)
+WaveEq: i(VSVD0086j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0087j1)
+WaveEq: v(nVD0087j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0087j1)
+WaveEq: i(VSVD0087j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0088j1)
+WaveEq: v(nVD0088j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0088j1)
+WaveEq: i(VSVD0088j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0089j1)
+WaveEq: v(nVD0089j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0089j1)
+WaveEq: i(VSVD0089j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0090j1)
+WaveEq: v(nVD0090j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0090j1)
+WaveEq: i(VSVD0090j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0091j1)
+WaveEq: v(nVD0091j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0091j1)
+WaveEq: i(VSVD0091j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0092j1)
+WaveEq: v(nVD0092j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0092j1)
+WaveEq: i(VSVD0092j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0093j1)
+WaveEq: v(nVD0093j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0093j1)
+WaveEq: i(VSVD0093j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0094j1)
+WaveEq: v(nVD0094j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0094j1)
+WaveEq: i(VSVD0094j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0095j1)
+WaveEq: v(nVD0095j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0095j1)
+WaveEq: i(VSVD0095j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0096j1)
+WaveEq: v(nVD0096j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0096j1)
+WaveEq: i(VSVD0096j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0097j1)
+WaveEq: v(nVD0097j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0097j1)
+WaveEq: i(VSVD0097j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0098j1)
+WaveEq: v(nVD0098j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0098j1)
+WaveEq: i(VSVD0098j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0099j1)
+WaveEq: v(nVD0099j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0099j1)
+WaveEq: i(VSVD0099j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0100j1)
+WaveEq: v(nVD0100j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0100j1)
+WaveEq: i(VSVD0100j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0101j1)
+WaveEq: v(nVD0101j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0101j1)
+WaveEq: i(VSVD0101j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0102j1)
+WaveEq: v(nVD0102j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0102j1)
+WaveEq: i(VSVD0102j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0103j1)
+WaveEq: v(nVD0103j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0103j1)
+WaveEq: i(VSVD0103j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0104j1)
+WaveEq: v(nVD0104j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0104j1)
+WaveEq: i(VSVD0104j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0105j1)
+WaveEq: v(nVD0105j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0105j1)
+WaveEq: i(VSVD0105j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0106j1)
+WaveEq: v(nVD0106j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0106j1)
+WaveEq: i(VSVD0106j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0107j1)
+WaveEq: v(nVD0107j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0107j1)
+WaveEq: i(VSVD0107j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0108j1)
+WaveEq: v(nVD0108j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0108j1)
+WaveEq: i(VSVD0108j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0109j1)
+WaveEq: v(nVD0109j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0109j1)
+WaveEq: i(VSVD0109j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0110j1)
+WaveEq: v(nVD0110j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0110j1)
+WaveEq: i(VSVD0110j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0111j1)
+WaveEq: v(nVD0111j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0111j1)
+WaveEq: i(VSVD0111j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0112j1)
+WaveEq: v(nVD0112j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0112j1)
+WaveEq: i(VSVD0112j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0113j1)
+WaveEq: v(nVD0113j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0113j1)
+WaveEq: i(VSVD0113j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0114j1)
+WaveEq: v(nVD0114j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0114j1)
+WaveEq: i(VSVD0114j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0115j1)
+WaveEq: v(nVD0115j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0115j1)
+WaveEq: i(VSVD0115j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0116j1)
+WaveEq: v(nVD0116j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0116j1)
+WaveEq: i(VSVD0116j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0117j1)
+WaveEq: v(nVD0117j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0117j1)
+WaveEq: i(VSVD0117j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0118j1)
+WaveEq: v(nVD0118j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0118j1)
+WaveEq: i(VSVD0118j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0119j1)
+WaveEq: v(nVD0119j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0119j1)
+WaveEq: i(VSVD0119j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0120j1)
+WaveEq: v(nVD0120j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0120j1)
+WaveEq: i(VSVD0120j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0121j1)
+WaveEq: v(nVD0121j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0121j1)
+WaveEq: i(VSVD0121j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0122j1)
+WaveEq: v(nVD0122j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0122j1)
+WaveEq: i(VSVD0122j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0123j1)
+WaveEq: v(nVD0123j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0123j1)
+WaveEq: i(VSVD0123j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0124j1)
+WaveEq: v(nVD0124j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0124j1)
+WaveEq: i(VSVD0124j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0125j1)
+WaveEq: v(nVD0125j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0125j1)
+WaveEq: i(VSVD0125j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0126j1)
+WaveEq: v(nVD0126j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0126j1)
+WaveEq: i(VSVD0126j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0127j1)
+WaveEq: v(nVD0127j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0127j1)
+WaveEq: i(VSVD0127j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0128j1)
+WaveEq: v(nVD0128j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0128j1)
+WaveEq: i(VSVD0128j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0129j1)
+WaveEq: v(nVD0129j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0129j1)
+WaveEq: i(VSVD0129j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0130j1)
+WaveEq: v(nVD0130j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0130j1)
+WaveEq: i(VSVD0130j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0131j1)
+WaveEq: v(nVD0131j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0131j1)
+WaveEq: i(VSVD0131j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0132j1)
+WaveEq: v(nVD0132j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0132j1)
+WaveEq: i(VSVD0132j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0133j1)
+WaveEq: v(nVD0133j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0133j1)
+WaveEq: i(VSVD0133j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0134j1)
+WaveEq: v(nVD0134j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0134j1)
+WaveEq: i(VSVD0134j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0135j1)
+WaveEq: v(nVD0135j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0135j1)
+WaveEq: i(VSVD0135j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0136j1)
+WaveEq: v(nVD0136j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0136j1)
+WaveEq: i(VSVD0136j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0137j1)
+WaveEq: v(nVD0137j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0137j1)
+WaveEq: i(VSVD0137j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0138j1)
+WaveEq: v(nVD0138j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0138j1)
+WaveEq: i(VSVD0138j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0139j1)
+WaveEq: v(nVD0139j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0139j1)
+WaveEq: i(VSVD0139j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0140j1)
+WaveEq: v(nVD0140j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0140j1)
+WaveEq: i(VSVD0140j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0141j1)
+WaveEq: v(nVD0141j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0141j1)
+WaveEq: i(VSVD0141j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0142j1)
+WaveEq: v(nVD0142j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0142j1)
+WaveEq: i(VSVD0142j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0143j1)
+WaveEq: v(nVD0143j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0143j1)
+WaveEq: i(VSVD0143j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0144j1)
+WaveEq: v(nVD0144j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0144j1)
+WaveEq: i(VSVD0144j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0145j1)
+WaveEq: v(nVD0145j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0145j1)
+WaveEq: i(VSVD0145j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0146j1)
+WaveEq: v(nVD0146j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0146j1)
+WaveEq: i(VSVD0146j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0147j1)
+WaveEq: v(nVD0147j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0147j1)
+WaveEq: i(VSVD0147j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0148j1)
+WaveEq: v(nVD0148j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0148j1)
+WaveEq: i(VSVD0148j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0149j1)
+WaveEq: v(nVD0149j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0149j1)
+WaveEq: i(VSVD0149j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0150j1)
+WaveEq: v(nVD0150j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0150j1)
+WaveEq: i(VSVD0150j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0151j1)
+WaveEq: v(nVD0151j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0151j1)
+WaveEq: i(VSVD0151j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0152j1)
+WaveEq: v(nVD0152j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0152j1)
+WaveEq: i(VSVD0152j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0153j1)
+WaveEq: v(nVD0153j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0153j1)
+WaveEq: i(VSVD0153j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0154j1)
+WaveEq: v(nVD0154j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0154j1)
+WaveEq: i(VSVD0154j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0155j1)
+WaveEq: v(nVD0155j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0155j1)
+WaveEq: i(VSVD0155j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0156j1)
+WaveEq: v(nVD0156j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0156j1)
+WaveEq: i(VSVD0156j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0157j1)
+WaveEq: v(nVD0157j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0157j1)
+WaveEq: i(VSVD0157j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0158j1)
+WaveEq: v(nVD0158j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0158j1)
+WaveEq: i(VSVD0158j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0159j1)
+WaveEq: v(nVD0159j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0159j1)
+WaveEq: i(VSVD0159j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0160j1)
+WaveEq: v(nVD0160j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0160j1)
+WaveEq: i(VSVD0160j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0161j1)
+WaveEq: v(nVD0161j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0161j1)
+WaveEq: i(VSVD0161j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0162j1)
+WaveEq: v(nVD0162j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0162j1)
+WaveEq: i(VSVD0162j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0163j1)
+WaveEq: v(nVD0163j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0163j1)
+WaveEq: i(VSVD0163j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0164j1)
+WaveEq: v(nVD0164j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0164j1)
+WaveEq: i(VSVD0164j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0165j1)
+WaveEq: v(nVD0165j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0165j1)
+WaveEq: i(VSVD0165j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0166j1)
+WaveEq: v(nVD0166j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0166j1)
+WaveEq: i(VSVD0166j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0167j1)
+WaveEq: v(nVD0167j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0167j1)
+WaveEq: i(VSVD0167j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0168j1)
+WaveEq: v(nVD0168j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0168j1)
+WaveEq: i(VSVD0168j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0169j1)
+WaveEq: v(nVD0169j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0169j1)
+WaveEq: i(VSVD0169j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0170j1)
+WaveEq: v(nVD0170j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0170j1)
+WaveEq: i(VSVD0170j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0171j1)
+WaveEq: v(nVD0171j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0171j1)
+WaveEq: i(VSVD0171j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0172j1)
+WaveEq: v(nVD0172j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0172j1)
+WaveEq: i(VSVD0172j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0173j1)
+WaveEq: v(nVD0173j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0173j1)
+WaveEq: i(VSVD0173j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0174j1)
+WaveEq: v(nVD0174j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0174j1)
+WaveEq: i(VSVD0174j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0175j1)
+WaveEq: v(nVD0175j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0175j1)
+WaveEq: i(VSVD0175j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0176j1)
+WaveEq: v(nVD0176j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0176j1)
+WaveEq: i(VSVD0176j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0177j1)
+WaveEq: v(nVD0177j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0177j1)
+WaveEq: i(VSVD0177j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0178j1)
+WaveEq: v(nVD0178j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0178j1)
+WaveEq: i(VSVD0178j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0179j1)
+WaveEq: v(nVD0179j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0179j1)
+WaveEq: i(VSVD0179j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0180j1)
+WaveEq: v(nVD0180j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0180j1)
+WaveEq: i(VSVD0180j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0181j1)
+WaveEq: v(nVD0181j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0181j1)
+WaveEq: i(VSVD0181j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0182j1)
+WaveEq: v(nVD0182j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0182j1)
+WaveEq: i(VSVD0182j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0183j1)
+WaveEq: v(nVD0183j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0183j1)
+WaveEq: i(VSVD0183j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0184j1)
+WaveEq: v(nVD0184j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0184j1)
+WaveEq: i(VSVD0184j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0185j1)
+WaveEq: v(nVD0185j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0185j1)
+WaveEq: i(VSVD0185j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0186j1)
+WaveEq: v(nVD0186j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0186j1)
+WaveEq: i(VSVD0186j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0187j1)
+WaveEq: v(nVD0187j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0187j1)
+WaveEq: i(VSVD0187j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0188j1)
+WaveEq: v(nVD0188j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0188j1)
+WaveEq: i(VSVD0188j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0189j1)
+WaveEq: v(nVD0189j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0189j1)
+WaveEq: i(VSVD0189j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0190j1)
+WaveEq: v(nVD0190j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0190j1)
+WaveEq: i(VSVD0190j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0191j1)
+WaveEq: v(nVD0191j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0191j1)
+WaveEq: i(VSVD0191j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0192j1)
+WaveEq: v(nVD0192j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0192j1)
+WaveEq: i(VSVD0192j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0193j1)
+WaveEq: v(nVD0193j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0193j1)
+WaveEq: i(VSVD0193j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0194j1)
+WaveEq: v(nVD0194j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0194j1)
+WaveEq: i(VSVD0194j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0195j1)
+WaveEq: v(nVD0195j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0195j1)
+WaveEq: i(VSVD0195j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0196j1)
+WaveEq: v(nVD0196j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0196j1)
+WaveEq: i(VSVD0196j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0197j1)
+WaveEq: v(nVD0197j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0197j1)
+WaveEq: i(VSVD0197j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0198j1)
+WaveEq: v(nVD0198j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0198j1)
+WaveEq: i(VSVD0198j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0199j1)
+WaveEq: v(nVD0199j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0199j1)
+WaveEq: i(VSVD0199j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0200j1)
+WaveEq: v(nVD0200j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0200j1)
+WaveEq: i(VSVD0200j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0201j1)
+WaveEq: v(nVD0201j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0201j1)
+WaveEq: i(VSVD0201j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0202j1)
+WaveEq: v(nVD0202j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0202j1)
+WaveEq: i(VSVD0202j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0203j1)
+WaveEq: v(nVD0203j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0203j1)
+WaveEq: i(VSVD0203j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0204j1)
+WaveEq: v(nVD0204j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0204j1)
+WaveEq: i(VSVD0204j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0205j1)
+WaveEq: v(nVD0205j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0205j1)
+WaveEq: i(VSVD0205j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0206j1)
+WaveEq: v(nVD0206j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0206j1)
+WaveEq: i(VSVD0206j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0207j1)
+WaveEq: v(nVD0207j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0207j1)
+WaveEq: i(VSVD0207j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0208j1)
+WaveEq: v(nVD0208j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0208j1)
+WaveEq: i(VSVD0208j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0209j1)
+WaveEq: v(nVD0209j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0209j1)
+WaveEq: i(VSVD0209j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0210j1)
+WaveEq: v(nVD0210j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0210j1)
+WaveEq: i(VSVD0210j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0211j1)
+WaveEq: v(nVD0211j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0211j1)
+WaveEq: i(VSVD0211j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0212j1)
+WaveEq: v(nVD0212j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0212j1)
+WaveEq: i(VSVD0212j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0213j1)
+WaveEq: v(nVD0213j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0213j1)
+WaveEq: i(VSVD0213j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0214j1)
+WaveEq: v(nVD0214j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0214j1)
+WaveEq: i(VSVD0214j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0215j1)
+WaveEq: v(nVD0215j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0215j1)
+WaveEq: i(VSVD0215j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0216j1)
+WaveEq: v(nVD0216j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0216j1)
+WaveEq: i(VSVD0216j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0217j1)
+WaveEq: v(nVD0217j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0217j1)
+WaveEq: i(VSVD0217j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0218j1)
+WaveEq: v(nVD0218j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0218j1)
+WaveEq: i(VSVD0218j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0219j1)
+WaveEq: v(nVD0219j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0219j1)
+WaveEq: i(VSVD0219j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0220j1)
+WaveEq: v(nVD0220j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0220j1)
+WaveEq: i(VSVD0220j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: v(nVD0221j1)
+WaveEq: v(nVD0221j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: i(VSVD0221j1)
+WaveEq: i(VSVD0221j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: v(nVD0222j1)
+WaveEq: v(nVD0222j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: i(VSVD0222j1)
+WaveEq: i(VSVD0222j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: v(nVD0223j1)
+WaveEq: v(nVD0223j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: i(VSVD0223j1)
+WaveEq: i(VSVD0223j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: v(nVD0224j1)
+WaveEq: v(nVD0224j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: i(VSVD0224j1)
+WaveEq: i(VSVD0224j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: v(nVD0225j1)
+WaveEq: v(nVD0225j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: i(VSVD0225j1)
+WaveEq: i(VSVD0225j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: v(nVD0226j1)
+WaveEq: v(nVD0226j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: i(VSVD0226j1)
+WaveEq: i(VSVD0226j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: v(nVD0227j1)
+WaveEq: v(nVD0227j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: i(VSVD0227j1)
+WaveEq: i(VSVD0227j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: v(nVD0228j1)
+WaveEq: v(nVD0228j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: i(VSVD0228j1)
+WaveEq: i(VSVD0228j1)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: v(nVD0229j1)
+WaveEq: v(nVD0229j1)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: i(VSVD0229j1)
+WaveEq: i(VSVD0229j1)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: v(nVD0230j1)
+WaveEq: v(nVD0230j1)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: i(VSVD0230j1)
+WaveEq: i(VSVD0230j1)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: v(nVD0231j1)
+WaveEq: v(nVD0231j1)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: i(VSVD0231j1)
+WaveEq: i(VSVD0231j1)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: v(nVD0232j1)
+WaveEq: v(nVD0232j1)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: i(VSVD0232j1)
+WaveEq: i(VSVD0232j1)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: v(nVD0233j1)
+WaveEq: v(nVD0233j1)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: i(VSVD0233j1)
+WaveEq: i(VSVD0233j1)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: v(nVD0234j1)
+WaveEq: v(nVD0234j1)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: i(VSVD0234j1)
+WaveEq: i(VSVD0234j1)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: v(nVD0235j1)
+WaveEq: v(nVD0235j1)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: i(VSVD0235j1)
+WaveEq: i(VSVD0235j1)
+WaveColor: 5744692
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 10
+CellXAxisLabel: Frequency
+CellXAxisUnits: Hz
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 1.00000000000000E+002
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 1.00000000000000E+006
+CellXAxisMax: 1.00100000000000E+006
+CellXAxisScaleMode: 0
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 9.99999999999884E+002
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+ActiveChartName: AC Analysis
+FilteredWavesBlend: 80
+#ChartSetupsEnd
+Chart: AC Analysis
+ChartId: EMLCZJER
+ChartShow: TRUE
+ChartXMinReal: 1.00000000000000E+006
+ChartXMaxReal: 1.00100000000000E+006
+Wave: frequency
+WaveYUnitStr: Hz
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+    €„.A            €„.A        
+WaveDataStart
+ $tI     $tI    
+Wave: i(vsvd0001j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A            4Z\=”íK%[=D>
+WaveDataStart
+ $tI     Ñâ*Ùê!2
+Wave: i(vsvd0002j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A            4Z\=”íK%[=D>
+WaveDataStart
+ $tI     Ñâ*Ùê!2
+Wave: i(vsvd0003j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ä:‘®=-F\<=D>
+WaveDataStart
+ $tI    ×‰t-zì!2
+Wave: i(vsvd0004j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ä:‘®=-F\<=D>
+WaveDataStart
+ $tI    ×‰t-zì!2
+Wave: i(vsvd0004j2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ä:‘®=-F\<=D>
+WaveDataStart
+ $tI    ×‰t-zì!2
+Wave: i(vsvd0005j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ä:‘®=-F\<=D>
+WaveDataStart
+ $tI    ×‰t-zì!2
+Wave: i(vsvd0005j2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           Ü:‘®=-F\<=D>
+WaveDataStart
+ $tI    ×‰t-zì!2
+Wave: i(vsvd0024j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ?‰E°=~üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0025j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           @‰E°=~üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0025j2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           @‰E°=}üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0026j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ?‰E°=~üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0026j2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ?‰E°=~üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0027j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           ?‰E°=~üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0027j2)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A           @‰E°=}üÌ˜ÅÝp>
+WaveDataStart
+ $tI    J,‚--î†3
+Wave: i(vsvd0055j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0056j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0057j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0058j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0059j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0060j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0061j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0062j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0063j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0064j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0065j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0066j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0067j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0068j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0069j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0070j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù¢>
+WaveDataStart
+ $tI    s©,óË5
+Wave: i(vsvd0071j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0072j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0073j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ >
+WaveDataStart
+ $tI    s©,-î5
+Wave: i(vsvd0074j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0075j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0076j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï ì4
+Wave: i(vsvd0077j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0078j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0079j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=x\Äï0—>
+WaveDataStart
+ $tI    s©,~‡¹4
+Wave: i(vsvd0080j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0081j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0082j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0083j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0084j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0085j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0086j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0087j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0088j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0089j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0090j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0091j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0092j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0093j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0094j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0095j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0096j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0097j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0098j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0099j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0100j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0101j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0102j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0103j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0104j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0105j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0106j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0107j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù¢>
+WaveDataStart
+ $tI    s©,óË5
+Wave: i(vsvd0108j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0109j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0110j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ >
+WaveDataStart
+ $tI    s©,-î5
+Wave: i(vsvd0111j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0112j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0113j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï ì4
+Wave: i(vsvd0114j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0115j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0116j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=x\Äï0—>
+WaveDataStart
+ $tI    s©,~‡¹4
+Wave: i(vsvd0117j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0118j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0119j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0120j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0121j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0122j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0123j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0124j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0125j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0126j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0127j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0128j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0129j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0130j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0131j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0132j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0133j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0134j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0135j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0136j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0137j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0138j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0139j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0140j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0141j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0142j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0143j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0144j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù¢>
+WaveDataStart
+ $tI    s©,óË5
+Wave: i(vsvd0145j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0146j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0147j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ >
+WaveDataStart
+ $tI    s©,-î5
+Wave: i(vsvd0148j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0149j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0150j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï ì4
+Wave: i(vsvd0151j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0152j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0153j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=x\Äï0—>
+WaveDataStart
+ $tI    s©,~‡¹4
+Wave: i(vsvd0154j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0155j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0156j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0157j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0158j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0159j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0160j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0161j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0162j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0163j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0164j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0165j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0166j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0167j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0168j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0169j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0170j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0171j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0172j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0173j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0174j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0175j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0176j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0177j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù¢>
+WaveDataStart
+ $tI    s©,óË5
+Wave: i(vsvd0178j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0179j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0180j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ >
+WaveDataStart
+ $tI    s©,-î5
+Wave: i(vsvd0181j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0182j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0183j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï ì4
+Wave: i(vsvd0184j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0185j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0186j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=x\Äï0—>
+WaveDataStart
+ $tI    s©,~‡¹4
+Wave: i(vsvd0187j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0188j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0189j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0190j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0191j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0192j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0193j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0194j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0195j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0196j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0197j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0198j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0199j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0200j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0201j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0202j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0203j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0204j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0205j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=¤5ñÝ·Ç>
+WaveDataStart
+ $tI    s©,ð¾=6
+Wave: i(vsvd0206j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0207j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0208j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¿>
+WaveDataStart
+ $tI    s©,•þü5
+Wave: i(vsvd0209j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0210j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7µ>
+WaveDataStart
+ $tI    s©,¸©¨5
+Wave: i(vsvd0211j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0212j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0213j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸ¯>
+WaveDataStart
+ $tI    s©,•þ|5
+Wave: i(vsvd0214j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù¢>
+WaveDataStart
+ $tI    s©,óË5
+Wave: i(vsvd0215j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0216j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Æv ¢ë¡>
+WaveDataStart
+ $tI    s©,]5
+Wave: i(vsvd0217j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ >
+WaveDataStart
+ $tI    s©,-î5
+Wave: i(vsvd0218j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0219j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=0òf—ÒŸŸ>
+WaveDataStart
+ $tI    s©,•þü4
+Wave: i(vsvd0220j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï ì4
+Wave: i(vsvd0221j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0222j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=&(y¨L™>
+WaveDataStart
+ $tI    s©,DeÊ4
+Wave: i(vsvd0223j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=x\Äï0—>
+WaveDataStart
+ $tI    s©,~‡¹4
+Wave: i(vsvd0224j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0225j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=Ëö™7•>
+WaveDataStart
+ $tI    s©,¸©¨4
+Wave: i(vsvd0226j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0227j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0228j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=^×Z~ù’>
+WaveDataStart
+ $tI    s©,óË—4
+Wave: i(vsvd0229j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0230j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0231j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0232j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=oÅ¦ÅÝ>
+WaveDataStart
+ $tI    s©,-î†4
+Wave: i(vsvd0233j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0234j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: i(vsvd0235j1)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+    €„.A        0ÁUb.•=‚Y¤â„>
+WaveDataStart
+ $tI    s©,Ï l4
+Wave: v(nvd0001j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0002j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0003j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0004j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0004j2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0005j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0005j2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0024j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0025j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0025j2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0026j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0026j2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0027j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0027j2)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0055j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0056j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0057j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0058j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0059j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0060j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0061j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0062j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0063j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0064j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0065j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0066j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0067j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0068j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0069j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0070j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0071j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0072j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0073j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0074j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0075j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0076j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0077j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0078j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0079j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0080j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0081j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0082j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0083j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0084j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0085j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0086j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0087j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0088j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0089j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0090j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0091j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0092j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0093j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0094j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0095j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0096j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0097j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0098j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0099j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0100j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0101j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0102j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0103j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0104j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0105j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0106j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0107j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0108j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0109j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0110j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0111j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0112j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0113j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0114j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0115j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0116j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0117j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0118j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0119j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0120j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0121j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0122j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0123j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0124j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0125j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0126j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0127j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0128j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0129j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0130j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0131j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0132j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0133j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0134j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0135j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0136j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0137j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0138j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0139j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0140j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0141j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0142j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0143j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0144j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0145j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0146j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0147j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0148j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0149j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0150j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0151j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0152j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0153j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0154j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0155j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0156j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0157j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0158j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0159j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0160j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0161j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0162j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0163j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0164j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0165j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0166j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0167j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0168j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0169j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0170j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0171j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0172j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0173j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0174j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0175j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0176j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0177j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0178j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0179j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0180j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0181j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0182j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0183j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0184j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0185j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0186j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0187j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0188j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0189j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0190j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0191j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0192j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0193j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0194j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0195j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0196j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0197j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0198j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0199j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0200j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0201j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0202j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0203j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0204j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0205j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0206j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0207j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0208j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0209j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0210j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0211j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0212j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0213j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0214j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0215j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0216j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0217j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0218j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0219j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0220j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0221j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0222j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0223j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0224j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0225j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0226j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0227j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0228j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0229j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0230j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0231j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0232j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0233j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0234j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    
+Wave: v(nvd0235j1)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 1
+WaveIsXComplex: TRUE
+WaveIsYComplex: TRUE
+WaveType: 0
+WaveVariableType: NodeVoltage
+WaveExtendedDataStart
+    €„.A        ü©ñÒMbP?        
+WaveDataStart
+ $tI    oƒ:    

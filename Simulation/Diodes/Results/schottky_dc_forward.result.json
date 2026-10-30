@@ -1,0 +1,1141 @@
+{
+  "status": "PASS",
+  "test": "schottky_dc_forward",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0024j1p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.2400066700779825,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.2400066700779825,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.3026856036265702,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.3026856036265702,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403374,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j1p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403374,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.24000667007798293,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.24000667007798293,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0025j2p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j1p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.30268560362657015,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0026j2p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.2400066700779842,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.3026856036265704,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.3026856036265704,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380106,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4989879602524695,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j1p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p1)",
+      "measurement": "last",
+      "min": 0.23899049218293655,
+      "max": 0.24099049218293656,
+      "value": 0.24000667007798404,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.241,
+      "value": 0.24000667007798404,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p2)",
+      "measurement": "last",
+      "min": 0.30167109596950614,
+      "max": 0.30367109596950614,
+      "value": 0.30268560362656993,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p2)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.321,
+      "value": 0.30268560362656993,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p3)",
+      "measurement": "last",
+      "min": 0.3947140814314507,
+      "max": 0.3967140814314507,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p3)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.401,
+      "value": 0.39572689595380095,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p4)",
+      "measurement": "last",
+      "min": 0.4979759545048209,
+      "max": 0.4999759545048209,
+      "value": 0.49898796025246944,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p4)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.49898796025246944,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p5)",
+      "measurement": "last",
+      "min": 0.7913620496610306,
+      "max": 0.7933620496610306,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0027j2p5)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.801,
+      "value": 0.7923731689403375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0028j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0028j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0029j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0029j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0030j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0030j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.49999870403871394,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0031j1p1)",
+      "measurement": "last",
+      "min": 0.6989899999999997,
+      "max": 0.7009899999999997,
+      "value": 0.6999929866341984,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0031j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866341984,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0032j1p1)",
+      "measurement": "last",
+      "min": 0.6989899999999997,
+      "max": 0.7009899999999997,
+      "value": 0.6999929866341984,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0032j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866341984,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0033j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999999,
+      "max": 0.8509899999999999,
+      "value": 0.8499886985800889,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0033j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985800889,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0034j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999999,
+      "max": 0.8509899999999999,
+      "value": 0.8499886985800889,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0034j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985800889,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0035j1p1)",
+      "measurement": "last",
+      "min": 0.8989899999999998,
+      "max": 0.9009899999999998,
+      "value": 0.8999872692287187,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0035j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287187,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0036j1p1)",
+      "measurement": "last",
+      "min": 0.8989899999999998,
+      "max": 0.9009899999999998,
+      "value": 0.8999872692287187,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0036j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287187,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0037j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0037j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0038j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0038j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0039j1p1)",
+      "measurement": "last",
+      "min": 0.4989900000000354,
+      "max": 0.5009900000000354,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0039j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387203,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0040j1p1)",
+      "measurement": "last",
+      "min": 0.6989899999999997,
+      "max": 0.7009899999999997,
+      "value": 0.6999929866342074,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0040j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866342074,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0041j1p1)",
+      "measurement": "last",
+      "min": 0.6989899999999997,
+      "max": 0.7009899999999997,
+      "value": 0.6999929866342074,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0041j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866342074,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0042j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999999,
+      "max": 0.8509899999999999,
+      "value": 0.8499886985800996,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0042j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985800996,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0043j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999999,
+      "max": 0.8509899999999999,
+      "value": 0.8499886985800996,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0043j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985800996,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0044j1p1)",
+      "measurement": "last",
+      "min": 0.8989899999999992,
+      "max": 0.9009899999999992,
+      "value": 0.8999872692287292,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0044j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287292,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0045j1p1)",
+      "measurement": "last",
+      "min": 0.8989899999999992,
+      "max": 0.9009899999999992,
+      "value": 0.8999872692287292,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0045j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287292,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0046j1p1)",
+      "measurement": "last",
+      "min": 0.49899000000003496,
+      "max": 0.5009900000000349,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0046j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0047j1p1)",
+      "measurement": "last",
+      "min": 0.49899000000003496,
+      "max": 0.5009900000000349,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0047j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0048j1p1)",
+      "measurement": "last",
+      "min": 0.49899000000003496,
+      "max": 0.5009900000000349,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0048j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.501,
+      "value": 0.4999987040387218,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0049j1p1)",
+      "measurement": "last",
+      "min": 0.6989900000000002,
+      "max": 0.7009900000000002,
+      "value": 0.6999929866342108,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0049j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866342108,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0050j1p1)",
+      "measurement": "last",
+      "min": 0.6989900000000002,
+      "max": 0.7009900000000002,
+      "value": 0.6999929866342108,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0050j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.701,
+      "value": 0.6999929866342108,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0051j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999996,
+      "max": 0.8509899999999996,
+      "value": 0.8499886985801028,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0051j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985801028,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0052j1p1)",
+      "measurement": "last",
+      "min": 0.8489899999999996,
+      "max": 0.8509899999999996,
+      "value": 0.8499886985801028,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0052j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.851,
+      "value": 0.8499886985801028,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0053j1p1)",
+      "measurement": "last",
+      "min": 0.8989900000000004,
+      "max": 0.9009900000000004,
+      "value": 0.8999872692287346,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0053j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287346,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0054j1p1)",
+      "measurement": "last",
+      "min": 0.8989900000000004,
+      "max": 0.9009900000000004,
+      "value": 0.8999872692287346,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0054j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.901,
+      "value": 0.8999872692287346,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\26fea0f94f3c4128884f8abb4c215b39",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\26fea0f94f3c4128884f8abb4c215b39\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_efbf2d25dacc4c9e8505dea44b93cb66.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

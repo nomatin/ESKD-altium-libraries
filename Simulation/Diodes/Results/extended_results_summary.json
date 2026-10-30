@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "test": "extended_zener_temperature_Tp25.json",
+      "status": "PASS",
+      "checks": 182,
+      "passed_checks": 182,
+      "failed_checks": 0,
+      "measurements": 0,
+      "measurement_statuses": {
+        "PASS": 0,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_zener_temperature_Tp26.json",
+      "status": "FAIL",
+      "checks": 182,
+      "passed_checks": 11,
+      "failed_checks": 171,
+      "measurements": 0,
+      "measurement_statuses": {
+        "PASS": 0,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_zener_rdif.json",
+      "status": "PASS",
+      "checks": 181,
+      "passed_checks": 181,
+      "failed_checks": 0,
+      "measurements": 0,
+      "measurement_statuses": {
+        "PASS": 0,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_diodes_capacitance.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 195,
+      "measurement_statuses": {
+        "PASS": 195,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_fast_recovery.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 7,
+      "measurement_statuses": {
+        "PASS": 7,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery.json",
+      "status": "ERROR",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 7,
+      "measurement_statuses": {
+        "PASS": 0,
+        "FAIL": 0,
+        "ERROR": 7,
+        "MEASURED": 0
+      },
+      "error": {
+        "code": "MEASUREMENT_INVALID_WINDOW",
+        "message": "Window outside waveform"
+      }
+    }
+  ],
+  "local_sz": {
+    "status": "FAIL",
+    "passed": 0,
+    "failed": 181,
+    "report": "extended_zener_sz.result.json"
+  }
+}

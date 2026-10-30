@@ -1,0 +1,1271 @@
+* Local zener differential resistance, central 1 percent current difference
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0055_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0056_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0057_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0058_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0059_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0060_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0061_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0062_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0063_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0064_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0065_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0066_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0067_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0068_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0069_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0070_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0071_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0072_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0073_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0074_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0075_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0076_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0077_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0078_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0079_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0080_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0081_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0082_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0083_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0084_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0085_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0086_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0087_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0088_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0089_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0090_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0091_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0092_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0093_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0094_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0095_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0096_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0097_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0098_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0099_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0100_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0101_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0102_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0103_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0104_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0105_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0106_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0107_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0108_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0109_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0110_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0111_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0112_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0113_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0114_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0115_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0116_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0117_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0118_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0119_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0120_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0121_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0122_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0123_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0124_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0125_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0126_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0127_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0128_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0129_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0130_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0131_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0132_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0133_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0134_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0135_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0136_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0137_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0138_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0139_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0140_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0141_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0142_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0143_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0144_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0145_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0146_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0147_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0148_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0149_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0150_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0151_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0152_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0153_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0154_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0155_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0156_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0157_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0158_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0159_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0160_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0161_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0162_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0163_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0164_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0165_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0166_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0167_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0168_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0169_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0170_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0171_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0172_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0173_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0174_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0175_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0176_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0177_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0178_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0179_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0180_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0181_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0182_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0183_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0184_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0185_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0186_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0187_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0188_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0189_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0190_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0191_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0192_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0193_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0194_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0195_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0196_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0197_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0198_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0199_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0200_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0201_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0202_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0203_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0204_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0205_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0206_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0207_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0208_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0209_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0210_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0211_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0212_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0213_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0214_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0215_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0216_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0217_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0218_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0219_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0220_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0221_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0222_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0223_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0224_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0225_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0226_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0227_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0228_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0229_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0230_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0231_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0232_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0233_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0234_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0235_D.ckt"
+.OPTIONS TEMP=25
+IVD0055lo 0 nVD0055lo 0.00495
+XVD0055lo 0 nVD0055lo MY_LIB_VD0055_D
+IVD0055hi 0 nVD0055hi 0.00505
+XVD0055hi 0 nVD0055hi MY_LIB_VD0055_D
+EVD0055 rdVD0055 0 nVD0055hi nVD0055lo 10000
+IVD0056lo 0 nVD0056lo 0.00495
+XVD0056lo 0 nVD0056lo MY_LIB_VD0056_D
+IVD0056hi 0 nVD0056hi 0.00505
+XVD0056hi 0 nVD0056hi MY_LIB_VD0056_D
+EVD0056 rdVD0056 0 nVD0056hi nVD0056lo 10000
+IVD0057lo 0 nVD0057lo 0.00495
+XVD0057lo 0 nVD0057lo MY_LIB_VD0057_D
+IVD0057hi 0 nVD0057hi 0.00505
+XVD0057hi 0 nVD0057hi MY_LIB_VD0057_D
+EVD0057 rdVD0057 0 nVD0057hi nVD0057lo 10000
+IVD0058lo 0 nVD0058lo 0.00495
+XVD0058lo 0 nVD0058lo MY_LIB_VD0058_D
+IVD0058hi 0 nVD0058hi 0.00505
+XVD0058hi 0 nVD0058hi MY_LIB_VD0058_D
+EVD0058 rdVD0058 0 nVD0058hi nVD0058lo 10000
+IVD0059lo 0 nVD0059lo 0.00495
+XVD0059lo 0 nVD0059lo MY_LIB_VD0059_D
+IVD0059hi 0 nVD0059hi 0.00505
+XVD0059hi 0 nVD0059hi MY_LIB_VD0059_D
+EVD0059 rdVD0059 0 nVD0059hi nVD0059lo 10000
+IVD0060lo 0 nVD0060lo 0.00495
+XVD0060lo 0 nVD0060lo MY_LIB_VD0060_D
+IVD0060hi 0 nVD0060hi 0.00505
+XVD0060hi 0 nVD0060hi MY_LIB_VD0060_D
+EVD0060 rdVD0060 0 nVD0060hi nVD0060lo 10000
+IVD0061lo 0 nVD0061lo 0.00495
+XVD0061lo 0 nVD0061lo MY_LIB_VD0061_D
+IVD0061hi 0 nVD0061hi 0.00505
+XVD0061hi 0 nVD0061hi MY_LIB_VD0061_D
+EVD0061 rdVD0061 0 nVD0061hi nVD0061lo 10000
+IVD0062lo 0 nVD0062lo 0.00495
+XVD0062lo 0 nVD0062lo MY_LIB_VD0062_D
+IVD0062hi 0 nVD0062hi 0.00505
+XVD0062hi 0 nVD0062hi MY_LIB_VD0062_D
+EVD0062 rdVD0062 0 nVD0062hi nVD0062lo 10000
+IVD0063lo 0 nVD0063lo 0.00495
+XVD0063lo 0 nVD0063lo MY_LIB_VD0063_D
+IVD0063hi 0 nVD0063hi 0.00505
+XVD0063hi 0 nVD0063hi MY_LIB_VD0063_D
+EVD0063 rdVD0063 0 nVD0063hi nVD0063lo 10000
+IVD0064lo 0 nVD0064lo 0.00495
+XVD0064lo 0 nVD0064lo MY_LIB_VD0064_D
+IVD0064hi 0 nVD0064hi 0.00505
+XVD0064hi 0 nVD0064hi MY_LIB_VD0064_D
+EVD0064 rdVD0064 0 nVD0064hi nVD0064lo 10000
+IVD0065lo 0 nVD0065lo 0.00495
+XVD0065lo 0 nVD0065lo MY_LIB_VD0065_D
+IVD0065hi 0 nVD0065hi 0.00505
+XVD0065hi 0 nVD0065hi MY_LIB_VD0065_D
+EVD0065 rdVD0065 0 nVD0065hi nVD0065lo 10000
+IVD0066lo 0 nVD0066lo 0.00495
+XVD0066lo 0 nVD0066lo MY_LIB_VD0066_D
+IVD0066hi 0 nVD0066hi 0.00505
+XVD0066hi 0 nVD0066hi MY_LIB_VD0066_D
+EVD0066 rdVD0066 0 nVD0066hi nVD0066lo 10000
+IVD0067lo 0 nVD0067lo 0.00495
+XVD0067lo 0 nVD0067lo MY_LIB_VD0067_D
+IVD0067hi 0 nVD0067hi 0.00505
+XVD0067hi 0 nVD0067hi MY_LIB_VD0067_D
+EVD0067 rdVD0067 0 nVD0067hi nVD0067lo 10000
+IVD0068lo 0 nVD0068lo 0.00495
+XVD0068lo 0 nVD0068lo MY_LIB_VD0068_D
+IVD0068hi 0 nVD0068hi 0.00505
+XVD0068hi 0 nVD0068hi MY_LIB_VD0068_D
+EVD0068 rdVD0068 0 nVD0068hi nVD0068lo 10000
+IVD0069lo 0 nVD0069lo 0.00495
+XVD0069lo 0 nVD0069lo MY_LIB_VD0069_D
+IVD0069hi 0 nVD0069hi 0.00505
+XVD0069hi 0 nVD0069hi MY_LIB_VD0069_D
+EVD0069 rdVD0069 0 nVD0069hi nVD0069lo 10000
+IVD0070lo 0 nVD0070lo 0.00495
+XVD0070lo 0 nVD0070lo MY_LIB_VD0070_D
+IVD0070hi 0 nVD0070hi 0.00505
+XVD0070hi 0 nVD0070hi MY_LIB_VD0070_D
+EVD0070 rdVD0070 0 nVD0070hi nVD0070lo 10000
+IVD0071lo 0 nVD0071lo 0.00495
+XVD0071lo 0 nVD0071lo MY_LIB_VD0071_D
+IVD0071hi 0 nVD0071hi 0.00505
+XVD0071hi 0 nVD0071hi MY_LIB_VD0071_D
+EVD0071 rdVD0071 0 nVD0071hi nVD0071lo 10000
+IVD0072lo 0 nVD0072lo 0.00495
+XVD0072lo 0 nVD0072lo MY_LIB_VD0072_D
+IVD0072hi 0 nVD0072hi 0.00505
+XVD0072hi 0 nVD0072hi MY_LIB_VD0072_D
+EVD0072 rdVD0072 0 nVD0072hi nVD0072lo 10000
+IVD0073lo 0 nVD0073lo 0.00495
+XVD0073lo 0 nVD0073lo MY_LIB_VD0073_D
+IVD0073hi 0 nVD0073hi 0.00505
+XVD0073hi 0 nVD0073hi MY_LIB_VD0073_D
+EVD0073 rdVD0073 0 nVD0073hi nVD0073lo 10000
+IVD0074lo 0 nVD0074lo 0.00495
+XVD0074lo 0 nVD0074lo MY_LIB_VD0074_D
+IVD0074hi 0 nVD0074hi 0.00505
+XVD0074hi 0 nVD0074hi MY_LIB_VD0074_D
+EVD0074 rdVD0074 0 nVD0074hi nVD0074lo 10000
+IVD0075lo 0 nVD0075lo 0.00495
+XVD0075lo 0 nVD0075lo MY_LIB_VD0075_D
+IVD0075hi 0 nVD0075hi 0.00505
+XVD0075hi 0 nVD0075hi MY_LIB_VD0075_D
+EVD0075 rdVD0075 0 nVD0075hi nVD0075lo 10000
+IVD0076lo 0 nVD0076lo 0.00495
+XVD0076lo 0 nVD0076lo MY_LIB_VD0076_D
+IVD0076hi 0 nVD0076hi 0.00505
+XVD0076hi 0 nVD0076hi MY_LIB_VD0076_D
+EVD0076 rdVD0076 0 nVD0076hi nVD0076lo 10000
+IVD0077lo 0 nVD0077lo 0.00495
+XVD0077lo 0 nVD0077lo MY_LIB_VD0077_D
+IVD0077hi 0 nVD0077hi 0.00505
+XVD0077hi 0 nVD0077hi MY_LIB_VD0077_D
+EVD0077 rdVD0077 0 nVD0077hi nVD0077lo 10000
+IVD0078lo 0 nVD0078lo 0.00495
+XVD0078lo 0 nVD0078lo MY_LIB_VD0078_D
+IVD0078hi 0 nVD0078hi 0.00505
+XVD0078hi 0 nVD0078hi MY_LIB_VD0078_D
+EVD0078 rdVD0078 0 nVD0078hi nVD0078lo 10000
+IVD0079lo 0 nVD0079lo 0.00495
+XVD0079lo 0 nVD0079lo MY_LIB_VD0079_D
+IVD0079hi 0 nVD0079hi 0.00505
+XVD0079hi 0 nVD0079hi MY_LIB_VD0079_D
+EVD0079 rdVD0079 0 nVD0079hi nVD0079lo 10000
+IVD0080lo 0 nVD0080lo 0.00495
+XVD0080lo 0 nVD0080lo MY_LIB_VD0080_D
+IVD0080hi 0 nVD0080hi 0.00505
+XVD0080hi 0 nVD0080hi MY_LIB_VD0080_D
+EVD0080 rdVD0080 0 nVD0080hi nVD0080lo 10000
+IVD0081lo 0 nVD0081lo 0.00495
+XVD0081lo 0 nVD0081lo MY_LIB_VD0081_D
+IVD0081hi 0 nVD0081hi 0.00505
+XVD0081hi 0 nVD0081hi MY_LIB_VD0081_D
+EVD0081 rdVD0081 0 nVD0081hi nVD0081lo 10000
+IVD0082lo 0 nVD0082lo 0.00495
+XVD0082lo 0 nVD0082lo MY_LIB_VD0082_D
+IVD0082hi 0 nVD0082hi 0.00505
+XVD0082hi 0 nVD0082hi MY_LIB_VD0082_D
+EVD0082 rdVD0082 0 nVD0082hi nVD0082lo 10000
+IVD0083lo 0 nVD0083lo 0.00495
+XVD0083lo 0 nVD0083lo MY_LIB_VD0083_D
+IVD0083hi 0 nVD0083hi 0.00505
+XVD0083hi 0 nVD0083hi MY_LIB_VD0083_D
+EVD0083 rdVD0083 0 nVD0083hi nVD0083lo 10000
+IVD0084lo 0 nVD0084lo 0.00495
+XVD0084lo 0 nVD0084lo MY_LIB_VD0084_D
+IVD0084hi 0 nVD0084hi 0.00505
+XVD0084hi 0 nVD0084hi MY_LIB_VD0084_D
+EVD0084 rdVD0084 0 nVD0084hi nVD0084lo 10000
+IVD0085lo 0 nVD0085lo 0.00495
+XVD0085lo 0 nVD0085lo MY_LIB_VD0085_D
+IVD0085hi 0 nVD0085hi 0.00505
+XVD0085hi 0 nVD0085hi MY_LIB_VD0085_D
+EVD0085 rdVD0085 0 nVD0085hi nVD0085lo 10000
+IVD0086lo 0 nVD0086lo 0.00495
+XVD0086lo 0 nVD0086lo MY_LIB_VD0086_D
+IVD0086hi 0 nVD0086hi 0.00505
+XVD0086hi 0 nVD0086hi MY_LIB_VD0086_D
+EVD0086 rdVD0086 0 nVD0086hi nVD0086lo 10000
+IVD0087lo 0 nVD0087lo 0.00495
+XVD0087lo 0 nVD0087lo MY_LIB_VD0087_D
+IVD0087hi 0 nVD0087hi 0.00505
+XVD0087hi 0 nVD0087hi MY_LIB_VD0087_D
+EVD0087 rdVD0087 0 nVD0087hi nVD0087lo 10000
+IVD0088lo 0 nVD0088lo 0.00198
+XVD0088lo 0 nVD0088lo MY_LIB_VD0088_D
+IVD0088hi 0 nVD0088hi 0.00202
+XVD0088hi 0 nVD0088hi MY_LIB_VD0088_D
+EVD0088 rdVD0088 0 nVD0088hi nVD0088lo 25000
+IVD0089lo 0 nVD0089lo 0.00198
+XVD0089lo 0 nVD0089lo MY_LIB_VD0089_D
+IVD0089hi 0 nVD0089hi 0.00202
+XVD0089hi 0 nVD0089hi MY_LIB_VD0089_D
+EVD0089 rdVD0089 0 nVD0089hi nVD0089lo 25000
+IVD0090lo 0 nVD0090lo 0.00198
+XVD0090lo 0 nVD0090lo MY_LIB_VD0090_D
+IVD0090hi 0 nVD0090hi 0.00202
+XVD0090hi 0 nVD0090hi MY_LIB_VD0090_D
+EVD0090 rdVD0090 0 nVD0090hi nVD0090lo 25000
+IVD0091lo 0 nVD0091lo 0.00198
+XVD0091lo 0 nVD0091lo MY_LIB_VD0091_D
+IVD0091hi 0 nVD0091hi 0.00202
+XVD0091hi 0 nVD0091hi MY_LIB_VD0091_D
+EVD0091 rdVD0091 0 nVD0091hi nVD0091lo 25000
+IVD0092lo 0 nVD0092lo 0.00495
+XVD0092lo 0 nVD0092lo MY_LIB_VD0092_D
+IVD0092hi 0 nVD0092hi 0.00505
+XVD0092hi 0 nVD0092hi MY_LIB_VD0092_D
+EVD0092 rdVD0092 0 nVD0092hi nVD0092lo 10000
+IVD0093lo 0 nVD0093lo 0.00495
+XVD0093lo 0 nVD0093lo MY_LIB_VD0093_D
+IVD0093hi 0 nVD0093hi 0.00505
+XVD0093hi 0 nVD0093hi MY_LIB_VD0093_D
+EVD0093 rdVD0093 0 nVD0093hi nVD0093lo 10000
+IVD0094lo 0 nVD0094lo 0.00495
+XVD0094lo 0 nVD0094lo MY_LIB_VD0094_D
+IVD0094hi 0 nVD0094hi 0.00505
+XVD0094hi 0 nVD0094hi MY_LIB_VD0094_D
+EVD0094 rdVD0094 0 nVD0094hi nVD0094lo 10000
+IVD0095lo 0 nVD0095lo 0.00495
+XVD0095lo 0 nVD0095lo MY_LIB_VD0095_D
+IVD0095hi 0 nVD0095hi 0.00505
+XVD0095hi 0 nVD0095hi MY_LIB_VD0095_D
+EVD0095 rdVD0095 0 nVD0095hi nVD0095lo 10000
+IVD0096lo 0 nVD0096lo 0.00495
+XVD0096lo 0 nVD0096lo MY_LIB_VD0096_D
+IVD0096hi 0 nVD0096hi 0.00505
+XVD0096hi 0 nVD0096hi MY_LIB_VD0096_D
+EVD0096 rdVD0096 0 nVD0096hi nVD0096lo 10000
+IVD0097lo 0 nVD0097lo 0.00495
+XVD0097lo 0 nVD0097lo MY_LIB_VD0097_D
+IVD0097hi 0 nVD0097hi 0.00505
+XVD0097hi 0 nVD0097hi MY_LIB_VD0097_D
+EVD0097 rdVD0097 0 nVD0097hi nVD0097lo 10000
+IVD0098lo 0 nVD0098lo 0.00495
+XVD0098lo 0 nVD0098lo MY_LIB_VD0098_D
+IVD0098hi 0 nVD0098hi 0.00505
+XVD0098hi 0 nVD0098hi MY_LIB_VD0098_D
+EVD0098 rdVD0098 0 nVD0098hi nVD0098lo 10000
+IVD0099lo 0 nVD0099lo 0.00495
+XVD0099lo 0 nVD0099lo MY_LIB_VD0099_D
+IVD0099hi 0 nVD0099hi 0.00505
+XVD0099hi 0 nVD0099hi MY_LIB_VD0099_D
+EVD0099 rdVD0099 0 nVD0099hi nVD0099lo 10000
+IVD0100lo 0 nVD0100lo 0.00495
+XVD0100lo 0 nVD0100lo MY_LIB_VD0100_D
+IVD0100hi 0 nVD0100hi 0.00505
+XVD0100hi 0 nVD0100hi MY_LIB_VD0100_D
+EVD0100 rdVD0100 0 nVD0100hi nVD0100lo 10000
+IVD0101lo 0 nVD0101lo 0.00495
+XVD0101lo 0 nVD0101lo MY_LIB_VD0101_D
+IVD0101hi 0 nVD0101hi 0.00505
+XVD0101hi 0 nVD0101hi MY_LIB_VD0101_D
+EVD0101 rdVD0101 0 nVD0101hi nVD0101lo 10000
+IVD0102lo 0 nVD0102lo 0.00495
+XVD0102lo 0 nVD0102lo MY_LIB_VD0102_D
+IVD0102hi 0 nVD0102hi 0.00505
+XVD0102hi 0 nVD0102hi MY_LIB_VD0102_D
+EVD0102 rdVD0102 0 nVD0102hi nVD0102lo 10000
+IVD0103lo 0 nVD0103lo 0.00495
+XVD0103lo 0 nVD0103lo MY_LIB_VD0103_D
+IVD0103hi 0 nVD0103hi 0.00505
+XVD0103hi 0 nVD0103hi MY_LIB_VD0103_D
+EVD0103 rdVD0103 0 nVD0103hi nVD0103lo 10000
+IVD0104lo 0 nVD0104lo 0.00495
+XVD0104lo 0 nVD0104lo MY_LIB_VD0104_D
+IVD0104hi 0 nVD0104hi 0.00505
+XVD0104hi 0 nVD0104hi MY_LIB_VD0104_D
+EVD0104 rdVD0104 0 nVD0104hi nVD0104lo 10000
+IVD0105lo 0 nVD0105lo 0.00495
+XVD0105lo 0 nVD0105lo MY_LIB_VD0105_D
+IVD0105hi 0 nVD0105hi 0.00505
+XVD0105hi 0 nVD0105hi MY_LIB_VD0105_D
+EVD0105 rdVD0105 0 nVD0105hi nVD0105lo 10000
+IVD0106lo 0 nVD0106lo 0.00495
+XVD0106lo 0 nVD0106lo MY_LIB_VD0106_D
+IVD0106hi 0 nVD0106hi 0.00505
+XVD0106hi 0 nVD0106hi MY_LIB_VD0106_D
+EVD0106 rdVD0106 0 nVD0106hi nVD0106lo 10000
+IVD0107lo 0 nVD0107lo 0.00495
+XVD0107lo 0 nVD0107lo MY_LIB_VD0107_D
+IVD0107hi 0 nVD0107hi 0.00505
+XVD0107hi 0 nVD0107hi MY_LIB_VD0107_D
+EVD0107 rdVD0107 0 nVD0107hi nVD0107lo 10000
+IVD0108lo 0 nVD0108lo 0.00495
+XVD0108lo 0 nVD0108lo MY_LIB_VD0108_D
+IVD0108hi 0 nVD0108hi 0.00505
+XVD0108hi 0 nVD0108hi MY_LIB_VD0108_D
+EVD0108 rdVD0108 0 nVD0108hi nVD0108lo 10000
+IVD0109lo 0 nVD0109lo 0.00495
+XVD0109lo 0 nVD0109lo MY_LIB_VD0109_D
+IVD0109hi 0 nVD0109hi 0.00505
+XVD0109hi 0 nVD0109hi MY_LIB_VD0109_D
+EVD0109 rdVD0109 0 nVD0109hi nVD0109lo 10000
+IVD0110lo 0 nVD0110lo 0.00495
+XVD0110lo 0 nVD0110lo MY_LIB_VD0110_D
+IVD0110hi 0 nVD0110hi 0.00505
+XVD0110hi 0 nVD0110hi MY_LIB_VD0110_D
+EVD0110 rdVD0110 0 nVD0110hi nVD0110lo 10000
+IVD0111lo 0 nVD0111lo 0.00495
+XVD0111lo 0 nVD0111lo MY_LIB_VD0111_D
+IVD0111hi 0 nVD0111hi 0.00505
+XVD0111hi 0 nVD0111hi MY_LIB_VD0111_D
+EVD0111 rdVD0111 0 nVD0111hi nVD0111lo 10000
+IVD0112lo 0 nVD0112lo 0.00495
+XVD0112lo 0 nVD0112lo MY_LIB_VD0112_D
+IVD0112hi 0 nVD0112hi 0.00505
+XVD0112hi 0 nVD0112hi MY_LIB_VD0112_D
+EVD0112 rdVD0112 0 nVD0112hi nVD0112lo 10000
+IVD0113lo 0 nVD0113lo 0.00495
+XVD0113lo 0 nVD0113lo MY_LIB_VD0113_D
+IVD0113hi 0 nVD0113hi 0.00505
+XVD0113hi 0 nVD0113hi MY_LIB_VD0113_D
+EVD0113 rdVD0113 0 nVD0113hi nVD0113lo 10000
+IVD0114lo 0 nVD0114lo 0.00495
+XVD0114lo 0 nVD0114lo MY_LIB_VD0114_D
+IVD0114hi 0 nVD0114hi 0.00505
+XVD0114hi 0 nVD0114hi MY_LIB_VD0114_D
+EVD0114 rdVD0114 0 nVD0114hi nVD0114lo 10000
+IVD0115lo 0 nVD0115lo 0.00495
+XVD0115lo 0 nVD0115lo MY_LIB_VD0115_D
+IVD0115hi 0 nVD0115hi 0.00505
+XVD0115hi 0 nVD0115hi MY_LIB_VD0115_D
+EVD0115 rdVD0115 0 nVD0115hi nVD0115lo 10000
+IVD0116lo 0 nVD0116lo 0.00495
+XVD0116lo 0 nVD0116lo MY_LIB_VD0116_D
+IVD0116hi 0 nVD0116hi 0.00505
+XVD0116hi 0 nVD0116hi MY_LIB_VD0116_D
+EVD0116 rdVD0116 0 nVD0116hi nVD0116lo 10000
+IVD0117lo 0 nVD0117lo 0.00198
+XVD0117lo 0 nVD0117lo MY_LIB_VD0117_D
+IVD0117hi 0 nVD0117hi 0.00202
+XVD0117hi 0 nVD0117hi MY_LIB_VD0117_D
+EVD0117 rdVD0117 0 nVD0117hi nVD0117lo 25000
+IVD0118lo 0 nVD0118lo 0.00198
+XVD0118lo 0 nVD0118lo MY_LIB_VD0118_D
+IVD0118hi 0 nVD0118hi 0.00202
+XVD0118hi 0 nVD0118hi MY_LIB_VD0118_D
+EVD0118 rdVD0118 0 nVD0118hi nVD0118lo 25000
+IVD0119lo 0 nVD0119lo 0.00198
+XVD0119lo 0 nVD0119lo MY_LIB_VD0119_D
+IVD0119hi 0 nVD0119hi 0.00202
+XVD0119hi 0 nVD0119hi MY_LIB_VD0119_D
+EVD0119 rdVD0119 0 nVD0119hi nVD0119lo 25000
+IVD0120lo 0 nVD0120lo 0.00198
+XVD0120lo 0 nVD0120lo MY_LIB_VD0120_D
+IVD0120hi 0 nVD0120hi 0.00202
+XVD0120hi 0 nVD0120hi MY_LIB_VD0120_D
+EVD0120 rdVD0120 0 nVD0120hi nVD0120lo 25000
+IVD0121lo 0 nVD0121lo 0.00198
+XVD0121lo 0 nVD0121lo MY_LIB_VD0121_D
+IVD0121hi 0 nVD0121hi 0.00202
+XVD0121hi 0 nVD0121hi MY_LIB_VD0121_D
+EVD0121 rdVD0121 0 nVD0121hi nVD0121lo 25000
+IVD0122lo 0 nVD0122lo 0.00198
+XVD0122lo 0 nVD0122lo MY_LIB_VD0122_D
+IVD0122hi 0 nVD0122hi 0.00202
+XVD0122hi 0 nVD0122hi MY_LIB_VD0122_D
+EVD0122 rdVD0122 0 nVD0122hi nVD0122lo 25000
+IVD0123lo 0 nVD0123lo 0.00198
+XVD0123lo 0 nVD0123lo MY_LIB_VD0123_D
+IVD0123hi 0 nVD0123hi 0.00202
+XVD0123hi 0 nVD0123hi MY_LIB_VD0123_D
+EVD0123 rdVD0123 0 nVD0123hi nVD0123lo 25000
+IVD0124lo 0 nVD0124lo 0.00198
+XVD0124lo 0 nVD0124lo MY_LIB_VD0124_D
+IVD0124hi 0 nVD0124hi 0.00202
+XVD0124hi 0 nVD0124hi MY_LIB_VD0124_D
+EVD0124 rdVD0124 0 nVD0124hi nVD0124lo 25000
+IVD0125lo 0 nVD0125lo 0.00198
+XVD0125lo 0 nVD0125lo MY_LIB_VD0125_D
+IVD0125hi 0 nVD0125hi 0.00202
+XVD0125hi 0 nVD0125hi MY_LIB_VD0125_D
+EVD0125 rdVD0125 0 nVD0125hi nVD0125lo 25000
+IVD0126lo 0 nVD0126lo 0.00198
+XVD0126lo 0 nVD0126lo MY_LIB_VD0126_D
+IVD0126hi 0 nVD0126hi 0.00202
+XVD0126hi 0 nVD0126hi MY_LIB_VD0126_D
+EVD0126 rdVD0126 0 nVD0126hi nVD0126lo 25000
+IVD0127lo 0 nVD0127lo 0.00198
+XVD0127lo 0 nVD0127lo MY_LIB_VD0127_D
+IVD0127hi 0 nVD0127hi 0.00202
+XVD0127hi 0 nVD0127hi MY_LIB_VD0127_D
+EVD0127 rdVD0127 0 nVD0127hi nVD0127lo 25000
+IVD0128lo 0 nVD0128lo 0.00198
+XVD0128lo 0 nVD0128lo MY_LIB_VD0128_D
+IVD0128hi 0 nVD0128hi 0.00202
+XVD0128hi 0 nVD0128hi MY_LIB_VD0128_D
+EVD0128 rdVD0128 0 nVD0128hi nVD0128lo 25000
+IVD0129lo 0 nVD0129lo 0.00495
+XVD0129lo 0 nVD0129lo MY_LIB_VD0129_D
+IVD0129hi 0 nVD0129hi 0.00505
+XVD0129hi 0 nVD0129hi MY_LIB_VD0129_D
+EVD0129 rdVD0129 0 nVD0129hi nVD0129lo 10000
+IVD0130lo 0 nVD0130lo 0.00495
+XVD0130lo 0 nVD0130lo MY_LIB_VD0130_D
+IVD0130hi 0 nVD0130hi 0.00505
+XVD0130hi 0 nVD0130hi MY_LIB_VD0130_D
+EVD0130 rdVD0130 0 nVD0130hi nVD0130lo 10000
+IVD0131lo 0 nVD0131lo 0.00495
+XVD0131lo 0 nVD0131lo MY_LIB_VD0131_D
+IVD0131hi 0 nVD0131hi 0.00505
+XVD0131hi 0 nVD0131hi MY_LIB_VD0131_D
+EVD0131 rdVD0131 0 nVD0131hi nVD0131lo 10000
+IVD0132lo 0 nVD0132lo 0.00495
+XVD0132lo 0 nVD0132lo MY_LIB_VD0132_D
+IVD0132hi 0 nVD0132hi 0.00505
+XVD0132hi 0 nVD0132hi MY_LIB_VD0132_D
+EVD0132 rdVD0132 0 nVD0132hi nVD0132lo 10000
+IVD0133lo 0 nVD0133lo 0.00495
+XVD0133lo 0 nVD0133lo MY_LIB_VD0133_D
+IVD0133hi 0 nVD0133hi 0.00505
+XVD0133hi 0 nVD0133hi MY_LIB_VD0133_D
+EVD0133 rdVD0133 0 nVD0133hi nVD0133lo 10000
+IVD0134lo 0 nVD0134lo 0.00495
+XVD0134lo 0 nVD0134lo MY_LIB_VD0134_D
+IVD0134hi 0 nVD0134hi 0.00505
+XVD0134hi 0 nVD0134hi MY_LIB_VD0134_D
+EVD0134 rdVD0134 0 nVD0134hi nVD0134lo 10000
+IVD0135lo 0 nVD0135lo 0.00495
+XVD0135lo 0 nVD0135lo MY_LIB_VD0135_D
+IVD0135hi 0 nVD0135hi 0.00505
+XVD0135hi 0 nVD0135hi MY_LIB_VD0135_D
+EVD0135 rdVD0135 0 nVD0135hi nVD0135lo 10000
+IVD0136lo 0 nVD0136lo 0.00495
+XVD0136lo 0 nVD0136lo MY_LIB_VD0136_D
+IVD0136hi 0 nVD0136hi 0.00505
+XVD0136hi 0 nVD0136hi MY_LIB_VD0136_D
+EVD0136 rdVD0136 0 nVD0136hi nVD0136lo 10000
+IVD0137lo 0 nVD0137lo 0.00495
+XVD0137lo 0 nVD0137lo MY_LIB_VD0137_D
+IVD0137hi 0 nVD0137hi 0.00505
+XVD0137hi 0 nVD0137hi MY_LIB_VD0137_D
+EVD0137 rdVD0137 0 nVD0137hi nVD0137lo 10000
+IVD0138lo 0 nVD0138lo 0.00495
+XVD0138lo 0 nVD0138lo MY_LIB_VD0138_D
+IVD0138hi 0 nVD0138hi 0.00505
+XVD0138hi 0 nVD0138hi MY_LIB_VD0138_D
+EVD0138 rdVD0138 0 nVD0138hi nVD0138lo 10000
+IVD0139lo 0 nVD0139lo 0.00495
+XVD0139lo 0 nVD0139lo MY_LIB_VD0139_D
+IVD0139hi 0 nVD0139hi 0.00505
+XVD0139hi 0 nVD0139hi MY_LIB_VD0139_D
+EVD0139 rdVD0139 0 nVD0139hi nVD0139lo 10000
+IVD0140lo 0 nVD0140lo 0.00495
+XVD0140lo 0 nVD0140lo MY_LIB_VD0140_D
+IVD0140hi 0 nVD0140hi 0.00505
+XVD0140hi 0 nVD0140hi MY_LIB_VD0140_D
+EVD0140 rdVD0140 0 nVD0140hi nVD0140lo 10000
+IVD0141lo 0 nVD0141lo 0.00495
+XVD0141lo 0 nVD0141lo MY_LIB_VD0141_D
+IVD0141hi 0 nVD0141hi 0.00505
+XVD0141hi 0 nVD0141hi MY_LIB_VD0141_D
+EVD0141 rdVD0141 0 nVD0141hi nVD0141lo 10000
+IVD0142lo 0 nVD0142lo 0.00495
+XVD0142lo 0 nVD0142lo MY_LIB_VD0142_D
+IVD0142hi 0 nVD0142hi 0.00505
+XVD0142hi 0 nVD0142hi MY_LIB_VD0142_D
+EVD0142 rdVD0142 0 nVD0142hi nVD0142lo 10000
+IVD0143lo 0 nVD0143lo 0.00495
+XVD0143lo 0 nVD0143lo MY_LIB_VD0143_D
+IVD0143hi 0 nVD0143hi 0.00505
+XVD0143hi 0 nVD0143hi MY_LIB_VD0143_D
+EVD0143 rdVD0143 0 nVD0143hi nVD0143lo 10000
+IVD0144lo 0 nVD0144lo 0.00495
+XVD0144lo 0 nVD0144lo MY_LIB_VD0144_D
+IVD0144hi 0 nVD0144hi 0.00505
+XVD0144hi 0 nVD0144hi MY_LIB_VD0144_D
+EVD0144 rdVD0144 0 nVD0144hi nVD0144lo 10000
+IVD0145lo 0 nVD0145lo 0.00495
+XVD0145lo 0 nVD0145lo MY_LIB_VD0145_D
+IVD0145hi 0 nVD0145hi 0.00505
+XVD0145hi 0 nVD0145hi MY_LIB_VD0145_D
+EVD0145 rdVD0145 0 nVD0145hi nVD0145lo 10000
+IVD0146lo 0 nVD0146lo 0.00495
+XVD0146lo 0 nVD0146lo MY_LIB_VD0146_D
+IVD0146hi 0 nVD0146hi 0.00505
+XVD0146hi 0 nVD0146hi MY_LIB_VD0146_D
+EVD0146 rdVD0146 0 nVD0146hi nVD0146lo 10000
+IVD0147lo 0 nVD0147lo 0.00495
+XVD0147lo 0 nVD0147lo MY_LIB_VD0147_D
+IVD0147hi 0 nVD0147hi 0.00505
+XVD0147hi 0 nVD0147hi MY_LIB_VD0147_D
+EVD0147 rdVD0147 0 nVD0147hi nVD0147lo 10000
+IVD0148lo 0 nVD0148lo 0.00495
+XVD0148lo 0 nVD0148lo MY_LIB_VD0148_D
+IVD0148hi 0 nVD0148hi 0.00505
+XVD0148hi 0 nVD0148hi MY_LIB_VD0148_D
+EVD0148 rdVD0148 0 nVD0148hi nVD0148lo 10000
+IVD0149lo 0 nVD0149lo 0.00495
+XVD0149lo 0 nVD0149lo MY_LIB_VD0149_D
+IVD0149hi 0 nVD0149hi 0.00505
+XVD0149hi 0 nVD0149hi MY_LIB_VD0149_D
+EVD0149 rdVD0149 0 nVD0149hi nVD0149lo 10000
+IVD0150lo 0 nVD0150lo 0.00495
+XVD0150lo 0 nVD0150lo MY_LIB_VD0150_D
+IVD0150hi 0 nVD0150hi 0.00505
+XVD0150hi 0 nVD0150hi MY_LIB_VD0150_D
+EVD0150 rdVD0150 0 nVD0150hi nVD0150lo 10000
+IVD0151lo 0 nVD0151lo 0.00495
+XVD0151lo 0 nVD0151lo MY_LIB_VD0151_D
+IVD0151hi 0 nVD0151hi 0.00505
+XVD0151hi 0 nVD0151hi MY_LIB_VD0151_D
+EVD0151 rdVD0151 0 nVD0151hi nVD0151lo 10000
+IVD0152lo 0 nVD0152lo 0.00495
+XVD0152lo 0 nVD0152lo MY_LIB_VD0152_D
+IVD0152hi 0 nVD0152hi 0.00505
+XVD0152hi 0 nVD0152hi MY_LIB_VD0152_D
+EVD0152 rdVD0152 0 nVD0152hi nVD0152lo 10000
+IVD0153lo 0 nVD0153lo 0.00495
+XVD0153lo 0 nVD0153lo MY_LIB_VD0153_D
+IVD0153hi 0 nVD0153hi 0.00505
+XVD0153hi 0 nVD0153hi MY_LIB_VD0153_D
+EVD0153 rdVD0153 0 nVD0153hi nVD0153lo 10000
+IVD0154lo 0 nVD0154lo 0.00198
+XVD0154lo 0 nVD0154lo MY_LIB_VD0154_D
+IVD0154hi 0 nVD0154hi 0.00202
+XVD0154hi 0 nVD0154hi MY_LIB_VD0154_D
+EVD0154 rdVD0154 0 nVD0154hi nVD0154lo 25000
+IVD0155lo 0 nVD0155lo 0.00198
+XVD0155lo 0 nVD0155lo MY_LIB_VD0155_D
+IVD0155hi 0 nVD0155hi 0.00202
+XVD0155hi 0 nVD0155hi MY_LIB_VD0155_D
+EVD0155 rdVD0155 0 nVD0155hi nVD0155lo 25000
+IVD0156lo 0 nVD0156lo 0.00198
+XVD0156lo 0 nVD0156lo MY_LIB_VD0156_D
+IVD0156hi 0 nVD0156hi 0.00202
+XVD0156hi 0 nVD0156hi MY_LIB_VD0156_D
+EVD0156 rdVD0156 0 nVD0156hi nVD0156lo 25000
+IVD0157lo 0 nVD0157lo 0.00198
+XVD0157lo 0 nVD0157lo MY_LIB_VD0157_D
+IVD0157hi 0 nVD0157hi 0.00202
+XVD0157hi 0 nVD0157hi MY_LIB_VD0157_D
+EVD0157 rdVD0157 0 nVD0157hi nVD0157lo 25000
+IVD0158lo 0 nVD0158lo 0.00198
+XVD0158lo 0 nVD0158lo MY_LIB_VD0158_D
+IVD0158hi 0 nVD0158hi 0.00202
+XVD0158hi 0 nVD0158hi MY_LIB_VD0158_D
+EVD0158 rdVD0158 0 nVD0158hi nVD0158lo 25000
+IVD0159lo 0 nVD0159lo 0.00198
+XVD0159lo 0 nVD0159lo MY_LIB_VD0159_D
+IVD0159hi 0 nVD0159hi 0.00202
+XVD0159hi 0 nVD0159hi MY_LIB_VD0159_D
+EVD0159 rdVD0159 0 nVD0159hi nVD0159lo 25000
+IVD0160lo 0 nVD0160lo 0.00198
+XVD0160lo 0 nVD0160lo MY_LIB_VD0160_D
+IVD0160hi 0 nVD0160hi 0.00202
+XVD0160hi 0 nVD0160hi MY_LIB_VD0160_D
+EVD0160 rdVD0160 0 nVD0160hi nVD0160lo 25000
+IVD0161lo 0 nVD0161lo 0.00198
+XVD0161lo 0 nVD0161lo MY_LIB_VD0161_D
+IVD0161hi 0 nVD0161hi 0.00202
+XVD0161hi 0 nVD0161hi MY_LIB_VD0161_D
+EVD0161 rdVD0161 0 nVD0161hi nVD0161lo 25000
+IVD0162lo 0 nVD0162lo 0.00495
+XVD0162lo 0 nVD0162lo MY_LIB_VD0162_D
+IVD0162hi 0 nVD0162hi 0.00505
+XVD0162hi 0 nVD0162hi MY_LIB_VD0162_D
+EVD0162 rdVD0162 0 nVD0162hi nVD0162lo 10000
+IVD0163lo 0 nVD0163lo 0.00495
+XVD0163lo 0 nVD0163lo MY_LIB_VD0163_D
+IVD0163hi 0 nVD0163hi 0.00505
+XVD0163hi 0 nVD0163hi MY_LIB_VD0163_D
+EVD0163 rdVD0163 0 nVD0163hi nVD0163lo 10000
+IVD0164lo 0 nVD0164lo 0.00495
+XVD0164lo 0 nVD0164lo MY_LIB_VD0164_D
+IVD0164hi 0 nVD0164hi 0.00505
+XVD0164hi 0 nVD0164hi MY_LIB_VD0164_D
+EVD0164 rdVD0164 0 nVD0164hi nVD0164lo 10000
+IVD0165lo 0 nVD0165lo 0.00495
+XVD0165lo 0 nVD0165lo MY_LIB_VD0165_D
+IVD0165hi 0 nVD0165hi 0.00505
+XVD0165hi 0 nVD0165hi MY_LIB_VD0165_D
+EVD0165 rdVD0165 0 nVD0165hi nVD0165lo 10000
+IVD0166lo 0 nVD0166lo 0.00495
+XVD0166lo 0 nVD0166lo MY_LIB_VD0166_D
+IVD0166hi 0 nVD0166hi 0.00505
+XVD0166hi 0 nVD0166hi MY_LIB_VD0166_D
+EVD0166 rdVD0166 0 nVD0166hi nVD0166lo 10000
+IVD0167lo 0 nVD0167lo 0.00495
+XVD0167lo 0 nVD0167lo MY_LIB_VD0167_D
+IVD0167hi 0 nVD0167hi 0.00505
+XVD0167hi 0 nVD0167hi MY_LIB_VD0167_D
+EVD0167 rdVD0167 0 nVD0167hi nVD0167lo 10000
+IVD0168lo 0 nVD0168lo 0.00495
+XVD0168lo 0 nVD0168lo MY_LIB_VD0168_D
+IVD0168hi 0 nVD0168hi 0.00505
+XVD0168hi 0 nVD0168hi MY_LIB_VD0168_D
+EVD0168 rdVD0168 0 nVD0168hi nVD0168lo 10000
+IVD0169lo 0 nVD0169lo 0.00495
+XVD0169lo 0 nVD0169lo MY_LIB_VD0169_D
+IVD0169hi 0 nVD0169hi 0.00505
+XVD0169hi 0 nVD0169hi MY_LIB_VD0169_D
+EVD0169 rdVD0169 0 nVD0169hi nVD0169lo 10000
+IVD0170lo 0 nVD0170lo 0.00495
+XVD0170lo 0 nVD0170lo MY_LIB_VD0170_D
+IVD0170hi 0 nVD0170hi 0.00505
+XVD0170hi 0 nVD0170hi MY_LIB_VD0170_D
+EVD0170 rdVD0170 0 nVD0170hi nVD0170lo 10000
+IVD0171lo 0 nVD0171lo 0.00495
+XVD0171lo 0 nVD0171lo MY_LIB_VD0171_D
+IVD0171hi 0 nVD0171hi 0.00505
+XVD0171hi 0 nVD0171hi MY_LIB_VD0171_D
+EVD0171 rdVD0171 0 nVD0171hi nVD0171lo 10000
+IVD0172lo 0 nVD0172lo 0.00495
+XVD0172lo 0 nVD0172lo MY_LIB_VD0172_D
+IVD0172hi 0 nVD0172hi 0.00505
+XVD0172hi 0 nVD0172hi MY_LIB_VD0172_D
+EVD0172 rdVD0172 0 nVD0172hi nVD0172lo 10000
+IVD0173lo 0 nVD0173lo 0.00495
+XVD0173lo 0 nVD0173lo MY_LIB_VD0173_D
+IVD0173hi 0 nVD0173hi 0.00505
+XVD0173hi 0 nVD0173hi MY_LIB_VD0173_D
+EVD0173 rdVD0173 0 nVD0173hi nVD0173lo 10000
+IVD0174lo 0 nVD0174lo 0.00495
+XVD0174lo 0 nVD0174lo MY_LIB_VD0174_D
+IVD0174hi 0 nVD0174hi 0.00505
+XVD0174hi 0 nVD0174hi MY_LIB_VD0174_D
+EVD0174 rdVD0174 0 nVD0174hi nVD0174lo 10000
+IVD0175lo 0 nVD0175lo 0.00495
+XVD0175lo 0 nVD0175lo MY_LIB_VD0175_D
+IVD0175hi 0 nVD0175hi 0.00505
+XVD0175hi 0 nVD0175hi MY_LIB_VD0175_D
+EVD0175 rdVD0175 0 nVD0175hi nVD0175lo 10000
+IVD0176lo 0 nVD0176lo 0.00495
+XVD0176lo 0 nVD0176lo MY_LIB_VD0176_D
+IVD0176hi 0 nVD0176hi 0.00505
+XVD0176hi 0 nVD0176hi MY_LIB_VD0176_D
+EVD0176 rdVD0176 0 nVD0176hi nVD0176lo 10000
+IVD0177lo 0 nVD0177lo 0.00495
+XVD0177lo 0 nVD0177lo MY_LIB_VD0177_D
+IVD0177hi 0 nVD0177hi 0.00505
+XVD0177hi 0 nVD0177hi MY_LIB_VD0177_D
+EVD0177 rdVD0177 0 nVD0177hi nVD0177lo 10000
+IVD0178lo 0 nVD0178lo 0.00495
+XVD0178lo 0 nVD0178lo MY_LIB_VD0178_D
+IVD0178hi 0 nVD0178hi 0.00505
+XVD0178hi 0 nVD0178hi MY_LIB_VD0178_D
+EVD0178 rdVD0178 0 nVD0178hi nVD0178lo 10000
+IVD0179lo 0 nVD0179lo 0.00495
+XVD0179lo 0 nVD0179lo MY_LIB_VD0179_D
+IVD0179hi 0 nVD0179hi 0.00505
+XVD0179hi 0 nVD0179hi MY_LIB_VD0179_D
+EVD0179 rdVD0179 0 nVD0179hi nVD0179lo 10000
+IVD0180lo 0 nVD0180lo 0.00495
+XVD0180lo 0 nVD0180lo MY_LIB_VD0180_D
+IVD0180hi 0 nVD0180hi 0.00505
+XVD0180hi 0 nVD0180hi MY_LIB_VD0180_D
+EVD0180 rdVD0180 0 nVD0180hi nVD0180lo 10000
+IVD0181lo 0 nVD0181lo 0.00495
+XVD0181lo 0 nVD0181lo MY_LIB_VD0181_D
+IVD0181hi 0 nVD0181hi 0.00505
+XVD0181hi 0 nVD0181hi MY_LIB_VD0181_D
+EVD0181 rdVD0181 0 nVD0181hi nVD0181lo 10000
+IVD0182lo 0 nVD0182lo 0.00495
+XVD0182lo 0 nVD0182lo MY_LIB_VD0182_D
+IVD0182hi 0 nVD0182hi 0.00505
+XVD0182hi 0 nVD0182hi MY_LIB_VD0182_D
+EVD0182 rdVD0182 0 nVD0182hi nVD0182lo 10000
+IVD0183lo 0 nVD0183lo 0.00495
+XVD0183lo 0 nVD0183lo MY_LIB_VD0183_D
+IVD0183hi 0 nVD0183hi 0.00505
+XVD0183hi 0 nVD0183hi MY_LIB_VD0183_D
+EVD0183 rdVD0183 0 nVD0183hi nVD0183lo 10000
+IVD0184lo 0 nVD0184lo 0.00495
+XVD0184lo 0 nVD0184lo MY_LIB_VD0184_D
+IVD0184hi 0 nVD0184hi 0.00505
+XVD0184hi 0 nVD0184hi MY_LIB_VD0184_D
+EVD0184 rdVD0184 0 nVD0184hi nVD0184lo 10000
+IVD0185lo 0 nVD0185lo 0.00495
+XVD0185lo 0 nVD0185lo MY_LIB_VD0185_D
+IVD0185hi 0 nVD0185hi 0.00505
+XVD0185hi 0 nVD0185hi MY_LIB_VD0185_D
+EVD0185 rdVD0185 0 nVD0185hi nVD0185lo 10000
+IVD0186lo 0 nVD0186lo 0.00495
+XVD0186lo 0 nVD0186lo MY_LIB_VD0186_D
+IVD0186hi 0 nVD0186hi 0.00505
+XVD0186hi 0 nVD0186hi MY_LIB_VD0186_D
+EVD0186 rdVD0186 0 nVD0186hi nVD0186lo 10000
+IVD0187lo 0 nVD0187lo 0.00198
+XVD0187lo 0 nVD0187lo MY_LIB_VD0187_D
+IVD0187hi 0 nVD0187hi 0.00202
+XVD0187hi 0 nVD0187hi MY_LIB_VD0187_D
+EVD0187 rdVD0187 0 nVD0187hi nVD0187lo 25000
+IVD0188lo 0 nVD0188lo 0.00198
+XVD0188lo 0 nVD0188lo MY_LIB_VD0188_D
+IVD0188hi 0 nVD0188hi 0.00202
+XVD0188hi 0 nVD0188hi MY_LIB_VD0188_D
+EVD0188 rdVD0188 0 nVD0188hi nVD0188lo 25000
+IVD0189lo 0 nVD0189lo 0.00198
+XVD0189lo 0 nVD0189lo MY_LIB_VD0189_D
+IVD0189hi 0 nVD0189hi 0.00202
+XVD0189hi 0 nVD0189hi MY_LIB_VD0189_D
+EVD0189 rdVD0189 0 nVD0189hi nVD0189lo 25000
+IVD0190lo 0 nVD0190lo 0.00198
+XVD0190lo 0 nVD0190lo MY_LIB_VD0190_D
+IVD0190hi 0 nVD0190hi 0.00202
+XVD0190hi 0 nVD0190hi MY_LIB_VD0190_D
+EVD0190 rdVD0190 0 nVD0190hi nVD0190lo 25000
+IVD0191lo 0 nVD0191lo 0.00198
+XVD0191lo 0 nVD0191lo MY_LIB_VD0191_D
+IVD0191hi 0 nVD0191hi 0.00202
+XVD0191hi 0 nVD0191hi MY_LIB_VD0191_D
+EVD0191 rdVD0191 0 nVD0191hi nVD0191lo 25000
+IVD0192lo 0 nVD0192lo 0.00198
+XVD0192lo 0 nVD0192lo MY_LIB_VD0192_D
+IVD0192hi 0 nVD0192hi 0.00202
+XVD0192hi 0 nVD0192hi MY_LIB_VD0192_D
+EVD0192 rdVD0192 0 nVD0192hi nVD0192lo 25000
+IVD0193lo 0 nVD0193lo 0.00198
+XVD0193lo 0 nVD0193lo MY_LIB_VD0193_D
+IVD0193hi 0 nVD0193hi 0.00202
+XVD0193hi 0 nVD0193hi MY_LIB_VD0193_D
+EVD0193 rdVD0193 0 nVD0193hi nVD0193lo 25000
+IVD0194lo 0 nVD0194lo 0.00198
+XVD0194lo 0 nVD0194lo MY_LIB_VD0194_D
+IVD0194hi 0 nVD0194hi 0.00202
+XVD0194hi 0 nVD0194hi MY_LIB_VD0194_D
+EVD0194 rdVD0194 0 nVD0194hi nVD0194lo 25000
+IVD0195lo 0 nVD0195lo 0.00198
+XVD0195lo 0 nVD0195lo MY_LIB_VD0195_D
+IVD0195hi 0 nVD0195hi 0.00202
+XVD0195hi 0 nVD0195hi MY_LIB_VD0195_D
+EVD0195 rdVD0195 0 nVD0195hi nVD0195lo 25000
+IVD0196lo 0 nVD0196lo 0.00198
+XVD0196lo 0 nVD0196lo MY_LIB_VD0196_D
+IVD0196hi 0 nVD0196hi 0.00202
+XVD0196hi 0 nVD0196hi MY_LIB_VD0196_D
+EVD0196 rdVD0196 0 nVD0196hi nVD0196lo 25000
+IVD0197lo 0 nVD0197lo 0.00198
+XVD0197lo 0 nVD0197lo MY_LIB_VD0197_D
+IVD0197hi 0 nVD0197hi 0.00202
+XVD0197hi 0 nVD0197hi MY_LIB_VD0197_D
+EVD0197 rdVD0197 0 nVD0197hi nVD0197lo 25000
+IVD0198lo 0 nVD0198lo 0.00198
+XVD0198lo 0 nVD0198lo MY_LIB_VD0198_D
+IVD0198hi 0 nVD0198hi 0.00202
+XVD0198hi 0 nVD0198hi MY_LIB_VD0198_D
+EVD0198 rdVD0198 0 nVD0198hi nVD0198lo 25000
+IVD0199lo 0 nVD0199lo 0.00495
+XVD0199lo 0 nVD0199lo MY_LIB_VD0199_D
+IVD0199hi 0 nVD0199hi 0.00505
+XVD0199hi 0 nVD0199hi MY_LIB_VD0199_D
+EVD0199 rdVD0199 0 nVD0199hi nVD0199lo 10000
+IVD0200lo 0 nVD0200lo 0.00495
+XVD0200lo 0 nVD0200lo MY_LIB_VD0200_D
+IVD0200hi 0 nVD0200hi 0.00505
+XVD0200hi 0 nVD0200hi MY_LIB_VD0200_D
+EVD0200 rdVD0200 0 nVD0200hi nVD0200lo 10000
+IVD0201lo 0 nVD0201lo 0.00495
+XVD0201lo 0 nVD0201lo MY_LIB_VD0201_D
+IVD0201hi 0 nVD0201hi 0.00505
+XVD0201hi 0 nVD0201hi MY_LIB_VD0201_D
+EVD0201 rdVD0201 0 nVD0201hi nVD0201lo 10000
+IVD0202lo 0 nVD0202lo 0.00495
+XVD0202lo 0 nVD0202lo MY_LIB_VD0202_D
+IVD0202hi 0 nVD0202hi 0.00505
+XVD0202hi 0 nVD0202hi MY_LIB_VD0202_D
+EVD0202 rdVD0202 0 nVD0202hi nVD0202lo 10000
+IVD0203lo 0 nVD0203lo 0.00495
+XVD0203lo 0 nVD0203lo MY_LIB_VD0203_D
+IVD0203hi 0 nVD0203hi 0.00505
+XVD0203hi 0 nVD0203hi MY_LIB_VD0203_D
+EVD0203 rdVD0203 0 nVD0203hi nVD0203lo 10000
+IVD0204lo 0 nVD0204lo 0.00495
+XVD0204lo 0 nVD0204lo MY_LIB_VD0204_D
+IVD0204hi 0 nVD0204hi 0.00505
+XVD0204hi 0 nVD0204hi MY_LIB_VD0204_D
+EVD0204 rdVD0204 0 nVD0204hi nVD0204lo 10000
+IVD0205lo 0 nVD0205lo 0.00495
+XVD0205lo 0 nVD0205lo MY_LIB_VD0205_D
+IVD0205hi 0 nVD0205hi 0.00505
+XVD0205hi 0 nVD0205hi MY_LIB_VD0205_D
+EVD0205 rdVD0205 0 nVD0205hi nVD0205lo 10000
+IVD0206lo 0 nVD0206lo 0.00495
+XVD0206lo 0 nVD0206lo MY_LIB_VD0206_D
+IVD0206hi 0 nVD0206hi 0.00505
+XVD0206hi 0 nVD0206hi MY_LIB_VD0206_D
+EVD0206 rdVD0206 0 nVD0206hi nVD0206lo 10000
+IVD0207lo 0 nVD0207lo 0.00495
+XVD0207lo 0 nVD0207lo MY_LIB_VD0207_D
+IVD0207hi 0 nVD0207hi 0.00505
+XVD0207hi 0 nVD0207hi MY_LIB_VD0207_D
+EVD0207 rdVD0207 0 nVD0207hi nVD0207lo 10000
+IVD0208lo 0 nVD0208lo 0.00495
+XVD0208lo 0 nVD0208lo MY_LIB_VD0208_D
+IVD0208hi 0 nVD0208hi 0.00505
+XVD0208hi 0 nVD0208hi MY_LIB_VD0208_D
+EVD0208 rdVD0208 0 nVD0208hi nVD0208lo 10000
+IVD0209lo 0 nVD0209lo 0.00495
+XVD0209lo 0 nVD0209lo MY_LIB_VD0209_D
+IVD0209hi 0 nVD0209hi 0.00505
+XVD0209hi 0 nVD0209hi MY_LIB_VD0209_D
+EVD0209 rdVD0209 0 nVD0209hi nVD0209lo 10000
+IVD0210lo 0 nVD0210lo 0.00495
+XVD0210lo 0 nVD0210lo MY_LIB_VD0210_D
+IVD0210hi 0 nVD0210hi 0.00505
+XVD0210hi 0 nVD0210hi MY_LIB_VD0210_D
+EVD0210 rdVD0210 0 nVD0210hi nVD0210lo 10000
+IVD0211lo 0 nVD0211lo 0.00495
+XVD0211lo 0 nVD0211lo MY_LIB_VD0211_D
+IVD0211hi 0 nVD0211hi 0.00505
+XVD0211hi 0 nVD0211hi MY_LIB_VD0211_D
+EVD0211 rdVD0211 0 nVD0211hi nVD0211lo 10000
+IVD0212lo 0 nVD0212lo 0.00495
+XVD0212lo 0 nVD0212lo MY_LIB_VD0212_D
+IVD0212hi 0 nVD0212hi 0.00505
+XVD0212hi 0 nVD0212hi MY_LIB_VD0212_D
+EVD0212 rdVD0212 0 nVD0212hi nVD0212lo 10000
+IVD0213lo 0 nVD0213lo 0.00495
+XVD0213lo 0 nVD0213lo MY_LIB_VD0213_D
+IVD0213hi 0 nVD0213hi 0.00505
+XVD0213hi 0 nVD0213hi MY_LIB_VD0213_D
+EVD0213 rdVD0213 0 nVD0213hi nVD0213lo 10000
+IVD0214lo 0 nVD0214lo 0.00495
+XVD0214lo 0 nVD0214lo MY_LIB_VD0214_D
+IVD0214hi 0 nVD0214hi 0.00505
+XVD0214hi 0 nVD0214hi MY_LIB_VD0214_D
+EVD0214 rdVD0214 0 nVD0214hi nVD0214lo 10000
+IVD0215lo 0 nVD0215lo 0.00495
+XVD0215lo 0 nVD0215lo MY_LIB_VD0215_D
+IVD0215hi 0 nVD0215hi 0.00505
+XVD0215hi 0 nVD0215hi MY_LIB_VD0215_D
+EVD0215 rdVD0215 0 nVD0215hi nVD0215lo 10000
+IVD0216lo 0 nVD0216lo 0.00495
+XVD0216lo 0 nVD0216lo MY_LIB_VD0216_D
+IVD0216hi 0 nVD0216hi 0.00505
+XVD0216hi 0 nVD0216hi MY_LIB_VD0216_D
+EVD0216 rdVD0216 0 nVD0216hi nVD0216lo 10000
+IVD0217lo 0 nVD0217lo 0.00495
+XVD0217lo 0 nVD0217lo MY_LIB_VD0217_D
+IVD0217hi 0 nVD0217hi 0.00505
+XVD0217hi 0 nVD0217hi MY_LIB_VD0217_D
+EVD0217 rdVD0217 0 nVD0217hi nVD0217lo 10000
+IVD0218lo 0 nVD0218lo 0.00495
+XVD0218lo 0 nVD0218lo MY_LIB_VD0218_D
+IVD0218hi 0 nVD0218hi 0.00505
+XVD0218hi 0 nVD0218hi MY_LIB_VD0218_D
+EVD0218 rdVD0218 0 nVD0218hi nVD0218lo 10000
+IVD0219lo 0 nVD0219lo 0.00495
+XVD0219lo 0 nVD0219lo MY_LIB_VD0219_D
+IVD0219hi 0 nVD0219hi 0.00505
+XVD0219hi 0 nVD0219hi MY_LIB_VD0219_D
+EVD0219 rdVD0219 0 nVD0219hi nVD0219lo 10000
+IVD0220lo 0 nVD0220lo 0.00495
+XVD0220lo 0 nVD0220lo MY_LIB_VD0220_D
+IVD0220hi 0 nVD0220hi 0.00505
+XVD0220hi 0 nVD0220hi MY_LIB_VD0220_D
+EVD0220 rdVD0220 0 nVD0220hi nVD0220lo 10000
+IVD0221lo 0 nVD0221lo 0.00495
+XVD0221lo 0 nVD0221lo MY_LIB_VD0221_D
+IVD0221hi 0 nVD0221hi 0.00505
+XVD0221hi 0 nVD0221hi MY_LIB_VD0221_D
+EVD0221 rdVD0221 0 nVD0221hi nVD0221lo 10000
+IVD0222lo 0 nVD0222lo 0.00495
+XVD0222lo 0 nVD0222lo MY_LIB_VD0222_D
+IVD0222hi 0 nVD0222hi 0.00505
+XVD0222hi 0 nVD0222hi MY_LIB_VD0222_D
+EVD0222 rdVD0222 0 nVD0222hi nVD0222lo 10000
+IVD0223lo 0 nVD0223lo 0.00495
+XVD0223lo 0 nVD0223lo MY_LIB_VD0223_D
+IVD0223hi 0 nVD0223hi 0.00505
+XVD0223hi 0 nVD0223hi MY_LIB_VD0223_D
+EVD0223 rdVD0223 0 nVD0223hi nVD0223lo 10000
+IVD0224lo 0 nVD0224lo 0.00198
+XVD0224lo 0 nVD0224lo MY_LIB_VD0224_D
+IVD0224hi 0 nVD0224hi 0.00202
+XVD0224hi 0 nVD0224hi MY_LIB_VD0224_D
+EVD0224 rdVD0224 0 nVD0224hi nVD0224lo 25000
+IVD0225lo 0 nVD0225lo 0.00198
+XVD0225lo 0 nVD0225lo MY_LIB_VD0225_D
+IVD0225hi 0 nVD0225hi 0.00202
+XVD0225hi 0 nVD0225hi MY_LIB_VD0225_D
+EVD0225 rdVD0225 0 nVD0225hi nVD0225lo 25000
+IVD0226lo 0 nVD0226lo 0.00198
+XVD0226lo 0 nVD0226lo MY_LIB_VD0226_D
+IVD0226hi 0 nVD0226hi 0.00202
+XVD0226hi 0 nVD0226hi MY_LIB_VD0226_D
+EVD0226 rdVD0226 0 nVD0226hi nVD0226lo 25000
+IVD0227lo 0 nVD0227lo 0.00198
+XVD0227lo 0 nVD0227lo MY_LIB_VD0227_D
+IVD0227hi 0 nVD0227hi 0.00202
+XVD0227hi 0 nVD0227hi MY_LIB_VD0227_D
+EVD0227 rdVD0227 0 nVD0227hi nVD0227lo 25000
+IVD0228lo 0 nVD0228lo 0.00198
+XVD0228lo 0 nVD0228lo MY_LIB_VD0228_D
+IVD0228hi 0 nVD0228hi 0.00202
+XVD0228hi 0 nVD0228hi MY_LIB_VD0228_D
+EVD0228 rdVD0228 0 nVD0228hi nVD0228lo 25000
+IVD0229lo 0 nVD0229lo 0.00198
+XVD0229lo 0 nVD0229lo MY_LIB_VD0229_D
+IVD0229hi 0 nVD0229hi 0.00202
+XVD0229hi 0 nVD0229hi MY_LIB_VD0229_D
+EVD0229 rdVD0229 0 nVD0229hi nVD0229lo 25000
+IVD0230lo 0 nVD0230lo 0.00198
+XVD0230lo 0 nVD0230lo MY_LIB_VD0230_D
+IVD0230hi 0 nVD0230hi 0.00202
+XVD0230hi 0 nVD0230hi MY_LIB_VD0230_D
+EVD0230 rdVD0230 0 nVD0230hi nVD0230lo 25000
+IVD0231lo 0 nVD0231lo 0.00198
+XVD0231lo 0 nVD0231lo MY_LIB_VD0231_D
+IVD0231hi 0 nVD0231hi 0.00202
+XVD0231hi 0 nVD0231hi MY_LIB_VD0231_D
+EVD0231 rdVD0231 0 nVD0231hi nVD0231lo 25000
+IVD0232lo 0 nVD0232lo 0.00198
+XVD0232lo 0 nVD0232lo MY_LIB_VD0232_D
+IVD0232hi 0 nVD0232hi 0.00202
+XVD0232hi 0 nVD0232hi MY_LIB_VD0232_D
+EVD0232 rdVD0232 0 nVD0232hi nVD0232lo 25000
+IVD0233lo 0 nVD0233lo 0.00198
+XVD0233lo 0 nVD0233lo MY_LIB_VD0233_D
+IVD0233hi 0 nVD0233hi 0.00202
+XVD0233hi 0 nVD0233hi MY_LIB_VD0233_D
+EVD0233 rdVD0233 0 nVD0233hi nVD0233lo 25000
+IVD0234lo 0 nVD0234lo 0.00198
+XVD0234lo 0 nVD0234lo MY_LIB_VD0234_D
+IVD0234hi 0 nVD0234hi 0.00202
+XVD0234hi 0 nVD0234hi MY_LIB_VD0234_D
+EVD0234 rdVD0234 0 nVD0234hi nVD0234lo 25000
+IVD0235lo 0 nVD0235lo 0.00198
+XVD0235lo 0 nVD0235lo MY_LIB_VD0235_D
+IVD0235hi 0 nVD0235hi 0.00202
+XVD0235hi 0 nVD0235hi MY_LIB_VD0235_D
+EVD0235 rdVD0235 0 nVD0235hi nVD0235lo 25000
+.OP
+.PLOT OP V(rdVD0055)
+.PLOT OP V(rdVD0056)
+.PLOT OP V(rdVD0057)
+.PLOT OP V(rdVD0058)
+.PLOT OP V(rdVD0059)
+.PLOT OP V(rdVD0060)
+.PLOT OP V(rdVD0061)
+.PLOT OP V(rdVD0062)
+.PLOT OP V(rdVD0063)
+.PLOT OP V(rdVD0064)
+.PLOT OP V(rdVD0065)
+.PLOT OP V(rdVD0066)
+.PLOT OP V(rdVD0067)
+.PLOT OP V(rdVD0068)
+.PLOT OP V(rdVD0069)
+.PLOT OP V(rdVD0070)
+.PLOT OP V(rdVD0071)
+.PLOT OP V(rdVD0072)
+.PLOT OP V(rdVD0073)
+.PLOT OP V(rdVD0074)
+.PLOT OP V(rdVD0075)
+.PLOT OP V(rdVD0076)
+.PLOT OP V(rdVD0077)
+.PLOT OP V(rdVD0078)
+.PLOT OP V(rdVD0079)
+.PLOT OP V(rdVD0080)
+.PLOT OP V(rdVD0081)
+.PLOT OP V(rdVD0082)
+.PLOT OP V(rdVD0083)
+.PLOT OP V(rdVD0084)
+.PLOT OP V(rdVD0085)
+.PLOT OP V(rdVD0086)
+.PLOT OP V(rdVD0087)
+.PLOT OP V(rdVD0088)
+.PLOT OP V(rdVD0089)
+.PLOT OP V(rdVD0090)
+.PLOT OP V(rdVD0091)
+.PLOT OP V(rdVD0092)
+.PLOT OP V(rdVD0093)
+.PLOT OP V(rdVD0094)
+.PLOT OP V(rdVD0095)
+.PLOT OP V(rdVD0096)
+.PLOT OP V(rdVD0097)
+.PLOT OP V(rdVD0098)
+.PLOT OP V(rdVD0099)
+.PLOT OP V(rdVD0100)
+.PLOT OP V(rdVD0101)
+.PLOT OP V(rdVD0102)
+.PLOT OP V(rdVD0103)
+.PLOT OP V(rdVD0104)
+.PLOT OP V(rdVD0105)
+.PLOT OP V(rdVD0106)
+.PLOT OP V(rdVD0107)
+.PLOT OP V(rdVD0108)
+.PLOT OP V(rdVD0109)
+.PLOT OP V(rdVD0110)
+.PLOT OP V(rdVD0111)
+.PLOT OP V(rdVD0112)
+.PLOT OP V(rdVD0113)
+.PLOT OP V(rdVD0114)
+.PLOT OP V(rdVD0115)
+.PLOT OP V(rdVD0116)
+.PLOT OP V(rdVD0117)
+.PLOT OP V(rdVD0118)
+.PLOT OP V(rdVD0119)
+.PLOT OP V(rdVD0120)
+.PLOT OP V(rdVD0121)
+.PLOT OP V(rdVD0122)
+.PLOT OP V(rdVD0123)
+.PLOT OP V(rdVD0124)
+.PLOT OP V(rdVD0125)
+.PLOT OP V(rdVD0126)
+.PLOT OP V(rdVD0127)
+.PLOT OP V(rdVD0128)
+.PLOT OP V(rdVD0129)
+.PLOT OP V(rdVD0130)
+.PLOT OP V(rdVD0131)
+.PLOT OP V(rdVD0132)
+.PLOT OP V(rdVD0133)
+.PLOT OP V(rdVD0134)
+.PLOT OP V(rdVD0135)
+.PLOT OP V(rdVD0136)
+.PLOT OP V(rdVD0137)
+.PLOT OP V(rdVD0138)
+.PLOT OP V(rdVD0139)
+.PLOT OP V(rdVD0140)
+.PLOT OP V(rdVD0141)
+.PLOT OP V(rdVD0142)
+.PLOT OP V(rdVD0143)
+.PLOT OP V(rdVD0144)
+.PLOT OP V(rdVD0145)
+.PLOT OP V(rdVD0146)
+.PLOT OP V(rdVD0147)
+.PLOT OP V(rdVD0148)
+.PLOT OP V(rdVD0149)
+.PLOT OP V(rdVD0150)
+.PLOT OP V(rdVD0151)
+.PLOT OP V(rdVD0152)
+.PLOT OP V(rdVD0153)
+.PLOT OP V(rdVD0154)
+.PLOT OP V(rdVD0155)
+.PLOT OP V(rdVD0156)
+.PLOT OP V(rdVD0157)
+.PLOT OP V(rdVD0158)
+.PLOT OP V(rdVD0159)
+.PLOT OP V(rdVD0160)
+.PLOT OP V(rdVD0161)
+.PLOT OP V(rdVD0162)
+.PLOT OP V(rdVD0163)
+.PLOT OP V(rdVD0164)
+.PLOT OP V(rdVD0165)
+.PLOT OP V(rdVD0166)
+.PLOT OP V(rdVD0167)
+.PLOT OP V(rdVD0168)
+.PLOT OP V(rdVD0169)
+.PLOT OP V(rdVD0170)
+.PLOT OP V(rdVD0171)
+.PLOT OP V(rdVD0172)
+.PLOT OP V(rdVD0173)
+.PLOT OP V(rdVD0174)
+.PLOT OP V(rdVD0175)
+.PLOT OP V(rdVD0176)
+.PLOT OP V(rdVD0177)
+.PLOT OP V(rdVD0178)
+.PLOT OP V(rdVD0179)
+.PLOT OP V(rdVD0180)
+.PLOT OP V(rdVD0181)
+.PLOT OP V(rdVD0182)
+.PLOT OP V(rdVD0183)
+.PLOT OP V(rdVD0184)
+.PLOT OP V(rdVD0185)
+.PLOT OP V(rdVD0186)
+.PLOT OP V(rdVD0187)
+.PLOT OP V(rdVD0188)
+.PLOT OP V(rdVD0189)
+.PLOT OP V(rdVD0190)
+.PLOT OP V(rdVD0191)
+.PLOT OP V(rdVD0192)
+.PLOT OP V(rdVD0193)
+.PLOT OP V(rdVD0194)
+.PLOT OP V(rdVD0195)
+.PLOT OP V(rdVD0196)
+.PLOT OP V(rdVD0197)
+.PLOT OP V(rdVD0198)
+.PLOT OP V(rdVD0199)
+.PLOT OP V(rdVD0200)
+.PLOT OP V(rdVD0201)
+.PLOT OP V(rdVD0202)
+.PLOT OP V(rdVD0203)
+.PLOT OP V(rdVD0204)
+.PLOT OP V(rdVD0205)
+.PLOT OP V(rdVD0206)
+.PLOT OP V(rdVD0207)
+.PLOT OP V(rdVD0208)
+.PLOT OP V(rdVD0209)
+.PLOT OP V(rdVD0210)
+.PLOT OP V(rdVD0211)
+.PLOT OP V(rdVD0212)
+.PLOT OP V(rdVD0213)
+.PLOT OP V(rdVD0214)
+.PLOT OP V(rdVD0215)
+.PLOT OP V(rdVD0216)
+.PLOT OP V(rdVD0217)
+.PLOT OP V(rdVD0218)
+.PLOT OP V(rdVD0219)
+.PLOT OP V(rdVD0220)
+.PLOT OP V(rdVD0221)
+.PLOT OP V(rdVD0222)
+.PLOT OP V(rdVD0223)
+.PLOT OP V(rdVD0224)
+.PLOT OP V(rdVD0225)
+.PLOT OP V(rdVD0226)
+.PLOT OP V(rdVD0227)
+.PLOT OP V(rdVD0228)
+.PLOT OP V(rdVD0229)
+.PLOT OP V(rdVD0230)
+.PLOT OP V(rdVD0231)
+.PLOT OP V(rdVD0232)
+.PLOT OP V(rdVD0233)
+.PLOT OP V(rdVD0234)
+.PLOT OP V(rdVD0235)
+.END

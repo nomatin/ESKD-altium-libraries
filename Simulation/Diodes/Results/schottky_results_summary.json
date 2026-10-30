@@ -1,0 +1,18 @@
+[
+  {
+    "test": "schottky_dc_forward",
+    "status": "PASS",
+    "checks": 124,
+    "passed": 124,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "schottky_dc_reverse",
+    "status": "PASS",
+    "checks": 34,
+    "passed": 34,
+    "failed": 0,
+    "error": null
+  }
+]

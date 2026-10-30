@@ -1,0 +1,331 @@
+{
+  "status": "PASS",
+  "test": "schottky_dc_reverse",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0024j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882493610197e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0025j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882493610197e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0025j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882493610197e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0026j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882569699084e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0026j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.148825697025131e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0027j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882569699084e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0027j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09,
+      "value": 9.14882493610197e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0028j1p1)",
+      "measurement": "last",
+      "min": 3.4942457268685996e-09,
+      "max": 3.5762457268686e-09,
+      "value": 3.5552458880503185e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0029j1p1)",
+      "measurement": "last",
+      "min": 3.4742457268685997e-09,
+      "max": 3.5962457268686e-09,
+      "value": 3.565245774626146e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0030j1p1)",
+      "measurement": "last",
+      "min": 3.4542457268685998e-09,
+      "max": 3.6162457268686e-09,
+      "value": 3.5752457470163148e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0031j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.024713630051153e-10,
+      "value": 5.1471363009408646e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0032j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.224713630051153e-10,
+      "value": 6.147136300759986e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0033j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.6100428740986702e-10,
+      "value": 8.00042874098701e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0034j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0100428740986704e-10,
+      "value": 1.000042874098686e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0035j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.0100061237867683e-10,
+      "value": 1.500006123786769e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0036j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0100061237867685e-10,
+      "value": 2.0000061237867687e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0037j1p1)",
+      "measurement": "last",
+      "min": 7.0294914537371995e-09,
+      "max": 7.1114914537372e-09,
+      "value": 7.090491776100636e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0038j1p1)",
+      "measurement": "last",
+      "min": 7.0094914537372e-09,
+      "max": 7.131491453737199e-09,
+      "value": 7.100491549252291e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0039j1p1)",
+      "measurement": "last",
+      "min": 6.9894914537372e-09,
+      "max": 7.1514914537372e-09,
+      "value": 7.11049149403263e-09,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0040j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.039427260102306e-10,
+      "value": 5.2942726018817296e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0041j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.239427260102306e-10,
+      "value": 6.294272601519976e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0042j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.6100857481973406e-10,
+      "value": 8.000857481974018e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0043j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0100857481973408e-10,
+      "value": 1.000085748197372e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0044j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.010012247573536e-10,
+      "value": 1.5000122475735378e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0045j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0100122475735364e-10,
+      "value": 2.000012247573537e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0046j1p1)",
+      "measurement": "last",
+      "min": 1.0564737180605999e-08,
+      "max": 1.0646737180606e-08,
+      "value": 1.0625737664151153e-08,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0047j1p1)",
+      "measurement": "last",
+      "min": 1.0544737180606e-08,
+      "max": 1.0666737180605999e-08,
+      "value": 1.0635737323878639e-08,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0048j1p1)",
+      "measurement": "last",
+      "min": 1.0524737180606e-08,
+      "max": 1.0686737180605998e-08,
+      "value": 1.0645737241049143e-08,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0049j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.054140890153458e-10,
+      "value": 5.441408902822584e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0050j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.254140890153458e-10,
+      "value": 6.441408902279952e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0051j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.610128622296011e-10,
+      "value": 8.001286222961027e-11,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0052j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0101286222960111e-10,
+      "value": 1.000128622296058e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0053j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.0100183713603046e-10,
+      "value": 1.5000183713603067e-10,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0054j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.010018371360305e-10,
+      "value": 2.0000183713603055e-10,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\60199a1eaeeb467d9da76cbae0518f03",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\60199a1eaeeb467d9da76cbae0518f03\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_32ac7e14480c4564bdb6abc2e2aec0cf.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

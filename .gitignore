@@ -36,4 +36,7 @@ AGENTS.md
 !/Simulation/Ferrites/Murata/README.md
 !/Simulation/Resistors/README.md
 !/Simulation/Capacitors/README.md
+!/Simulation/Diodes/README.md
 Simulation/Resistors/Results/previous_temp_not_applied/
+Simulation/Diodes/Results/previous_extended/
+Simulation/Capacitors/Results/previous_extended/

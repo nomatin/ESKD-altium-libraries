@@ -1,0 +1,6651 @@
+{
+  "status": "PASS",
+  "test": "extended_capacitors_equivalent",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "56a6f013840947dfa506c018e80ee848",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\56a6f013840947dfa506c018e80ee848",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\56a6f013840947dfa506c018e80ee848\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_afae79b517694ba29a96562b1a7cc372.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "capacitance_series_C0003",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0003",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0004",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0004",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0005",
+      "type": "capacitance_series",
+      "value": 1.8000079718283368e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998279710311534e-10,
+        "max": 1.8001879726255192e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0005",
+      "type": "esr",
+      "value": 22182.983751457494,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22180.76545308134,
+        "max": 22185.20204983163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0006",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0006",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0007",
+      "type": "capacitance_series",
+      "value": 2.700007967134608e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997379663378955e-10,
+        "max": 2.700277967931322e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0007",
+      "type": "esr",
+      "value": 14771.293568075127,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14769.816438722359,
+        "max": 14772.770697435975
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0008",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0008",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0009",
+      "type": "capacitance_series",
+      "value": 3.90000796424616e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899617963449736e-10,
+        "max": 3.9003979650425855e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0009",
+      "type": "esr",
+      "value": 10218.883194200567,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 10217.861305883009,
+        "max": 10219.905082521847
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0010",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0010",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0011",
+      "type": "capacitance_series",
+      "value": 5.60000796227325e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.59944796147702e-10,
+        "max": 5.600567963069475e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0011",
+      "type": "esr",
+      "value": 7113.20358524935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7112.492264889984,
+        "max": 7113.914905607034
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0012",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0012",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0013",
+      "type": "capacitance_series",
+      "value": 8.200007960838144e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199187960042064e-10,
+        "max": 8.200827961634231e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0013",
+      "type": "esr",
+      "value": 4856.049637334775,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 4855.564032371097,
+        "max": 4856.535242298564
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0014",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0014",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0015",
+      "type": "capacitance_series",
+      "value": 1.2000007959859332e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998807959063347e-09,
+        "max": 1.2001207960655318e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0015",
+      "type": "esr",
+      "value": 3317.4859282531456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3317.154179660543,
+        "max": 3317.817676846193
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0016",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0016",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0017",
+      "type": "capacitance_series",
+      "value": 1.800000795915527e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998207958359353e-09,
+        "max": 1.8001807959951185e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0017",
+      "type": "esr",
+      "value": 2211.2666308340504,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2211.045504171251,
+        "max": 2211.487757497418
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0018",
+      "type": "capacitance_series",
+      "value": 2.0000007959014458e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998007958218565e-09,
+        "max": 2.0002007959810367e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0018",
+      "type": "esr",
+      "value": 1990.069649882624,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1989.8706429176837,
+        "max": 1990.2686568476602
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0019",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0019",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0020",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0020",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0021",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0021",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0022",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0022",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0023",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0023",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0024",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0024",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0025",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0025",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0026",
+      "type": "capacitance_series",
+      "value": 8.200000795805626e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180795726046e-09,
+        "max": 8.200820795885206e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0026",
+      "type": "esr",
+      "value": 485.26613295538755,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 485.21760634205003,
+        "max": 485.31465956864105
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0027",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0027",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0028",
+      "type": "capacitance_series",
+      "value": 1.2000000795795838e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.199880079571626e-08,
+        "max": 1.200120079587542e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0028",
+      "type": "esr",
+      "value": 331.5903775955848,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 331.5572185578252,
+        "max": 331.6235366333443
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0029",
+      "type": "capacitance_series",
+      "value": 1.5000000795791618e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500795712032e-08,
+        "max": 1.500150079587119e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0029",
+      "type": "esr",
+      "value": 265.2694893587689,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 265.24296240976076,
+        "max": 265.29601630763244
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0030",
+      "type": "capacitance_series",
+      "value": 1.8000000795788793e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200795709214e-08,
+        "max": 1.8001800795868372e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0030",
+      "type": "esr",
+      "value": 221.05634517787666,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 221.0342395433605,
+        "max": 221.07845081239606
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0031",
+      "type": "capacitance_series",
+      "value": 2.000000079578739e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998000795707814e-08,
+        "max": 2.000200079586697e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0031",
+      "type": "esr",
+      "value": 198.95000748059945,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 198.93011247986195,
+        "max": 198.96990248135805
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0032",
+      "type": "capacitance_series",
+      "value": 2.200000079578623e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.199780079570666e-08,
+        "max": 2.2002200795865816e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0032",
+      "type": "esr",
+      "value": 180.863120138063,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 180.84503382611157,
+        "max": 180.88120645013922
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0033",
+      "type": "capacitance_series",
+      "value": 2.7000000795784102e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300795704524e-08,
+        "max": 2.700270079586368e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0033",
+      "type": "esr",
+      "value": 147.36916053957106,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 147.35442362354112,
+        "max": 147.38389745564902
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0034",
+      "type": "capacitance_series",
+      "value": 3.3000000795782396e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670079570281e-08,
+        "max": 3.300330079586197e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0034",
+      "type": "esr",
+      "value": 120.57425114525668,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 120.56219372012829,
+        "max": 120.58630857035733
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0035",
+      "type": "capacitance_series",
+      "value": 3.900000079578121e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610079570163e-08,
+        "max": 3.900390079586079e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0035",
+      "type": "esr",
+      "value": 102.0240637481732,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 102.01386134179651,
+        "max": 102.03426615454615
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0036",
+      "type": "capacitance_series",
+      "value": 4.70000007957801e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699530079570053e-08,
+        "max": 4.7004700795859683e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0036",
+      "type": "esr",
+      "value": 84.6580305927336,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 84.64956478967967,
+        "max": 84.6664963957982
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0037",
+      "type": "capacitance_series",
+      "value": 5.600000089127333e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440089118422e-08,
+        "max": 5.600560089136248e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0037",
+      "type": "esr",
+      "value": 71.05221796829622,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 71.04511274650895,
+        "max": 71.05932319010262
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0038",
+      "type": "capacitance_series",
+      "value": 6.80000010822605e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320108215229e-08,
+        "max": 6.800680108236873e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0038",
+      "type": "esr",
+      "value": 58.513591268004554,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 58.50773990888973,
+        "max": 58.519442627143334
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0039",
+      "type": "capacitance_series",
+      "value": 8.200000130507884e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180130494833e-08,
+        "max": 8.200820130520933e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0039",
+      "type": "esr",
+      "value": 48.523465929581675,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 48.51861358298173,
+        "max": 48.52831827616764
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0040",
+      "type": "capacitance_series",
+      "value": 1.0000000159155951e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900015914004e-08,
+        "max": 1.0001000159171873e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0040",
+      "type": "esr",
+      "value": 39.78924206223899,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 39.785263138044996,
+        "max": 39.79322098645744
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0041",
+      "type": "capacitance_series",
+      "value": 1.200000019098715e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.199880019096805e-07,
+        "max": 1.2001200191006248e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0041",
+      "type": "esr",
+      "value": 33.15770171854956,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.15438594837083,
+        "max": 33.161017488714535
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0042",
+      "type": "capacitance_series",
+      "value": 1.5000000238733938e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500238710063e-07,
+        "max": 1.5001500238757807e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0042",
+      "type": "esr",
+      "value": 26.52616137483769,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26.523508758696668,
+        "max": 26.52881399097163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0043",
+      "type": "capacitance_series",
+      "value": 1.8000000286480722e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200286452075e-07,
+        "max": 1.800180028650937e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0043",
+      "type": "esr",
+      "value": 22.105134479024894,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22.10292396558059,
+        "max": 22.107344992476396
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0044",
+      "type": "capacitance_series",
+      "value": 2.2000000350143103e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978003501081e-07,
+        "max": 2.2002200350178128e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0044",
+      "type": "esr",
+      "value": 18.08601911920461,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18.084210517293208,
+        "max": 18.08782772111705
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0045",
+      "type": "capacitance_series",
+      "value": 2.7000000601608434e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300601548257e-07,
+        "max": 2.700270060166858e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0045",
+      "type": "esr",
+      "value": 20.63138372869583,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 20.629320590320642,
+        "max": 20.63344686706638
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0046",
+      "type": "capacitance_series",
+      "value": 3.300000052521466e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670052516214e-07,
+        "max": 3.3003300525267183e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0046",
+      "type": "esr",
+      "value": 12.057346079469738,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12.056140344862111,
+        "max": 12.058551814078005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0047",
+      "type": "capacitance_series",
+      "value": 3.900000086898994e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610086890305e-07,
+        "max": 3.900390086907684e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0047",
+      "type": "esr",
+      "value": 14.283265658324671,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14.281837331760398,
+        "max": 14.284693984892064
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0048",
+      "type": "capacitance_series",
+      "value": 4.7000000748032975e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995300747958195e-07,
+        "max": 4.7004700748107797e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0048",
+      "type": "esr",
+      "value": 8.46579618345502,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8.464949603839372,
+        "max": 8.466642763076063
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0049",
+      "type": "capacitance_series",
+      "value": 5.600000178254104e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440178236281e-07,
+        "max": 5.600560178271932e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0049",
+      "type": "esr",
+      "value": 14.210353015236585,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14.20893197993544,
+        "max": 14.211774050538487
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0050",
+      "type": "capacitance_series",
+      "value": 6.800000216451413e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932021642977e-07,
+        "max": 6.80068021647306e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0050",
+      "type": "esr",
+      "value": 11.70264365960698,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 11.701473395240932,
+        "max": 11.703813923972852
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0051",
+      "type": "capacitance_series",
+      "value": 1.0000000318310903e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000318279071e-07,
+        "max": 1.0001000318342734e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0051",
+      "type": "esr",
+      "value": 7.957797688532663,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.95700190876384,
+        "max": 7.9585934683015465
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0052",
+      "type": "capacitance_series",
+      "value": 2.2000007002873785e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978070021735e-06,
+        "max": 2.200220700357407e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0052",
+      "type": "esr",
+      "value": 7.234429581362976,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.233706138404819,
+        "max": 7.235153024321092
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0053",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0053",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0054",
+      "type": "capacitance_series",
+      "value": 1.2000079788689275e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998879780710405e-10,
+        "max": 1.200127979666814e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0054",
+      "type": "esr",
+      "value": 33333.07295052935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33329.739643232606,
+        "max": 33336.40625782272
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0055",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0055",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0056",
+      "type": "capacitance_series",
+      "value": 1.8000079718283368e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998279710311534e-10,
+        "max": 1.8001879726255192e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0056",
+      "type": "esr",
+      "value": 22182.983751457494,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22180.76545308134,
+        "max": 22185.20204983163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0057",
+      "type": "capacitance_series",
+      "value": 2.0000079704202186e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998079696231766e-10,
+        "max": 2.0002079712172605e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0057",
+      "type": "esr",
+      "value": 19957.65366940419,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 19955.657904040618,
+        "max": 19959.6494347745
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0058",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0058",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0059",
+      "type": "capacitance_series",
+      "value": 2.700007967134608e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997379663378955e-10,
+        "max": 2.700277967931322e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0059",
+      "type": "esr",
+      "value": 14771.293568075127,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14769.816438722359,
+        "max": 14772.770697435975
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0060",
+      "type": "capacitance_series",
+      "value": 3.000007966195863e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.999707965399244e-10,
+        "max": 3.0003079669924826e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0060",
+      "type": "esr",
+      "value": 13291.038995033912,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 13289.70989113573,
+        "max": 13292.368098934736
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0061",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0061",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0062",
+      "type": "capacitance_series",
+      "value": 3.90000796424616e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899617963449736e-10,
+        "max": 3.9003979650425855e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0062",
+      "type": "esr",
+      "value": 10218.883194200567,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 10217.861305883009,
+        "max": 10219.905082521847
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0063",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0063",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0064",
+      "type": "capacitance_series",
+      "value": 5.60000796227325e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.59944796147702e-10,
+        "max": 5.600567963069475e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0064",
+      "type": "esr",
+      "value": 7113.20358524935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7112.492264889984,
+        "max": 7113.914905607034
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0065",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0065",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0066",
+      "type": "capacitance_series",
+      "value": 8.200007960838144e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199187960042064e-10,
+        "max": 8.200827961634231e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0066",
+      "type": "esr",
+      "value": 4856.049637334775,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 4855.564032371097,
+        "max": 4856.535242298564
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0067",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0067",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0068",
+      "type": "capacitance_series",
+      "value": 1.2000007959859332e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998807959063347e-09,
+        "max": 1.2001207960655318e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0068",
+      "type": "esr",
+      "value": 3317.4859282531456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3317.154179660543,
+        "max": 3317.817676846193
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0069",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0069",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0070",
+      "type": "capacitance_series",
+      "value": 1.800000795915527e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998207958359353e-09,
+        "max": 1.8001807959951185e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0070",
+      "type": "esr",
+      "value": 2211.2666308340504,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2211.045504171251,
+        "max": 2211.487757497418
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0071",
+      "type": "capacitance_series",
+      "value": 2.0000007959014458e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998007958218565e-09,
+        "max": 2.0002007959810367e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0071",
+      "type": "esr",
+      "value": 1990.069649882624,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1989.8706429176837,
+        "max": 1990.2686568476602
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0072",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0072",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0073",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0073",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0074",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0074",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0075",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0075",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0076",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0076",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0077",
+      "type": "capacitance_series",
+      "value": 5.100000795824413e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.099490795744831e-09,
+        "max": 5.100510795903996e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0077",
+      "type": "esr",
+      "value": 780.2686155352324,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 780.1905886736818,
+        "max": 780.3466423967889
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0078",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0078",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0079",
+      "type": "capacitance_series",
+      "value": 6.200000795815596e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.199380795736015e-09,
+        "max": 6.200620795895178e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0079",
+      "type": "esr",
+      "value": 641.8196572633947,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 641.7554752976391,
+        "max": 641.8838392290918
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0080",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0080",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0081",
+      "type": "capacitance_series",
+      "value": 8.200000795805626e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180795726046e-09,
+        "max": 8.200820795885206e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0081",
+      "type": "esr",
+      "value": 485.26613295538755,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 485.21760634205003,
+        "max": 485.31465956864105
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0082",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0082",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0083",
+      "type": "capacitance_series",
+      "value": 1.2000000795795838e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.199880079571626e-08,
+        "max": 1.200120079587542e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0083",
+      "type": "esr",
+      "value": 331.5903775955848,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 331.5572185578252,
+        "max": 331.6235366333443
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0084",
+      "type": "capacitance_series",
+      "value": 1.5000000795791618e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500795712032e-08,
+        "max": 1.500150079587119e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0084",
+      "type": "esr",
+      "value": 265.2694893587689,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 265.24296240976076,
+        "max": 265.29601630763244
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0085",
+      "type": "capacitance_series",
+      "value": 1.8000000795788793e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200795709214e-08,
+        "max": 1.8001800795868372e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0085",
+      "type": "esr",
+      "value": 221.05634517787666,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 221.0342395433605,
+        "max": 221.07845081239606
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0086",
+      "type": "capacitance_series",
+      "value": 2.200000079578623e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.199780079570666e-08,
+        "max": 2.2002200795865816e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0086",
+      "type": "esr",
+      "value": 180.863120138063,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 180.84503382611157,
+        "max": 180.88120645013922
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0087",
+      "type": "capacitance_series",
+      "value": 2.7000000795784102e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300795704524e-08,
+        "max": 2.700270079586368e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0087",
+      "type": "esr",
+      "value": 147.36916053957106,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 147.35442362354112,
+        "max": 147.38389745564902
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0088",
+      "type": "capacitance_series",
+      "value": 3.3000000795782396e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670079570281e-08,
+        "max": 3.300330079586197e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0088",
+      "type": "esr",
+      "value": 120.57425114525668,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 120.56219372012829,
+        "max": 120.58630857035733
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0089",
+      "type": "capacitance_series",
+      "value": 3.900000079578121e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610079570163e-08,
+        "max": 3.900390079586079e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0089",
+      "type": "esr",
+      "value": 102.0240637481732,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 102.01386134179651,
+        "max": 102.03426615454615
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0090",
+      "type": "capacitance_series",
+      "value": 4.70000007957801e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699530079570053e-08,
+        "max": 4.7004700795859683e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0090",
+      "type": "esr",
+      "value": 84.6580305927336,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 84.64956478967967,
+        "max": 84.6664963957982
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0091",
+      "type": "capacitance_series",
+      "value": 5.600000089127333e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440089118422e-08,
+        "max": 5.600560089136248e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0091",
+      "type": "esr",
+      "value": 71.05221796829622,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 71.04511274650895,
+        "max": 71.05932319010262
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0092",
+      "type": "capacitance_series",
+      "value": 6.80000010822605e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320108215229e-08,
+        "max": 6.800680108236873e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0092",
+      "type": "esr",
+      "value": 58.513591268004554,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 58.50773990888973,
+        "max": 58.519442627143334
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0093",
+      "type": "capacitance_series",
+      "value": 8.200000130507884e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180130494833e-08,
+        "max": 8.200820130520933e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0093",
+      "type": "esr",
+      "value": 48.523465929581675,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 48.51861358298173,
+        "max": 48.52831827616764
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0094",
+      "type": "capacitance_series",
+      "value": 1.0000000159155951e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900015914004e-08,
+        "max": 1.0001000159171873e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0094",
+      "type": "esr",
+      "value": 39.78924206223899,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 39.785263138044996,
+        "max": 39.79322098645744
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0095",
+      "type": "capacitance_series",
+      "value": 1.200000019098715e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.199880019096805e-07,
+        "max": 1.2001200191006248e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0095",
+      "type": "esr",
+      "value": 33.15770171854956,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.15438594837083,
+        "max": 33.161017488714535
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0096",
+      "type": "capacitance_series",
+      "value": 1.5000000238733938e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500238710063e-07,
+        "max": 1.5001500238757807e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0096",
+      "type": "esr",
+      "value": 26.52616137483769,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26.523508758696668,
+        "max": 26.52881399097163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0097",
+      "type": "capacitance_series",
+      "value": 1.8000000286480722e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200286452075e-07,
+        "max": 1.800180028650937e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0097",
+      "type": "esr",
+      "value": 22.105134479024894,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22.10292396558059,
+        "max": 22.107344992476396
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0098",
+      "type": "capacitance_series",
+      "value": 2.2000000350143103e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978003501081e-07,
+        "max": 2.2002200350178128e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0098",
+      "type": "esr",
+      "value": 18.08601911920461,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18.084210517293208,
+        "max": 18.08782772111705
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0099",
+      "type": "capacitance_series",
+      "value": 2.7000000601608434e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300601548257e-07,
+        "max": 2.700270060166858e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0099",
+      "type": "esr",
+      "value": 20.63138372869583,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 20.629320590320642,
+        "max": 20.63344686706638
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0100",
+      "type": "capacitance_series",
+      "value": 3.300000052521466e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670052516214e-07,
+        "max": 3.3003300525267183e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0100",
+      "type": "esr",
+      "value": 12.057346079469738,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12.056140344862111,
+        "max": 12.058551814078005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0101",
+      "type": "capacitance_series",
+      "value": 3.900000086898994e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610086890305e-07,
+        "max": 3.900390086907684e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0101",
+      "type": "esr",
+      "value": 14.283265658324671,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14.281837331760398,
+        "max": 14.284693984892064
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0102",
+      "type": "capacitance_series",
+      "value": 4.7000000748032975e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995300747958195e-07,
+        "max": 4.7004700748107797e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0102",
+      "type": "esr",
+      "value": 8.46579618345502,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8.464949603839372,
+        "max": 8.466642763076063
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0103",
+      "type": "capacitance_series",
+      "value": 5.600000178254104e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440178236281e-07,
+        "max": 5.600560178271932e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0103",
+      "type": "esr",
+      "value": 14.210353015236585,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14.20893197993544,
+        "max": 14.211774050538487
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0104",
+      "type": "capacitance_series",
+      "value": 6.800000216451413e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932021642977e-07,
+        "max": 6.80068021647306e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0104",
+      "type": "esr",
+      "value": 11.70264365960698,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 11.701473395240932,
+        "max": 11.703813923972852
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0105",
+      "type": "capacitance_series",
+      "value": 8.20000026101494e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180260988838e-07,
+        "max": 8.200820261041042e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0105",
+      "type": "esr",
+      "value": 9.704631327479298,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 9.703660864346148,
+        "max": 9.705601790611642
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0106",
+      "type": "capacitance_series",
+      "value": 1.0000000318310903e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000318279071e-07,
+        "max": 1.0001000318342734e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0106",
+      "type": "esr",
+      "value": 7.957797688532663,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.95700190876384,
+        "max": 7.9585934683015465
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0107",
+      "type": "capacitance_series",
+      "value": 2.2000007002873785e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978070021735e-06,
+        "max": 2.200220700357407e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0107",
+      "type": "esr",
+      "value": 7.234429581362976,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.233706138404819,
+        "max": 7.235153024321092
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0108",
+      "type": "capacitance_series",
+      "value": 4.70000149606849e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699531495918882e-06,
+        "max": 4.700471496218096e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0108",
+      "type": "esr",
+      "value": 3.3863287402124858,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3.3859901073384235,
+        "max": 3.3866673730864663
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0109",
+      "type": "capacitance_series",
+      "value": 1.0000003183124446e-05,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999003182806134e-06,
+        "max": 1.0001003183442758e-05
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0109",
+      "type": "esr",
+      "value": 1.5915745078998225,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1.5914153504490576,
+        "max": 1.5917336653506375
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0110",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0110",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0111",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0111",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0112",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0112",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0113",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0113",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0114",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0114",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0115",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0115",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0116",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0116",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0117",
+      "type": "capacitance_series",
+      "value": 1.2000007959859332e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998807959063347e-09,
+        "max": 1.2001207960655318e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0117",
+      "type": "esr",
+      "value": 3317.4859282531456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3317.154179660543,
+        "max": 3317.817676846193
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0118",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0118",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0119",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0119",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0120",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0120",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0121",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0121",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0122",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0122",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0123",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0123",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0124",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0124",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0125",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0125",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0126",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0126",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0127",
+      "type": "capacitance_series",
+      "value": 1.5000000795791618e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500795712032e-08,
+        "max": 1.500150079587119e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0127",
+      "type": "esr",
+      "value": 265.2694893587689,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 265.24296240976076,
+        "max": 265.29601630763244
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0128",
+      "type": "capacitance_series",
+      "value": 2.200000079578623e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.199780079570666e-08,
+        "max": 2.2002200795865816e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0128",
+      "type": "esr",
+      "value": 180.863120138063,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 180.84503382611157,
+        "max": 180.88120645013922
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0129",
+      "type": "capacitance_series",
+      "value": 3.3000000795782396e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670079570281e-08,
+        "max": 3.300330079586197e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0129",
+      "type": "esr",
+      "value": 120.57425114525668,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 120.56219372012829,
+        "max": 120.58630857035733
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0130",
+      "type": "capacitance_series",
+      "value": 4.70000007957801e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699530079570053e-08,
+        "max": 4.7004700795859683e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0130",
+      "type": "esr",
+      "value": 84.6580305927336,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 84.64956478967967,
+        "max": 84.6664963957982
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0131",
+      "type": "capacitance_series",
+      "value": 6.80000010822605e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320108215229e-08,
+        "max": 6.800680108236873e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0131",
+      "type": "esr",
+      "value": 58.513591268004554,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 58.50773990888973,
+        "max": 58.519442627143334
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0132",
+      "type": "capacitance_series",
+      "value": 1.0000000159155951e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900015914004e-08,
+        "max": 1.0001000159171873e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0132",
+      "type": "esr",
+      "value": 39.78924206223899,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 39.785263138044996,
+        "max": 39.79322098645744
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0133",
+      "type": "capacitance_series",
+      "value": 1.5000000238733938e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998500238710063e-07,
+        "max": 1.5001500238757807e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0133",
+      "type": "esr",
+      "value": 26.52616137483769,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26.523508758696668,
+        "max": 26.52881399097163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0134",
+      "type": "capacitance_series",
+      "value": 2.2000000350143103e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978003501081e-07,
+        "max": 2.2002200350178128e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0134",
+      "type": "esr",
+      "value": 18.08601911920461,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18.084210517293208,
+        "max": 18.08782772111705
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0135",
+      "type": "capacitance_series",
+      "value": 3.300000052521466e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670052516214e-07,
+        "max": 3.3003300525267183e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0135",
+      "type": "esr",
+      "value": 12.057346079469738,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12.056140344862111,
+        "max": 12.058551814078005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0136",
+      "type": "capacitance_series",
+      "value": 4.7000000748032975e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995300747958195e-07,
+        "max": 4.7004700748107797e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0136",
+      "type": "esr",
+      "value": 8.46579618345502,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8.464949603839372,
+        "max": 8.466642763076063
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0137",
+      "type": "capacitance_series",
+      "value": 6.800000216451413e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932021642977e-07,
+        "max": 6.80068021647306e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0137",
+      "type": "esr",
+      "value": 11.70264365960698,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 11.701473395240932,
+        "max": 11.703813923972852
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0138",
+      "type": "capacitance_series",
+      "value": 1.0000000318310903e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000318279071e-07,
+        "max": 1.0001000318342734e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0138",
+      "type": "esr",
+      "value": 7.957797688532663,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.95700190876384,
+        "max": 7.9585934683015465
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0139",
+      "type": "capacitance_series",
+      "value": 2.2000007002873785e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.19978070021735e-06,
+        "max": 2.200220700357407e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0139",
+      "type": "esr",
+      "value": 7.234429581362976,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.233706138404819,
+        "max": 7.235153024321092
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0140",
+      "type": "capacitance_series",
+      "value": 4.70000149606849e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699531495918882e-06,
+        "max": 4.700471496218096e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0140",
+      "type": "esr",
+      "value": 3.3863287402124858,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3.3859901073384235,
+        "max": 3.3866673730864663
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0141",
+      "type": "capacitance_series",
+      "value": 1.0000003183124446e-05,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999003182806134e-06,
+        "max": 1.0001003183442758e-05
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0141",
+      "type": "esr",
+      "value": 1.5915745078998225,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1.5914153504490576,
+        "max": 1.5917336653506375
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0142",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0142",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0143",
+      "type": "capacitance_series",
+      "value": 1.2000079788689275e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998879780710405e-10,
+        "max": 1.200127979666814e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0143",
+      "type": "esr",
+      "value": 33333.07295052935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33329.739643232606,
+        "max": 33336.40625782272
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0144",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0144",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0145",
+      "type": "capacitance_series",
+      "value": 1.8000079718283368e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998279710311534e-10,
+        "max": 1.8001879726255192e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0145",
+      "type": "esr",
+      "value": 22182.983751457494,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22180.76545308134,
+        "max": 22185.20204983163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0146",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0146",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0147",
+      "type": "capacitance_series",
+      "value": 2.700007967134608e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997379663378955e-10,
+        "max": 2.700277967931322e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0147",
+      "type": "esr",
+      "value": 14771.293568075127,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14769.816438722359,
+        "max": 14772.770697435975
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0148",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0148",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0149",
+      "type": "capacitance_series",
+      "value": 3.90000796424616e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899617963449736e-10,
+        "max": 3.9003979650425855e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0149",
+      "type": "esr",
+      "value": 10218.883194200567,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 10217.861305883009,
+        "max": 10219.905082521847
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0150",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0150",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0151",
+      "type": "capacitance_series",
+      "value": 5.60000796227325e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.59944796147702e-10,
+        "max": 5.600567963069475e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0151",
+      "type": "esr",
+      "value": 7113.20358524935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7112.492264889984,
+        "max": 7113.914905607034
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0152",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0152",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0153",
+      "type": "capacitance_series",
+      "value": 7.500007961126639e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.499257960330526e-10,
+        "max": 7.500757961922752e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0153",
+      "type": "esr",
+      "value": 5309.665111802638,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5309.134145291238,
+        "max": 5310.196078313598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0154",
+      "type": "capacitance_series",
+      "value": 8.200007960838144e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199187960042064e-10,
+        "max": 8.200827961634231e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0154",
+      "type": "esr",
+      "value": 4856.049637334775,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 4855.564032371097,
+        "max": 4856.535242298564
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0155",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0155",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0156",
+      "type": "capacitance_series",
+      "value": 1.2000007959859332e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998807959063347e-09,
+        "max": 1.2001207960655318e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0156",
+      "type": "esr",
+      "value": 3317.4859282531456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3317.154179660543,
+        "max": 3317.817676846193
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0157",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0157",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0158",
+      "type": "capacitance_series",
+      "value": 1.800000795915527e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998207958359353e-09,
+        "max": 1.8001807959951185e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0158",
+      "type": "esr",
+      "value": 2211.2666308340504,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2211.045504171251,
+        "max": 2211.487757497418
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0159",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0159",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0160",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0160",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0161",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0161",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0162",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0162",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0163",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0163",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0164",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0164",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0165",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0165",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0166",
+      "type": "capacitance_series",
+      "value": 8.200000795805626e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180795726046e-09,
+        "max": 8.200820795885206e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0166",
+      "type": "esr",
+      "value": 485.26613295538755,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 485.21760634205003,
+        "max": 485.31465956864105
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0167",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0167",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0168",
+      "type": "capacitance_series",
+      "value": 1.2000001591570592e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998801591411435e-08,
+        "max": 1.2001201591729748e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0168",
+      "type": "esr",
+      "value": 663.1631427197951,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 663.0968264055255,
+        "max": 663.2294590340694
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0169",
+      "type": "capacitance_series",
+      "value": 1.5000001591566367e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998501591407202e-08,
+        "max": 1.5001501591725518e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0169",
+      "type": "esr",
+      "value": 530.5277067357426,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 530.4746539650406,
+        "max": 530.5807595063878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0170",
+      "type": "capacitance_series",
+      "value": 1.8000000795788793e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200795709214e-08,
+        "max": 1.8001800795868372e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0170",
+      "type": "esr",
+      "value": 221.05634517787666,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 221.0342395433605,
+        "max": 221.07845081239606
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0171",
+      "type": "capacitance_series",
+      "value": 2.2000001591560973e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997801591401824e-08,
+        "max": 2.2002201591720136e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0171",
+      "type": "esr",
+      "value": 361.7210002021334,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 361.6848281021027,
+        "max": 361.75717230214315
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0172",
+      "type": "capacitance_series",
+      "value": 2.7000000795784102e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300795704524e-08,
+        "max": 2.700270079586368e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0172",
+      "type": "esr",
+      "value": 147.36916053957106,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 147.35442362354112,
+        "max": 147.38389745564902
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0173",
+      "type": "capacitance_series",
+      "value": 3.300000159155711e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670159139796e-08,
+        "max": 3.3003301591716274e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0173",
+      "type": "esr",
+      "value": 241.14617336863805,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 241.12205875131409,
+        "max": 241.1702879859878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0174",
+      "type": "capacitance_series",
+      "value": 3.900000079578121e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610079570163e-08,
+        "max": 3.900390079586079e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0174",
+      "type": "esr",
+      "value": 102.0240637481732,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 102.01386134179651,
+        "max": 102.03426615454615
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0175",
+      "type": "capacitance_series",
+      "value": 4.7000001591554835e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995301591395676e-08,
+        "max": 4.700470159171398e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0175",
+      "type": "esr",
+      "value": 169.31491306601933,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 169.29798157471524,
+        "max": 169.33184455732842
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0176",
+      "type": "capacitance_series",
+      "value": 5.6000001782541065e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.5994401782362786e-08,
+        "max": 5.600560178271929e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0176",
+      "type": "esr",
+      "value": 142.1035301523771,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 142.08931979935446,
+        "max": 142.11774050538494
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0177",
+      "type": "capacitance_series",
+      "value": 6.800000216451411e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320216429768e-08,
+        "max": 6.800680216473059e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0177",
+      "type": "esr",
+      "value": 117.02643659606032,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 117.01473395240934,
+        "max": 117.03813923972855
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0178",
+      "type": "capacitance_series",
+      "value": 8.200000261014937e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.19918026098884e-08,
+        "max": 8.200820261041042e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0178",
+      "type": "esr",
+      "value": 97.04631327478384,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 97.03660864346146,
+        "max": 97.05601790611642
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0179",
+      "type": "capacitance_series",
+      "value": 1.0000000318310901e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900031827907e-08,
+        "max": 1.0001000318342732e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0179",
+      "type": "esr",
+      "value": 79.57797688532489,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 79.57001908763841,
+        "max": 79.58593468301548
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0180",
+      "type": "capacitance_series",
+      "value": 1.5000000334226902e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.499850033419348e-07,
+        "max": 1.5001500334260325e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0180",
+      "type": "esr",
+      "value": 37.136490711650765,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 37.1327770625771,
+        "max": 37.14020436071943
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0181",
+      "type": "capacitance_series",
+      "value": 1.800000040107229e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200401032178e-07,
+        "max": 1.800180040111239e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0181",
+      "type": "esr",
+      "value": 30.94707559304555,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 30.94398088548095,
+        "max": 30.950170300599556
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0182",
+      "type": "capacitance_series",
+      "value": 2.2000000490199456e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997800490150442e-07,
+        "max": 2.200220049024848e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0182",
+      "type": "esr",
+      "value": 25.320334576123333,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 25.317802542666172,
+        "max": 25.322866609581396
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0183",
+      "type": "capacitance_series",
+      "value": 3.300000735304238e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670735230707e-07,
+        "max": 3.300330735377768e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0183",
+      "type": "esr",
+      "value": 33.76090326703905,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.75752717671198,
+        "max": 33.76427935736539
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0184",
+      "type": "capacitance_series",
+      "value": 4.7000014960684904e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699531495918883e-07,
+        "max": 4.700471496218097e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0184",
+      "type": "esr",
+      "value": 33.86328740212468,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.859901073384236,
+        "max": 33.86667373086466
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0185",
+      "type": "capacitance_series",
+      "value": 6.800002164524624e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932216430817e-07,
+        "max": 6.800682164741075e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0185",
+      "type": "esr",
+      "value": 23.405507469115804,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 23.403166918368537,
+        "max": 23.40784801986236
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0186",
+      "type": "capacitance_series",
+      "value": 1.000000318312444e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999003182806132e-07,
+        "max": 1.0001003183442758e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0186",
+      "type": "esr",
+      "value": 15.915745078998238,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 15.914153504490574,
+        "max": 15.917336653506375
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0187",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0187",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0188",
+      "type": "capacitance_series",
+      "value": 1.2000079788689275e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998879780710405e-10,
+        "max": 1.200127979666814e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0188",
+      "type": "esr",
+      "value": 33333.07295052935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33329.739643232606,
+        "max": 33336.40625782272
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0189",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0189",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0190",
+      "type": "capacitance_series",
+      "value": 1.8000079718283368e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998279710311534e-10,
+        "max": 1.8001879726255192e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0190",
+      "type": "esr",
+      "value": 22182.983751457494,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 22180.76545308134,
+        "max": 22185.20204983163
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0191",
+      "type": "capacitance_series",
+      "value": 2.0000079704202186e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998079696231766e-10,
+        "max": 2.0002079712172605e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0191",
+      "type": "esr",
+      "value": 19957.65366940419,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 19955.657904040618,
+        "max": 19959.6494347745
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0192",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0192",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0193",
+      "type": "capacitance_series",
+      "value": 2.700007967134608e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997379663378955e-10,
+        "max": 2.700277967931322e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0193",
+      "type": "esr",
+      "value": 14771.293568075127,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14769.816438722359,
+        "max": 14772.770697435975
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0194",
+      "type": "capacitance_series",
+      "value": 3.000007966195863e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.999707965399244e-10,
+        "max": 3.0003079669924826e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0194",
+      "type": "esr",
+      "value": 13291.038995033912,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 13289.70989113573,
+        "max": 13292.368098934736
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0195",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0195",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0196",
+      "type": "capacitance_series",
+      "value": 3.6000079647877453e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.5996479639912666e-10,
+        "max": 3.600367965584224e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0196",
+      "type": "esr",
+      "value": 11071.959304569044,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 11070.852108642051,
+        "max": 11073.066500502966
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0197",
+      "type": "capacitance_series",
+      "value": 3.90000796424616e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899617963449736e-10,
+        "max": 3.9003979650425855e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0197",
+      "type": "esr",
+      "value": 10218.883194200567,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 10217.861305883009,
+        "max": 10219.905082521847
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0198",
+      "type": "capacitance_series",
+      "value": 4.3000079636416025e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.299577962845239e-10,
+        "max": 4.300437964437967e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0198",
+      "type": "esr",
+      "value": 9266.885222561335,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 9265.958534040548,
+        "max": 9267.811911085062
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0199",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0199",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0200",
+      "type": "capacitance_series",
+      "value": 5.000007962816381e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.999507962020099e-10,
+        "max": 5.000507963612662e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0200",
+      "type": "esr",
+      "value": 7967.872916193575,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7967.076128899567,
+        "max": 7968.669703482805
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0201",
+      "type": "capacitance_series",
+      "value": 5.60000796227325e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.59944796147702e-10,
+        "max": 5.600567963069475e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0201",
+      "type": "esr",
+      "value": 7113.20358524935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7112.492264889984,
+        "max": 7113.914905607034
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0202",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0202",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0203",
+      "type": "capacitance_series",
+      "value": 7.500007961126639e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.499257960330526e-10,
+        "max": 7.500757961922752e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0203",
+      "type": "esr",
+      "value": 5309.665111802638,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5309.134145291238,
+        "max": 5310.196078313598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0204",
+      "type": "capacitance_series",
+      "value": 8.200007960838144e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199187960042064e-10,
+        "max": 8.200827961634231e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0204",
+      "type": "esr",
+      "value": 4856.049637334775,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 4855.564032371097,
+        "max": 4856.535242298564
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0205",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0205",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0206",
+      "type": "capacitance_series",
+      "value": 1.2000007959859332e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998807959063347e-09,
+        "max": 1.2001207960655318e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0206",
+      "type": "esr",
+      "value": 3317.4859282531456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3317.154179660543,
+        "max": 3317.817676846193
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0207",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0207",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0208",
+      "type": "capacitance_series",
+      "value": 1.800000795915527e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998207958359353e-09,
+        "max": 1.8001807959951185e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0208",
+      "type": "esr",
+      "value": 2211.2666308340504,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2211.045504171251,
+        "max": 2211.487757497418
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0209",
+      "type": "capacitance_series",
+      "value": 2.0000007959014458e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998007958218565e-09,
+        "max": 2.0002007959810367e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0209",
+      "type": "esr",
+      "value": 1990.069649882624,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1989.8706429176837,
+        "max": 1990.2686568476602
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0210",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0210",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0211",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0211",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0212",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0212",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0213",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0213",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0214",
+      "type": "capacitance_series",
+      "value": 4.2000007958350635e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.19958079575548e-09,
+        "max": 4.200420795914647e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0214",
+      "type": "esr",
+      "value": 947.494357731079,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 947.3996082953371,
+        "max": 947.5891071668833
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0215",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0215",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0216",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0216",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0217",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0217",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0218",
+      "type": "capacitance_series",
+      "value": 8.200000795805626e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199180795726046e-09,
+        "max": 8.200820795885206e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0218",
+      "type": "esr",
+      "value": 485.26613295538755,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 485.21760634205003,
+        "max": 485.31465956864105
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0219",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0219",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0220",
+      "type": "capacitance_series",
+      "value": 1.2000001591570592e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998801591411435e-08,
+        "max": 1.2001201591729748e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0220",
+      "type": "esr",
+      "value": 663.1631427197951,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 663.0968264055255,
+        "max": 663.2294590340694
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0221",
+      "type": "capacitance_series",
+      "value": 1.5000001591566367e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998501591407202e-08,
+        "max": 1.5001501591725518e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0221",
+      "type": "esr",
+      "value": 530.5277067357426,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 530.4746539650406,
+        "max": 530.5807595063878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0222",
+      "type": "capacitance_series",
+      "value": 1.800000159156354e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998201591404377e-08,
+        "max": 1.8001801591722692e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0222",
+      "type": "esr",
+      "value": 442.10486259072417,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 442.06065210444245,
+        "max": 442.14907307696063
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0223",
+      "type": "capacitance_series",
+      "value": 2.000000079578739e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9998000795707814e-08,
+        "max": 2.000200079586697e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0223",
+      "type": "esr",
+      "value": 198.95000748059945,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 198.93011247986195,
+        "max": 198.96990248135805
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0224",
+      "type": "capacitance_series",
+      "value": 2.2000001591560973e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997801591401824e-08,
+        "max": 2.2002201591720136e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0224",
+      "type": "esr",
+      "value": 361.7210002021334,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 361.6848281021027,
+        "max": 361.75717230214315
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0225",
+      "type": "capacitance_series",
+      "value": 2.7000000795784102e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997300795704524e-08,
+        "max": 2.700270079586368e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0225",
+      "type": "esr",
+      "value": 147.36916053957106,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 147.35442362354112,
+        "max": 147.38389745564902
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0226",
+      "type": "capacitance_series",
+      "value": 3.300000159155711e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670159139796e-08,
+        "max": 3.3003301591716274e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0226",
+      "type": "esr",
+      "value": 241.14617336863805,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 241.12205875131409,
+        "max": 241.1702879859878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0227",
+      "type": "capacitance_series",
+      "value": 3.9000001591555934e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610159139678e-08,
+        "max": 3.900390159171509e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0227",
+      "type": "esr",
+      "value": 204.04646004341538,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 204.0260553974261,
+        "max": 204.0668646894348
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0228",
+      "type": "capacitance_series",
+      "value": 4.7000001591554835e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995301591395676e-08,
+        "max": 4.700470159171398e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0228",
+      "type": "esr",
+      "value": 169.31491306601933,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 169.29798157471524,
+        "max": 169.33184455732842
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0229",
+      "type": "capacitance_series",
+      "value": 5.6000001782541065e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.5994401782362786e-08,
+        "max": 5.600560178271929e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0229",
+      "type": "esr",
+      "value": 142.1035301523771,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 142.08931979935446,
+        "max": 142.11774050538494
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0230",
+      "type": "capacitance_series",
+      "value": 6.800000216451411e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320216429768e-08,
+        "max": 6.800680216473059e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0230",
+      "type": "esr",
+      "value": 117.02643659606032,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 117.01473395240934,
+        "max": 117.03813923972855
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0231",
+      "type": "capacitance_series",
+      "value": 8.200000261014937e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.19918026098884e-08,
+        "max": 8.200820261041042e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0231",
+      "type": "esr",
+      "value": 97.04631327478384,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 97.03660864346146,
+        "max": 97.05601790611642
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0232",
+      "type": "capacitance_series",
+      "value": 1.0000000318310901e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900031827907e-08,
+        "max": 1.0001000318342732e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0232",
+      "type": "esr",
+      "value": 79.57797688532489,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 79.57001908763841,
+        "max": 79.58593468301548
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0233",
+      "type": "capacitance_series",
+      "value": 1.2000000267381524e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.1998800267354785e-07,
+        "max": 1.2001200267408262e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0233",
+      "type": "esr",
+      "value": 46.420613389562234,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 46.41597132822134,
+        "max": 46.42525545089925
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0234",
+      "type": "capacitance_series",
+      "value": 1.5000000334226902e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.499850033419348e-07,
+        "max": 1.5001500334260325e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0234",
+      "type": "esr",
+      "value": 37.136490711650765,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 37.1327770625771,
+        "max": 37.14020436071943
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0235",
+      "type": "capacitance_series",
+      "value": 1.800000040107229e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.7998200401032178e-07,
+        "max": 1.800180040111239e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0235",
+      "type": "esr",
+      "value": 30.94707559304555,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 30.94398088548095,
+        "max": 30.950170300599556
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0236",
+      "type": "capacitance_series",
+      "value": 2.2000000490199456e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997800490150442e-07,
+        "max": 2.200220049024848e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0236",
+      "type": "esr",
+      "value": 25.320334576123333,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 25.317802542666172,
+        "max": 25.322866609581396
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0237",
+      "type": "capacitance_series",
+      "value": 2.7000001203214114e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997301203093793e-07,
+        "max": 2.7002701203334436e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0237",
+      "type": "esr",
+      "value": 41.262579365867,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 41.258453107930926,
+        "max": 41.26670562380409
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0238",
+      "type": "capacitance_series",
+      "value": 3.300000735304238e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670735230707e-07,
+        "max": 3.300330735377768e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0238",
+      "type": "esr",
+      "value": 33.76090326703905,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.75752717671198,
+        "max": 33.76427935736539
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0239",
+      "type": "capacitance_series",
+      "value": 3.900000173797597e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610173780216e-07,
+        "max": 3.9003901738149755e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0239",
+      "type": "esr",
+      "value": 28.566401099446946,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 28.56354445933681,
+        "max": 28.569257739556697
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0240",
+      "type": "capacitance_series",
+      "value": 4.7000014960684904e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699531495918883e-07,
+        "max": 4.700471496218097e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0240",
+      "type": "esr",
+      "value": 33.86328740212468,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.859901073384236,
+        "max": 33.86667373086466
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0241",
+      "type": "capacitance_series",
+      "value": 5.600001247789008e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599441247664229e-07,
+        "max": 5.600561247913788e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0241",
+      "type": "esr",
+      "value": 19.894817996647422,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 19.8928285148481,
+        "max": 19.896807478447432
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0242",
+      "type": "capacitance_series",
+      "value": 6.800002164524624e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932216430817e-07,
+        "max": 6.800682164741075e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0242",
+      "type": "esr",
+      "value": 23.405507469115804,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 23.403166918368537,
+        "max": 23.40784801986236
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0243",
+      "type": "capacitance_series",
+      "value": 8.200001827119618e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199181826936906e-07,
+        "max": 8.20082182730233e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0243",
+      "type": "esr",
+      "value": 13.58670497332026,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 13.585346302823151,
+        "max": 13.588063643817815
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0244",
+      "type": "capacitance_series",
+      "value": 1.000000318312444e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999003182806132e-07,
+        "max": 1.0001003183442758e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0244",
+      "type": "esr",
+      "value": 15.915745078998238,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 15.914153504490574,
+        "max": 15.917336653506375
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0245",
+      "type": "capacitance_series",
+      "value": 2.2000014005860135e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997814004459543e-06,
+        "max": 2.200221400726072e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0245",
+      "type": "esr",
+      "value": 7.234543567530283,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.233820113173427,
+        "max": 7.235267021886933
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0246",
+      "type": "capacitance_series",
+      "value": 1.0000079830932821e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999079822949727e-11,
+        "max": 1.0001079838915915e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0246",
+      "type": "esr",
+      "value": 40041.87738838024,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 40037.87320064787,
+        "max": 40045.88157612554
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0247",
+      "type": "capacitance_series",
+      "value": 1.500007974644573e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998579738471083e-10,
+        "max": 1.5001579754420371e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0247",
+      "type": "esr",
+      "value": 26638.331682701388,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 26635.667849531827,
+        "max": 26640.995515868366
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0248",
+      "type": "capacitance_series",
+      "value": 2.200007969268122e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997879684711947e-10,
+        "max": 2.2002279700650483e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0248",
+      "type": "esr",
+      "value": 18138.09131610133,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 18136.27750696538,
+        "max": 18139.9051252286
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0249",
+      "type": "capacitance_series",
+      "value": 2.700007967134608e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.6997379663378955e-10,
+        "max": 2.700277967931322e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0249",
+      "type": "esr",
+      "value": 14771.293568075127,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 14769.816438722359,
+        "max": 14772.770697435975
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0250",
+      "type": "capacitance_series",
+      "value": 3.300007965427799e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996779646312555e-10,
+        "max": 3.3003379662243407e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0250",
+      "type": "esr",
+      "value": 12080.43817988456,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 12079.230136066035,
+        "max": 12081.646223702013
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0251",
+      "type": "capacitance_series",
+      "value": 4.700007963139947e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699537962343634e-10,
+        "max": 4.700477963936263e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0251",
+      "type": "esr",
+      "value": 8477.148127398657,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 8476.300412587118,
+        "max": 8477.995842212598
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0252",
+      "type": "capacitance_series",
+      "value": 5.60000796227325e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.59944796147702e-10,
+        "max": 5.600567963069475e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0252",
+      "type": "esr",
+      "value": 7113.20358524935,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7112.492264889984,
+        "max": 7113.914905607034
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0253",
+      "type": "capacitance_series",
+      "value": 6.800007961474529e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932796067838e-10,
+        "max": 6.800687962270676e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0253",
+      "type": "esr",
+      "value": 5856.759244297506,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 5856.1735683724655,
+        "max": 5857.344920221325
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0254",
+      "type": "capacitance_series",
+      "value": 8.200007960838144e-10,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 8.199187960042064e-10,
+        "max": 8.200827961634231e-10
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0254",
+      "type": "esr",
+      "value": 4856.049637334775,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 4855.564032371097,
+        "max": 4856.535242298564
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0255",
+      "type": "capacitance_series",
+      "value": 1.0000007960281762e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900795948574e-10,
+        "max": 1.0001007961077795e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0255",
+      "type": "esr",
+      "value": 3981.405020720316,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 3981.006880219281,
+        "max": 3981.8031612234254
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0256",
+      "type": "capacitance_series",
+      "value": 1.5000007959436895e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998507958640955e-09,
+        "max": 1.500150796023284e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0256",
+      "type": "esr",
+      "value": 2653.707471278859,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 2653.442100532005,
+        "max": 2653.9728420262604
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0257",
+      "type": "capacitance_series",
+      "value": 2.200000795889925e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997807958103354e-09,
+        "max": 2.2002207959695136e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0257",
+      "type": "esr",
+      "value": 1809.1019246132491,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1808.9210144206827,
+        "max": 1809.2828348056055
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0258",
+      "type": "capacitance_series",
+      "value": 2.7000007958685906e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.699730795789004e-09,
+        "max": 2.7002707959481774e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0258",
+      "type": "esr",
+      "value": 1474.0041294969972,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1473.856729083728,
+        "max": 1474.1515299096275
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0259",
+      "type": "capacitance_series",
+      "value": 3.3000007958515226e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.2996707957719373e-09,
+        "max": 3.300330795931108e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0259",
+      "type": "esr",
+      "value": 1205.9517218195167,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1205.8311266471753,
+        "max": 1206.0723169915393
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0260",
+      "type": "capacitance_series",
+      "value": 3.9000007958397055e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610795760121e-09,
+        "max": 3.90039079591929e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0260",
+      "type": "esr",
+      "value": 1020.3904271619542,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 1020.2883881191681,
+        "max": 1020.4924662046005
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0261",
+      "type": "capacitance_series",
+      "value": 4.7000007958286425e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.69953079574906e-09,
+        "max": 4.7004707959082265e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0261",
+      "type": "esr",
+      "value": 846.6834431462454,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 846.5987748019986,
+        "max": 846.7681114906279
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0262",
+      "type": "capacitance_series",
+      "value": 5.6000007958199775e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 5.599440795740393e-09,
+        "max": 5.600560795899557e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0262",
+      "type": "esr",
+      "value": 710.5938609302312,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 710.522801544171,
+        "max": 710.664920316357
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0263",
+      "type": "capacitance_series",
+      "value": 6.80000079581199e-09,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320795732407e-09,
+        "max": 6.80068079589157e-09
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0263",
+      "type": "esr",
+      "value": 585.1832130542492,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 585.1246947328727,
+        "max": 585.2417313754836
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0264",
+      "type": "capacitance_series",
+      "value": 1.0000000795800062e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999000795720483e-09,
+        "max": 1.0001000795879641e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0264",
+      "type": "esr",
+      "value": 397.9126721912287,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 397.8728809239714,
+        "max": 397.9524634584097
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0265",
+      "type": "capacitance_series",
+      "value": 1.5000001591566367e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.4998501591407202e-08,
+        "max": 1.5001501591725518e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0265",
+      "type": "esr",
+      "value": 530.5277067357426,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 530.4746539650406,
+        "max": 530.5807595063878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0266",
+      "type": "capacitance_series",
+      "value": 2.2000001591560973e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997801591401824e-08,
+        "max": 2.2002201591720136e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0266",
+      "type": "esr",
+      "value": 361.7210002021334,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 361.6848281021027,
+        "max": 361.75717230214315
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0267",
+      "type": "capacitance_series",
+      "value": 3.300000159155711e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670159139796e-08,
+        "max": 3.3003301591716274e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0267",
+      "type": "esr",
+      "value": 241.14617336863805,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 241.12205875131409,
+        "max": 241.1702879859878
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0268",
+      "type": "capacitance_series",
+      "value": 3.90000011140911e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.899610111397969e-08,
+        "max": 3.900390111420251e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0268",
+      "type": "esr",
+      "value": 142.83302251607185,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 142.81873921382862,
+        "max": 142.84730581833185
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0269",
+      "type": "capacitance_series",
+      "value": 4.7000001591554835e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.6995301591395676e-08,
+        "max": 4.700470159171398e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0269",
+      "type": "esr",
+      "value": 169.31491306601933,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 169.29798157471524,
+        "max": 169.33184455732842
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0270",
+      "type": "capacitance_series",
+      "value": 6.800000216451411e-08,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.799320216429768e-08,
+        "max": 6.800680216473059e-08
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0270",
+      "type": "esr",
+      "value": 117.02643659606032,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 117.01473395240934,
+        "max": 117.03813923972855
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0271",
+      "type": "capacitance_series",
+      "value": 1.0000000318310901e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.99900031827907e-08,
+        "max": 1.0001000318342732e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0271",
+      "type": "esr",
+      "value": 79.57797688532489,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 79.57001908763841,
+        "max": 79.58593468301548
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0272",
+      "type": "capacitance_series",
+      "value": 1.5000000334226902e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.499850033419348e-07,
+        "max": 1.5001500334260325e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0272",
+      "type": "esr",
+      "value": 37.136490711650765,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 37.1327770625771,
+        "max": 37.14020436071943
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0273",
+      "type": "capacitance_series",
+      "value": 2.2000000490199456e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997800490150442e-07,
+        "max": 2.200220049024848e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0273",
+      "type": "esr",
+      "value": 25.320334576123333,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 25.317802542666172,
+        "max": 25.322866609581396
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0274",
+      "type": "capacitance_series",
+      "value": 3.300000735304238e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.299670735230707e-07,
+        "max": 3.300330735377768e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0274",
+      "type": "esr",
+      "value": 33.76090326703905,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.75752717671198,
+        "max": 33.76427935736539
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0275",
+      "type": "capacitance_series",
+      "value": 4.7000014960684904e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 4.699531495918883e-07,
+        "max": 4.700471496218097e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0275",
+      "type": "esr",
+      "value": 33.86328740212468,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 33.859901073384236,
+        "max": 33.86667373086466
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0276",
+      "type": "capacitance_series",
+      "value": 6.800002164524624e-07,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 6.79932216430817e-07,
+        "max": 6.800682164741075e-07
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0276",
+      "type": "esr",
+      "value": 23.405507469115804,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 23.403166918368537,
+        "max": 23.40784801986236
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0277",
+      "type": "capacitance_series",
+      "value": 1.000000318312444e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 9.999003182806132e-07,
+        "max": 1.0001003183442758e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0277",
+      "type": "esr",
+      "value": 15.915745078998238,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 15.914153504490574,
+        "max": 15.917336653506375
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "capacitance_series_C0278",
+      "type": "capacitance_series",
+      "value": 2.2000014005860135e-06,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1997814004459543e-06,
+        "max": 2.200221400726072e-06
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    },
+    {
+      "id": "esr_C0278",
+      "type": "esr",
+      "value": 7.234543567530283,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 7.233820113173427,
+        "max": 7.235267021886933
+      },
+      "run_id": "56a6f013840947dfa506c018e80ee848"
+    }
+  ]
+}

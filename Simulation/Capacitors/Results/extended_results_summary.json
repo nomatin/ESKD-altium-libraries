@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "test": "extended_capacitors_equivalent.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 552,
+      "measurement_statuses": {
+        "PASS": 552,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    }
+  ]
+}

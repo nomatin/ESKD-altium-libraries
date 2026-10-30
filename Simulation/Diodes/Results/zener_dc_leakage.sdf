@@ -1,0 +1,3024 @@
+SDF: 1.0
+TotalPoints: 364
+#ChartSetupsBegin
+Chart: DC Sweep
+ChartId: WXFAYSFE
+ChartView: 4
+ChartTitle: 
+ChartBackgroundColor: 3881787
+ChartForegroundColor: 13421772
+ChartGridColor: 5789784
+ChartXDivisions: 5
+ChartXOffset: 0.00000000000000E+000
+ChartXDivSize: 1.00000000000000E-001
+ChartXMin: 5.00000000000000E-001
+ChartXMax: 1.00000000000000E+000
+ChartAutoXMin: TRUE
+ChartAutoXMax: TRUE
+ChartAutoXDiv TRUE
+ChartUseXDefaults: FALSE
+ChartXDataType: 0
+ChartPrimaryYDataType: 0
+ChartXScaleMode: 0
+ChartXScaleLogBase: 10
+ChartYScaleMode: 0
+ChartBoldWaves: FALSE
+ChartHighlightSimilarWaves: TRUE
+ChartShowDataPoints: FALSE
+ChartShowWaveSymbols: FALSE
+ChartShowChartTitle: TRUE
+ChartShowPlotTitle: TRUE
+ChartShowAxisLabels: TRUE
+ChartZoomPlotsSeparately: TRUE
+ChartFFTLength: 128
+ChartDisplayMeasurements: FALSE
+ChartCursorDisplay_AcRms: FALSE
+ChartCursorDisplay_Average: FALSE
+ChartCursorDisplay_BminusA: FALSE
+ChartCursorDisplay_Frequency: FALSE
+ChartCursorDisplay_Maximum: FALSE
+ChartCursorDisplay_Minimum: FALSE
+ChartCursorDisplay_RMS: FALSE
+ChartCursorDisplay_XY: TRUE
+ChartFourier: FALSE
+ChartTable: FALSE
+ChartType: XY Scatter
+ChartXUnitStr: V
+ChartXLabel: 
+ChartRelatedChartId: 
+ChartDeltaItem: 0
+Cell: 0
+CellHeight: 520
+CellIsScaled: TRUE
+CellIsDigital: FALSE
+CellIsPartial: FALSE
+CellTitle 
+CellXGrid: TRUE
+CellYGrid: TRUE
+CellMinorGrid: TRUE
+CellGridStyle: 0
+CellAxisDivisions: 8
+CellAxisLabel: 
+CellAxisUnits: 
+CellAxisAutoMin: TRUE
+CellAxisAutoMax: TRUE
+CellAxisAutoDiv: TRUE
+CellAxisAutoUnits: TRUE
+CellAxisDivSize: 5.00000000000000E-006
+CellAxisOffset: -2.00000000000000E-005
+CellAxisScaleMode: 0
+CellAxisLogScaleBase: 10
+WaveName: I(VSVD0055)
+WaveEq: I(VSVD0055)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0056)
+WaveEq: I(VSVD0056)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0057)
+WaveEq: I(VSVD0057)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0058)
+WaveEq: I(VSVD0058)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0059)
+WaveEq: I(VSVD0059)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0060)
+WaveEq: I(VSVD0060)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0061)
+WaveEq: I(VSVD0061)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0062)
+WaveEq: I(VSVD0062)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0063)
+WaveEq: I(VSVD0063)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0064)
+WaveEq: I(VSVD0064)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0065)
+WaveEq: I(VSVD0065)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0066)
+WaveEq: I(VSVD0066)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0067)
+WaveEq: I(VSVD0067)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0068)
+WaveEq: I(VSVD0068)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0069)
+WaveEq: I(VSVD0069)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0070)
+WaveEq: I(VSVD0070)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0071)
+WaveEq: I(VSVD0071)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0072)
+WaveEq: I(VSVD0072)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0073)
+WaveEq: I(VSVD0073)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0074)
+WaveEq: I(VSVD0074)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0075)
+WaveEq: I(VSVD0075)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0076)
+WaveEq: I(VSVD0076)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0077)
+WaveEq: I(VSVD0077)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0078)
+WaveEq: I(VSVD0078)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0079)
+WaveEq: I(VSVD0079)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0080)
+WaveEq: I(VSVD0080)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0081)
+WaveEq: I(VSVD0081)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0082)
+WaveEq: I(VSVD0082)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0083)
+WaveEq: I(VSVD0083)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0084)
+WaveEq: I(VSVD0084)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0085)
+WaveEq: I(VSVD0085)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0086)
+WaveEq: I(VSVD0086)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0087)
+WaveEq: I(VSVD0087)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0088)
+WaveEq: I(VSVD0088)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0089)
+WaveEq: I(VSVD0089)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0090)
+WaveEq: I(VSVD0090)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0091)
+WaveEq: I(VSVD0091)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0092)
+WaveEq: I(VSVD0092)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0093)
+WaveEq: I(VSVD0093)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0094)
+WaveEq: I(VSVD0094)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0095)
+WaveEq: I(VSVD0095)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0096)
+WaveEq: I(VSVD0096)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0097)
+WaveEq: I(VSVD0097)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0098)
+WaveEq: I(VSVD0098)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0099)
+WaveEq: I(VSVD0099)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0100)
+WaveEq: I(VSVD0100)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0101)
+WaveEq: I(VSVD0101)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0102)
+WaveEq: I(VSVD0102)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0103)
+WaveEq: I(VSVD0103)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0104)
+WaveEq: I(VSVD0104)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0105)
+WaveEq: I(VSVD0105)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0106)
+WaveEq: I(VSVD0106)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0107)
+WaveEq: I(VSVD0107)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0108)
+WaveEq: I(VSVD0108)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0109)
+WaveEq: I(VSVD0109)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0110)
+WaveEq: I(VSVD0110)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0111)
+WaveEq: I(VSVD0111)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0112)
+WaveEq: I(VSVD0112)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0113)
+WaveEq: I(VSVD0113)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0114)
+WaveEq: I(VSVD0114)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0115)
+WaveEq: I(VSVD0115)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0116)
+WaveEq: I(VSVD0116)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0117)
+WaveEq: I(VSVD0117)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0118)
+WaveEq: I(VSVD0118)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0119)
+WaveEq: I(VSVD0119)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0120)
+WaveEq: I(VSVD0120)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0121)
+WaveEq: I(VSVD0121)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0122)
+WaveEq: I(VSVD0122)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0123)
+WaveEq: I(VSVD0123)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0124)
+WaveEq: I(VSVD0124)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0125)
+WaveEq: I(VSVD0125)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0126)
+WaveEq: I(VSVD0126)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0127)
+WaveEq: I(VSVD0127)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0128)
+WaveEq: I(VSVD0128)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0129)
+WaveEq: I(VSVD0129)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0130)
+WaveEq: I(VSVD0130)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0131)
+WaveEq: I(VSVD0131)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0132)
+WaveEq: I(VSVD0132)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0133)
+WaveEq: I(VSVD0133)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0134)
+WaveEq: I(VSVD0134)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0135)
+WaveEq: I(VSVD0135)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0136)
+WaveEq: I(VSVD0136)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0137)
+WaveEq: I(VSVD0137)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0138)
+WaveEq: I(VSVD0138)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0139)
+WaveEq: I(VSVD0139)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0140)
+WaveEq: I(VSVD0140)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0141)
+WaveEq: I(VSVD0141)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0142)
+WaveEq: I(VSVD0142)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0143)
+WaveEq: I(VSVD0143)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0144)
+WaveEq: I(VSVD0144)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0145)
+WaveEq: I(VSVD0145)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0146)
+WaveEq: I(VSVD0146)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0147)
+WaveEq: I(VSVD0147)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0148)
+WaveEq: I(VSVD0148)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0149)
+WaveEq: I(VSVD0149)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0150)
+WaveEq: I(VSVD0150)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0151)
+WaveEq: I(VSVD0151)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0152)
+WaveEq: I(VSVD0152)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0153)
+WaveEq: I(VSVD0153)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0154)
+WaveEq: I(VSVD0154)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0155)
+WaveEq: I(VSVD0155)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0156)
+WaveEq: I(VSVD0156)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0157)
+WaveEq: I(VSVD0157)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0158)
+WaveEq: I(VSVD0158)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0159)
+WaveEq: I(VSVD0159)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0160)
+WaveEq: I(VSVD0160)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0161)
+WaveEq: I(VSVD0161)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0162)
+WaveEq: I(VSVD0162)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0163)
+WaveEq: I(VSVD0163)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0164)
+WaveEq: I(VSVD0164)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0165)
+WaveEq: I(VSVD0165)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0166)
+WaveEq: I(VSVD0166)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0167)
+WaveEq: I(VSVD0167)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0168)
+WaveEq: I(VSVD0168)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0169)
+WaveEq: I(VSVD0169)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0170)
+WaveEq: I(VSVD0170)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0171)
+WaveEq: I(VSVD0171)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0172)
+WaveEq: I(VSVD0172)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0173)
+WaveEq: I(VSVD0173)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0174)
+WaveEq: I(VSVD0174)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0175)
+WaveEq: I(VSVD0175)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0176)
+WaveEq: I(VSVD0176)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0177)
+WaveEq: I(VSVD0177)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0178)
+WaveEq: I(VSVD0178)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0179)
+WaveEq: I(VSVD0179)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0180)
+WaveEq: I(VSVD0180)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0181)
+WaveEq: I(VSVD0181)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0182)
+WaveEq: I(VSVD0182)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0183)
+WaveEq: I(VSVD0183)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0184)
+WaveEq: I(VSVD0184)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0185)
+WaveEq: I(VSVD0185)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0186)
+WaveEq: I(VSVD0186)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0187)
+WaveEq: I(VSVD0187)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0188)
+WaveEq: I(VSVD0188)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0189)
+WaveEq: I(VSVD0189)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0190)
+WaveEq: I(VSVD0190)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0191)
+WaveEq: I(VSVD0191)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0192)
+WaveEq: I(VSVD0192)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0193)
+WaveEq: I(VSVD0193)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0194)
+WaveEq: I(VSVD0194)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0195)
+WaveEq: I(VSVD0195)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0196)
+WaveEq: I(VSVD0196)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0197)
+WaveEq: I(VSVD0197)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0198)
+WaveEq: I(VSVD0198)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0199)
+WaveEq: I(VSVD0199)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0200)
+WaveEq: I(VSVD0200)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0201)
+WaveEq: I(VSVD0201)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0202)
+WaveEq: I(VSVD0202)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0203)
+WaveEq: I(VSVD0203)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0204)
+WaveEq: I(VSVD0204)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0205)
+WaveEq: I(VSVD0205)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0206)
+WaveEq: I(VSVD0206)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0207)
+WaveEq: I(VSVD0207)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0208)
+WaveEq: I(VSVD0208)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0209)
+WaveEq: I(VSVD0209)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0210)
+WaveEq: I(VSVD0210)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0211)
+WaveEq: I(VSVD0211)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0212)
+WaveEq: I(VSVD0212)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0213)
+WaveEq: I(VSVD0213)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0214)
+WaveEq: I(VSVD0214)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0215)
+WaveEq: I(VSVD0215)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0216)
+WaveEq: I(VSVD0216)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0217)
+WaveEq: I(VSVD0217)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0218)
+WaveEq: I(VSVD0218)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0219)
+WaveEq: I(VSVD0219)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0220)
+WaveEq: I(VSVD0220)
+WaveColor: 14384603
+WaveYUnitStr: 
+WaveName: I(VSVD0221)
+WaveEq: I(VSVD0221)
+WaveColor: 8635576
+WaveYUnitStr: 
+WaveName: I(VSVD0222)
+WaveEq: I(VSVD0222)
+WaveColor: 15247697
+WaveYUnitStr: 
+WaveName: I(VSVD0223)
+WaveEq: I(VSVD0223)
+WaveColor: 9869036
+WaveYUnitStr: 
+WaveName: I(VSVD0224)
+WaveEq: I(VSVD0224)
+WaveColor: 9552971
+WaveYUnitStr: 
+WaveName: I(VSVD0225)
+WaveEq: I(VSVD0225)
+WaveColor: 8165537
+WaveYUnitStr: 
+WaveName: I(VSVD0226)
+WaveEq: I(VSVD0226)
+WaveColor: 5793220
+WaveYUnitStr: 
+WaveName: I(VSVD0227)
+WaveEq: I(VSVD0227)
+WaveColor: 14580346
+WaveYUnitStr: 
+WaveName: I(VSVD0228)
+WaveEq: I(VSVD0228)
+WaveColor: 6403425
+WaveYUnitStr: 
+WaveName: I(VSVD0229)
+WaveEq: I(VSVD0229)
+WaveColor: 12410045
+WaveYUnitStr: 
+WaveName: I(VSVD0230)
+WaveEq: I(VSVD0230)
+WaveColor: 4957091
+WaveYUnitStr: 
+WaveName: I(VSVD0231)
+WaveEq: I(VSVD0231)
+WaveColor: 12237390
+WaveYUnitStr: 
+WaveName: I(VSVD0232)
+WaveEq: I(VSVD0232)
+WaveColor: 4210895
+WaveYUnitStr: 
+WaveName: I(VSVD0233)
+WaveEq: I(VSVD0233)
+WaveColor: 15762595
+WaveYUnitStr: 
+WaveName: I(VSVD0234)
+WaveEq: I(VSVD0234)
+WaveColor: 5744692
+WaveYUnitStr: 
+WaveName: I(VSVD0235)
+WaveEq: I(VSVD0235)
+WaveColor: 14384603
+WaveYUnitStr: 
+CellSelectedAxis: 0
+CellXAxisDivisions: 5
+CellXAxisLabel: 
+CellXAxisUnits: V
+CellXAxisAutoMin: TRUE
+CellXAxisAutoMax: TRUE
+CellXAxisAutoDiv: TRUE
+CellXAxisAutoLabel TRUE
+CellXAxisAutoUnits: TRUE
+CellXAxisDivSize: 1.00000000000000E-001
+CellXAxisOffset: 0.00000000000000E+000
+CellXAxisMin: 5.00000000000000E-001
+CellXAxisMax: 1.00000000000000E+000
+CellXAxisScaleMode: 0
+CellXAxisLogScaleBase: 10
+CellXAxisZoomOffset: 0.00000000000000E+000
+CellXAxisZoomRange: 5.00000000000000E-001
+ChartCursorAXPos: 0
+ChartCursorAYPos: 0
+ChartCursorAXVal: 0.00000000000000E+000
+ChartCursorAYVal: 0.00000000000000E+000
+ChartCursorBXPos: 0
+ChartCursorBYPos: 0
+ChartCursorBXVal: 0.00000000000000E+000
+ChartCursorBYVal: 0.00000000000000E+000
+ChartActiveCellIndex: 0
+ChartTopCellIndex: 0
+ActiveChartName: DC Sweep
+FilteredWavesBlend: 80
+#ChartSetupsEnd
+Chart: DC Sweep
+ChartId: WXFAYSFE
+ChartShow: TRUE
+ChartXMinReal: 5.00000000000000E-001
+ChartXMaxReal: 1.00000000000000E+000
+Wave: i(vsvd0055)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?!•±e"İ>      ğ?hØ’´‘?
+WaveDataStart
+   ?)é6  €?¥$8
+Wave: i(vsvd0056)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à? ôŠ1)³Æ>      ğ?p¤>Œ=\ï>
+WaveDataStart
+   ?J™56  €?ìáz7
+Wave: i(vsvd0057)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?4”óC‘·>      ğ?ôAEÏy<Ş>
+WaveDataStart
+   ?Š¼5  €?Îãñ6
+Wave: i(vsvd0058)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?GhæÇ ¨>      ğ?ÜøÁÄ'Í>
+WaveDataStart
+   ? @5  €?68i6
+Wave: i(vsvd0059)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Z–ë=qÍ¬>      ğ?¼¼µÄ'Í>
+WaveDataStart
+   ?Škf5  €?68i6
+Wave: i(vsvd0060)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¸‘•DF¸¡>      ğ?=åë÷Á>
+WaveDataStart
+   ?2Â5  €?¹76
+Wave: i(vsvd0061)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ôÑ ¡qÜ¤>      ğ?Ä¢â÷Á>
+WaveDataStart
+   ?ã&5  €?¹76
+Wave: i(vsvd0062)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?pUÎëF6~>      ğ?¶÷Á>
+WaveDataStart
+   ?7²ñ3  €?½76
+Wave: i(vsvd0063)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?JA=ÖF(>      ğ?€é(:¡Vy>
+WaveDataStart
+   ?²6B1  €?
+µÊ3
+Wave: i(vsvd0064)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?à)	4]ñ=      ğ?´²3œ¦#ñ=
+WaveDataStart
+   ?êŠˆ/  €?5‰/
+Wave: i(vsvd0065)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0066)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0067)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0068)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0069)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?„¨P5ñ=      ğ?õüxjñ=
+WaveDataStart
+   ?ª‰/  €?ìP‹/
+Wave: i(vsvd0070)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?g£Ì«>ñ=      ğ?©¹jµ{ñ=
+WaveDataStart
+   ?õğ‰/  €?«İ‹/
+Wave: i(vsvd0071)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0072)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0073)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0074)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?³ANë\ñ=      ğ?O¸nH¹ñ=
+WaveDataStart
+   ?ZçŠ/  €?CÊ/
+Wave: i(vsvd0075)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ğûĞcñ=      ğ?ù¸®û˜Åñ=
+WaveDataStart
+   ?Ÿ‹/  €?È,/
+Wave: i(vsvd0076)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?AŸJ­doñ=      ğ?¦™Ï:Şñ=
+WaveDataStart
+   ?%{‹/  €?Ññ/
+Wave: i(vsvd0077)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?©¹jµ{ñ=      ğ?$÷!Ûöñ=
+WaveDataStart
+   ?«İ‹/  €?Ù¶/
+Wave: i(vsvd0078)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?-×~ˆñ=      ğ?*9É0|ò=
+WaveDataStart
+   ?1@Œ/  €?â{/
+Wave: i(vsvd0079)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?şUº´V”ñ=      ğ?F5*>(ò=
+WaveDataStart
+   ?¶¢Œ/  €?ê@‘/
+Wave: i(vsvd0080)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÿo–Ï¦ñ=      ğ?L—ĞMò=
+WaveDataStart
+   ?}6/  €?wh’/
+Wave: i(vsvd0081)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?O¸nH¹ñ=      ğ?Ú‘Öa rò=
+WaveDataStart
+   ?CÊ/  €?“/
+Wave: i(vsvd0082)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?3lyAÁËñ=      ğ?<eòñ–ò=
+WaveDataStart
+   ?
+^/  €?·”/
+Wave: i(vsvd0083)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¦™Ï:Şñ=      ğ?P'†‚ã»ò=
+WaveDataStart
+   ?Ññ/  €?ß•/
+Wave: i(vsvd0084)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ö:ñİ²ğñ=      ğ?Ú­`Õàò=
+WaveDataStart
+   ?—…/  €?©—/
+Wave: i(vsvd0085)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?*>íS	ò=      ğ?«`='ó=
+WaveDataStart
+   ?ŸJ/  €?¹˜/
+Wave: i(vsvd0086)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´Gìúô!ò=      ğ?ƒ@æ;YCó=
+WaveDataStart
+   ?¨‘/  €?Êš/
+Wave: i(vsvd0087)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ë³‘–:ò=      ğ?‹nP›tó=
+WaveDataStart
+   ?°Ô‘/  €?Û¤›/
+Wave: i(vsvd0088)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?U£pV_Yò=      ğ?&Ãùé-²ó=
+WaveDataStart
+   ?ûÊ’/  €?o‘/
+Wave: i(vsvd0089)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÎêjçP~ò=      ğ?Ş°…üó=
+WaveDataStart
+   ?‡ò“/  €?ˆàŸ/
+Wave: i(vsvd0090)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?=ÏwB£ò=      ğ?ïßş&ôEô=
+WaveDataStart
+   ?•/  €?¡/¢/
+Wave: i(vsvd0091)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?HƒzJ\Îò=      ğ?¢³}Ê'œô=
+WaveDataStart
+   ?âr–/  €?>á¤/
+Wave: i(vsvd0092)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?!•±e"İ>      ğ?hØ’´‘?
+WaveDataStart
+   ?)é6  €?¥$8
+Wave: i(vsvd0093)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à? ôŠ1)³Æ>      ğ?p¤>Œ=\ï>
+WaveDataStart
+   ?J™56  €?ìáz7
+Wave: i(vsvd0094)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?4”óC‘·>      ğ?ôAEÏy<Ş>
+WaveDataStart
+   ?Š¼5  €?Îãñ6
+Wave: i(vsvd0095)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?GhæÇ ¨>      ğ?ÜøÁÄ'Í>
+WaveDataStart
+   ? @5  €?68i6
+Wave: i(vsvd0096)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Z–ë=qÍ¬>      ğ?¼¼µÄ'Í>
+WaveDataStart
+   ?Škf5  €?68i6
+Wave: i(vsvd0097)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¸‘•DF¸¡>      ğ?=åë÷Á>
+WaveDataStart
+   ?2Â5  €?¹76
+Wave: i(vsvd0098)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ôÑ ¡qÜ¤>      ğ?Ä¢â÷Á>
+WaveDataStart
+   ?ã&5  €?¹76
+Wave: i(vsvd0099)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?pUÎëF6~>      ğ?¶÷Á>
+WaveDataStart
+   ?7²ñ3  €?½76
+Wave: i(vsvd0100)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?JA=ÖF(>      ğ?€é(:¡Vy>
+WaveDataStart
+   ?²6B1  €?
+µÊ3
+Wave: i(vsvd0101)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?à)	4]ñ=      ğ?´²3œ¦#ñ=
+WaveDataStart
+   ?êŠˆ/  €?5‰/
+Wave: i(vsvd0102)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0103)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0104)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0105)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0106)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?„¨P5ñ=      ğ?õüxjñ=
+WaveDataStart
+   ?ª‰/  €?ìP‹/
+Wave: i(vsvd0107)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?g£Ì«>ñ=      ğ?©¹jµ{ñ=
+WaveDataStart
+   ?õğ‰/  €?«İ‹/
+Wave: i(vsvd0108)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0109)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0110)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0111)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?³ANë\ñ=      ğ?O¸nH¹ñ=
+WaveDataStart
+   ?ZçŠ/  €?CÊ/
+Wave: i(vsvd0112)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ğûĞcñ=      ğ?ù¸®û˜Åñ=
+WaveDataStart
+   ?Ÿ‹/  €?È,/
+Wave: i(vsvd0113)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?AŸJ­doñ=      ğ?¦™Ï:Şñ=
+WaveDataStart
+   ?%{‹/  €?Ññ/
+Wave: i(vsvd0114)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?©¹jµ{ñ=      ğ?$÷!Ûöñ=
+WaveDataStart
+   ?«İ‹/  €?Ù¶/
+Wave: i(vsvd0115)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?-×~ˆñ=      ğ?*9É0|ò=
+WaveDataStart
+   ?1@Œ/  €?â{/
+Wave: i(vsvd0116)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?şUº´V”ñ=      ğ?F5*>(ò=
+WaveDataStart
+   ?¶¢Œ/  €?ê@‘/
+Wave: i(vsvd0117)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÿo–Ï¦ñ=      ğ?L—ĞMò=
+WaveDataStart
+   ?}6/  €?wh’/
+Wave: i(vsvd0118)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?O¸nH¹ñ=      ğ?Ú‘Öa rò=
+WaveDataStart
+   ?CÊ/  €?“/
+Wave: i(vsvd0119)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?3lyAÁËñ=      ğ?<eòñ–ò=
+WaveDataStart
+   ?
+^/  €?·”/
+Wave: i(vsvd0120)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¦™Ï:Şñ=      ğ?P'†‚ã»ò=
+WaveDataStart
+   ?Ññ/  €?ß•/
+Wave: i(vsvd0121)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ö:ñİ²ğñ=      ğ?Ú­`Õàò=
+WaveDataStart
+   ?—…/  €?©—/
+Wave: i(vsvd0122)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?*>íS	ò=      ğ?«`='ó=
+WaveDataStart
+   ?ŸJ/  €?¹˜/
+Wave: i(vsvd0123)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´Gìúô!ò=      ğ?ƒ@æ;YCó=
+WaveDataStart
+   ?¨‘/  €?Êš/
+Wave: i(vsvd0124)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ë³‘–:ò=      ğ?‹nP›tó=
+WaveDataStart
+   ?°Ô‘/  €?Û¤›/
+Wave: i(vsvd0125)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?U£pV_Yò=      ğ?&Ãùé-²ó=
+WaveDataStart
+   ?ûÊ’/  €?o‘/
+Wave: i(vsvd0126)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÎêjçP~ò=      ğ?Ş°…üó=
+WaveDataStart
+   ?‡ò“/  €?ˆàŸ/
+Wave: i(vsvd0127)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?=ÏwB£ò=      ğ?ïßş&ôEô=
+WaveDataStart
+   ?•/  €?¡/¢/
+Wave: i(vsvd0128)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?HƒzJ\Îò=      ğ?¢³}Ê'œô=
+WaveDataStart
+   ?âr–/  €?>á¤/
+Wave: i(vsvd0129)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?!•±e"İ>      ğ?hØ’´‘?
+WaveDataStart
+   ?)é6  €?¥$8
+Wave: i(vsvd0130)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à? ôŠ1)³Æ>      ğ?p¤>Œ=\ï>
+WaveDataStart
+   ?J™56  €?ìáz7
+Wave: i(vsvd0131)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?4”óC‘·>      ğ?ôAEÏy<Ş>
+WaveDataStart
+   ?Š¼5  €?Îãñ6
+Wave: i(vsvd0132)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?GhæÇ ¨>      ğ?ÜøÁÄ'Í>
+WaveDataStart
+   ? @5  €?68i6
+Wave: i(vsvd0133)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Z–ë=qÍ¬>      ğ?¼¼µÄ'Í>
+WaveDataStart
+   ?Škf5  €?68i6
+Wave: i(vsvd0134)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¸‘•DF¸¡>      ğ?=åë÷Á>
+WaveDataStart
+   ?2Â5  €?¹76
+Wave: i(vsvd0135)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ôÑ ¡qÜ¤>      ğ?Ä¢â÷Á>
+WaveDataStart
+   ?ã&5  €?¹76
+Wave: i(vsvd0136)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?pUÎëF6~>      ğ?¶÷Á>
+WaveDataStart
+   ?7²ñ3  €?½76
+Wave: i(vsvd0137)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?JA=ÖF(>      ğ?€é(:¡Vy>
+WaveDataStart
+   ?²6B1  €?
+µÊ3
+Wave: i(vsvd0138)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?à)	4]ñ=      ğ?´²3œ¦#ñ=
+WaveDataStart
+   ?êŠˆ/  €?5‰/
+Wave: i(vsvd0139)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0140)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0141)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0142)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0143)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?„¨P5ñ=      ğ?õüxjñ=
+WaveDataStart
+   ?ª‰/  €?ìP‹/
+Wave: i(vsvd0144)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?g£Ì«>ñ=      ğ?©¹jµ{ñ=
+WaveDataStart
+   ?õğ‰/  €?«İ‹/
+Wave: i(vsvd0145)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0146)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0147)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0148)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?³ANë\ñ=      ğ?O¸nH¹ñ=
+WaveDataStart
+   ?ZçŠ/  €?CÊ/
+Wave: i(vsvd0149)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ğûĞcñ=      ğ?ù¸®û˜Åñ=
+WaveDataStart
+   ?Ÿ‹/  €?È,/
+Wave: i(vsvd0150)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?AŸJ­doñ=      ğ?¦™Ï:Şñ=
+WaveDataStart
+   ?%{‹/  €?Ññ/
+Wave: i(vsvd0151)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?©¹jµ{ñ=      ğ?$÷!Ûöñ=
+WaveDataStart
+   ?«İ‹/  €?Ù¶/
+Wave: i(vsvd0152)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?-×~ˆñ=      ğ?*9É0|ò=
+WaveDataStart
+   ?1@Œ/  €?â{/
+Wave: i(vsvd0153)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?şUº´V”ñ=      ğ?F5*>(ò=
+WaveDataStart
+   ?¶¢Œ/  €?ê@‘/
+Wave: i(vsvd0154)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÿo–Ï¦ñ=      ğ?L—ĞMò=
+WaveDataStart
+   ?}6/  €?wh’/
+Wave: i(vsvd0155)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?O¸nH¹ñ=      ğ?Ú‘Öa rò=
+WaveDataStart
+   ?CÊ/  €?“/
+Wave: i(vsvd0156)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?3lyAÁËñ=      ğ?<eòñ–ò=
+WaveDataStart
+   ?
+^/  €?·”/
+Wave: i(vsvd0157)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¦™Ï:Şñ=      ğ?P'†‚ã»ò=
+WaveDataStart
+   ?Ññ/  €?ß•/
+Wave: i(vsvd0158)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ö:ñİ²ğñ=      ğ?Ú­`Õàò=
+WaveDataStart
+   ?—…/  €?©—/
+Wave: i(vsvd0159)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?*>íS	ò=      ğ?«`='ó=
+WaveDataStart
+   ?ŸJ/  €?¹˜/
+Wave: i(vsvd0160)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ë³‘–:ò=      ğ?‹nP›tó=
+WaveDataStart
+   ?°Ô‘/  €?Û¤›/
+Wave: i(vsvd0161)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?HƒzJ\Îò=      ğ?¢³}Ê'œô=
+WaveDataStart
+   ?âr–/  €?>á¤/
+Wave: i(vsvd0162)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?!•±e"İ>      ğ?hØ’´‘?
+WaveDataStart
+   ?)é6  €?¥$8
+Wave: i(vsvd0163)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à? ôŠ1)³Æ>      ğ?p¤>Œ=\ï>
+WaveDataStart
+   ?J™56  €?ìáz7
+Wave: i(vsvd0164)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?4”óC‘·>      ğ?ôAEÏy<Ş>
+WaveDataStart
+   ?Š¼5  €?Îãñ6
+Wave: i(vsvd0165)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?GhæÇ ¨>      ğ?ÜøÁÄ'Í>
+WaveDataStart
+   ? @5  €?68i6
+Wave: i(vsvd0166)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Z–ë=qÍ¬>      ğ?¼¼µÄ'Í>
+WaveDataStart
+   ?Škf5  €?68i6
+Wave: i(vsvd0167)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¸‘•DF¸¡>      ğ?=åë÷Á>
+WaveDataStart
+   ?2Â5  €?¹76
+Wave: i(vsvd0168)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ôÑ ¡qÜ¤>      ğ?Ä¢â÷Á>
+WaveDataStart
+   ?ã&5  €?¹76
+Wave: i(vsvd0169)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?pUÎëF6~>      ğ?¶÷Á>
+WaveDataStart
+   ?7²ñ3  €?½76
+Wave: i(vsvd0170)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?JA=ÖF(>      ğ?€é(:¡Vy>
+WaveDataStart
+   ?²6B1  €?
+µÊ3
+Wave: i(vsvd0171)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?à)	4]ñ=      ğ?´²3œ¦#ñ=
+WaveDataStart
+   ?êŠˆ/  €?5‰/
+Wave: i(vsvd0172)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0173)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0174)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0175)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0176)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?„¨P5ñ=      ğ?õüxjñ=
+WaveDataStart
+   ?ª‰/  €?ìP‹/
+Wave: i(vsvd0177)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?g£Ì«>ñ=      ğ?©¹jµ{ñ=
+WaveDataStart
+   ?õğ‰/  €?«İ‹/
+Wave: i(vsvd0178)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0179)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0180)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0181)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?³ANë\ñ=      ğ?O¸nH¹ñ=
+WaveDataStart
+   ?ZçŠ/  €?CÊ/
+Wave: i(vsvd0182)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ğûĞcñ=      ğ?ù¸®û˜Åñ=
+WaveDataStart
+   ?Ÿ‹/  €?È,/
+Wave: i(vsvd0183)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?AŸJ­doñ=      ğ?¦™Ï:Şñ=
+WaveDataStart
+   ?%{‹/  €?Ññ/
+Wave: i(vsvd0184)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?©¹jµ{ñ=      ğ?$÷!Ûöñ=
+WaveDataStart
+   ?«İ‹/  €?Ù¶/
+Wave: i(vsvd0185)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?-×~ˆñ=      ğ?*9É0|ò=
+WaveDataStart
+   ?1@Œ/  €?â{/
+Wave: i(vsvd0186)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?şUº´V”ñ=      ğ?F5*>(ò=
+WaveDataStart
+   ?¶¢Œ/  €?ê@‘/
+Wave: i(vsvd0187)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÿo–Ï¦ñ=      ğ?L—ĞMò=
+WaveDataStart
+   ?}6/  €?wh’/
+Wave: i(vsvd0188)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?O¸nH¹ñ=      ğ?Ú‘Öa rò=
+WaveDataStart
+   ?CÊ/  €?“/
+Wave: i(vsvd0189)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?3lyAÁËñ=      ğ?<eòñ–ò=
+WaveDataStart
+   ?
+^/  €?·”/
+Wave: i(vsvd0190)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¦™Ï:Şñ=      ğ?P'†‚ã»ò=
+WaveDataStart
+   ?Ññ/  €?ß•/
+Wave: i(vsvd0191)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ö:ñİ²ğñ=      ğ?Ú­`Õàò=
+WaveDataStart
+   ?—…/  €?©—/
+Wave: i(vsvd0192)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?*>íS	ò=      ğ?«`='ó=
+WaveDataStart
+   ?ŸJ/  €?¹˜/
+Wave: i(vsvd0193)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´Gìúô!ò=      ğ?ƒ@æ;YCó=
+WaveDataStart
+   ?¨‘/  €?Êš/
+Wave: i(vsvd0194)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ë³‘–:ò=      ğ?‹nP›tó=
+WaveDataStart
+   ?°Ô‘/  €?Û¤›/
+Wave: i(vsvd0195)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?U£pV_Yò=      ğ?&Ãùé-²ó=
+WaveDataStart
+   ?ûÊ’/  €?o‘/
+Wave: i(vsvd0196)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÎêjçP~ò=      ğ?Ş°…üó=
+WaveDataStart
+   ?‡ò“/  €?ˆàŸ/
+Wave: i(vsvd0197)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?=ÏwB£ò=      ğ?ïßş&ôEô=
+WaveDataStart
+   ?•/  €?¡/¢/
+Wave: i(vsvd0198)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?HƒzJ\Îò=      ğ?¢³}Ê'œô=
+WaveDataStart
+   ?âr–/  €?>á¤/
+Wave: i(vsvd0199)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?!•±e"İ>      ğ?hØ’´‘?
+WaveDataStart
+   ?)é6  €?¥$8
+Wave: i(vsvd0200)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à? ôŠ1)³Æ>      ğ?p¤>Œ=\ï>
+WaveDataStart
+   ?J™56  €?ìáz7
+Wave: i(vsvd0201)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?4”óC‘·>      ğ?ôAEÏy<Ş>
+WaveDataStart
+   ?Š¼5  €?Îãñ6
+Wave: i(vsvd0202)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?GhæÇ ¨>      ğ?ÜøÁÄ'Í>
+WaveDataStart
+   ? @5  €?68i6
+Wave: i(vsvd0203)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Z–ë=qÍ¬>      ğ?¼¼µÄ'Í>
+WaveDataStart
+   ?Škf5  €?68i6
+Wave: i(vsvd0204)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¸‘•DF¸¡>      ğ?=åë÷Á>
+WaveDataStart
+   ?2Â5  €?¹76
+Wave: i(vsvd0205)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ôÑ ¡qÜ¤>      ğ?Ä¢â÷Á>
+WaveDataStart
+   ?ã&5  €?¹76
+Wave: i(vsvd0206)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?pUÎëF6~>      ğ?¶÷Á>
+WaveDataStart
+   ?7²ñ3  €?½76
+Wave: i(vsvd0207)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?JA=ÖF(>      ğ?€é(:¡Vy>
+WaveDataStart
+   ?²6B1  €?
+µÊ3
+Wave: i(vsvd0208)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?à)	4]ñ=      ğ?´²3œ¦#ñ=
+WaveDataStart
+   ?êŠˆ/  €?5‰/
+Wave: i(vsvd0209)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0210)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´²3œ¦#ñ=      ğ?å9	ìFñ=
+WaveDataStart
+   ?5‰/  €?`7Š/
+Wave: i(vsvd0211)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0212)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?oVAÎ~,ñ=      ğ?g	6/…Xñ=
+WaveDataStart
+   ?öc‰/  €?)ÄŠ/
+Wave: i(vsvd0213)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?„¨P5ñ=      ğ?õüxjñ=
+WaveDataStart
+   ?ª‰/  €?ìP‹/
+Wave: i(vsvd0214)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?g£Ì«>ñ=      ğ?©¹jµ{ñ=
+WaveDataStart
+   ?õğ‰/  €?«İ‹/
+Wave: i(vsvd0215)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0216)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0217)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?å9	ìFñ=      ğ?ù–J6Mñ=
+WaveDataStart
+   ?`7Š/  €?jjŒ/
+Wave: i(vsvd0218)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?³ANë\ñ=      ğ?O¸nH¹ñ=
+WaveDataStart
+   ?ZçŠ/  €?CÊ/
+Wave: i(vsvd0219)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ğûĞcñ=      ğ?ù¸®û˜Åñ=
+WaveDataStart
+   ?Ÿ‹/  €?È,/
+Wave: i(vsvd0220)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?AŸJ­doñ=      ğ?¦™Ï:Şñ=
+WaveDataStart
+   ?%{‹/  €?Ññ/
+Wave: i(vsvd0221)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?©¹jµ{ñ=      ğ?$÷!Ûöñ=
+WaveDataStart
+   ?«İ‹/  €?Ù¶/
+Wave: i(vsvd0222)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?-×~ˆñ=      ğ?*9É0|ò=
+WaveDataStart
+   ?1@Œ/  €?â{/
+Wave: i(vsvd0223)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?şUº´V”ñ=      ğ?F5*>(ò=
+WaveDataStart
+   ?¶¢Œ/  €?ê@‘/
+Wave: i(vsvd0224)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÿo–Ï¦ñ=      ğ?L—ĞMò=
+WaveDataStart
+   ?}6/  €?wh’/
+Wave: i(vsvd0225)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?O¸nH¹ñ=      ğ?Ú‘Öa rò=
+WaveDataStart
+   ?CÊ/  €?“/
+Wave: i(vsvd0226)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?3lyAÁËñ=      ğ?<eòñ–ò=
+WaveDataStart
+   ?
+^/  €?·”/
+Wave: i(vsvd0227)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?¦™Ï:Şñ=      ğ?P'†‚ã»ò=
+WaveDataStart
+   ?Ññ/  €?ß•/
+Wave: i(vsvd0228)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ö:ñİ²ğñ=      ğ?Ú­`Õàò=
+WaveDataStart
+   ?—…/  €?©—/
+Wave: i(vsvd0229)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?*>íS	ò=      ğ?«`='ó=
+WaveDataStart
+   ?ŸJ/  €?¹˜/
+Wave: i(vsvd0230)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?´Gìúô!ò=      ğ?ƒ@æ;YCó=
+WaveDataStart
+   ?¨‘/  €?Êš/
+Wave: i(vsvd0231)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?Ë³‘–:ò=      ğ?‹nP›tó=
+WaveDataStart
+   ?°Ô‘/  €?Û¤›/
+Wave: i(vsvd0232)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?U£pV_Yò=      ğ?&Ãùé-²ó=
+WaveDataStart
+   ?ûÊ’/  €?o‘/
+Wave: i(vsvd0233)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?ÎêjçP~ò=      ğ?Ş°…üó=
+WaveDataStart
+   ?‡ò“/  €?ˆàŸ/
+Wave: i(vsvd0234)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?=ÏwB£ò=      ğ?ïßş&ôEô=
+WaveDataStart
+   ?•/  €?¡/¢/
+Wave: i(vsvd0235)
+WaveYUnitStr: A
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveExtendedDataStart
+      à?HƒzJ\Îò=      ğ?¢³}Ê'œô=
+WaveDataStart
+   ?âr–/  €?>á¤/
+Wave: v(sweep)
+WaveYUnitStr: V
+WaveHint: 
+WavePoints: 2
+WaveIsXComplex: FALSE
+WaveIsYComplex: FALSE
+WaveType: 0
+WaveVariableType: General
+WaveIndependent: TRUE
+WaveExtendedDataStart
+      à?      à?      ğ?      ğ?
+WaveDataStart
+   ?   ?  €?  €?

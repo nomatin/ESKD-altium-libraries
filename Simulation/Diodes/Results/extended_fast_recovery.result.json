@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "test": "extended_fast_recovery",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "b1bd9da6fe3f4039b1b024c833c243b8",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\b1bd9da6fe3f4039b1b024c833c243b8",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\b1bd9da6fe3f4039b1b024c833c243b8\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_f1bfe9f6de3040708bbb27bab6daff1d.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "trr_VD0001j1",
+      "type": "delay",
+      "value": 3.999947516121675e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000126220942819e-07,
+        "target_x": 1.0400120972554986e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0002j1",
+      "type": "delay",
+      "value": 3.999947516121675e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000126220942819e-07,
+        "target_x": 1.0400120972554986e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0003j1",
+      "type": "delay",
+      "value": 4.000073883577743e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000500000758332e-07,
+        "target_x": 1.0400507389116106e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0004j1",
+      "type": "delay",
+      "value": 4.00007388357908e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000500000758332e-07,
+        "target_x": 1.040050738911624e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0004j2",
+      "type": "delay",
+      "value": 4.00007388357908e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000500000758332e-07,
+        "target_x": 1.040050738911624e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0005j1",
+      "type": "delay",
+      "value": 4.0000738835773065e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000500000758332e-07,
+        "target_x": 1.0400507389116062e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    },
+    {
+      "id": "trr_VD0005j2",
+      "type": "delay",
+      "value": 4.000073883577677e-09,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      },
+      "markers": {
+        "trigger_x": 1.0000500000758332e-07,
+        "target_x": 1.0400507389116099e-07
+      },
+      "run_id": "b1bd9da6fe3f4039b1b024c833c243b8"
+    }
+  ]
+}

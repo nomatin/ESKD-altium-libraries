@@ -1,0 +1,733 @@
+* Local zener SZ scenario
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0055_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0056_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0057_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0058_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0059_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0060_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0061_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0062_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0063_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0064_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0065_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0066_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0067_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0068_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0069_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0070_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0071_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0072_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0073_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0074_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0075_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0076_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0077_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0078_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0079_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0080_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0081_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0082_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0083_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0084_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0085_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0086_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0087_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0088_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0089_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0090_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0091_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0092_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0093_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0094_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0095_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0096_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0097_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0098_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0099_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0100_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0101_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0102_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0103_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0104_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0105_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0106_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0107_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0108_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0109_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0110_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0111_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0112_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0113_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0114_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0115_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0116_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0117_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0118_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0119_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0120_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0121_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0122_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0123_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0124_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0125_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0126_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0127_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0128_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0129_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0130_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0131_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0132_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0133_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0134_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0135_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0136_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0137_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0138_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0139_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0140_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0141_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0142_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0143_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0144_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0145_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0146_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0147_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0148_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0149_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0150_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0151_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0152_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0153_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0154_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0155_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0156_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0157_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0158_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0159_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0160_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0161_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0162_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0163_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0164_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0165_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0166_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0167_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0168_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0169_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0170_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0171_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0172_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0173_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0174_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0175_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0176_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0177_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0178_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0179_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0180_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0181_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0182_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0183_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0184_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0185_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0186_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0187_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0188_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0189_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0190_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0191_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0192_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0193_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0194_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0195_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0196_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0197_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0198_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0199_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0200_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0201_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0202_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0203_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0204_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0205_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0206_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0207_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0208_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0209_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0210_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0211_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0212_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0213_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0214_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0215_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0216_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0217_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0218_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0219_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0220_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0221_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0222_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0223_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0224_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0225_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0226_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0227_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0228_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0229_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0230_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0231_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0232_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0233_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0234_D.ckt"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Diodes\MY_LIB_VD0235_D.ckt"
+.OPTIONS TEMP=26 
+* Independent temperature witness: 1000 ohm, TC1=.01/K at 25 C
+ITCHECK 0 tcheck 1m
+RTCHECK tcheck 0 TCHECK 1000
+.MODEL TCHECK R (TC1=0.01 TNOM=25)
+IVD0055 0 nVD0055 0.005
+XVD0055 0 nVD0055 MY_LIB_VD0055_D
+IVD0056 0 nVD0056 0.005
+XVD0056 0 nVD0056 MY_LIB_VD0056_D
+IVD0057 0 nVD0057 0.005
+XVD0057 0 nVD0057 MY_LIB_VD0057_D
+IVD0058 0 nVD0058 0.005
+XVD0058 0 nVD0058 MY_LIB_VD0058_D
+IVD0059 0 nVD0059 0.005
+XVD0059 0 nVD0059 MY_LIB_VD0059_D
+IVD0060 0 nVD0060 0.005
+XVD0060 0 nVD0060 MY_LIB_VD0060_D
+IVD0061 0 nVD0061 0.005
+XVD0061 0 nVD0061 MY_LIB_VD0061_D
+IVD0062 0 nVD0062 0.005
+XVD0062 0 nVD0062 MY_LIB_VD0062_D
+IVD0063 0 nVD0063 0.005
+XVD0063 0 nVD0063 MY_LIB_VD0063_D
+IVD0064 0 nVD0064 0.005
+XVD0064 0 nVD0064 MY_LIB_VD0064_D
+IVD0065 0 nVD0065 0.005
+XVD0065 0 nVD0065 MY_LIB_VD0065_D
+IVD0066 0 nVD0066 0.005
+XVD0066 0 nVD0066 MY_LIB_VD0066_D
+IVD0067 0 nVD0067 0.005
+XVD0067 0 nVD0067 MY_LIB_VD0067_D
+IVD0068 0 nVD0068 0.005
+XVD0068 0 nVD0068 MY_LIB_VD0068_D
+IVD0069 0 nVD0069 0.005
+XVD0069 0 nVD0069 MY_LIB_VD0069_D
+IVD0070 0 nVD0070 0.005
+XVD0070 0 nVD0070 MY_LIB_VD0070_D
+IVD0071 0 nVD0071 0.005
+XVD0071 0 nVD0071 MY_LIB_VD0071_D
+IVD0072 0 nVD0072 0.005
+XVD0072 0 nVD0072 MY_LIB_VD0072_D
+IVD0073 0 nVD0073 0.005
+XVD0073 0 nVD0073 MY_LIB_VD0073_D
+IVD0074 0 nVD0074 0.005
+XVD0074 0 nVD0074 MY_LIB_VD0074_D
+IVD0075 0 nVD0075 0.005
+XVD0075 0 nVD0075 MY_LIB_VD0075_D
+IVD0076 0 nVD0076 0.005
+XVD0076 0 nVD0076 MY_LIB_VD0076_D
+IVD0077 0 nVD0077 0.005
+XVD0077 0 nVD0077 MY_LIB_VD0077_D
+IVD0078 0 nVD0078 0.005
+XVD0078 0 nVD0078 MY_LIB_VD0078_D
+IVD0079 0 nVD0079 0.005
+XVD0079 0 nVD0079 MY_LIB_VD0079_D
+IVD0080 0 nVD0080 0.005
+XVD0080 0 nVD0080 MY_LIB_VD0080_D
+IVD0081 0 nVD0081 0.005
+XVD0081 0 nVD0081 MY_LIB_VD0081_D
+IVD0082 0 nVD0082 0.005
+XVD0082 0 nVD0082 MY_LIB_VD0082_D
+IVD0083 0 nVD0083 0.005
+XVD0083 0 nVD0083 MY_LIB_VD0083_D
+IVD0084 0 nVD0084 0.005
+XVD0084 0 nVD0084 MY_LIB_VD0084_D
+IVD0085 0 nVD0085 0.005
+XVD0085 0 nVD0085 MY_LIB_VD0085_D
+IVD0086 0 nVD0086 0.005
+XVD0086 0 nVD0086 MY_LIB_VD0086_D
+IVD0087 0 nVD0087 0.005
+XVD0087 0 nVD0087 MY_LIB_VD0087_D
+IVD0088 0 nVD0088 0.002
+XVD0088 0 nVD0088 MY_LIB_VD0088_D
+IVD0089 0 nVD0089 0.002
+XVD0089 0 nVD0089 MY_LIB_VD0089_D
+IVD0090 0 nVD0090 0.002
+XVD0090 0 nVD0090 MY_LIB_VD0090_D
+IVD0091 0 nVD0091 0.002
+XVD0091 0 nVD0091 MY_LIB_VD0091_D
+IVD0092 0 nVD0092 0.005
+XVD0092 0 nVD0092 MY_LIB_VD0092_D
+IVD0093 0 nVD0093 0.005
+XVD0093 0 nVD0093 MY_LIB_VD0093_D
+IVD0094 0 nVD0094 0.005
+XVD0094 0 nVD0094 MY_LIB_VD0094_D
+IVD0095 0 nVD0095 0.005
+XVD0095 0 nVD0095 MY_LIB_VD0095_D
+IVD0096 0 nVD0096 0.005
+XVD0096 0 nVD0096 MY_LIB_VD0096_D
+IVD0097 0 nVD0097 0.005
+XVD0097 0 nVD0097 MY_LIB_VD0097_D
+IVD0098 0 nVD0098 0.005
+XVD0098 0 nVD0098 MY_LIB_VD0098_D
+IVD0099 0 nVD0099 0.005
+XVD0099 0 nVD0099 MY_LIB_VD0099_D
+IVD0100 0 nVD0100 0.005
+XVD0100 0 nVD0100 MY_LIB_VD0100_D
+IVD0101 0 nVD0101 0.005
+XVD0101 0 nVD0101 MY_LIB_VD0101_D
+IVD0102 0 nVD0102 0.005
+XVD0102 0 nVD0102 MY_LIB_VD0102_D
+IVD0103 0 nVD0103 0.005
+XVD0103 0 nVD0103 MY_LIB_VD0103_D
+IVD0104 0 nVD0104 0.005
+XVD0104 0 nVD0104 MY_LIB_VD0104_D
+IVD0105 0 nVD0105 0.005
+XVD0105 0 nVD0105 MY_LIB_VD0105_D
+IVD0106 0 nVD0106 0.005
+XVD0106 0 nVD0106 MY_LIB_VD0106_D
+IVD0107 0 nVD0107 0.005
+XVD0107 0 nVD0107 MY_LIB_VD0107_D
+IVD0108 0 nVD0108 0.005
+XVD0108 0 nVD0108 MY_LIB_VD0108_D
+IVD0109 0 nVD0109 0.005
+XVD0109 0 nVD0109 MY_LIB_VD0109_D
+IVD0110 0 nVD0110 0.005
+XVD0110 0 nVD0110 MY_LIB_VD0110_D
+IVD0111 0 nVD0111 0.005
+XVD0111 0 nVD0111 MY_LIB_VD0111_D
+IVD0112 0 nVD0112 0.005
+XVD0112 0 nVD0112 MY_LIB_VD0112_D
+IVD0113 0 nVD0113 0.005
+XVD0113 0 nVD0113 MY_LIB_VD0113_D
+IVD0114 0 nVD0114 0.005
+XVD0114 0 nVD0114 MY_LIB_VD0114_D
+IVD0115 0 nVD0115 0.005
+XVD0115 0 nVD0115 MY_LIB_VD0115_D
+IVD0116 0 nVD0116 0.005
+XVD0116 0 nVD0116 MY_LIB_VD0116_D
+IVD0117 0 nVD0117 0.002
+XVD0117 0 nVD0117 MY_LIB_VD0117_D
+IVD0118 0 nVD0118 0.002
+XVD0118 0 nVD0118 MY_LIB_VD0118_D
+IVD0119 0 nVD0119 0.002
+XVD0119 0 nVD0119 MY_LIB_VD0119_D
+IVD0120 0 nVD0120 0.002
+XVD0120 0 nVD0120 MY_LIB_VD0120_D
+IVD0121 0 nVD0121 0.002
+XVD0121 0 nVD0121 MY_LIB_VD0121_D
+IVD0122 0 nVD0122 0.002
+XVD0122 0 nVD0122 MY_LIB_VD0122_D
+IVD0123 0 nVD0123 0.002
+XVD0123 0 nVD0123 MY_LIB_VD0123_D
+IVD0124 0 nVD0124 0.002
+XVD0124 0 nVD0124 MY_LIB_VD0124_D
+IVD0125 0 nVD0125 0.002
+XVD0125 0 nVD0125 MY_LIB_VD0125_D
+IVD0126 0 nVD0126 0.002
+XVD0126 0 nVD0126 MY_LIB_VD0126_D
+IVD0127 0 nVD0127 0.002
+XVD0127 0 nVD0127 MY_LIB_VD0127_D
+IVD0128 0 nVD0128 0.002
+XVD0128 0 nVD0128 MY_LIB_VD0128_D
+IVD0129 0 nVD0129 0.005
+XVD0129 0 nVD0129 MY_LIB_VD0129_D
+IVD0130 0 nVD0130 0.005
+XVD0130 0 nVD0130 MY_LIB_VD0130_D
+IVD0131 0 nVD0131 0.005
+XVD0131 0 nVD0131 MY_LIB_VD0131_D
+IVD0132 0 nVD0132 0.005
+XVD0132 0 nVD0132 MY_LIB_VD0132_D
+IVD0133 0 nVD0133 0.005
+XVD0133 0 nVD0133 MY_LIB_VD0133_D
+IVD0134 0 nVD0134 0.005
+XVD0134 0 nVD0134 MY_LIB_VD0134_D
+IVD0135 0 nVD0135 0.005
+XVD0135 0 nVD0135 MY_LIB_VD0135_D
+IVD0136 0 nVD0136 0.005
+XVD0136 0 nVD0136 MY_LIB_VD0136_D
+IVD0137 0 nVD0137 0.005
+XVD0137 0 nVD0137 MY_LIB_VD0137_D
+IVD0138 0 nVD0138 0.005
+XVD0138 0 nVD0138 MY_LIB_VD0138_D
+IVD0139 0 nVD0139 0.005
+XVD0139 0 nVD0139 MY_LIB_VD0139_D
+IVD0140 0 nVD0140 0.005
+XVD0140 0 nVD0140 MY_LIB_VD0140_D
+IVD0141 0 nVD0141 0.005
+XVD0141 0 nVD0141 MY_LIB_VD0141_D
+IVD0142 0 nVD0142 0.005
+XVD0142 0 nVD0142 MY_LIB_VD0142_D
+IVD0143 0 nVD0143 0.005
+XVD0143 0 nVD0143 MY_LIB_VD0143_D
+IVD0144 0 nVD0144 0.005
+XVD0144 0 nVD0144 MY_LIB_VD0144_D
+IVD0145 0 nVD0145 0.005
+XVD0145 0 nVD0145 MY_LIB_VD0145_D
+IVD0146 0 nVD0146 0.005
+XVD0146 0 nVD0146 MY_LIB_VD0146_D
+IVD0147 0 nVD0147 0.005
+XVD0147 0 nVD0147 MY_LIB_VD0147_D
+IVD0148 0 nVD0148 0.005
+XVD0148 0 nVD0148 MY_LIB_VD0148_D
+IVD0149 0 nVD0149 0.005
+XVD0149 0 nVD0149 MY_LIB_VD0149_D
+IVD0150 0 nVD0150 0.005
+XVD0150 0 nVD0150 MY_LIB_VD0150_D
+IVD0151 0 nVD0151 0.005
+XVD0151 0 nVD0151 MY_LIB_VD0151_D
+IVD0152 0 nVD0152 0.005
+XVD0152 0 nVD0152 MY_LIB_VD0152_D
+IVD0153 0 nVD0153 0.005
+XVD0153 0 nVD0153 MY_LIB_VD0153_D
+IVD0154 0 nVD0154 0.002
+XVD0154 0 nVD0154 MY_LIB_VD0154_D
+IVD0155 0 nVD0155 0.002
+XVD0155 0 nVD0155 MY_LIB_VD0155_D
+IVD0156 0 nVD0156 0.002
+XVD0156 0 nVD0156 MY_LIB_VD0156_D
+IVD0157 0 nVD0157 0.002
+XVD0157 0 nVD0157 MY_LIB_VD0157_D
+IVD0158 0 nVD0158 0.002
+XVD0158 0 nVD0158 MY_LIB_VD0158_D
+IVD0159 0 nVD0159 0.002
+XVD0159 0 nVD0159 MY_LIB_VD0159_D
+IVD0160 0 nVD0160 0.002
+XVD0160 0 nVD0160 MY_LIB_VD0160_D
+IVD0161 0 nVD0161 0.002
+XVD0161 0 nVD0161 MY_LIB_VD0161_D
+IVD0162 0 nVD0162 0.005
+XVD0162 0 nVD0162 MY_LIB_VD0162_D
+IVD0163 0 nVD0163 0.005
+XVD0163 0 nVD0163 MY_LIB_VD0163_D
+IVD0164 0 nVD0164 0.005
+XVD0164 0 nVD0164 MY_LIB_VD0164_D
+IVD0165 0 nVD0165 0.005
+XVD0165 0 nVD0165 MY_LIB_VD0165_D
+IVD0166 0 nVD0166 0.005
+XVD0166 0 nVD0166 MY_LIB_VD0166_D
+IVD0167 0 nVD0167 0.005
+XVD0167 0 nVD0167 MY_LIB_VD0167_D
+IVD0168 0 nVD0168 0.005
+XVD0168 0 nVD0168 MY_LIB_VD0168_D
+IVD0169 0 nVD0169 0.005
+XVD0169 0 nVD0169 MY_LIB_VD0169_D
+IVD0170 0 nVD0170 0.005
+XVD0170 0 nVD0170 MY_LIB_VD0170_D
+IVD0171 0 nVD0171 0.005
+XVD0171 0 nVD0171 MY_LIB_VD0171_D
+IVD0172 0 nVD0172 0.005
+XVD0172 0 nVD0172 MY_LIB_VD0172_D
+IVD0173 0 nVD0173 0.005
+XVD0173 0 nVD0173 MY_LIB_VD0173_D
+IVD0174 0 nVD0174 0.005
+XVD0174 0 nVD0174 MY_LIB_VD0174_D
+IVD0175 0 nVD0175 0.005
+XVD0175 0 nVD0175 MY_LIB_VD0175_D
+IVD0176 0 nVD0176 0.005
+XVD0176 0 nVD0176 MY_LIB_VD0176_D
+IVD0177 0 nVD0177 0.005
+XVD0177 0 nVD0177 MY_LIB_VD0177_D
+IVD0178 0 nVD0178 0.005
+XVD0178 0 nVD0178 MY_LIB_VD0178_D
+IVD0179 0 nVD0179 0.005
+XVD0179 0 nVD0179 MY_LIB_VD0179_D
+IVD0180 0 nVD0180 0.005
+XVD0180 0 nVD0180 MY_LIB_VD0180_D
+IVD0181 0 nVD0181 0.005
+XVD0181 0 nVD0181 MY_LIB_VD0181_D
+IVD0182 0 nVD0182 0.005
+XVD0182 0 nVD0182 MY_LIB_VD0182_D
+IVD0183 0 nVD0183 0.005
+XVD0183 0 nVD0183 MY_LIB_VD0183_D
+IVD0184 0 nVD0184 0.005
+XVD0184 0 nVD0184 MY_LIB_VD0184_D
+IVD0185 0 nVD0185 0.005
+XVD0185 0 nVD0185 MY_LIB_VD0185_D
+IVD0186 0 nVD0186 0.005
+XVD0186 0 nVD0186 MY_LIB_VD0186_D
+IVD0187 0 nVD0187 0.002
+XVD0187 0 nVD0187 MY_LIB_VD0187_D
+IVD0188 0 nVD0188 0.002
+XVD0188 0 nVD0188 MY_LIB_VD0188_D
+IVD0189 0 nVD0189 0.002
+XVD0189 0 nVD0189 MY_LIB_VD0189_D
+IVD0190 0 nVD0190 0.002
+XVD0190 0 nVD0190 MY_LIB_VD0190_D
+IVD0191 0 nVD0191 0.002
+XVD0191 0 nVD0191 MY_LIB_VD0191_D
+IVD0192 0 nVD0192 0.002
+XVD0192 0 nVD0192 MY_LIB_VD0192_D
+IVD0193 0 nVD0193 0.002
+XVD0193 0 nVD0193 MY_LIB_VD0193_D
+IVD0194 0 nVD0194 0.002
+XVD0194 0 nVD0194 MY_LIB_VD0194_D
+IVD0195 0 nVD0195 0.002
+XVD0195 0 nVD0195 MY_LIB_VD0195_D
+IVD0196 0 nVD0196 0.002
+XVD0196 0 nVD0196 MY_LIB_VD0196_D
+IVD0197 0 nVD0197 0.002
+XVD0197 0 nVD0197 MY_LIB_VD0197_D
+IVD0198 0 nVD0198 0.002
+XVD0198 0 nVD0198 MY_LIB_VD0198_D
+IVD0199 0 nVD0199 0.005
+XVD0199 0 nVD0199 MY_LIB_VD0199_D
+IVD0200 0 nVD0200 0.005
+XVD0200 0 nVD0200 MY_LIB_VD0200_D
+IVD0201 0 nVD0201 0.005
+XVD0201 0 nVD0201 MY_LIB_VD0201_D
+IVD0202 0 nVD0202 0.005
+XVD0202 0 nVD0202 MY_LIB_VD0202_D
+IVD0203 0 nVD0203 0.005
+XVD0203 0 nVD0203 MY_LIB_VD0203_D
+IVD0204 0 nVD0204 0.005
+XVD0204 0 nVD0204 MY_LIB_VD0204_D
+IVD0205 0 nVD0205 0.005
+XVD0205 0 nVD0205 MY_LIB_VD0205_D
+IVD0206 0 nVD0206 0.005
+XVD0206 0 nVD0206 MY_LIB_VD0206_D
+IVD0207 0 nVD0207 0.005
+XVD0207 0 nVD0207 MY_LIB_VD0207_D
+IVD0208 0 nVD0208 0.005
+XVD0208 0 nVD0208 MY_LIB_VD0208_D
+IVD0209 0 nVD0209 0.005
+XVD0209 0 nVD0209 MY_LIB_VD0209_D
+IVD0210 0 nVD0210 0.005
+XVD0210 0 nVD0210 MY_LIB_VD0210_D
+IVD0211 0 nVD0211 0.005
+XVD0211 0 nVD0211 MY_LIB_VD0211_D
+IVD0212 0 nVD0212 0.005
+XVD0212 0 nVD0212 MY_LIB_VD0212_D
+IVD0213 0 nVD0213 0.005
+XVD0213 0 nVD0213 MY_LIB_VD0213_D
+IVD0214 0 nVD0214 0.005
+XVD0214 0 nVD0214 MY_LIB_VD0214_D
+IVD0215 0 nVD0215 0.005
+XVD0215 0 nVD0215 MY_LIB_VD0215_D
+IVD0216 0 nVD0216 0.005
+XVD0216 0 nVD0216 MY_LIB_VD0216_D
+IVD0217 0 nVD0217 0.005
+XVD0217 0 nVD0217 MY_LIB_VD0217_D
+IVD0218 0 nVD0218 0.005
+XVD0218 0 nVD0218 MY_LIB_VD0218_D
+IVD0219 0 nVD0219 0.005
+XVD0219 0 nVD0219 MY_LIB_VD0219_D
+IVD0220 0 nVD0220 0.005
+XVD0220 0 nVD0220 MY_LIB_VD0220_D
+IVD0221 0 nVD0221 0.005
+XVD0221 0 nVD0221 MY_LIB_VD0221_D
+IVD0222 0 nVD0222 0.005
+XVD0222 0 nVD0222 MY_LIB_VD0222_D
+IVD0223 0 nVD0223 0.005
+XVD0223 0 nVD0223 MY_LIB_VD0223_D
+IVD0224 0 nVD0224 0.002
+XVD0224 0 nVD0224 MY_LIB_VD0224_D
+IVD0225 0 nVD0225 0.002
+XVD0225 0 nVD0225 MY_LIB_VD0225_D
+IVD0226 0 nVD0226 0.002
+XVD0226 0 nVD0226 MY_LIB_VD0226_D
+IVD0227 0 nVD0227 0.002
+XVD0227 0 nVD0227 MY_LIB_VD0227_D
+IVD0228 0 nVD0228 0.002
+XVD0228 0 nVD0228 MY_LIB_VD0228_D
+IVD0229 0 nVD0229 0.002
+XVD0229 0 nVD0229 MY_LIB_VD0229_D
+IVD0230 0 nVD0230 0.002
+XVD0230 0 nVD0230 MY_LIB_VD0230_D
+IVD0231 0 nVD0231 0.002
+XVD0231 0 nVD0231 MY_LIB_VD0231_D
+IVD0232 0 nVD0232 0.002
+XVD0232 0 nVD0232 MY_LIB_VD0232_D
+IVD0233 0 nVD0233 0.002
+XVD0233 0 nVD0233 MY_LIB_VD0233_D
+IVD0234 0 nVD0234 0.002
+XVD0234 0 nVD0234 MY_LIB_VD0234_D
+IVD0235 0 nVD0235 0.002
+XVD0235 0 nVD0235 MY_LIB_VD0235_D
+.OP
+.PLOT OP V(tcheck)
+.PLOT OP V(nVD0055)
+.PLOT OP V(nVD0056)
+.PLOT OP V(nVD0057)
+.PLOT OP V(nVD0058)
+.PLOT OP V(nVD0059)
+.PLOT OP V(nVD0060)
+.PLOT OP V(nVD0061)
+.PLOT OP V(nVD0062)
+.PLOT OP V(nVD0063)
+.PLOT OP V(nVD0064)
+.PLOT OP V(nVD0065)
+.PLOT OP V(nVD0066)
+.PLOT OP V(nVD0067)
+.PLOT OP V(nVD0068)
+.PLOT OP V(nVD0069)
+.PLOT OP V(nVD0070)
+.PLOT OP V(nVD0071)
+.PLOT OP V(nVD0072)
+.PLOT OP V(nVD0073)
+.PLOT OP V(nVD0074)
+.PLOT OP V(nVD0075)
+.PLOT OP V(nVD0076)
+.PLOT OP V(nVD0077)
+.PLOT OP V(nVD0078)
+.PLOT OP V(nVD0079)
+.PLOT OP V(nVD0080)
+.PLOT OP V(nVD0081)
+.PLOT OP V(nVD0082)
+.PLOT OP V(nVD0083)
+.PLOT OP V(nVD0084)
+.PLOT OP V(nVD0085)
+.PLOT OP V(nVD0086)
+.PLOT OP V(nVD0087)
+.PLOT OP V(nVD0088)
+.PLOT OP V(nVD0089)
+.PLOT OP V(nVD0090)
+.PLOT OP V(nVD0091)
+.PLOT OP V(nVD0092)
+.PLOT OP V(nVD0093)
+.PLOT OP V(nVD0094)
+.PLOT OP V(nVD0095)
+.PLOT OP V(nVD0096)
+.PLOT OP V(nVD0097)
+.PLOT OP V(nVD0098)
+.PLOT OP V(nVD0099)
+.PLOT OP V(nVD0100)
+.PLOT OP V(nVD0101)
+.PLOT OP V(nVD0102)
+.PLOT OP V(nVD0103)
+.PLOT OP V(nVD0104)
+.PLOT OP V(nVD0105)
+.PLOT OP V(nVD0106)
+.PLOT OP V(nVD0107)
+.PLOT OP V(nVD0108)
+.PLOT OP V(nVD0109)
+.PLOT OP V(nVD0110)
+.PLOT OP V(nVD0111)
+.PLOT OP V(nVD0112)
+.PLOT OP V(nVD0113)
+.PLOT OP V(nVD0114)
+.PLOT OP V(nVD0115)
+.PLOT OP V(nVD0116)
+.PLOT OP V(nVD0117)
+.PLOT OP V(nVD0118)
+.PLOT OP V(nVD0119)
+.PLOT OP V(nVD0120)
+.PLOT OP V(nVD0121)
+.PLOT OP V(nVD0122)
+.PLOT OP V(nVD0123)
+.PLOT OP V(nVD0124)
+.PLOT OP V(nVD0125)
+.PLOT OP V(nVD0126)
+.PLOT OP V(nVD0127)
+.PLOT OP V(nVD0128)
+.PLOT OP V(nVD0129)
+.PLOT OP V(nVD0130)
+.PLOT OP V(nVD0131)
+.PLOT OP V(nVD0132)
+.PLOT OP V(nVD0133)
+.PLOT OP V(nVD0134)
+.PLOT OP V(nVD0135)
+.PLOT OP V(nVD0136)
+.PLOT OP V(nVD0137)
+.PLOT OP V(nVD0138)
+.PLOT OP V(nVD0139)
+.PLOT OP V(nVD0140)
+.PLOT OP V(nVD0141)
+.PLOT OP V(nVD0142)
+.PLOT OP V(nVD0143)
+.PLOT OP V(nVD0144)
+.PLOT OP V(nVD0145)
+.PLOT OP V(nVD0146)
+.PLOT OP V(nVD0147)
+.PLOT OP V(nVD0148)
+.PLOT OP V(nVD0149)
+.PLOT OP V(nVD0150)
+.PLOT OP V(nVD0151)
+.PLOT OP V(nVD0152)
+.PLOT OP V(nVD0153)
+.PLOT OP V(nVD0154)
+.PLOT OP V(nVD0155)
+.PLOT OP V(nVD0156)
+.PLOT OP V(nVD0157)
+.PLOT OP V(nVD0158)
+.PLOT OP V(nVD0159)
+.PLOT OP V(nVD0160)
+.PLOT OP V(nVD0161)
+.PLOT OP V(nVD0162)
+.PLOT OP V(nVD0163)
+.PLOT OP V(nVD0164)
+.PLOT OP V(nVD0165)
+.PLOT OP V(nVD0166)
+.PLOT OP V(nVD0167)
+.PLOT OP V(nVD0168)
+.PLOT OP V(nVD0169)
+.PLOT OP V(nVD0170)
+.PLOT OP V(nVD0171)
+.PLOT OP V(nVD0172)
+.PLOT OP V(nVD0173)
+.PLOT OP V(nVD0174)
+.PLOT OP V(nVD0175)
+.PLOT OP V(nVD0176)
+.PLOT OP V(nVD0177)
+.PLOT OP V(nVD0178)
+.PLOT OP V(nVD0179)
+.PLOT OP V(nVD0180)
+.PLOT OP V(nVD0181)
+.PLOT OP V(nVD0182)
+.PLOT OP V(nVD0183)
+.PLOT OP V(nVD0184)
+.PLOT OP V(nVD0185)
+.PLOT OP V(nVD0186)
+.PLOT OP V(nVD0187)
+.PLOT OP V(nVD0188)
+.PLOT OP V(nVD0189)
+.PLOT OP V(nVD0190)
+.PLOT OP V(nVD0191)
+.PLOT OP V(nVD0192)
+.PLOT OP V(nVD0193)
+.PLOT OP V(nVD0194)
+.PLOT OP V(nVD0195)
+.PLOT OP V(nVD0196)
+.PLOT OP V(nVD0197)
+.PLOT OP V(nVD0198)
+.PLOT OP V(nVD0199)
+.PLOT OP V(nVD0200)
+.PLOT OP V(nVD0201)
+.PLOT OP V(nVD0202)
+.PLOT OP V(nVD0203)
+.PLOT OP V(nVD0204)
+.PLOT OP V(nVD0205)
+.PLOT OP V(nVD0206)
+.PLOT OP V(nVD0207)
+.PLOT OP V(nVD0208)
+.PLOT OP V(nVD0209)
+.PLOT OP V(nVD0210)
+.PLOT OP V(nVD0211)
+.PLOT OP V(nVD0212)
+.PLOT OP V(nVD0213)
+.PLOT OP V(nVD0214)
+.PLOT OP V(nVD0215)
+.PLOT OP V(nVD0216)
+.PLOT OP V(nVD0217)
+.PLOT OP V(nVD0218)
+.PLOT OP V(nVD0219)
+.PLOT OP V(nVD0220)
+.PLOT OP V(nVD0221)
+.PLOT OP V(nVD0222)
+.PLOT OP V(nVD0223)
+.PLOT OP V(nVD0224)
+.PLOT OP V(nVD0225)
+.PLOT OP V(nVD0226)
+.PLOT OP V(nVD0227)
+.PLOT OP V(nVD0228)
+.PLOT OP V(nVD0229)
+.PLOT OP V(nVD0230)
+.PLOT OP V(nVD0231)
+.PLOT OP V(nVD0232)
+.PLOT OP V(nVD0233)
+.PLOT OP V(nVD0234)
+.PLOT OP V(nVD0235)
+.END

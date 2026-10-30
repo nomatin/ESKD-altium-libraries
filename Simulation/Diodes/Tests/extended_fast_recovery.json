@@ -1,0 +1,175 @@
+{
+  "name": "extended_fast_recovery",
+  "models": [
+    "../MY_LIB_VD0001_D.ckt",
+    "../MY_LIB_VD0002_D.ckt",
+    "../MY_LIB_VD0003_D.ckt",
+    "../MY_LIB_VD0004_DUAL.ckt",
+    "../MY_LIB_VD0005_DUAL.ckt"
+  ],
+  "spice": "* Recovery fixtures; native Altium; 25 C\n.OPTIONS TEMP=25 RELTOL=1e-6 ABSTOL=1e-13\nVVD0001j1 dVD0001j1 0 PWL(0 1.99998977994751 100n 1.99998977994751 100.01n -6 300n -6)\nRVD0001j1 dVD0001j1 aVD0001j1 100\nVSVD0001j1 aVD0001j1 nVD0001j1 0\nXVD0001j1 nVD0001j1 0 MY_LIB_VD0001_D\nVVD0002j1 dVD0002j1 0 PWL(0 1.99998977994751 100n 1.99998977994751 100.01n -6 300n -6)\nRVD0002j1 dVD0002j1 aVD0002j1 100\nVSVD0002j1 aVD0002j1 nVD0002j1 0\nXVD0002j1 nVD0002j1 0 MY_LIB_VD0002_D\nVVD0003j1 dVD0003j1 0 PWL(0 1.84404280713394 100n 1.84404280713394 100.01n -0.193772654916705 300n -0.193772654916705)\nRVD0003j1 dVD0003j1 aVD0003j1 100\nVSVD0003j1 aVD0003j1 nVD0003j1 0\nXVD0003j1 nVD0003j1 0 MY_LIB_VD0003_D\nVVD0004j1 dVD0004j1 0 PWL(0 1.84404280713394 100n 1.84404280713394 100.01n -0.193772654916705 300n -0.193772654916705)\nRVD0004j1 dVD0004j1 aVD0004j1 100\nVSVD0004j1 aVD0004j1 nVD0004j1 0\nXVD0004j1 nVD0004j1 0 0 MY_LIB_VD0004_DUAL\nVVD0004j2 dVD0004j2 0 PWL(0 1.84404280713394 100n 1.84404280713394 100.01n -0.193772654916705 300n -0.193772654916705)\nRVD0004j2 dVD0004j2 aVD0004j2 100\nVSVD0004j2 aVD0004j2 nVD0004j2 0\nXVD0004j2 0 nVD0004j2 0 MY_LIB_VD0004_DUAL\nVVD0005j1 dVD0005j1 0 PWL(0 1.84404280713394 100n 1.84404280713394 100.01n -0.193772654916705 300n -0.193772654916705)\nRVD0005j1 dVD0005j1 aVD0005j1 100\nVSVD0005j1 aVD0005j1 nVD0005j1 0\nXVD0005j1 nVD0005j1 0 0 MY_LIB_VD0005_DUAL\nVVD0005j2 dVD0005j2 0 PWL(0 1.84404280713394 100n 1.84404280713394 100.01n -0.193772654916705 300n -0.193772654916705)\nRVD0005j2 dVD0005j2 aVD0005j2 100\nVSVD0005j2 aVD0005j2 nVD0005j2 0\nXVD0005j2 nVD0005j2 0 nVD0005j2 MY_LIB_VD0005_DUAL\n.TRAN 20p 1.1e-07 99n 20p\n.PLOT TRAN i(VSVD0001j1)\n.PLOT TRAN i(VSVD0002j1)\n.PLOT TRAN i(VSVD0003j1)\n.PLOT TRAN i(VSVD0004j1)\n.PLOT TRAN i(VSVD0004j2)\n.PLOT TRAN i(VSVD0005j1)\n.PLOT TRAN i(VSVD0005j2)\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "trr_VD0001j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0001j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0001j1)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0002j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0002j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0002j1)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0003j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0003j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0003j1)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0004j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0004j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0004j1)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0004j2",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0004j2)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0004j2)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0005j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0005j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0005j1)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    },
+    {
+      "id": "trr_VD0005j2",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0005j2)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0005j2)",
+        "level": -0.001,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 1.0900000000000001e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 3.9200000000000005e-09,
+        "max": 4.08e-09
+      }
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "name": "schottky_dc_reverse",
+  "models": [
+    "../MY_LIB_VD0024_D.ckt",
+    "../MY_LIB_VD0025_DUAL.ckt",
+    "../MY_LIB_VD0026_DUAL.ckt",
+    "../MY_LIB_VD0027_DUAL.ckt",
+    "../MY_LIB_VD0028_D.ckt",
+    "../MY_LIB_VD0029_D.ckt",
+    "../MY_LIB_VD0030_D.ckt",
+    "../MY_LIB_VD0031_D.ckt",
+    "../MY_LIB_VD0032_D.ckt",
+    "../MY_LIB_VD0033_D.ckt",
+    "../MY_LIB_VD0034_D.ckt",
+    "../MY_LIB_VD0035_D.ckt",
+    "../MY_LIB_VD0036_D.ckt",
+    "../MY_LIB_VD0037_D.ckt",
+    "../MY_LIB_VD0038_D.ckt",
+    "../MY_LIB_VD0039_D.ckt",
+    "../MY_LIB_VD0040_D.ckt",
+    "../MY_LIB_VD0041_D.ckt",
+    "../MY_LIB_VD0042_D.ckt",
+    "../MY_LIB_VD0043_D.ckt",
+    "../MY_LIB_VD0044_D.ckt",
+    "../MY_LIB_VD0045_D.ckt",
+    "../MY_LIB_VD0046_D.ckt",
+    "../MY_LIB_VD0047_D.ckt",
+    "../MY_LIB_VD0048_D.ckt",
+    "../MY_LIB_VD0049_D.ckt",
+    "../MY_LIB_VD0050_D.ckt",
+    "../MY_LIB_VD0051_D.ckt",
+    "../MY_LIB_VD0052_D.ckt",
+    "../MY_LIB_VD0053_D.ckt",
+    "../MY_LIB_VD0054_D.ckt"
+  ],
+  "spice": "* Schottky diodes; static verification at 25 C\n.OPTIONS TEMP=25\nVSCALE scale 0 DC 1\nXVD0024j1p1 0 nVD0024j1p1 MY_LIB_VD0024_D\nEVD0024j1p1 dVD0024j1p1 0 scale 0 30\nVSVD0024j1p1 dVD0024j1p1 nVD0024j1p1 0\nXVD0025j1p1 nVD0025j1p1 0 0 MY_LIB_VD0025_DUAL\nEVD0025j1p1 dVD0025j1p1 0 scale 0 30\nVSVD0025j1p1 dVD0025j1p1 nVD0025j1p1 0\nXVD0025j2p1 0 nVD0025j2p1 0 MY_LIB_VD0025_DUAL\nEVD0025j2p1 dVD0025j2p1 0 scale 0 30\nVSVD0025j2p1 dVD0025j2p1 nVD0025j2p1 0\nXVD0026j1p1 0 nVD0026j1p1 nVD0026j1p1 MY_LIB_VD0026_DUAL\nEVD0026j1p1 dVD0026j1p1 0 scale 0 30\nVSVD0026j1p1 dVD0026j1p1 nVD0026j1p1 0\nXVD0026j2p1 nVD0026j2p1 0 nVD0026j2p1 MY_LIB_VD0026_DUAL\nEVD0026j2p1 dVD0026j2p1 0 scale 0 30\nVSVD0026j2p1 dVD0026j2p1 nVD0026j2p1 0\nXVD0027j1p1 0 nVD0027j1p1 nVD0027j1p1 MY_LIB_VD0027_DUAL\nEVD0027j1p1 dVD0027j1p1 0 scale 0 30\nVSVD0027j1p1 dVD0027j1p1 nVD0027j1p1 0\nXVD0027j2p1 0 nVD0027j2p1 0 MY_LIB_VD0027_DUAL\nEVD0027j2p1 dVD0027j2p1 0 scale 0 30\nVSVD0027j2p1 dVD0027j2p1 nVD0027j2p1 0\nXVD0028j1p1 0 nVD0028j1p1 MY_LIB_VD0028_D\nEVD0028j1p1 dVD0028j1p1 0 scale 0 20\nVSVD0028j1p1 dVD0028j1p1 nVD0028j1p1 0\nXVD0029j1p1 0 nVD0029j1p1 MY_LIB_VD0029_D\nEVD0029j1p1 dVD0029j1p1 0 scale 0 30\nVSVD0029j1p1 dVD0029j1p1 nVD0029j1p1 0\nXVD0030j1p1 0 nVD0030j1p1 MY_LIB_VD0030_D\nEVD0030j1p1 dVD0030j1p1 0 scale 0 40\nVSVD0030j1p1 dVD0030j1p1 nVD0030j1p1 0\nXVD0031j1p1 0 nVD0031j1p1 MY_LIB_VD0031_D\nEVD0031j1p1 dVD0031j1p1 0 scale 0 50\nVSVD0031j1p1 dVD0031j1p1 nVD0031j1p1 0\nXVD0032j1p1 0 nVD0032j1p1 MY_LIB_VD0032_D\nEVD0032j1p1 dVD0032j1p1 0 scale 0 60\nVSVD0032j1p1 dVD0032j1p1 nVD0032j1p1 0\nXVD0033j1p1 0 nVD0033j1p1 MY_LIB_VD0033_D\nEVD0033j1p1 dVD0033j1p1 0 scale 0 80\nVSVD0033j1p1 dVD0033j1p1 nVD0033j1p1 0\nXVD0034j1p1 0 nVD0034j1p1 MY_LIB_VD0034_D\nEVD0034j1p1 dVD0034j1p1 0 scale 0 100\nVSVD0034j1p1 dVD0034j1p1 nVD0034j1p1 0\nXVD0035j1p1 0 nVD0035j1p1 MY_LIB_VD0035_D\nEVD0035j1p1 dVD0035j1p1 0 scale 0 150\nVSVD0035j1p1 dVD0035j1p1 nVD0035j1p1 0\nXVD0036j1p1 0 nVD0036j1p1 MY_LIB_VD0036_D\nEVD0036j1p1 dVD0036j1p1 0 scale 0 200\nVSVD0036j1p1 dVD0036j1p1 nVD0036j1p1 0\nXVD0037j1p1 0 nVD0037j1p1 MY_LIB_VD0037_D\nEVD0037j1p1 dVD0037j1p1 0 scale 0 20\nVSVD0037j1p1 dVD0037j1p1 nVD0037j1p1 0\nXVD0038j1p1 0 nVD0038j1p1 MY_LIB_VD0038_D\nEVD0038j1p1 dVD0038j1p1 0 scale 0 30\nVSVD0038j1p1 dVD0038j1p1 nVD0038j1p1 0\nXVD0039j1p1 0 nVD0039j1p1 MY_LIB_VD0039_D\nEVD0039j1p1 dVD0039j1p1 0 scale 0 40\nVSVD0039j1p1 dVD0039j1p1 nVD0039j1p1 0\nXVD0040j1p1 0 nVD0040j1p1 MY_LIB_VD0040_D\nEVD0040j1p1 dVD0040j1p1 0 scale 0 50\nVSVD0040j1p1 dVD0040j1p1 nVD0040j1p1 0\nXVD0041j1p1 0 nVD0041j1p1 MY_LIB_VD0041_D\nEVD0041j1p1 dVD0041j1p1 0 scale 0 60\nVSVD0041j1p1 dVD0041j1p1 nVD0041j1p1 0\nXVD0042j1p1 0 nVD0042j1p1 MY_LIB_VD0042_D\nEVD0042j1p1 dVD0042j1p1 0 scale 0 80\nVSVD0042j1p1 dVD0042j1p1 nVD0042j1p1 0\nXVD0043j1p1 0 nVD0043j1p1 MY_LIB_VD0043_D\nEVD0043j1p1 dVD0043j1p1 0 scale 0 100\nVSVD0043j1p1 dVD0043j1p1 nVD0043j1p1 0\nXVD0044j1p1 0 nVD0044j1p1 MY_LIB_VD0044_D\nEVD0044j1p1 dVD0044j1p1 0 scale 0 150\nVSVD0044j1p1 dVD0044j1p1 nVD0044j1p1 0\nXVD0045j1p1 0 nVD0045j1p1 MY_LIB_VD0045_D\nEVD0045j1p1 dVD0045j1p1 0 scale 0 200\nVSVD0045j1p1 dVD0045j1p1 nVD0045j1p1 0\nXVD0046j1p1 0 nVD0046j1p1 MY_LIB_VD0046_D\nEVD0046j1p1 dVD0046j1p1 0 scale 0 20\nVSVD0046j1p1 dVD0046j1p1 nVD0046j1p1 0\nXVD0047j1p1 0 nVD0047j1p1 MY_LIB_VD0047_D\nEVD0047j1p1 dVD0047j1p1 0 scale 0 30\nVSVD0047j1p1 dVD0047j1p1 nVD0047j1p1 0\nXVD0048j1p1 0 nVD0048j1p1 MY_LIB_VD0048_D\nEVD0048j1p1 dVD0048j1p1 0 scale 0 40\nVSVD0048j1p1 dVD0048j1p1 nVD0048j1p1 0\nXVD0049j1p1 0 nVD0049j1p1 MY_LIB_VD0049_D\nEVD0049j1p1 dVD0049j1p1 0 scale 0 50\nVSVD0049j1p1 dVD0049j1p1 nVD0049j1p1 0\nXVD0050j1p1 0 nVD0050j1p1 MY_LIB_VD0050_D\nEVD0050j1p1 dVD0050j1p1 0 scale 0 60\nVSVD0050j1p1 dVD0050j1p1 nVD0050j1p1 0\nXVD0051j1p1 0 nVD0051j1p1 MY_LIB_VD0051_D\nEVD0051j1p1 dVD0051j1p1 0 scale 0 80\nVSVD0051j1p1 dVD0051j1p1 nVD0051j1p1 0\nXVD0052j1p1 0 nVD0052j1p1 MY_LIB_VD0052_D\nEVD0052j1p1 dVD0052j1p1 0 scale 0 100\nVSVD0052j1p1 dVD0052j1p1 nVD0052j1p1 0\nXVD0053j1p1 0 nVD0053j1p1 MY_LIB_VD0053_D\nEVD0053j1p1 dVD0053j1p1 0 scale 0 150\nVSVD0053j1p1 dVD0053j1p1 nVD0053j1p1 0\nXVD0054j1p1 0 nVD0054j1p1 MY_LIB_VD0054_D\nEVD0054j1p1 dVD0054j1p1 0 scale 0 200\nVSVD0054j1p1 dVD0054j1p1 nVD0054j1p1 0\n.DC VSCALE 0.5 1 0.5\n.PLOT DC I(VSVD0024j1p1)\n.PLOT DC I(VSVD0025j1p1)\n.PLOT DC I(VSVD0025j2p1)\n.PLOT DC I(VSVD0026j1p1)\n.PLOT DC I(VSVD0026j2p1)\n.PLOT DC I(VSVD0027j1p1)\n.PLOT DC I(VSVD0027j2p1)\n.PLOT DC I(VSVD0028j1p1)\n.PLOT DC I(VSVD0029j1p1)\n.PLOT DC I(VSVD0030j1p1)\n.PLOT DC I(VSVD0031j1p1)\n.PLOT DC I(VSVD0032j1p1)\n.PLOT DC I(VSVD0033j1p1)\n.PLOT DC I(VSVD0034j1p1)\n.PLOT DC I(VSVD0035j1p1)\n.PLOT DC I(VSVD0036j1p1)\n.PLOT DC I(VSVD0037j1p1)\n.PLOT DC I(VSVD0038j1p1)\n.PLOT DC I(VSVD0039j1p1)\n.PLOT DC I(VSVD0040j1p1)\n.PLOT DC I(VSVD0041j1p1)\n.PLOT DC I(VSVD0042j1p1)\n.PLOT DC I(VSVD0043j1p1)\n.PLOT DC I(VSVD0044j1p1)\n.PLOT DC I(VSVD0045j1p1)\n.PLOT DC I(VSVD0046j1p1)\n.PLOT DC I(VSVD0047j1p1)\n.PLOT DC I(VSVD0048j1p1)\n.PLOT DC I(VSVD0049j1p1)\n.PLOT DC I(VSVD0050j1p1)\n.PLOT DC I(VSVD0051j1p1)\n.PLOT DC I(VSVD0052j1p1)\n.PLOT DC I(VSVD0053j1p1)\n.PLOT DC I(VSVD0054j1p1)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0024j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0025j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0025j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0026j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0026j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0027j1p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0027j2p1)",
+      "measurement": "last",
+      "min": 9.057824812011e-09,
+      "max": 9.179824812010999e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0028j1p1)",
+      "measurement": "last",
+      "min": 3.4942457268685996e-09,
+      "max": 3.5762457268686e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0029j1p1)",
+      "measurement": "last",
+      "min": 3.4742457268685997e-09,
+      "max": 3.5962457268686e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0030j1p1)",
+      "measurement": "last",
+      "min": 3.4542457268685998e-09,
+      "max": 3.6162457268686e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0031j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.024713630051153e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0032j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.224713630051153e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0033j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.6100428740986702e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0034j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0100428740986704e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0035j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.0100061237867683e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0036j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0100061237867685e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0037j1p1)",
+      "measurement": "last",
+      "min": 7.0294914537371995e-09,
+      "max": 7.1114914537372e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0038j1p1)",
+      "measurement": "last",
+      "min": 7.0094914537372e-09,
+      "max": 7.131491453737199e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0039j1p1)",
+      "measurement": "last",
+      "min": 6.9894914537372e-09,
+      "max": 7.1514914537372e-09
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0040j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.039427260102306e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0041j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.239427260102306e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0042j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.6100857481973406e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0043j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0100857481973408e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0044j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.010012247573536e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0045j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0100122475735364e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0046j1p1)",
+      "measurement": "last",
+      "min": 1.0564737180605999e-08,
+      "max": 1.0646737180606e-08
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0047j1p1)",
+      "measurement": "last",
+      "min": 1.0544737180606e-08,
+      "max": 1.0666737180605999e-08
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0048j1p1)",
+      "measurement": "last",
+      "min": 1.0524737180606e-08,
+      "max": 1.0686737180605998e-08
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0049j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.054140890153458e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0050j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.254140890153458e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0051j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.610128622296011e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0052j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0101286222960111e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0053j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 3.0100183713603046e-10
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSVD0054j1p1)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.010018371360305e-10
+    }
+  ]
+}

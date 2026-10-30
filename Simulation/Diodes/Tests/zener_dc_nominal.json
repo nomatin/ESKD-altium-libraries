@@ -1,0 +1,1456 @@
+{
+  "name": "zener_dc_nominal",
+  "models": [
+    "../MY_LIB_VD0055_D.ckt",
+    "../MY_LIB_VD0056_D.ckt",
+    "../MY_LIB_VD0057_D.ckt",
+    "../MY_LIB_VD0058_D.ckt",
+    "../MY_LIB_VD0059_D.ckt",
+    "../MY_LIB_VD0060_D.ckt",
+    "../MY_LIB_VD0061_D.ckt",
+    "../MY_LIB_VD0062_D.ckt",
+    "../MY_LIB_VD0063_D.ckt",
+    "../MY_LIB_VD0064_D.ckt",
+    "../MY_LIB_VD0065_D.ckt",
+    "../MY_LIB_VD0066_D.ckt",
+    "../MY_LIB_VD0067_D.ckt",
+    "../MY_LIB_VD0068_D.ckt",
+    "../MY_LIB_VD0069_D.ckt",
+    "../MY_LIB_VD0070_D.ckt",
+    "../MY_LIB_VD0071_D.ckt",
+    "../MY_LIB_VD0072_D.ckt",
+    "../MY_LIB_VD0073_D.ckt",
+    "../MY_LIB_VD0074_D.ckt",
+    "../MY_LIB_VD0075_D.ckt",
+    "../MY_LIB_VD0076_D.ckt",
+    "../MY_LIB_VD0077_D.ckt",
+    "../MY_LIB_VD0078_D.ckt",
+    "../MY_LIB_VD0079_D.ckt",
+    "../MY_LIB_VD0080_D.ckt",
+    "../MY_LIB_VD0081_D.ckt",
+    "../MY_LIB_VD0082_D.ckt",
+    "../MY_LIB_VD0083_D.ckt",
+    "../MY_LIB_VD0084_D.ckt",
+    "../MY_LIB_VD0085_D.ckt",
+    "../MY_LIB_VD0086_D.ckt",
+    "../MY_LIB_VD0087_D.ckt",
+    "../MY_LIB_VD0088_D.ckt",
+    "../MY_LIB_VD0089_D.ckt",
+    "../MY_LIB_VD0090_D.ckt",
+    "../MY_LIB_VD0091_D.ckt",
+    "../MY_LIB_VD0092_D.ckt",
+    "../MY_LIB_VD0093_D.ckt",
+    "../MY_LIB_VD0094_D.ckt",
+    "../MY_LIB_VD0095_D.ckt",
+    "../MY_LIB_VD0096_D.ckt",
+    "../MY_LIB_VD0097_D.ckt",
+    "../MY_LIB_VD0098_D.ckt",
+    "../MY_LIB_VD0099_D.ckt",
+    "../MY_LIB_VD0100_D.ckt",
+    "../MY_LIB_VD0101_D.ckt",
+    "../MY_LIB_VD0102_D.ckt",
+    "../MY_LIB_VD0103_D.ckt",
+    "../MY_LIB_VD0104_D.ckt",
+    "../MY_LIB_VD0105_D.ckt",
+    "../MY_LIB_VD0106_D.ckt",
+    "../MY_LIB_VD0107_D.ckt",
+    "../MY_LIB_VD0108_D.ckt",
+    "../MY_LIB_VD0109_D.ckt",
+    "../MY_LIB_VD0110_D.ckt",
+    "../MY_LIB_VD0111_D.ckt",
+    "../MY_LIB_VD0112_D.ckt",
+    "../MY_LIB_VD0113_D.ckt",
+    "../MY_LIB_VD0114_D.ckt",
+    "../MY_LIB_VD0115_D.ckt",
+    "../MY_LIB_VD0116_D.ckt",
+    "../MY_LIB_VD0117_D.ckt",
+    "../MY_LIB_VD0118_D.ckt",
+    "../MY_LIB_VD0119_D.ckt",
+    "../MY_LIB_VD0120_D.ckt",
+    "../MY_LIB_VD0121_D.ckt",
+    "../MY_LIB_VD0122_D.ckt",
+    "../MY_LIB_VD0123_D.ckt",
+    "../MY_LIB_VD0124_D.ckt",
+    "../MY_LIB_VD0125_D.ckt",
+    "../MY_LIB_VD0126_D.ckt",
+    "../MY_LIB_VD0127_D.ckt",
+    "../MY_LIB_VD0128_D.ckt",
+    "../MY_LIB_VD0129_D.ckt",
+    "../MY_LIB_VD0130_D.ckt",
+    "../MY_LIB_VD0131_D.ckt",
+    "../MY_LIB_VD0132_D.ckt",
+    "../MY_LIB_VD0133_D.ckt",
+    "../MY_LIB_VD0134_D.ckt",
+    "../MY_LIB_VD0135_D.ckt",
+    "../MY_LIB_VD0136_D.ckt",
+    "../MY_LIB_VD0137_D.ckt",
+    "../MY_LIB_VD0138_D.ckt",
+    "../MY_LIB_VD0139_D.ckt",
+    "../MY_LIB_VD0140_D.ckt",
+    "../MY_LIB_VD0141_D.ckt",
+    "../MY_LIB_VD0142_D.ckt",
+    "../MY_LIB_VD0143_D.ckt",
+    "../MY_LIB_VD0144_D.ckt",
+    "../MY_LIB_VD0145_D.ckt",
+    "../MY_LIB_VD0146_D.ckt",
+    "../MY_LIB_VD0147_D.ckt",
+    "../MY_LIB_VD0148_D.ckt",
+    "../MY_LIB_VD0149_D.ckt",
+    "../MY_LIB_VD0150_D.ckt",
+    "../MY_LIB_VD0151_D.ckt",
+    "../MY_LIB_VD0152_D.ckt",
+    "../MY_LIB_VD0153_D.ckt",
+    "../MY_LIB_VD0154_D.ckt",
+    "../MY_LIB_VD0155_D.ckt",
+    "../MY_LIB_VD0156_D.ckt",
+    "../MY_LIB_VD0157_D.ckt",
+    "../MY_LIB_VD0158_D.ckt",
+    "../MY_LIB_VD0159_D.ckt",
+    "../MY_LIB_VD0160_D.ckt",
+    "../MY_LIB_VD0161_D.ckt",
+    "../MY_LIB_VD0162_D.ckt",
+    "../MY_LIB_VD0163_D.ckt",
+    "../MY_LIB_VD0164_D.ckt",
+    "../MY_LIB_VD0165_D.ckt",
+    "../MY_LIB_VD0166_D.ckt",
+    "../MY_LIB_VD0167_D.ckt",
+    "../MY_LIB_VD0168_D.ckt",
+    "../MY_LIB_VD0169_D.ckt",
+    "../MY_LIB_VD0170_D.ckt",
+    "../MY_LIB_VD0171_D.ckt",
+    "../MY_LIB_VD0172_D.ckt",
+    "../MY_LIB_VD0173_D.ckt",
+    "../MY_LIB_VD0174_D.ckt",
+    "../MY_LIB_VD0175_D.ckt",
+    "../MY_LIB_VD0176_D.ckt",
+    "../MY_LIB_VD0177_D.ckt",
+    "../MY_LIB_VD0178_D.ckt",
+    "../MY_LIB_VD0179_D.ckt",
+    "../MY_LIB_VD0180_D.ckt",
+    "../MY_LIB_VD0181_D.ckt",
+    "../MY_LIB_VD0182_D.ckt",
+    "../MY_LIB_VD0183_D.ckt",
+    "../MY_LIB_VD0184_D.ckt",
+    "../MY_LIB_VD0185_D.ckt",
+    "../MY_LIB_VD0186_D.ckt",
+    "../MY_LIB_VD0187_D.ckt",
+    "../MY_LIB_VD0188_D.ckt",
+    "../MY_LIB_VD0189_D.ckt",
+    "../MY_LIB_VD0190_D.ckt",
+    "../MY_LIB_VD0191_D.ckt",
+    "../MY_LIB_VD0192_D.ckt",
+    "../MY_LIB_VD0193_D.ckt",
+    "../MY_LIB_VD0194_D.ckt",
+    "../MY_LIB_VD0195_D.ckt",
+    "../MY_LIB_VD0196_D.ckt",
+    "../MY_LIB_VD0197_D.ckt",
+    "../MY_LIB_VD0198_D.ckt",
+    "../MY_LIB_VD0199_D.ckt",
+    "../MY_LIB_VD0200_D.ckt",
+    "../MY_LIB_VD0201_D.ckt",
+    "../MY_LIB_VD0202_D.ckt",
+    "../MY_LIB_VD0203_D.ckt",
+    "../MY_LIB_VD0204_D.ckt",
+    "../MY_LIB_VD0205_D.ckt",
+    "../MY_LIB_VD0206_D.ckt",
+    "../MY_LIB_VD0207_D.ckt",
+    "../MY_LIB_VD0208_D.ckt",
+    "../MY_LIB_VD0209_D.ckt",
+    "../MY_LIB_VD0210_D.ckt",
+    "../MY_LIB_VD0211_D.ckt",
+    "../MY_LIB_VD0212_D.ckt",
+    "../MY_LIB_VD0213_D.ckt",
+    "../MY_LIB_VD0214_D.ckt",
+    "../MY_LIB_VD0215_D.ckt",
+    "../MY_LIB_VD0216_D.ckt",
+    "../MY_LIB_VD0217_D.ckt",
+    "../MY_LIB_VD0218_D.ckt",
+    "../MY_LIB_VD0219_D.ckt",
+    "../MY_LIB_VD0220_D.ckt",
+    "../MY_LIB_VD0221_D.ckt",
+    "../MY_LIB_VD0222_D.ckt",
+    "../MY_LIB_VD0223_D.ckt",
+    "../MY_LIB_VD0224_D.ckt",
+    "../MY_LIB_VD0225_D.ckt",
+    "../MY_LIB_VD0226_D.ckt",
+    "../MY_LIB_VD0227_D.ckt",
+    "../MY_LIB_VD0228_D.ckt",
+    "../MY_LIB_VD0229_D.ckt",
+    "../MY_LIB_VD0230_D.ckt",
+    "../MY_LIB_VD0231_D.ckt",
+    "../MY_LIB_VD0232_D.ckt",
+    "../MY_LIB_VD0233_D.ckt",
+    "../MY_LIB_VD0234_D.ckt",
+    "../MY_LIB_VD0235_D.ckt"
+  ],
+  "spice": "* Zener static checks at 25 C\n.OPTIONS TEMP=25\nVSCALE scale 0 DC 1\nXVD0055 0 nVD0055 MY_LIB_VD0055_D\nGVD0055 0 nVD0055 scale 0 0.005\nXVD0056 0 nVD0056 MY_LIB_VD0056_D\nGVD0056 0 nVD0056 scale 0 0.005\nXVD0057 0 nVD0057 MY_LIB_VD0057_D\nGVD0057 0 nVD0057 scale 0 0.005\nXVD0058 0 nVD0058 MY_LIB_VD0058_D\nGVD0058 0 nVD0058 scale 0 0.005\nXVD0059 0 nVD0059 MY_LIB_VD0059_D\nGVD0059 0 nVD0059 scale 0 0.005\nXVD0060 0 nVD0060 MY_LIB_VD0060_D\nGVD0060 0 nVD0060 scale 0 0.005\nXVD0061 0 nVD0061 MY_LIB_VD0061_D\nGVD0061 0 nVD0061 scale 0 0.005\nXVD0062 0 nVD0062 MY_LIB_VD0062_D\nGVD0062 0 nVD0062 scale 0 0.005\nXVD0063 0 nVD0063 MY_LIB_VD0063_D\nGVD0063 0 nVD0063 scale 0 0.005\nXVD0064 0 nVD0064 MY_LIB_VD0064_D\nGVD0064 0 nVD0064 scale 0 0.005\nXVD0065 0 nVD0065 MY_LIB_VD0065_D\nGVD0065 0 nVD0065 scale 0 0.005\nXVD0066 0 nVD0066 MY_LIB_VD0066_D\nGVD0066 0 nVD0066 scale 0 0.005\nXVD0067 0 nVD0067 MY_LIB_VD0067_D\nGVD0067 0 nVD0067 scale 0 0.005\nXVD0068 0 nVD0068 MY_LIB_VD0068_D\nGVD0068 0 nVD0068 scale 0 0.005\nXVD0069 0 nVD0069 MY_LIB_VD0069_D\nGVD0069 0 nVD0069 scale 0 0.005\nXVD0070 0 nVD0070 MY_LIB_VD0070_D\nGVD0070 0 nVD0070 scale 0 0.005\nXVD0071 0 nVD0071 MY_LIB_VD0071_D\nGVD0071 0 nVD0071 scale 0 0.005\nXVD0072 0 nVD0072 MY_LIB_VD0072_D\nGVD0072 0 nVD0072 scale 0 0.005\nXVD0073 0 nVD0073 MY_LIB_VD0073_D\nGVD0073 0 nVD0073 scale 0 0.005\nXVD0074 0 nVD0074 MY_LIB_VD0074_D\nGVD0074 0 nVD0074 scale 0 0.005\nXVD0075 0 nVD0075 MY_LIB_VD0075_D\nGVD0075 0 nVD0075 scale 0 0.005\nXVD0076 0 nVD0076 MY_LIB_VD0076_D\nGVD0076 0 nVD0076 scale 0 0.005\nXVD0077 0 nVD0077 MY_LIB_VD0077_D\nGVD0077 0 nVD0077 scale 0 0.005\nXVD0078 0 nVD0078 MY_LIB_VD0078_D\nGVD0078 0 nVD0078 scale 0 0.005\nXVD0079 0 nVD0079 MY_LIB_VD0079_D\nGVD0079 0 nVD0079 scale 0 0.005\nXVD0080 0 nVD0080 MY_LIB_VD0080_D\nGVD0080 0 nVD0080 scale 0 0.002\nXVD0081 0 nVD0081 MY_LIB_VD0081_D\nGVD0081 0 nVD0081 scale 0 0.002\nXVD0082 0 nVD0082 MY_LIB_VD0082_D\nGVD0082 0 nVD0082 scale 0 0.002\nXVD0083 0 nVD0083 MY_LIB_VD0083_D\nGVD0083 0 nVD0083 scale 0 0.002\nXVD0084 0 nVD0084 MY_LIB_VD0084_D\nGVD0084 0 nVD0084 scale 0 0.002\nXVD0085 0 nVD0085 MY_LIB_VD0085_D\nGVD0085 0 nVD0085 scale 0 0.002\nXVD0086 0 nVD0086 MY_LIB_VD0086_D\nGVD0086 0 nVD0086 scale 0 0.002\nXVD0087 0 nVD0087 MY_LIB_VD0087_D\nGVD0087 0 nVD0087 scale 0 0.002\nXVD0088 0 nVD0088 MY_LIB_VD0088_D\nGVD0088 0 nVD0088 scale 0 0.002\nXVD0089 0 nVD0089 MY_LIB_VD0089_D\nGVD0089 0 nVD0089 scale 0 0.002\nXVD0090 0 nVD0090 MY_LIB_VD0090_D\nGVD0090 0 nVD0090 scale 0 0.002\nXVD0091 0 nVD0091 MY_LIB_VD0091_D\nGVD0091 0 nVD0091 scale 0 0.002\nXVD0092 0 nVD0092 MY_LIB_VD0092_D\nGVD0092 0 nVD0092 scale 0 0.005\nXVD0093 0 nVD0093 MY_LIB_VD0093_D\nGVD0093 0 nVD0093 scale 0 0.005\nXVD0094 0 nVD0094 MY_LIB_VD0094_D\nGVD0094 0 nVD0094 scale 0 0.005\nXVD0095 0 nVD0095 MY_LIB_VD0095_D\nGVD0095 0 nVD0095 scale 0 0.005\nXVD0096 0 nVD0096 MY_LIB_VD0096_D\nGVD0096 0 nVD0096 scale 0 0.005\nXVD0097 0 nVD0097 MY_LIB_VD0097_D\nGVD0097 0 nVD0097 scale 0 0.005\nXVD0098 0 nVD0098 MY_LIB_VD0098_D\nGVD0098 0 nVD0098 scale 0 0.005\nXVD0099 0 nVD0099 MY_LIB_VD0099_D\nGVD0099 0 nVD0099 scale 0 0.005\nXVD0100 0 nVD0100 MY_LIB_VD0100_D\nGVD0100 0 nVD0100 scale 0 0.005\nXVD0101 0 nVD0101 MY_LIB_VD0101_D\nGVD0101 0 nVD0101 scale 0 0.005\nXVD0102 0 nVD0102 MY_LIB_VD0102_D\nGVD0102 0 nVD0102 scale 0 0.005\nXVD0103 0 nVD0103 MY_LIB_VD0103_D\nGVD0103 0 nVD0103 scale 0 0.005\nXVD0104 0 nVD0104 MY_LIB_VD0104_D\nGVD0104 0 nVD0104 scale 0 0.005\nXVD0105 0 nVD0105 MY_LIB_VD0105_D\nGVD0105 0 nVD0105 scale 0 0.005\nXVD0106 0 nVD0106 MY_LIB_VD0106_D\nGVD0106 0 nVD0106 scale 0 0.005\nXVD0107 0 nVD0107 MY_LIB_VD0107_D\nGVD0107 0 nVD0107 scale 0 0.005\nXVD0108 0 nVD0108 MY_LIB_VD0108_D\nGVD0108 0 nVD0108 scale 0 0.005\nXVD0109 0 nVD0109 MY_LIB_VD0109_D\nGVD0109 0 nVD0109 scale 0 0.005\nXVD0110 0 nVD0110 MY_LIB_VD0110_D\nGVD0110 0 nVD0110 scale 0 0.005\nXVD0111 0 nVD0111 MY_LIB_VD0111_D\nGVD0111 0 nVD0111 scale 0 0.005\nXVD0112 0 nVD0112 MY_LIB_VD0112_D\nGVD0112 0 nVD0112 scale 0 0.005\nXVD0113 0 nVD0113 MY_LIB_VD0113_D\nGVD0113 0 nVD0113 scale 0 0.005\nXVD0114 0 nVD0114 MY_LIB_VD0114_D\nGVD0114 0 nVD0114 scale 0 0.005\nXVD0115 0 nVD0115 MY_LIB_VD0115_D\nGVD0115 0 nVD0115 scale 0 0.005\nXVD0116 0 nVD0116 MY_LIB_VD0116_D\nGVD0116 0 nVD0116 scale 0 0.005\nXVD0117 0 nVD0117 MY_LIB_VD0117_D\nGVD0117 0 nVD0117 scale 0 0.002\nXVD0118 0 nVD0118 MY_LIB_VD0118_D\nGVD0118 0 nVD0118 scale 0 0.002\nXVD0119 0 nVD0119 MY_LIB_VD0119_D\nGVD0119 0 nVD0119 scale 0 0.002\nXVD0120 0 nVD0120 MY_LIB_VD0120_D\nGVD0120 0 nVD0120 scale 0 0.002\nXVD0121 0 nVD0121 MY_LIB_VD0121_D\nGVD0121 0 nVD0121 scale 0 0.002\nXVD0122 0 nVD0122 MY_LIB_VD0122_D\nGVD0122 0 nVD0122 scale 0 0.002\nXVD0123 0 nVD0123 MY_LIB_VD0123_D\nGVD0123 0 nVD0123 scale 0 0.002\nXVD0124 0 nVD0124 MY_LIB_VD0124_D\nGVD0124 0 nVD0124 scale 0 0.002\nXVD0125 0 nVD0125 MY_LIB_VD0125_D\nGVD0125 0 nVD0125 scale 0 0.002\nXVD0126 0 nVD0126 MY_LIB_VD0126_D\nGVD0126 0 nVD0126 scale 0 0.002\nXVD0127 0 nVD0127 MY_LIB_VD0127_D\nGVD0127 0 nVD0127 scale 0 0.002\nXVD0128 0 nVD0128 MY_LIB_VD0128_D\nGVD0128 0 nVD0128 scale 0 0.002\nXVD0129 0 nVD0129 MY_LIB_VD0129_D\nGVD0129 0 nVD0129 scale 0 0.005\nXVD0130 0 nVD0130 MY_LIB_VD0130_D\nGVD0130 0 nVD0130 scale 0 0.005\nXVD0131 0 nVD0131 MY_LIB_VD0131_D\nGVD0131 0 nVD0131 scale 0 0.005\nXVD0132 0 nVD0132 MY_LIB_VD0132_D\nGVD0132 0 nVD0132 scale 0 0.005\nXVD0133 0 nVD0133 MY_LIB_VD0133_D\nGVD0133 0 nVD0133 scale 0 0.005\nXVD0134 0 nVD0134 MY_LIB_VD0134_D\nGVD0134 0 nVD0134 scale 0 0.005\nXVD0135 0 nVD0135 MY_LIB_VD0135_D\nGVD0135 0 nVD0135 scale 0 0.005\nXVD0136 0 nVD0136 MY_LIB_VD0136_D\nGVD0136 0 nVD0136 scale 0 0.005\nXVD0137 0 nVD0137 MY_LIB_VD0137_D\nGVD0137 0 nVD0137 scale 0 0.005\nXVD0138 0 nVD0138 MY_LIB_VD0138_D\nGVD0138 0 nVD0138 scale 0 0.005\nXVD0139 0 nVD0139 MY_LIB_VD0139_D\nGVD0139 0 nVD0139 scale 0 0.005\nXVD0140 0 nVD0140 MY_LIB_VD0140_D\nGVD0140 0 nVD0140 scale 0 0.005\nXVD0141 0 nVD0141 MY_LIB_VD0141_D\nGVD0141 0 nVD0141 scale 0 0.005\nXVD0142 0 nVD0142 MY_LIB_VD0142_D\nGVD0142 0 nVD0142 scale 0 0.005\nXVD0143 0 nVD0143 MY_LIB_VD0143_D\nGVD0143 0 nVD0143 scale 0 0.005\nXVD0144 0 nVD0144 MY_LIB_VD0144_D\nGVD0144 0 nVD0144 scale 0 0.005\nXVD0145 0 nVD0145 MY_LIB_VD0145_D\nGVD0145 0 nVD0145 scale 0 0.005\nXVD0146 0 nVD0146 MY_LIB_VD0146_D\nGVD0146 0 nVD0146 scale 0 0.005\nXVD0147 0 nVD0147 MY_LIB_VD0147_D\nGVD0147 0 nVD0147 scale 0 0.005\nXVD0148 0 nVD0148 MY_LIB_VD0148_D\nGVD0148 0 nVD0148 scale 0 0.005\nXVD0149 0 nVD0149 MY_LIB_VD0149_D\nGVD0149 0 nVD0149 scale 0 0.005\nXVD0150 0 nVD0150 MY_LIB_VD0150_D\nGVD0150 0 nVD0150 scale 0 0.005\nXVD0151 0 nVD0151 MY_LIB_VD0151_D\nGVD0151 0 nVD0151 scale 0 0.005\nXVD0152 0 nVD0152 MY_LIB_VD0152_D\nGVD0152 0 nVD0152 scale 0 0.005\nXVD0153 0 nVD0153 MY_LIB_VD0153_D\nGVD0153 0 nVD0153 scale 0 0.005\nXVD0154 0 nVD0154 MY_LIB_VD0154_D\nGVD0154 0 nVD0154 scale 0 0.002\nXVD0155 0 nVD0155 MY_LIB_VD0155_D\nGVD0155 0 nVD0155 scale 0 0.002\nXVD0156 0 nVD0156 MY_LIB_VD0156_D\nGVD0156 0 nVD0156 scale 0 0.002\nXVD0157 0 nVD0157 MY_LIB_VD0157_D\nGVD0157 0 nVD0157 scale 0 0.002\nXVD0158 0 nVD0158 MY_LIB_VD0158_D\nGVD0158 0 nVD0158 scale 0 0.002\nXVD0159 0 nVD0159 MY_LIB_VD0159_D\nGVD0159 0 nVD0159 scale 0 0.002\nXVD0160 0 nVD0160 MY_LIB_VD0160_D\nGVD0160 0 nVD0160 scale 0 0.002\nXVD0161 0 nVD0161 MY_LIB_VD0161_D\nGVD0161 0 nVD0161 scale 0 0.002\nXVD0162 0 nVD0162 MY_LIB_VD0162_D\nGVD0162 0 nVD0162 scale 0 0.005\nXVD0163 0 nVD0163 MY_LIB_VD0163_D\nGVD0163 0 nVD0163 scale 0 0.005\nXVD0164 0 nVD0164 MY_LIB_VD0164_D\nGVD0164 0 nVD0164 scale 0 0.005\nXVD0165 0 nVD0165 MY_LIB_VD0165_D\nGVD0165 0 nVD0165 scale 0 0.005\nXVD0166 0 nVD0166 MY_LIB_VD0166_D\nGVD0166 0 nVD0166 scale 0 0.005\nXVD0167 0 nVD0167 MY_LIB_VD0167_D\nGVD0167 0 nVD0167 scale 0 0.005\nXVD0168 0 nVD0168 MY_LIB_VD0168_D\nGVD0168 0 nVD0168 scale 0 0.005\nXVD0169 0 nVD0169 MY_LIB_VD0169_D\nGVD0169 0 nVD0169 scale 0 0.005\nXVD0170 0 nVD0170 MY_LIB_VD0170_D\nGVD0170 0 nVD0170 scale 0 0.005\nXVD0171 0 nVD0171 MY_LIB_VD0171_D\nGVD0171 0 nVD0171 scale 0 0.005\nXVD0172 0 nVD0172 MY_LIB_VD0172_D\nGVD0172 0 nVD0172 scale 0 0.005\nXVD0173 0 nVD0173 MY_LIB_VD0173_D\nGVD0173 0 nVD0173 scale 0 0.005\nXVD0174 0 nVD0174 MY_LIB_VD0174_D\nGVD0174 0 nVD0174 scale 0 0.005\nXVD0175 0 nVD0175 MY_LIB_VD0175_D\nGVD0175 0 nVD0175 scale 0 0.005\nXVD0176 0 nVD0176 MY_LIB_VD0176_D\nGVD0176 0 nVD0176 scale 0 0.005\nXVD0177 0 nVD0177 MY_LIB_VD0177_D\nGVD0177 0 nVD0177 scale 0 0.005\nXVD0178 0 nVD0178 MY_LIB_VD0178_D\nGVD0178 0 nVD0178 scale 0 0.005\nXVD0179 0 nVD0179 MY_LIB_VD0179_D\nGVD0179 0 nVD0179 scale 0 0.005\nXVD0180 0 nVD0180 MY_LIB_VD0180_D\nGVD0180 0 nVD0180 scale 0 0.005\nXVD0181 0 nVD0181 MY_LIB_VD0181_D\nGVD0181 0 nVD0181 scale 0 0.005\nXVD0182 0 nVD0182 MY_LIB_VD0182_D\nGVD0182 0 nVD0182 scale 0 0.005\nXVD0183 0 nVD0183 MY_LIB_VD0183_D\nGVD0183 0 nVD0183 scale 0 0.005\nXVD0184 0 nVD0184 MY_LIB_VD0184_D\nGVD0184 0 nVD0184 scale 0 0.005\nXVD0185 0 nVD0185 MY_LIB_VD0185_D\nGVD0185 0 nVD0185 scale 0 0.005\nXVD0186 0 nVD0186 MY_LIB_VD0186_D\nGVD0186 0 nVD0186 scale 0 0.005\nXVD0187 0 nVD0187 MY_LIB_VD0187_D\nGVD0187 0 nVD0187 scale 0 0.002\nXVD0188 0 nVD0188 MY_LIB_VD0188_D\nGVD0188 0 nVD0188 scale 0 0.002\nXVD0189 0 nVD0189 MY_LIB_VD0189_D\nGVD0189 0 nVD0189 scale 0 0.002\nXVD0190 0 nVD0190 MY_LIB_VD0190_D\nGVD0190 0 nVD0190 scale 0 0.002\nXVD0191 0 nVD0191 MY_LIB_VD0191_D\nGVD0191 0 nVD0191 scale 0 0.002\nXVD0192 0 nVD0192 MY_LIB_VD0192_D\nGVD0192 0 nVD0192 scale 0 0.002\nXVD0193 0 nVD0193 MY_LIB_VD0193_D\nGVD0193 0 nVD0193 scale 0 0.002\nXVD0194 0 nVD0194 MY_LIB_VD0194_D\nGVD0194 0 nVD0194 scale 0 0.002\nXVD0195 0 nVD0195 MY_LIB_VD0195_D\nGVD0195 0 nVD0195 scale 0 0.002\nXVD0196 0 nVD0196 MY_LIB_VD0196_D\nGVD0196 0 nVD0196 scale 0 0.002\nXVD0197 0 nVD0197 MY_LIB_VD0197_D\nGVD0197 0 nVD0197 scale 0 0.002\nXVD0198 0 nVD0198 MY_LIB_VD0198_D\nGVD0198 0 nVD0198 scale 0 0.002\nXVD0199 0 nVD0199 MY_LIB_VD0199_D\nGVD0199 0 nVD0199 scale 0 0.005\nXVD0200 0 nVD0200 MY_LIB_VD0200_D\nGVD0200 0 nVD0200 scale 0 0.005\nXVD0201 0 nVD0201 MY_LIB_VD0201_D\nGVD0201 0 nVD0201 scale 0 0.005\nXVD0202 0 nVD0202 MY_LIB_VD0202_D\nGVD0202 0 nVD0202 scale 0 0.005\nXVD0203 0 nVD0203 MY_LIB_VD0203_D\nGVD0203 0 nVD0203 scale 0 0.005\nXVD0204 0 nVD0204 MY_LIB_VD0204_D\nGVD0204 0 nVD0204 scale 0 0.005\nXVD0205 0 nVD0205 MY_LIB_VD0205_D\nGVD0205 0 nVD0205 scale 0 0.005\nXVD0206 0 nVD0206 MY_LIB_VD0206_D\nGVD0206 0 nVD0206 scale 0 0.005\nXVD0207 0 nVD0207 MY_LIB_VD0207_D\nGVD0207 0 nVD0207 scale 0 0.005\nXVD0208 0 nVD0208 MY_LIB_VD0208_D\nGVD0208 0 nVD0208 scale 0 0.005\nXVD0209 0 nVD0209 MY_LIB_VD0209_D\nGVD0209 0 nVD0209 scale 0 0.005\nXVD0210 0 nVD0210 MY_LIB_VD0210_D\nGVD0210 0 nVD0210 scale 0 0.005\nXVD0211 0 nVD0211 MY_LIB_VD0211_D\nGVD0211 0 nVD0211 scale 0 0.005\nXVD0212 0 nVD0212 MY_LIB_VD0212_D\nGVD0212 0 nVD0212 scale 0 0.005\nXVD0213 0 nVD0213 MY_LIB_VD0213_D\nGVD0213 0 nVD0213 scale 0 0.005\nXVD0214 0 nVD0214 MY_LIB_VD0214_D\nGVD0214 0 nVD0214 scale 0 0.005\nXVD0215 0 nVD0215 MY_LIB_VD0215_D\nGVD0215 0 nVD0215 scale 0 0.005\nXVD0216 0 nVD0216 MY_LIB_VD0216_D\nGVD0216 0 nVD0216 scale 0 0.005\nXVD0217 0 nVD0217 MY_LIB_VD0217_D\nGVD0217 0 nVD0217 scale 0 0.005\nXVD0218 0 nVD0218 MY_LIB_VD0218_D\nGVD0218 0 nVD0218 scale 0 0.005\nXVD0219 0 nVD0219 MY_LIB_VD0219_D\nGVD0219 0 nVD0219 scale 0 0.005\nXVD0220 0 nVD0220 MY_LIB_VD0220_D\nGVD0220 0 nVD0220 scale 0 0.005\nXVD0221 0 nVD0221 MY_LIB_VD0221_D\nGVD0221 0 nVD0221 scale 0 0.005\nXVD0222 0 nVD0222 MY_LIB_VD0222_D\nGVD0222 0 nVD0222 scale 0 0.005\nXVD0223 0 nVD0223 MY_LIB_VD0223_D\nGVD0223 0 nVD0223 scale 0 0.005\nXVD0224 0 nVD0224 MY_LIB_VD0224_D\nGVD0224 0 nVD0224 scale 0 0.002\nXVD0225 0 nVD0225 MY_LIB_VD0225_D\nGVD0225 0 nVD0225 scale 0 0.002\nXVD0226 0 nVD0226 MY_LIB_VD0226_D\nGVD0226 0 nVD0226 scale 0 0.002\nXVD0227 0 nVD0227 MY_LIB_VD0227_D\nGVD0227 0 nVD0227 scale 0 0.002\nXVD0228 0 nVD0228 MY_LIB_VD0228_D\nGVD0228 0 nVD0228 scale 0 0.002\nXVD0229 0 nVD0229 MY_LIB_VD0229_D\nGVD0229 0 nVD0229 scale 0 0.002\nXVD0230 0 nVD0230 MY_LIB_VD0230_D\nGVD0230 0 nVD0230 scale 0 0.002\nXVD0231 0 nVD0231 MY_LIB_VD0231_D\nGVD0231 0 nVD0231 scale 0 0.002\nXVD0232 0 nVD0232 MY_LIB_VD0232_D\nGVD0232 0 nVD0232 scale 0 0.002\nXVD0233 0 nVD0233 MY_LIB_VD0233_D\nGVD0233 0 nVD0233 scale 0 0.002\nXVD0234 0 nVD0234 MY_LIB_VD0234_D\nGVD0234 0 nVD0234 scale 0 0.002\nXVD0235 0 nVD0235 MY_LIB_VD0235_D\nGVD0235 0 nVD0235 scale 0 0.002\n.DC VSCALE 0.5 1 0.5\n.PLOT DC V(nVD0055)\n.PLOT DC V(nVD0056)\n.PLOT DC V(nVD0057)\n.PLOT DC V(nVD0058)\n.PLOT DC V(nVD0059)\n.PLOT DC V(nVD0060)\n.PLOT DC V(nVD0061)\n.PLOT DC V(nVD0062)\n.PLOT DC V(nVD0063)\n.PLOT DC V(nVD0064)\n.PLOT DC V(nVD0065)\n.PLOT DC V(nVD0066)\n.PLOT DC V(nVD0067)\n.PLOT DC V(nVD0068)\n.PLOT DC V(nVD0069)\n.PLOT DC V(nVD0070)\n.PLOT DC V(nVD0071)\n.PLOT DC V(nVD0072)\n.PLOT DC V(nVD0073)\n.PLOT DC V(nVD0074)\n.PLOT DC V(nVD0075)\n.PLOT DC V(nVD0076)\n.PLOT DC V(nVD0077)\n.PLOT DC V(nVD0078)\n.PLOT DC V(nVD0079)\n.PLOT DC V(nVD0080)\n.PLOT DC V(nVD0081)\n.PLOT DC V(nVD0082)\n.PLOT DC V(nVD0083)\n.PLOT DC V(nVD0084)\n.PLOT DC V(nVD0085)\n.PLOT DC V(nVD0086)\n.PLOT DC V(nVD0087)\n.PLOT DC V(nVD0088)\n.PLOT DC V(nVD0089)\n.PLOT DC V(nVD0090)\n.PLOT DC V(nVD0091)\n.PLOT DC V(nVD0092)\n.PLOT DC V(nVD0093)\n.PLOT DC V(nVD0094)\n.PLOT DC V(nVD0095)\n.PLOT DC V(nVD0096)\n.PLOT DC V(nVD0097)\n.PLOT DC V(nVD0098)\n.PLOT DC V(nVD0099)\n.PLOT DC V(nVD0100)\n.PLOT DC V(nVD0101)\n.PLOT DC V(nVD0102)\n.PLOT DC V(nVD0103)\n.PLOT DC V(nVD0104)\n.PLOT DC V(nVD0105)\n.PLOT DC V(nVD0106)\n.PLOT DC V(nVD0107)\n.PLOT DC V(nVD0108)\n.PLOT DC V(nVD0109)\n.PLOT DC V(nVD0110)\n.PLOT DC V(nVD0111)\n.PLOT DC V(nVD0112)\n.PLOT DC V(nVD0113)\n.PLOT DC V(nVD0114)\n.PLOT DC V(nVD0115)\n.PLOT DC V(nVD0116)\n.PLOT DC V(nVD0117)\n.PLOT DC V(nVD0118)\n.PLOT DC V(nVD0119)\n.PLOT DC V(nVD0120)\n.PLOT DC V(nVD0121)\n.PLOT DC V(nVD0122)\n.PLOT DC V(nVD0123)\n.PLOT DC V(nVD0124)\n.PLOT DC V(nVD0125)\n.PLOT DC V(nVD0126)\n.PLOT DC V(nVD0127)\n.PLOT DC V(nVD0128)\n.PLOT DC V(nVD0129)\n.PLOT DC V(nVD0130)\n.PLOT DC V(nVD0131)\n.PLOT DC V(nVD0132)\n.PLOT DC V(nVD0133)\n.PLOT DC V(nVD0134)\n.PLOT DC V(nVD0135)\n.PLOT DC V(nVD0136)\n.PLOT DC V(nVD0137)\n.PLOT DC V(nVD0138)\n.PLOT DC V(nVD0139)\n.PLOT DC V(nVD0140)\n.PLOT DC V(nVD0141)\n.PLOT DC V(nVD0142)\n.PLOT DC V(nVD0143)\n.PLOT DC V(nVD0144)\n.PLOT DC V(nVD0145)\n.PLOT DC V(nVD0146)\n.PLOT DC V(nVD0147)\n.PLOT DC V(nVD0148)\n.PLOT DC V(nVD0149)\n.PLOT DC V(nVD0150)\n.PLOT DC V(nVD0151)\n.PLOT DC V(nVD0152)\n.PLOT DC V(nVD0153)\n.PLOT DC V(nVD0154)\n.PLOT DC V(nVD0155)\n.PLOT DC V(nVD0156)\n.PLOT DC V(nVD0157)\n.PLOT DC V(nVD0158)\n.PLOT DC V(nVD0159)\n.PLOT DC V(nVD0160)\n.PLOT DC V(nVD0161)\n.PLOT DC V(nVD0162)\n.PLOT DC V(nVD0163)\n.PLOT DC V(nVD0164)\n.PLOT DC V(nVD0165)\n.PLOT DC V(nVD0166)\n.PLOT DC V(nVD0167)\n.PLOT DC V(nVD0168)\n.PLOT DC V(nVD0169)\n.PLOT DC V(nVD0170)\n.PLOT DC V(nVD0171)\n.PLOT DC V(nVD0172)\n.PLOT DC V(nVD0173)\n.PLOT DC V(nVD0174)\n.PLOT DC V(nVD0175)\n.PLOT DC V(nVD0176)\n.PLOT DC V(nVD0177)\n.PLOT DC V(nVD0178)\n.PLOT DC V(nVD0179)\n.PLOT DC V(nVD0180)\n.PLOT DC V(nVD0181)\n.PLOT DC V(nVD0182)\n.PLOT DC V(nVD0183)\n.PLOT DC V(nVD0184)\n.PLOT DC V(nVD0185)\n.PLOT DC V(nVD0186)\n.PLOT DC V(nVD0187)\n.PLOT DC V(nVD0188)\n.PLOT DC V(nVD0189)\n.PLOT DC V(nVD0190)\n.PLOT DC V(nVD0191)\n.PLOT DC V(nVD0192)\n.PLOT DC V(nVD0193)\n.PLOT DC V(nVD0194)\n.PLOT DC V(nVD0195)\n.PLOT DC V(nVD0196)\n.PLOT DC V(nVD0197)\n.PLOT DC V(nVD0198)\n.PLOT DC V(nVD0199)\n.PLOT DC V(nVD0200)\n.PLOT DC V(nVD0201)\n.PLOT DC V(nVD0202)\n.PLOT DC V(nVD0203)\n.PLOT DC V(nVD0204)\n.PLOT DC V(nVD0205)\n.PLOT DC V(nVD0206)\n.PLOT DC V(nVD0207)\n.PLOT DC V(nVD0208)\n.PLOT DC V(nVD0209)\n.PLOT DC V(nVD0210)\n.PLOT DC V(nVD0211)\n.PLOT DC V(nVD0212)\n.PLOT DC V(nVD0213)\n.PLOT DC V(nVD0214)\n.PLOT DC V(nVD0215)\n.PLOT DC V(nVD0216)\n.PLOT DC V(nVD0217)\n.PLOT DC V(nVD0218)\n.PLOT DC V(nVD0219)\n.PLOT DC V(nVD0220)\n.PLOT DC V(nVD0221)\n.PLOT DC V(nVD0222)\n.PLOT DC V(nVD0223)\n.PLOT DC V(nVD0224)\n.PLOT DC V(nVD0225)\n.PLOT DC V(nVD0226)\n.PLOT DC V(nVD0227)\n.PLOT DC V(nVD0228)\n.PLOT DC V(nVD0229)\n.PLOT DC V(nVD0230)\n.PLOT DC V(nVD0231)\n.PLOT DC V(nVD0232)\n.PLOT DC V(nVD0233)\n.PLOT DC V(nVD0234)\n.PLOT DC V(nVD0235)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0055)",
+      "measurement": "last",
+      "min": 2.399,
+      "max": 2.401
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0056)",
+      "measurement": "last",
+      "min": 2.6990000000000003,
+      "max": 2.701
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0057)",
+      "measurement": "last",
+      "min": 2.999,
+      "max": 3.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0058)",
+      "measurement": "last",
+      "min": 3.299,
+      "max": 3.3009999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0059)",
+      "measurement": "last",
+      "min": 3.599,
+      "max": 3.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0060)",
+      "measurement": "last",
+      "min": 3.899,
+      "max": 3.901
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0061)",
+      "measurement": "last",
+      "min": 4.2989999999999995,
+      "max": 4.301
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0062)",
+      "measurement": "last",
+      "min": 4.699,
+      "max": 4.7010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0063)",
+      "measurement": "last",
+      "min": 5.098999999999999,
+      "max": 5.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0064)",
+      "measurement": "last",
+      "min": 5.598999999999999,
+      "max": 5.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0065)",
+      "measurement": "last",
+      "min": 6.199,
+      "max": 6.2010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0066)",
+      "measurement": "last",
+      "min": 6.7989999999999995,
+      "max": 6.801
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0067)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 7.501
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0068)",
+      "measurement": "last",
+      "min": 8.199,
+      "max": 8.200999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0069)",
+      "measurement": "last",
+      "min": 9.099,
+      "max": 9.100999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0070)",
+      "measurement": "last",
+      "min": 9.999,
+      "max": 10.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0071)",
+      "measurement": "last",
+      "min": 10.9989,
+      "max": 11.0011
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0072)",
+      "measurement": "last",
+      "min": 11.9988,
+      "max": 12.0012
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0073)",
+      "measurement": "last",
+      "min": 12.9987,
+      "max": 13.0013
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0074)",
+      "measurement": "last",
+      "min": 14.9985,
+      "max": 15.0015
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0075)",
+      "measurement": "last",
+      "min": 15.9984,
+      "max": 16.0016
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0076)",
+      "measurement": "last",
+      "min": 17.9982,
+      "max": 18.0018
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0077)",
+      "measurement": "last",
+      "min": 19.998,
+      "max": 20.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0078)",
+      "measurement": "last",
+      "min": 21.9978,
+      "max": 22.0022
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0079)",
+      "measurement": "last",
+      "min": 23.9976,
+      "max": 24.0024
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0080)",
+      "measurement": "last",
+      "min": 26.9973,
+      "max": 27.0027
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0081)",
+      "measurement": "last",
+      "min": 29.997,
+      "max": 30.003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0082)",
+      "measurement": "last",
+      "min": 32.9967,
+      "max": 33.0033
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0083)",
+      "measurement": "last",
+      "min": 35.9964,
+      "max": 36.0036
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0084)",
+      "measurement": "last",
+      "min": 38.9961,
+      "max": 39.0039
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0085)",
+      "measurement": "last",
+      "min": 42.9957,
+      "max": 43.0043
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0086)",
+      "measurement": "last",
+      "min": 46.9953,
+      "max": 47.0047
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0087)",
+      "measurement": "last",
+      "min": 50.9949,
+      "max": 51.0051
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0088)",
+      "measurement": "last",
+      "min": 55.9944,
+      "max": 56.0056
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0089)",
+      "measurement": "last",
+      "min": 61.9938,
+      "max": 62.0062
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0090)",
+      "measurement": "last",
+      "min": 67.9932,
+      "max": 68.0068
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0091)",
+      "measurement": "last",
+      "min": 74.9925,
+      "max": 75.0075
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0092)",
+      "measurement": "last",
+      "min": 2.399,
+      "max": 2.401
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0093)",
+      "measurement": "last",
+      "min": 2.6990000000000003,
+      "max": 2.701
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0094)",
+      "measurement": "last",
+      "min": 2.999,
+      "max": 3.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0095)",
+      "measurement": "last",
+      "min": 3.299,
+      "max": 3.3009999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0096)",
+      "measurement": "last",
+      "min": 3.599,
+      "max": 3.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0097)",
+      "measurement": "last",
+      "min": 3.899,
+      "max": 3.901
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0098)",
+      "measurement": "last",
+      "min": 4.2989999999999995,
+      "max": 4.301
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0099)",
+      "measurement": "last",
+      "min": 4.699,
+      "max": 4.7010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0100)",
+      "measurement": "last",
+      "min": 5.098999999999999,
+      "max": 5.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0101)",
+      "measurement": "last",
+      "min": 5.598999999999999,
+      "max": 5.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0102)",
+      "measurement": "last",
+      "min": 6.199,
+      "max": 6.2010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0103)",
+      "measurement": "last",
+      "min": 6.7989999999999995,
+      "max": 6.801
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0104)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 7.501
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0105)",
+      "measurement": "last",
+      "min": 8.199,
+      "max": 8.200999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0106)",
+      "measurement": "last",
+      "min": 9.099,
+      "max": 9.100999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0107)",
+      "measurement": "last",
+      "min": 9.999,
+      "max": 10.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0108)",
+      "measurement": "last",
+      "min": 10.9989,
+      "max": 11.0011
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0109)",
+      "measurement": "last",
+      "min": 11.9988,
+      "max": 12.0012
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0110)",
+      "measurement": "last",
+      "min": 12.9987,
+      "max": 13.0013
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0111)",
+      "measurement": "last",
+      "min": 14.9985,
+      "max": 15.0015
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0112)",
+      "measurement": "last",
+      "min": 15.9984,
+      "max": 16.0016
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0113)",
+      "measurement": "last",
+      "min": 17.9982,
+      "max": 18.0018
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0114)",
+      "measurement": "last",
+      "min": 19.998,
+      "max": 20.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0115)",
+      "measurement": "last",
+      "min": 21.9978,
+      "max": 22.0022
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0116)",
+      "measurement": "last",
+      "min": 23.9976,
+      "max": 24.0024
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0117)",
+      "measurement": "last",
+      "min": 26.9973,
+      "max": 27.0027
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0118)",
+      "measurement": "last",
+      "min": 29.997,
+      "max": 30.003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0119)",
+      "measurement": "last",
+      "min": 32.9967,
+      "max": 33.0033
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0120)",
+      "measurement": "last",
+      "min": 35.9964,
+      "max": 36.0036
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0121)",
+      "measurement": "last",
+      "min": 38.9961,
+      "max": 39.0039
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0122)",
+      "measurement": "last",
+      "min": 42.9957,
+      "max": 43.0043
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0123)",
+      "measurement": "last",
+      "min": 46.9953,
+      "max": 47.0047
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0124)",
+      "measurement": "last",
+      "min": 50.9949,
+      "max": 51.0051
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0125)",
+      "measurement": "last",
+      "min": 55.9944,
+      "max": 56.0056
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0126)",
+      "measurement": "last",
+      "min": 61.9938,
+      "max": 62.0062
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0127)",
+      "measurement": "last",
+      "min": 67.9932,
+      "max": 68.0068
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0128)",
+      "measurement": "last",
+      "min": 74.9925,
+      "max": 75.0075
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0129)",
+      "measurement": "last",
+      "min": 2.399,
+      "max": 2.401
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0130)",
+      "measurement": "last",
+      "min": 2.6990000000000003,
+      "max": 2.701
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0131)",
+      "measurement": "last",
+      "min": 2.999,
+      "max": 3.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0132)",
+      "measurement": "last",
+      "min": 3.299,
+      "max": 3.3009999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0133)",
+      "measurement": "last",
+      "min": 3.599,
+      "max": 3.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0134)",
+      "measurement": "last",
+      "min": 3.899,
+      "max": 3.901
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0135)",
+      "measurement": "last",
+      "min": 4.2989999999999995,
+      "max": 4.301
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0136)",
+      "measurement": "last",
+      "min": 4.699,
+      "max": 4.7010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0137)",
+      "measurement": "last",
+      "min": 5.098999999999999,
+      "max": 5.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0138)",
+      "measurement": "last",
+      "min": 5.598999999999999,
+      "max": 5.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0139)",
+      "measurement": "last",
+      "min": 6.199,
+      "max": 6.2010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0140)",
+      "measurement": "last",
+      "min": 6.7989999999999995,
+      "max": 6.801
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0141)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 7.501
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0142)",
+      "measurement": "last",
+      "min": 8.199,
+      "max": 8.200999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0143)",
+      "measurement": "last",
+      "min": 9.099,
+      "max": 9.100999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0144)",
+      "measurement": "last",
+      "min": 9.999,
+      "max": 10.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0145)",
+      "measurement": "last",
+      "min": 10.9989,
+      "max": 11.0011
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0146)",
+      "measurement": "last",
+      "min": 11.9988,
+      "max": 12.0012
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0147)",
+      "measurement": "last",
+      "min": 12.9987,
+      "max": 13.0013
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0148)",
+      "measurement": "last",
+      "min": 14.9985,
+      "max": 15.0015
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0149)",
+      "measurement": "last",
+      "min": 15.9984,
+      "max": 16.0016
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0150)",
+      "measurement": "last",
+      "min": 17.9982,
+      "max": 18.0018
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0151)",
+      "measurement": "last",
+      "min": 19.998,
+      "max": 20.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0152)",
+      "measurement": "last",
+      "min": 21.9978,
+      "max": 22.0022
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0153)",
+      "measurement": "last",
+      "min": 23.9976,
+      "max": 24.0024
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0154)",
+      "measurement": "last",
+      "min": 26.9973,
+      "max": 27.0027
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0155)",
+      "measurement": "last",
+      "min": 29.997,
+      "max": 30.003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0156)",
+      "measurement": "last",
+      "min": 32.9967,
+      "max": 33.0033
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0157)",
+      "measurement": "last",
+      "min": 35.9964,
+      "max": 36.0036
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0158)",
+      "measurement": "last",
+      "min": 38.9961,
+      "max": 39.0039
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0159)",
+      "measurement": "last",
+      "min": 42.9957,
+      "max": 43.0043
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0160)",
+      "measurement": "last",
+      "min": 50.9949,
+      "max": 51.0051
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0161)",
+      "measurement": "last",
+      "min": 74.9925,
+      "max": 75.0075
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0162)",
+      "measurement": "last",
+      "min": 2.399,
+      "max": 2.401
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0163)",
+      "measurement": "last",
+      "min": 2.6990000000000003,
+      "max": 2.701
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0164)",
+      "measurement": "last",
+      "min": 2.999,
+      "max": 3.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0165)",
+      "measurement": "last",
+      "min": 3.299,
+      "max": 3.3009999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0166)",
+      "measurement": "last",
+      "min": 3.599,
+      "max": 3.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0167)",
+      "measurement": "last",
+      "min": 3.899,
+      "max": 3.901
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0168)",
+      "measurement": "last",
+      "min": 4.2989999999999995,
+      "max": 4.301
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0169)",
+      "measurement": "last",
+      "min": 4.699,
+      "max": 4.7010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0170)",
+      "measurement": "last",
+      "min": 5.098999999999999,
+      "max": 5.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0171)",
+      "measurement": "last",
+      "min": 5.598999999999999,
+      "max": 5.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0172)",
+      "measurement": "last",
+      "min": 6.199,
+      "max": 6.2010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0173)",
+      "measurement": "last",
+      "min": 6.7989999999999995,
+      "max": 6.801
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0174)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 7.501
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0175)",
+      "measurement": "last",
+      "min": 8.199,
+      "max": 8.200999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0176)",
+      "measurement": "last",
+      "min": 9.099,
+      "max": 9.100999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0177)",
+      "measurement": "last",
+      "min": 9.999,
+      "max": 10.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0178)",
+      "measurement": "last",
+      "min": 10.9989,
+      "max": 11.0011
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0179)",
+      "measurement": "last",
+      "min": 11.9988,
+      "max": 12.0012
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0180)",
+      "measurement": "last",
+      "min": 12.9987,
+      "max": 13.0013
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0181)",
+      "measurement": "last",
+      "min": 14.9985,
+      "max": 15.0015
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0182)",
+      "measurement": "last",
+      "min": 15.9984,
+      "max": 16.0016
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0183)",
+      "measurement": "last",
+      "min": 17.9982,
+      "max": 18.0018
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0184)",
+      "measurement": "last",
+      "min": 19.998,
+      "max": 20.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0185)",
+      "measurement": "last",
+      "min": 21.9978,
+      "max": 22.0022
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0186)",
+      "measurement": "last",
+      "min": 23.9976,
+      "max": 24.0024
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0187)",
+      "measurement": "last",
+      "min": 26.9973,
+      "max": 27.0027
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0188)",
+      "measurement": "last",
+      "min": 29.997,
+      "max": 30.003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0189)",
+      "measurement": "last",
+      "min": 32.9967,
+      "max": 33.0033
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0190)",
+      "measurement": "last",
+      "min": 35.9964,
+      "max": 36.0036
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0191)",
+      "measurement": "last",
+      "min": 38.9961,
+      "max": 39.0039
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0192)",
+      "measurement": "last",
+      "min": 42.9957,
+      "max": 43.0043
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0193)",
+      "measurement": "last",
+      "min": 46.9953,
+      "max": 47.0047
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0194)",
+      "measurement": "last",
+      "min": 50.9949,
+      "max": 51.0051
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0195)",
+      "measurement": "last",
+      "min": 55.9944,
+      "max": 56.0056
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0196)",
+      "measurement": "last",
+      "min": 61.9938,
+      "max": 62.0062
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0197)",
+      "measurement": "last",
+      "min": 67.9932,
+      "max": 68.0068
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0198)",
+      "measurement": "last",
+      "min": 74.9925,
+      "max": 75.0075
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0199)",
+      "measurement": "last",
+      "min": 2.399,
+      "max": 2.401
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0200)",
+      "measurement": "last",
+      "min": 2.6990000000000003,
+      "max": 2.701
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0201)",
+      "measurement": "last",
+      "min": 2.999,
+      "max": 3.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0202)",
+      "measurement": "last",
+      "min": 3.299,
+      "max": 3.3009999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0203)",
+      "measurement": "last",
+      "min": 3.599,
+      "max": 3.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0204)",
+      "measurement": "last",
+      "min": 3.899,
+      "max": 3.901
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0205)",
+      "measurement": "last",
+      "min": 4.2989999999999995,
+      "max": 4.301
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0206)",
+      "measurement": "last",
+      "min": 4.699,
+      "max": 4.7010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0207)",
+      "measurement": "last",
+      "min": 5.098999999999999,
+      "max": 5.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0208)",
+      "measurement": "last",
+      "min": 5.598999999999999,
+      "max": 5.601
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0209)",
+      "measurement": "last",
+      "min": 6.199,
+      "max": 6.2010000000000005
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0210)",
+      "measurement": "last",
+      "min": 6.7989999999999995,
+      "max": 6.801
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0211)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 7.501
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0212)",
+      "measurement": "last",
+      "min": 8.199,
+      "max": 8.200999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0213)",
+      "measurement": "last",
+      "min": 9.099,
+      "max": 9.100999999999999
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0214)",
+      "measurement": "last",
+      "min": 9.999,
+      "max": 10.001
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0215)",
+      "measurement": "last",
+      "min": 10.9989,
+      "max": 11.0011
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0216)",
+      "measurement": "last",
+      "min": 11.9988,
+      "max": 12.0012
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0217)",
+      "measurement": "last",
+      "min": 12.9987,
+      "max": 13.0013
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0218)",
+      "measurement": "last",
+      "min": 14.9985,
+      "max": 15.0015
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0219)",
+      "measurement": "last",
+      "min": 15.9984,
+      "max": 16.0016
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0220)",
+      "measurement": "last",
+      "min": 17.9982,
+      "max": 18.0018
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0221)",
+      "measurement": "last",
+      "min": 19.998,
+      "max": 20.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0222)",
+      "measurement": "last",
+      "min": 21.9978,
+      "max": 22.0022
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0223)",
+      "measurement": "last",
+      "min": 23.9976,
+      "max": 24.0024
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0224)",
+      "measurement": "last",
+      "min": 26.9973,
+      "max": 27.0027
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0225)",
+      "measurement": "last",
+      "min": 29.997,
+      "max": 30.003
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0226)",
+      "measurement": "last",
+      "min": 32.9967,
+      "max": 33.0033
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0227)",
+      "measurement": "last",
+      "min": 35.9964,
+      "max": 36.0036
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0228)",
+      "measurement": "last",
+      "min": 38.9961,
+      "max": 39.0039
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0229)",
+      "measurement": "last",
+      "min": 42.9957,
+      "max": 43.0043
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0230)",
+      "measurement": "last",
+      "min": 46.9953,
+      "max": 47.0047
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0231)",
+      "measurement": "last",
+      "min": 50.9949,
+      "max": 51.0051
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0232)",
+      "measurement": "last",
+      "min": 55.9944,
+      "max": 56.0056
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0233)",
+      "measurement": "last",
+      "min": 61.9938,
+      "max": 62.0062
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0234)",
+      "measurement": "last",
+      "min": 67.9932,
+      "max": 68.0068
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(nVD0235)",
+      "measurement": "last",
+      "min": 74.9925,
+      "max": 75.0075
+    }
+  ]
+}

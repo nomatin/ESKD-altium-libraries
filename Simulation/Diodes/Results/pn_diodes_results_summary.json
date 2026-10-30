@@ -1,0 +1,18 @@
+[
+  {
+    "test": "pn_diodes_dc_forward",
+    "status": "PASS",
+    "checks": 84,
+    "passed": 84,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "pn_diodes_dc_reverse",
+    "status": "PASS",
+    "checks": 25,
+    "passed": 25,
+    "failed": 0,
+    "error": null
+  }
+]
