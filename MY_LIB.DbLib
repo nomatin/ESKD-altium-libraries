@@ -770,3 +770,27 @@ Options=FieldName=Микросхемы$.Sim Spice Prefix|TableNameOnly=Микросхемы$|FieldNa
 Options=FieldName=Микросхемы$.Sim Port Map|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap321]
 Options=FieldName=Микросхемы$.Sim File|TableNameOnly=Микросхемы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap322]
+Options=FieldName=Диоды$.Sim Model Name|TableNameOnly=Диоды$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap323]
+Options=FieldName=Диоды$.Sim Description|TableNameOnly=Диоды$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap324]
+Options=FieldName=Диоды$.Sim Kind|TableNameOnly=Диоды$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap325]
+Options=FieldName=Диоды$.Sim SubKind|TableNameOnly=Диоды$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap326]
+Options=FieldName=Диоды$.Sim Netlist|TableNameOnly=Диоды$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap327]
+Options=FieldName=Диоды$.Sim Spice Prefix|TableNameOnly=Диоды$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap328]
+Options=FieldName=Диоды$.Sim Port Map|TableNameOnly=Диоды$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap329]
+Options=FieldName=Диоды$.Sim File|TableNameOnly=Диоды$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

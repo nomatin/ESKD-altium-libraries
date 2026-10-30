@@ -1,0 +1,9 @@
+* BZX84-C51 | Nexperia
+* Source: Datasheets/Diodes/BZX84_Nexperia.pdf
+* Revision: Rev. 7, 01-Jan-2023
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. Nominal Zener BV/IBV; knee, dynamic resistance and temperature drift not fitted.
+* VF anchors (A,V): [[0.01, 0.9]]
+.SUBCKT MY_LIB_VD0231_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=2.47414713594e-10 N=2 RS=0 TNOM=25 CJO=4e-11 VJ=1 M=0.5 BV=51 IBV=0.002)
+.ENDS MY_LIB_VD0231_D

@@ -1,0 +1,9 @@
+* SS25A | Yangjie
+* Source: Datasheets/Diodes/SS22A_SS220A_Yangjie.pdf
+* Revision: Rev. 2.7, 19-Sep-2022
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 1, RS=0. Capacitance unavailable in tabular data: omitted. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* VF anchors (A,V): [[2.0, 0.7]]
+.SUBCKT MY_LIB_VD0040_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=2.9415808728e-12 N=1 RS=0 TNOM=25)
+.ENDS MY_LIB_VD0040_D

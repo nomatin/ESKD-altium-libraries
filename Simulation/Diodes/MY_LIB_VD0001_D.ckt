@@ -1,0 +1,9 @@
+* 1N4148W | Vishay
+* Source: Datasheets/Diodes/1N4148W_Vishay.pdf
+* Revision: Rev. 1.0, 16-Nov-2023
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Least-squares fit to VF maximum test points. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* VF anchors (A,V): [[0.01, 1.0], [0.1, 1.2]]
+.SUBCKT MY_LIB_VD0001_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=1.53888876309e-11 N=1.89938725075 RS=0.973707839663 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5)
+.ENDS MY_LIB_VD0001_D

@@ -1,0 +1,9 @@
+* BAS16 | Nexperia
+* Source: Datasheets/Diodes/BAS16_Nexperia.pdf
+* Revision: Rev. 6, 24-Sep-2014; local archived family sheet
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Least-squares fit to VF maximum test points. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* VF anchors (A,V): [[0.001, 0.715], [0.01, 0.855], [0.05, 1.0], [0.15, 1.25]]
+.SUBCKT MY_LIB_VD0003_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=6.1987104231e-10 N=1.94729216721 RS=1.88563687392 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5)
+.ENDS MY_LIB_VD0003_D

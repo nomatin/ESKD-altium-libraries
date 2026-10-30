@@ -1,0 +1,9 @@
+* ES1J | Diotec Semiconductor
+* Source: Datasheets/Diodes/ES1A_ES1J_Diotec.pdf
+* Revision: 2026-08-11
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. Capacitance unavailable in tabular data: omitted. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* VF anchors (A,V): [[1.0, 1.7]]
+.SUBCKT MY_LIB_VD0023_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=4.28574145703e-15 N=2 RS=0 TNOM=25)
+.ENDS MY_LIB_VD0023_D

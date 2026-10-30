@@ -1,0 +1,9 @@
+* BAT54 | Nexperia
+* Source: Datasheets/Diodes/BAT54_series_Nexperia.pdf
+* Revision: Rev. 5, 05-Oct-2012; local archived family sheet
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Least-squares fit to VF maximum test points. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* VF anchors (A,V): [[0.0001, 0.24], [0.001, 0.32], [0.01, 0.4], [0.03, 0.5], [0.1, 0.8]]
+.SUBCKT MY_LIB_VD0024_D A K
+Dcore A K CORE
+.MODEL CORE D (IS=7.20785039475e-09 N=1.00253520931 RS=3.74820731501 TNOM=25 CJO=1.41421356237e-11 VJ=1 M=0.5)
+.ENDS MY_LIB_VD0024_D
