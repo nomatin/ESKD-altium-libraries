@@ -1,5 +1,5 @@
 {
-  "status": "FAIL",
+  "status": "PASS",
   "test": "extended_zener_temperature_Tp26",
   "simulator": "Altium MixedSim",
   "checks": [
@@ -18,8 +18,8 @@
       "measurement": "last",
       "min": 2.39725,
       "max": 2.39925,
-      "value": 2.3999998927517314,
-      "passed": false
+      "value": 2.398250000080116,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -27,8 +27,8 @@
       "measurement": "last",
       "min": 2.6972500000000004,
       "max": 2.69925,
-      "value": 2.6999999021928596,
-      "passed": false
+      "value": 2.6982500000825795,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -36,8 +36,8 @@
       "measurement": "last",
       "min": 2.99725,
       "max": 2.99925,
-      "value": 2.9999999016049723,
-      "passed": false
+      "value": 2.9982500000903616,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -45,8 +45,8 @@
       "measurement": "last",
       "min": 3.29725,
       "max": 3.29925,
-      "value": 3.2999999043191375,
-      "passed": false
+      "value": 3.2982500000969885,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -54,8 +54,8 @@
       "measurement": "last",
       "min": 3.5972500000000003,
       "max": 3.59925,
-      "value": 3.5999998707121788,
-      "passed": false
+      "value": 3.5982500001236075,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -63,8 +63,8 @@
       "measurement": "last",
       "min": 3.89725,
       "max": 3.89925,
-      "value": 3.89999986985514,
-      "passed": false
+      "value": 3.8982500001336775,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -72,8 +72,8 @@
       "measurement": "last",
       "min": 4.297249999999999,
       "max": 4.29925,
-      "value": 4.29999982270516,
-      "passed": false
+      "value": 4.298250000172594,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -81,8 +81,8 @@
       "measurement": "last",
       "min": 4.69735,
       "max": 4.699350000000001,
-      "value": 4.699999944244365,
-      "passed": false
+      "value": 4.698350000117478,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -90,7 +90,7 @@
       "measurement": "last",
       "min": 5.098249999999999,
       "max": 5.10025,
-      "value": 5.100000015936894,
+      "value": 5.099250000081282,
       "passed": true
     },
     {
@@ -99,7 +99,7 @@
       "measurement": "last",
       "min": 5.59925,
       "max": 5.60125,
-      "value": 5.600000071482911,
+      "value": 5.60025000005874,
       "passed": true
     },
     {
@@ -108,8 +108,8 @@
       "measurement": "last",
       "min": 6.2010499999999995,
       "max": 6.20305,
-      "value": 6.200011343738578,
-      "passed": false
+      "value": 6.202061304163968,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -117,8 +117,8 @@
       "measurement": "last",
       "min": 6.801849999999999,
       "max": 6.80385,
-      "value": 6.80003307589164,
-      "passed": false
+      "value": 6.802883039782782,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -126,8 +126,8 @@
       "measurement": "last",
       "min": 7.5028999999999995,
       "max": 7.5049,
-      "value": 7.500011353288239,
-      "passed": false
+      "value": 7.503911304164323,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -135,8 +135,8 @@
       "measurement": "last",
       "min": 8.2037,
       "max": 8.205699999999998,
-      "value": 8.200011358430192,
-      "passed": false
+      "value": 8.20471130416433,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -144,8 +144,8 @@
       "measurement": "last",
       "min": 9.1044,
       "max": 9.106399999999999,
-      "value": 9.100011365041551,
-      "passed": false
+      "value": 9.10541130416458,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -153,8 +153,8 @@
       "measurement": "last",
       "min": 10.00525,
       "max": 10.007249999999999,
-      "value": 10.000011371652773,
-      "passed": false
+      "value": 10.00626130416469,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -162,8 +162,8 @@
       "measurement": "last",
       "min": 11.0062,
       "max": 11.008199999999999,
-      "value": 11.000011378998607,
-      "passed": false
+      "value": 11.007211304164798,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -171,8 +171,8 @@
       "measurement": "last",
       "min": 12.007,
       "max": 12.008999999999999,
-      "value": 12.000011386345147,
-      "passed": false
+      "value": 12.008011304165592,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -180,8 +180,8 @@
       "measurement": "last",
       "min": 13.008000000000001,
       "max": 13.01,
-      "value": 13.000011393689888,
-      "passed": false
+      "value": 13.009011304164579,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -189,8 +189,8 @@
       "measurement": "last",
       "min": 15.010100000000001,
       "max": 15.0121,
-      "value": 15.000001053663443,
-      "passed": false
+      "value": 15.011100901665948,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -198,8 +198,8 @@
       "measurement": "last",
       "min": 16.0112,
       "max": 16.0132,
-      "value": 16.000000297128242,
-      "passed": false
+      "value": 16.01220008554388,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -207,8 +207,8 @@
       "measurement": "last",
       "min": 18.013199999999998,
       "max": 18.0152,
-      "value": 18.00000032651323,
-      "passed": false
+      "value": 18.014200085545323,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -216,8 +216,8 @@
       "measurement": "last",
       "min": 20.0152,
       "max": 20.017200000000003,
-      "value": 20.000000355897846,
-      "passed": false
+      "value": 20.016200085546128,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -225,8 +225,8 @@
       "measurement": "last",
       "min": 22.0172,
       "max": 22.0192,
-      "value": 22.000000376744786,
-      "passed": false
+      "value": 22.01820000928867,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -234,8 +234,8 @@
       "measurement": "last",
       "min": 24.019199999999998,
       "max": 24.0212,
-      "value": 24.000000477516323,
-      "passed": false
+      "value": 24.020200001148833,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -243,8 +243,8 @@
       "measurement": "last",
       "min": 27.19644523905609,
       "max": 27.198445239056092,
-      "value": 27.174675929538548,
-      "passed": false
+      "value": 27.197440247383255,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -252,8 +252,8 @@
       "measurement": "last",
       "min": 30.19999523905609,
       "max": 30.201995239056092,
-      "value": 30.17467615013365,
-      "passed": false
+      "value": 30.200990247559886,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -261,8 +261,8 @@
       "measurement": "last",
       "min": 33.20349523905609,
       "max": 33.205495239056084,
-      "value": 33.17467637073688,
-      "passed": false
+      "value": 33.2044902477379,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -270,8 +270,8 @@
       "measurement": "last",
       "min": 36.25051904882012,
       "max": 36.25251904882011,
-      "value": 36.21834567120393,
-      "passed": false
+      "value": 36.25151280989118,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -279,8 +279,8 @@
       "measurement": "last",
       "min": 39.29744285858415,
       "max": 39.29944285858414,
-      "value": 39.262015054818825,
-      "passed": false
+      "value": 39.29843537216041,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -288,8 +288,8 @@
       "measurement": "last",
       "min": 43.32400476346616,
       "max": 43.32600476346615,
-      "value": 43.283850076557925,
-      "passed": false
+      "value": 43.324996653571944,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -297,8 +297,8 @@
       "measurement": "last",
       "min": 47.32880476346616,
       "max": 47.330804763466155,
-      "value": 47.2838505545825,
-      "passed": false
+      "value": 47.329796653955164,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -306,8 +306,8 @@
       "measurement": "last",
       "min": 51.355566668348175,
       "max": 51.35756666834817,
-      "value": 51.305685679871374,
-      "passed": false
+      "value": 51.35655793545785,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -315,8 +315,8 @@
       "measurement": "last",
       "min": 56.057,
       "max": 56.059,
-      "value": 56.00002709528713,
-      "passed": false
+      "value": 56.05802343094386,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -324,8 +324,8 @@
       "measurement": "last",
       "min": 62.0642,
       "max": 62.066199999999995,
-      "value": 62.0000204181439,
-      "passed": false
+      "value": 62.065216082141944,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -333,8 +333,8 @@
       "measurement": "last",
       "min": 68.07169999999999,
       "max": 68.0737,
-      "value": 68.00002085915052,
-      "passed": false
+      "value": 68.07271608215358,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -342,8 +342,8 @@
       "measurement": "last",
       "min": 75.08,
       "max": 75.08200000000001,
-      "value": 75.0000213736887,
-      "passed": false
+      "value": 75.08101608216691,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -351,8 +351,8 @@
       "measurement": "last",
       "min": 2.39725,
       "max": 2.39925,
-      "value": 2.3999998927517314,
-      "passed": false
+      "value": 2.398250000080116,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -360,8 +360,8 @@
       "measurement": "last",
       "min": 2.6972500000000004,
       "max": 2.69925,
-      "value": 2.6999999021928596,
-      "passed": false
+      "value": 2.6982500000825795,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -369,8 +369,8 @@
       "measurement": "last",
       "min": 2.99725,
       "max": 2.99925,
-      "value": 2.9999999016049723,
-      "passed": false
+      "value": 2.9982500000903616,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -378,8 +378,8 @@
       "measurement": "last",
       "min": 3.29725,
       "max": 3.29925,
-      "value": 3.2999999043191375,
-      "passed": false
+      "value": 3.2982500000969885,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -387,8 +387,8 @@
       "measurement": "last",
       "min": 3.5972500000000003,
       "max": 3.59925,
-      "value": 3.5999998707121788,
-      "passed": false
+      "value": 3.5982500001236075,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -396,8 +396,8 @@
       "measurement": "last",
       "min": 3.89725,
       "max": 3.89925,
-      "value": 3.89999986985514,
-      "passed": false
+      "value": 3.8982500001336775,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -405,8 +405,8 @@
       "measurement": "last",
       "min": 4.297249999999999,
       "max": 4.29925,
-      "value": 4.29999982270516,
-      "passed": false
+      "value": 4.298250000172594,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -414,8 +414,8 @@
       "measurement": "last",
       "min": 4.69735,
       "max": 4.699350000000001,
-      "value": 4.699999944244365,
-      "passed": false
+      "value": 4.698350000117478,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -423,7 +423,7 @@
       "measurement": "last",
       "min": 5.098249999999999,
       "max": 5.10025,
-      "value": 5.100000015936894,
+      "value": 5.099250000081282,
       "passed": true
     },
     {
@@ -432,7 +432,7 @@
       "measurement": "last",
       "min": 5.59925,
       "max": 5.60125,
-      "value": 5.600000071482911,
+      "value": 5.60025000005874,
       "passed": true
     },
     {
@@ -441,8 +441,8 @@
       "measurement": "last",
       "min": 6.2010499999999995,
       "max": 6.20305,
-      "value": 6.200011343738578,
-      "passed": false
+      "value": 6.202061304163968,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -450,8 +450,8 @@
       "measurement": "last",
       "min": 6.801849999999999,
       "max": 6.80385,
-      "value": 6.80003307589164,
-      "passed": false
+      "value": 6.802883039782782,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -459,8 +459,8 @@
       "measurement": "last",
       "min": 7.5028999999999995,
       "max": 7.5049,
-      "value": 7.500011353288239,
-      "passed": false
+      "value": 7.503911304164323,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -468,8 +468,8 @@
       "measurement": "last",
       "min": 8.2037,
       "max": 8.205699999999998,
-      "value": 8.200011358430192,
-      "passed": false
+      "value": 8.20471130416433,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -477,8 +477,8 @@
       "measurement": "last",
       "min": 9.1044,
       "max": 9.106399999999999,
-      "value": 9.100011365041551,
-      "passed": false
+      "value": 9.10541130416458,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -486,8 +486,8 @@
       "measurement": "last",
       "min": 10.00525,
       "max": 10.007249999999999,
-      "value": 10.000011371652773,
-      "passed": false
+      "value": 10.00626130416469,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -495,8 +495,8 @@
       "measurement": "last",
       "min": 11.0062,
       "max": 11.008199999999999,
-      "value": 11.000011378998607,
-      "passed": false
+      "value": 11.007211304164798,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -504,8 +504,8 @@
       "measurement": "last",
       "min": 12.007,
       "max": 12.008999999999999,
-      "value": 12.000011386345147,
-      "passed": false
+      "value": 12.008011304165592,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -513,8 +513,8 @@
       "measurement": "last",
       "min": 13.008000000000001,
       "max": 13.01,
-      "value": 13.000011393689888,
-      "passed": false
+      "value": 13.009011304164579,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -522,8 +522,8 @@
       "measurement": "last",
       "min": 15.010100000000001,
       "max": 15.0121,
-      "value": 15.000001053663443,
-      "passed": false
+      "value": 15.011100901665948,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -531,8 +531,8 @@
       "measurement": "last",
       "min": 16.0112,
       "max": 16.0132,
-      "value": 16.000000297128242,
-      "passed": false
+      "value": 16.01220008554388,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -540,8 +540,8 @@
       "measurement": "last",
       "min": 18.013199999999998,
       "max": 18.0152,
-      "value": 18.00000032651323,
-      "passed": false
+      "value": 18.014200085545323,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -549,8 +549,8 @@
       "measurement": "last",
       "min": 20.0152,
       "max": 20.017200000000003,
-      "value": 20.000000355897846,
-      "passed": false
+      "value": 20.016200085546128,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -558,8 +558,8 @@
       "measurement": "last",
       "min": 22.0172,
       "max": 22.0192,
-      "value": 22.000000376744786,
-      "passed": false
+      "value": 22.01820000928867,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -567,8 +567,8 @@
       "measurement": "last",
       "min": 24.019199999999998,
       "max": 24.0212,
-      "value": 24.000000477516323,
-      "passed": false
+      "value": 24.020200001148833,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -576,8 +576,8 @@
       "measurement": "last",
       "min": 27.02235,
       "max": 27.024350000000002,
-      "value": 27.000735729311355,
-      "passed": false
+      "value": 27.024084971488577,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -585,8 +585,8 @@
       "measurement": "last",
       "min": 30.0259,
       "max": 30.027900000000002,
-      "value": 30.000735817481864,
-      "passed": false
+      "value": 30.027634971490297,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -594,8 +594,8 @@
       "measurement": "last",
       "min": 33.0294,
       "max": 33.0314,
-      "value": 33.000735905655816,
-      "passed": false
+      "value": 33.03113497149282,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -603,8 +603,8 @@
       "measurement": "last",
       "min": 36.032900000000005,
       "max": 36.0349,
-      "value": 36.00019625463681,
-      "passed": false
+      "value": 36.034094747234015,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -612,8 +612,8 @@
       "measurement": "last",
       "min": 39.036300000000004,
       "max": 39.0383,
-      "value": 39.00007660147392,
-      "passed": false
+      "value": 39.037374576362375,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -621,8 +621,8 @@
       "measurement": "last",
       "min": 43.0411,
       "max": 43.043099999999995,
-      "value": 43.00005691291185,
-      "passed": false
+      "value": 43.04215452635159,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -630,8 +630,8 @@
       "measurement": "last",
       "min": 47.0459,
       "max": 47.0479,
-      "value": 47.00005310693911,
-      "passed": false
+      "value": 47.046950446472096,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -639,8 +639,8 @@
       "measurement": "last",
       "min": 51.050900000000006,
       "max": 51.0529,
-      "value": 51.00003740742684,
-      "passed": false
+      "value": 51.05193429699956,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -648,8 +648,8 @@
       "measurement": "last",
       "min": 56.057,
       "max": 56.059,
-      "value": 56.00002709528713,
-      "passed": false
+      "value": 56.05802343094386,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -657,8 +657,8 @@
       "measurement": "last",
       "min": 62.0642,
       "max": 62.066199999999995,
-      "value": 62.0000204181439,
-      "passed": false
+      "value": 62.065216082141944,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -666,8 +666,8 @@
       "measurement": "last",
       "min": 68.07169999999999,
       "max": 68.0737,
-      "value": 68.00002085915052,
-      "passed": false
+      "value": 68.07271608215358,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -675,8 +675,8 @@
       "measurement": "last",
       "min": 75.08,
       "max": 75.08200000000001,
-      "value": 75.0000213736887,
-      "passed": false
+      "value": 75.08101608216691,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -684,8 +684,8 @@
       "measurement": "last",
       "min": 2.39725,
       "max": 2.39925,
-      "value": 2.3999998927517314,
-      "passed": false
+      "value": 2.398250000080116,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -693,8 +693,8 @@
       "measurement": "last",
       "min": 2.6972500000000004,
       "max": 2.69925,
-      "value": 2.6999999021928596,
-      "passed": false
+      "value": 2.6982500000825795,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -702,8 +702,8 @@
       "measurement": "last",
       "min": 2.99725,
       "max": 2.99925,
-      "value": 2.9999999016049723,
-      "passed": false
+      "value": 2.9982500000903616,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -711,8 +711,8 @@
       "measurement": "last",
       "min": 3.29725,
       "max": 3.29925,
-      "value": 3.2999999043191375,
-      "passed": false
+      "value": 3.2982500000969885,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -720,8 +720,8 @@
       "measurement": "last",
       "min": 3.5972500000000003,
       "max": 3.59925,
-      "value": 3.5999998707121788,
-      "passed": false
+      "value": 3.5982500001236075,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -729,8 +729,8 @@
       "measurement": "last",
       "min": 3.89725,
       "max": 3.89925,
-      "value": 3.89999986985514,
-      "passed": false
+      "value": 3.8982500001336775,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -738,8 +738,8 @@
       "measurement": "last",
       "min": 4.297249999999999,
       "max": 4.29925,
-      "value": 4.29999982270516,
-      "passed": false
+      "value": 4.298250000172594,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -747,8 +747,8 @@
       "measurement": "last",
       "min": 4.69735,
       "max": 4.699350000000001,
-      "value": 4.699999944244365,
-      "passed": false
+      "value": 4.698350000117478,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -756,7 +756,7 @@
       "measurement": "last",
       "min": 5.098249999999999,
       "max": 5.10025,
-      "value": 5.100000015936894,
+      "value": 5.099250000081282,
       "passed": true
     },
     {
@@ -765,7 +765,7 @@
       "measurement": "last",
       "min": 5.59925,
       "max": 5.60125,
-      "value": 5.600000071482911,
+      "value": 5.60025000005874,
       "passed": true
     },
     {
@@ -774,8 +774,8 @@
       "measurement": "last",
       "min": 6.2010499999999995,
       "max": 6.20305,
-      "value": 6.200011343738578,
-      "passed": false
+      "value": 6.202061304163968,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -783,8 +783,8 @@
       "measurement": "last",
       "min": 6.801849999999999,
       "max": 6.80385,
-      "value": 6.800000963309353,
-      "passed": false
+      "value": 6.802850901664238,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -792,8 +792,8 @@
       "measurement": "last",
       "min": 7.5028999999999995,
       "max": 7.5049,
-      "value": 7.500000971022446,
-      "passed": false
+      "value": 7.503900901664429,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -801,8 +801,8 @@
       "measurement": "last",
       "min": 8.2037,
       "max": 8.205699999999998,
-      "value": 8.200000978735691,
-      "passed": false
+      "value": 8.204700901664767,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -810,8 +810,8 @@
       "measurement": "last",
       "min": 9.1044,
       "max": 9.106399999999999,
-      "value": 9.100000988652567,
-      "passed": false
+      "value": 9.105400901665007,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -819,8 +819,8 @@
       "measurement": "last",
       "min": 10.00525,
       "max": 10.007249999999999,
-      "value": 10.000000208977012,
-      "passed": false
+      "value": 10.006250085541868,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -828,8 +828,8 @@
       "measurement": "last",
       "min": 11.0062,
       "max": 11.008199999999999,
-      "value": 11.00000022366844,
-      "passed": false
+      "value": 11.007200085541875,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -837,8 +837,8 @@
       "measurement": "last",
       "min": 12.007,
       "max": 12.008999999999999,
-      "value": 12.000000193092516,
-      "passed": false
+      "value": 12.008000009283242,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -846,8 +846,8 @@
       "measurement": "last",
       "min": 13.008000000000001,
       "max": 13.01,
-      "value": 13.000000235094467,
-      "passed": false
+      "value": 13.009000001141976,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -855,8 +855,8 @@
       "measurement": "last",
       "min": 15.010100000000001,
       "max": 15.0121,
-      "value": 15.000000279169724,
-      "passed": false
+      "value": 15.011100001142534,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -864,8 +864,8 @@
       "measurement": "last",
       "min": 16.0112,
       "max": 16.0132,
-      "value": 16.000000377070972,
-      "passed": false
+      "value": 16.01220000006727,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -873,8 +873,8 @@
       "measurement": "last",
       "min": 18.013199999999998,
       "max": 18.0152,
-      "value": 18.00000047731954,
-      "passed": false
+      "value": 18.014200000061823,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -882,8 +882,8 @@
       "measurement": "last",
       "min": 20.0152,
       "max": 20.017200000000003,
-      "value": 20.000000543433817,
-      "passed": false
+      "value": 20.016200000063048,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -891,8 +891,8 @@
       "measurement": "last",
       "min": 22.0172,
       "max": 22.0192,
-      "value": 22.00000066285274,
-      "passed": false
+      "value": 22.018200000074984,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -900,8 +900,8 @@
       "measurement": "last",
       "min": 24.019199999999998,
       "max": 24.0212,
-      "value": 24.00000073631383,
-      "passed": false
+      "value": 24.020200000076226,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -909,8 +909,8 @@
       "measurement": "last",
       "min": 27.02235,
       "max": 27.024350000000002,
-      "value": 27.00007594016699,
-      "passed": false
+      "value": 27.023424576344084,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -918,8 +918,8 @@
       "measurement": "last",
       "min": 30.0259,
       "max": 30.027900000000002,
-      "value": 30.000076105486336,
-      "passed": false
+      "value": 30.02697457634864,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -927,8 +927,8 @@
       "measurement": "last",
       "min": 33.0294,
       "max": 33.0314,
-      "value": 33.00005632505676,
-      "passed": false
+      "value": 33.030454526336285,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -936,8 +936,8 @@
       "measurement": "last",
       "min": 36.032900000000005,
       "max": 36.0349,
-      "value": 36.00003644292626,
-      "passed": false
+      "value": 36.033934296972056,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -945,8 +945,8 @@
       "measurement": "last",
       "min": 39.036300000000004,
       "max": 39.0383,
-      "value": 39.00003663581405,
-      "passed": false
+      "value": 39.0373342969768,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -954,8 +954,8 @@
       "measurement": "last",
       "min": 43.0411,
       "max": 43.043099999999995,
-      "value": 43.00002619962915,
-      "passed": false
+      "value": 43.04212343092089,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -963,8 +963,8 @@
       "measurement": "last",
       "min": 51.050900000000006,
       "max": 51.0529,
-      "value": 51.000019609701255,
-      "passed": false
+      "value": 51.051916082120414,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -972,8 +972,8 @@
       "measurement": "last",
       "min": 75.08,
       "max": 75.08200000000001,
-      "value": 75.00001027115239,
-      "passed": false
+      "value": 75.08100372475178,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -981,8 +981,8 @@
       "measurement": "last",
       "min": 2.39725,
       "max": 2.39925,
-      "value": 2.3999998927517314,
-      "passed": false
+      "value": 2.398250000080116,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -990,8 +990,8 @@
       "measurement": "last",
       "min": 2.6972500000000004,
       "max": 2.69925,
-      "value": 2.6999999021928596,
-      "passed": false
+      "value": 2.6982500000825795,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -999,8 +999,8 @@
       "measurement": "last",
       "min": 2.99725,
       "max": 2.99925,
-      "value": 2.9999999016049723,
-      "passed": false
+      "value": 2.9982500000903616,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1008,8 +1008,8 @@
       "measurement": "last",
       "min": 3.29725,
       "max": 3.29925,
-      "value": 3.2999999043191375,
-      "passed": false
+      "value": 3.2982500000969885,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1017,8 +1017,8 @@
       "measurement": "last",
       "min": 3.5972500000000003,
       "max": 3.59925,
-      "value": 3.5999998707121788,
-      "passed": false
+      "value": 3.5982500001236075,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1026,8 +1026,8 @@
       "measurement": "last",
       "min": 3.89725,
       "max": 3.89925,
-      "value": 3.89999986985514,
-      "passed": false
+      "value": 3.8982500001336775,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1035,8 +1035,8 @@
       "measurement": "last",
       "min": 4.297249999999999,
       "max": 4.29925,
-      "value": 4.29999982270516,
-      "passed": false
+      "value": 4.298250000172594,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1044,8 +1044,8 @@
       "measurement": "last",
       "min": 4.69735,
       "max": 4.699350000000001,
-      "value": 4.699999944244365,
-      "passed": false
+      "value": 4.698350000117478,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1053,7 +1053,7 @@
       "measurement": "last",
       "min": 5.098249999999999,
       "max": 5.10025,
-      "value": 5.100000015936894,
+      "value": 5.099250000081282,
       "passed": true
     },
     {
@@ -1062,7 +1062,7 @@
       "measurement": "last",
       "min": 5.59925,
       "max": 5.60125,
-      "value": 5.600000071482911,
+      "value": 5.60025000005874,
       "passed": true
     },
     {
@@ -1071,8 +1071,8 @@
       "measurement": "last",
       "min": 6.2010499999999995,
       "max": 6.20305,
-      "value": 6.200011343738578,
-      "passed": false
+      "value": 6.202061304163968,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1080,8 +1080,8 @@
       "measurement": "last",
       "min": 6.801849999999999,
       "max": 6.80385,
-      "value": 6.800000963309353,
-      "passed": false
+      "value": 6.802850901664238,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1089,8 +1089,8 @@
       "measurement": "last",
       "min": 7.5028999999999995,
       "max": 7.5049,
-      "value": 7.500000971022446,
-      "passed": false
+      "value": 7.503900901664429,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1098,8 +1098,8 @@
       "measurement": "last",
       "min": 8.2037,
       "max": 8.205699999999998,
-      "value": 8.200000978735691,
-      "passed": false
+      "value": 8.204700901664767,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1107,8 +1107,8 @@
       "measurement": "last",
       "min": 9.1044,
       "max": 9.106399999999999,
-      "value": 9.100000988652567,
-      "passed": false
+      "value": 9.105400901665007,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1116,8 +1116,8 @@
       "measurement": "last",
       "min": 10.00525,
       "max": 10.007249999999999,
-      "value": 10.000000208977012,
-      "passed": false
+      "value": 10.006250085541868,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1125,8 +1125,8 @@
       "measurement": "last",
       "min": 11.0062,
       "max": 11.008199999999999,
-      "value": 11.00000022366844,
-      "passed": false
+      "value": 11.007200085541875,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1134,8 +1134,8 @@
       "measurement": "last",
       "min": 12.007,
       "max": 12.008999999999999,
-      "value": 12.000000193092516,
-      "passed": false
+      "value": 12.008000009283242,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1143,8 +1143,8 @@
       "measurement": "last",
       "min": 13.008000000000001,
       "max": 13.01,
-      "value": 13.000000235094467,
-      "passed": false
+      "value": 13.009000001141976,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1152,8 +1152,8 @@
       "measurement": "last",
       "min": 15.010100000000001,
       "max": 15.0121,
-      "value": 15.000000279169724,
-      "passed": false
+      "value": 15.011100001142534,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1161,8 +1161,8 @@
       "measurement": "last",
       "min": 16.0112,
       "max": 16.0132,
-      "value": 16.000000377070972,
-      "passed": false
+      "value": 16.01220000006727,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1170,8 +1170,8 @@
       "measurement": "last",
       "min": 18.013199999999998,
       "max": 18.0152,
-      "value": 18.00000047731954,
-      "passed": false
+      "value": 18.014200000061823,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1179,8 +1179,8 @@
       "measurement": "last",
       "min": 20.0152,
       "max": 20.017200000000003,
-      "value": 20.000000543433817,
-      "passed": false
+      "value": 20.016200000063048,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1188,8 +1188,8 @@
       "measurement": "last",
       "min": 22.0172,
       "max": 22.0192,
-      "value": 22.00000066285274,
-      "passed": false
+      "value": 22.018200000074984,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1197,8 +1197,8 @@
       "measurement": "last",
       "min": 24.019199999999998,
       "max": 24.0212,
-      "value": 24.00000073631383,
-      "passed": false
+      "value": 24.020200000076226,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1206,8 +1206,8 @@
       "measurement": "last",
       "min": 27.02235,
       "max": 27.024350000000002,
-      "value": 27.00007594016699,
-      "passed": false
+      "value": 27.023424576344084,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1215,8 +1215,8 @@
       "measurement": "last",
       "min": 30.0259,
       "max": 30.027900000000002,
-      "value": 30.000076105486336,
-      "passed": false
+      "value": 30.02697457634864,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1224,8 +1224,8 @@
       "measurement": "last",
       "min": 33.0294,
       "max": 33.0314,
-      "value": 33.00005632505676,
-      "passed": false
+      "value": 33.030454526336285,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1233,8 +1233,8 @@
       "measurement": "last",
       "min": 36.032900000000005,
       "max": 36.0349,
-      "value": 36.00003644292626,
-      "passed": false
+      "value": 36.033934296972056,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1242,8 +1242,8 @@
       "measurement": "last",
       "min": 39.036300000000004,
       "max": 39.0383,
-      "value": 39.00003663581405,
-      "passed": false
+      "value": 39.0373342969768,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1251,8 +1251,8 @@
       "measurement": "last",
       "min": 43.0411,
       "max": 43.043099999999995,
-      "value": 43.00002619962915,
-      "passed": false
+      "value": 43.04212343092089,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1260,8 +1260,8 @@
       "measurement": "last",
       "min": 47.0459,
       "max": 47.0479,
-      "value": 47.000026475204024,
-      "passed": false
+      "value": 47.046923430928416,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1269,8 +1269,8 @@
       "measurement": "last",
       "min": 51.050900000000006,
       "max": 51.0529,
-      "value": 51.000019609701255,
-      "passed": false
+      "value": 51.051916082120414,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1278,8 +1278,8 @@
       "measurement": "last",
       "min": 56.057,
       "max": 56.059,
-      "value": 56.00001521146665,
-      "passed": false
+      "value": 56.05801108744009,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1287,8 +1287,8 @@
       "measurement": "last",
       "min": 62.0642,
       "max": 62.066199999999995,
-      "value": 62.00001252404235,
-      "passed": false
+      "value": 62.06520767663674,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1296,8 +1296,8 @@
       "measurement": "last",
       "min": 68.07169999999999,
       "max": 68.0737,
-      "value": 68.0000109610745,
-      "passed": false
+      "value": 68.07270533683929,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1305,8 +1305,8 @@
       "measurement": "last",
       "min": 75.08,
       "max": 75.08200000000001,
-      "value": 75.00001027115239,
-      "passed": false
+      "value": 75.08100372475178,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1314,8 +1314,8 @@
       "measurement": "last",
       "min": 2.39725,
       "max": 2.39925,
-      "value": 2.3999998927517314,
-      "passed": false
+      "value": 2.398250000080116,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1323,8 +1323,8 @@
       "measurement": "last",
       "min": 2.6972500000000004,
       "max": 2.69925,
-      "value": 2.6999999021928596,
-      "passed": false
+      "value": 2.6982500000825795,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1332,8 +1332,8 @@
       "measurement": "last",
       "min": 2.99725,
       "max": 2.99925,
-      "value": 2.9999999016049723,
-      "passed": false
+      "value": 2.9982500000903616,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1341,8 +1341,8 @@
       "measurement": "last",
       "min": 3.29725,
       "max": 3.29925,
-      "value": 3.2999999043191375,
-      "passed": false
+      "value": 3.2982500000969885,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1350,8 +1350,8 @@
       "measurement": "last",
       "min": 3.5972500000000003,
       "max": 3.59925,
-      "value": 3.5999998707121788,
-      "passed": false
+      "value": 3.5982500001236075,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1359,8 +1359,8 @@
       "measurement": "last",
       "min": 3.89725,
       "max": 3.89925,
-      "value": 3.89999986985514,
-      "passed": false
+      "value": 3.8982500001336775,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1368,8 +1368,8 @@
       "measurement": "last",
       "min": 4.297249999999999,
       "max": 4.29925,
-      "value": 4.29999982270516,
-      "passed": false
+      "value": 4.298250000172594,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1377,8 +1377,8 @@
       "measurement": "last",
       "min": 4.69735,
       "max": 4.699350000000001,
-      "value": 4.699999944244365,
-      "passed": false
+      "value": 4.698350000117478,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1386,7 +1386,7 @@
       "measurement": "last",
       "min": 5.098249999999999,
       "max": 5.10025,
-      "value": 5.100000015936894,
+      "value": 5.099250000081282,
       "passed": true
     },
     {
@@ -1395,7 +1395,7 @@
       "measurement": "last",
       "min": 5.59925,
       "max": 5.60125,
-      "value": 5.600000071482911,
+      "value": 5.60025000005874,
       "passed": true
     },
     {
@@ -1404,8 +1404,8 @@
       "measurement": "last",
       "min": 6.2010499999999995,
       "max": 6.20305,
-      "value": 6.200011343738578,
-      "passed": false
+      "value": 6.202061304163968,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1413,8 +1413,8 @@
       "measurement": "last",
       "min": 6.801849999999999,
       "max": 6.80385,
-      "value": 6.800000963309353,
-      "passed": false
+      "value": 6.802850901664238,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1422,8 +1422,8 @@
       "measurement": "last",
       "min": 7.5028999999999995,
       "max": 7.5049,
-      "value": 7.500000971022446,
-      "passed": false
+      "value": 7.503900901664429,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1431,8 +1431,8 @@
       "measurement": "last",
       "min": 8.2037,
       "max": 8.205699999999998,
-      "value": 8.200000978735691,
-      "passed": false
+      "value": 8.204700901664767,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1440,8 +1440,8 @@
       "measurement": "last",
       "min": 9.1044,
       "max": 9.106399999999999,
-      "value": 9.100000988652567,
-      "passed": false
+      "value": 9.105400901665007,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1449,8 +1449,8 @@
       "measurement": "last",
       "min": 10.00525,
       "max": 10.007249999999999,
-      "value": 10.000000208977012,
-      "passed": false
+      "value": 10.006250085541868,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1458,8 +1458,8 @@
       "measurement": "last",
       "min": 11.0062,
       "max": 11.008199999999999,
-      "value": 11.00000022366844,
-      "passed": false
+      "value": 11.007200085541875,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1467,8 +1467,8 @@
       "measurement": "last",
       "min": 12.007,
       "max": 12.008999999999999,
-      "value": 12.000000193092516,
-      "passed": false
+      "value": 12.008000009283242,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1476,8 +1476,8 @@
       "measurement": "last",
       "min": 13.008000000000001,
       "max": 13.01,
-      "value": 13.000000235094467,
-      "passed": false
+      "value": 13.009000001141976,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1485,8 +1485,8 @@
       "measurement": "last",
       "min": 15.010100000000001,
       "max": 15.0121,
-      "value": 15.000000279169724,
-      "passed": false
+      "value": 15.011100001142534,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1494,8 +1494,8 @@
       "measurement": "last",
       "min": 16.0112,
       "max": 16.0132,
-      "value": 16.000000377070972,
-      "passed": false
+      "value": 16.01220000006727,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1503,8 +1503,8 @@
       "measurement": "last",
       "min": 18.013199999999998,
       "max": 18.0152,
-      "value": 18.00000047731954,
-      "passed": false
+      "value": 18.014200000061823,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1512,8 +1512,8 @@
       "measurement": "last",
       "min": 20.0152,
       "max": 20.017200000000003,
-      "value": 20.000000543433817,
-      "passed": false
+      "value": 20.016200000063048,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1521,8 +1521,8 @@
       "measurement": "last",
       "min": 22.0172,
       "max": 22.0192,
-      "value": 22.00000066285274,
-      "passed": false
+      "value": 22.018200000074984,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1530,8 +1530,8 @@
       "measurement": "last",
       "min": 24.019199999999998,
       "max": 24.0212,
-      "value": 24.00000073631383,
-      "passed": false
+      "value": 24.020200000076226,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1539,8 +1539,8 @@
       "measurement": "last",
       "min": 27.02235,
       "max": 27.024350000000002,
-      "value": 27.00007594016699,
-      "passed": false
+      "value": 27.023424576344084,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1548,8 +1548,8 @@
       "measurement": "last",
       "min": 30.0259,
       "max": 30.027900000000002,
-      "value": 30.000076105486336,
-      "passed": false
+      "value": 30.02697457634864,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1557,8 +1557,8 @@
       "measurement": "last",
       "min": 33.0294,
       "max": 33.0314,
-      "value": 33.00005632505676,
-      "passed": false
+      "value": 33.030454526336285,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1566,8 +1566,8 @@
       "measurement": "last",
       "min": 36.032900000000005,
       "max": 36.0349,
-      "value": 36.00003644292626,
-      "passed": false
+      "value": 36.033934296972056,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1575,8 +1575,8 @@
       "measurement": "last",
       "min": 39.036300000000004,
       "max": 39.0383,
-      "value": 39.00003663581405,
-      "passed": false
+      "value": 39.0373342969768,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1584,8 +1584,8 @@
       "measurement": "last",
       "min": 43.0411,
       "max": 43.043099999999995,
-      "value": 43.00002619962915,
-      "passed": false
+      "value": 43.04212343092089,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1593,8 +1593,8 @@
       "measurement": "last",
       "min": 47.0459,
       "max": 47.0479,
-      "value": 47.000026475204024,
-      "passed": false
+      "value": 47.046923430928416,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1602,8 +1602,8 @@
       "measurement": "last",
       "min": 51.050900000000006,
       "max": 51.0529,
-      "value": 51.000019609701255,
-      "passed": false
+      "value": 51.051916082120414,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1611,8 +1611,8 @@
       "measurement": "last",
       "min": 56.057,
       "max": 56.059,
-      "value": 56.00001521146665,
-      "passed": false
+      "value": 56.05801108744009,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1620,8 +1620,8 @@
       "measurement": "last",
       "min": 62.0642,
       "max": 62.066199999999995,
-      "value": 62.00001252404235,
-      "passed": false
+      "value": 62.06520767663674,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1629,8 +1629,8 @@
       "measurement": "last",
       "min": 68.07169999999999,
       "max": 68.0737,
-      "value": 68.0000109610745,
-      "passed": false
+      "value": 68.07270533683929,
+      "passed": true
     },
     {
       "analysis": "op",
@@ -1638,8 +1638,8 @@
       "measurement": "last",
       "min": 75.08,
       "max": 75.08200000000001,
-      "value": 75.00001027115239,
-      "passed": false
+      "value": 75.08100372475178,
+      "passed": true
     }
   ],
   "error": null,
@@ -1647,19 +1647,19 @@
   "temperature_method": "OPTIONS TEMP",
   "simulation_status": "PASS",
   "checks_count": 182,
-  "checks_status": "FAIL",
-  "run_id": "732a4f42ea47452d8003a90ea5ac6925",
-  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\732a4f42ea47452d8003a90ea5ac6925",
+  "checks_status": "PASS",
+  "run_id": "a4a683756fc441ff81d5ae34a84f4980",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\a4a683756fc441ff81d5ae34a84f4980",
   "diagnostics": {
     "script_started": true,
     "status": {
       "STATUS": "OK",
-      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\732a4f42ea47452d8003a90ea5ac6925\\test.sdf"
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\a4a683756fc441ff81d5ae34a84f4980\\test.sdf"
     },
     "files": [
       "collect.pas",
       "run.log",
-      "run_c0b16cbeacb84e3dad0bee5d838652bd.pas",
+      "run_12dbd3fd0d084801a92f0631a95b9ba8.pas",
       "started.txt",
       "status.txt",
       "test.nsx",

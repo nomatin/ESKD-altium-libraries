@@ -1,5 +1,6 @@
+* Native AD24.4 NSX probe: TBV1 had no effect; TCV applies breakdown temperature shift.
 * NBV constrained by both datasheet rdif maxima and IR<=5e-06A at VR=1V; 5% guard. Local rdif<=95ohm at 0.005A, not an exact measured knee.
-* SZ scenario: midpoint of datasheet range [-3.5,0]mV/K at 0.005A. Not typical/measured; no tolerance sweep. TBV1 (Altium/PSpice relative 1/K) locally calibrated at 25C; linear extrapolation not a measured full-temperature curve.
+* SZ scenario: midpoint of datasheet range [-3.5,0]mV/K at 0.005A. Not typical/measured; no tolerance sweep. TCV (MixedSim, V/K, BV(T)=BV-TCV*(T-25)) locally calibrated at 25C; linear extrapolation not a measured full-temperature curve.
 * BZT52-B3V3 | Nexperia
 * Source: Datasheets/Diodes/BZT52_B_Nexperia.pdf
 * Revision: Rev. 2, 06-Feb-2024; B selection
@@ -7,5 +8,5 @@
 * VF anchors (A,V): [[0.01, 0.9]]
 .SUBCKT MY_LIB_VD0058_D A K
 Dcore A K CORE
-.MODEL CORE D (IS=2.47414713594e-10 N=2 RS=0 TNOM=25 CJO=4.5e-10 VJ=1 M=0.5 BV=3.3000012469783 IBV=0.005 NBV=12.311381670461 TBV1=-0.00053027345738758)
+.MODEL CORE D (IS=2.47414713594e-10 N=2 RS=0 TNOM=25 CJO=4.5e-10 VJ=1 M=0.5 BV=3.3000012469783 IBV=0.005 NBV=12.311381670461 TCV=0.00174990307061851)
 .ENDS MY_LIB_VD0058_D

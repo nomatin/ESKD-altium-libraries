@@ -17,10 +17,10 @@
     },
     {
       "test": "extended_zener_temperature_Tp26.json",
-      "status": "FAIL",
+      "status": "PASS",
       "checks": 182,
-      "passed_checks": 11,
-      "failed_checks": 171,
+      "passed_checks": 182,
+      "failed_checks": 0,
       "measurements": 0,
       "measurement_statuses": {
         "PASS": 0,
@@ -76,28 +76,115 @@
       "error": null
     },
     {
-      "test": "extended_es_recovery.json",
-      "status": "ERROR",
+      "test": "extended_es_recovery_VD0017.json",
+      "status": "PASS",
       "checks": 0,
       "passed_checks": 0,
       "failed_checks": 0,
-      "measurements": 7,
+      "measurements": 3,
       "measurement_statuses": {
-        "PASS": 0,
+        "PASS": 3,
         "FAIL": 0,
-        "ERROR": 7,
+        "ERROR": 0,
         "MEASURED": 0
       },
-      "error": {
-        "code": "MEASUREMENT_INVALID_WINDOW",
-        "message": "Window outside waveform"
-      }
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0018.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0019.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0020.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0021.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0022.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
+    },
+    {
+      "test": "extended_es_recovery_VD0023.json",
+      "status": "PASS",
+      "checks": 0,
+      "passed_checks": 0,
+      "failed_checks": 0,
+      "measurements": 3,
+      "measurement_statuses": {
+        "PASS": 3,
+        "FAIL": 0,
+        "ERROR": 0,
+        "MEASURED": 0
+      },
+      "error": null
     }
   ],
   "local_sz": {
-    "status": "FAIL",
-    "passed": 0,
-    "failed": 181,
+    "status": "PASS",
+    "passed": 181,
+    "failed": 0,
     "report": "extended_zener_sz.result.json"
   }
 }

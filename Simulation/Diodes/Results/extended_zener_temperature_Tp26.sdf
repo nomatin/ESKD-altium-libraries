@@ -2,7 +2,7 @@ SDF: 1.0
 TotalPoints: 182
 #ChartSetupsBegin
 Chart: Operating Point
-ChartId: TVVRKTQS
+ChartId: SOMUBXRH
 ChartView: 4
 ChartTitle: 
 ChartBackgroundColor: 3881787
@@ -607,7 +607,7 @@ ActiveChartName: Operating Point
 FilteredWavesBlend: 80
 #ChartSetupsEnd
 Chart: Operating Point
-ChartId: TVVRKTQS
+ChartId: SOMUBXRH
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 0.00000000000000E+000
@@ -620,9 +620,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        t-Œ$33@
+        œ/≤ù/@
 WaveDataStart
-    ôô@
+    Ó|@
 Wave: v(nvd0056)
 WaveYUnitStr: V
 WaveHint: 
@@ -632,9 +632,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Â¯xåôô@
+        Kññ@
 WaveDataStart
-    ÃÃ,@
+    !∞,@
 Wave: v(nvd0057)
 WaveYUnitStr: V
 WaveHint: 
@@ -644,9 +644,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        /,ÀÚˇˇ@
+        ˜ı¸~j¸@
 WaveDataStart
-      @@
+    T„?@
 Wave: v(nvd0058)
 WaveYUnitStr: V
 WaveHint: 
@@ -656,10 +656,10 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¢‘éYff
+        ®ñcÂ–b
 @
 WaveDataStart
-    33S@
+    áS@
 Wave: v(nvd0059)
 WaveYUnitStr: V
 WaveHint: 
@@ -669,9 +669,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÅrªÃÃ@
+        3Á K7…@
 WaveDataStart
-    fff@
+    ∫If@
 Wave: v(nvd0060)
 WaveYUnitStr: V
 WaveHint: 
@@ -681,9 +681,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ëtª!33@
+        -¶1≤ù/@
 WaveDataStart
-    ôôy@
+    Ó|y@
 Wave: v(nvd0061)
 WaveYUnitStr: V
 WaveHint: 
@@ -693,9 +693,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ?LM'33@
+        ÿ≥rh1@
 WaveDataStart
-    ôôâ@
+    Dãâ@
 Wave: v(nvd0062)
 WaveYUnitStr: V
 WaveHint: 
@@ -705,9 +705,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÌÏ…ÃÃ@
+        '™.CÀ@
 WaveDataStart
-    ffñ@
+    ‚Xñ@
 Wave: v(nvd0063)
 WaveYUnitStr: V
 WaveHint: 
@@ -717,9 +717,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ö1xgff@
+        éË¡ °e@
 WaveDataStart
-    33£@
+    -£@
 Wave: v(nvd0064)
 WaveYUnitStr: V
 WaveHint: 
@@ -729,9 +729,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ëw2kff@
+        Ñ¥ûÔßf@
 WaveDataStart
-    33≥@
+    ?5≥@
 Wave: v(nvd0065)
 WaveYUnitStr: V
 WaveHint: 
@@ -741,9 +741,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≠æ∆œÃ@
+        wØî(ÈŒ@
 WaveDataStart
-    ~f∆@
+    Iw∆@
 Wave: v(nvd0066)
 WaveYUnitStr: V
 WaveHint: 
@@ -753,9 +753,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ±‚ﬁ;3@
+        =Öπ¯&6@
 WaveDataStart
-    ﬂôŸ@
+    8±Ÿ@
 Wave: v(nvd0067)
 WaveYUnitStr: V
 WaveHint: 
@@ -765,9 +765,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ªË˘ @
+        ƒ·-S@
 WaveDataStart
-     @
+     @
 Wave: v(nvd0068)
 WaveYUnitStr: V
 WaveHint: 
@@ -777,9 +777,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        äíÜ„gf @
+        æâÎœh @
 WaveDataStart
-    ?3A
+    FA
 Wave: v(nvd0069)
 WaveYUnitStr: V
 WaveHint: 
@@ -789,9 +789,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ﬂ)å∞43"@
+        ˙px¯5"@
 WaveDataStart
-    ¶ôA
+    ƒØA
 Wave: v(nvd0070)
 WaveYUnitStr: V
 WaveHint: 
@@ -801,9 +801,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Á¿ë} $@
+        =<ÅÆ4$@
 WaveDataStart
-      A
+    • A
 Wave: v(nvd0071)
 WaveYUnitStr: V
 WaveHint: 
@@ -813,9 +813,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ê⁄–} &@
+        @73±&@
 WaveDataStart
-     0A
+    ä0A
 Wave: v(nvd0072)
 WaveYUnitStr: V
 WaveHint: 
@@ -825,9 +825,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ∆ı~ (@
+        p«¬(@
 WaveDataStart
-     @A
+    – @A
 Wave: v(nvd0073)
 WaveYUnitStr: V
 WaveHint: 
@@ -837,9 +837,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        O~ *@
+        √\1!ù*@
 WaveDataStart
-     PA
+    È$PA
 Wave: v(nvd0074)
 WaveYUnitStr: V
 WaveHint: 
@@ -849,9 +849,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        jÊZ#  .@
+        9sØ.@
 WaveDataStart
-     pA
+    x-pA
 Wave: v(nvd0075)
 WaveYUnitStr: V
 WaveHint: 
@@ -861,9 +861,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ı'¸  0@
+        \kxã0@
 WaveDataStart
-      ÄA
+    ¸ÄA
 Wave: v(nvd0076)
 WaveYUnitStr: V
 WaveHint: 
@@ -873,9 +873,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ]z  2@
+        Áù¢2@
 WaveDataStart
-      êA
+    êA
 Wave: v(nvd0077)
 WaveYUnitStr: V
 WaveHint: 
@@ -885,9 +885,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        “ë¯  4@
+        ÔúU∞%4@
 WaveDataStart
-      †A
+    .!†A
 Wave: v(nvd0078)
 WaveYUnitStr: V
 WaveHint: 
@@ -897,9 +897,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        FR  6@
+        ÜÆ|¡®6@
 WaveDataStart
-      ∞A
+    F%∞A
 Wave: v(nvd0079)
 WaveYUnitStr: V
 WaveHint: 
@@ -909,9 +909,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¿Í  8@
+        ;P»”+8@
 WaveDataStart
-      ¿A
+    _)¿A
 Wave: v(nvd0080)
 WaveYUnitStr: V
 WaveHint: 
@@ -921,9 +921,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        7ƒÃè∑,;@
+        ‹l≠qã2;@
 WaveDataStart
-    ºeŸA
+    \îŸA
 Wave: v(nvd0081)
 WaveYUnitStr: V
 WaveHint: 
@@ -933,9 +933,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        7Äì∑,>@
+        ¨Ãt3>@
 WaveDataStart
-    ΩeÒA
+    °õÒA
 Wave: v(nvd0082)
 WaveYUnitStr: V
 WaveHint: 
@@ -945,9 +945,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        uŸôÀ[ñ@@
+        O1áº,ö@@
 WaveDataStart
-    ﬁ≤B
+    f—B
 Wave: v(nvd0083)
 WaveYUnitStr: V
 WaveHint: 
@@ -957,9 +957,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        £Ö>¿ÚB@
+        ¸Ä^í1 B@
 WaveDataStart
-    ñﬂB
+    çB
 Wave: v(nvd0084)
 WaveYUnitStr: V
 WaveHint: 
@@ -969,9 +969,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ’¿ïµâ°C@
+        ≥Y!3¶C@
 WaveDataStart
-    NB
+    ô1B
 Wave: v(nvd0085)
 WaveYUnitStr: V
 WaveHint: 
@@ -981,9 +981,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        F‰3U§E@
+        R3á}ô©E@
 WaveDataStart
-    ™"-B
+    ÃL-B
 Wave: v(nvd0086)
 WaveYUnitStr: V
 WaveHint: 
@@ -993,9 +993,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        q7U§G@
+        ©àŸ∆6™G@
 WaveDataStart
-    ™"=B
+    ∂Q=B
 Wave: v(nvd0087)
 WaveYUnitStr: V
 WaveHint: 
@@ -1005,9 +1005,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        òÛVµ ßI@
+        €ıø∞£≠I@
 WaveDataStart
-    9MB
+    mMB
 Wave: v(nvd0088)
 WaveYUnitStr: V
 WaveHint: 
@@ -1017,9 +1017,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        °ØJ„  L@
+        '—OmL@
 WaveDataStart
-     `B
+    j;`B
 Wave: v(nvd0089)
 WaveYUnitStr: V
 WaveHint: 
@@ -1029,9 +1029,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Q°G´  O@
+        à¸% YO@
 WaveDataStart
-     xB
+    »BxB
 Wave: v(nvd0090)
 WaveYUnitStr: V
 WaveHint: 
@@ -1041,9 +1041,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        £W}W  Q@
+        ãØZaßQ@
 WaveDataStart
-     àB
+    ;%àB
 Wave: v(nvd0091)
 WaveYUnitStr: V
 WaveHint: 
@@ -1053,9 +1053,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        –“•Y ¿R@
+        ÿ÷^/≈R@
 WaveDataStart
-     ñB
+    {)ñB
 Wave: v(nvd0092)
 WaveYUnitStr: V
 WaveHint: 
@@ -1065,9 +1065,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        t-Œ$33@
+        œ/≤ù/@
 WaveDataStart
-    ôô@
+    Ó|@
 Wave: v(nvd0093)
 WaveYUnitStr: V
 WaveHint: 
@@ -1077,9 +1077,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Â¯xåôô@
+        Kññ@
 WaveDataStart
-    ÃÃ,@
+    !∞,@
 Wave: v(nvd0094)
 WaveYUnitStr: V
 WaveHint: 
@@ -1089,9 +1089,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        /,ÀÚˇˇ@
+        ˜ı¸~j¸@
 WaveDataStart
-      @@
+    T„?@
 Wave: v(nvd0095)
 WaveYUnitStr: V
 WaveHint: 
@@ -1101,10 +1101,10 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¢‘éYff
+        ®ñcÂ–b
 @
 WaveDataStart
-    33S@
+    áS@
 Wave: v(nvd0096)
 WaveYUnitStr: V
 WaveHint: 
@@ -1114,9 +1114,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÅrªÃÃ@
+        3Á K7…@
 WaveDataStart
-    fff@
+    ∫If@
 Wave: v(nvd0097)
 WaveYUnitStr: V
 WaveHint: 
@@ -1126,9 +1126,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ëtª!33@
+        -¶1≤ù/@
 WaveDataStart
-    ôôy@
+    Ó|y@
 Wave: v(nvd0098)
 WaveYUnitStr: V
 WaveHint: 
@@ -1138,9 +1138,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ?LM'33@
+        ÿ≥rh1@
 WaveDataStart
-    ôôâ@
+    Dãâ@
 Wave: v(nvd0099)
 WaveYUnitStr: V
 WaveHint: 
@@ -1150,9 +1150,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÌÏ…ÃÃ@
+        '™.CÀ@
 WaveDataStart
-    ffñ@
+    ‚Xñ@
 Wave: v(nvd0100)
 WaveYUnitStr: V
 WaveHint: 
@@ -1162,9 +1162,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ö1xgff@
+        éË¡ °e@
 WaveDataStart
-    33£@
+    -£@
 Wave: v(nvd0101)
 WaveYUnitStr: V
 WaveHint: 
@@ -1174,9 +1174,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ëw2kff@
+        Ñ¥ûÔßf@
 WaveDataStart
-    33≥@
+    ?5≥@
 Wave: v(nvd0102)
 WaveYUnitStr: V
 WaveHint: 
@@ -1186,9 +1186,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≠æ∆œÃ@
+        wØî(ÈŒ@
 WaveDataStart
-    ~f∆@
+    Iw∆@
 Wave: v(nvd0103)
 WaveYUnitStr: V
 WaveHint: 
@@ -1198,9 +1198,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ±‚ﬁ;3@
+        =Öπ¯&6@
 WaveDataStart
-    ﬂôŸ@
+    8±Ÿ@
 Wave: v(nvd0104)
 WaveYUnitStr: V
 WaveHint: 
@@ -1210,9 +1210,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ªË˘ @
+        ƒ·-S@
 WaveDataStart
-     @
+     @
 Wave: v(nvd0105)
 WaveYUnitStr: V
 WaveHint: 
@@ -1222,9 +1222,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        äíÜ„gf @
+        æâÎœh @
 WaveDataStart
-    ?3A
+    FA
 Wave: v(nvd0106)
 WaveYUnitStr: V
 WaveHint: 
@@ -1234,9 +1234,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ﬂ)å∞43"@
+        ˙px¯5"@
 WaveDataStart
-    ¶ôA
+    ƒØA
 Wave: v(nvd0107)
 WaveYUnitStr: V
 WaveHint: 
@@ -1246,9 +1246,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Á¿ë} $@
+        =<ÅÆ4$@
 WaveDataStart
-      A
+    • A
 Wave: v(nvd0108)
 WaveYUnitStr: V
 WaveHint: 
@@ -1258,9 +1258,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ê⁄–} &@
+        @73±&@
 WaveDataStart
-     0A
+    ä0A
 Wave: v(nvd0109)
 WaveYUnitStr: V
 WaveHint: 
@@ -1270,9 +1270,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ∆ı~ (@
+        p«¬(@
 WaveDataStart
-     @A
+    – @A
 Wave: v(nvd0110)
 WaveYUnitStr: V
 WaveHint: 
@@ -1282,9 +1282,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        O~ *@
+        √\1!ù*@
 WaveDataStart
-     PA
+    È$PA
 Wave: v(nvd0111)
 WaveYUnitStr: V
 WaveHint: 
@@ -1294,9 +1294,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        jÊZ#  .@
+        9sØ.@
 WaveDataStart
-     pA
+    x-pA
 Wave: v(nvd0112)
 WaveYUnitStr: V
 WaveHint: 
@@ -1306,9 +1306,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ı'¸  0@
+        \kxã0@
 WaveDataStart
-      ÄA
+    ¸ÄA
 Wave: v(nvd0113)
 WaveYUnitStr: V
 WaveHint: 
@@ -1318,9 +1318,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ]z  2@
+        Áù¢2@
 WaveDataStart
-      êA
+    êA
 Wave: v(nvd0114)
 WaveYUnitStr: V
 WaveHint: 
@@ -1330,9 +1330,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        “ë¯  4@
+        ÔúU∞%4@
 WaveDataStart
-      †A
+    .!†A
 Wave: v(nvd0115)
 WaveYUnitStr: V
 WaveHint: 
@@ -1342,9 +1342,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        FR  6@
+        ÜÆ|¡®6@
 WaveDataStart
-      ∞A
+    F%∞A
 Wave: v(nvd0116)
 WaveYUnitStr: V
 WaveHint: 
@@ -1354,9 +1354,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¿Í  8@
+        ;P»”+8@
 WaveDataStart
-      ¿A
+    _)¿A
 Wave: v(nvd0117)
 WaveYUnitStr: V
 WaveHint: 
@@ -1366,9 +1366,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ªT}70 ;@
+        Xﬁƒn*;@
 WaveDataStart
-    ÇÿA
+    S1ÿA
 Wave: v(nvd0118)
 WaveYUnitStr: V
 WaveHint: 
@@ -1378,9 +1378,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ;¯80 >@
+        ◊∆‚>@
 WaveDataStart
-    ÇA
+    ô8A
 Wave: v(nvd0119)
 WaveYUnitStr: V
 WaveHint: 
@@ -1390,9 +1390,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¬\9Ä@@
+        j);¸É@@
 WaveDataStart
-    ¡ B
+    ‚B
 Wave: v(nvd0120)
 WaveYUnitStr: V
 WaveHint: 
@@ -1402,9 +1402,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        óüMn B@
+        Ò*x7]B@
 WaveDataStart
-    3 B
+    Í"B
 Wave: v(nvd0121)
 WaveYUnitStr: V
 WaveHint: 
@@ -1414,9 +1414,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        §iîÇÄC@
+        —ñ´∞»ÑC@
 WaveDataStart
-     B
+    F&B
 Wave: v(nvd0122)
 WaveYUnitStr: V
 WaveHint: 
@@ -1426,9 +1426,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        -åk›ÄE@
+        {ÃQeÖE@
 WaveDataStart
-     ,B
+    ++,B
 Wave: v(nvd0123)
 WaveYUnitStr: V
 WaveHint: 
@@ -1438,9 +1438,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        âH~ΩÄG@
+        ¨‰xÜG@
 WaveDataStart
-     <B
+    0<B
 Wave: v(nvd0124)
 WaveYUnitStr: V
 WaveHint: 
@@ -1450,10 +1450,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        c÷À9ÄI@
+        ≤ìu»•ÜI@
 WaveDataStart
-    
- LB
+    .5LB
 Wave: v(nvd0125)
 WaveYUnitStr: V
 WaveHint: 
@@ -1463,9 +1462,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        °ØJ„  L@
+        '—OmL@
 WaveDataStart
-     `B
+    j;`B
 Wave: v(nvd0126)
 WaveYUnitStr: V
 WaveHint: 
@@ -1475,9 +1474,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Q°G´  O@
+        à¸% YO@
 WaveDataStart
-     xB
+    »BxB
 Wave: v(nvd0127)
 WaveYUnitStr: V
 WaveHint: 
@@ -1487,9 +1486,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        £W}W  Q@
+        ãØZaßQ@
 WaveDataStart
-     àB
+    ;%àB
 Wave: v(nvd0128)
 WaveYUnitStr: V
 WaveHint: 
@@ -1499,9 +1498,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        –“•Y ¿R@
+        ÿ÷^/≈R@
 WaveDataStart
-     ñB
+    {)ñB
 Wave: v(nvd0129)
 WaveYUnitStr: V
 WaveHint: 
@@ -1511,9 +1510,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        t-Œ$33@
+        œ/≤ù/@
 WaveDataStart
-    ôô@
+    Ó|@
 Wave: v(nvd0130)
 WaveYUnitStr: V
 WaveHint: 
@@ -1523,9 +1522,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Â¯xåôô@
+        Kññ@
 WaveDataStart
-    ÃÃ,@
+    !∞,@
 Wave: v(nvd0131)
 WaveYUnitStr: V
 WaveHint: 
@@ -1535,9 +1534,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        /,ÀÚˇˇ@
+        ˜ı¸~j¸@
 WaveDataStart
-      @@
+    T„?@
 Wave: v(nvd0132)
 WaveYUnitStr: V
 WaveHint: 
@@ -1547,10 +1546,10 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¢‘éYff
+        ®ñcÂ–b
 @
 WaveDataStart
-    33S@
+    áS@
 Wave: v(nvd0133)
 WaveYUnitStr: V
 WaveHint: 
@@ -1560,9 +1559,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÅrªÃÃ@
+        3Á K7…@
 WaveDataStart
-    fff@
+    ∫If@
 Wave: v(nvd0134)
 WaveYUnitStr: V
 WaveHint: 
@@ -1572,9 +1571,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ëtª!33@
+        -¶1≤ù/@
 WaveDataStart
-    ôôy@
+    Ó|y@
 Wave: v(nvd0135)
 WaveYUnitStr: V
 WaveHint: 
@@ -1584,9 +1583,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ?LM'33@
+        ÿ≥rh1@
 WaveDataStart
-    ôôâ@
+    Dãâ@
 Wave: v(nvd0136)
 WaveYUnitStr: V
 WaveHint: 
@@ -1596,9 +1595,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÌÏ…ÃÃ@
+        '™.CÀ@
 WaveDataStart
-    ffñ@
+    ‚Xñ@
 Wave: v(nvd0137)
 WaveYUnitStr: V
 WaveHint: 
@@ -1608,9 +1607,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ö1xgff@
+        éË¡ °e@
 WaveDataStart
-    33£@
+    -£@
 Wave: v(nvd0138)
 WaveYUnitStr: V
 WaveHint: 
@@ -1620,9 +1619,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ëw2kff@
+        Ñ¥ûÔßf@
 WaveDataStart
-    33≥@
+    ?5≥@
 Wave: v(nvd0139)
 WaveYUnitStr: V
 WaveHint: 
@@ -1632,9 +1631,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≠æ∆œÃ@
+        wØî(ÈŒ@
 WaveDataStart
-    ~f∆@
+    Iw∆@
 Wave: v(nvd0140)
 WaveYUnitStr: V
 WaveHint: 
@@ -1644,9 +1643,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ä∫ÿs33@
+        Ÿ¯ã6@
 WaveDataStart
-    úôŸ@
+    Ù∞Ÿ@
 Wave: v(nvd0141)
 WaveYUnitStr: V
 WaveHint: 
@@ -1656,9 +1655,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ·	*A  @
+        gKô˛@
 WaveDataStart
-     @
+    ı@
 Wave: v(nvd0142)
 WaveYUnitStr: V
 WaveHint: 
@@ -1668,9 +1667,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ú¨=áff @
+        I9|éŒh @
 WaveDataStart
-    43A
+    tFA
 Wave: v(nvd0143)
 WaveYUnitStr: V
 WaveHint: 
@@ -1680,9 +1679,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        0©_T33"@
+        Ä=c˜5"@
 WaveDataStart
-    õôA
+    πØA
 Wave: v(nvd0144)
 WaveYUnitStr: V
 WaveHint: 
@@ -1692,9 +1691,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        O  $@
+        ¬ˇ63$@
 WaveDataStart
-       A
+    ö A
 Wave: v(nvd0145)
 WaveYUnitStr: V
 WaveHint: 
@@ -1704,9 +1703,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÅ  &@
+        å‹«∫Ø&@
 WaveDataStart
-      0A
+    ~0A
 Wave: v(nvd0146)
 WaveYUnitStr: V
 WaveHint: 
@@ -1716,9 +1715,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ô¶z  (@
+        {zƒì(@
 WaveDataStart
-      @A
+    ≈ @A
 Wave: v(nvd0147)
 WaveYUnitStr: V
 WaveHint: 
@@ -1728,9 +1727,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        3r„  *@
+        3#Ì•õ*@
 WaveDataStart
-      PA
+    ›$PA
 Wave: v(nvd0148)
 WaveYUnitStr: V
 WaveHint: 
@@ -1740,9 +1739,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ∑^	  .@
+        …;ÊÆ.@
 WaveDataStart
-      pA
+    w-pA
 Wave: v(nvd0149)
 WaveYUnitStr: V
 WaveHint: 
@@ -1752,9 +1751,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÎÅS  0@
+        ’L	ä0@
 WaveDataStart
-      ÄA
+    ¸ÄA
 Wave: v(nvd0150)
 WaveYUnitStr: V
 WaveHint: 
@@ -1764,9 +1763,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        b  2@
+        eﬁwú¢2@
 WaveDataStart
-      êA
+    êA
 Wave: v(nvd0151)
 WaveYUnitStr: V
 WaveHint: 
@@ -1776,9 +1775,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Õ	  4@
+        KwÊÆ%4@
 WaveDataStart
-      †A
+    -!†A
 Wave: v(nvd0152)
 WaveYUnitStr: V
 WaveHint: 
@@ -1788,9 +1787,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÓ  6@
+        ¯U¡®6@
 WaveDataStart
-      ∞A
+    F%∞A
 Wave: v(nvd0153)
 WaveYUnitStr: V
 WaveHint: 
@@ -1800,9 +1799,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ûqZ  8@
+        „¥√”+8@
 WaveDataStart
-      ¿A
+    _)¿A
 Wave: v(nvd0154)
 WaveYUnitStr: V
 WaveHint: 
@@ -1812,9 +1811,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        üà˙ ;@
+        R-'ˇ;@
 WaveDataStart
-    ( ÿA
+    ˘/ÿA
 Wave: v(nvd0155)
 WaveYUnitStr: V
 WaveHint: 
@@ -1824,9 +1823,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        *ì÷¸ >@
+        ©=KŒÁ>@
 WaveDataStart
-    ( A
+    >7A
 Wave: v(nvd0156)
 WaveYUnitStr: V
 WaveHint: 
@@ -1836,9 +1835,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        l#}ÿÄ@@
+        îPÔÂÉ@@
 WaveDataStart
-     B
+    /B
 Wave: v(nvd0157)
 WaveYUnitStr: V
 WaveHint: 
@@ -1848,10 +1847,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ññ¥1 B@
+        ó⁄ÉıWB@
 WaveDataStart
-    
- B
+    ¿"B
 Wave: v(nvd0158)
 WaveYUnitStr: V
 WaveHint: 
@@ -1861,10 +1859,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≈œR3ÄC@
+        kD»^«ÑC@
 WaveDataStart
-    
- B
+    ;&B
 Wave: v(nvd0159)
 WaveYUnitStr: V
 WaveHint: 
@@ -1874,9 +1871,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        rF«€ ÄE@
+        ´ÛLdÖE@
 WaveDataStart
-     ,B
+    "+,B
 Wave: v(nvd0160)
 WaveYUnitStr: V
 WaveHint: 
@@ -1886,9 +1883,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        FÉ§ ÄI@
+        ¸k©/•ÜI@
 WaveDataStart
-     LB
+    )5LB
 Wave: v(nvd0161)
 WaveYUnitStr: V
 WaveHint: 
@@ -1898,9 +1895,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ﬂê+ ¿R@
+        p*?*/≈R@
 WaveDataStart
-     ñB
+    y)ñB
 Wave: v(nvd0162)
 WaveYUnitStr: V
 WaveHint: 
@@ -1910,9 +1907,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        t-Œ$33@
+        œ/≤ù/@
 WaveDataStart
-    ôô@
+    Ó|@
 Wave: v(nvd0163)
 WaveYUnitStr: V
 WaveHint: 
@@ -1922,9 +1919,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Â¯xåôô@
+        Kññ@
 WaveDataStart
-    ÃÃ,@
+    !∞,@
 Wave: v(nvd0164)
 WaveYUnitStr: V
 WaveHint: 
@@ -1934,9 +1931,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        /,ÀÚˇˇ@
+        ˜ı¸~j¸@
 WaveDataStart
-      @@
+    T„?@
 Wave: v(nvd0165)
 WaveYUnitStr: V
 WaveHint: 
@@ -1946,10 +1943,10 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¢‘éYff
+        ®ñcÂ–b
 @
 WaveDataStart
-    33S@
+    áS@
 Wave: v(nvd0166)
 WaveYUnitStr: V
 WaveHint: 
@@ -1959,9 +1956,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÅrªÃÃ@
+        3Á K7…@
 WaveDataStart
-    fff@
+    ∫If@
 Wave: v(nvd0167)
 WaveYUnitStr: V
 WaveHint: 
@@ -1971,9 +1968,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ëtª!33@
+        -¶1≤ù/@
 WaveDataStart
-    ôôy@
+    Ó|y@
 Wave: v(nvd0168)
 WaveYUnitStr: V
 WaveHint: 
@@ -1983,9 +1980,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ?LM'33@
+        ÿ≥rh1@
 WaveDataStart
-    ôôâ@
+    Dãâ@
 Wave: v(nvd0169)
 WaveYUnitStr: V
 WaveHint: 
@@ -1995,9 +1992,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÌÏ…ÃÃ@
+        '™.CÀ@
 WaveDataStart
-    ffñ@
+    ‚Xñ@
 Wave: v(nvd0170)
 WaveYUnitStr: V
 WaveHint: 
@@ -2007,9 +2004,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ö1xgff@
+        éË¡ °e@
 WaveDataStart
-    33£@
+    -£@
 Wave: v(nvd0171)
 WaveYUnitStr: V
 WaveHint: 
@@ -2019,9 +2016,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ëw2kff@
+        Ñ¥ûÔßf@
 WaveDataStart
-    33≥@
+    ?5≥@
 Wave: v(nvd0172)
 WaveYUnitStr: V
 WaveHint: 
@@ -2031,9 +2028,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≠æ∆œÃ@
+        wØî(ÈŒ@
 WaveDataStart
-    ~f∆@
+    Iw∆@
 Wave: v(nvd0173)
 WaveYUnitStr: V
 WaveHint: 
@@ -2043,9 +2040,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ä∫ÿs33@
+        Ÿ¯ã6@
 WaveDataStart
-    úôŸ@
+    Ù∞Ÿ@
 Wave: v(nvd0174)
 WaveYUnitStr: V
 WaveHint: 
@@ -2055,9 +2052,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ·	*A  @
+        gKô˛@
 WaveDataStart
-     @
+    ı@
 Wave: v(nvd0175)
 WaveYUnitStr: V
 WaveHint: 
@@ -2067,9 +2064,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ú¨=áff @
+        I9|éŒh @
 WaveDataStart
-    43A
+    tFA
 Wave: v(nvd0176)
 WaveYUnitStr: V
 WaveHint: 
@@ -2079,9 +2076,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        0©_T33"@
+        Ä=c˜5"@
 WaveDataStart
-    õôA
+    πØA
 Wave: v(nvd0177)
 WaveYUnitStr: V
 WaveHint: 
@@ -2091,9 +2088,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        O  $@
+        ¬ˇ63$@
 WaveDataStart
-       A
+    ö A
 Wave: v(nvd0178)
 WaveYUnitStr: V
 WaveHint: 
@@ -2103,9 +2100,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÅ  &@
+        å‹«∫Ø&@
 WaveDataStart
-      0A
+    ~0A
 Wave: v(nvd0179)
 WaveYUnitStr: V
 WaveHint: 
@@ -2115,9 +2112,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ô¶z  (@
+        {zƒì(@
 WaveDataStart
-      @A
+    ≈ @A
 Wave: v(nvd0180)
 WaveYUnitStr: V
 WaveHint: 
@@ -2127,9 +2124,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        3r„  *@
+        3#Ì•õ*@
 WaveDataStart
-      PA
+    ›$PA
 Wave: v(nvd0181)
 WaveYUnitStr: V
 WaveHint: 
@@ -2139,9 +2136,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ∑^	  .@
+        …;ÊÆ.@
 WaveDataStart
-      pA
+    w-pA
 Wave: v(nvd0182)
 WaveYUnitStr: V
 WaveHint: 
@@ -2151,9 +2148,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÎÅS  0@
+        ’L	ä0@
 WaveDataStart
-      ÄA
+    ¸ÄA
 Wave: v(nvd0183)
 WaveYUnitStr: V
 WaveHint: 
@@ -2163,9 +2160,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        b  2@
+        eﬁwú¢2@
 WaveDataStart
-      êA
+    êA
 Wave: v(nvd0184)
 WaveYUnitStr: V
 WaveHint: 
@@ -2175,9 +2172,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Õ	  4@
+        KwÊÆ%4@
 WaveDataStart
-      †A
+    -!†A
 Wave: v(nvd0185)
 WaveYUnitStr: V
 WaveHint: 
@@ -2187,9 +2184,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÓ  6@
+        ¯U¡®6@
 WaveDataStart
-      ∞A
+    F%∞A
 Wave: v(nvd0186)
 WaveYUnitStr: V
 WaveHint: 
@@ -2199,9 +2196,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ûqZ  8@
+        „¥√”+8@
 WaveDataStart
-      ¿A
+    _)¿A
 Wave: v(nvd0187)
 WaveYUnitStr: V
 WaveHint: 
@@ -2211,9 +2208,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        üà˙ ;@
+        R-'ˇ;@
 WaveDataStart
-    ( ÿA
+    ˘/ÿA
 Wave: v(nvd0188)
 WaveYUnitStr: V
 WaveHint: 
@@ -2223,9 +2220,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        *ì÷¸ >@
+        ©=KŒÁ>@
 WaveDataStart
-    ( A
+    >7A
 Wave: v(nvd0189)
 WaveYUnitStr: V
 WaveHint: 
@@ -2235,9 +2232,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        l#}ÿÄ@@
+        îPÔÂÉ@@
 WaveDataStart
-     B
+    /B
 Wave: v(nvd0190)
 WaveYUnitStr: V
 WaveHint: 
@@ -2247,10 +2244,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ññ¥1 B@
+        ó⁄ÉıWB@
 WaveDataStart
-    
- B
+    ¿"B
 Wave: v(nvd0191)
 WaveYUnitStr: V
 WaveHint: 
@@ -2260,10 +2256,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≈œR3ÄC@
+        kD»^«ÑC@
 WaveDataStart
-    
- B
+    ;&B
 Wave: v(nvd0192)
 WaveYUnitStr: V
 WaveHint: 
@@ -2273,9 +2268,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        rF«€ ÄE@
+        ´ÛLdÖE@
 WaveDataStart
-     ,B
+    "+,B
 Wave: v(nvd0193)
 WaveYUnitStr: V
 WaveHint: 
@@ -2285,9 +2280,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Vﬁ ÄG@
+        x†DñÜG@
 WaveDataStart
-     <B
+    0<B
 Wave: v(nvd0194)
 WaveYUnitStr: V
 WaveHint: 
@@ -2297,9 +2292,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        FÉ§ ÄI@
+        ¸k©/•ÜI@
 WaveDataStart
-     LB
+    )5LB
 Wave: v(nvd0195)
 WaveYUnitStr: V
 WaveHint: 
@@ -2309,9 +2304,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ;`ö  L@
+        (ÆEËlL@
 WaveDataStart
-     `B
+    g;`B
 Wave: v(nvd0196)
 WaveYUnitStr: V
 WaveHint: 
@@ -2321,9 +2316,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        -i  O@
+        -M£πXO@
 WaveDataStart
-     xB
+    ∆BxB
 Wave: v(nvd0197)
 WaveYUnitStr: V
 WaveHint: 
@@ -2333,9 +2328,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        7]˘-  Q@
+        ˛H4ßQ@
 WaveDataStart
-     àB
+    :%àB
 Wave: v(nvd0198)
 WaveYUnitStr: V
 WaveHint: 
@@ -2345,9 +2340,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ﬂê+ ¿R@
+        p*?*/≈R@
 WaveDataStart
-     ñB
+    y)ñB
 Wave: v(nvd0199)
 WaveYUnitStr: V
 WaveHint: 
@@ -2357,9 +2352,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        t-Œ$33@
+        œ/≤ù/@
 WaveDataStart
-    ôô@
+    Ó|@
 Wave: v(nvd0200)
 WaveYUnitStr: V
 WaveHint: 
@@ -2369,9 +2364,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Â¯xåôô@
+        Kññ@
 WaveDataStart
-    ÃÃ,@
+    !∞,@
 Wave: v(nvd0201)
 WaveYUnitStr: V
 WaveHint: 
@@ -2381,9 +2376,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        /,ÀÚˇˇ@
+        ˜ı¸~j¸@
 WaveDataStart
-      @@
+    T„?@
 Wave: v(nvd0202)
 WaveYUnitStr: V
 WaveHint: 
@@ -2393,10 +2388,10 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ¢‘éYff
+        ®ñcÂ–b
 @
 WaveDataStart
-    33S@
+    áS@
 Wave: v(nvd0203)
 WaveYUnitStr: V
 WaveHint: 
@@ -2406,9 +2401,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÅrªÃÃ@
+        3Á K7…@
 WaveDataStart
-    fff@
+    ∫If@
 Wave: v(nvd0204)
 WaveYUnitStr: V
 WaveHint: 
@@ -2418,9 +2413,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ëtª!33@
+        -¶1≤ù/@
 WaveDataStart
-    ôôy@
+    Ó|y@
 Wave: v(nvd0205)
 WaveYUnitStr: V
 WaveHint: 
@@ -2430,9 +2425,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ?LM'33@
+        ÿ≥rh1@
 WaveDataStart
-    ôôâ@
+    Dãâ@
 Wave: v(nvd0206)
 WaveYUnitStr: V
 WaveHint: 
@@ -2442,9 +2437,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÌÏ…ÃÃ@
+        '™.CÀ@
 WaveDataStart
-    ffñ@
+    ‚Xñ@
 Wave: v(nvd0207)
 WaveYUnitStr: V
 WaveHint: 
@@ -2454,9 +2449,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ö1xgff@
+        éË¡ °e@
 WaveDataStart
-    33£@
+    -£@
 Wave: v(nvd0208)
 WaveYUnitStr: V
 WaveHint: 
@@ -2466,9 +2461,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ëw2kff@
+        Ñ¥ûÔßf@
 WaveDataStart
-    33≥@
+    ?5≥@
 Wave: v(nvd0209)
 WaveYUnitStr: V
 WaveHint: 
@@ -2478,9 +2473,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≠æ∆œÃ@
+        wØî(ÈŒ@
 WaveDataStart
-    ~f∆@
+    Iw∆@
 Wave: v(nvd0210)
 WaveYUnitStr: V
 WaveHint: 
@@ -2490,9 +2485,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ä∫ÿs33@
+        Ÿ¯ã6@
 WaveDataStart
-    úôŸ@
+    Ù∞Ÿ@
 Wave: v(nvd0211)
 WaveYUnitStr: V
 WaveHint: 
@@ -2502,9 +2497,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ·	*A  @
+        gKô˛@
 WaveDataStart
-     @
+    ı@
 Wave: v(nvd0212)
 WaveYUnitStr: V
 WaveHint: 
@@ -2514,9 +2509,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ú¨=áff @
+        I9|éŒh @
 WaveDataStart
-    43A
+    tFA
 Wave: v(nvd0213)
 WaveYUnitStr: V
 WaveHint: 
@@ -2526,9 +2521,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        0©_T33"@
+        Ä=c˜5"@
 WaveDataStart
-    õôA
+    πØA
 Wave: v(nvd0214)
 WaveYUnitStr: V
 WaveHint: 
@@ -2538,9 +2533,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        O  $@
+        ¬ˇ63$@
 WaveDataStart
-       A
+    ö A
 Wave: v(nvd0215)
 WaveYUnitStr: V
 WaveHint: 
@@ -2550,9 +2545,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÅ  &@
+        å‹«∫Ø&@
 WaveDataStart
-      0A
+    ~0A
 Wave: v(nvd0216)
 WaveYUnitStr: V
 WaveHint: 
@@ -2562,9 +2557,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Ô¶z  (@
+        {zƒì(@
 WaveDataStart
-      @A
+    ≈ @A
 Wave: v(nvd0217)
 WaveYUnitStr: V
 WaveHint: 
@@ -2574,9 +2569,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        3r„  *@
+        3#Ì•õ*@
 WaveDataStart
-      PA
+    ›$PA
 Wave: v(nvd0218)
 WaveYUnitStr: V
 WaveHint: 
@@ -2586,9 +2581,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ∑^	  .@
+        …;ÊÆ.@
 WaveDataStart
-      pA
+    w-pA
 Wave: v(nvd0219)
 WaveYUnitStr: V
 WaveHint: 
@@ -2598,9 +2593,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ÎÅS  0@
+        ’L	ä0@
 WaveDataStart
-      ÄA
+    ¸ÄA
 Wave: v(nvd0220)
 WaveYUnitStr: V
 WaveHint: 
@@ -2610,9 +2605,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        b  2@
+        eﬁwú¢2@
 WaveDataStart
-      êA
+    êA
 Wave: v(nvd0221)
 WaveYUnitStr: V
 WaveHint: 
@@ -2622,9 +2617,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Õ	  4@
+        KwÊÆ%4@
 WaveDataStart
-      †A
+    -!†A
 Wave: v(nvd0222)
 WaveYUnitStr: V
 WaveHint: 
@@ -2634,9 +2629,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        LÓ  6@
+        ¯U¡®6@
 WaveDataStart
-      ∞A
+    F%∞A
 Wave: v(nvd0223)
 WaveYUnitStr: V
 WaveHint: 
@@ -2646,9 +2641,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ûqZ  8@
+        „¥√”+8@
 WaveDataStart
-      ¿A
+    _)¿A
 Wave: v(nvd0224)
 WaveYUnitStr: V
 WaveHint: 
@@ -2658,9 +2653,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        üà˙ ;@
+        R-'ˇ;@
 WaveDataStart
-    ( ÿA
+    ˘/ÿA
 Wave: v(nvd0225)
 WaveYUnitStr: V
 WaveHint: 
@@ -2670,9 +2665,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        *ì÷¸ >@
+        ©=KŒÁ>@
 WaveDataStart
-    ( A
+    >7A
 Wave: v(nvd0226)
 WaveYUnitStr: V
 WaveHint: 
@@ -2682,9 +2677,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        l#}ÿÄ@@
+        îPÔÂÉ@@
 WaveDataStart
-     B
+    /B
 Wave: v(nvd0227)
 WaveYUnitStr: V
 WaveHint: 
@@ -2694,10 +2689,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ññ¥1 B@
+        ó⁄ÉıWB@
 WaveDataStart
-    
- B
+    ¿"B
 Wave: v(nvd0228)
 WaveYUnitStr: V
 WaveHint: 
@@ -2707,10 +2701,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ≈œR3ÄC@
+        kD»^«ÑC@
 WaveDataStart
-    
- B
+    ;&B
 Wave: v(nvd0229)
 WaveYUnitStr: V
 WaveHint: 
@@ -2720,9 +2713,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        rF«€ ÄE@
+        ´ÛLdÖE@
 WaveDataStart
-     ,B
+    "+,B
 Wave: v(nvd0230)
 WaveYUnitStr: V
 WaveHint: 
@@ -2732,9 +2725,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        Vﬁ ÄG@
+        x†DñÜG@
 WaveDataStart
-     <B
+    0<B
 Wave: v(nvd0231)
 WaveYUnitStr: V
 WaveHint: 
@@ -2744,9 +2737,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        FÉ§ ÄI@
+        ¸k©/•ÜI@
 WaveDataStart
-     LB
+    )5LB
 Wave: v(nvd0232)
 WaveYUnitStr: V
 WaveHint: 
@@ -2756,9 +2749,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ;`ö  L@
+        (ÆEËlL@
 WaveDataStart
-     `B
+    g;`B
 Wave: v(nvd0233)
 WaveYUnitStr: V
 WaveHint: 
@@ -2768,9 +2761,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        -i  O@
+        -M£πXO@
 WaveDataStart
-     xB
+    ∆BxB
 Wave: v(nvd0234)
 WaveYUnitStr: V
 WaveHint: 
@@ -2780,9 +2773,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        7]˘-  Q@
+        ˛H4ßQ@
 WaveDataStart
-     àB
+    :%àB
 Wave: v(nvd0235)
 WaveYUnitStr: V
 WaveHint: 
@@ -2792,9 +2785,9 @@ WaveIsYComplex: FALSE
 WaveType: 0
 WaveVariableType: NodeVoltage
 WaveExtendedDataStart
-        ﬂê+ ¿R@
+        p*?*/≈R@
 WaveDataStart
-     ñB
+    y)ñB
 Wave: v(tcheck)
 WaveYUnitStr: V
 WaveHint: 

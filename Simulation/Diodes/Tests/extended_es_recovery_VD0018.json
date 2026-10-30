@@ -1,0 +1,56 @@
+{
+  "name": "extended_es_recovery_VD0018",
+  "models": [
+    "../MY_LIB_VD0018_D.ckt"
+  ],
+  "spice": "* Recovery fixtures; native Altium; 25 C\n.OPTIONS TEMP=25 RELTOL=1e-6 ABSTOL=1e-13 METHOD=GEAR ITL4=100\nVVD0018j1 dVD0018j1 0 PWL(0 50.8843725233042 100n 50.8843725233042 100.01n -99.1156488387805 300n -99.1156488387805)\nRVD0018j1 dVD0018j1 aVD0018j1 100.0\nVSVD0018j1 aVD0018j1 nVD0018j1 0\nXVD0018j1 nVD0018j1 0 MY_LIB_VD0018_D\n.TRAN 20p 3e-07 99n 20p\n.PLOT TRAN i(VSVD0018j1)\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "trr_VD0018j1",
+      "type": "delay",
+      "trigger": {
+        "signal": "i(VSVD0018j1)",
+        "level": 0,
+        "edge": "falling"
+      },
+      "target": {
+        "signal": "i(VSVD0018j1)",
+        "level": -0.25,
+        "edge": "rising"
+      },
+      "window": {
+        "start": 1e-07,
+        "stop": 2.9899999999999996e-07
+      },
+      "markers": true,
+      "limits": {
+        "min": 1.4700000000000001e-08,
+        "max": 1.53e-08
+      }
+    },
+    {
+      "id": "tail_VD0018",
+      "type": "at",
+      "signal": "i(VSVD0018j1)",
+      "x": 2.99e-07,
+      "limits": {
+        "min": -0.001,
+        "max": 1e-06
+      }
+    },
+    {
+      "id": "tail_ripple_VD0018",
+      "type": "ripple",
+      "signal": "i(VSVD0018j1)",
+      "window": {
+        "start": 2.5e-07,
+        "stop": 2.99e-07
+      },
+      "limits": {
+        "min": 0,
+        "max": 2e-06
+      }
+    }
+  ]
+}

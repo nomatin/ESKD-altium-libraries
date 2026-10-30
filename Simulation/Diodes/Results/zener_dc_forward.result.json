@@ -3263,17 +3263,17 @@
     }
   ],
   "error": null,
-  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\341652d428314e1a809a327104f103cf",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\9dd668a1b48048e9b51e2ed81b1dff0d",
   "diagnostics": {
     "script_started": true,
     "status": {
       "STATUS": "OK",
-      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\341652d428314e1a809a327104f103cf\\test.sdf"
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\9dd668a1b48048e9b51e2ed81b1dff0d\\test.sdf"
     },
     "files": [
       "collect.pas",
       "run.log",
-      "run_602c5cb9c63d447d886df4371b414b46.pas",
+      "run_5c93dc72eadf4286a2154040ad940aa5.pas",
       "started.txt",
       "status.txt",
       "test.nsx",

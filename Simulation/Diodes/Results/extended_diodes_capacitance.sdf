@@ -2,7 +2,7 @@ SDF: 1.0
 TotalPoints: 391
 #ChartSetupsBegin
 Chart: AC Analysis
-ChartId: EMLCZJER
+ChartId: QVRILYPW
 ChartView: 4
 ChartTitle: 
 ChartBackgroundColor: 3881787
@@ -1659,7 +1659,7 @@ ActiveChartName: AC Analysis
 FilteredWavesBlend: 80
 #ChartSetupsEnd
 Chart: AC Analysis
-ChartId: EMLCZJER
+ChartId: QVRILYPW
 ChartShow: TRUE
 ChartXMinReal: 1.00000000000000E+006
 ChartXMaxReal: 1.00100000000000E+006

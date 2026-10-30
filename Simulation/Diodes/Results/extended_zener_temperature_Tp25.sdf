@@ -2,7 +2,7 @@ SDF: 1.0
 TotalPoints: 182
 #ChartSetupsBegin
 Chart: Operating Point
-ChartId: AEMNIJOG
+ChartId: QLJFLFVV
 ChartView: 4
 ChartTitle: 
 ChartBackgroundColor: 3881787
@@ -607,7 +607,7 @@ ActiveChartName: Operating Point
 FilteredWavesBlend: 80
 #ChartSetupsEnd
 Chart: Operating Point
-ChartId: AEMNIJOG
+ChartId: QLJFLFVV
 ChartShow: TRUE
 ChartXMinReal: 0.00000000000000E+000
 ChartXMaxReal: 0.00000000000000E+000

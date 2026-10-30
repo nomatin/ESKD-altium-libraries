@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "test": "extended_es_recovery_VD0023",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "2003fc53e36e401e9b2dea18ce56dfbe",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\2003fc53e36e401e9b2dea18ce56dfbe",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\2003fc53e36e401e9b2dea18ce56dfbe\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_a5d426eddda74ce7a995e6dcc88f189e.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "trr_VD0023j1",
+      "type": "delay",
+      "value": 3.499993920649436e-08,
+      "unit": "s",
+      "status": "PASS",
+      "limits": {
+        "min": 3.43e-08,
+        "max": 3.57e-08
+      },
+      "markers": {
+        "trigger_x": 1.0000333333637328e-07,
+        "target_x": 1.3500327254286764e-07
+      },
+      "run_id": "2003fc53e36e401e9b2dea18ce56dfbe"
+    },
+    {
+      "id": "tail_VD0023",
+      "type": "at",
+      "value": -9.833992363769334e-11,
+      "unit": "A",
+      "status": "PASS",
+      "limits": {
+        "min": -0.001,
+        "max": 1e-06
+      },
+      "run_id": "2003fc53e36e401e9b2dea18ce56dfbe"
+    },
+    {
+      "id": "tail_ripple_VD0023",
+      "type": "ripple",
+      "value": 0.0,
+      "unit": "A",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 2e-06
+      },
+      "run_id": "2003fc53e36e401e9b2dea18ce56dfbe"
+    }
+  ]
+}
