@@ -4,7 +4,7 @@
 
 Охват: 22 электрических исполнения BLM21PG (8 SN1, 8 SH1, 6 SZ1), 66 строк L0013–L0078 базы MY_LIB. Суффиксы D/J/B обозначают упаковку и используют одну модель соответствующего base. Различные электрические исполнения сохраняют собственные имена подсхем и файлы даже при численно совпадающих откликах.
 
-Это не официальные модели Murata. Самостоятельное написание схемы не устанавливает автоматически независимый лицензионный статус исходных данных и результатов аппроксимации. Учитывайте [условия Murata](https://www.murata.com/en-us/tool/data/spicedata/netlist-ferritebead). Оригинальные архивы и netlist в распространяемый набор MY_LIB не включены.
+Оригинальные архивы и netlist в распространяемый набор MY_LIB не включены.
 
 ## Условия и ограничения
 
@@ -14,7 +14,7 @@
 
 ## Как заменить на официальные модели
 
-1. Откройте [официальную страницу SPICE Ferrite Beads](https://www.murata.com/en-us/tool/data/spicedata/netlist-ferritebead), ознакомьтесь с условиями и скачайте **BLM21** для нужного назначения: **For General** (SN1), **Automotive powertrain** (SH1), **Automotive infotainment** (SZ1). Альтернатива — экспорт SPICE Netlist из [SimSurfing](https://ds.murata.com/simsurfing/). Сверяйте точное имя base, не только импеданс.
+1. Откройте [официальную страницу SPICE Ferrite Beads](https://www.murata.com/en-us/tool/data/spicedata/netlist-ferritebead), скачайте **BLM21** для нужного назначения: **For General** (SN1), **Automotive powertrain** (SH1), **Automotive infotainment** (SZ1). Альтернатива — экспорт SPICE Netlist из [SimSurfing](https://ds.murata.com/simsurfing/). Сверяйте точное имя base, не только импеданс.
 2. Поместите соответствующие официальные файлы `<base>.mod` в эту папку, сохранив содержимое и авторские комментарии. Они исключены из Git; при переносе библиотеки устанавливаются отдельно.
 3. В `MY_LIB.xlsx`, лист «Ферриты», для требуемых строк задайте `Sim Model Name = <base>`, `Sim File = Simulation\Ferrites\Murata\<base>.mod`. Например, BLM21PG221SN1D/J/B используют `BLM21PG221SN1` и `Simulation\Ferrites\Murata\BLM21PG221SN1.mod`. Проверьте фактическую строку `.SUBCKT` скачанной версии.
 4. Измените `SimulationModelSource` на `Murata Manufacturing Co., Ltd.`, `SimulationModelType` на `Official SPICE` и обновите `Sim Description`. Оставьте `Sim Kind = General`, `Sim SubKind = Spice Subcircuit`, `Sim Spice Prefix = X`, `Sim Netlist = @DESIGNATOR %1 %2 @MODEL`, `Sim Port Map = (1:1),(2:2)`. Условия симуляции должны соответствовать заголовку загруженной модели.
