@@ -1,0 +1,112 @@
+{
+  "name": "led_HL0011_restore",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* Restored HL0011 TO-2013BC-MYF; GS1511030 at 25 C\n.OPTIONS TEMP=25 METHOD=GEAR ITL4=100\nVSCALE scale 0 DC 1\nXf1m 0 f1m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nG1m 0 f1m scale 0 0.001\nXf20m 0 f20m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nG20m 0 f20m scale 0 0.02\nXf25m 0 f25m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nG25m 0 f25m scale 0 0.025\nEREV rawrev 0 scale 0 5\nVSREV rawrev k 0\nXrev k 0 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nVAC rawac 0 DC 2 AC 1\nVSAC rawac ac 0\nXac 0 ac MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\nVPWM supply 0 PULSE(0 5 100u 1u 1u 300u 600u)\nRPWM supply pwm 330\nXpwm 0 pwm MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0\n.DC VSCALE .5 1 .5\n.PLOT DC V(f1m) V(f20m) V(f25m) I(VSREV)\n.AC DEC 4 100 1MEG\n.PLOT AC V(ac) I(VSAC)\n.TRAN 1u 650u\n.PLOT TRAN V(pwm)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(f1m)",
+      "measurement": "last",
+      "min": 1.8440638230747959,
+      "max": 1.8480638230747959
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(f20m)",
+      "measurement": "last",
+      "min": 1.998,
+      "max": 2.002
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(f25m)",
+      "measurement": "last",
+      "min": 2.009466266694763,
+      "max": 2.0134662666947625
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSREV)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 100,
+      "component": "real",
+      "min": 2.556411622504973,
+      "max": 2.5821042016256257
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 100,
+      "component": "imag",
+      "min": -0.001,
+      "max": 0.001
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 1000000,
+      "component": "real",
+      "min": 2.556411622504973,
+      "max": 2.5821042016256257
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 1000000,
+      "component": "imag",
+      "min": -0.001,
+      "max": 0.001
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(pwm)",
+      "measurement": "max",
+      "min": 1.957162849129,
+      "max": 1.9631628491289999
+    }
+  ],
+  "measurements": [
+    {
+      "id": "HL0011_on",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(pwm)",
+      "x": 0.00025,
+      "limits": {
+        "min": 1.957162849129,
+        "max": 1.9631628491289999
+      }
+    },
+    {
+      "id": "HL0011_off",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(pwm)",
+      "x": 0.00055,
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      }
+    }
+  ]
+}

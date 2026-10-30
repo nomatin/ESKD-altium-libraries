@@ -1,0 +1,26 @@
+* Restored HL0011 TO-2013BC-MYF; GS1511030 at 25 C
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\LEDs\MY_LIB_LED_DS.ckt"
+.OPTIONS TEMP=25 METHOD=GEAR ITL4=100
+VSCALE scale 0 DC 1
+Xf1m 0 f1m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+G1m 0 f1m scale 0 0.001
+Xf20m 0 f20m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+G20m 0 f20m scale 0 0.02
+Xf25m 0 f25m MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+G25m 0 f25m scale 0 0.025
+EREV rawrev 0 scale 0 5
+VSREV rawrev k 0
+Xrev k 0 MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+VAC rawac 0 DC 2 AC 1
+VSAC rawac ac 0
+Xac 0 ac MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+VPWM supply 0 PULSE(0 5 100u 1u 1u 300u 600u)
+RPWM supply pwm 330
+Xpwm 0 pwm MY_LIB_LED_DS PARAMS: ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0
+.DC VSCALE .5 1 .5
+.PLOT DC V(f1m) V(f20m) V(f25m) I(VSREV)
+.AC DEC 4 100 1MEG
+.PLOT AC V(ac) I(VSAC)
+.TRAN 1u 650u
+.PLOT TRAN V(pwm)
+.END

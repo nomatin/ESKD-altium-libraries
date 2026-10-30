@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "component": "HL0011",
+  "mpn": "TO-2013BC-MYF",
+  "checks": 9,
+  "measurements": 2,
+  "total_verifications": 11,
+  "model_sha256": "d925cd9a144322d23b0b0de4404abc558416e43e611ae6d4888c0083caa29bb3",
+  "existing_nine_components_unchanged": true
+}

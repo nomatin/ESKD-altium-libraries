@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "test": "led_HL0011_restore",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(f1m)",
+      "measurement": "last",
+      "min": 1.8440638230747959,
+      "max": 1.8480638230747959,
+      "value": 1.8460569746801359,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(f20m)",
+      "measurement": "last",
+      "min": 1.998,
+      "max": 2.002,
+      "value": 1.9999888204751375,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(f25m)",
+      "measurement": "last",
+      "min": 2.009466266694763,
+      "max": 2.0134662666947625,
+      "value": 2.011454759384459,
+      "passed": true
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSREV)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.001e-05,
+      "value": 5.000000249764379e-12,
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 100,
+      "component": "real",
+      "min": 2.556411622504973,
+      "max": 2.5821042016256257,
+      "value": 2.5663273517060405,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 100,
+      "component": "imag",
+      "min": -0.001,
+      "max": 0.001,
+      "value": 0.0,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 1000000,
+      "component": "real",
+      "min": 2.556411622504973,
+      "max": 2.5821042016256257,
+      "value": 2.5663273517060405,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(ac)",
+      "current": "i(VSAC)",
+      "current_sign": 1,
+      "frequency_hz": 1000000,
+      "component": "imag",
+      "min": -0.001,
+      "max": 0.001,
+      "value": 0.0,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "tran",
+      "signal": "v(pwm)",
+      "measurement": "max",
+      "min": 1.957162849129,
+      "max": 1.9631628491289999,
+      "value": 1.960835106818857,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "run_id": "11466549e1fb4902ae86c909941b72d5",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\11466549e1fb4902ae86c909941b72d5",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\11466549e1fb4902ae86c909941b72d5\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_9a11ad75ea1b48e9bc4640cd237ae89e.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "HL0011_on",
+      "type": "at",
+      "value": 1.9601077453241695,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 1.957162849129,
+        "max": 1.9631628491289999
+      },
+      "run_id": "11466549e1fb4902ae86c909941b72d5"
+    },
+    {
+      "id": "HL0011_off",
+      "type": "at",
+      "value": 0.0,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": -0.001,
+        "max": 0.001
+      },
+      "run_id": "11466549e1fb4902ae86c909941b72d5"
+    }
+  ],
+  "elapsed_seconds": 6.467,
+  "tester_path": "C:\\Users\\Nomatin\\projects\\Spice Tester\\dbur_test.py"
+}

@@ -616,6 +616,57 @@
         "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
         "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
       ]
+    },
+    {
+      "id": "HL0011",
+      "mpn": "TO-2013BC-MYF",
+      "params": {
+        "ISvalue": 2.497647439357814e-19,
+        "Nvalue": 2.0,
+        "RSvalue": 0.0
+      },
+      "instance_parameters": "ISvalue=2.49764743936e-19 Nvalue=2 RSvalue=0",
+      "basis": "single_typical_point_with_assumed_shape",
+      "source": "../../Datasheets/Oasistek_LED/TO-2013BC-MYF.pdf",
+      "source_sha256": "1b78615bd026dfe84c7340d38c950931527b259cb026c1da0dd2794a73ae10f2",
+      "revision": "Rev A-1; 2015-11-16; GS1511030",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": null
+      },
+      "table_at_20ma": {
+        "vf_typ_v": 2.0,
+        "vf_min_v": null,
+        "vf_max_v": null
+      },
+      "model_vf20_v": 2.0,
+      "fit_points": [
+        {
+          "if_a": 0.02,
+          "vf_v": 2.0,
+          "reading_tolerance_v": 0.0
+        }
+      ],
+      "independent_graph_samples": [],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.001,
+          0.025
+        ]
+      },
+      "assumptions": [
+        "No measured IV is provided; printed typical curve/point only",
+        "Reverse leakage not fitted; BV omitted because rating is not breakdown voltage",
+        "CJO=0 and TT=0 disable uncharacterized dynamic effects; they are not measured zero",
+        "Dforward TEMP=25 fixes junction at25C; global TEMP does not model LED thermal behavior; no self-heating",
+        "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
+        "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
+      ]
     }
   ],
   "model_file": "MY_LIB_LED_DS.ckt",
