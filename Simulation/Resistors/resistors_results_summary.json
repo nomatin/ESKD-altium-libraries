@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "test": "resistors_ac_Tm55",
+      "status": "PASS",
+      "temperature_c": -55.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 1746,
+      "passed": 1746,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_ac_Tp125",
+      "status": "PASS",
+      "temperature_c": 125.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 1746,
+      "passed": 1746,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_ac_Tp155",
+      "status": "PASS",
+      "temperature_c": 155.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 1746,
+      "passed": 1746,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_ac_Tp25",
+      "status": "PASS",
+      "temperature_c": 25.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 1746,
+      "passed": 1746,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_tran_Tm55",
+      "status": "PASS",
+      "temperature_c": -55.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 582,
+      "passed": 582,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_tran_Tp125",
+      "status": "PASS",
+      "temperature_c": 125.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 582,
+      "passed": 582,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_tran_Tp155",
+      "status": "PASS",
+      "temperature_c": 155.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 582,
+      "passed": 582,
+      "failed": 0,
+      "error": null
+    },
+    {
+      "test": "resistors_tran_Tp25",
+      "status": "PASS",
+      "temperature_c": 25.0,
+      "temperature_method": "OPTIONS TEMP",
+      "checks": 582,
+      "passed": 582,
+      "failed": 0,
+      "error": null
+    }
+  ],
+  "observation": "Repeated with updated tester using OPTIONS TEMP. Original model files unchanged. 155 C checks linear extrapolation, not a measured datasheet curve."
+}
