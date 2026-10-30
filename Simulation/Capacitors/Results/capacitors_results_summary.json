@@ -1,0 +1,26 @@
+[
+  {
+    "test": "capacitors_ac_1kHz",
+    "status": "PASS",
+    "checks": 828,
+    "passed": 828,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "capacitors_dc_leakage",
+    "status": "PASS",
+    "checks": 276,
+    "passed": 276,
+    "failed": 0,
+    "error": null
+  },
+  {
+    "test": "capacitors_tran_charge",
+    "status": "PASS",
+    "checks": 276,
+    "passed": 276,
+    "failed": 0,
+    "error": null
+  }
+]

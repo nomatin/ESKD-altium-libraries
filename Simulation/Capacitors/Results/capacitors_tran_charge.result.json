@@ -1,0 +1,2233 @@
+{
+  "status": "PASS",
+  "test": "capacitors_tran_charge",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "signal": "v(nC0003)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0004)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644035,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0005)",
+      "measurement": "last",
+      "min": 0.6309758701059673,
+      "max": 0.6329758701059673,
+      "value": 0.6319758995785463,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0006)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0007)",
+      "measurement": "last",
+      "min": 0.6310250596198065,
+      "max": 0.6330250596198065,
+      "value": 0.6320250890869477,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0008)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707802,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0009)",
+      "measurement": "last",
+      "min": 0.6310553328763436,
+      "max": 0.6330553328763436,
+      "value": 0.6320553623401343,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0010)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569141147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0011)",
+      "measurement": "last",
+      "min": 0.6310760118121493,
+      "max": 0.6330760118121493,
+      "value": 0.6320760412735233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0012)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034221,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0013)",
+      "measurement": "last",
+      "min": 0.6310910543576943,
+      "max": 0.6330910543576943,
+      "value": 0.6320910838173475,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0014)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158369386,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0015)",
+      "measurement": "last",
+      "min": 0.6311013144458482,
+      "max": 0.6331013144458482,
+      "value": 0.6321013439044026,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0016)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0017)",
+      "measurement": "last",
+      "min": 0.6311086946600412,
+      "max": 0.6331086946600412,
+      "value": 0.6321087241176924,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0018)",
+      "measurement": "last",
+      "min": 0.6311101707180199,
+      "max": 0.6331101707180199,
+      "value": 0.6321102001755803,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0019)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078630399,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0020)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300284,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0021)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.6321154335121083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0022)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.6321166721808944,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0023)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.632117831789004,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0024)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0025)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776018319,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0026)",
+      "measurement": "last",
+      "min": 0.6311202152465799,
+      "max": 0.6331202152465799,
+      "value": 0.6321202447030062,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0027)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279406868,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0028)",
+      "measurement": "last",
+      "min": 0.6311212413137283,
+      "max": 0.6331212413137283,
+      "value": 0.6321212707699806,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0029)",
+      "measurement": "last",
+      "min": 0.6311216841434615,
+      "max": 0.6331216841434615,
+      "value": 0.6321217135996497,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0030)",
+      "measurement": "last",
+      "min": 0.631121979363536,
+      "max": 0.633121979363536,
+      "value": 0.6321220088196863,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0031)",
+      "measurement": "last",
+      "min": 0.6311221269736488,
+      "max": 0.6331221269736488,
+      "value": 0.6321221564298085,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0032)",
+      "measurement": "last",
+      "min": 0.6311222477455971,
+      "max": 0.6331222477455971,
+      "value": 0.6321222772018203,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0033)",
+      "measurement": "last",
+      "min": 0.631122471397442,
+      "max": 0.633122471397442,
+      "value": 0.6321225008535639,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0034)",
+      "measurement": "last",
+      "min": 0.6311226503190013,
+      "max": 0.6331226503190013,
+      "value": 0.6321226797751035,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0035)",
+      "measurement": "last",
+      "min": 0.6311227741878168,
+      "max": 0.6331227741878168,
+      "value": 0.6321228036438851,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0036)",
+      "measurement": "last",
+      "min": 0.6311228901501441,
+      "max": 0.6331228901501441,
+      "value": 0.6321229196062269,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0037)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251883,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0038)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251663,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0039)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535252336,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0040)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.632122953525234,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0041)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251055,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0042)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251632,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0043)",
+      "measurement": "last",
+      "min": 0.631122924069131,
+      "max": 0.633122924069131,
+      "value": 0.6321229535251753,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0044)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535253055,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0045)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930673,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0046)",
+      "measurement": "last",
+      "min": 0.631122924069131,
+      "max": 0.633122924069131,
+      "value": 0.6321229535251476,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0047)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930894,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0048)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251814,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0049)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0050)",
+      "measurement": "last",
+      "min": 0.6311315499829134,
+      "max": 0.6331315499829134,
+      "value": 0.6321315790877727,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0051)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790876668,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0052)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055400016,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0053)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0054)",
+      "measurement": "last",
+      "min": 0.6309020963452531,
+      "max": 0.6329020963452531,
+      "value": 0.6319021258262365,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0055)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644112,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0056)",
+      "measurement": "last",
+      "min": 0.6309758701059673,
+      "max": 0.6329758701059673,
+      "value": 0.6319758995785871,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0057)",
+      "measurement": "last",
+      "min": 0.6309906263715092,
+      "max": 0.6329906263715092,
+      "value": 0.6319906558425483,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0058)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0059)",
+      "measurement": "last",
+      "min": 0.6310250596198065,
+      "max": 0.6330250596198065,
+      "value": 0.6320250890869477,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0060)",
+      "measurement": "last",
+      "min": 0.6310348981952981,
+      "max": 0.6330348981952981,
+      "value": 0.6320349276613663,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0061)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707993,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0062)",
+      "measurement": "last",
+      "min": 0.6310553328763436,
+      "max": 0.6330553328763436,
+      "value": 0.6320553623401292,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0063)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569140893,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0064)",
+      "measurement": "last",
+      "min": 0.6310760118121493,
+      "max": 0.6330760118121493,
+      "value": 0.632076041273551,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0065)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034095,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0066)",
+      "measurement": "last",
+      "min": 0.6310910543576943,
+      "max": 0.6330910543576943,
+      "value": 0.6320910838173404,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0067)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158370233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0068)",
+      "measurement": "last",
+      "min": 0.6311013144458482,
+      "max": 0.6331013144458482,
+      "value": 0.6321013439044111,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0069)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172772,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0070)",
+      "measurement": "last",
+      "min": 0.6311086946600412,
+      "max": 0.6331086946600412,
+      "value": 0.6321087241176652,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0071)",
+      "measurement": "last",
+      "min": 0.6311101707180199,
+      "max": 0.6331101707180199,
+      "value": 0.6321102001755362,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0072)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078629946,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0073)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300719,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0074)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.632115433512123,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0075)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.632116672180939,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0076)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.6321178317889622,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0077)",
+      "measurement": "last",
+      "min": 0.6311182457127567,
+      "max": 0.6331182457127567,
+      "value": 0.6321182751693346,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0078)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0079)",
+      "measurement": "last",
+      "min": 0.6311191700193944,
+      "max": 0.6331191700193944,
+      "value": 0.6321191994759352,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0080)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776019352,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0081)",
+      "measurement": "last",
+      "min": 0.6311202152465799,
+      "max": 0.6331202152465799,
+      "value": 0.6321202447030384,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0082)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279407642,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0083)",
+      "measurement": "last",
+      "min": 0.6311212413137283,
+      "max": 0.6331212413137283,
+      "value": 0.6321212707700026,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0084)",
+      "measurement": "last",
+      "min": 0.6311216841434615,
+      "max": 0.6331216841434615,
+      "value": 0.6321217135995819,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0085)",
+      "measurement": "last",
+      "min": 0.631121979363536,
+      "max": 0.633121979363536,
+      "value": 0.6321220088197084,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0086)",
+      "measurement": "last",
+      "min": 0.6311222477455971,
+      "max": 0.6331222477455971,
+      "value": 0.6321222772018203,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0087)",
+      "measurement": "last",
+      "min": 0.631122471397442,
+      "max": 0.633122471397442,
+      "value": 0.6321225008535639,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0088)",
+      "measurement": "last",
+      "min": 0.6311226503190013,
+      "max": 0.6331226503190013,
+      "value": 0.6321226797751035,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0089)",
+      "measurement": "last",
+      "min": 0.6311227741878168,
+      "max": 0.6331227741878168,
+      "value": 0.6321228036438851,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0090)",
+      "measurement": "last",
+      "min": 0.6311228901501441,
+      "max": 0.6331228901501441,
+      "value": 0.6321229196062269,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0091)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251883,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0092)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251663,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0093)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535252336,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0094)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.632122953525234,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0095)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251055,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0096)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251632,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0097)",
+      "measurement": "last",
+      "min": 0.631122924069131,
+      "max": 0.633122924069131,
+      "value": 0.6321229535251753,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0098)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535253055,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0099)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930673,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0100)",
+      "measurement": "last",
+      "min": 0.631122924069131,
+      "max": 0.633122924069131,
+      "value": 0.6321229535251476,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0101)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930894,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0102)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251814,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0103)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0104)",
+      "measurement": "last",
+      "min": 0.6311315499829134,
+      "max": 0.6331315499829134,
+      "value": 0.6321315790877727,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0105)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790877795,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0106)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790876826,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0107)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055400651,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0108)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055399825,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0109)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055401159,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0110)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276487,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0111)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644112,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0112)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0113)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707993,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0114)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569141147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0115)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034095,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0116)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158369386,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0117)",
+      "measurement": "last",
+      "min": 0.6311013144458482,
+      "max": 0.6331013144458482,
+      "value": 0.6321013439044026,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0118)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0119)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078630399,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0120)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300284,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0121)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.6321154335121083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0122)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.6321166721808944,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0123)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.632117831789004,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0124)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0125)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776018319,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0126)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279407642,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0127)",
+      "measurement": "last",
+      "min": 0.6311216841434615,
+      "max": 0.6331216841434615,
+      "value": 0.6321217135996497,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0128)",
+      "measurement": "last",
+      "min": 0.6311222477455971,
+      "max": 0.6331222477455971,
+      "value": 0.6321222772018203,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0129)",
+      "measurement": "last",
+      "min": 0.6311226503190013,
+      "max": 0.6331226503190013,
+      "value": 0.6321226797750311,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0130)",
+      "measurement": "last",
+      "min": 0.6311228901501441,
+      "max": 0.6331228901501441,
+      "value": 0.6321229196062269,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0131)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251828,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0132)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.632122953525234,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0133)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251583,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0134)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535253055,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0135)",
+      "measurement": "last",
+      "min": 0.631122924069131,
+      "max": 0.633122924069131,
+      "value": 0.632122953525116,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0136)",
+      "measurement": "last",
+      "min": 0.6311229240691308,
+      "max": 0.6331229240691308,
+      "value": 0.6321229535251814,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0137)",
+      "measurement": "last",
+      "min": 0.6311315499829134,
+      "max": 0.6331315499829134,
+      "value": 0.6321315790878178,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0138)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790876826,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0139)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055400651,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0140)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055399825,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0141)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055401159,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0142)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276487,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0143)",
+      "measurement": "last",
+      "min": 0.6309020963452531,
+      "max": 0.6329020963452531,
+      "value": 0.631902125826192,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0144)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644035,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0145)",
+      "measurement": "last",
+      "min": 0.6309758701059673,
+      "max": 0.6329758701059673,
+      "value": 0.6319758995785463,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0146)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0147)",
+      "measurement": "last",
+      "min": 0.6310250596198065,
+      "max": 0.6330250596198065,
+      "value": 0.6320250890869477,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0148)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707802,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0149)",
+      "measurement": "last",
+      "min": 0.6310553328763436,
+      "max": 0.6330553328763436,
+      "value": 0.6320553623401343,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0150)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569141147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0151)",
+      "measurement": "last",
+      "min": 0.6310760118121493,
+      "max": 0.6330760118121493,
+      "value": 0.6320760412735233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0152)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034221,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0153)",
+      "measurement": "last",
+      "min": 0.6310880303782388,
+      "max": 0.6330880303782388,
+      "value": 0.6320880598383114,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0154)",
+      "measurement": "last",
+      "min": 0.6310910543576943,
+      "max": 0.6330910543576943,
+      "value": 0.6320910838173404,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0155)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158370233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0156)",
+      "measurement": "last",
+      "min": 0.6311013144458482,
+      "max": 0.6331013144458482,
+      "value": 0.6321013439044111,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0157)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172772,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0158)",
+      "measurement": "last",
+      "min": 0.6311086946600412,
+      "max": 0.6331086946600412,
+      "value": 0.6321087241176652,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0159)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078630399,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0160)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300284,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0161)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.6321154335121083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0162)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.6321166721808944,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0163)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.632117831789004,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0164)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0165)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776018319,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0166)",
+      "measurement": "last",
+      "min": 0.6311202152465799,
+      "max": 0.6331202152465799,
+      "value": 0.6321202447030062,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0167)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279406868,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0168)",
+      "measurement": "last",
+      "min": 0.6311298580666838,
+      "max": 0.6331298580666838,
+      "value": 0.6321298871717765,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0169)",
+      "measurement": "last",
+      "min": 0.6311303033071495,
+      "max": 0.6331303033071495,
+      "value": 0.6321303324121615,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0170)",
+      "measurement": "last",
+      "min": 0.631121979363536,
+      "max": 0.633121979363536,
+      "value": 0.6321220088196863,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0171)",
+      "measurement": "last",
+      "min": 0.631130869977502,
+      "max": 0.633130869977502,
+      "value": 0.6321308990824874,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0172)",
+      "measurement": "last",
+      "min": 0.631122471397442,
+      "max": 0.633122471397442,
+      "value": 0.6321225008536556,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0173)",
+      "measurement": "last",
+      "min": 0.6311312747424979,
+      "max": 0.6331312747424979,
+      "value": 0.6321313038474081,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0174)",
+      "measurement": "last",
+      "min": 0.6311227741878168,
+      "max": 0.6331227741878168,
+      "value": 0.6321228036439078,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0175)",
+      "measurement": "last",
+      "min": 0.6311315158792729,
+      "max": 0.6331315158792729,
+      "value": 0.6321315449840712,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0176)",
+      "measurement": "last",
+      "min": 0.6311315499829134,
+      "max": 0.6331315499829134,
+      "value": 0.6321315790877617,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0177)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.632131579087647,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0178)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878727,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0179)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878069,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0180)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0181)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209931042,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0182)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209931022,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0183)",
+      "measurement": "last",
+      "min": 0.6311403705854658,
+      "max": 0.6331403705854658,
+      "value": 0.6321403994133084,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0184)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055400834,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0185)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400486,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0186)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400079,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0187)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0188)",
+      "measurement": "last",
+      "min": 0.6309020963452531,
+      "max": 0.6329020963452531,
+      "value": 0.6319021258262365,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0189)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644112,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0190)",
+      "measurement": "last",
+      "min": 0.6309758701059673,
+      "max": 0.6329758701059673,
+      "value": 0.6319758995785871,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0191)",
+      "measurement": "last",
+      "min": 0.6309906263715092,
+      "max": 0.6329906263715092,
+      "value": 0.6319906558425483,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0192)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0193)",
+      "measurement": "last",
+      "min": 0.6310250596198065,
+      "max": 0.6330250596198065,
+      "value": 0.6320250890869477,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0194)",
+      "measurement": "last",
+      "min": 0.6310348981952981,
+      "max": 0.6330348981952981,
+      "value": 0.6320349276613663,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0195)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707993,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0196)",
+      "measurement": "last",
+      "min": 0.6310496564790166,
+      "max": 0.6330496564790166,
+      "value": 0.6320496859432759,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0197)",
+      "measurement": "last",
+      "min": 0.6310553328763436,
+      "max": 0.6330553328763436,
+      "value": 0.6320553623401343,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0198)",
+      "measurement": "last",
+      "min": 0.6310616694080411,
+      "max": 0.6330616694080411,
+      "value": 0.6320616988710916,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0199)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569140893,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0200)",
+      "measurement": "last",
+      "min": 0.631070318923946,
+      "max": 0.633070318923946,
+      "value": 0.6320703483859126,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0201)",
+      "measurement": "last",
+      "min": 0.6310760118121493,
+      "max": 0.6330760118121493,
+      "value": 0.6320760412735233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0202)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034221,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0203)",
+      "measurement": "last",
+      "min": 0.6310880303782388,
+      "max": 0.6330880303782388,
+      "value": 0.6320880598383114,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0204)",
+      "measurement": "last",
+      "min": 0.6310910543576943,
+      "max": 0.6330910543576943,
+      "value": 0.6320910838173404,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0205)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158370233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0206)",
+      "measurement": "last",
+      "min": 0.6311013144458482,
+      "max": 0.6331013144458482,
+      "value": 0.6321013439044111,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0207)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172772,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0208)",
+      "measurement": "last",
+      "min": 0.6311086946600412,
+      "max": 0.6331086946600412,
+      "value": 0.6321087241176652,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0209)",
+      "measurement": "last",
+      "min": 0.6311101707180199,
+      "max": 0.6331101707180199,
+      "value": 0.6321102001755362,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0210)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078629946,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0211)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300719,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0212)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.632115433512123,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0213)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.632116672180939,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0214)",
+      "measurement": "last",
+      "min": 0.63111712934504,
+      "max": 0.63311712934504,
+      "value": 0.632117158801803,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0215)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.632117831789004,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0216)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0217)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776018319,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0218)",
+      "measurement": "last",
+      "min": 0.6311202152465799,
+      "max": 0.6331202152465799,
+      "value": 0.6321202447030062,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0219)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279406868,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0220)",
+      "measurement": "last",
+      "min": 0.6311298580666838,
+      "max": 0.6331298580666838,
+      "value": 0.6321298871717765,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0221)",
+      "measurement": "last",
+      "min": 0.6311303033071495,
+      "max": 0.6331303033071495,
+      "value": 0.6321303324121615,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0222)",
+      "measurement": "last",
+      "min": 0.6311306001343836,
+      "max": 0.6331306001343836,
+      "value": 0.6321306292393902,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0223)",
+      "measurement": "last",
+      "min": 0.6311221269736488,
+      "max": 0.6331221269736488,
+      "value": 0.6321221564298085,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0224)",
+      "measurement": "last",
+      "min": 0.631130869977502,
+      "max": 0.633130869977502,
+      "value": 0.6321308990824537,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0225)",
+      "measurement": "last",
+      "min": 0.631122471397442,
+      "max": 0.633122471397442,
+      "value": 0.6321225008535639,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0226)",
+      "measurement": "last",
+      "min": 0.6311312747424979,
+      "max": 0.6331312747424979,
+      "value": 0.6321313038474372,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0227)",
+      "measurement": "last",
+      "min": 0.6311313992856504,
+      "max": 0.6331313992856504,
+      "value": 0.6321314283904933,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0228)",
+      "measurement": "last",
+      "min": 0.6311315158792729,
+      "max": 0.6331315158792729,
+      "value": 0.6321315449840951,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0229)",
+      "measurement": "last",
+      "min": 0.6311315499829134,
+      "max": 0.6331315499829134,
+      "value": 0.6321315790877617,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0230)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790877263,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0231)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878833,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0232)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878062,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0233)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209929038,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0234)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0235)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209931042,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0236)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209931022,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0237)",
+      "measurement": "last",
+      "min": 0.6311425169336277,
+      "max": 0.6331425169336277,
+      "value": 0.632142545761198,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0238)",
+      "measurement": "last",
+      "min": 0.6311403705854658,
+      "max": 0.6331403705854658,
+      "value": 0.632140399413245,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0239)",
+      "measurement": "last",
+      "min": 0.6311425169336277,
+      "max": 0.6331425169336277,
+      "value": 0.632142545761228,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0240)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055400834,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0241)",
+      "measurement": "last",
+      "min": 0.6311403705854658,
+      "max": 0.6331403705854658,
+      "value": 0.6321403994132869,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0242)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400505,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0243)",
+      "measurement": "last",
+      "min": 0.6311403705854658,
+      "max": 0.6331403705854658,
+      "value": 0.6321403994132406,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0244)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400079,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0245)",
+      "measurement": "last",
+      "min": 0.6311607771017943,
+      "max": 0.6331607771017943,
+      "value": 0.6321608055198654,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0246)",
+      "measurement": "last",
+      "min": 0.630857838141691,
+      "max": 0.632857838141691,
+      "value": 0.6318578676276487,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0247)",
+      "measurement": "last",
+      "min": 0.6309463590883434,
+      "max": 0.6329463590883434,
+      "value": 0.6319463885644112,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0248)",
+      "measurement": "last",
+      "min": 0.6310027000549371,
+      "max": 0.6330027000549371,
+      "value": 0.6320027295245804,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0249)",
+      "measurement": "last",
+      "min": 0.6310250596198065,
+      "max": 0.6330250596198065,
+      "value": 0.6320250890869477,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0250)",
+      "measurement": "last",
+      "min": 0.6310429481056836,
+      "max": 0.6330429481056836,
+      "value": 0.6320429775707802,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0251)",
+      "measurement": "last",
+      "min": 0.6310669274517661,
+      "max": 0.6330669274517661,
+      "value": 0.6320669569140893,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0252)",
+      "measurement": "last",
+      "min": 0.6310760118121493,
+      "max": 0.6330760118121493,
+      "value": 0.632076041273551,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0253)",
+      "measurement": "last",
+      "min": 0.6310843838429508,
+      "max": 0.6330843838429508,
+      "value": 0.6320844133034095,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0254)",
+      "measurement": "last",
+      "min": 0.6310910543576943,
+      "max": 0.6330910543576943,
+      "value": 0.6320910838173404,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0255)",
+      "measurement": "last",
+      "min": 0.6310968863778924,
+      "max": 0.6330968863778924,
+      "value": 0.6320969158370233,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0256)",
+      "measurement": "last",
+      "min": 0.6311057425592239,
+      "max": 0.6331057425592239,
+      "value": 0.6321057720172361,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0257)",
+      "measurement": "last",
+      "min": 0.6311113784055745,
+      "max": 0.6331113784055745,
+      "value": 0.6321114078630399,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0258)",
+      "measurement": "last",
+      "min": 0.6311136148729302,
+      "max": 0.6331136148729302,
+      "value": 0.6321136443300284,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0259)",
+      "measurement": "last",
+      "min": 0.6311154040551564,
+      "max": 0.6331154040551564,
+      "value": 0.6321154335121083,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0260)",
+      "measurement": "last",
+      "min": 0.6311166427241185,
+      "max": 0.6331166427241185,
+      "value": 0.6321166721808944,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0261)",
+      "measurement": "last",
+      "min": 0.631117802332325,
+      "max": 0.633117802332325,
+      "value": 0.632117831789004,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0262)",
+      "measurement": "last",
+      "min": 0.6311187108668238,
+      "max": 0.6331187108668238,
+      "value": 0.6321187403233922,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0263)",
+      "measurement": "last",
+      "min": 0.6311195481454076,
+      "max": 0.6331195481454076,
+      "value": 0.6321195776018319,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0264)",
+      "measurement": "last",
+      "min": 0.6311207984844494,
+      "max": 0.6331207984844494,
+      "value": 0.6321208279407642,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0265)",
+      "measurement": "last",
+      "min": 0.6311303033071495,
+      "max": 0.6331303033071495,
+      "value": 0.6321303324121615,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0266)",
+      "measurement": "last",
+      "min": 0.631130869977502,
+      "max": 0.633130869977502,
+      "value": 0.6321308990824537,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0267)",
+      "measurement": "last",
+      "min": 0.6311312747424979,
+      "max": 0.6331312747424979,
+      "value": 0.6321313038474081,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0268)",
+      "measurement": "last",
+      "min": 0.6311255414695932,
+      "max": 0.6331255414695932,
+      "value": 0.6321255707845713,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0269)",
+      "measurement": "last",
+      "min": 0.6311315158792729,
+      "max": 0.6331315158792729,
+      "value": 0.6321315449840712,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0270)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790877263,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0271)",
+      "measurement": "last",
+      "min": 0.6311315499829133,
+      "max": 0.6331315499829133,
+      "value": 0.6321315790878069,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0272)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930147,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0273)",
+      "measurement": "last",
+      "min": 0.6311256916780593,
+      "max": 0.6331256916780593,
+      "value": 0.6321257209930419,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0274)",
+      "measurement": "last",
+      "min": 0.6311403705854658,
+      "max": 0.6331403705854658,
+      "value": 0.632140399413245,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0275)",
+      "measurement": "last",
+      "min": 0.6311634771221758,
+      "max": 0.6331634771221758,
+      "value": 0.6321635055399975,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0276)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400505,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0277)",
+      "measurement": "last",
+      "min": 0.6311634771221759,
+      "max": 0.6331634771221759,
+      "value": 0.6321635055400079,
+      "passed": true
+    },
+    {
+      "signal": "v(nC0278)",
+      "measurement": "last",
+      "min": 0.6311607771017943,
+      "max": 0.6331607771017943,
+      "value": 0.6321608055198654,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\2d93149ff217424ebb48ef78bf4cd6c4",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\2d93149ff217424ebb48ef78bf4cd6c4\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_97e4484fd75949c397bdaf47dddc8e6d.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}
