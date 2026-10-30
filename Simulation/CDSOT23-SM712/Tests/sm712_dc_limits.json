@@ -1,0 +1,72 @@
+{
+  "name": "sm712_dc_limits",
+  "models": [
+    "../MY_LIB_CDSOT23_SM712_DS.ckt"
+  ],
+  "spice": "* Bourns p1 leakage and breakdown, each channel independently\n.OPTIONS TEMP=25 RELTOL=1u ABSTOL=1p VNTOL=1n\nXc1s1 c1s1v c1s1b 0 MY_LIB_CDSOT23_SM712_DS\nVc1s1 c1s1v 0 12\nEc1s1 c1s1i 0 VALUE={-1*I(Vc1s1)}\nXc1s1br c1s1brv c1s1brb 0 MY_LIB_CDSOT23_SM712_DS\nIc1s1br 0 c1s1brv 0.001\nEc1s1br c1s1brabs 0 VALUE={1*V(c1s1brv)}\nXc1sn1 c1sn1v c1sn1b 0 MY_LIB_CDSOT23_SM712_DS\nVc1sn1 c1sn1v 0 -7\nEc1sn1 c1sn1i 0 VALUE={--1*I(Vc1sn1)}\nXc1sn1br c1sn1brv c1sn1brb 0 MY_LIB_CDSOT23_SM712_DS\nIc1sn1br 0 c1sn1brv -0.001\nEc1sn1br c1sn1brabs 0 VALUE={-1*V(c1sn1brv)}\nXc2s1 c2s1a c2s1v 0 MY_LIB_CDSOT23_SM712_DS\nVc2s1 c2s1v 0 12\nEc2s1 c2s1i 0 VALUE={-1*I(Vc2s1)}\nXc2s1br c2s1bra c2s1brv 0 MY_LIB_CDSOT23_SM712_DS\nIc2s1br 0 c2s1brv 0.001\nEc2s1br c2s1brabs 0 VALUE={1*V(c2s1brv)}\nXc2sn1 c2sn1a c2sn1v 0 MY_LIB_CDSOT23_SM712_DS\nVc2sn1 c2sn1v 0 -7\nEc2sn1 c2sn1i 0 VALUE={--1*I(Vc2sn1)}\nXc2sn1br c2sn1bra c2sn1brv 0 MY_LIB_CDSOT23_SM712_DS\nIc2sn1br 0 c2sn1brv -0.001\nEc2sn1br c2sn1brabs 0 VALUE={-1*V(c2sn1brv)}\n.TRAN 1n 10n\n.PLOT TRAN v(c1s1i)\n.PLOT TRAN v(c1s1brabs)\n.PLOT TRAN v(c1sn1i)\n.PLOT TRAN v(c1sn1brabs)\n.PLOT TRAN v(c2s1i)\n.PLOT TRAN v(c2s1brabs)\n.PLOT TRAN v(c2sn1i)\n.PLOT TRAN v(c2sn1brabs)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(c1s1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.001e-06,
+      "description": "p1 ID max at 12 V"
+    },
+    {
+      "signal": "v(c1s1brabs)",
+      "measurement": "last",
+      "min": 13.299000000000001,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard"
+    },
+    {
+      "signal": "v(c1sn1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 2.0001e-05,
+      "description": "p1 ID max at -7 V"
+    },
+    {
+      "signal": "v(c1sn1brabs)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard"
+    },
+    {
+      "signal": "v(c2s1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.001e-06,
+      "description": "p1 ID max at 12 V"
+    },
+    {
+      "signal": "v(c2s1brabs)",
+      "measurement": "last",
+      "min": 13.299000000000001,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard"
+    },
+    {
+      "signal": "v(c2sn1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 2.0001e-05,
+      "description": "p1 ID max at -7 V"
+    },
+    {
+      "signal": "v(c2sn1brabs)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard"
+    }
+  ],
+  "measurements": [],
+  "provenance": {
+    "datasheet": "../../../Datasheets/CDSOT23-SM712_Bourns.pdf",
+    "pages": "1",
+    "notes": "25 C. Both physical channels, both polarities. Independent instances; other channel open. Bounds include stated numerical allowance.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

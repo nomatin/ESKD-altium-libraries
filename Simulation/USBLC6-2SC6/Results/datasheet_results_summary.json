@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-30",
+  "simulator": "Altium Designer 24.4 MixedSim, existing DBUR tester",
+  "model_sha256": "16eff038ca1dfff02db8cbb5f0fc4416dd31f6fbb471aa20227770deee63dd91",
+  "model_unchanged_from_HEAD": true,
+  "datasheet": "Datasheets/USBLC6-2_ST.pdf",
+  "datasheet_sha256": "1c61ac54a7cce343899a55ff9e19229444c0e22a3e7265c24fe979be476ca7de",
+  "tests": [
+    {
+      "test": "usblc6_pulse_clamp.json",
+      "status": "PASS",
+      "checks": 0,
+      "measurements": 16,
+      "test_sha256": "512b3b58ae78015d20b76729d9789057ed5f1b32c09b57f72b87db757a298170",
+      "result_sha256": "467aabb67c2ff77e8b1d60018e771f492bbed161bb9dccd2533f6ffd37d91263",
+      "scope": "nominal model verification"
+    },
+    {
+      "test": "usblc6_dc_T27.json",
+      "status": "PASS",
+      "checks": 10,
+      "measurements": 0,
+      "test_sha256": "a563bc4da5feec501cd334f545faf182b0c74b6391b58a773033ac90c63901ed",
+      "result_sha256": "b051758b8d661e46ebb10a40d4813b6ff3b0b1c9d25b2c577da5b2d738451d27",
+      "scope": "nominal model verification"
+    },
+    {
+      "test": "usblc6_dc_T25.json",
+      "status": "PASS",
+      "checks": 10,
+      "measurements": 0,
+      "test_sha256": "435246d6a2470c3d848102b547f0c08b42e8fdcd5110ec9b626e94ecb2e1e83f",
+      "result_sha256": "1bcad4c24b885f95fbf87ecb7a21bf4e61551e6ffd40b3ebb44fe66d50961a2d",
+      "scope": "outside published model temperature validity"
+    },
+    {
+      "test": "usblc6_capacitance.json",
+      "status": "PASS",
+      "checks": 0,
+      "measurements": 4,
+      "test_sha256": "50ea91ef709d0361ebb6dd0e97c0e59dcb62109a098667206c01e3dd1d23502b",
+      "result_sha256": "1bc039ecda9fb8722c0459971ad5e83058df2484c76d42bb1700b235515b02c9",
+      "scope": "nominal model verification"
+    },
+    {
+      "test": "usblc6_lead_paths.json",
+      "status": "PASS",
+      "checks": 4,
+      "measurements": 4,
+      "test_sha256": "befff870d71e4c341b601c564ae7565d6682cc09fe7bf26dfe2a3670e270f65e",
+      "result_sha256": "ce15c12d17fa5bad678e42956f1fd77e8bd53b55ff7e4263c34c5e2ee367f991",
+      "scope": "nominal model verification"
+    }
+  ],
+  "total_checks": 48,
+  "status": "PASS"
+}

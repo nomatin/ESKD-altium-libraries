@@ -1,0 +1,11 @@
+* Datasheet capacitance; typical comparison tolerance is author-selected
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\CDSOT23-SM712\MY_LIB_CDSOT23_SM712_DS.ckt"
+.OPTIONS TEMP=25
+Xc1 c1v c1b 0 MY_LIB_CDSOT23_SM712_DS
+Vc1 c1v 0 DC 0 AC 0.03
+.PLOT AC V(c1v) I(Vc1)
+Xc2 c2a c2v 0 MY_LIB_CDSOT23_SM712_DS
+Vc2 c2v 0 DC 0 AC 0.03
+.PLOT AC V(c2v) I(Vc2)
+.AC LIN 2 1Meg 1.001Meg
+.END

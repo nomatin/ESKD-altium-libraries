@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "test": "usblc6_dc_T25",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "signal": "v(brv)",
+      "measurement": "last",
+      "min": 5.999,
+      "max": 100,
+      "description": "Table2 VBUS-GND VBR minimum6V; no specified maximum",
+      "value": 7.301009999696334,
+      "passed": true
+    },
+    {
+      "signal": "v(leakcur)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.51e-07,
+      "description": "Table2 rail leakage max150nA at5.25V",
+      "value": 1.3145040611561853e-11,
+      "passed": true
+    },
+    {
+      "signal": "v(f1lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7215035025914215,
+      "passed": true
+    },
+    {
+      "signal": "v(f1highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7252035025911344,
+      "passed": true
+    },
+    {
+      "signal": "v(f3lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7215035025914157,
+      "passed": true
+    },
+    {
+      "signal": "v(f3highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7252035025911341,
+      "passed": true
+    },
+    {
+      "signal": "v(f4lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7215035025914154,
+      "passed": true
+    },
+    {
+      "signal": "v(f4highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7252035025911344,
+      "passed": true
+    },
+    {
+      "signal": "v(f6lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.7215035025914228,
+      "passed": true
+    },
+    {
+      "signal": "v(f6highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths",
+      "value": 0.725203502591135,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\c07e02e64d4947d6a45ee28fa8ee30ff",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\c07e02e64d4947d6a45ee28fa8ee30ff\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_972698be33724719861c5b45b587c8ec.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

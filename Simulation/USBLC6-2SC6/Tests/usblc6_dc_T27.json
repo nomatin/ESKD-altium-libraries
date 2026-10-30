@@ -1,0 +1,86 @@
+{
+  "name": "usblc6_dc_T27",
+  "models": [
+    "../MY_LIB_USBLC6_2SC6_DS.ckt"
+  ],
+  "spice": "* ST Table2 leakage VBR VF; 25 C run is outside published model validity\n.OPTIONS TEMP=27 RELTOL=1u ABSTOL=1p VNTOL=1n\nVrail rail 0 5.25\nXbr brio 0 brp3 brp4 brv brp6 MY_LIB_USBLC6_2SC6_DS\nIbr 0 brv 1m\nXleak li 0 leakp3 leakp4 lv leakp6 MY_LIB_USBLC6_2SC6_DS\nVlv lv 0 5.25\nVli li 0 0\nEleak leakcur 0 VALUE={-I(Vlv)}\nXf1low f1lowv 0 f1lowp3 f1lowp4 0 f1lowp6 MY_LIB_USBLC6_2SC6_DS\nIf1low 0 f1lowv -0.01\nEf1low f1lowabs 0 VALUE={-1*V(f1lowv)}\nXf1high f1highv 0 f1highp3 f1highp4 0 f1highp6 MY_LIB_USBLC6_2SC6_DS\nIf1high 0 f1highv 0.01\nEf1high f1highabs 0 VALUE={1*V(f1highv)}\nXf3low f3lowp1 0 f3lowv f3lowp4 0 f3lowp6 MY_LIB_USBLC6_2SC6_DS\nIf3low 0 f3lowv -0.01\nEf3low f3lowabs 0 VALUE={-1*V(f3lowv)}\nXf3high f3highp1 0 f3highv f3highp4 0 f3highp6 MY_LIB_USBLC6_2SC6_DS\nIf3high 0 f3highv 0.01\nEf3high f3highabs 0 VALUE={1*V(f3highv)}\nXf4low f4lowp1 0 f4lowp3 f4lowv 0 f4lowp6 MY_LIB_USBLC6_2SC6_DS\nIf4low 0 f4lowv -0.01\nEf4low f4lowabs 0 VALUE={-1*V(f4lowv)}\nXf4high f4highp1 0 f4highp3 f4highv 0 f4highp6 MY_LIB_USBLC6_2SC6_DS\nIf4high 0 f4highv 0.01\nEf4high f4highabs 0 VALUE={1*V(f4highv)}\nXf6low f6lowp1 0 f6lowp3 f6lowp4 0 f6lowv MY_LIB_USBLC6_2SC6_DS\nIf6low 0 f6lowv -0.01\nEf6low f6lowabs 0 VALUE={-1*V(f6lowv)}\nXf6high f6highp1 0 f6highp3 f6highp4 0 f6highv MY_LIB_USBLC6_2SC6_DS\nIf6high 0 f6highv 0.01\nEf6high f6highabs 0 VALUE={1*V(f6highv)}\n.TRAN 1n 10n\n.PLOT TRAN v(brv)\n.PLOT TRAN v(leakcur)\n.PLOT TRAN v(f1lowabs)\n.PLOT TRAN v(f1highabs)\n.PLOT TRAN v(f3lowabs)\n.PLOT TRAN v(f3highabs)\n.PLOT TRAN v(f4lowabs)\n.PLOT TRAN v(f4highabs)\n.PLOT TRAN v(f6lowabs)\n.PLOT TRAN v(f6highabs)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(brv)",
+      "measurement": "last",
+      "min": 5.999,
+      "max": 100,
+      "description": "Table2 VBUS-GND VBR minimum6V; no specified maximum"
+    },
+    {
+      "signal": "v(leakcur)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.51e-07,
+      "description": "Table2 rail leakage max150nA at5.25V"
+    },
+    {
+      "signal": "v(f1lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f1highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f3lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f3highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f4lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f4highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f6lowabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    },
+    {
+      "signal": "v(f6highabs)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.101,
+      "description": "Table2 VF max1.1V at10mA; steering paths"
+    }
+  ],
+  "measurements": [],
+  "provenance": {
+    "datasheet": "../../../Datasheets/USBLC6-2_ST.pdf",
+    "pages": "2, 3, 10, 11",
+    "notes": "ST DS4260 Rev7 Table2 p2 at25C; p10 restricts simulation model to27C. 27C comparison is indicative,25C is explicitly an out-of-validity diagnostic. Unused signal pins open; VF VBUS grounded, leakage VBUS5.25V.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

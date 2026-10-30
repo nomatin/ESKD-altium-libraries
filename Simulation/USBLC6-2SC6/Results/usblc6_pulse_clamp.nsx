@@ -1,0 +1,69 @@
+* Datasheet clamping anchors; piecewise linear 8/20 us approximation
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\USBLC6-2SC6\MY_LIB_USBLC6_2SC6_DS.ckt"
+.OPTIONS TEMP=27 METHOD=GEAR ITL4=100 RELTOL=1u
+Xp1s1a1 p1s1a1v 0 p1s1a1p3 p1s1a1p4 p1s1a1rail p1s1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip1s1a1 0 p1s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep1s1a1 p1s1a1abs 0 VALUE={1*V(p1s1a1v)}
+Xp1s1a5 p1s1a5v 0 p1s1a5p3 p1s1a5p4 p1s1a5rail p1s1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip1s1a5 0 p1s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep1s1a5 p1s1a5abs 0 VALUE={1*V(p1s1a5v)}
+Xp1sn1a1 p1sn1a1v 0 p1sn1a1p3 p1sn1a1p4 p1sn1a1rail p1sn1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip1sn1a1 0 p1sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep1sn1a1 p1sn1a1abs 0 VALUE={-1*V(p1sn1a1v)}
+Xp1sn1a5 p1sn1a5v 0 p1sn1a5p3 p1sn1a5p4 p1sn1a5rail p1sn1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip1sn1a5 0 p1sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep1sn1a5 p1sn1a5abs 0 VALUE={-1*V(p1sn1a5v)}
+Xp3s1a1 p3s1a1p1 0 p3s1a1v p3s1a1p4 p3s1a1rail p3s1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip3s1a1 0 p3s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep3s1a1 p3s1a1abs 0 VALUE={1*V(p3s1a1v)}
+Xp3s1a5 p3s1a5p1 0 p3s1a5v p3s1a5p4 p3s1a5rail p3s1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip3s1a5 0 p3s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep3s1a5 p3s1a5abs 0 VALUE={1*V(p3s1a5v)}
+Xp3sn1a1 p3sn1a1p1 0 p3sn1a1v p3sn1a1p4 p3sn1a1rail p3sn1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip3sn1a1 0 p3sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep3sn1a1 p3sn1a1abs 0 VALUE={-1*V(p3sn1a1v)}
+Xp3sn1a5 p3sn1a5p1 0 p3sn1a5v p3sn1a5p4 p3sn1a5rail p3sn1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip3sn1a5 0 p3sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep3sn1a5 p3sn1a5abs 0 VALUE={-1*V(p3sn1a5v)}
+Xp4s1a1 p4s1a1p1 0 p4s1a1p3 p4s1a1v p4s1a1rail p4s1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip4s1a1 0 p4s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep4s1a1 p4s1a1abs 0 VALUE={1*V(p4s1a1v)}
+Xp4s1a5 p4s1a5p1 0 p4s1a5p3 p4s1a5v p4s1a5rail p4s1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip4s1a5 0 p4s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep4s1a5 p4s1a5abs 0 VALUE={1*V(p4s1a5v)}
+Xp4sn1a1 p4sn1a1p1 0 p4sn1a1p3 p4sn1a1v p4sn1a1rail p4sn1a1p6 MY_LIB_USBLC6_2SC6_DS
+Ip4sn1a1 0 p4sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep4sn1a1 p4sn1a1abs 0 VALUE={-1*V(p4sn1a1v)}
+Xp4sn1a5 p4sn1a5p1 0 p4sn1a5p3 p4sn1a5v p4sn1a5rail p4sn1a5p6 MY_LIB_USBLC6_2SC6_DS
+Ip4sn1a5 0 p4sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep4sn1a5 p4sn1a5abs 0 VALUE={-1*V(p4sn1a5v)}
+Xp6s1a1 p6s1a1p1 0 p6s1a1p3 p6s1a1p4 p6s1a1rail p6s1a1v MY_LIB_USBLC6_2SC6_DS
+Ip6s1a1 0 p6s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep6s1a1 p6s1a1abs 0 VALUE={1*V(p6s1a1v)}
+Xp6s1a5 p6s1a5p1 0 p6s1a5p3 p6s1a5p4 p6s1a5rail p6s1a5v MY_LIB_USBLC6_2SC6_DS
+Ip6s1a5 0 p6s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep6s1a5 p6s1a5abs 0 VALUE={1*V(p6s1a5v)}
+Xp6sn1a1 p6sn1a1p1 0 p6sn1a1p3 p6sn1a1p4 p6sn1a1rail p6sn1a1v MY_LIB_USBLC6_2SC6_DS
+Ip6sn1a1 0 p6sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep6sn1a1 p6sn1a1abs 0 VALUE={-1*V(p6sn1a1v)}
+Xp6sn1a5 p6sn1a5p1 0 p6sn1a5p3 p6sn1a5p4 p6sn1a5rail p6sn1a5v MY_LIB_USBLC6_2SC6_DS
+Ip6sn1a5 0 p6sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep6sn1a5 p6sn1a5abs 0 VALUE={-1*V(p6sn1a5v)}
+.TRAN 20n 90u 0 20n
+.PLOT TRAN v(p1s1a1abs)
+.PLOT TRAN v(p1s1a5abs)
+.PLOT TRAN v(p1sn1a1abs)
+.PLOT TRAN v(p1sn1a5abs)
+.PLOT TRAN v(p3s1a1abs)
+.PLOT TRAN v(p3s1a5abs)
+.PLOT TRAN v(p3sn1a1abs)
+.PLOT TRAN v(p3sn1a5abs)
+.PLOT TRAN v(p4s1a1abs)
+.PLOT TRAN v(p4s1a5abs)
+.PLOT TRAN v(p4sn1a1abs)
+.PLOT TRAN v(p4sn1a5abs)
+.PLOT TRAN v(p6s1a1abs)
+.PLOT TRAN v(p6s1a5abs)
+.PLOT TRAN v(p6sn1a1abs)
+.PLOT TRAN v(p6sn1a5abs)
+.END

@@ -1,0 +1,46 @@
+* ST Table2 leakage VBR VF; 25 C run is outside published model validity
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\USBLC6-2SC6\MY_LIB_USBLC6_2SC6_DS.ckt"
+.OPTIONS TEMP=27 RELTOL=1u ABSTOL=1p VNTOL=1n
+Vrail rail 0 5.25
+Xbr brio 0 brp3 brp4 brv brp6 MY_LIB_USBLC6_2SC6_DS
+Ibr 0 brv 1m
+Xleak li 0 leakp3 leakp4 lv leakp6 MY_LIB_USBLC6_2SC6_DS
+Vlv lv 0 5.25
+Vli li 0 0
+Eleak leakcur 0 VALUE={-I(Vlv)}
+Xf1low f1lowv 0 f1lowp3 f1lowp4 0 f1lowp6 MY_LIB_USBLC6_2SC6_DS
+If1low 0 f1lowv -0.01
+Ef1low f1lowabs 0 VALUE={-1*V(f1lowv)}
+Xf1high f1highv 0 f1highp3 f1highp4 0 f1highp6 MY_LIB_USBLC6_2SC6_DS
+If1high 0 f1highv 0.01
+Ef1high f1highabs 0 VALUE={1*V(f1highv)}
+Xf3low f3lowp1 0 f3lowv f3lowp4 0 f3lowp6 MY_LIB_USBLC6_2SC6_DS
+If3low 0 f3lowv -0.01
+Ef3low f3lowabs 0 VALUE={-1*V(f3lowv)}
+Xf3high f3highp1 0 f3highv f3highp4 0 f3highp6 MY_LIB_USBLC6_2SC6_DS
+If3high 0 f3highv 0.01
+Ef3high f3highabs 0 VALUE={1*V(f3highv)}
+Xf4low f4lowp1 0 f4lowp3 f4lowv 0 f4lowp6 MY_LIB_USBLC6_2SC6_DS
+If4low 0 f4lowv -0.01
+Ef4low f4lowabs 0 VALUE={-1*V(f4lowv)}
+Xf4high f4highp1 0 f4highp3 f4highv 0 f4highp6 MY_LIB_USBLC6_2SC6_DS
+If4high 0 f4highv 0.01
+Ef4high f4highabs 0 VALUE={1*V(f4highv)}
+Xf6low f6lowp1 0 f6lowp3 f6lowp4 0 f6lowv MY_LIB_USBLC6_2SC6_DS
+If6low 0 f6lowv -0.01
+Ef6low f6lowabs 0 VALUE={-1*V(f6lowv)}
+Xf6high f6highp1 0 f6highp3 f6highp4 0 f6highv MY_LIB_USBLC6_2SC6_DS
+If6high 0 f6highv 0.01
+Ef6high f6highabs 0 VALUE={1*V(f6highv)}
+.TRAN 1n 10n
+.PLOT TRAN v(brv)
+.PLOT TRAN v(leakcur)
+.PLOT TRAN v(f1lowabs)
+.PLOT TRAN v(f1highabs)
+.PLOT TRAN v(f3lowabs)
+.PLOT TRAN v(f3highabs)
+.PLOT TRAN v(f4lowabs)
+.PLOT TRAN v(f4highabs)
+.PLOT TRAN v(f6lowabs)
+.PLOT TRAN v(f6highabs)
+.END

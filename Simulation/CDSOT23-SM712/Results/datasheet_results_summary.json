@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "simulator": "Altium Designer 24.4 MixedSim, existing DBUR tester",
+  "model_sha256": "d21cc61c1f046dd929038f6902bd3868d10d35d4f8c8d469bcd75b26c0766837",
+  "model_unchanged_from_HEAD": true,
+  "datasheet": "Datasheets/CDSOT23-SM712_Bourns.pdf",
+  "datasheet_sha256": "75c1a765dbea8b5d7e57611b8787ce6b2856e57eef387b334bc0a894d91a19d2",
+  "tests": [
+    {
+      "test": "sm712_dc_limits.json",
+      "status": "PASS",
+      "checks": 8,
+      "measurements": 0,
+      "test_sha256": "f695e8f2c4be3c91b2d49e318feb66cf1e6afda914bd01ced66ecf74f7422aaf",
+      "result_sha256": "4fb25a08c85e0218b30421785031c65e2a9469f5065c217bcb0d2c99b9c32b87",
+      "scope": "nominal model verification"
+    },
+    {
+      "test": "sm712_pulse_clamp.json",
+      "status": "PASS",
+      "checks": 0,
+      "measurements": 12,
+      "test_sha256": "81b325ee11fb98fc6534a6946188e7ec6fdc62443619094059c2d174b5c67678",
+      "result_sha256": "901b531fe2e4b7307c45e7355937ab23c86452334a5d487553538bfc440ea45d",
+      "scope": "nominal model verification"
+    },
+    {
+      "test": "sm712_capacitance.json",
+      "status": "PASS",
+      "checks": 0,
+      "measurements": 2,
+      "test_sha256": "fe393e3b42685d1206d42ede4c335ca7e9d8ea320de9a7dd2827d17e89097ebb",
+      "result_sha256": "2e412df2cc34ea1b02a7eab955607ff843066d9b68a22a0e713d4a0462ef83c6",
+      "scope": "nominal model verification"
+    }
+  ],
+  "total_checks": 22,
+  "status": "PASS"
+}

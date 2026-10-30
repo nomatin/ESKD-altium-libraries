@@ -1,0 +1,21 @@
+* Datasheet capacitance; typical comparison tolerance is author-selected
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\USBLC6-2SC6\MY_LIB_USBLC6_2SC6_DS.ckt"
+.OPTIONS TEMP=27
+Xc1 c1v 0 c1p3 c1p4 c1rail c1p6 MY_LIB_USBLC6_2SC6_DS
+Vc1 c1v 0 DC 1.65 AC 0.03
+Vc1rail c1rail 0 5
+.PLOT AC V(c1v) I(Vc1)
+Xc3 c3p1 0 c3v c3p4 c3rail c3p6 MY_LIB_USBLC6_2SC6_DS
+Vc3 c3v 0 DC 1.65 AC 0.03
+Vc3rail c3rail 0 5
+.PLOT AC V(c3v) I(Vc3)
+Xc4 c4p1 0 c4p3 c4v c4rail c4p6 MY_LIB_USBLC6_2SC6_DS
+Vc4 c4v 0 DC 1.65 AC 0.03
+Vc4rail c4rail 0 5
+.PLOT AC V(c4v) I(Vc4)
+Xc6 c6p1 0 c6p3 c6p4 c6rail c6v MY_LIB_USBLC6_2SC6_DS
+Vc6 c6v 0 DC 1.65 AC 0.03
+Vc6rail c6rail 0 5
+.PLOT AC V(c6v) I(Vc6)
+.AC LIN 2 1Meg 1.001Meg
+.END

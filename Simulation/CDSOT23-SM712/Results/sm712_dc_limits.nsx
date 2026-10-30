@@ -1,0 +1,37 @@
+* Bourns p1 leakage and breakdown, each channel independently
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\CDSOT23-SM712\MY_LIB_CDSOT23_SM712_DS.ckt"
+.OPTIONS TEMP=25 RELTOL=1u ABSTOL=1p VNTOL=1n
+Xc1s1 c1s1v c1s1b 0 MY_LIB_CDSOT23_SM712_DS
+Vc1s1 c1s1v 0 12
+Ec1s1 c1s1i 0 VALUE={-1*I(Vc1s1)}
+Xc1s1br c1s1brv c1s1brb 0 MY_LIB_CDSOT23_SM712_DS
+Ic1s1br 0 c1s1brv 0.001
+Ec1s1br c1s1brabs 0 VALUE={1*V(c1s1brv)}
+Xc1sn1 c1sn1v c1sn1b 0 MY_LIB_CDSOT23_SM712_DS
+Vc1sn1 c1sn1v 0 -7
+Ec1sn1 c1sn1i 0 VALUE={--1*I(Vc1sn1)}
+Xc1sn1br c1sn1brv c1sn1brb 0 MY_LIB_CDSOT23_SM712_DS
+Ic1sn1br 0 c1sn1brv -0.001
+Ec1sn1br c1sn1brabs 0 VALUE={-1*V(c1sn1brv)}
+Xc2s1 c2s1a c2s1v 0 MY_LIB_CDSOT23_SM712_DS
+Vc2s1 c2s1v 0 12
+Ec2s1 c2s1i 0 VALUE={-1*I(Vc2s1)}
+Xc2s1br c2s1bra c2s1brv 0 MY_LIB_CDSOT23_SM712_DS
+Ic2s1br 0 c2s1brv 0.001
+Ec2s1br c2s1brabs 0 VALUE={1*V(c2s1brv)}
+Xc2sn1 c2sn1a c2sn1v 0 MY_LIB_CDSOT23_SM712_DS
+Vc2sn1 c2sn1v 0 -7
+Ec2sn1 c2sn1i 0 VALUE={--1*I(Vc2sn1)}
+Xc2sn1br c2sn1bra c2sn1brv 0 MY_LIB_CDSOT23_SM712_DS
+Ic2sn1br 0 c2sn1brv -0.001
+Ec2sn1br c2sn1brabs 0 VALUE={-1*V(c2sn1brv)}
+.TRAN 1n 10n
+.PLOT TRAN v(c1s1i)
+.PLOT TRAN v(c1s1brabs)
+.PLOT TRAN v(c1sn1i)
+.PLOT TRAN v(c1sn1brabs)
+.PLOT TRAN v(c2s1i)
+.PLOT TRAN v(c2s1brabs)
+.PLOT TRAN v(c2sn1i)
+.PLOT TRAN v(c2sn1brabs)
+.END

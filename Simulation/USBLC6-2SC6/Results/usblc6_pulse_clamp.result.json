@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "test": "usblc6_pulse_clamp",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "7a8b1d3ed60541f2b927e5c807406bd9",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7a8b1d3ed60541f2b927e5c807406bd9",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7a8b1d3ed60541f2b927e5c807406bd9\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_04b270cb023e4647baba26379832f22b.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "p1s1a1",
+      "type": "at",
+      "value": 9.84193803317807,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p1s1a5",
+      "type": "at",
+      "value": 16.045841277674985,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p1sn1a1",
+      "type": "at",
+      "value": 1.2036000111119,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p1sn1a5",
+      "type": "at",
+      "value": 2.7258767901328556,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p3s1a1",
+      "type": "at",
+      "value": 9.841938033179726,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p3s1a5",
+      "type": "at",
+      "value": 16.045841277683255,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p3sn1a1",
+      "type": "at",
+      "value": 1.2036000111118748,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p3sn1a5",
+      "type": "at",
+      "value": 2.7258767901325993,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p4s1a1",
+      "type": "at",
+      "value": 9.84193803318291,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p4s1a5",
+      "type": "at",
+      "value": 16.045841277681617,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p4sn1a1",
+      "type": "at",
+      "value": 1.2036000111118748,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p4sn1a5",
+      "type": "at",
+      "value": 2.7258767901324035,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p6s1a1",
+      "type": "at",
+      "value": 9.84193803318071,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p6s1a5",
+      "type": "at",
+      "value": 16.04584127768,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p6sn1a1",
+      "type": "at",
+      "value": 1.2036000111118748,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    },
+    {
+      "id": "p6sn1a5",
+      "type": "at",
+      "value": 2.7258767901328462,
+      "unit": "V",
+      "status": "PASS",
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      },
+      "run_id": "7a8b1d3ed60541f2b927e5c807406bd9"
+    }
+  ]
+}

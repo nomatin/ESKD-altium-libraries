@@ -1,0 +1,42 @@
+{
+  "name": "sm712_capacitance",
+  "models": [
+    "../MY_LIB_CDSOT23_SM712_DS.ckt"
+  ],
+  "spice": "* Datasheet capacitance; typical comparison tolerance is author-selected\n.OPTIONS TEMP=25\nXc1 c1v c1b 0 MY_LIB_CDSOT23_SM712_DS\nVc1 c1v 0 DC 0 AC 0.03\n.PLOT AC V(c1v) I(Vc1)\nXc2 c2a c2v 0 MY_LIB_CDSOT23_SM712_DS\nVc2 c2v 0 DC 0 AC 0.03\n.PLOT AC V(c2v) I(Vc2)\n.AC LIN 2 1Meg 1.001Meg\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "c1",
+      "type": "capacitance_series",
+      "voltage": "v(c1v)",
+      "current": "i(Vc1)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      }
+    },
+    {
+      "id": "c2",
+      "type": "capacitance_series",
+      "voltage": "v(c2v)",
+      "current": "i(Vc2)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      }
+    }
+  ],
+  "provenance": {
+    "datasheet": "../../../Datasheets/CDSOT23-SM712_Bourns.pdf",
+    "pages": "1",
+    "notes": "SM p1 CD75pF TYPICAL at0V/1MHz, +/-1% verifies chosen nominal scenario, not guaranteed product tolerance. USB Table2 Ci/o-GND max3.5pF at1.65V; Fig1 uses1MHz/30mVrms. Fixture VBUS5V AC-ground, unused I/O floating; at27C indicative vs25C. Equivalent series capacitance from external port impedance.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "usblc6_capacitance",
+  "models": [
+    "../MY_LIB_USBLC6_2SC6_DS.ckt"
+  ],
+  "spice": "* Datasheet capacitance; typical comparison tolerance is author-selected\n.OPTIONS TEMP=27\nXc1 c1v 0 c1p3 c1p4 c1rail c1p6 MY_LIB_USBLC6_2SC6_DS\nVc1 c1v 0 DC 1.65 AC 0.03\nVc1rail c1rail 0 5\n.PLOT AC V(c1v) I(Vc1)\nXc3 c3p1 0 c3v c3p4 c3rail c3p6 MY_LIB_USBLC6_2SC6_DS\nVc3 c3v 0 DC 1.65 AC 0.03\nVc3rail c3rail 0 5\n.PLOT AC V(c3v) I(Vc3)\nXc4 c4p1 0 c4p3 c4v c4rail c4p6 MY_LIB_USBLC6_2SC6_DS\nVc4 c4v 0 DC 1.65 AC 0.03\nVc4rail c4rail 0 5\n.PLOT AC V(c4v) I(Vc4)\nXc6 c6p1 0 c6p3 c6p4 c6rail c6v MY_LIB_USBLC6_2SC6_DS\nVc6 c6v 0 DC 1.65 AC 0.03\nVc6rail c6rail 0 5\n.PLOT AC V(c6v) I(Vc6)\n.AC LIN 2 1Meg 1.001Meg\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "c1",
+      "type": "capacitance_series",
+      "voltage": "v(c1v)",
+      "current": "i(Vc1)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 0,
+        "max": 3.5e-12
+      }
+    },
+    {
+      "id": "c3",
+      "type": "capacitance_series",
+      "voltage": "v(c3v)",
+      "current": "i(Vc3)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 0,
+        "max": 3.5e-12
+      }
+    },
+    {
+      "id": "c4",
+      "type": "capacitance_series",
+      "voltage": "v(c4v)",
+      "current": "i(Vc4)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 0,
+        "max": 3.5e-12
+      }
+    },
+    {
+      "id": "c6",
+      "type": "capacitance_series",
+      "voltage": "v(c6v)",
+      "current": "i(Vc6)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "frequency_sampling": "exact",
+      "limits": {
+        "min": 0,
+        "max": 3.5e-12
+      }
+    }
+  ],
+  "provenance": {
+    "datasheet": "../../../Datasheets/USBLC6-2_ST.pdf",
+    "pages": "2, 3, 10, 11",
+    "notes": "SM p1 CD75pF TYPICAL at0V/1MHz, +/-1% verifies chosen nominal scenario, not guaranteed product tolerance. USB Table2 Ci/o-GND max3.5pF at1.65V; Fig1 uses1MHz/30mVrms. Fixture VBUS5V AC-ground, unused I/O floating; at27C indicative vs25C. Equivalent series capacitance from external port impedance.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

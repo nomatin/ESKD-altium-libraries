@@ -1,0 +1,53 @@
+* Datasheet clamping anchors; piecewise linear 8/20 us approximation
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\CDSOT23-SM712\MY_LIB_CDSOT23_SM712_DS.ckt"
+.OPTIONS TEMP=25 METHOD=GEAR ITL4=100 RELTOL=1u
+Xp1s1a1 p1s1a1v p1s1a1b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1s1a1 0 p1s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep1s1a1 p1s1a1abs 0 VALUE={1*V(p1s1a1v)}
+Xp1s1a5 p1s1a5v p1s1a5b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1s1a5 0 p1s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep1s1a5 p1s1a5abs 0 VALUE={1*V(p1s1a5v)}
+Xp1s1a17 p1s1a17v p1s1a17b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1s1a17 0 p1s1a17v PWL(0 0 1u 0 9u 17 21u 8.5 81u 0 90u 0)
+Ep1s1a17 p1s1a17abs 0 VALUE={1*V(p1s1a17v)}
+Xp1sn1a1 p1sn1a1v p1sn1a1b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1sn1a1 0 p1sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep1sn1a1 p1sn1a1abs 0 VALUE={-1*V(p1sn1a1v)}
+Xp1sn1a5 p1sn1a5v p1sn1a5b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1sn1a5 0 p1sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep1sn1a5 p1sn1a5abs 0 VALUE={-1*V(p1sn1a5v)}
+Xp1sn1a17 p1sn1a17v p1sn1a17b 0 MY_LIB_CDSOT23_SM712_DS
+Ip1sn1a17 0 p1sn1a17v PWL(0 0 1u 0 9u -17 21u -8.5 81u 0 90u 0)
+Ep1sn1a17 p1sn1a17abs 0 VALUE={-1*V(p1sn1a17v)}
+Xp2s1a1 p2s1a1a p2s1a1v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2s1a1 0 p2s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)
+Ep2s1a1 p2s1a1abs 0 VALUE={1*V(p2s1a1v)}
+Xp2s1a5 p2s1a5a p2s1a5v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2s1a5 0 p2s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)
+Ep2s1a5 p2s1a5abs 0 VALUE={1*V(p2s1a5v)}
+Xp2s1a17 p2s1a17a p2s1a17v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2s1a17 0 p2s1a17v PWL(0 0 1u 0 9u 17 21u 8.5 81u 0 90u 0)
+Ep2s1a17 p2s1a17abs 0 VALUE={1*V(p2s1a17v)}
+Xp2sn1a1 p2sn1a1a p2sn1a1v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2sn1a1 0 p2sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)
+Ep2sn1a1 p2sn1a1abs 0 VALUE={-1*V(p2sn1a1v)}
+Xp2sn1a5 p2sn1a5a p2sn1a5v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2sn1a5 0 p2sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)
+Ep2sn1a5 p2sn1a5abs 0 VALUE={-1*V(p2sn1a5v)}
+Xp2sn1a17 p2sn1a17a p2sn1a17v 0 MY_LIB_CDSOT23_SM712_DS
+Ip2sn1a17 0 p2sn1a17v PWL(0 0 1u 0 9u -17 21u -8.5 81u 0 90u 0)
+Ep2sn1a17 p2sn1a17abs 0 VALUE={-1*V(p2sn1a17v)}
+.TRAN 20n 90u 0 20n
+.PLOT TRAN v(p1s1a1abs)
+.PLOT TRAN v(p1s1a5abs)
+.PLOT TRAN v(p1s1a17abs)
+.PLOT TRAN v(p1sn1a1abs)
+.PLOT TRAN v(p1sn1a5abs)
+.PLOT TRAN v(p1sn1a17abs)
+.PLOT TRAN v(p2s1a1abs)
+.PLOT TRAN v(p2s1a5abs)
+.PLOT TRAN v(p2s1a17abs)
+.PLOT TRAN v(p2sn1a1abs)
+.PLOT TRAN v(p2sn1a5abs)
+.PLOT TRAN v(p2sn1a17abs)
+.END

@@ -1,0 +1,192 @@
+{
+  "name": "usblc6_pulse_clamp",
+  "models": [
+    "../MY_LIB_USBLC6_2SC6_DS.ckt"
+  ],
+  "spice": "* Datasheet clamping anchors; piecewise linear 8/20 us approximation\n.OPTIONS TEMP=27 METHOD=GEAR ITL4=100 RELTOL=1u\nXp1s1a1 p1s1a1v 0 p1s1a1p3 p1s1a1p4 p1s1a1rail p1s1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp1s1a1 0 p1s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp1s1a1 p1s1a1abs 0 VALUE={1*V(p1s1a1v)}\nXp1s1a5 p1s1a5v 0 p1s1a5p3 p1s1a5p4 p1s1a5rail p1s1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp1s1a5 0 p1s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp1s1a5 p1s1a5abs 0 VALUE={1*V(p1s1a5v)}\nXp1sn1a1 p1sn1a1v 0 p1sn1a1p3 p1sn1a1p4 p1sn1a1rail p1sn1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp1sn1a1 0 p1sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp1sn1a1 p1sn1a1abs 0 VALUE={-1*V(p1sn1a1v)}\nXp1sn1a5 p1sn1a5v 0 p1sn1a5p3 p1sn1a5p4 p1sn1a5rail p1sn1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp1sn1a5 0 p1sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp1sn1a5 p1sn1a5abs 0 VALUE={-1*V(p1sn1a5v)}\nXp3s1a1 p3s1a1p1 0 p3s1a1v p3s1a1p4 p3s1a1rail p3s1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp3s1a1 0 p3s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp3s1a1 p3s1a1abs 0 VALUE={1*V(p3s1a1v)}\nXp3s1a5 p3s1a5p1 0 p3s1a5v p3s1a5p4 p3s1a5rail p3s1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp3s1a5 0 p3s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp3s1a5 p3s1a5abs 0 VALUE={1*V(p3s1a5v)}\nXp3sn1a1 p3sn1a1p1 0 p3sn1a1v p3sn1a1p4 p3sn1a1rail p3sn1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp3sn1a1 0 p3sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp3sn1a1 p3sn1a1abs 0 VALUE={-1*V(p3sn1a1v)}\nXp3sn1a5 p3sn1a5p1 0 p3sn1a5v p3sn1a5p4 p3sn1a5rail p3sn1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp3sn1a5 0 p3sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp3sn1a5 p3sn1a5abs 0 VALUE={-1*V(p3sn1a5v)}\nXp4s1a1 p4s1a1p1 0 p4s1a1p3 p4s1a1v p4s1a1rail p4s1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp4s1a1 0 p4s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp4s1a1 p4s1a1abs 0 VALUE={1*V(p4s1a1v)}\nXp4s1a5 p4s1a5p1 0 p4s1a5p3 p4s1a5v p4s1a5rail p4s1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp4s1a5 0 p4s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp4s1a5 p4s1a5abs 0 VALUE={1*V(p4s1a5v)}\nXp4sn1a1 p4sn1a1p1 0 p4sn1a1p3 p4sn1a1v p4sn1a1rail p4sn1a1p6 MY_LIB_USBLC6_2SC6_DS\nIp4sn1a1 0 p4sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp4sn1a1 p4sn1a1abs 0 VALUE={-1*V(p4sn1a1v)}\nXp4sn1a5 p4sn1a5p1 0 p4sn1a5p3 p4sn1a5v p4sn1a5rail p4sn1a5p6 MY_LIB_USBLC6_2SC6_DS\nIp4sn1a5 0 p4sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp4sn1a5 p4sn1a5abs 0 VALUE={-1*V(p4sn1a5v)}\nXp6s1a1 p6s1a1p1 0 p6s1a1p3 p6s1a1p4 p6s1a1rail p6s1a1v MY_LIB_USBLC6_2SC6_DS\nIp6s1a1 0 p6s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp6s1a1 p6s1a1abs 0 VALUE={1*V(p6s1a1v)}\nXp6s1a5 p6s1a5p1 0 p6s1a5p3 p6s1a5p4 p6s1a5rail p6s1a5v MY_LIB_USBLC6_2SC6_DS\nIp6s1a5 0 p6s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp6s1a5 p6s1a5abs 0 VALUE={1*V(p6s1a5v)}\nXp6sn1a1 p6sn1a1p1 0 p6sn1a1p3 p6sn1a1p4 p6sn1a1rail p6sn1a1v MY_LIB_USBLC6_2SC6_DS\nIp6sn1a1 0 p6sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp6sn1a1 p6sn1a1abs 0 VALUE={-1*V(p6sn1a1v)}\nXp6sn1a5 p6sn1a5p1 0 p6sn1a5p3 p6sn1a5p4 p6sn1a5rail p6sn1a5v MY_LIB_USBLC6_2SC6_DS\nIp6sn1a5 0 p6sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp6sn1a5 p6sn1a5abs 0 VALUE={-1*V(p6sn1a5v)}\n.TRAN 20n 90u 0 20n\n.PLOT TRAN v(p1s1a1abs)\n.PLOT TRAN v(p1s1a5abs)\n.PLOT TRAN v(p1sn1a1abs)\n.PLOT TRAN v(p1sn1a5abs)\n.PLOT TRAN v(p3s1a1abs)\n.PLOT TRAN v(p3s1a5abs)\n.PLOT TRAN v(p3sn1a1abs)\n.PLOT TRAN v(p3sn1a5abs)\n.PLOT TRAN v(p4s1a1abs)\n.PLOT TRAN v(p4s1a5abs)\n.PLOT TRAN v(p4sn1a1abs)\n.PLOT TRAN v(p4sn1a5abs)\n.PLOT TRAN v(p6s1a1abs)\n.PLOT TRAN v(p6s1a5abs)\n.PLOT TRAN v(p6sn1a1abs)\n.PLOT TRAN v(p6sn1a5abs)\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "p1s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p1s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p1sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p1sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p3s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p3s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p3s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p3s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p3sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p3sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p3sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p3sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p4s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p4s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p4s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p4s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p4sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p4sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p4sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p4sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p6s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p6s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p6s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p6s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    },
+    {
+      "id": "p6sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p6sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p6sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p6sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 17.001
+      }
+    }
+  ],
+  "provenance": {
+    "datasheet": "../../../Datasheets/USBLC6-2_ST.pdf",
+    "pages": "2, 3, 10, 11",
+    "notes": "Datasheet VC maximum anchors. PWL rises to peak in 8 us, falls to half 20 us after start; an approximation, not a calibrated IEC generator. Voltage sampled at peak current. Each channel tested in its own instance. USB VBUS floating, no external bypass: device-only fixture; model at27 C vs table25 C. No thermal/damage/survival or simultaneous-channel claim.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

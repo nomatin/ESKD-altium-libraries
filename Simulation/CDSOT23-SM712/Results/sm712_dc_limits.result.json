@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "test": "sm712_dc_limits",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "signal": "v(c1s1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.001e-06,
+      "description": "p1 ID max at 12 V",
+      "value": 9.999999992515995e-07,
+      "passed": true
+    },
+    {
+      "signal": "v(c1s1brabs)",
+      "measurement": "last",
+      "min": 13.299000000000001,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard",
+      "value": 13.299999982692691,
+      "passed": true
+    },
+    {
+      "signal": "v(c1sn1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 2.0001e-05,
+      "description": "p1 ID max at -7 V",
+      "value": 1.9999999999242846e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(c1sn1brabs)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard",
+      "value": 7.499999996173483,
+      "passed": true
+    },
+    {
+      "signal": "v(c2s1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 1.001e-06,
+      "description": "p1 ID max at 12 V",
+      "value": 9.999999992515995e-07,
+      "passed": true
+    },
+    {
+      "signal": "v(c2s1brabs)",
+      "measurement": "last",
+      "min": 13.299000000000001,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard",
+      "value": 13.299999982692691,
+      "passed": true
+    },
+    {
+      "signal": "v(c2sn1i)",
+      "measurement": "last",
+      "min": -1e-09,
+      "max": 2.0001e-05,
+      "description": "p1 ID max at -7 V",
+      "value": 1.9999999999242846e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(c2sn1brabs)",
+      "measurement": "last",
+      "min": 7.499,
+      "max": 100,
+      "description": "p1 VBR minimum at 1 mA; upper bound only a solver guard",
+      "value": 7.499999996173483,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\910487c2256f4e4191eb84741695045b",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\910487c2256f4e4191eb84741695045b\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_cd6e54c104ba47168b20c829577af325.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

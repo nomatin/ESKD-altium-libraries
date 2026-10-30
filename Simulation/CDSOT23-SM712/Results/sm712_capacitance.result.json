@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "test": "sm712_capacitance",
+  "simulator": "Altium MixedSim",
+  "checks": [],
+  "error": null,
+  "run_id": "7277402374ec4aef8a4445f4f5c45607",
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7277402374ec4aef8a4445f4f5c45607",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\7277402374ec4aef8a4445f4f5c45607\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_522b617d6d314569802a749f984ecd34.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "measurements": [
+    {
+      "id": "c1",
+      "type": "capacitance_series",
+      "value": 7.500292021168405e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "7277402374ec4aef8a4445f4f5c45607"
+    },
+    {
+      "id": "c2",
+      "type": "capacitance_series",
+      "value": 7.500292021168405e-11,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 7.425e-11,
+        "max": 7.575e-11
+      },
+      "run_id": "7277402374ec4aef8a4445f4f5c45607"
+    }
+  ]
+}

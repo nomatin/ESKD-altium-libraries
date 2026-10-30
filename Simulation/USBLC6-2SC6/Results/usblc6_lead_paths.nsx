@@ -1,0 +1,18 @@
+* ST Fig16 per-channel lead R/L transcription verification
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\USBLC6-2SC6\MY_LIB_USBLC6_2SC6_DS.ckt"
+.OPTIONS TEMP=27
+Vrail rail 0 5
+Xp1to6 p1to6v 0 p1to6p3 p1to6p4 rail 0 MY_LIB_USBLC6_2SC6_DS
+Vp1to6 p1to6v 0 AC 1
+.PLOT AC V(p1to6v) I(Vp1to6)
+Xp6to1 0 0 p6to1p3 p6to1p4 rail p6to1v MY_LIB_USBLC6_2SC6_DS
+Vp6to1 p6to1v 0 AC 1
+.PLOT AC V(p6to1v) I(Vp6to1)
+Xp3to4 p3to4p1 0 p3to4v 0 rail p3to4p6 MY_LIB_USBLC6_2SC6_DS
+Vp3to4 p3to4v 0 AC 1
+.PLOT AC V(p3to4v) I(Vp3to4)
+Xp4to3 p4to3p1 0 0 p4to3v rail p4to3p6 MY_LIB_USBLC6_2SC6_DS
+Vp4to3 p4to3v 0 AC 1
+.PLOT AC V(p4to3v) I(Vp4to3)
+.AC LIN 2 1000 1001
+.END

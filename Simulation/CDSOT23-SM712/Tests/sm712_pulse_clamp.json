@@ -1,0 +1,148 @@
+{
+  "name": "sm712_pulse_clamp",
+  "models": [
+    "../MY_LIB_CDSOT23_SM712_DS.ckt"
+  ],
+  "spice": "* Datasheet clamping anchors; piecewise linear 8/20 us approximation\n.OPTIONS TEMP=25 METHOD=GEAR ITL4=100 RELTOL=1u\nXp1s1a1 p1s1a1v p1s1a1b 0 MY_LIB_CDSOT23_SM712_DS\nIp1s1a1 0 p1s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp1s1a1 p1s1a1abs 0 VALUE={1*V(p1s1a1v)}\nXp1s1a5 p1s1a5v p1s1a5b 0 MY_LIB_CDSOT23_SM712_DS\nIp1s1a5 0 p1s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp1s1a5 p1s1a5abs 0 VALUE={1*V(p1s1a5v)}\nXp1s1a17 p1s1a17v p1s1a17b 0 MY_LIB_CDSOT23_SM712_DS\nIp1s1a17 0 p1s1a17v PWL(0 0 1u 0 9u 17 21u 8.5 81u 0 90u 0)\nEp1s1a17 p1s1a17abs 0 VALUE={1*V(p1s1a17v)}\nXp1sn1a1 p1sn1a1v p1sn1a1b 0 MY_LIB_CDSOT23_SM712_DS\nIp1sn1a1 0 p1sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp1sn1a1 p1sn1a1abs 0 VALUE={-1*V(p1sn1a1v)}\nXp1sn1a5 p1sn1a5v p1sn1a5b 0 MY_LIB_CDSOT23_SM712_DS\nIp1sn1a5 0 p1sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp1sn1a5 p1sn1a5abs 0 VALUE={-1*V(p1sn1a5v)}\nXp1sn1a17 p1sn1a17v p1sn1a17b 0 MY_LIB_CDSOT23_SM712_DS\nIp1sn1a17 0 p1sn1a17v PWL(0 0 1u 0 9u -17 21u -8.5 81u 0 90u 0)\nEp1sn1a17 p1sn1a17abs 0 VALUE={-1*V(p1sn1a17v)}\nXp2s1a1 p2s1a1a p2s1a1v 0 MY_LIB_CDSOT23_SM712_DS\nIp2s1a1 0 p2s1a1v PWL(0 0 1u 0 9u 1 21u 0.5 81u 0 90u 0)\nEp2s1a1 p2s1a1abs 0 VALUE={1*V(p2s1a1v)}\nXp2s1a5 p2s1a5a p2s1a5v 0 MY_LIB_CDSOT23_SM712_DS\nIp2s1a5 0 p2s1a5v PWL(0 0 1u 0 9u 5 21u 2.5 81u 0 90u 0)\nEp2s1a5 p2s1a5abs 0 VALUE={1*V(p2s1a5v)}\nXp2s1a17 p2s1a17a p2s1a17v 0 MY_LIB_CDSOT23_SM712_DS\nIp2s1a17 0 p2s1a17v PWL(0 0 1u 0 9u 17 21u 8.5 81u 0 90u 0)\nEp2s1a17 p2s1a17abs 0 VALUE={1*V(p2s1a17v)}\nXp2sn1a1 p2sn1a1a p2sn1a1v 0 MY_LIB_CDSOT23_SM712_DS\nIp2sn1a1 0 p2sn1a1v PWL(0 0 1u 0 9u -1 21u -0.5 81u 0 90u 0)\nEp2sn1a1 p2sn1a1abs 0 VALUE={-1*V(p2sn1a1v)}\nXp2sn1a5 p2sn1a5a p2sn1a5v 0 MY_LIB_CDSOT23_SM712_DS\nIp2sn1a5 0 p2sn1a5v PWL(0 0 1u 0 9u -5 21u -2.5 81u 0 90u 0)\nEp2sn1a5 p2sn1a5abs 0 VALUE={-1*V(p2sn1a5v)}\nXp2sn1a17 p2sn1a17a p2sn1a17v 0 MY_LIB_CDSOT23_SM712_DS\nIp2sn1a17 0 p2sn1a17v PWL(0 0 1u 0 9u -17 21u -8.5 81u 0 90u 0)\nEp2sn1a17 p2sn1a17abs 0 VALUE={-1*V(p2sn1a17v)}\n.TRAN 20n 90u 0 20n\n.PLOT TRAN v(p1s1a1abs)\n.PLOT TRAN v(p1s1a5abs)\n.PLOT TRAN v(p1s1a17abs)\n.PLOT TRAN v(p1sn1a1abs)\n.PLOT TRAN v(p1sn1a5abs)\n.PLOT TRAN v(p1sn1a17abs)\n.PLOT TRAN v(p2s1a1abs)\n.PLOT TRAN v(p2s1a5abs)\n.PLOT TRAN v(p2s1a17abs)\n.PLOT TRAN v(p2sn1a1abs)\n.PLOT TRAN v(p2sn1a5abs)\n.PLOT TRAN v(p2sn1a17abs)\n.END\n",
+  "checks": [],
+  "measurements": [
+    {
+      "id": "p1s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 19.001
+      }
+    },
+    {
+      "id": "p1s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 20.001
+      }
+    },
+    {
+      "id": "p1s1a17",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1s1a17abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 26.001
+      }
+    },
+    {
+      "id": "p1sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 11.001
+      }
+    },
+    {
+      "id": "p1sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p1sn1a17",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p1sn1a17abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 14.001
+      }
+    },
+    {
+      "id": "p2s1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2s1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 19.001
+      }
+    },
+    {
+      "id": "p2s1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2s1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 20.001
+      }
+    },
+    {
+      "id": "p2s1a17",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2s1a17abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 26.001
+      }
+    },
+    {
+      "id": "p2sn1a1",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2sn1a1abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 11.001
+      }
+    },
+    {
+      "id": "p2sn1a5",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2sn1a5abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 12.001
+      }
+    },
+    {
+      "id": "p2sn1a17",
+      "type": "at",
+      "analysis": "tran",
+      "signal": "v(p2sn1a17abs)",
+      "x": 9e-06,
+      "limits": {
+        "min": 0,
+        "max": 14.001
+      }
+    }
+  ],
+  "provenance": {
+    "datasheet": "../../../Datasheets/CDSOT23-SM712_Bourns.pdf",
+    "pages": "1",
+    "notes": "Datasheet VC maximum anchors. PWL rises to peak in 8 us, falls to half 20 us after start; an approximation, not a calibrated IEC generator. Voltage sampled at peak current. Each channel tested in its own instance. USB VBUS floating, no external bypass: device-only fixture; model at27 C vs table25 C. No thermal/damage/survival or simultaneous-channel claim.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}

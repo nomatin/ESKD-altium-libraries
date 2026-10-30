@@ -1,0 +1,109 @@
+{
+  "name": "usblc6_lead_paths",
+  "models": [
+    "../MY_LIB_USBLC6_2SC6_DS.ckt"
+  ],
+  "spice": "* ST Fig16 per-channel lead R/L transcription verification\n.OPTIONS TEMP=27\nVrail rail 0 5\nXp1to6 p1to6v 0 p1to6p3 p1to6p4 rail 0 MY_LIB_USBLC6_2SC6_DS\nVp1to6 p1to6v 0 AC 1\n.PLOT AC V(p1to6v) I(Vp1to6)\nXp6to1 0 0 p6to1p3 p6to1p4 rail p6to1v MY_LIB_USBLC6_2SC6_DS\nVp6to1 p6to1v 0 AC 1\n.PLOT AC V(p6to1v) I(Vp6to1)\nXp3to4 p3to4p1 0 p3to4v 0 rail p3to4p6 MY_LIB_USBLC6_2SC6_DS\nVp3to4 p3to4v 0 AC 1\n.PLOT AC V(p3to4v) I(Vp3to4)\nXp4to3 p4to3p1 0 0 p4to3v rail p4to3p6 MY_LIB_USBLC6_2SC6_DS\nVp4to3 p4to3v 0 AC 1\n.PLOT AC V(p4to3v) I(Vp4to3)\n.AC LIN 2 1000 1001\n.END\n",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(p1to6v)",
+      "current": "i(Vp1to6)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "component": "real",
+      "min": 0.2199,
+      "max": 0.2201
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(p6to1v)",
+      "current": "i(Vp6to1)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "component": "real",
+      "min": 0.2199,
+      "max": 0.2201
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(p3to4v)",
+      "current": "i(Vp3to4)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "component": "real",
+      "min": 0.2199,
+      "max": 0.2201
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(p4to3v)",
+      "current": "i(Vp4to3)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "component": "real",
+      "min": 0.2199,
+      "max": 0.2201
+    }
+  ],
+  "measurements": [
+    {
+      "id": "p1to6",
+      "type": "inductance_series",
+      "voltage": "v(p1to6v)",
+      "current": "i(Vp1to6)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "limits": {
+        "min": 1.49e-09,
+        "max": 1.51e-09
+      }
+    },
+    {
+      "id": "p6to1",
+      "type": "inductance_series",
+      "voltage": "v(p6to1v)",
+      "current": "i(Vp6to1)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "limits": {
+        "min": 1.49e-09,
+        "max": 1.51e-09
+      }
+    },
+    {
+      "id": "p3to4",
+      "type": "inductance_series",
+      "voltage": "v(p3to4v)",
+      "current": "i(Vp3to4)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "limits": {
+        "min": 1.49e-09,
+        "max": 1.51e-09
+      }
+    },
+    {
+      "id": "p4to3",
+      "type": "inductance_series",
+      "voltage": "v(p4to3v)",
+      "current": "i(Vp4to3)",
+      "current_sign": -1,
+      "frequency_hz": 1000,
+      "limits": {
+        "min": 1.49e-09,
+        "max": 1.51e-09
+      }
+    }
+  ],
+  "provenance": {
+    "datasheet": "../../../Datasheets/USBLC6-2_ST.pdf",
+    "pages": "2, 3, 10, 11",
+    "notes": "Implementation check Fig15/16 p10/11: each through path two110mOhm/two750pH leads; both directions and both channels. These are published model parameters, not production pass/fail limits.",
+    "numerical_tolerance": "DC voltages 1 mV; leakage 1 nA; capacitance typical comparison +/-1%; these are test tolerances, not manufacturer tolerances"
+  }
+}
