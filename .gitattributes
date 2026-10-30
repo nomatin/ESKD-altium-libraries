@@ -1,12 +1,35 @@
-# Preserve library and source files byte for byte.
-* -text
+# Detect text by content; explicitly preserve byte-sensitive formats.
+* text=auto
+.gitattributes -text diff
+.gitignore -text diff
+
+# Text diffs without changing existing line endings.
+*.md -text diff whitespace=cr-at-eol
+*.json -text diff
+*.ckt -text diff
+*.nsx -text diff
+
+# Altium libraries, models and simulation results must remain byte-for-byte.
 *.SchLib binary
 *.PcbLib binary
 *.IntLib binary
+*.DbLib binary
 *.xlsx binary
 *.xls binary
+*.step binary
+*.stp binary
+*.sdf binary
 *.pdf binary
 *.zip binary
 *.png binary
 *.OLB binary
-*.sdf binary
+*.bxl binary
+
+# Preserve imported originals, including text-based vendor materials.
+*.html -text
+*.txt -text
+*.csv -text
+**/Original/** -text
+Footprints/CP2102N_Official_Altium/export/** -text
+Datasheets/CP2102N_CAD_Source/** -text
+ImportGuide*.html linguist-vendored

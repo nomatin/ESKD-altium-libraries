@@ -23,20 +23,8 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Local agent notes and verification reports
+# Local agent instructions and previous diagnostic runs
 AGENTS.md
-**/*.md
-!/README.md
-!/ALTIUM_SETUP.md
-!/THIRD_PARTY_NOTICES.md
-!/SIMULATION_ASSUMPTIONS.md
-!/Simulation/USBLC6-2SC6/README.md
-!/Simulation/CDSOT23-SM712/README.md
-!/Simulation/Ferrites/TDK/README.md
-!/Simulation/Ferrites/Murata/README.md
-!/Simulation/Resistors/README.md
-!/Simulation/Capacitors/README.md
-!/Simulation/Diodes/README.md
 Simulation/Resistors/Results/previous_temp_not_applied/
 Simulation/Diodes/Results/previous_extended/
 Simulation/Capacitors/Results/previous_extended/
