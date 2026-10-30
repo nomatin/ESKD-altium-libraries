@@ -1,11 +1,14 @@
+* TT=4.91865396751e-09s fitted to MAX trr=4e-09s at 25C, IF=0.01A, measured IRpeak=0.01A, RL=100ohm, recovery threshold=0.001A.
+* Drive final=-0.193772654917V, ideal 10ps edge; RL=100ohm for ES1 is fixture assumption. Qrr/full waveform/temperature dependence unvalidated.
+* VF fit shifted down to respect every tabulated maximum at 25C (10uV numerical margin).
 * BAV70 Nexperia; standard SPICE D approximation.
 * Source: Datasheets/Diodes/BAV70_Nexperia.pdf
 * Per-junction VF maximum anchors and capacitance from this datasheet.
 * IS/N/RS fitted to VF maxima; CJO shape VJ=1 M=.5 assumed.
 * No validated switching, leakage, temperature drift, breakdown or thermal coupling.
-* TT omitted: trr is not TT. Rated reverse voltage is not BV.
+* TT fitted to datasheet trr test fixture as detailed above. Rated reverse voltage is not BV.
 .SUBCKT MY_LIB_VD0004_DUAL 1 2 3
 D1 1 3 CORE
 D2 2 3 CORE
-.MODEL CORE D (IS=6.1987104231e-10 N=1.94729216721 RS=1.88563687392 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5)
+.MODEL CORE D (IS=6.8700006162058e-10 N=1.94729216721 RS=1.88563687392 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5 TT=4.9186539675116e-09)
 .ENDS MY_LIB_VD0004_DUAL

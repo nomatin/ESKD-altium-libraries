@@ -1,9 +1,11 @@
+* NBV constrained by both datasheet rdif maxima and IR<=5e-08A at VR=30.1V; 5% guard. Local rdif<=150ohm at 0.002A, not an exact measured knee.
+* SZ scenario: midpoint of datasheet range [37.6,46.6]mV/K at 0.002A. Not typical/measured; no tolerance sweep. TBV1 (Altium/PSpice relative 1/K) locally calibrated at 25C; linear extrapolation not a measured full-temperature curve.
 * BZX84-C43 | Nexperia
 * Source: Datasheets/Diodes/BZX84_Nexperia.pdf
 * Revision: Rev. 7, 01-Jan-2023
-* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. Nominal Zener BV/IBV; knee, dynamic resistance and temperature drift not fitted.
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. Nominal VZ and local rdif/SZ scenarios calibrated as detailed above; full knee/leakage not fitted.
 * VF anchors (A,V): [[0.01, 0.9]]
 .SUBCKT MY_LIB_VD0229_D A K
 Dcore A K CORE
-.MODEL CORE D (IS=2.47414713594e-10 N=2 RS=0 TNOM=25 CJO=4e-11 VJ=1 M=0.5 BV=43 IBV=0.002)
+.MODEL CORE D (IS=2.47414713594e-10 N=2 RS=0 TNOM=25 CJO=4e-11 VJ=1 M=0.5 BV=42.999965573252 IBV=0.002 NBV=6.9329357385072 TBV1=0.00097900525552138)
 .ENDS MY_LIB_VD0229_D

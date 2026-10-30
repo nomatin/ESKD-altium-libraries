@@ -1,3 +1,5 @@
+* VF fit shifted down to respect every tabulated maximum at 25C (10uV numerical margin).
+* EG=0.69eV, XTI=2 are standard Schottky class assumptions (ngspice manual), not measured/fitted manufacturer parameters. Temperature accuracy remains unvalidated; no VF(T) data in the tabulated source.
 * SS18A | Yangjie
 * Source: Datasheets/Diodes/SS12A_SS120A_Yangjie.pdf
 * Revision: Rev. 2.8, 19-Sep-2022
@@ -5,5 +7,5 @@
 * VF anchors (A,V): [[1.0, 0.85]]
 .SUBCKT MY_LIB_VD0033_D A K
 Dcore A K CORE
-.MODEL CORE D (IS=4.28574145703e-15 N=1 RS=0 TNOM=25)
+.MODEL CORE D (IS=4.2874098670356e-15 N=1 RS=0 TNOM=25 EG=0.69 XTI=2)
 .ENDS MY_LIB_VD0033_D

@@ -1,9 +1,12 @@
+* TT=3.69713500888e-08s fitted to MAX trr=1.5e-08s at 25C, IF=0.5A, measured IRpeak=0.999999999971A, RL=100ohm, recovery threshold=0.25A.
+* Drive final=-99.1156488388V, ideal 10ps edge; RL=100ohm for ES1 is fixture assumption. Qrr/full waveform/temperature dependence unvalidated.
+* VF fit shifted down to respect every tabulated maximum at 25C (10uV numerical margin).
 * ES1B | Diotec Semiconductor
 * Source: Datasheets/Diodes/ES1A_ES1J_Diotec.pdf
 * Revision: 2026-08-11
-* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. Capacitance unavailable in tabular data: omitted. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Single VF point: N assumed 2, RS=0. Capacitance unavailable in tabular data: omitted. TT fitted to datasheet trr test fixture as detailed above. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
 * VF anchors (A,V): [[1.0, 0.92]]
 .SUBCKT MY_LIB_VD0018_D A K
 Dcore A K CORE
-.MODEL CORE D (IS=1.67644971452e-08 N=2 RS=0 TNOM=25)
+.MODEL CORE D (IS=1.6767759980017e-08 N=2 RS=0 TNOM=25 TT=3.6971350088779e-08)
 .ENDS MY_LIB_VD0018_D

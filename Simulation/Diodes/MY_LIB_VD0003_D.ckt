@@ -1,9 +1,12 @@
+* TT=4.91865396751e-09s fitted to MAX trr=4e-09s at 25C, IF=0.01A, measured IRpeak=0.01A, RL=100ohm, recovery threshold=0.001A.
+* Drive final=-0.193772654917V, ideal 10ps edge; RL=100ohm for ES1 is fixture assumption. Qrr/full waveform/temperature dependence unvalidated.
+* VF fit shifted down to respect every tabulated maximum at 25C (10uV numerical margin).
 * BAS16 | Nexperia
 * Source: Datasheets/Diodes/BAS16_Nexperia.pdf
 * Revision: Rev. 6, 24-Sep-2014; local archived family sheet
-* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Least-squares fit to VF maximum test points. CJO converted from Cd using assumed VJ=1,M=0.5. TT omitted; trr is not TT. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
+* Datasheet-limit approximation at 25C. IS/N/RS fitted or assumed, not manufacturer model parameters. Least-squares fit to VF maximum test points. CJO converted from Cd using assumed VJ=1,M=0.5. TT fitted to datasheet trr test fixture as detailed above. No validated switching, thermal or tolerance model. BV omitted: rated reverse voltage is not measured breakdown voltage.
 * VF anchors (A,V): [[0.001, 0.715], [0.01, 0.855], [0.05, 1.0], [0.15, 1.25]]
 .SUBCKT MY_LIB_VD0003_D A K
 Dcore A K CORE
-.MODEL CORE D (IS=6.1987104231e-10 N=1.94729216721 RS=1.88563687392 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5)
+.MODEL CORE D (IS=6.8700006162058e-10 N=1.94729216721 RS=1.88563687392 TNOM=25 CJO=1.5e-12 VJ=1 M=0.5 TT=4.9186539675116e-09)
 .ENDS MY_LIB_VD0003_D

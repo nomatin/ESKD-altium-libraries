@@ -1,11 +1,13 @@
+* VF fit shifted down to respect every tabulated maximum at 25C (10uV numerical margin).
+* EG=0.69eV, XTI=2 are standard Schottky class assumptions (ngspice manual), not measured/fitted manufacturer parameters. Temperature accuracy remains unvalidated; no VF(T) data in the tabulated source.
 * BAT54S Nexperia; standard SPICE D approximation.
 * Source: Datasheets/Diodes/BAT54_series_Nexperia.pdf
 * Per-junction VF maximum anchors and capacitance from this datasheet.
 * IS/N/RS fitted to VF maxima; CJO shape VJ=1 M=.5 assumed.
 * No validated switching, leakage, temperature drift, breakdown or thermal coupling.
-* TT omitted: trr is not TT. Rated reverse voltage is not BV.
+* TT=0 no minority-carrier storage assigned to Schottky. Datasheet maximum trr is not fitted by adding diffusion charge. Rated reverse voltage is not BV.
 .SUBCKT MY_LIB_VD0027_DUAL 1 2 3
 D1 1 3 CORE
 D2 3 2 CORE
-.MODEL CORE D (IS=7.20785039475e-09 N=1.00253520931 RS=3.74820731501 TNOM=25 CJO=1.41421356237e-11 VJ=1 M=0.5)
+.MODEL CORE D (IS=9.118824812011e-09 N=1.00253520931 RS=3.74820731501 TNOM=25 CJO=1.41421356237e-11 VJ=1 M=0.5 EG=0.69 XTI=2 TT=0)
 .ENDS MY_LIB_VD0027_DUAL
