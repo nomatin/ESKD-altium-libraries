@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "test": "atd25_own_datasheet_dc",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "signal": "v(nL0007)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.0001000000000001e-05,
+      "value": 7.000000000608352e-06,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0007)",
+      "measurement": "last",
+      "min": 6.999000000592549e-06,
+      "max": 7.001000000592548e-06,
+      "value": 7.000000000608352e-06,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0008)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0001e-05,
+      "value": 1.4000000007704413e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0008)",
+      "measurement": "last",
+      "min": 1.3998600007580706e-05,
+      "max": 1.4001400007582223e-05,
+      "value": 1.4000000007704413e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0009)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0001000000000005e-05,
+      "value": 2.7999999991080323e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0009)",
+      "measurement": "last",
+      "min": 2.799719999120753e-05,
+      "max": 2.8002799991205774e-05,
+      "value": 2.7999999991080323e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0010)",
+      "measurement": "last",
+      "min": 0,
+      "max": 5.0001000000000005e-05,
+      "value": 3.5000000000129214e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0010)",
+      "measurement": "last",
+      "min": 3.4996500001280066e-05,
+      "max": 3.5003500001280325e-05,
+      "value": 3.5000000000129214e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0011)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00010000100000000001,
+      "value": 7.000000000172866e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0011)",
+      "measurement": "last",
+      "min": 6.999300000035526e-05,
+      "max": 7.000700000035532e-05,
+      "value": 7.000000000172866e-05,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0012)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00015000099999999998,
+      "value": 0.00010499999989551987,
+      "passed": true
+    },
+    {
+      "signal": "v(nL0012)",
+      "measurement": "last",
+      "min": 0.00010498949989639279,
+      "max": 0.00010501049989637206,
+      "value": 0.00010499999989551987,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\80f072c1bebc454d8d78d54dbacc5c3d",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\DBUR-Test\\80f072c1bebc454d8d78d54dbacc5c3d\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_b6b002d049084f3eb6e3c889043f7e60.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "criterion": "abs(Z_own-Z_official)/abs(Z_official)<=0.03 at every frequency",
+  "models": [
+    {
+      "mpn": "MPZ2012S300ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.0005347631395868729,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    },
+    {
+      "mpn": "MPZ2012S101ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.0003593041087255299,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    },
+    {
+      "mpn": "MPZ2012S221ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.0002821942469694375,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    },
+    {
+      "mpn": "MPZ2012S331ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.00018327880074360642,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    },
+    {
+      "mpn": "MPZ2012S601ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.0007465983722302473,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    },
+    {
+      "mpn": "MPZ2012S102ATD25",
+      "points": 1,
+      "max_relative_complex_error": 0.0005034797036123726,
+      "worst_frequency_hz": 3000000000.0,
+      "passed": true
+    }
+  ]
+}

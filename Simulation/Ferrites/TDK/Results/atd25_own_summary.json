@@ -1,0 +1,27 @@
+[
+  {
+    "test": "atd25_own_datasheet_dc.json",
+    "status": "PASS",
+    "checks": 12,
+    "passed": 12,
+    "error": null
+  },
+  {
+    "test": "atd25_own_validation_ac.json",
+    "status": "PASS",
+    "checks": 258,
+    "passed": 258,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 2862
+  },
+  {
+    "test": "atd25_own_endpoint_ac.json",
+    "status": "PASS",
+    "checks": 12,
+    "passed": 12,
+    "error": null,
+    "complex_comparison_status": "PASS",
+    "frequency_comparisons": 6
+  }
+]

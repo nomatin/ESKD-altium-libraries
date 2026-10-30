@@ -1,0 +1,222 @@
+{
+  "name": "atd25_own_endpoint_ac",
+  "models": [
+    "../MPZ2012S300ATD25_MYLIB.ckt",
+    "../MPZ2012S101ATD25_MYLIB.ckt",
+    "../MPZ2012S221ATD25_MYLIB.ckt",
+    "../MPZ2012S331ATD25_MYLIB.ckt",
+    "../MPZ2012S601ATD25_MYLIB.ckt",
+    "../MPZ2012S102ATD25_MYLIB.ckt"
+  ],
+  "spice": "* Independent ATD25 validation against held-out native manufacturer outputs\n.OPTIONS TEMP=25\nIL0007 0 sL0007 DC 0 AC 1\nVSL0007 sL0007 nL0007 0\nXL0007 nL0007 0 MPZ2012S300ATD25_MYLIB\nIL0008 0 sL0008 DC 0 AC 1\nVSL0008 sL0008 nL0008 0\nXL0008 nL0008 0 MPZ2012S101ATD25_MYLIB\nIL0009 0 sL0009 DC 0 AC 1\nVSL0009 sL0009 nL0009 0\nXL0009 nL0009 0 MPZ2012S221ATD25_MYLIB\nIL0010 0 sL0010 DC 0 AC 1\nVSL0010 sL0010 nL0010 0\nXL0010 nL0010 0 MPZ2012S331ATD25_MYLIB\nIL0011 0 sL0011 DC 0 AC 1\nVSL0011 sL0011 nL0011 0\nXL0011 nL0011 0 MPZ2012S601ATD25_MYLIB\nIL0012 0 sL0012 DC 0 AC 1\nVSL0012 sL0012 nL0012 0\nXL0012 nL0012 0 MPZ2012S102ATD25_MYLIB\n.AC LIN 1 3G 3G\n.PLOT AC V(nL0007) I(VSL0007)\n.PLOT AC V(nL0008) I(VSL0008)\n.PLOT AC V(nL0009) I(VSL0009)\n.PLOT AC V(nL0010) I(VSL0010)\n.PLOT AC V(nL0011) I(VSL0011)\n.PLOT AC V(nL0012) I(VSL0012)\n.END\n",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0007)",
+      "current": "i(VSL0007)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 40.98729422383341,
+      "max": 43.550348848977
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0007)",
+      "current": "i(VSL0007)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -7.457134003296186,
+      "max": -4.8940793781525915
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0008)",
+      "current": "i(VSL0008)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 55.097658563378374,
+      "max": 59.65173354905042
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0008)",
+      "current": "i(VSL0008)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -51.96751915451034,
+      "max": -47.413444168838296
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0009)",
+      "current": "i(VSL0009)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 33.29803225751459,
+      "max": 37.23609700057452
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0009)",
+      "current": "i(VSL0009)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -57.323438171677076,
+      "max": -53.38537342861715
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0010)",
+      "current": "i(VSL0010)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 26.01754283870041,
+      "max": 29.66862134347131
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0010)",
+      "current": "i(VSL0010)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -55.93325141271095,
+      "max": -52.28217290794006
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0011)",
+      "current": "i(VSL0011)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 20.6785916760845,
+      "max": 23.364186531637166
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0011)",
+      "current": "i(VSL0011)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -40.310840057966125,
+      "max": -37.62524520241346
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0012)",
+      "current": "i(VSL0012)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "real",
+      "min": 19.562411127540596,
+      "max": 22.12870182249002
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(nL0012)",
+      "current": "i(VSL0012)",
+      "current_sign": 1,
+      "frequency_hz": 3000000000.0,
+      "frequency_sampling": "exact",
+      "component": "imag",
+      "min": -38.63103656368733,
+      "max": -36.064745868737916
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "type": "signal",
+        "name": "MPZ2012S300ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0007)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "MPZ2012S101ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0008)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "MPZ2012S221ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0009)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "MPZ2012S331ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0010)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "MPZ2012S601ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0011)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      },
+      {
+        "type": "signal",
+        "name": "MPZ2012S102ATD25",
+        "analysis": "ac",
+        "signal": "v(nL0012)",
+        "components": [
+          "real",
+          "imag"
+        ]
+      }
+    ]
+  }
+}

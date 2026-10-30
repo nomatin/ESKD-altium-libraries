@@ -1,0 +1,33 @@
+* Independently authored passive behavioral approximation.
+* Fitted only to official TDK model output, not its circuit or parameters.
+* Source: native Altium MixedSim, 25 C, zero DC bias, linear small signal.
+* Validated sample interval: 1 MHz to 3 GHz; no temperature/current dependence.
+* DCR fixed to supplied DC reference; datasheet 2019-04-23 maximum respected.
+.SUBCKT MPZ2012S331ATD25_MYLIB 1 2
+Rdc 1 n0 0.0350000000013
+Lmain n0 2 1.46347120265e-06
+R1 1 a0 1533.60560028
+L1 a0 b0 2.9325240208e-05
+C1 b0 2 5.90551503448e-12
+R2 1 a1 1525.78303669
+L2 a1 b1 1.19350345708e-05
+C2 b1 2 7.30899982526e-12
+R3 1 a2 2645.28151516
+L3 a2 b2 0.000102378826932
+C3 b2 2 2.9537107848e-12
+R4 1 a3 1519.45243671
+L4 a3 b3 2.88433733763e-06
+C4 b3 2 7.34260380795e-12
+R5 1 a4 391.985874165
+L5 a4 b4 3.73639204491e-07
+C5 b4 2 4.78976634155e-11
+R6 1 a5 399.675473141
+L6 a5 b5 9.90338244339e-11
+C6 b5 2 2.43109222408e-12
+R7 1 a6 299.450607763
+L7 a6 b6 1.38503549024e-10
+C7 b6 2 6.15830008785e-14
+R8 1 a7 22.3523513453
+L8 a7 b7 2.11413953752e-12
+C8 b7 2 8.07992033773e-13
+.ENDS MPZ2012S331ATD25_MYLIB

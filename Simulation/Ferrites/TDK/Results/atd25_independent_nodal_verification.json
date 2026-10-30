@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "criterion": "native MixedSim versus independently assembled complex nodal equations; relative tolerance1e-4",
+  "comparisons": 2868,
+  "models": [
+    {
+      "mpn": "MPZ2012S300ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 4.649333022433581e-12,
+      "passed": true,
+      "model_sha256": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e"
+    },
+    {
+      "mpn": "MPZ2012S101ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 2.0938342164259054e-10,
+      "passed": true,
+      "model_sha256": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513"
+    },
+    {
+      "mpn": "MPZ2012S221ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 2.4674533315201657e-11,
+      "passed": true,
+      "model_sha256": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19"
+    },
+    {
+      "mpn": "MPZ2012S331ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 2.900670377105243e-10,
+      "passed": true,
+      "model_sha256": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8"
+    },
+    {
+      "mpn": "MPZ2012S601ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 1.698234323210458e-11,
+      "passed": true,
+      "model_sha256": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2"
+    },
+    {
+      "mpn": "MPZ2012S102ATD25",
+      "test": "validation_ac",
+      "points": 477,
+      "max_relative_error": 1.1175883731875538e-09,
+      "passed": true,
+      "model_sha256": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+    },
+    {
+      "mpn": "MPZ2012S300ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 1.6594695987633974e-13,
+      "passed": true,
+      "model_sha256": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e"
+    },
+    {
+      "mpn": "MPZ2012S101ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 2.5805943196358437e-12,
+      "passed": true,
+      "model_sha256": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513"
+    },
+    {
+      "mpn": "MPZ2012S221ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 8.712943591075609e-13,
+      "passed": true,
+      "model_sha256": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19"
+    },
+    {
+      "mpn": "MPZ2012S331ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 4.190431056276862e-13,
+      "passed": true,
+      "model_sha256": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8"
+    },
+    {
+      "mpn": "MPZ2012S601ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 9.41087975897618e-14,
+      "passed": true,
+      "model_sha256": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2"
+    },
+    {
+      "mpn": "MPZ2012S102ATD25",
+      "test": "endpoint_ac",
+      "points": 1,
+      "max_relative_error": 6.452713695951642e-14,
+      "passed": true,
+      "model_sha256": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+    }
+  ]
+}

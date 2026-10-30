@@ -1,0 +1,50 @@
+{
+  "name": "atd25_official_datasheet_dc",
+  "models": [
+    "../MPZ2012S300ATD25_p.mod",
+    "../MPZ2012S101ATD25_p.mod",
+    "../MPZ2012S221ATD25_p.mod",
+    "../MPZ2012S331ATD25_p.mod",
+    "../MPZ2012S601ATD25_p.mod",
+    "../MPZ2012S102ATD25_p.mod"
+  ],
+  "spice": "* Automotive ATD25 manufacturer model: datasheet initial DCR\n.OPTIONS TEMP=25\nIL0007 0 nL0007 DC 1m\nXL0007 nL0007 0 MPZ2012S300ATD25_p\nIL0008 0 nL0008 DC 1m\nXL0008 nL0008 0 MPZ2012S101ATD25_p\nIL0009 0 nL0009 DC 1m\nXL0009 nL0009 0 MPZ2012S221ATD25_p\nIL0010 0 nL0010 DC 1m\nXL0010 nL0010 0 MPZ2012S331ATD25_p\nIL0011 0 nL0011 DC 1m\nXL0011 nL0011 0 MPZ2012S601ATD25_p\nIL0012 0 nL0012 DC 1m\nXL0012 nL0012 0 MPZ2012S102ATD25_p\n.TRAN 1n 10n\n.PLOT TRAN V(nL0007)\n.PLOT TRAN V(nL0008)\n.PLOT TRAN V(nL0009)\n.PLOT TRAN V(nL0010)\n.PLOT TRAN V(nL0011)\n.PLOT TRAN V(nL0012)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(nL0007)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.0001000000000001e-05
+    },
+    {
+      "signal": "v(nL0008)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0001e-05
+    },
+    {
+      "signal": "v(nL0009)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0001000000000005e-05
+    },
+    {
+      "signal": "v(nL0010)",
+      "measurement": "last",
+      "min": 0,
+      "max": 5.0001000000000005e-05
+    },
+    {
+      "signal": "v(nL0011)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00010000100000000001
+    },
+    {
+      "signal": "v(nL0012)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00015000099999999998
+    }
+  ]
+}

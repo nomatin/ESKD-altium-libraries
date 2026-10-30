@@ -1,0 +1,425 @@
+{
+  "status": "PASS",
+  "date": "2026-10-30",
+  "simulator": "Altium MixedSim24.4 via Spice Tester0.5",
+  "reference_tests": [
+    {
+      "test": "atd25_official_datasheet_dc.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "error": null
+    },
+    {
+      "test": "atd25_official_ac.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "error": null
+    },
+    {
+      "test": "atd25_official_endpoint_ac.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "error": null
+    },
+    {
+      "test": "atd25_official_validation_ac.json",
+      "status": "PASS",
+      "checks": 6,
+      "passed": 6,
+      "error": null
+    }
+  ],
+  "own_tests": [
+    {
+      "test": "atd25_own_datasheet_dc.json",
+      "status": "PASS",
+      "checks": 12,
+      "passed": 12,
+      "error": null
+    },
+    {
+      "test": "atd25_own_validation_ac.json",
+      "status": "PASS",
+      "checks": 258,
+      "passed": 258,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 2862
+    },
+    {
+      "test": "atd25_own_endpoint_ac.json",
+      "status": "PASS",
+      "checks": 12,
+      "passed": 12,
+      "error": null,
+      "complex_comparison_status": "PASS",
+      "frequency_comparisons": 6
+    }
+  ],
+  "metrics": {
+    "MPZ2012S300ATD25": {
+      "max_relative_complex_error": 0.004265225618496181,
+      "points": 478
+    },
+    "MPZ2012S101ATD25": {
+      "max_relative_complex_error": 0.008675532084063207,
+      "points": 478
+    },
+    "MPZ2012S221ATD25": {
+      "max_relative_complex_error": 0.006407802182930566,
+      "points": 478
+    },
+    "MPZ2012S331ATD25": {
+      "max_relative_complex_error": 0.012588714420326247,
+      "points": 478
+    },
+    "MPZ2012S601ATD25": {
+      "max_relative_complex_error": 0.010098079068326703,
+      "points": 478
+    },
+    "MPZ2012S102ATD25": {
+      "max_relative_complex_error": 0.012353232468460734,
+      "points": 478
+    }
+  },
+  "model_manifest": {
+    "model_sha256": {
+      "MPZ2012S300ATD25_MYLIB.ckt": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e",
+      "MPZ2012S101ATD25_MYLIB.ckt": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513",
+      "MPZ2012S221ATD25_MYLIB.ckt": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19",
+      "MPZ2012S331ATD25_MYLIB.ckt": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8",
+      "MPZ2012S601ATD25_MYLIB.ckt": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2",
+      "MPZ2012S102ATD25_MYLIB.ckt": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+    },
+    "test_sha256": {
+      "atd25_own_datasheet_dc.json": "9e21586e29b417ed5c0aa8da19a37cf6aba1774f8f866cfcadf93664a9a6c22a",
+      "atd25_own_validation_ac.json": "ef00f6d3776e3d8e8caa9988a7e1b65841e9cd4537724604f0fb1f6903195958",
+      "atd25_own_endpoint_ac.json": "696a030419da7c25377e2be0a4e630e21c34093db59cd887b179bfb17a257626"
+    },
+    "threshold_complex_relative_error": 0.03,
+    "validation_grid": "137 points/decade; withheld from model author",
+    "parts": [
+      {
+        "id": "L0007",
+        "mpn": "MPZ2012S300ATD25",
+        "dcr_max": 0.01,
+        "z_min": 20,
+        "z_max": 40,
+        "dc_reference_ohm": 0.007000000000592549
+      },
+      {
+        "id": "L0008",
+        "mpn": "MPZ2012S101ATD25",
+        "dcr_max": 0.02,
+        "z_min": 75,
+        "z_max": 125,
+        "dc_reference_ohm": 0.014000000007581465
+      },
+      {
+        "id": "L0009",
+        "mpn": "MPZ2012S221ATD25",
+        "dcr_max": 0.04,
+        "z_min": 165,
+        "z_max": 275,
+        "dc_reference_ohm": 0.027999999991206653
+      },
+      {
+        "id": "L0010",
+        "mpn": "MPZ2012S331ATD25",
+        "dcr_max": 0.05,
+        "z_min": 247.5,
+        "z_max": 412.5,
+        "dc_reference_ohm": 0.035000000001280195
+      },
+      {
+        "id": "L0011",
+        "mpn": "MPZ2012S601ATD25",
+        "dcr_max": 0.1,
+        "z_min": 450,
+        "z_max": 750,
+        "dc_reference_ohm": 0.07000000000035529
+      },
+      {
+        "id": "L0012",
+        "mpn": "MPZ2012S102ATD25",
+        "dcr_max": 0.15,
+        "z_min": 750,
+        "z_max": 1250,
+        "dc_reference_ohm": 0.10499999989638242
+      }
+    ]
+  },
+  "official_sources": {
+    "source": "https://product.tdk.com/system/files/dam/technicalsupport/tvcl/spice_p/emc_beads_auto_power_mpz2012_spice_p.zip",
+    "archive_sha256": "25f5b90ea1135ca65b2d80dba2bd1e4c72254a9242fbffae530cdaeeb76a1efe",
+    "parts": [
+      {
+        "id": "L0007",
+        "mpn": "MPZ2012S300ATD25",
+        "name": "MPZ2012S300ATD25_p",
+        "dcr_max": 0.01,
+        "z_min": 20,
+        "z_max": 40,
+        "sha256": "c38e2786d683dbba9d5493a6a6574a2be843a9029566cd78cb01ea2114c278fd"
+      },
+      {
+        "id": "L0008",
+        "mpn": "MPZ2012S101ATD25",
+        "name": "MPZ2012S101ATD25_p",
+        "dcr_max": 0.02,
+        "z_min": 75,
+        "z_max": 125,
+        "sha256": "a98bfa8ebeb99e220fd7365e98185eadd12fbb79e0768f1c966f1cd289197d0b"
+      },
+      {
+        "id": "L0009",
+        "mpn": "MPZ2012S221ATD25",
+        "name": "MPZ2012S221ATD25_p",
+        "dcr_max": 0.04,
+        "z_min": 165,
+        "z_max": 275,
+        "sha256": "43599ca04ffe842d68d2d8967a882f48786a85339d41286d7a15397ca0f29e9c"
+      },
+      {
+        "id": "L0010",
+        "mpn": "MPZ2012S331ATD25",
+        "name": "MPZ2012S331ATD25_p",
+        "dcr_max": 0.05,
+        "z_min": 247.5,
+        "z_max": 412.5,
+        "sha256": "a073a7f2713ca949b3b7e96862ca7995e93f1b468fbf0db14a1b9c39e8872a3e"
+      },
+      {
+        "id": "L0011",
+        "mpn": "MPZ2012S601ATD25",
+        "name": "MPZ2012S601ATD25_p",
+        "dcr_max": 0.1,
+        "z_min": 450,
+        "z_max": 750,
+        "sha256": "12c23e310fda016a5d3c88d73556446b18e790f1590e291829cadbe8fd5d5fbb"
+      },
+      {
+        "id": "L0012",
+        "mpn": "MPZ2012S102ATD25",
+        "name": "MPZ2012S102ATD25_p",
+        "dcr_max": 0.15,
+        "z_min": 750,
+        "z_max": 1250,
+        "sha256": "d30c2f7a8e711ce5a4d3118b8a3aa5125384055953284dc2657e3857a807a07c"
+      }
+    ],
+    "datasheet": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Ferrite_Beads\\TDK_MPZ2012_automotive.pdf",
+    "temperature_c": 25,
+    "dc_bias_a": 0
+  },
+  "author": {
+    "agent": "/root/atd25_author",
+    "input_boundary": "Only datasheet, conditions and sampled official outputs from author_inputs; no vendor model text, prior MY_LIB models or fit scripts",
+    "input_sha256": {
+      "conditions.json": "a9e3f777386a284740ad3720ac4a78a53f53106924e9c9e06528775aeeca01f7",
+      "MPZ2012S101ATD25.csv": "64a585cd0760126f8d22462a3e7e435d84b59f7925858c51153a38106f133b0e",
+      "MPZ2012S102ATD25.csv": "d8d0e7716b285ff8b6cb7222a64296fbd7ab6473193b7bd3cd7c999fdca91c2f",
+      "MPZ2012S221ATD25.csv": "b1c4b5680e3532b11d738ce8bf90663f95335edd355df56d162575c610762b9a",
+      "MPZ2012S300ATD25.csv": "daad001fc4ee5452f24b5f79c18a1f727847bb1eab08dc4778909078658ac008",
+      "MPZ2012S331ATD25.csv": "34382eb778c7710e4bc36f021592224eaf2905716104b8f145f656daf5427ba9",
+      "MPZ2012S601ATD25.csv": "a60619c84830da2c7a90a258c924bb5efc49f2c0bd74a90f9bf00d47d4b711ea",
+      "TDK_MPZ2012_automotive.pdf": "2f59f7024009425d744e3b3347fcb91310c816124fdce2215188def915a7c64e"
+    },
+    "fit_summary_sha256": "ee2d09076e32a47bf345425b92ee7d0e7af52fd23515beec042ba0c4cd04d511",
+    "fit_summary": [
+      {
+        "mpn": "MPZ2012S300ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.004265343366425449,
+        "rms_complex_relative_error": 0.0021676828333182475,
+        "worst_frequency_hz": 6165950.01861481,
+        "dc_ohm": 0.007000000000592549,
+        "datasheet_dcr_max_ohm": 0.01,
+        "target_pass": true
+      },
+      {
+        "mpn": "MPZ2012S101ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.008675532084076147,
+        "rms_complex_relative_error": 0.002836778422241165,
+        "worst_frequency_hz": 1000000.0,
+        "dc_ohm": 0.014000000007581465,
+        "datasheet_dcr_max_ohm": 0.02,
+        "target_pass": true
+      },
+      {
+        "mpn": "MPZ2012S221ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.006407802181891445,
+        "rms_complex_relative_error": 0.002141903204944548,
+        "worst_frequency_hz": 1000000.0,
+        "dc_ohm": 0.027999999991206653,
+        "datasheet_dcr_max_ohm": 0.04,
+        "target_pass": true
+      },
+      {
+        "mpn": "MPZ2012S331ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.012588714420350946,
+        "rms_complex_relative_error": 0.004310138186448801,
+        "worst_frequency_hz": 1000000.0,
+        "dc_ohm": 0.035000000001280195,
+        "datasheet_dcr_max_ohm": 0.05,
+        "target_pass": true
+      },
+      {
+        "mpn": "MPZ2012S601ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.010096883676661058,
+        "rms_complex_relative_error": 0.005189177986924898,
+        "worst_frequency_hz": 7943282.347242798,
+        "dc_ohm": 0.07000000000035529,
+        "datasheet_dcr_max_ohm": 0.1,
+        "target_pass": true
+      },
+      {
+        "mpn": "MPZ2012S102ATD25",
+        "points": 349,
+        "max_complex_relative_error": 0.012353232468723893,
+        "rms_complex_relative_error": 0.004517220369658932,
+        "worst_frequency_hz": 1000000.0,
+        "dc_ohm": 0.10499999989638242,
+        "datasheet_dcr_max_ohm": 0.15,
+        "target_pass": true
+      }
+    ],
+    "provenance": {
+      "inputs": {
+        "conditions.json": "a9e3f777386a284740ad3720ac4a78a53f53106924e9c9e06528775aeeca01f7",
+        "MPZ2012S101ATD25.csv": "64a585cd0760126f8d22462a3e7e435d84b59f7925858c51153a38106f133b0e",
+        "MPZ2012S102ATD25.csv": "d8d0e7716b285ff8b6cb7222a64296fbd7ab6473193b7bd3cd7c999fdca91c2f",
+        "MPZ2012S221ATD25.csv": "b1c4b5680e3532b11d738ce8bf90663f95335edd355df56d162575c610762b9a",
+        "MPZ2012S300ATD25.csv": "daad001fc4ee5452f24b5f79c18a1f727847bb1eab08dc4778909078658ac008",
+        "MPZ2012S331ATD25.csv": "34382eb778c7710e4bc36f021592224eaf2905716104b8f145f656daf5427ba9",
+        "MPZ2012S601ATD25.csv": "a60619c84830da2c7a90a258c924bb5efc49f2c0bd74a90f9bf00d47d4b711ea",
+        "TDK_MPZ2012_automotive.pdf": "2f59f7024009425d744e3b3347fcb91310c816124fdce2215188def915a7c64e"
+      },
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "topology": "main series Rdc+L branch in parallel with eight series RLC branches",
+      "scope": "25 C, zero DC bias, linear small signal, 1 MHz to 3 GHz; no temperature or bias dependence",
+      "author_boundary": "Only author_inputs files read; no vendor netlists, no earlier circuit models, no internet"
+    }
+  },
+  "test_sha256": {
+    "atd25_official_ac.json": "8e13b1bee35348c7430a4fa5a748f89470b5c70e472a8979a0e404a90868ff71",
+    "atd25_official_datasheet_dc.json": "24441919cf07eb338cf3f761a6c7c462ce59dc0e363915812f45864bd625476b",
+    "atd25_official_endpoint_ac.json": "96eb85eed18e6235e5b02792307737d6e9dc931b6cf245dc20887f7cbb265c8c",
+    "atd25_official_validation_ac.json": "453faef8e9f373510ab8d731482c00b3679d09453387c6c29f371a97b1ec190c",
+    "atd25_own_datasheet_dc.json": "9e21586e29b417ed5c0aa8da19a37cf6aba1774f8f866cfcadf93664a9a6c22a",
+    "atd25_own_endpoint_ac.json": "696a030419da7c25377e2be0a4e630e21c34093db59cd887b179bfb17a257626",
+    "atd25_own_validation_ac.json": "ef00f6d3776e3d8e8caa9988a7e1b65841e9cd4537724604f0fb1f6903195958"
+  },
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "independent_nodal_verification": {
+    "status": "PASS",
+    "criterion": "native MixedSim versus independently assembled complex nodal equations; relative tolerance1e-4",
+    "comparisons": 2868,
+    "models": [
+      {
+        "mpn": "MPZ2012S300ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 4.649333022433581e-12,
+        "passed": true,
+        "model_sha256": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e"
+      },
+      {
+        "mpn": "MPZ2012S101ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 2.0938342164259054e-10,
+        "passed": true,
+        "model_sha256": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513"
+      },
+      {
+        "mpn": "MPZ2012S221ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 2.4674533315201657e-11,
+        "passed": true,
+        "model_sha256": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19"
+      },
+      {
+        "mpn": "MPZ2012S331ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 2.900670377105243e-10,
+        "passed": true,
+        "model_sha256": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8"
+      },
+      {
+        "mpn": "MPZ2012S601ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 1.698234323210458e-11,
+        "passed": true,
+        "model_sha256": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2"
+      },
+      {
+        "mpn": "MPZ2012S102ATD25",
+        "test": "validation_ac",
+        "points": 477,
+        "max_relative_error": 1.1175883731875538e-09,
+        "passed": true,
+        "model_sha256": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+      },
+      {
+        "mpn": "MPZ2012S300ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 1.6594695987633974e-13,
+        "passed": true,
+        "model_sha256": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e"
+      },
+      {
+        "mpn": "MPZ2012S101ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 2.5805943196358437e-12,
+        "passed": true,
+        "model_sha256": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513"
+      },
+      {
+        "mpn": "MPZ2012S221ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 8.712943591075609e-13,
+        "passed": true,
+        "model_sha256": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19"
+      },
+      {
+        "mpn": "MPZ2012S331ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 4.190431056276862e-13,
+        "passed": true,
+        "model_sha256": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8"
+      },
+      {
+        "mpn": "MPZ2012S601ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 9.41087975897618e-14,
+        "passed": true,
+        "model_sha256": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2"
+      },
+      {
+        "mpn": "MPZ2012S102ATD25",
+        "test": "endpoint_ac",
+        "points": 1,
+        "max_relative_error": 6.452713695951642e-14,
+        "passed": true,
+        "model_sha256": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+      }
+    ]
+  }
+}

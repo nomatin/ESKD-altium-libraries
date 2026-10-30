@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "changed_ids": [
+    "L0007",
+    "L0008",
+    "L0009",
+    "L0010",
+    "L0011",
+    "L0012"
+  ],
+  "changed_cells": 78,
+  "changed_zip_parts": [
+    "xl/worksheets/sheet8.xml"
+  ],
+  "other_cells_styles_formulas_and_caches_preserved": true,
+  "unique_table_ids": [
+    "8",
+    "9",
+    "3",
+    "10",
+    "11",
+    "6",
+    "7",
+    "12",
+    "13"
+  ],
+  "before_sha256": "cd936fbfe13efa79a51e47ba481fb3821a6f33e0374a1ca3dc40899713ccdef8",
+  "installed_sha256": "42e29aeb45fd1dc060b5431c215fbaa0b50b4e6385cd3c3bd40547e122d3951c",
+  "native_verification": {
+    "passed": true,
+    "excel": {
+      "passed": true,
+      "excel_version": "16.0",
+      "corrupt_load": 0,
+      "recovery_requested": false,
+      "checked_cells": 78,
+      "table_count": 9
+    },
+    "ace": {
+      "passed": true,
+      "checked_models": 6,
+      "total_bound_ferrites": 78
+    },
+    "dblib_contiguous_tables": 9,
+    "dblib_contiguous_fieldmaps": 329
+  },
+  "model_sha256": {
+    "MPZ2012S300ATD25_MYLIB.ckt": "645f2f11887502fbe08dcbdb0619763080e666ee79cad4062a076f02b873515e",
+    "MPZ2012S101ATD25_MYLIB.ckt": "47a7be156d0026790d5652dc1c07e87388059f51756c80f797d2b63ac28e7513",
+    "MPZ2012S221ATD25_MYLIB.ckt": "6e4f8c8c6ab02ef9904cf91cac902736b87745422cb4704dba3e7e6b1f27ed19",
+    "MPZ2012S331ATD25_MYLIB.ckt": "4dcd2707357d54f6ebe095c094588487cde84fbf3d90eb4877f73cb8b7b86ca8",
+    "MPZ2012S601ATD25_MYLIB.ckt": "343e3457a6729f328436f68daa0b043937ad59d12c9fe19eba93e1361b6d06b2",
+    "MPZ2012S102ATD25_MYLIB.ckt": "689c18b26e9cc63c63320e2b6f8942f3d206341da4f3544a5cab8583575bc434"
+  },
+  "bindings": [
+    [
+      "MPZ2012S300ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S300ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ],
+    [
+      "MPZ2012S101ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S101ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ],
+    [
+      "MPZ2012S221ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S221ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ],
+    [
+      "MPZ2012S331ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S331ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ],
+    [
+      "MPZ2012S601ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S601ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ],
+    [
+      "MPZ2012S102ATD25_MYLIB",
+      "MY_LIB independent passive RLC fit to TDK Automotive outputs; 25C; zero bias; small signal",
+      "General",
+      "Spice Subcircuit",
+      "@DESIGNATOR %1 %2 @MODEL",
+      "X",
+      "(1:1),(2:2)",
+      "Simulation\\Ferrites\\TDK\\MPZ2012S102ATD25_MYLIB.ckt",
+      "MY_LIB; sampled official TDK Automotive Precise outputs; datasheet 2019-04-23",
+      "Independent passive black-box RLC",
+      25,
+      0,
+      "Small signal"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "test": "atd25_official_datasheet_dc.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "error": null
+  },
+  {
+    "test": "atd25_official_ac.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "error": null
+  },
+  {
+    "test": "atd25_official_endpoint_ac.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "error": null
+  },
+  {
+    "test": "atd25_official_validation_ac.json",
+    "status": "PASS",
+    "checks": 6,
+    "passed": 6,
+    "error": null
+  }
+]

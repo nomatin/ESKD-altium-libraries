@@ -1,0 +1,86 @@
+{
+  "name": "atd25_own_datasheet_dc",
+  "models": [
+    "../MPZ2012S300ATD25_MYLIB.ckt",
+    "../MPZ2012S101ATD25_MYLIB.ckt",
+    "../MPZ2012S221ATD25_MYLIB.ckt",
+    "../MPZ2012S331ATD25_MYLIB.ckt",
+    "../MPZ2012S601ATD25_MYLIB.ckt",
+    "../MPZ2012S102ATD25_MYLIB.ckt"
+  ],
+  "spice": "* Datasheet DCR and independently sampled official DC reference\n.OPTIONS TEMP=25\nIL0007 0 nL0007 DC 1m\nXL0007 nL0007 0 MPZ2012S300ATD25_MYLIB\nIL0008 0 nL0008 DC 1m\nXL0008 nL0008 0 MPZ2012S101ATD25_MYLIB\nIL0009 0 nL0009 DC 1m\nXL0009 nL0009 0 MPZ2012S221ATD25_MYLIB\nIL0010 0 nL0010 DC 1m\nXL0010 nL0010 0 MPZ2012S331ATD25_MYLIB\nIL0011 0 nL0011 DC 1m\nXL0011 nL0011 0 MPZ2012S601ATD25_MYLIB\nIL0012 0 nL0012 DC 1m\nXL0012 nL0012 0 MPZ2012S102ATD25_MYLIB\n.TRAN 1n 10n\n.PLOT TRAN V(nL0007)\n.PLOT TRAN V(nL0008)\n.PLOT TRAN V(nL0009)\n.PLOT TRAN V(nL0010)\n.PLOT TRAN V(nL0011)\n.PLOT TRAN V(nL0012)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(nL0007)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1.0001000000000001e-05
+    },
+    {
+      "signal": "v(nL0007)",
+      "measurement": "last",
+      "min": 6.999000000592549e-06,
+      "max": 7.001000000592548e-06
+    },
+    {
+      "signal": "v(nL0008)",
+      "measurement": "last",
+      "min": 0,
+      "max": 2.0001e-05
+    },
+    {
+      "signal": "v(nL0008)",
+      "measurement": "last",
+      "min": 1.3998600007580706e-05,
+      "max": 1.4001400007582223e-05
+    },
+    {
+      "signal": "v(nL0009)",
+      "measurement": "last",
+      "min": 0,
+      "max": 4.0001000000000005e-05
+    },
+    {
+      "signal": "v(nL0009)",
+      "measurement": "last",
+      "min": 2.799719999120753e-05,
+      "max": 2.8002799991205774e-05
+    },
+    {
+      "signal": "v(nL0010)",
+      "measurement": "last",
+      "min": 0,
+      "max": 5.0001000000000005e-05
+    },
+    {
+      "signal": "v(nL0010)",
+      "measurement": "last",
+      "min": 3.4996500001280066e-05,
+      "max": 3.5003500001280325e-05
+    },
+    {
+      "signal": "v(nL0011)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00010000100000000001
+    },
+    {
+      "signal": "v(nL0011)",
+      "measurement": "last",
+      "min": 6.999300000035526e-05,
+      "max": 7.000700000035532e-05
+    },
+    {
+      "signal": "v(nL0012)",
+      "measurement": "last",
+      "min": 0,
+      "max": 0.00015000099999999998
+    },
+    {
+      "signal": "v(nL0012)",
+      "measurement": "last",
+      "min": 0.00010498949989639279,
+      "max": 0.00010501049989637206
+    }
+  ]
+}

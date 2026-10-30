@@ -1,0 +1,28 @@
+* Automotive ATD25 manufacturer model: datasheet initial DCR
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S300ATD25_p.mod"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S101ATD25_p.mod"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S221ATD25_p.mod"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S331ATD25_p.mod"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S601ATD25_p.mod"
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Ferrites\TDK\MPZ2012S102ATD25_p.mod"
+.OPTIONS TEMP=25
+IL0007 0 nL0007 DC 1m
+XL0007 nL0007 0 MPZ2012S300ATD25_p
+IL0008 0 nL0008 DC 1m
+XL0008 nL0008 0 MPZ2012S101ATD25_p
+IL0009 0 nL0009 DC 1m
+XL0009 nL0009 0 MPZ2012S221ATD25_p
+IL0010 0 nL0010 DC 1m
+XL0010 nL0010 0 MPZ2012S331ATD25_p
+IL0011 0 nL0011 DC 1m
+XL0011 nL0011 0 MPZ2012S601ATD25_p
+IL0012 0 nL0012 DC 1m
+XL0012 nL0012 0 MPZ2012S102ATD25_p
+.TRAN 1n 10n
+.PLOT TRAN V(nL0007)
+.PLOT TRAN V(nL0008)
+.PLOT TRAN V(nL0009)
+.PLOT TRAN V(nL0010)
+.PLOT TRAN V(nL0011)
+.PLOT TRAN V(nL0012)
+.END
