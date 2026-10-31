@@ -1,0 +1,111 @@
+{
+  "name": "08_tx_high",
+  "models": [
+    "../ISOW1432DFMR.lib"
+  ],
+  "spice": "* 08_tx_high\nVPRIMARY p 0 0\nVSECOND s 0 2\nVDD vdd p 5\nVIO vio p 3.3\nVGI gio p 0\nVG1 g1 p 0\nVG2 g2 s 0\nVGISO giso s 0\nXU vio d de r re gio out en vdd g1 g2 iso mode inp giso vsi y z b a ISOW1432DFMR\nVLINK iso vsi 0\nVMODE mode g2 0\nVD d gio 3.3\nVDE de gio 3.3\nVRE re gio 3.3\nVEN en gio 3.3\nVIN inp giso 0\nVA a giso 1.5\nVB b giso 1.5\nRLOAD y z 120\nCISO iso g2 10u\nCR r gio 15p\nCOUT out gio 15p\n\nEVI vi 0 iso g2 1\nEVD vd 0 y z 1\nERY rr 0 r gio 1\nEGO oo 0 out gio 1\nEYY yy 0 y giso 1\nEZZ zz 0 z giso 1\nEDD dd 0 d gio 1\nEAA aa 0 a b 1\nEIN ii 0 inp giso 1\nFIDD idd 0 VDD 1\nRIDD idd 0 1\nFIIO iio 0 VIO 1\nRIIO iio 0 1\nEde_mon de_mon 0 de gio 1\nEre_mon re_mon 0 re gio 1\n.OPTIONS METHOD=GEAR ITL4=100\n.OP\n.PLOT OP V(vi) V(vd) V(rr) V(oo) V(yy) V(zz) V(dd) V(aa) V(ii) V(idd) V(iio) V(de_mon) V(re_mon)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(vd)",
+      "measurement": "last",
+      "min": 1.5,
+      "max": 3.465,
+      "analysis": "op"
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "name": "vi",
+        "type": "signal",
+        "signal": "v(vi)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "vd",
+        "type": "signal",
+        "signal": "v(vd)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "rr",
+        "type": "signal",
+        "signal": "v(rr)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "oo",
+        "type": "signal",
+        "signal": "v(oo)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "yy",
+        "type": "signal",
+        "signal": "v(yy)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "zz",
+        "type": "signal",
+        "signal": "v(zz)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "dd",
+        "type": "signal",
+        "signal": "v(dd)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "aa",
+        "type": "signal",
+        "signal": "v(aa)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "ii",
+        "type": "signal",
+        "signal": "v(ii)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "idd",
+        "type": "signal",
+        "signal": "v(idd)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "iio",
+        "type": "signal",
+        "signal": "v(iio)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "de_mon",
+        "type": "signal",
+        "signal": "v(de_mon)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "re_mon",
+        "type": "signal",
+        "signal": "v(re_mon)",
+        "analysis": "op",
+        "max_points": 5000
+      }
+    ]
+  }
+}

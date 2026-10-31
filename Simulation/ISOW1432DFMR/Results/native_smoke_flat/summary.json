@@ -1,0 +1,45 @@
+{
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "round": "native_smoke_flat",
+  "cases": [
+    {
+      "name": "01_mode_3v3",
+      "status": "PASS",
+      "test_sha256": "0c68dc66338e6d69cf998dc058d0b04a6d08452a2a157a588340877a361a3a37",
+      "result_sha256": "fd1b9b79267855253f85aa2f22da04d25896b7118ce499672337fec1220feed1",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 VISOOUT"
+    },
+    {
+      "name": "27_tx_timing_3p3",
+      "status": "PASS",
+      "test_sha256": "f018b11a8bf554cebba1cac7c823bfdef25879fc69f16cdaa5869f7bce8b71e6",
+      "result_sha256": "b64a35551a15c5733b896e13cf3251555ef44528fc681f09165be6df1b78d948",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "tx_rise_10_90",
+          "value": 1.4874629973158307e-08,
+          "min": 1.0499999999999998e-08,
+          "max": 1.95e-08,
+          "status": "PASS"
+        },
+        {
+          "id": "tx_fall_90_10",
+          "value": 1.7146369021079873e-08,
+          "min": 1.0499999999999998e-08,
+          "max": 1.95e-08,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 Fig7-3 RL54ohm CL50pF"
+    }
+  ],
+  "counts": {
+    "PASS": 2,
+    "FAIL": 0,
+    "ERROR": 0
+  }
+}

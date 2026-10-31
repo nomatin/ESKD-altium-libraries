@@ -1,0 +1,314 @@
+{
+  "source": "TI SLLSF86D RevD August2026",
+  "independence": "Initial criteria frozen without inspecting model implementation",
+  "cases": [
+    {
+      "name": "01_mode_3v3",
+      "source": "6.9 VISOOUT",
+      "notes": "",
+      "sha256": "0c68dc66338e6d69cf998dc058d0b04a6d08452a2a157a588340877a361a3a37",
+      "assertions": 1
+    },
+    {
+      "name": "02_mode_5v",
+      "source": "6.9 VISOOUT",
+      "notes": "",
+      "sha256": "a3fd4d27cd74a842dfd0bb11423be5a0a8203b5b75f00d6439d5f3e2ffe8b045",
+      "assertions": 1
+    },
+    {
+      "name": "03_invalid_mode",
+      "source": "8.7 Table8-1",
+      "notes": "ESTIMATED safe response OFF to unspecified invalid operation",
+      "sha256": "6a4b5f3109bb989973179922c0293aad255a4f29640b15b7b4b8f29cd8c74f17",
+      "assertions": 1
+    },
+    {
+      "name": "04_soft_start",
+      "source": "6.9 tpwrup max5ms; 9.3 external10uF",
+      "notes": "",
+      "sha256": "9fd4260b52f7d9289a564fd8c9b4ba4c02186d565b48c52b6e569e24efd2200d",
+      "assertions": 4
+    },
+    {
+      "name": "05_uvlo",
+      "source": "8.6 UVLO2.8/2.55; external330ohm discharge",
+      "notes": "",
+      "sha256": "cc0ff14c321cf8ddc850d1cd305fbd6f05c1d9552ebcdf570ed7806bf906598b",
+      "assertions": 3
+    },
+    {
+      "name": "06_en_low",
+      "source": "8.7 Tables8-3/8-4/8-5",
+      "notes": "",
+      "sha256": "5bdbf12a57fea23b590d3d990c9a16c8b9844407fea9bed01e4bc5c54d002f2e",
+      "assertions": 3
+    },
+    {
+      "name": "07_external_load",
+      "source": "6.3 additional20mA; inferred power at positive efficiency",
+      "notes": "",
+      "sha256": "edfa46e515207793fbaf96d3eb2bbd50664b6fcbdde7063896570ebd73eb6dd4",
+      "assertions": 3
+    },
+    {
+      "name": "08_tx_high",
+      "source": "8-2,6.9",
+      "notes": "",
+      "sha256": "500b3247f34f49f91d7c8b19d8090ecd93a777527ca2ab7480b422d62e988737",
+      "assertions": 1
+    },
+    {
+      "name": "09_tx_low",
+      "source": "8-2,6.9",
+      "notes": "",
+      "sha256": "7bd4e1abf4cd63299851d4439254c92e69ac372a7f89602c72d046f47a9cd7d0",
+      "assertions": 1
+    },
+    {
+      "name": "10_tx_hiz",
+      "source": "8-2",
+      "notes": "External clamps; clamp currents checked by supplemental high-Z test",
+      "sha256": "74e564e6de1e0e631cbd75a6365a423b09d6c56d60b09094f4ed7bd85da25ace",
+      "assertions": 1
+    },
+    {
+      "name": "11_uart_115200",
+      "source": "6.12 ISOW1432 typ49ns; 12Mbps UI83.333ns",
+      "notes": "Delay target \u00b120% of typ is functional model goal",
+      "sha256": "92153568c15d6c3821d6bd87973f9bc795c4bb0382c4d8bf9883344d94866ce3",
+      "assertions": 2
+    },
+    {
+      "name": "12_uart_12mbps",
+      "source": "6.12 ISOW1432 typ49ns; 12Mbps UI83.333ns",
+      "notes": "Delay target \u00b120% of typ is functional model goal",
+      "sha256": "f5ca31a2190b5a4f9158a34a8434e56768f164b3549618b694a934082c74f901",
+      "assertions": 2
+    },
+    {
+      "name": "13_load120",
+      "source": "6.9;120ohm application load",
+      "notes": "",
+      "sha256": "1c0cd5c1d4374d34ad8422bf1c140baf256df13220bca388707d9be07afe371f",
+      "assertions": 1
+    },
+    {
+      "name": "14_load54_3p3",
+      "source": "6.9 RL54ohm",
+      "notes": "",
+      "sha256": "27c3a4524e41357ac2eb85232cb6460bcc507f09dd18eccbf86887db7cfe7c39",
+      "assertions": 3
+    },
+    {
+      "name": "14_load54_5",
+      "source": "6.9 RL54ohm",
+      "notes": "",
+      "sha256": "3b2161793ec4aa33a8ea2e00729a9d85bfe0fe054388c8e589bab188eeae547d",
+      "assertions": 3
+    },
+    {
+      "name": "15_rx_zero",
+      "source": "6.9 VTH+;8-3 failsafe",
+      "notes": "",
+      "sha256": "f923d7c8e58d71bf0621122f7918fa59b6089fdfa5350355ffdafadc93a72f29",
+      "assertions": 1
+    },
+    {
+      "name": "16_rx_negative",
+      "source": "6.9 VTH-",
+      "notes": "",
+      "sha256": "5a0f3ed11519a4ae8cd8ae0cad1ee737a698ac8a61e118ec5317be527c0558d0",
+      "assertions": 1
+    },
+    {
+      "name": "17_rx_hiz",
+      "source": "6.9 IOZ \u00b11uA;8-3",
+      "notes": "",
+      "sha256": "02c57e8e4a38a0c4bcb25b722d19a231ee76e00e4985d7295fe55a095d0b7dd5",
+      "assertions": 1
+    },
+    {
+      "name": "18_gpio",
+      "source": "6.12 GPIO227ns; max2Mbps",
+      "notes": "",
+      "sha256": "a7cc6ad2602c2993ba4377379e21000b714e68e32c70b57626b884da71f76dba",
+      "assertions": 2
+    },
+    {
+      "name": "19_tx_short",
+      "source": "6.9 IOS max180mA;8.6.2 says250mA",
+      "notes": "Supplemental current criteria max180mA guaranteed table, not250mA protection description",
+      "sha256": "0d9e06e7099edc2f0b627c9d5c760bd73ecec4b85b02c41cf30497d24a38d4d3",
+      "assertions": 1
+    },
+    {
+      "name": "20_missing_visoin",
+      "source": "5,9.3 external power link required",
+      "notes": "",
+      "sha256": "b3cf83dbcc9aa89d10ad128a01ed8c8ba7b965bbee42a6d2215fb79a5fb99eee",
+      "assertions": 2
+    },
+    {
+      "name": "21_current_disabled",
+      "source": "6.10 converter disabled, D/DE/RE floating",
+      "notes": "",
+      "sha256": "51f143509faca0b6150601ffe978831ddd66510af3b6b1b84f47d40ff639ee69",
+      "assertions": 2
+    },
+    {
+      "name": "22_current_logic_idle",
+      "source": "6.10 VIO3.3,DE0,REhigh,Dhigh",
+      "notes": "",
+      "sha256": "c3d10645aca4aaf0133f2112133b810692a8a3e69a72f88789ee4625f3b8bae8",
+      "assertions": 1
+    },
+    {
+      "name": "23_current_logic_static",
+      "source": "6.10 VIO3.3 TX/RXstatic loopback",
+      "notes": "",
+      "sha256": "a5841b738f6446b110efcb0e13110b742d1da6b3186789b20d30f43bbe136acd",
+      "assertions": 1
+    },
+    {
+      "name": "24_current_tx_3v3",
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "notes": "",
+      "sha256": "3e8de824db13a1b76733f054d088800ad66fc9e18997eb84730910a96a3ce38e",
+      "assertions": 1
+    },
+    {
+      "name": "24_current_tx_5v",
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "notes": "",
+      "sha256": "46516a36fddd5d153897712d1f2c6078c8882d7221e019396bfa17118110297b",
+      "assertions": 1
+    },
+    {
+      "name": "25_current_rx",
+      "source": "6.10 RX12Mbps CL15pF VDD=VIO=5V",
+      "notes": "",
+      "sha256": "84178b4ab4496dd05ecaca6d25cb6c505fd4fe33f9f29b1001ebcb938904f2e9",
+      "assertions": 1
+    },
+    {
+      "name": "26_current_loopback",
+      "source": "6.10 ISOW1432 loopback120ohm||50pF CL15pF12Mbps VDD=VIO=5V",
+      "notes": "",
+      "sha256": "2c0ac8e24d6e8badd61175a7866b9b1b4ce3e5cd5fdcc5d25b76e2849f999b64",
+      "assertions": 1
+    },
+    {
+      "name": "27_tx_timing_3p3",
+      "source": "6.12/6.13 Fig7-3 RL54ohm CL50pF",
+      "notes": "Rise/fall20-80% assessed by runner from steady extrema",
+      "sha256": "f018b11a8bf554cebba1cac7c823bfdef25879fc69f16cdaa5869f7bce8b71e6",
+      "assertions": 2
+    },
+    {
+      "name": "27_tx_timing_5",
+      "source": "6.12/6.13 Fig7-3 RL54ohm CL50pF",
+      "notes": "Rise/fall20-80% assessed by runner from steady extrema",
+      "sha256": "34a3dabd140be3ebfb53244710b63082aa1477f14b8475481ab7d0cfee3aef0c",
+      "assertions": 2
+    },
+    {
+      "name": "28_rx_timing_3p3",
+      "source": "6.12/6.13 receiverCL15pF Fig7-7 A0to3V B1.5V",
+      "notes": "",
+      "sha256": "056c097221a92a6ce19ec134febb37700d499ee0ce8bb4dac720c872425e741b",
+      "assertions": 1
+    },
+    {
+      "name": "28_rx_timing_5",
+      "source": "6.12/6.13 receiverCL15pF Fig7-7 A0to3V B1.5V",
+      "notes": "",
+      "sha256": "3a044226fa9a7f97fd55a4433405823dc92fc6196483cc26548bd30bb2ae17d3",
+      "assertions": 1
+    },
+    {
+      "name": "29_float_inputs",
+      "source": "5,8.7 input defaults",
+      "notes": "",
+      "sha256": "259c9273aae97054dcafc0a61f4acc8a522bb6a5365936cfa01651176e82e54c",
+      "assertions": 4
+    },
+    {
+      "name": "30_float_d",
+      "source": "8-2 Dfloating HIGH",
+      "notes": "",
+      "sha256": "773b9ab6888a2a35c4bca61f13e8ea95d082b7eba4ee9a37ae92c2da3ba51c3b",
+      "assertions": 1
+    },
+    {
+      "name": "31_hiz_currents",
+      "source": "6.9 IOZ R \u00b11uA; Y/Z functional HiZ \u00b11uA ESTIMATED",
+      "notes": "",
+      "sha256": "b7393131a9f99c05cf45c96bebbf27ff5bcda37a0fb86e98ddc28bb655f7a1ac",
+      "assertions": 3
+    },
+    {
+      "name": "32_short_current",
+      "source": "6.9 IOS max180mA",
+      "notes": "",
+      "sha256": "2c58a62bf190e87a84ea0433916468fa764aaf06cb7d1b630f95edb8a1fc9aeb",
+      "assertions": 1
+    },
+    {
+      "name": "33_vio_loss",
+      "source": "T\u0417 VIO UVLO ESTIMATED; 8.7 missingVIO invalid no normal communication",
+      "notes": "",
+      "sha256": "f914b75a618cf82b1dd95e049372305acd07cbbd6cb2f9f47a0236f8bb44cbd3",
+      "assertions": 4
+    },
+    {
+      "name": "34_vdd_hysteresis",
+      "source": "8.6 UVLO+2.8V UVLO-2.55V typical",
+      "notes": "Model may derate output at2.7V but must retain UVLO state",
+      "sha256": "86fdfb348cc30c0beca7ba92fcf821ae11c87f7f700df5b5f1d5b4c373ccd516",
+      "assertions": 4
+    },
+    {
+      "name": "35_driver_enable_3p3",
+      "source": "6.12/6.13 driverenable Figure7-5 R110ohm C50pF",
+      "notes": "Enable voltage threshold half final requires postprocessor final-extrema; native preliminary quarterVrail threshold",
+      "sha256": "0b2877e74f65cb33ecda1c188f04ae43a46eccf2604a162fdca212d6b6c05e55",
+      "assertions": 1
+    },
+    {
+      "name": "36_receiver_enable_3p3",
+      "source": "6.12/6.13 receiverenable Figure7-8 R1kohm C15pF",
+      "notes": "",
+      "sha256": "b0679a623aee5ed6a105c1eb00b51f0cee57ef6615fac0e8b1630f01b687c8b8",
+      "assertions": 1
+    },
+    {
+      "name": "35_driver_enable_5",
+      "source": "6.12/6.13 driverenable Figure7-5 R110ohm C50pF",
+      "notes": "Enable voltage threshold half final requires postprocessor final-extrema; native preliminary quarterVrail threshold",
+      "sha256": "22b05e036804065d88cf78a9180136d4ddf32cd139dd587c709ed012a1595200",
+      "assertions": 1
+    },
+    {
+      "name": "36_receiver_enable_5",
+      "source": "6.12/6.13 receiverenable Figure7-8 R1kohm C15pF",
+      "notes": "",
+      "sha256": "c6e1d596352af96c5fb9fa98d4bf2646faf056851b3762f57206bfc979be52e0",
+      "assertions": 1
+    },
+    {
+      "name": "37_iio_dynamic",
+      "source": "6.10 IIO VIO3.3V ISOW1432 loopback12Mbps",
+      "notes": "",
+      "sha256": "9a02a203f48370f40eacee50595ddd5128b2e44373913eb4a49e482ab44122a1",
+      "assertions": 1
+    },
+    {
+      "name": "38_gpio_timing",
+      "source": "6.12 Figure7-11 CL15pF PRR50kHz",
+      "notes": "",
+      "sha256": "653c1fc11538d039a10e2a91c3b2632a95b748b6a3a18750ffc597871e3ad1f2",
+      "assertions": 1
+    }
+  ]
+}

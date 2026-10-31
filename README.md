@@ -6,7 +6,7 @@
 
 ## Состав
 
-На 31 октября 2026 года в базе **1547 компонентов**, из них **1183 со SPICE-моделями**.
+На 31 октября 2026 года в базе **1547 компонентов**, из них **1184 со SPICE-моделями**.
 
 | Категория | Позиций | Покрытие SPICE | Основные серии |
 |---|---:|---:|---|
@@ -16,7 +16,7 @@
 | Разъёмы | 358 | 0 / 358 (0%) | GCT, CONNFLY, JST PH/XH |
 | Ферриты | 78 | 78 / 78 (100%) | TDK, Murata |
 | Светодиоды | 10 | [10 / 10 (100%)](Simulation/LEDs/README.md) | Oasistek |
-| Микросхемы | 4 | 2 / 4 (50%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712 |
+| Микросхемы | 4 | 3 / 4 (75%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712 |
 | Переключатели | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Тестовые точки | 3 | 0 / 3 (0%) | Площадки Ø1 / 1,5 / 2 мм |
 
@@ -49,9 +49,9 @@ git pull --ff-only
 
 ## SPICE
 
-Модели доступны для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов и ферритов, а также двух защитных микросхем. Все эти группы проверялись в standalone NSX Altium Designer 24.4 MixedSim; набор статических, частотных и переходных испытаний зависит от модели. Ферриты TDK AT000 и Murata также сравнивались с официальными моделями в ngspice; для TDK ATD25 эталонные и собственные модели проверены в MixedSim. Эти расчёты не проверяют размещение компонентов через UI DbLib.
+Модели доступны для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов и ферритов, двух защитных микросхем и ISOW1432DFMR. Все эти группы проверялись в standalone NSX Altium Designer 24.4 MixedSim; набор статических, частотных и переходных испытаний зависит от модели. ISOW1432DFMR использует упрощённую функциональную модель DC/DC, RS-485 и GPIO; её нативные проверки выполняются только через Spice Tester. Ферриты TDK AT000 и Murata также сравнивались с официальными моделями в ngspice; для TDK ATD25 эталонные и собственные модели проверены в MixedSim. Эти расчёты не проверяют размещение компонентов через UI DbLib.
 
-Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` и `Results/` рядом с моделями.
+Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` (`tests/` у ISOW1432DFMR) и `Results/` рядом с моделями.
 
 Успешный тест подтверждает только заданные условия проверки и не гарантирует соответствие всех характеристик реальному компоненту. Некоторые модели являются приближениями; изучайте их ограничения перед расчётом.
 

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "engine": "Altium Designer24.4.1.13 MixedSim native via unmodified DBUR Test",
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "acceptance_summary_sha256": "fc3b24eef1745c6087ef83f1ce54c15ad5a04971ae62992415f2c985fef5edd2",
+  "counts_by_role": {
+    "acceptance": {
+      "PASS": 56
+    },
+    "retained_diagnostic": {
+      "FAIL": 6,
+      "ERROR": 1
+    },
+    "additional_stress": {
+      "PASS": 1
+    }
+  },
+  "native_acceptance_assertions": 191,
+  "supplemental_acceptance_assertions": 21,
+  "initial_independent_tests_preserved": 44,
+  "original_tracked_files_unchanged": 735,
+  "pin_order": [
+    "VIO",
+    "D",
+    "DE",
+    "R",
+    "RE",
+    "GNDIO",
+    "OUT",
+    "ENFLT",
+    "VDD",
+    "GND1",
+    "GND2",
+    "VISOOUT",
+    "MODE",
+    "IN",
+    "GISOIN",
+    "VISOIN",
+    "Y",
+    "Z",
+    "B",
+    "A"
+  ],
+  "forbidden_conductive_paths": {
+    "GND1--GND2": false,
+    "GNDIO--GND1": false,
+    "GND2--GISOIN": false,
+    "VISOOUT--VISOIN": false
+  },
+  "global_ground_used_as_element_terminal": false,
+  "branch": "dev",
+  "errors": []
+}

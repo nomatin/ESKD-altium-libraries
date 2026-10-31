@@ -1,0 +1,49 @@
+* 50_missing_visoin_activity
+.include "../ISOW1432DFMR.lib"
+VPRIMARY p 0 0
+VSECOND s 0 2
+VDD vdd p 5
+VIO vio p 3.3
+VGI gio p 0
+VG1 g1 p 0
+VG2 g2 s 0
+VGISO giso s 0
+XU vio d de rp re gio op en vdd g1 g2 iso mode inp giso vsi yp zp b a ISOW1432DFMR
+VMODE mode g2 0
+VD d gio PULSE(0 3.3 100n 1n 1n 500n 1u)
+VDE de gio 3.3
+VRE re gio 0
+VEN en gio 3.3
+VA a giso PULSE(1.3 1.7 300n 1n 1n 500n 1u)
+VB b giso 1.5
+CISO iso g2 10u
+CVSI vsi giso 100n
+VYPORT yp y 0
+VZPORT zp z 0
+VRPORT rp r 0
+VOPORT op out 0
+CR r gio 15p
+COUT out gio 15p
+RVSIMISS vsi giso 1Meg
+VIN inp giso PULSE(0 3.3 200n 1n 1n 500n 1u)
+VYCL y giso 1
+VZCL z giso 2
+VRCL r gio 1.65
+VOCL out gio 1.65
+FMONy imon_y 0 VYPORT 1
+RMONy imon_y 0 1
+FMONz imon_z 0 VZPORT 1
+RMONz imon_z 0 1
+FMONr imon_r 0 VRPORT 1
+RMONr imon_r 0 1
+FMONout imon_out 0 VOPORT 1
+RMONout imon_out 0 1
+EISO vmon_iso 0 iso g2 1
+EVSI vmon_vsi 0 vsi giso 1
+EDIFF vmon_diff 0 y z 1
+ER vmon_r 0 r gio 1
+EO vmon_out 0 out gio 1
+.OPTIONS METHOD=GEAR ITL4=100
+.TRAN 1n 4.1u 0 1n
+.PLOT TRAN V(vmon_iso) V(vmon_vsi) V(vmon_diff) V(vmon_r) V(vmon_out) V(imon_y) V(imon_z) V(imon_r) V(imon_out)
+.END

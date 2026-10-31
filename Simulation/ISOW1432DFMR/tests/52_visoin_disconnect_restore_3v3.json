@@ -1,0 +1,306 @@
+{
+  "name": "52_visoin_disconnect_restore_3v3",
+  "models": [
+    "../ISOW1432DFMR.lib"
+  ],
+  "spice": "* 52_visoin_disconnect_restore_3v3\nVPRIMARY p 0 0\nVSECOND s 0 2\nVDD vdd p 5\nVIO vio p 3.3\nVGI gio p 0\nVG1 g1 p 0\nVG2 g2 s 0\nVGISO giso s 0\nXU vio d de rp re gio op en vdd g1 g2 iso mode inp giso vsi yp zp b a ISOW1432DFMR\nVMODE mode g2 0\nVD d gio 3.3\nVDE de gio 3.3\nVRE re gio 0\nVEN en gio 3.3\nVA a giso 1.7\nVB b giso 1.5\nCISO iso g2 10u\nCVSI vsi giso 100n\nVYPORT yp y 0\nVZPORT zp z 0\nVRPORT rp r 0\nVOPORT op out 0\nCR r gio 15p\nCOUT out gio 15p\nVSUPPLYLINK iso link 0\nSPOWER link vsi linkcmd 0 LINKSW\nVLINKCMD linkcmd 0 PWL(0 1 10u 1 10.01u 0 100u 0 100.01u 1)\n.MODEL LINKSW SW(RON=0.1 ROFF=1e12 VT=0.5)\nRDIS vsi giso 330\nEINTRACK inp giso vsi giso 1\nRLOAD y z 120\nVYBIAS ybias giso 1\nVZBIAS zbias giso 2\nVRBIAS rbias gio 1.65\nVOBIAS obias gio 1.65\nRYBIAS y ybias 10k\nRZBIAS z zbias 10k\nRRBIAS r rbias 10k\nROBIAS out obias 10k\nFMONy imon_y 0 VYPORT 1\nRMONy imon_y 0 1\nFMONz imon_z 0 VZPORT 1\nRMONz imon_z 0 1\nFMONr imon_r 0 VRPORT 1\nRMONr imon_r 0 1\nFMONout imon_out 0 VOPORT 1\nRMONout imon_out 0 1\nEISO vmon_iso 0 iso g2 1\nEVSI vmon_vsi 0 vsi giso 1\nEDIFF vmon_diff 0 y z 1\nER vmon_r 0 r gio 1\nEO vmon_out 0 out gio 1\n.OPTIONS METHOD=GEAR ITL4=100\n.TRAN 5n 120u 0 5n\n.PLOT TRAN V(vmon_iso) V(vmon_vsi) V(vmon_diff) V(vmon_r) V(vmon_out) V(imon_y) V(imon_z) V(imon_r) V(imon_out)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(vmon_iso)",
+      "measurement": "min",
+      "min": 3.135,
+      "max": 3.465,
+      "analysis": "tran"
+    },
+    {
+      "signal": "v(vmon_iso)",
+      "measurement": "max",
+      "min": 3.135,
+      "max": 3.465,
+      "analysis": "tran"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "before_visoin",
+      "type": "at",
+      "signal": "v(vmon_vsi)",
+      "x": 5e-06,
+      "limits": {
+        "min": 3.135,
+        "max": 3.465
+      }
+    },
+    {
+      "id": "before_tx_active",
+      "type": "at",
+      "signal": "v(vmon_diff)",
+      "x": 5e-06,
+      "limits": {
+        "min": 1.5,
+        "max": 3.465
+      }
+    },
+    {
+      "id": "before_rx_high",
+      "type": "at",
+      "signal": "v(vmon_r)",
+      "x": 5e-06,
+      "limits": {
+        "min": 3,
+        "max": 3.4
+      }
+    },
+    {
+      "id": "before_gpio_high",
+      "type": "at",
+      "signal": "v(vmon_out)",
+      "x": 5e-06,
+      "limits": {
+        "min": 3,
+        "max": 3.4
+      }
+    },
+    {
+      "id": "restored_visoin",
+      "type": "at",
+      "signal": "v(vmon_vsi)",
+      "x": 0.00011,
+      "limits": {
+        "min": 3.135,
+        "max": 3.465
+      }
+    },
+    {
+      "id": "restored_tx_active",
+      "type": "at",
+      "signal": "v(vmon_diff)",
+      "x": 0.00011,
+      "limits": {
+        "min": 1.5,
+        "max": 3.465
+      }
+    },
+    {
+      "id": "restored_rx_high",
+      "type": "at",
+      "signal": "v(vmon_r)",
+      "x": 0.00011,
+      "limits": {
+        "min": 3,
+        "max": 3.4
+      }
+    },
+    {
+      "id": "restored_gpio_high",
+      "type": "at",
+      "signal": "v(vmon_out)",
+      "x": 0.00011,
+      "limits": {
+        "min": 3,
+        "max": 3.4
+      }
+    },
+    {
+      "id": "disconnected_visoin_discharged",
+      "type": "at",
+      "signal": "v(vmon_vsi)",
+      "x": 8e-05,
+      "limits": {
+        "min": -0.001,
+        "max": 1.5
+      }
+    },
+    {
+      "id": "disconnected_rx_external_bias",
+      "type": "at",
+      "signal": "v(vmon_r)",
+      "x": 8e-05,
+      "limits": {
+        "min": 1.64,
+        "max": 1.66
+      }
+    },
+    {
+      "id": "disconnected_gpio_external_bias",
+      "type": "at",
+      "signal": "v(vmon_out)",
+      "x": 8e-05,
+      "limits": {
+        "min": 1.64,
+        "max": 1.66
+      }
+    },
+    {
+      "id": "disconnected_y_mean",
+      "type": "mean",
+      "signal": "v(imon_y)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": -5e-07,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_y_ripple",
+      "type": "ripple",
+      "signal": "v(imon_y)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": 0,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_z_mean",
+      "type": "mean",
+      "signal": "v(imon_z)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": -5e-07,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_z_ripple",
+      "type": "ripple",
+      "signal": "v(imon_z)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": 0,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_r_mean",
+      "type": "mean",
+      "signal": "v(imon_r)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": -5e-07,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_r_ripple",
+      "type": "ripple",
+      "signal": "v(imon_r)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": 0,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_out_mean",
+      "type": "mean",
+      "signal": "v(imon_out)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": -5e-07,
+        "max": 5e-07
+      }
+    },
+    {
+      "id": "disconnected_out_ripple",
+      "type": "ripple",
+      "signal": "v(imon_out)",
+      "window": {
+        "start": 6e-05,
+        "stop": 9e-05
+      },
+      "limits": {
+        "min": 0,
+        "max": 5e-07
+      }
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "name": "vmon_iso",
+        "type": "signal",
+        "signal": "v(vmon_iso)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_vsi",
+        "type": "signal",
+        "signal": "v(vmon_vsi)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_diff",
+        "type": "signal",
+        "signal": "v(vmon_diff)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_r",
+        "type": "signal",
+        "signal": "v(vmon_r)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_out",
+        "type": "signal",
+        "signal": "v(vmon_out)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_y",
+        "type": "signal",
+        "signal": "v(imon_y)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_z",
+        "type": "signal",
+        "signal": "v(imon_z)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_r",
+        "type": "signal",
+        "signal": "v(imon_r)",
+        "analysis": "tran",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_out",
+        "type": "signal",
+        "signal": "v(imon_out)",
+        "analysis": "tran",
+        "max_points": 5000
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "round": "native_visoin_followup",
+  "cases": [
+    {
+      "name": "46_missing_visoin_3v3_high",
+      "status": "PASS",
+      "test_sha256": "da781ceaa074ebd7d8d9be50818d74775dd5b399daa2a6cd56cdc8d25f95acb0",
+      "result_sha256": "8d4c4e4c360c91579f8369aaeb5e0fcabbd8a2e70bbaf5ff05857062149a8094",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "47_missing_visoin_3v3_low",
+      "status": "PASS",
+      "test_sha256": "91ffcb20d4bbcd7c6691e57bb656118bf7ea95dce0ac57748fe1aa2a38161e17",
+      "result_sha256": "fbdc6936ee8ec1e5a404b60211341fc98d7c5e5a2c2c19189301a4a4dc9af82e",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "48_missing_visoin_5v_high",
+      "status": "PASS",
+      "test_sha256": "89a389bcf613f9611b08a6dccf4a53943bcc0505695a475cd81897aec7bdacff",
+      "result_sha256": "76206f050921ab1783949a440e99d99b12260aeec8b047c92483c8d3db5e41af",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "49_missing_visoin_5v_low",
+      "status": "PASS",
+      "test_sha256": "c42dad19a8d254d087e9de232a9d79e24ceae536534e1844eccd122a3d9b6efb",
+      "result_sha256": "cbd5eeb9a70baa42b58f9948bb4a59d7866ad69b81a24102db51dd8133830e74",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "50_missing_visoin_activity",
+      "status": "PASS",
+      "test_sha256": "f484a5512dcd81f5c964bc637652cb4495e17b105ed3728e1e02bf57923aaabe",
+      "result_sha256": "92b042248957a6e8a61e20f385b51a18275eb8049802033c32792dd4c1b8ab7b",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "51_missing_visoin_startup",
+      "status": "PASS",
+      "test_sha256": "ba71682c0360cd2572f050ed74659976dff80378b6f8bc4480b5b4ed8202765d",
+      "result_sha256": "6bad050d18f841105079f625035112466ce4066c6ef086b0a99b88e665a3d8e6",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "52_visoin_disconnect_restore_3v3",
+      "status": "PASS",
+      "test_sha256": "edaebb6a5a7d3827c7721890c5ddd48ee02c4e9ddee593fe2d10d5f81b36313b",
+      "result_sha256": "2b8e4e4057a52a89a72ecfc809c8b059bb91483c9fe9631683e29bcd5417e40a",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    },
+    {
+      "name": "53_visoin_disconnect_restore_5v",
+      "status": "PASS",
+      "test_sha256": "f26aba1020ad80de255305a69db83796524b73a385d9ea2ba62283167351d75d",
+      "result_sha256": "93c4e816b787b9c2e8881994761823e18d3b4c3af64c032892c71af0bb13ba85",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "User requirement20; TI8.6.1 and8.7 Tables8-2/8-3/8-5, supply-connection footnotes. Unpowered VISOIN Hi-Z and1uA numerical acceptance are ESTIMATED functional-model criteria."
+    }
+  ],
+  "counts": {
+    "PASS": 8,
+    "FAIL": 0,
+    "ERROR": 0
+  }
+}

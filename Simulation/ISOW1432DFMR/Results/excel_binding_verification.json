@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "component": "U0004",
+  "mpn": "ISOW1432DFMR",
+  "sheet": "Микросхемы",
+  "row": 4,
+  "changed_cells": [
+    "AH4",
+    "AI4",
+    "AJ4",
+    "AK4",
+    "AL4",
+    "AM4",
+    "AN4",
+    "AO4"
+  ],
+  "changed_xlsx_parts": [
+    "xl/worksheets/sheet3.xml"
+  ],
+  "old_cells_checked": 56377,
+  "other_values_styles_formulas_caches_preserved": true,
+  "table_ids_unique": true,
+  "dblib_unchanged": true,
+  "model_unchanged": true,
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "xlsx_sha256": "308a7edbfdfab06d749d5b141ba2b069b244946d32260f70e3190adbd1957d3e",
+  "ace_verification": {
+    "status": "PASS",
+    "fields": {
+      "ID": "U0004",
+      "MPN": "ISOW1432DFMR",
+      "Sim Model Name": "ISOW1432DFMR",
+      "Sim Description": "Functional behavioral model from TI SLLSF86D Rev.D; nominal parameters; see Simulation/ISOW1432DFMR/README.md. No thermal/EMC/ESD/isolation physics.",
+      "Sim Kind": "General",
+      "Sim SubKind": "Spice Subcircuit",
+      "Sim Netlist": "@DESIGNATOR %1 %2 %3 %4 %5 %6 %7 %8 %9 %10 %11 %12 %13 %14 %15 %16 %17 %18 %19 %20 @MODEL",
+      "Sim Spice Prefix": "X",
+      "Sim Port Map": "(1:1),(2:2),(3:3),(4:4),(5:5),(6:6),(7:7),(8:8),(9:9),(10:10),(11:11),(12:12),(13:13),(14:14),(15:15),(16:16),(17:17),(18:18),(19:19),(20:20)",
+      "Sim File": "Simulation\\ISOW1432DFMR\\ISOW1432DFMR.lib"
+    },
+    "total_components": 1547,
+    "spice_components": 1184
+  },
+  "excel_verification": {
+    "status": "PASS",
+    "corrupt_load": 0,
+    "read_only": true,
+    "native_cells_verified": 8,
+    "table": "MY_LIB_ICs",
+    "extent": "A1:AO5",
+    "saved": false
+  },
+  "native_dblib_placement_verified": false,
+  "additional_simulation_runs_completed": 0,
+  "existing_model_qualification_unchanged": true,
+  "model_qualification_cases": 56,
+  "verification_scope": "Eight Excel Sim fields, 20-pin mapping, relative model path, existing DbLib mappings; ACE read and normal read-only Excel CorruptLoad=0. No additional Altium simulation required or claimed."
+}

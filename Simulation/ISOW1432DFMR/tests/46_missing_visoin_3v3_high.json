@@ -1,0 +1,132 @@
+{
+  "name": "46_missing_visoin_3v3_high",
+  "models": [
+    "../ISOW1432DFMR.lib"
+  ],
+  "spice": "* 46_missing_visoin_3v3_high\nVPRIMARY p 0 0\nVSECOND s 0 2\nVDD vdd p 5\nVIO vio p 3.3\nVGI gio p 0\nVG1 g1 p 0\nVG2 g2 s 0\nVGISO giso s 0\nXU vio d de rp re gio op en vdd g1 g2 iso mode inp giso vsi yp zp b a ISOW1432DFMR\nVMODE mode g2 0\nVD d gio 3.3\nVDE de gio 3.3\nVRE re gio 0\nVEN en gio 3.3\nVA a giso 1.7\nVB b giso 1.5\nCISO iso g2 10u\nCVSI vsi giso 100n\nVYPORT yp y 0\nVZPORT zp z 0\nVRPORT rp r 0\nVOPORT op out 0\nCR r gio 15p\nCOUT out gio 15p\nRVSIMISS vsi giso 1Meg\nVIN inp giso 3.3\nVYCL y giso 1\nVZCL z giso 2\nVRCL r gio 1.65\nVOCL out gio 1.65\nFMONy imon_y 0 VYPORT 1\nRMONy imon_y 0 1\nFMONz imon_z 0 VZPORT 1\nRMONz imon_z 0 1\nFMONr imon_r 0 VRPORT 1\nRMONr imon_r 0 1\nFMONout imon_out 0 VOPORT 1\nRMONout imon_out 0 1\nEISO vmon_iso 0 iso g2 1\nEVSI vmon_vsi 0 vsi giso 1\nEDIFF vmon_diff 0 y z 1\nER vmon_r 0 r gio 1\nEO vmon_out 0 out gio 1\n.OPTIONS METHOD=GEAR ITL4=100\n.OP\n.PLOT OP V(vmon_iso) V(vmon_vsi) V(vmon_diff) V(vmon_r) V(vmon_out) V(imon_y) V(imon_z) V(imon_r) V(imon_out)\n.END\n",
+  "checks": [
+    {
+      "signal": "v(vmon_vsi)",
+      "measurement": "last",
+      "min": -0.001,
+      "max": 0.001,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(imon_y)",
+      "measurement": "last",
+      "min": -1e-06,
+      "max": 1e-06,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(imon_z)",
+      "measurement": "last",
+      "min": -1e-06,
+      "max": 1e-06,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(imon_r)",
+      "measurement": "last",
+      "min": -1e-06,
+      "max": 1e-06,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(imon_out)",
+      "measurement": "last",
+      "min": -1e-06,
+      "max": 1e-06,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(vmon_iso)",
+      "measurement": "last",
+      "min": 3.135,
+      "max": 3.465,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(vmon_r)",
+      "measurement": "last",
+      "min": 1.649,
+      "max": 1.651,
+      "analysis": "op"
+    },
+    {
+      "signal": "v(vmon_out)",
+      "measurement": "last",
+      "min": 1.649,
+      "max": 1.651,
+      "analysis": "op"
+    }
+  ],
+  "output": {
+    "graphs": [
+      {
+        "name": "vmon_iso",
+        "type": "signal",
+        "signal": "v(vmon_iso)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_vsi",
+        "type": "signal",
+        "signal": "v(vmon_vsi)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_diff",
+        "type": "signal",
+        "signal": "v(vmon_diff)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_r",
+        "type": "signal",
+        "signal": "v(vmon_r)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "vmon_out",
+        "type": "signal",
+        "signal": "v(vmon_out)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_y",
+        "type": "signal",
+        "signal": "v(imon_y)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_z",
+        "type": "signal",
+        "signal": "v(imon_z)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_r",
+        "type": "signal",
+        "signal": "v(imon_r)",
+        "analysis": "op",
+        "max_points": 5000
+      },
+      {
+        "name": "imon_out",
+        "type": "signal",
+        "signal": "v(imon_out)",
+        "analysis": "op",
+        "max_points": 5000
+      }
+    ]
+  }
+}

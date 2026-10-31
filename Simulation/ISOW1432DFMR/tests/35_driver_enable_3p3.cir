@@ -1,0 +1,45 @@
+* 35_driver_enable_3p3
+.include "../ISOW1432DFMR.lib"
+VPRIMARY p 0 0
+VSECOND s 0 2
+VDD vdd p 3.3
+VIO vio p 3.3
+VGI gio p 0
+VG1 g1 p 0
+VG2 g2 s 0
+VGISO giso s 0
+XU vio d de r re gio out en vdd g1 g2 iso mode inp giso vsi y z b a ISOW1432DFMR
+VLINK iso vsi 0
+VMODE mode g2 0
+VD d gio 3.3
+VDE de gio PULSE(0 3.3 1u 1n 1n 500n 1u)
+VRE re gio 3.3
+VEN en gio 3.3
+VIN inp giso 0
+VA a giso 1.5
+VB b giso 1.5
+CISO iso g2 10u
+CR r gio 15p
+COUT out gio 15p
+RFIG y giso 110
+CFIG y giso 50p
+RFIGZ z giso 110
+EVI vi 0 iso g2 1
+EVD vd 0 y z 1
+ERY rr 0 r gio 1
+EGO oo 0 out gio 1
+EYY yy 0 y giso 1
+EZZ zz 0 z giso 1
+EDD dd 0 d gio 1
+EAA aa 0 a b 1
+EIN ii 0 inp giso 1
+FIDD idd 0 VDD 1
+RIDD idd 0 1
+FIIO iio 0 VIO 1
+RIIO iio 0 1
+Ede_mon de_mon 0 de gio 1
+Ere_mon re_mon 0 re gio 1
+.OPTIONS METHOD=GEAR ITL4=100
+.TRAN .25n 2u 0 .25n
+.PLOT TRAN V(vi) V(vd) V(rr) V(oo) V(yy) V(zz) V(dd) V(aa) V(ii) V(idd) V(iio) V(de_mon) V(re_mon)
+.END

@@ -1,0 +1,48 @@
+{
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "round": "native_extra_flat",
+  "cases": [
+    {
+      "name": "42_receiver_hysteresis",
+      "status": "PASS",
+      "test_sha256": "5719be1234353e2fadd17aa6e1c73f62f40c7f204e5ba17e2cadd990d97ed469",
+      "result_sha256": "708773824dafb29f5f6738c277eccff93bb14b1e2157598d16ae1aae84066efa",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "TI6.9 VTH+\u221278mV VTH\u2212\u2212141mV hysteresis63mV"
+    },
+    {
+      "name": "43_converter_overload",
+      "status": "PASS",
+      "test_sha256": "93fe975e17b046219c8a4f00797de3ffddffd49ac3677abcb2335a0dad67d7a4",
+      "result_sha256": "337dc7aac8212100c0afd7a9f129af14af23ab1b0d01e0852a718ec6bf47b3ea",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "ESTIMATED converter150mA limit, not a TI guaranteed overload specification"
+    },
+    {
+      "name": "44_gpio_2mbps",
+      "status": "PASS",
+      "test_sha256": "95fd98318e0435578c344a2ed60ba100f5c2799d42dc861ea6343770486d28d1",
+      "result_sha256": "3a9352a2a3fc36d88f25422080982a1d35a2239b9cc8e74e392557e8e96be3ff",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12 GPIO227ns; max2Mbps, UI500ns period1us"
+    },
+    {
+      "name": "45_vdd_hysteresis_numerical_tolerance",
+      "status": "PASS",
+      "test_sha256": "21bf89b553faf31d765e444c2a1b675aa9ac20d1fae593145aefe25d12fce8a6",
+      "result_sha256": "78ca02bdf2e2243382bfe496eb94513286d421386fcbaf284b03360b1c5efead",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8.6 UVLO+2.8V UVLO\u22122.55V typical"
+    }
+  ],
+  "counts": {
+    "PASS": 4,
+    "FAIL": 0,
+    "ERROR": 0
+  }
+}

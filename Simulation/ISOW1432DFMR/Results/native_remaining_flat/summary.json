@@ -1,0 +1,425 @@
+{
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "round": "native_remaining_flat",
+  "cases": [
+    {
+      "name": "24_current_tx_3v3",
+      "status": "FAIL",
+      "test_sha256": "2c9a731d87e22d24dcc41772032f193d005bb48c77e418044a3318551cee3958",
+      "result_sha256": "5b12d17fe7b3346583105bae2f33172b400f0ccff9f8ea377dd2390ff26de4ab",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "source_test_sha256": "3e8de824db13a1b76733f054d088800ad66fc9e18997eb84730910a96a3ce38e",
+      "executed_test_sha256": "2c9a731d87e22d24dcc41772032f193d005bb48c77e418044a3318551cee3958",
+      "executed_test_path": "tests/runtime/native_remaining_flat/24_current_tx_3v3.json",
+      "adaptation": "Only transient stop time padded 5u to 5.1u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "24_current_tx_5v",
+      "status": "FAIL",
+      "test_sha256": "e3167893891e394ab0d3eb8661a3b12a22d1e0c0fbbf9068190df52bf7858b34",
+      "result_sha256": "650dc8ad413fa790a5597016d6f711a9326d577fb13b761d19e5dbf68582d225",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "source_test_sha256": "46516a36fddd5d153897712d1f2c6078c8882d7221e019396bfa17118110297b",
+      "executed_test_sha256": "e3167893891e394ab0d3eb8661a3b12a22d1e0c0fbbf9068190df52bf7858b34",
+      "executed_test_path": "tests/runtime/native_remaining_flat/24_current_tx_5v.json",
+      "adaptation": "Only transient stop time padded 5u to 5.1u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "25_current_rx",
+      "status": "PASS",
+      "test_sha256": "0c446762c6af735592554169bc4e3e01fef9a6ad3ff1c4576541e2c86b33a947",
+      "result_sha256": "7ddf020dff54a84cbc93e5b09ea104b1b87be1903953e3e30d37a7796641fd09",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.10 RX12Mbps CL15pF VDD=VIO=5V",
+      "source_test_sha256": "84178b4ab4496dd05ecaca6d25cb6c505fd4fe33f9f29b1001ebcb938904f2e9",
+      "executed_test_sha256": "0c446762c6af735592554169bc4e3e01fef9a6ad3ff1c4576541e2c86b33a947",
+      "executed_test_path": "tests/runtime/native_remaining_flat/25_current_rx.json",
+      "adaptation": "Only transient stop time padded 5u to 5.1u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "26_current_loopback",
+      "status": "FAIL",
+      "test_sha256": "035a3669854620b2f3b9f929b46f18c1e6f6a087ddc01a14e0f42d1d8fc875f0",
+      "result_sha256": "18a38214f28c940fb44958de9997ab1b3fff12569277c313188205cadc721a49",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "6.10 ISOW1432 loopback120ohm||50pF CL15pF12Mbps VDD=VIO=5V",
+      "source_test_sha256": "2c0ac8e24d6e8badd61175a7866b9b1b4ce3e5cd5fdcc5d25b76e2849f999b64",
+      "executed_test_sha256": "035a3669854620b2f3b9f929b46f18c1e6f6a087ddc01a14e0f42d1d8fc875f0",
+      "executed_test_path": "tests/runtime/native_remaining_flat/26_current_loopback.json",
+      "adaptation": "Only transient stop time padded 5u to 5.1u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "27_tx_timing_3p3",
+      "status": "PASS",
+      "test_sha256": "f018b11a8bf554cebba1cac7c823bfdef25879fc69f16cdaa5869f7bce8b71e6",
+      "result_sha256": "360969c9a9a96ed444946b238006f63abe43b682dca47a8d1a821a6495b30f3a",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "tx_rise_10_90",
+          "value": 1.4874629973158307e-08,
+          "min": 1.0499999999999998e-08,
+          "max": 1.95e-08,
+          "status": "PASS"
+        },
+        {
+          "id": "tx_fall_90_10",
+          "value": 1.7146369021079873e-08,
+          "min": 1.0499999999999998e-08,
+          "max": 1.95e-08,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 Fig7-3 RL54ohm CL50pF"
+    },
+    {
+      "name": "27_tx_timing_5",
+      "status": "PASS",
+      "test_sha256": "34a3dabd140be3ebfb53244710b63082aa1477f14b8475481ab7d0cfee3aef0c",
+      "result_sha256": "3d676599d062d3dab24a0d63ebc87e5bbf1106ca08cde869aee47f92cd55de23",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "tx_rise_10_90",
+          "value": 9.784855876511714e-09,
+          "min": 7e-09,
+          "max": 1.3e-08,
+          "status": "PASS"
+        },
+        {
+          "id": "tx_fall_90_10",
+          "value": 1.1930451151432203e-08,
+          "min": 7e-09,
+          "max": 1.3e-08,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 Fig7-3 RL54ohm CL50pF"
+    },
+    {
+      "name": "28_rx_timing_3p3",
+      "status": "PASS",
+      "test_sha256": "056c097221a92a6ce19ec134febb37700d499ee0ce8bb4dac720c872425e741b",
+      "result_sha256": "5f8b2c60a58cdd0e7592e0bd38b84e4593ecffb71bdcd53e662e0cae4fa07135",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12/6.13 receiverCL15pF Fig7-7 A0to3V B1.5V"
+    },
+    {
+      "name": "28_rx_timing_5",
+      "status": "PASS",
+      "test_sha256": "3a044226fa9a7f97fd55a4433405823dc92fc6196483cc26548bd30bb2ae17d3",
+      "result_sha256": "63a7d49eecd6aa0b49123eb21e4bab9ebd13e0721710b4aba107c45b094ab4d9",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12/6.13 receiverCL15pF Fig7-7 A0to3V B1.5V"
+    },
+    {
+      "name": "29_float_inputs",
+      "status": "PASS",
+      "test_sha256": "259c9273aae97054dcafc0a61f4acc8a522bb6a5365936cfa01651176e82e54c",
+      "result_sha256": "500c14d8fcff4940264090110153cfd9395404adbfe7fe6051de546740000340",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "5,8.7 input defaults"
+    },
+    {
+      "name": "30_float_d",
+      "status": "PASS",
+      "test_sha256": "773b9ab6888a2a35c4bca61f13e8ea95d082b7eba4ee9a37ae92c2da3ba51c3b",
+      "result_sha256": "e99d1ce36bed6366cb21babc94c46ec072e1b7e9b50e1408429b1fdaf3d78edf",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8-2 Dfloating HIGH"
+    },
+    {
+      "name": "31_hiz_currents",
+      "status": "PASS",
+      "test_sha256": "b7393131a9f99c05cf45c96bebbf27ff5bcda37a0fb86e98ddc28bb655f7a1ac",
+      "result_sha256": "dc037701f703370098c648c85f02c128e567389cd78d1b241a1bb94538e7b3b4",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 IOZ R \u00b11uA; Y/Z functional HiZ \u00b11uA ESTIMATED"
+    },
+    {
+      "name": "32_short_current",
+      "status": "PASS",
+      "test_sha256": "2c58a62bf190e87a84ea0433916468fa764aaf06cb7d1b630f95edb8a1fc9aeb",
+      "result_sha256": "638d51c529c05fcb78eeeb4f941baa17744cecad8816e7d2406690056a6ede8d",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 IOS max180mA"
+    },
+    {
+      "name": "33_vio_loss",
+      "status": "PASS",
+      "test_sha256": "f914b75a618cf82b1dd95e049372305acd07cbbd6cb2f9f47a0236f8bb44cbd3",
+      "result_sha256": "6210bc49ab269eb9f3a4c97c5249625081d6dd6f0e6151cb6f2aa732e52fae16",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "T\u0417 VIO UVLO ESTIMATED; 8.7 missingVIO invalid no normal communication"
+    },
+    {
+      "name": "34_vdd_hysteresis",
+      "status": "FAIL",
+      "test_sha256": "86fdfb348cc30c0beca7ba92fcf821ae11c87f7f700df5b5f1d5b4c373ccd516",
+      "result_sha256": "a536d21e52e2a8e4dbdacb6a1da47d8a715b7a81d17d033cad9d23c74439f508",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "8.6 UVLO+2.8V UVLO-2.55V typical"
+    },
+    {
+      "name": "35_driver_enable_3p3",
+      "status": "PASS",
+      "test_sha256": "0b2877e74f65cb33ecda1c188f04ae43a46eccf2604a162fdca212d6b6c05e55",
+      "result_sha256": "8f69b88ec85a8f67510a417a2b27a3485c7d905e7a6bf5ea5057c373d4050998",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "enable_50percent",
+          "value": 4.678864428988857e-08,
+          "min": 0,
+          "max": 1.5e-07,
+          "status": "PASS"
+        },
+        {
+          "id": "disable_90percent",
+          "value": 3.582800468856884e-08,
+          "min": 0,
+          "max": 1.25e-07,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 driverenable Figure7-5 R110ohm C50pF"
+    },
+    {
+      "name": "36_receiver_enable_3p3",
+      "status": "PASS",
+      "test_sha256": "b0679a623aee5ed6a105c1eb00b51f0cee57ef6615fac0e8b1630f01b687c8b8",
+      "result_sha256": "97a82ed0c48cc48e4ac9c097ae1663619025de5db3b931e53f5569b0b1ae2354",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "enable_50percent",
+          "value": 6.741608388064786e-09,
+          "min": 0,
+          "max": 3e-08,
+          "status": "PASS"
+        },
+        {
+          "id": "disable_90percent",
+          "value": 7.834814696414638e-09,
+          "min": 0,
+          "max": 3e-08,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 receiverenable Figure7-8 R1kohm C15pF"
+    },
+    {
+      "name": "35_driver_enable_5",
+      "status": "PASS",
+      "test_sha256": "22b05e036804065d88cf78a9180136d4ddf32cd139dd587c709ed012a1595200",
+      "result_sha256": "e0a328f0c65d077ec14188e3f377b2107bfe933904969aff61d522f4a02019eb",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "enable_50percent",
+          "value": 3.478009776461874e-08,
+          "min": 0,
+          "max": 1.5e-07,
+          "status": "PASS"
+        },
+        {
+          "id": "disable_90percent",
+          "value": 3.082816192078534e-08,
+          "min": 0,
+          "max": 1.25e-07,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 driverenable Figure7-5 R110ohm C50pF"
+    },
+    {
+      "name": "36_receiver_enable_5",
+      "status": "PASS",
+      "test_sha256": "c6e1d596352af96c5fb9fa98d4bf2646faf056851b3762f57206bfc979be52e0",
+      "result_sha256": "578c82c62ad5be5a5b9e7b164b4d57757327935c68ad9ec60163010033e545a1",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "enable_50percent",
+          "value": 5.290151435506577e-09,
+          "min": 0,
+          "max": 3e-08,
+          "status": "PASS"
+        },
+        {
+          "id": "disable_90percent",
+          "value": 6.333444318012621e-09,
+          "min": 0,
+          "max": 3e-08,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.12/6.13 receiverenable Figure7-8 R1kohm C15pF"
+    },
+    {
+      "name": "37_iio_dynamic",
+      "status": "PASS",
+      "test_sha256": "0b00df47663367bc6fa1631e7948bbf2d2691891e7a5f3f27ddc474483580120",
+      "result_sha256": "525e9fa8415075ac2a23db6ffd4b1eed66ad4354c045eebf610f837b9243428b",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.10 IIO VIO3.3V ISOW1432 loopback12Mbps",
+      "source_test_sha256": "9a02a203f48370f40eacee50595ddd5128b2e44373913eb4a49e482ab44122a1",
+      "executed_test_sha256": "0b00df47663367bc6fa1631e7948bbf2d2691891e7a5f3f27ddc474483580120",
+      "executed_test_path": "tests/runtime/native_remaining_flat/37_iio_dynamic.json",
+      "adaptation": "Only transient stop time padded 5u to 5.1u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "38_gpio_timing",
+      "status": "PASS",
+      "test_sha256": "653c1fc11538d039a10e2a91c3b2632a95b748b6a3a18750ffc597871e3ad1f2",
+      "result_sha256": "78c55dc30441fada26fc0435300ee3454c49d32100839f459047a886b8ecec1c",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12 Figure7-11 CL15pF PRR50kHz"
+    },
+    {
+      "name": "39_steady_24_current_tx_3v3",
+      "status": "PASS",
+      "test_sha256": "9b49763754f9e3adedaf52a7c6715ce4f3d5eec9b3cb3297390c561e72f4df6f",
+      "result_sha256": "917d6d48614d7ff7e27773ec0ebb84805582d983cc7f8a3a120c2f8d6942d081",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "idd_settling_drift",
+          "value": 5.344717092520268e-05,
+          "min": 0,
+          "max": 0.00174,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "source_test_sha256": "6e15660d54a1a98222bddaaba06e7b95c00cc2ca09c93ff49f1aee8ba702ba35",
+      "executed_test_sha256": "9b49763754f9e3adedaf52a7c6715ce4f3d5eec9b3cb3297390c561e72f4df6f",
+      "executed_test_path": "tests/runtime/native_remaining_flat/39_steady_24_current_tx_3v3.json",
+      "adaptation": "Only transient stop time padded 200u to 201u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "39_steady_24_current_tx_5v",
+      "status": "PASS",
+      "test_sha256": "9dc8ef1b410834f6b62042d82f428c375a18f45c290a142859452b0558b05145",
+      "result_sha256": "3f4c5496dfa038e99508fdc8685291b2423a6a01dc071235e13f427057542b79",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "idd_settling_drift",
+          "value": 9.14465467885539e-05,
+          "min": 0,
+          "max": 0.00292,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps",
+      "source_test_sha256": "261b7d6d549ee0879c45d58040c4727a05ce8f563521cf4c0188ec07e01780a5",
+      "executed_test_sha256": "9dc8ef1b410834f6b62042d82f428c375a18f45c290a142859452b0558b05145",
+      "executed_test_path": "tests/runtime/native_remaining_flat/39_steady_24_current_tx_5v.json",
+      "adaptation": "Only transient stop time padded 200u to 201u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "39_steady_25_current_rx",
+      "status": "PASS",
+      "test_sha256": "2698d559f792f03c2727f3679d117fce8c17d7242bfbdf7fa4eba1dc20080c11",
+      "result_sha256": "1bfcf8b8082b57964d0aea9bbeff7cfa46570f1c33c4e658e408ab72ce5bc601",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "idd_settling_drift",
+          "value": 2.2557129775169216e-13,
+          "min": 0,
+          "max": 0.0003,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.10 RX12Mbps CL15pF VDD=VIO=5V",
+      "source_test_sha256": "4077123403eb2747bff120565151d98a3580d027f2aab6d81859f96a4776f5b4",
+      "executed_test_sha256": "2698d559f792f03c2727f3679d117fce8c17d7242bfbdf7fa4eba1dc20080c11",
+      "executed_test_path": "tests/runtime/native_remaining_flat/39_steady_25_current_rx.json",
+      "adaptation": "Only transient stop time padded 200u to 201u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "39_steady_26_current_loopback",
+      "status": "PASS",
+      "test_sha256": "c33094e4887261446f2313fa4f544e5ece34f8bcc5bf7de278a5eb1805583986",
+      "result_sha256": "983fc3c476bcf6a0d97d4b6dfdfc8ef3a26bcb4fde56063e21e3ca59ba669041",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "idd_settling_drift",
+          "value": 5.3558061529193624e-05,
+          "min": 0,
+          "max": 0.0018,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.10 ISOW1432 loopback120ohm||50pF CL15pF12Mbps VDD=VIO=5V",
+      "source_test_sha256": "29d82af35f51c12c1f2ca448429b1c291f3d70e6e49d93d2539316521fc21817",
+      "executed_test_sha256": "c33094e4887261446f2313fa4f544e5ece34f8bcc5bf7de278a5eb1805583986",
+      "executed_test_path": "tests/runtime/native_remaining_flat/39_steady_26_current_loopback.json",
+      "adaptation": "Only transient stop time padded 200u to 201u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "39_steady_37_iio_dynamic",
+      "status": "PASS",
+      "test_sha256": "62f2fd563f3a7b88312a53a89d7db93ca0443e95085cf374e08428ee07977daa",
+      "result_sha256": "9b683039984d01beff817bb436f5978009215ca3226745fa976149db24d9f2e9",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "iio_settling_drift",
+          "value": 8.162496301341096e-07,
+          "min": 0,
+          "max": 9.2e-05,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.10 IIO VIO3.3V ISOW1432 loopback12Mbps",
+      "source_test_sha256": "fe75e76aae65e793a9221d86e31131f4fd26f130a3c4622fd509246a67025bc5",
+      "executed_test_sha256": "62f2fd563f3a7b88312a53a89d7db93ca0443e95085cf374e08428ee07977daa",
+      "executed_test_path": "tests/runtime/native_remaining_flat/39_steady_37_iio_dynamic.json",
+      "adaptation": "Only transient stop time padded 200u to 201u. All measurement windows, limits and circuit elements unchanged. Model include rebased relatively."
+    },
+    {
+      "name": "40_invalid_mode_reviewed",
+      "status": "PASS",
+      "test_sha256": "d97f24df8e4b01829e6ee45db63ad83e475619bfb5895052a9675e5c20bace9c",
+      "result_sha256": "4709d9d41d29ddb54198cee7baeec3b7bca9a35fec18c44aa2fff1bb7aaa7c7f",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8.7 Table8-1"
+    },
+    {
+      "name": "41_en_low_numerical_tolerance",
+      "status": "PASS",
+      "test_sha256": "2985665bc470cca75e7a07e663ae5e40df67ed55dfdfac3c61bcf27e8cb023cf",
+      "result_sha256": "96f0719a7a7c6295a4312e44810516a5a1b28568eb6066d771f76b9cd5a696e4",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8.7 Tables8-3/8-4/8-5"
+    }
+  ],
+  "counts": {
+    "PASS": 23,
+    "FAIL": 4,
+    "ERROR": 0
+  }
+}

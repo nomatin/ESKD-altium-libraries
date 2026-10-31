@@ -1,0 +1,58 @@
+* 53_visoin_disconnect_restore_5v
+.include "../ISOW1432DFMR.lib"
+VPRIMARY p 0 0
+VSECOND s 0 2
+VDD vdd p 5
+VIO vio p 3.3
+VGI gio p 0
+VG1 g1 p 0
+VG2 g2 s 0
+VGISO giso s 0
+XU vio d de rp re gio op en vdd g1 g2 iso mode inp giso vsi yp zp b a ISOW1432DFMR
+VMODE mode iso 0
+VD d gio 3.3
+VDE de gio 3.3
+VRE re gio 0
+VEN en gio 3.3
+VA a giso 1.7
+VB b giso 1.5
+CISO iso g2 10u
+CVSI vsi giso 100n
+VYPORT yp y 0
+VZPORT zp z 0
+VRPORT rp r 0
+VOPORT op out 0
+CR r gio 15p
+COUT out gio 15p
+VSUPPLYLINK iso link 0
+SPOWER link vsi linkcmd 0 LINKSW
+VLINKCMD linkcmd 0 PWL(0 1 10u 1 10.01u 0 100u 0 100.01u 1)
+.MODEL LINKSW SW(RON=0.1 ROFF=1e12 VT=0.5)
+RDIS vsi giso 330
+EINTRACK inp giso vsi giso 1
+RLOAD y z 120
+VYBIAS ybias giso 1
+VZBIAS zbias giso 2
+VRBIAS rbias gio 1.65
+VOBIAS obias gio 1.65
+RYBIAS y ybias 10k
+RZBIAS z zbias 10k
+RRBIAS r rbias 10k
+ROBIAS out obias 10k
+FMONy imon_y 0 VYPORT 1
+RMONy imon_y 0 1
+FMONz imon_z 0 VZPORT 1
+RMONz imon_z 0 1
+FMONr imon_r 0 VRPORT 1
+RMONr imon_r 0 1
+FMONout imon_out 0 VOPORT 1
+RMONout imon_out 0 1
+EISO vmon_iso 0 iso g2 1
+EVSI vmon_vsi 0 vsi giso 1
+EDIFF vmon_diff 0 y z 1
+ER vmon_r 0 r gio 1
+EO vmon_out 0 out gio 1
+.OPTIONS METHOD=GEAR ITL4=100
+.TRAN 5n 120u 0 5n
+.PLOT TRAN V(vmon_iso) V(vmon_vsi) V(vmon_diff) V(vmon_r) V(vmon_out) V(imon_y) V(imon_z) V(imon_r) V(imon_out)
+.END

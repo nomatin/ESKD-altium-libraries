@@ -1,0 +1,176 @@
+* ISOW1432DFMR functional behavioral model. NOT a TI transistor model.
+* Source: TI SLLSF86D, revised August 2026. See datasheet_parameters.md.
+* Pin numbers: 1 VIO,2 D,3 DE,4 R,5 RE,6 GNDIO,7 OUT,8 EN/FLT,
+* 9 VDD,10 GND1,11 GND2,12 VISOOUT,13 MODE,14 IN,15 GISOIN,
+* 16 VISOIN,17 Y,18 Z,19 B,20 A. ENFLT denotes the one physical pin 8.
+* No global ground and no implicit external supply/ground connections.
+* Fixed primitive SW thresholds/T delays: parameterized helpers crashed MixedSim.
+* Both terminals of each T line stay in the same local reference domain.
+.SUBCKT ISOW1432DFMR VIO D DE R RE GNDIO OUT ENFLT VDD GND1
++ GND2 VISOOUT MODE IN GISOIN VISOIN Y Z B A
++ PARAMS: VISO_TRIM=0 FORCE_FAULT=0 FAULT_OUTPUT=0
++ IISO_LIMIT=0.15 BUS_ILIMIT=0.18 RDRIVER=20 TSS=1m
+*
+* Documented input pulls: D/RE 500k up, DE 500k down (section 8.8).
+RD D VIO 500k
+RDE DE GNDIO 500k
+RRE RE VIO 500k
+REN ENFLT VIO 250k
+RIN IN GISOIN 250k
+RMODE MODE GND2 1Meg
+RA A GISOIN 1Meg
+RB B GISOIN 1Meg
+RYLEAK Y GISOIN 1G
+RZLEAK Z GISOIN 1G
+RRLEAK R GNDIO 1G
+ROLEAK OUT GNDIO 1G
+RVISOLEAK VISOOUT GND2 1G
+RVISOIN VISOIN GISOIN 100Meg
+*
+* Hysteretic supplies: VDD 2.8/2.55 TI typ; VIO 1.65/1.525 ESTIMATED.
+BDDONE DDONE GND1 V=1
+SDDSTATE DDONE ddok VDD GND1 SWDD
+RDDSTATE ddok GND1 1k
+.MODEL SWDD SW(RON=0.001 ROFF=1e12 VT=2.675 VH=0.125)
+BIOONE IOONE GNDIO V=1
+SIOSTATE IOONE iook VIO GNDIO SWIO
+RIOSTATE iook GNDIO 1k
+.MODEL SWIO SW(RON=0.001 ROFF=1e12 VT=1.5875 VH=0.0625)
+BISONE ISONE GISOIN V=1
+SISSTATE ISONE isok VISOIN GISOIN SWIS
+RISSTATE isok GISOIN 1k
+.MODEL SWIS SW(RON=0.001 ROFF=1e12 VT=2.675 VH=0.125)
+BMODEONE MODEONE GND2 V=1
+SMODESTATE MODEONE mode5 MODE GND2 SWMODE
+RMODESTATE mode5 GND2 1k
+.MODEL SWMODE SW(RON=0.001 ROFF=1e12 VT=0.8 VH=0.7)
+BENLOG enratio GNDIO V={V(ENFLT,GNDIO)/max(V(VIO,GNDIO),0.1)}
+BENONE ENONE GNDIO V=1
+SENSTATE ENONE enok enratio GNDIO SWEN
+RENSTATE enok GNDIO 1k
+.MODEL SWEN SW(RON=0.001 ROFF=1e12 VT=0.5 VH=0.2)
+BFAULT fault GND1 V={if(V(VDD,GND1)>7,1,if(V(VDD,GND1)<2.5,1,if(FORCE_FAULT>0.5,1,0)))}
+* Optional open-drain FLT use only. Do not enable against an ideal EN source.
+BFLTPIN ENFLT GNDIO I={if(FAULT_OUTPUT>0.5,V(fault,GND1)*max(V(ENFLT,GNDIO),0)/100,0)}
+BRUN run GND1 V={if(V(ddok,GND1)>0.5,if(V(iook,GNDIO)>0.5,if(V(enok,GNDIO)>0.5,if(V(fault,GND1)<0.5,1,0),0),0),0)}
+BTARGET target GND2 V={(3.3+1.7*V(mode5,GND2)*if(V(VDD,GND1)>=4.5,1,0))*(1+VISO_TRIM)}
+*
+* Average converter: no 25MHz switching; finite 0.501ohm Thevenin regulator.
+* Current-dependent droop limits about 150..155mA; OFF switch is 1Tohm.
+* Enabled output may absorb current; reverse-power physics is NOT_MODELED.
+* Csoft is control state, not an added physical output capacitor.
+CSS ss GND1 1u IC=0
+BSSCMD sscmd GND1 V={V(run,GND1)}
+RSS sscmd ss {TSS/1u}
+BSSOFF ssoff GND1 V={1-V(run,GND1)}
+SSRESET ss GND1 ssoff GND1 SSRESET
+.MODEL SSRESET SW(RON=10 ROFF=1e12 VT=0.5)
+BREG rcmd GND2 V={V(target,GND2)*min(max(V(ss,GND1),0),1)-1000*max(I(VREGSENSE)-IISO_LIMIT,0)+1000*max(-I(VREGSENSE)-IISO_LIMIT,0)}
+SREG rcmd dreg run GND1 REGSW
+RREG dreg reg 0.001
+.MODEL REGSW SW(RON=0.5 ROFF=1e12 VT=0.5)
+
+VREGSENSE reg VISOOUT 0
+* No forced discharge while disabled: output decays through actual external loads
+* and the modeled receiver/transmitter supply draw when VISOIN is connected.
+BREADY ready GND1 V={if(V(mode5,GND2)>0.5,if(V(VDD,GND1)>=4.5,1,0),1)*if(V(run,GND1)>0.5,if(V(ss,GND1)>0.985,if(V(VISOOUT,GND2)>0.9*V(target,GND2),if(V(isok,GISOIN)>0.5,1,0),0),0),0)}
+*
+* Logic input thresholds 0.7/0.3 times local supply; undefined band retains.
+BDR dratio GNDIO V={V(D,GNDIO)/max(V(VIO,GNDIO),0.1)}
+BDER deratio GNDIO V={V(DE,GNDIO)/max(V(VIO,GNDIO),0.1)}
+BRER reratio GNDIO V={V(RE,GNDIO)/max(V(VIO,GNDIO),0.1)}
+BDONE DONE GNDIO V=1
+SDSTATE DONE dl dratio GNDIO SWD
+RDSTATE dl GNDIO 1k
+.MODEL SWD SW(RON=0.001 ROFF=1e12 VT=0.5 VH=0.2)
+BDEONE DEONE GNDIO V=1
+SDESTATE DEONE del deratio GNDIO SWDE
+RDESTATE del GNDIO 1k
+.MODEL SWDE SW(RON=0.001 ROFF=1e12 VT=0.5 VH=0.2)
+BREONE REONE GNDIO V=1
+SRESTATE REONE rel reratio GNDIO SWRE
+RRESTATE rel GNDIO 1k
+.MODEL SWRE SW(RON=0.001 ROFF=1e12 VT=0.5 VH=0.2)
+* Matched lossless transmission lines implement transport delay, no dialect delay().
+BD33DLY D33SRC GNDIO V={2*V(dl,GNDIO)}
+RD33DLY D33SRC D33TI 1k
+TD33DLY D33TI GNDIO d33 GNDIO Z0=1k TD=44n
+RD33TERM d33 GNDIO 1k
+BD50DLY D50SRC GNDIO V={2*V(dl,GNDIO)}
+RD50DLY D50SRC D50TI 1k
+TD50DLY D50TI GNDIO d50 GNDIO Z0=1k TD=36.3n
+RD50TERM d50 GNDIO 1k
+BDSEL dsel GNDIO V={if(V(mode5,GND2)>0.5,V(d50,GNDIO),V(d33,GNDIO))}
+CDS ds GNDIO 1p
+BDS GNDIO ds I={(V(dsel,GNDIO)-V(ds,GNDIO))*1p/if(V(mode5,GND2)>0.5,4.2n,6.6n)}
+* DE enable/disable time constants calibrated at the half-logic point.
+CDE deq GNDIO 1p
+BDEQ GNDIO deq I={(V(del,GNDIO)-V(deq,GNDIO))*1p/if(V(del,GNDIO)>0.5,if(V(mode5,GND2)>0.5,49n,66.4n),if(V(mode5,GND2)>0.5,43.3n,50.5n))}
+BTX txon GNDIO V={if(V(ready,GND1)>0.5,if(V(deq,GNDIO)>0.5,1,0),0)}
+* Finite Thevenin driver with symmetric current-dependent voltage droop.
+* Limit knee=0.999*BUS_ILIMIT, 1Mohm incremental R; below180mA over -7..12V.
+BY ydrv GISOIN V={max(V(VISOIN,GISOIN),0)*min(max(V(ds,GNDIO),0),1)-1Meg*max(I(VYSENSE)-0.999*BUS_ILIMIT,0)+1Meg*max(-I(VYSENSE)-0.999*BUS_ILIMIT,0)}
+RYDRV ydrv ypath {RDRIVER}
+SY ypath yi txon GNDIO DRVSW
+.MODEL DRVSW SW(RON=0.001 ROFF=1e12 VT=0.5)
+VYSENSE yi Y 0
+BZ zdrv GISOIN V={max(V(VISOIN,GISOIN),0)*(1-min(max(V(ds,GNDIO),0),1))-1Meg*max(I(VZSENSE)-0.999*BUS_ILIMIT,0)+1Meg*max(-I(VZSENSE)-0.999*BUS_ILIMIT,0)}
+RZDRV zdrv zpath {RDRIVER}
+SZ zpath zi txon GNDIO DRVSW
+VZSENSE zi Z 0
+*
+* Receiver: TI typical thresholds -78/-141mV, failsafe VID=0 is HIGH.
+BVID vid GNDIO V={V(A,B)}
+BRXLONE RXLONE GNDIO V=1
+SRXLSTATE RXLONE rlogic vid GNDIO SWRXL
+RRXLSTATE rlogic GNDIO 1k
+.MODEL SWRXL SW(RON=0.001 ROFF=1e12 VT=-0.1095 VH=0.0315)
+BR33DLY R33SRC GNDIO V={2*V(rlogic,GNDIO)}
+RR33DLY R33SRC R33TI 1k
+TR33DLY R33TI GNDIO r33 GNDIO Z0=1k TD=58.4n
+RR33TERM r33 GNDIO 1k
+BR50DLY R50SRC GNDIO V={2*V(rlogic,GNDIO)}
+RR50DLY R50SRC R50TI 1k
+TR50DLY R50TI GNDIO r50 GNDIO Z0=1k TD=54.4n
+RR50TERM r50 GNDIO 1k
+CRE req GNDIO 1p
+BREQ GNDIO req I={(1-V(rel,GNDIO)-V(req,GNDIO))*1p/if(V(mode5,GND2)>0.5,6.5n,8.65n)}
+* Table8-3: EN low with primary supplies present forces R HIGH, even RE high.
+BRON ron GNDIO V={if(V(ddok,GND1)>0.5,if(V(iook,GNDIO)>0.5,if(V(enok,GNDIO)<0.5,1,if(V(ready,GND1)>0.5,if(V(req,GNDIO)>0.5,1,0),0)),0),0)}
+BRDATA rdata GNDIO V={if(V(enok,GNDIO)<0.5,1,if(V(mode5,GND2)>0.5,V(r50,GNDIO),V(r33,GNDIO)))}
+BR GNDIO ri I={V(ron,GNDIO)*(max(V(VIO,GNDIO),0)*min(max(V(rdata,GNDIO),0),1)-V(R,GNDIO))/60}
+VRSENSE ri R 0
+*
+* GPIO: IN referenced to VISOIN/GISOIN, OUT referenced to VIO/GNDIO.
+BINR inratio GISOIN V={V(IN,GISOIN)/max(V(VISOIN,GISOIN),0.1)}
+BINONE INONE GISOIN V=1
+SINSTATE INONE inlogic inratio GISOIN SWIN
+RINSTATE inlogic GISOIN 1k
+.MODEL SWIN SW(RON=0.001 ROFF=1e12 VT=0.5 VH=0.2)
+BGPIODLY GPIOSRC GISOIN V={2*V(inlogic,GISOIN)}
+RGPIODLY GPIOSRC GPIOTI 1k
+TGPIODLY GPIOTI GISOIN gdelay GISOIN Z0=1k TD=226.6n
+RGPIOTERM gdelay GISOIN 1k
+BOUT GNDIO oi I={V(ready,GND1)*(max(V(VIO,GNDIO),0)*min(max(V(gdelay,GISOIN),0),1)-V(OUT,GNDIO))/40}
+VOSENSE oi OUT 0
+*
+* Activity estimator: charge per edge, normalized to 6MHz square/12Mbps.
+* 10ns edge highpass and 20us average do not generate user traffic.
+RDA dl dlpf 10k
+CDA dlpf GNDIO 1p
+BDA da GNDIO V={abs(V(dl,dlpf))/0.11994}
+RDAA da dact 20k
+CDAA dact GNDIO 1n
+* Clamp activity to rated switching rate; no extrapolated oscillator physics.
+BACT act GNDIO V={min(max(V(dact,GNDIO),0),1)}
+* Secondary consumption includes ACTUAL branch sourcing currents once.
+* Five-volt static/dynamic losses fitted separately to 97/146mA TI rows.
+* Estimated fitted losses match TI current rows at their stated conditions.
+BISO VISOIN GISOIN I={if(V(isok,GISOIN)>0.5,(0.0055+0.001412*V(mode5,GND2)+(0.003-0.00797*V(mode5,GND2))*V(txon,GNDIO)+(0.0157+0.00197*V(mode5,GND2))*V(txon,GNDIO)*V(act,GNDIO)+0.0016*(1-V(mode5,GND2))*V(txon,GNDIO)*(1-V(rel,GNDIO)))+max(I(VYSENSE),0)+max(I(VZSENSE),0),0)}
+* VDD baseline is input-side loss; all delivered isolated power measured at VREGSENSE.
+* Efficiency 0.36 at5V, 0.45 at3.3V is ESTIMATED, not TI efficiency guarantee.
+BDD VDD GND1 I={if(V(VDD,GND1)>0,if(V(run,GND1)>0.5,0.024/max(V(VDD,GND1),1)+max(V(VISOOUT,GND2)*I(VREGSENSE),0)/(max(V(VDD,GND1),1)*(0.36+0.09*min(max((5-V(VDD,GND1))/1.7,0),1))),0.00023),0)}
+* Real logic current, plus externally drawn R/OUT source currents once.
+BIO VIO GNDIO I={if(V(VIO,GNDIO)>0,if(V(run,GND1)>0.5,0.0032+0.0004*V(del,GNDIO)+0.0004*(1-V(rel,GNDIO))+0.0006*V(del,GNDIO)*V(act,GNDIO),0.00024)+max(I(VRSENSE),0)+max(I(VOSENSE),0),0)}
+.ENDS ISOW1432DFMR
+*

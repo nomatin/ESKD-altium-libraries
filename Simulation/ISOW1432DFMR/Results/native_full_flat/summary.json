@@ -1,0 +1,267 @@
+{
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "tester_sha256": "54c7988793c0c6d26452ed35a70c212f86e06c5ff481ca458f42be50fe4fd63c",
+  "round": "native_full_flat",
+  "cases": [
+    {
+      "name": "01_mode_3v3",
+      "status": "PASS",
+      "test_sha256": "0c68dc66338e6d69cf998dc058d0b04a6d08452a2a157a588340877a361a3a37",
+      "result_sha256": "19b5462326d00e48720bbc76d90d43c49e7c3231cc2fef9fde9d536f8b7892bd",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 VISOOUT"
+    },
+    {
+      "name": "02_mode_5v",
+      "status": "PASS",
+      "test_sha256": "a3fd4d27cd74a842dfd0bb11423be5a0a8203b5b75f00d6439d5f3e2ffe8b045",
+      "result_sha256": "43bed52c7e4aac7fc782efb0cde4ff390158a616ea53909cbcfb9faeb9990b99",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 VISOOUT"
+    },
+    {
+      "name": "03_invalid_mode",
+      "status": "FAIL",
+      "test_sha256": "6a4b5f3109bb989973179922c0293aad255a4f29640b15b7b4b8f29cd8c74f17",
+      "result_sha256": "3deeb2e32b4403ca0c7422381c8def42abb8e0ae3c96465d7639c71ea66218f8",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "8.7 Table8-1"
+    },
+    {
+      "name": "04_soft_start",
+      "status": "PASS",
+      "test_sha256": "9fd4260b52f7d9289a564fd8c9b4ba4c02186d565b48c52b6e569e24efd2200d",
+      "result_sha256": "f9466cb9d4971c09cc6e0a50f7dbb7986675292b54dec11eef8f3f2757fa8295",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "tpwrup90_after_vdd_valid",
+          "value": 0.0023159619963333444,
+          "min": 0,
+          "max": 0.005,
+          "status": "PASS"
+        },
+        {
+          "id": "no_tx_before_90percent",
+          "value": 1.7692158849058615e-10,
+          "min": 0,
+          "max": 0.1,
+          "status": "PASS"
+        },
+        {
+          "id": "startup_monotonic",
+          "value": 0.000388134103189941,
+          "min": -0.005,
+          "max": 10,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.9 tpwrup max5ms; 9.3 external10uF"
+    },
+    {
+      "name": "05_uvlo",
+      "status": "PASS",
+      "test_sha256": "cc0ff14c321cf8ddc850d1cd305fbd6f05c1d9552ebcdf570ed7806bf906598b",
+      "result_sha256": "45d34b02f8b774a65f1ab4d365d71e5bcd8512fbaf05e786a175e6c8fc82d755",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8.6 UVLO2.8/2.55; external330ohm discharge"
+    },
+    {
+      "name": "06_en_low",
+      "status": "FAIL",
+      "test_sha256": "5bdbf12a57fea23b590d3d990c9a16c8b9844407fea9bed01e4bc5c54d002f2e",
+      "result_sha256": "595ec1d3cd00980571d41e25b56e43b32ffd10b4c207dd8f947a43be6fffaaab",
+      "native_status": "FAIL",
+      "supplemental": [],
+      "source": "8.7 Tables8-3/8-4/8-5"
+    },
+    {
+      "name": "07_external_load",
+      "status": "PASS",
+      "test_sha256": "edfa46e515207793fbaf96d3eb2bbd50664b6fcbdde7063896570ebd73eb6dd4",
+      "result_sha256": "4918bec9fbfc0662ebcfd7bef5d7c6f76c62da7e8d0a9fe88654cad9706abc49",
+      "native_status": "PASS",
+      "supplemental": [
+        {
+          "id": "extra_load_increases_IDD",
+          "value": 0.036494099377835564,
+          "min": 0.015,
+          "max": 0.12,
+          "status": "PASS"
+        }
+      ],
+      "source": "6.3 additional20mA; inferred power at positive efficiency"
+    },
+    {
+      "name": "08_tx_high",
+      "status": "PASS",
+      "test_sha256": "500b3247f34f49f91d7c8b19d8090ecd93a777527ca2ab7480b422d62e988737",
+      "result_sha256": "75a40dad75a1481d38d3922a229acdc7b852eec53e52081a652f4c8220a0d0de",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8-2,6.9"
+    },
+    {
+      "name": "09_tx_low",
+      "status": "PASS",
+      "test_sha256": "7bd4e1abf4cd63299851d4439254c92e69ac372a7f89602c72d046f47a9cd7d0",
+      "result_sha256": "b61df2ad41397b79731f72a879c4e81fc345c5584ccc31db087931e30f86aeb1",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8-2,6.9"
+    },
+    {
+      "name": "10_tx_hiz",
+      "status": "PASS",
+      "test_sha256": "74e564e6de1e0e631cbd75a6365a423b09d6c56d60b09094f4ed7bd85da25ace",
+      "result_sha256": "187a8d36faf36ea39781f9133d2d4581d78f8cda989416da2cc6fc25df750e5b",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "8-2"
+    },
+    {
+      "name": "11_uart_115200",
+      "status": "PASS",
+      "test_sha256": "92153568c15d6c3821d6bd87973f9bc795c4bb0382c4d8bf9883344d94866ce3",
+      "result_sha256": "990acd4473baf98bff42dac7070020456ec29b3ecb2f3965e4bb201e133547df",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12 ISOW1432 typ49ns; 12Mbps UI83.333ns"
+    },
+    {
+      "name": "12_uart_12mbps",
+      "status": "PASS",
+      "test_sha256": "f5ca31a2190b5a4f9158a34a8434e56768f164b3549618b694a934082c74f901",
+      "result_sha256": "882f9ffb1ae4ba0390e38cc9876010f7e75561520ee89382f4f393cdac4bc527",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12 ISOW1432 typ49ns; 12Mbps UI83.333ns"
+    },
+    {
+      "name": "13_load120",
+      "status": "PASS",
+      "test_sha256": "1c0cd5c1d4374d34ad8422bf1c140baf256df13220bca388707d9be07afe371f",
+      "result_sha256": "ef582925c1ec6021ce78939c1112f2bdd6796bfb500455caaed7db1bafbf843f",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9;120ohm application load"
+    },
+    {
+      "name": "14_load54_3p3",
+      "status": "PASS",
+      "test_sha256": "27c3a4524e41357ac2eb85232cb6460bcc507f09dd18eccbf86887db7cfe7c39",
+      "result_sha256": "bc22e9c5bc4a522c602450ec22616a1e342e7f1387d686f6ea1ba7634e960cca",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 RL54ohm"
+    },
+    {
+      "name": "14_load54_5",
+      "status": "PASS",
+      "test_sha256": "3b2161793ec4aa33a8ea2e00729a9d85bfe0fe054388c8e589bab188eeae547d",
+      "result_sha256": "103f739b2d4950fa03f052c497c4cb1e025cf6063ea409545a316f13820560b2",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 RL54ohm"
+    },
+    {
+      "name": "15_rx_zero",
+      "status": "PASS",
+      "test_sha256": "f923d7c8e58d71bf0621122f7918fa59b6089fdfa5350355ffdafadc93a72f29",
+      "result_sha256": "35e94ba7a377e935bf8b7f24c89b00ef6fc324ad27ee477c1cfe4f85c30e7f7f",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 VTH+;8-3 failsafe"
+    },
+    {
+      "name": "16_rx_negative",
+      "status": "PASS",
+      "test_sha256": "5a0f3ed11519a4ae8cd8ae0cad1ee737a698ac8a61e118ec5317be527c0558d0",
+      "result_sha256": "66bbeca566c48e74b6c0f0624ca5d9c5e012bbccb0379265bb8dca3c8b17c55f",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 VTH-"
+    },
+    {
+      "name": "17_rx_hiz",
+      "status": "PASS",
+      "test_sha256": "02c57e8e4a38a0c4bcb25b722d19a231ee76e00e4985d7295fe55a095d0b7dd5",
+      "result_sha256": "815c09edafeb793844a17824f09800481edb0abe9af3c4a62002ad00a05b6592",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 IOZ \u00b11uA;8-3"
+    },
+    {
+      "name": "18_gpio",
+      "status": "PASS",
+      "test_sha256": "a7cc6ad2602c2993ba4377379e21000b714e68e32c70b57626b884da71f76dba",
+      "result_sha256": "0ed99ff1c7d5c4db9fa3412b8292266b7180c3c07f04be2cd04a944e277c804d",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.12 GPIO227ns; max2Mbps"
+    },
+    {
+      "name": "19_tx_short",
+      "status": "PASS",
+      "test_sha256": "0d9e06e7099edc2f0b627c9d5c760bd73ecec4b85b02c41cf30497d24a38d4d3",
+      "result_sha256": "bb9b29c9304e8d5a5fb7b4c3fd9d46d7aba9bc285d291e42d96929111f2c026b",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.9 IOS max180mA;8.6.2 says250mA"
+    },
+    {
+      "name": "20_missing_visoin",
+      "status": "PASS",
+      "test_sha256": "b3cf83dbcc9aa89d10ad128a01ed8c8ba7b965bbee42a6d2215fb79a5fb99eee",
+      "result_sha256": "2421ab0e467f709b8f8191530831769284c833a113ac12698ad7de0c733985a5",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "5,9.3 external power link required"
+    },
+    {
+      "name": "21_current_disabled",
+      "status": "PASS",
+      "test_sha256": "51f143509faca0b6150601ffe978831ddd66510af3b6b1b84f47d40ff639ee69",
+      "result_sha256": "e0a85257438eb49e89f56bca7f0fa1141fe3efcf0a29a33970636aaea453e35a",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.10 converter disabled, D/DE/RE floating"
+    },
+    {
+      "name": "22_current_logic_idle",
+      "status": "PASS",
+      "test_sha256": "c3d10645aca4aaf0133f2112133b810692a8a3e69a72f88789ee4625f3b8bae8",
+      "result_sha256": "e286c3e1576800752f3a9bf6a3df32b9cd1f67b4a046c8aa3d05531be295a61a",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.10 VIO3.3,DE0,REhigh,Dhigh"
+    },
+    {
+      "name": "23_current_logic_static",
+      "status": "PASS",
+      "test_sha256": "a5841b738f6446b110efcb0e13110b742d1da6b3186789b20d30f43bbe136acd",
+      "result_sha256": "a6c38f9203a574ee2e243bc55e8c23a4118a0e9a7f24ab6bdee26b5bfc98ac13",
+      "native_status": "PASS",
+      "supplemental": [],
+      "source": "6.10 VIO3.3 TX/RXstatic loopback"
+    },
+    {
+      "name": "24_current_tx_3v3",
+      "status": "ERROR",
+      "test_sha256": "3e8de824db13a1b76733f054d088800ad66fc9e18997eb84730910a96a3ce38e",
+      "result_sha256": "125a78dc22a1cfb9ae599f30aab158c7e7495a3b0e06301f8515d082d94bb87f",
+      "native_status": "ERROR",
+      "supplemental": [],
+      "source": "6.10/6.11 ISOW1432 driver enabled receiver disabled120ohm||50pF12Mbps"
+    }
+  ],
+  "counts": {
+    "PASS": 22,
+    "FAIL": 2,
+    "ERROR": 1
+  }
+}

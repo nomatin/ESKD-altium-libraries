@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "engine": "Altium Designer24.4.1.13 MixedSim native via unmodified DBUR Test",
+  "model_sha256": "27064eb04bf3f78534c00569641d449013b42e1f38dbc63228e30e8ff5de2f69",
+  "acceptance_summary_sha256": "fc3b24eef1745c6087ef83f1ce54c15ad5a04971ae62992415f2c985fef5edd2",
+  "counts_by_role": {
+    "acceptance": {
+      "PASS": 56
+    },
+    "retained_diagnostic": {
+      "FAIL": 6,
+      "ERROR": 1
+    },
+    "additional_stress": {
+      "PASS": 1
+    }
+  },
+  "native_acceptance_assertions": 191,
+  "supplemental_acceptance_assertions": 21,
+  "initial_independent_tests_preserved": 44,
+  "original_tracked_files_unchanged": 731,
+  "pin_order": [
+    "VIO",
+    "D",
+    "DE",
+    "R",
+    "RE",
+    "GNDIO",
+    "OUT",
+    "ENFLT",
+    "VDD",
+    "GND1",
+    "GND2",
+    "VISOOUT",
+    "MODE",
+    "IN",
+    "GISOIN",
+    "VISOIN",
+    "Y",
+    "Z",
+    "B",
+    "A"
+  ],
+  "forbidden_conductive_paths": {
+    "GND1--GND2": false,
+    "GNDIO--GND1": false,
+    "GND2--GISOIN": false,
+    "VISOOUT--VISOIN": false
+  },
+  "global_ground_used_as_element_terminal": false,
+  "branch": "dev",
+  "errors": [],
+  "authorized_changes_to_original_files": [
+    ".gitattributes",
+    "MY_LIB.xlsx",
+    "README.md",
+    "SIMULATION_ASSUMPTIONS.md"
+  ],
+  "excel_binding_verification": "Results/excel_binding_verification.json",
+  "excel_binding_verification_sha256": "b04cb51b56ccbfbd74156865f53ee54456e3ebb121966b038eec2ff0025438a8",
+  "model_unchanged_during_binding": true,
+  "native_model_qualification_reused": true,
+  "additional_simulation_runs_completed_for_binding": 0
+}

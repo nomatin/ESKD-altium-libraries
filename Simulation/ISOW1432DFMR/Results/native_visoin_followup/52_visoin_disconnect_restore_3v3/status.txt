@@ -1,0 +1,2 @@
+STATUS=OK
+SDF_PATH=C:\Users\Nomatin\AppData\Local\Temp\DBUR-Test\d8fc95240ebb4ef8beb55d20286cbaec\test.sdf
