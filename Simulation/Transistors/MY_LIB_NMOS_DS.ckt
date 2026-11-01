@@ -1,0 +1,32 @@
+* MY_LIB original N-channel MOSFET electrical approximation from datasheets only.
+* No manufacturer SPICE model was used. External pin order: 1=GATE, 2=SOURCE, 3=DRAIN.
+* Component-specific values are passed from Excel/DbLib as parameters.
+* Fitting policy: datasheet LIMITS (worst case), not a typical device.
+*   RDS(on) max: 3 ohm at VGS=10 V, 4 ohm at VGS=5 V (linear region).
+* MOS3 (LEVEL=3) is used because the ratio of those two limits cannot be
+*   reproduced by MOS1 without a large artificial series resistance.
+*   THETA models mobility degradation; RD/RS stay zero unless the datasheet
+*   forces a series component. Fitting is solved numerically, not by hand.
+* Output conductance is NOT modelled: the datasheet specifies no value and
+*   this MOS3 dialect rejects LAMBDA, so the channel is ideal in saturation.
+* GAMMA=0 and PHI=0.7 are explicit choices: the datasheet has no substrate
+*   bias data, so body effect is disabled rather than invented.
+* W=L=1 um is a numerical identity (W/L=1 keeps KP), NOT device geometry.
+* Capacitances are explicit elements, not the intrinsic MOS gate capacitance,
+*   so the values stay readable and independent of W/L:
+*   CGS = Ciss-Crss, CGD = Crss, CDS = Coss-Crss at VDS=25 V, f=1 MHz.
+* Body diode is fitted to the typical VSD point; it is not a reverse-recovery
+*   or avalanche model. No CJO/TT, no breakdown, no thermal effects.
+* Not modelled: self-heating, power/current limits, temperature dependence,
+*   gate charge, Qrr, ESD, tolerances, RDS(on) rise at high current.
+.SUBCKT MY_LIB_NMOS_DS 1 2 3 PARAMS: VTO=2 KP=0.2 THETA=0 RD=0 RS=0
++ CGS=0 CGD=0 CDS=0 ISbody=1e-14 Nbody=1
+Mchannel 3 1 2 2 MY_LIB_NMOS_CORE L=1e-6 W=1e-6
+.MODEL MY_LIB_NMOS_CORE NMOS (LEVEL=3 VTO={VTO} KP={KP} THETA={THETA}
++ GAMMA=0 PHI=0.7 RD={RD} RS={RS} CGSO=0 CGDO=0 CGBO=0)
+Cgs 1 2 {CGS}
+Cgd 1 3 {CGD}
+Cds 3 2 {CDS}
+Dbody 2 3 DBODY
+.MODEL DBODY D (IS={ISbody} N={Nbody} RS=0 CJO=0 TT=0)
+.ENDS MY_LIB_NMOS_DS

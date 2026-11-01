@@ -827,3 +827,125 @@ Options=FieldName=Светодиоды$.LED_N|TableNameOnly=Светодиоды$|FieldNameOnly=LED_
 
 [FieldMap340]
 Options=FieldName=Светодиоды$.LED_RS|TableNameOnly=Светодиоды$|FieldNameOnly=LED_RS|FieldType=1|ParameterName=LED_RS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table10]
+SchemaName=
+TableName=Транзисторы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap341]
+Options=FieldName=Транзисторы$.ID|TableNameOnly=Транзисторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap342]
+Options=FieldName=Транзисторы$.Type|TableNameOnly=Транзисторы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap343]
+Options=FieldName=Транзисторы$.Value|TableNameOnly=Транзисторы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap344]
+Options=FieldName=Транзисторы$.ESKD_value|TableNameOnly=Транзисторы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap345]
+Options=FieldName=Транзисторы$.Tolerance|TableNameOnly=Транзисторы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap346]
+Options=FieldName=Транзисторы$.Power|TableNameOnly=Транзисторы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap347]
+Options=FieldName=Транзисторы$.Voltage|TableNameOnly=Транзисторы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap348]
+Options=FieldName=Транзисторы$.Package|TableNameOnly=Транзисторы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap349]
+Options=FieldName=Транзисторы$.Manufacturer|TableNameOnly=Транзисторы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap350]
+Options=FieldName=Транзисторы$.MPN|TableNameOnly=Транзисторы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap351]
+Options=FieldName=Транзисторы$.CommentBase|TableNameOnly=Транзисторы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap352]
+Options=FieldName=Транзисторы$.Library Ref|TableNameOnly=Транзисторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap353]
+Options=FieldName=Транзисторы$.Library Path|TableNameOnly=Транзисторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap354]
+Options=FieldName=Транзисторы$.Footprint Ref|TableNameOnly=Транзисторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap355]
+Options=FieldName=Транзисторы$.Footprint Path|TableNameOnly=Транзисторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap356]
+Options=FieldName=Транзисторы$.Notes|TableNameOnly=Транзисторы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap357]
+Options=FieldName=Транзисторы$.ChannelType|TableNameOnly=Транзисторы$|FieldNameOnly=ChannelType|FieldType=1|ParameterName=ChannelType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap358]
+Options=FieldName=Транзисторы$.Comment|TableNameOnly=Транзисторы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap359]
+Options=FieldName=Транзисторы$.Description|TableNameOnly=Транзисторы$|FieldNameOnly=Description|FieldType=1|ParameterName=Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap360]
+Options=FieldName=Транзисторы$.Datasheet|TableNameOnly=Транзисторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap361]
+Options=FieldName=Транзисторы$.DatasheetRevision|TableNameOnly=Транзисторы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap362]
+Options=FieldName=Транзисторы$.ComponentLink1Description|TableNameOnly=Транзисторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap363]
+Options=FieldName=Транзисторы$.ComponentLink1URL|TableNameOnly=Транзисторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap364]
+Options=FieldName=Транзисторы$.ComponentLink2Description|TableNameOnly=Транзисторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap365]
+Options=FieldName=Транзисторы$.ComponentLink2URL|TableNameOnly=Транзисторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap366]
+Options=FieldName=Транзисторы$.HelpURL|TableNameOnly=Транзисторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap367]
+Options=FieldName=Транзисторы$.Family|TableNameOnly=Транзисторы$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap368]
+Options=FieldName=Транзисторы$.Configuration|TableNameOnly=Транзисторы$|FieldNameOnly=Configuration|FieldType=1|ParameterName=Configuration|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap369]
+Options=FieldName=Транзисторы$.PinMapping|TableNameOnly=Транзисторы$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap370]
+Options=FieldName=Транзисторы$.VdsMaxV|TableNameOnly=Транзисторы$|FieldNameOnly=VdsMaxV|FieldType=1|ParameterName=VdsMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap371]
+Options=FieldName=Транзисторы$.VgsMaxV|TableNameOnly=Транзисторы$|FieldNameOnly=VgsMaxV|FieldType=1|ParameterName=VgsMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap372]
+Options=FieldName=Транзисторы$.IdMaxA|TableNameOnly=Транзисторы$|FieldNameOnly=IdMaxA|FieldType=1|ParameterName=IdMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap373]
+Options=FieldName=Транзисторы$.PdMaxW|TableNameOnly=Транзисторы$|FieldNameOnly=PdMaxW|FieldType=1|ParameterName=PdMaxW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap374]
+Options=FieldName=Транзисторы$.RdsOnMaxOhm10V|TableNameOnly=Транзисторы$|FieldNameOnly=RdsOnMaxOhm10V|FieldType=1|ParameterName=RdsOnMaxOhm10V|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap375]
+Options=FieldName=Транзисторы$.RdsOnMaxOhm5V|TableNameOnly=Транзисторы$|FieldNameOnly=RdsOnMaxOhm5V|FieldType=1|ParameterName=RdsOnMaxOhm5V|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap376]
+Options=FieldName=Транзисторы$.VgsThMinV|TableNameOnly=Транзисторы$|FieldNameOnly=VgsThMinV|FieldType=1|ParameterName=VgsThMinV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap377]
+Options=FieldName=Транзисторы$.VgsThMaxV|TableNameOnly=Транзисторы$|FieldNameOnly=VgsThMaxV|FieldType=1|ParameterName=VgsThMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap378]
+Options=FieldName=Транзисторы$.CissPf|TableNameOnly=Транзисторы$|FieldNameOnly=CissPf|FieldType=1|ParameterName=CissPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap379]
+Options=FieldName=Транзисторы$.CossPf|TableNameOnly=Транзисторы$|FieldNameOnly=CossPf|FieldType=1|ParameterName=CossPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap380]
+Options=FieldName=Транзисторы$.CrssPf|TableNameOnly=Транзисторы$|FieldNameOnly=CrssPf|FieldType=1|ParameterName=CrssPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap381]
+Options=FieldName=Транзисторы$.VsdMaxV|TableNameOnly=Транзисторы$|FieldNameOnly=VsdMaxV|FieldType=1|ParameterName=VsdMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap382]
+Options=FieldName=Транзисторы$.Marking|TableNameOnly=Транзисторы$|FieldNameOnly=Marking|FieldType=1|ParameterName=Marking|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap383]
+Options=FieldName=Транзисторы$.Sim Model Name|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap384]
+Options=FieldName=Транзисторы$.Sim Description|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap385]
+Options=FieldName=Транзисторы$.Sim Kind|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap386]
+Options=FieldName=Транзисторы$.Sim SubKind|TableNameOnly=Транзисторы$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap387]
+Options=FieldName=Транзисторы$.Sim Netlist|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap388]
+Options=FieldName=Транзисторы$.Sim Spice Prefix|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap389]
+Options=FieldName=Транзисторы$.Sim Port Map|TableNameOnly=Транзисторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap390]
+Options=FieldName=Транзисторы$.Sim File|TableNameOnly=Транзисторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap391]
+Options=FieldName=Транзисторы$.VT_VTO|TableNameOnly=Транзисторы$|FieldNameOnly=VT_VTO|FieldType=1|ParameterName=VT_VTO|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap392]
+Options=FieldName=Транзисторы$.VT_KP|TableNameOnly=Транзисторы$|FieldNameOnly=VT_KP|FieldType=1|ParameterName=VT_KP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap393]
+Options=FieldName=Транзисторы$.VT_THETA|TableNameOnly=Транзисторы$|FieldNameOnly=VT_THETA|FieldType=1|ParameterName=VT_THETA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap394]
+Options=FieldName=Транзисторы$.VT_CGS|TableNameOnly=Транзисторы$|FieldNameOnly=VT_CGS|FieldType=1|ParameterName=VT_CGS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap395]
+Options=FieldName=Транзисторы$.VT_CGD|TableNameOnly=Транзисторы$|FieldNameOnly=VT_CGD|FieldType=1|ParameterName=VT_CGD|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap396]
+Options=FieldName=Транзисторы$.VT_CDS|TableNameOnly=Транзисторы$|FieldNameOnly=VT_CDS|FieldType=1|ParameterName=VT_CDS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap397]
+Options=FieldName=Транзисторы$.VT_IS|TableNameOnly=Транзисторы$|FieldNameOnly=VT_IS|FieldType=1|ParameterName=VT_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap398]
+Options=FieldName=Транзисторы$.VT_N|TableNameOnly=Транзисторы$|FieldNameOnly=VT_N|FieldType=1|ParameterName=VT_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
