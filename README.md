@@ -4,7 +4,7 @@
 
 Component library for **Altium Designer 24** with ESKD and IEC schematic symbols. Two linked database libraries let you choose the symbol style when placing a component.
 
-| Database | Connection file | Catalog | Catalog language |
+| Standard | Connection file | Catalog | Catalog language |
 |---|---|---|---|
 | ESKD | `MY_LIB.DbLib` | `MY_LIB.xlsx` | Russian |
 | IEC | `MY_LIB_IEC.DbLib` | `MY_LIB_IEC.xlsx` | English |
@@ -22,9 +22,9 @@ As of November 13, 2026, each catalog contains **1,549 components**, of which **
 | Diodes | 235 | 235 / 235 (100%) | Vishay, Nexperia, Diotec, Yangjie |
 | Connectors | 358 | 0 / 358 (0%) | GCT, CONNFLY, JST PH/XH |
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
-| LEDs | 10 | [10 / 10 (100%)](Simulation/LEDs/README.md) | Oasistek |
-| ICs | 5 | 4 / 5 (80%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712, [74HC1G08GW](Datasheets/Nexperia/74HC1G08GW.pdf) |
-| Transistors | 1 | [1 / 1 (100%)](Simulation/Transistors/README.md) | Youtai (UMW) 2N7002 |
+| LEDs | 10 | 10 / 10 (100%) | Oasistek |
+| ICs | 5 | 4 / 5 (80%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW |
+| Transistors | 1 | 1 / 1 (100%) | Youtai (UMW) 2N7002 |
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
 
