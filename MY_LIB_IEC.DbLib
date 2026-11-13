@@ -1,0 +1,931 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\MY_LIB_IEC.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES;IMEX=1";
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=Symbols;Footprints
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=IEC Capacitors$
+[Table1]
+SchemaName=
+TableName=IEC Capacitors$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[Table2]
+SchemaName=
+TableName=IEC ICs$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[Table3]
+SchemaName=
+TableName=IEC Resistors$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap1]
+Options=FieldName=IEC Capacitors$.ID|TableNameOnly=IEC Capacitors$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=IEC Capacitors$.Type|TableNameOnly=IEC Capacitors$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=IEC Capacitors$.Value|TableNameOnly=IEC Capacitors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=IEC Capacitors$.Tolerance|TableNameOnly=IEC Capacitors$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=IEC Capacitors$.Power|TableNameOnly=IEC Capacitors$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=IEC Capacitors$.Voltage|TableNameOnly=IEC Capacitors$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=IEC Capacitors$.Package|TableNameOnly=IEC Capacitors$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=IEC Capacitors$.Manufacturer|TableNameOnly=IEC Capacitors$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=IEC Capacitors$.MPN|TableNameOnly=IEC Capacitors$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=IEC Capacitors$.CommentBase|TableNameOnly=IEC Capacitors$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=IEC Capacitors$.Library Ref|TableNameOnly=IEC Capacitors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=IEC Capacitors$.Library Path|TableNameOnly=IEC Capacitors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=IEC Capacitors$.Footprint Ref|TableNameOnly=IEC Capacitors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=IEC Capacitors$.Footprint Path|TableNameOnly=IEC Capacitors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=IEC Capacitors$.Notes|TableNameOnly=IEC Capacitors$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=IEC Capacitors$.Dielectric|TableNameOnly=IEC Capacitors$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=IEC Capacitors$.Comment|TableNameOnly=IEC Capacitors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=IEC Capacitors$.Description|TableNameOnly=IEC Capacitors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=IEC Resistors$.ID|TableNameOnly=IEC Resistors$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=IEC Resistors$.Type|TableNameOnly=IEC Resistors$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=IEC Resistors$.Value|TableNameOnly=IEC Resistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=IEC Resistors$.Tolerance|TableNameOnly=IEC Resistors$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=IEC Resistors$.Power|TableNameOnly=IEC Resistors$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=IEC Resistors$.Voltage|TableNameOnly=IEC Resistors$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=IEC Resistors$.Package|TableNameOnly=IEC Resistors$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=IEC Resistors$.Manufacturer|TableNameOnly=IEC Resistors$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=IEC Resistors$.MPN|TableNameOnly=IEC Resistors$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=IEC Resistors$.CommentBase|TableNameOnly=IEC Resistors$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=IEC Resistors$.Library Ref|TableNameOnly=IEC Resistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=IEC Resistors$.Library Path|TableNameOnly=IEC Resistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=IEC Resistors$.Footprint Ref|TableNameOnly=IEC Resistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=IEC Resistors$.Footprint Path|TableNameOnly=IEC Resistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=IEC Resistors$.Notes|TableNameOnly=IEC Resistors$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=IEC Resistors$.Dielectric|TableNameOnly=IEC Resistors$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=IEC Resistors$.Comment|TableNameOnly=IEC Resistors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=IEC Resistors$.Description|TableNameOnly=IEC Resistors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap37]
+Options=FieldName=IEC ICs$.ID|TableNameOnly=IEC ICs$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap38]
+Options=FieldName=IEC ICs$.Type|TableNameOnly=IEC ICs$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap39]
+Options=FieldName=IEC ICs$.Value|TableNameOnly=IEC ICs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+
+[FieldMap40]
+Options=FieldName=IEC ICs$.Tolerance|TableNameOnly=IEC ICs$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap41]
+Options=FieldName=IEC ICs$.Power|TableNameOnly=IEC ICs$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap42]
+Options=FieldName=IEC ICs$.Voltage|TableNameOnly=IEC ICs$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap43]
+Options=FieldName=IEC ICs$.Package|TableNameOnly=IEC ICs$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap44]
+Options=FieldName=IEC ICs$.Manufacturer|TableNameOnly=IEC ICs$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap45]
+Options=FieldName=IEC ICs$.MPN|TableNameOnly=IEC ICs$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap46]
+Options=FieldName=IEC ICs$.CommentBase|TableNameOnly=IEC ICs$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap47]
+Options=FieldName=IEC ICs$.Library Ref|TableNameOnly=IEC ICs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap48]
+Options=FieldName=IEC ICs$.Library Path|TableNameOnly=IEC ICs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap49]
+Options=FieldName=IEC ICs$.Footprint Ref|TableNameOnly=IEC ICs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap50]
+Options=FieldName=IEC ICs$.Footprint Path|TableNameOnly=IEC ICs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap51]
+Options=FieldName=IEC ICs$.Notes|TableNameOnly=IEC ICs$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap52]
+Options=FieldName=IEC ICs$.Dielectric|TableNameOnly=IEC ICs$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap53]
+Options=FieldName=IEC ICs$.Comment|TableNameOnly=IEC ICs$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap54]
+Options=FieldName=IEC ICs$.Description|TableNameOnly=IEC ICs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap55]
+Options=FieldName=IEC ICs$.OperatingTemperatureMin|TableNameOnly=IEC ICs$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap56]
+Options=FieldName=IEC ICs$.OperatingTemperatureMax|TableNameOnly=IEC ICs$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap57]
+Options=FieldName=IEC ICs$.TemperatureReference|TableNameOnly=IEC ICs$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap58]
+Options=FieldName=IEC ICs$.StorageTemperatureMin|TableNameOnly=IEC ICs$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap59]
+Options=FieldName=IEC ICs$.StorageTemperatureMax|TableNameOnly=IEC ICs$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap60]
+Options=FieldName=IEC ICs$.JunctionTemperatureMin|TableNameOnly=IEC ICs$|FieldNameOnly=JunctionTemperatureMin|FieldType=1|ParameterName=JunctionTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap61]
+Options=FieldName=IEC ICs$.JunctionTemperatureMax|TableNameOnly=IEC ICs$|FieldNameOnly=JunctionTemperatureMax|FieldType=1|ParameterName=JunctionTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap62]
+Options=FieldName=IEC ICs$.Datasheet|TableNameOnly=IEC ICs$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap63]
+Options=FieldName=IEC ICs$.DatasheetRevision|TableNameOnly=IEC ICs$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap64]
+Options=FieldName=IEC ICs$.ComponentLink1Description|TableNameOnly=IEC ICs$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap65]
+Options=FieldName=IEC ICs$.ComponentLink1URL|TableNameOnly=IEC ICs$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table4]
+SchemaName=
+TableName=IEC Connectors$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap66]
+Options=FieldName=IEC Connectors$.ID|TableNameOnly=IEC Connectors$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=IEC Connectors$.Type|TableNameOnly=IEC Connectors$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=IEC Connectors$.Value|TableNameOnly=IEC Connectors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=IEC Connectors$.Tolerance|TableNameOnly=IEC Connectors$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=IEC Connectors$.Power|TableNameOnly=IEC Connectors$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=IEC Connectors$.Voltage|TableNameOnly=IEC Connectors$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=IEC Connectors$.Package|TableNameOnly=IEC Connectors$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=IEC Connectors$.Manufacturer|TableNameOnly=IEC Connectors$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=IEC Connectors$.MPN|TableNameOnly=IEC Connectors$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
+Options=FieldName=IEC Connectors$.CommentBase|TableNameOnly=IEC Connectors$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap76]
+Options=FieldName=IEC Connectors$.Library Ref|TableNameOnly=IEC Connectors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap77]
+Options=FieldName=IEC Connectors$.Library Path|TableNameOnly=IEC Connectors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap78]
+Options=FieldName=IEC Connectors$.Footprint Ref|TableNameOnly=IEC Connectors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap79]
+Options=FieldName=IEC Connectors$.Footprint Path|TableNameOnly=IEC Connectors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap80]
+Options=FieldName=IEC Connectors$.Notes|TableNameOnly=IEC Connectors$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap81]
+Options=FieldName=IEC Connectors$.Dielectric|TableNameOnly=IEC Connectors$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap82]
+Options=FieldName=IEC Connectors$.Comment|TableNameOnly=IEC Connectors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap83]
+Options=FieldName=IEC Connectors$.Description|TableNameOnly=IEC Connectors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap84]
+Options=FieldName=IEC Connectors$.Datasheet|TableNameOnly=IEC Connectors$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap85]
+Options=FieldName=IEC Connectors$.DatasheetRevision|TableNameOnly=IEC Connectors$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap86]
+Options=FieldName=IEC Connectors$.ComponentLink1Description|TableNameOnly=IEC Connectors$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap87]
+Options=FieldName=IEC Connectors$.ComponentLink1URL|TableNameOnly=IEC Connectors$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table5]
+SchemaName=
+TableName=IEC Switches$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap88]
+Options=FieldName=IEC Switches$.ID|TableNameOnly=IEC Switches$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap89]
+Options=FieldName=IEC Switches$.Type|TableNameOnly=IEC Switches$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap90]
+Options=FieldName=IEC Switches$.Value|TableNameOnly=IEC Switches$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap91]
+Options=FieldName=IEC Switches$.Tolerance|TableNameOnly=IEC Switches$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap92]
+Options=FieldName=IEC Switches$.Power|TableNameOnly=IEC Switches$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap93]
+Options=FieldName=IEC Switches$.Voltage|TableNameOnly=IEC Switches$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap94]
+Options=FieldName=IEC Switches$.Package|TableNameOnly=IEC Switches$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap95]
+Options=FieldName=IEC Switches$.Manufacturer|TableNameOnly=IEC Switches$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap96]
+Options=FieldName=IEC Switches$.MPN|TableNameOnly=IEC Switches$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap97]
+Options=FieldName=IEC Switches$.CommentBase|TableNameOnly=IEC Switches$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap98]
+Options=FieldName=IEC Switches$.Library Ref|TableNameOnly=IEC Switches$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap99]
+Options=FieldName=IEC Switches$.Library Path|TableNameOnly=IEC Switches$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap100]
+Options=FieldName=IEC Switches$.Footprint Ref|TableNameOnly=IEC Switches$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap101]
+Options=FieldName=IEC Switches$.Footprint Path|TableNameOnly=IEC Switches$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap102]
+Options=FieldName=IEC Switches$.Notes|TableNameOnly=IEC Switches$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap103]
+Options=FieldName=IEC Switches$.Dielectric|TableNameOnly=IEC Switches$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap104]
+Options=FieldName=IEC Switches$.Comment|TableNameOnly=IEC Switches$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap105]
+Options=FieldName=IEC Switches$.Description|TableNameOnly=IEC Switches$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap106]
+Options=FieldName=IEC Switches$.Datasheet|TableNameOnly=IEC Switches$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap107]
+Options=FieldName=IEC Switches$.DatasheetRevision|TableNameOnly=IEC Switches$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap108]
+Options=FieldName=IEC Switches$.ComponentLink1Description|TableNameOnly=IEC Switches$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap109]
+Options=FieldName=IEC Switches$.ComponentLink1URL|TableNameOnly=IEC Switches$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap110]
+Options=FieldName=IEC Switches$.CurrentRating|TableNameOnly=IEC Switches$|FieldNameOnly=CurrentRating|FieldType=1|ParameterName=CurrentRating|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap111]
+Options=FieldName=IEC Switches$.OperatingTemperatureMin|TableNameOnly=IEC Switches$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap112]
+Options=FieldName=IEC Switches$.OperatingTemperatureMax|TableNameOnly=IEC Switches$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap113]
+Options=FieldName=IEC Switches$.TemperatureReference|TableNameOnly=IEC Switches$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap114]
+Options=FieldName=IEC Switches$.ContactForm|TableNameOnly=IEC Switches$|FieldNameOnly=ContactForm|FieldType=1|ParameterName=ContactForm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap115]
+Options=FieldName=IEC Switches$.Positions|TableNameOnly=IEC Switches$|FieldNameOnly=Positions|FieldType=1|ParameterName=Positions|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table6]
+SchemaName=
+TableName=IEC LEDs$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap116]
+Options=FieldName=IEC LEDs$.ID|TableNameOnly=IEC LEDs$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap117]
+Options=FieldName=IEC LEDs$.Type|TableNameOnly=IEC LEDs$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap118]
+Options=FieldName=IEC LEDs$.Value|TableNameOnly=IEC LEDs$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap119]
+Options=FieldName=IEC LEDs$.Tolerance|TableNameOnly=IEC LEDs$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap120]
+Options=FieldName=IEC LEDs$.Power|TableNameOnly=IEC LEDs$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap121]
+Options=FieldName=IEC LEDs$.Voltage|TableNameOnly=IEC LEDs$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap122]
+Options=FieldName=IEC LEDs$.Package|TableNameOnly=IEC LEDs$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap123]
+Options=FieldName=IEC LEDs$.Manufacturer|TableNameOnly=IEC LEDs$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap124]
+Options=FieldName=IEC LEDs$.MPN|TableNameOnly=IEC LEDs$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap125]
+Options=FieldName=IEC LEDs$.CommentBase|TableNameOnly=IEC LEDs$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap126]
+Options=FieldName=IEC LEDs$.Library Ref|TableNameOnly=IEC LEDs$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap127]
+Options=FieldName=IEC LEDs$.Library Path|TableNameOnly=IEC LEDs$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap128]
+Options=FieldName=IEC LEDs$.Footprint Ref|TableNameOnly=IEC LEDs$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap129]
+Options=FieldName=IEC LEDs$.Footprint Path|TableNameOnly=IEC LEDs$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap130]
+Options=FieldName=IEC LEDs$.Notes|TableNameOnly=IEC LEDs$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap131]
+Options=FieldName=IEC LEDs$.Dielectric|TableNameOnly=IEC LEDs$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap132]
+Options=FieldName=IEC LEDs$.Comment|TableNameOnly=IEC LEDs$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap133]
+Options=FieldName=IEC LEDs$.Description|TableNameOnly=IEC LEDs$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap134]
+Options=FieldName=IEC LEDs$.Datasheet|TableNameOnly=IEC LEDs$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap135]
+Options=FieldName=IEC LEDs$.DatasheetRevision|TableNameOnly=IEC LEDs$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap136]
+Options=FieldName=IEC LEDs$.ComponentLink1Description|TableNameOnly=IEC LEDs$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap137]
+Options=FieldName=IEC LEDs$.ComponentLink1URL|TableNameOnly=IEC LEDs$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap138]
+Options=FieldName=IEC LEDs$.Color|TableNameOnly=IEC LEDs$|FieldNameOnly=Color|FieldType=1|ParameterName=Color|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap139]
+Options=FieldName=IEC LEDs$.WavelengthNm|TableNameOnly=IEC LEDs$|FieldNameOnly=WavelengthNm|FieldType=1|ParameterName=WavelengthNm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap140]
+Options=FieldName=IEC LEDs$.ForwardVoltageTypicalV|TableNameOnly=IEC LEDs$|FieldNameOnly=ForwardVoltageTypicalV|FieldType=1|ParameterName=ForwardVoltageTypicalV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap141]
+Options=FieldName=IEC LEDs$.ForwardVoltageMaxV|TableNameOnly=IEC LEDs$|FieldNameOnly=ForwardVoltageMaxV|FieldType=1|ParameterName=ForwardVoltageMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap142]
+Options=FieldName=IEC LEDs$.TestCurrentMa|TableNameOnly=IEC LEDs$|FieldNameOnly=TestCurrentMa|FieldType=1|ParameterName=TestCurrentMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap143]
+Options=FieldName=IEC LEDs$.ViewingAngleDeg|TableNameOnly=IEC LEDs$|FieldNameOnly=ViewingAngleDeg|FieldType=1|ParameterName=ViewingAngleDeg|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap144]
+Options=FieldName=IEC LEDs$.IntensityMinMcd|TableNameOnly=IEC LEDs$|FieldNameOnly=IntensityMinMcd|FieldType=1|ParameterName=IntensityMinMcd|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap145]
+Options=FieldName=IEC LEDs$.IntensityTypicalMcd|TableNameOnly=IEC LEDs$|FieldNameOnly=IntensityTypicalMcd|FieldType=1|ParameterName=IntensityTypicalMcd|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap146]
+Options=FieldName=IEC LEDs$.PinMapping|TableNameOnly=IEC LEDs$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap147]
+Options=FieldName=IEC LEDs$.ChipMaterial|TableNameOnly=IEC LEDs$|FieldNameOnly=ChipMaterial|FieldType=1|ParameterName=ChipMaterial|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap148]
+Options=FieldName=IEC LEDs$.Family|TableNameOnly=IEC LEDs$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table7]
+SchemaName=
+TableName=IEC Test Points$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap149]
+Options=FieldName=IEC Test Points$.ID|TableNameOnly=IEC Test Points$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap150]
+Options=FieldName=IEC Test Points$.Type|TableNameOnly=IEC Test Points$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap151]
+Options=FieldName=IEC Test Points$.Value|TableNameOnly=IEC Test Points$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap152]
+Options=FieldName=IEC Test Points$.Tolerance|TableNameOnly=IEC Test Points$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap153]
+Options=FieldName=IEC Test Points$.Power|TableNameOnly=IEC Test Points$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap154]
+Options=FieldName=IEC Test Points$.Voltage|TableNameOnly=IEC Test Points$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap155]
+Options=FieldName=IEC Test Points$.Package|TableNameOnly=IEC Test Points$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap156]
+Options=FieldName=IEC Test Points$.Manufacturer|TableNameOnly=IEC Test Points$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap157]
+Options=FieldName=IEC Test Points$.MPN|TableNameOnly=IEC Test Points$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap158]
+Options=FieldName=IEC Test Points$.CommentBase|TableNameOnly=IEC Test Points$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap159]
+Options=FieldName=IEC Test Points$.Library Ref|TableNameOnly=IEC Test Points$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap160]
+Options=FieldName=IEC Test Points$.Library Path|TableNameOnly=IEC Test Points$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap161]
+Options=FieldName=IEC Test Points$.Footprint Ref|TableNameOnly=IEC Test Points$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap162]
+Options=FieldName=IEC Test Points$.Footprint Path|TableNameOnly=IEC Test Points$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap163]
+Options=FieldName=IEC Test Points$.Notes|TableNameOnly=IEC Test Points$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap164]
+Options=FieldName=IEC Test Points$.Dielectric|TableNameOnly=IEC Test Points$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap165]
+Options=FieldName=IEC Test Points$.Comment|TableNameOnly=IEC Test Points$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap166]
+Options=FieldName=IEC Test Points$.Description|TableNameOnly=IEC Test Points$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap167]
+Options=FieldName=IEC Test Points$.DiameterMm|TableNameOnly=IEC Test Points$|FieldNameOnly=DiameterMm|FieldType=1|ParameterName=DiameterMm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap168]
+Options=FieldName=IEC Test Points$.ComponentType|TableNameOnly=IEC Test Points$|FieldNameOnly=ComponentType|FieldType=1|ParameterName=ComponentType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap169]
+Options=FieldName=IEC Resistors$.ComponentLink2URL|TableNameOnly=IEC Resistors$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap170]
+Options=FieldName=IEC Resistors$.ComponentLink2Description|TableNameOnly=IEC Resistors$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap171]
+Options=FieldName=IEC Resistors$.HelpURL|TableNameOnly=IEC Resistors$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap172]
+Options=FieldName=IEC Resistors$.ComponentLink1URL|TableNameOnly=IEC Resistors$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap173]
+Options=FieldName=IEC Resistors$.ComponentLink1Description|TableNameOnly=IEC Resistors$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap174]
+Options=FieldName=IEC Resistors$.Datasheet|TableNameOnly=IEC Resistors$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap175]
+Options=FieldName=IEC Capacitors$.ComponentLink2URL|TableNameOnly=IEC Capacitors$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap176]
+Options=FieldName=IEC Capacitors$.ComponentLink2Description|TableNameOnly=IEC Capacitors$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap177]
+Options=FieldName=IEC Capacitors$.HelpURL|TableNameOnly=IEC Capacitors$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap178]
+Options=FieldName=IEC Capacitors$.ComponentLink1URL|TableNameOnly=IEC Capacitors$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap179]
+Options=FieldName=IEC Capacitors$.ComponentLink1Description|TableNameOnly=IEC Capacitors$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap180]
+Options=FieldName=IEC Capacitors$.Datasheet|TableNameOnly=IEC Capacitors$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap181]
+Options=FieldName=IEC ICs$.ComponentLink2URL|TableNameOnly=IEC ICs$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap182]
+Options=FieldName=IEC ICs$.ComponentLink2Description|TableNameOnly=IEC ICs$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap183]
+Options=FieldName=IEC ICs$.HelpURL|TableNameOnly=IEC ICs$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap184]
+Options=FieldName=IEC Connectors$.ComponentLink2URL|TableNameOnly=IEC Connectors$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap185]
+Options=FieldName=IEC Connectors$.ComponentLink2Description|TableNameOnly=IEC Connectors$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap186]
+Options=FieldName=IEC Connectors$.HelpURL|TableNameOnly=IEC Connectors$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap187]
+Options=FieldName=IEC Switches$.ComponentLink2URL|TableNameOnly=IEC Switches$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap188]
+Options=FieldName=IEC Switches$.ComponentLink2Description|TableNameOnly=IEC Switches$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap189]
+Options=FieldName=IEC Switches$.HelpURL|TableNameOnly=IEC Switches$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap190]
+Options=FieldName=IEC LEDs$.ComponentLink2URL|TableNameOnly=IEC LEDs$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap191]
+Options=FieldName=IEC LEDs$.ComponentLink2Description|TableNameOnly=IEC LEDs$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap192]
+Options=FieldName=IEC LEDs$.HelpURL|TableNameOnly=IEC LEDs$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table8]
+SchemaName=
+TableName=IEC Ferrite Beads$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap193]
+Options=FieldName=IEC Ferrite Beads$.ID|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap194]
+Options=FieldName=IEC Ferrite Beads$.Type|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap195]
+Options=FieldName=IEC Ferrite Beads$.Value|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap196]
+Options=FieldName=IEC Ferrite Beads$.Tolerance|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap197]
+Options=FieldName=IEC Ferrite Beads$.Power|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap198]
+Options=FieldName=IEC Ferrite Beads$.Voltage|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap199]
+Options=FieldName=IEC Ferrite Beads$.Package|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap200]
+Options=FieldName=IEC Ferrite Beads$.Manufacturer|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap201]
+Options=FieldName=IEC Ferrite Beads$.MPN|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap202]
+Options=FieldName=IEC Ferrite Beads$.CommentBase|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap203]
+Options=FieldName=IEC Ferrite Beads$.Library Ref|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap204]
+Options=FieldName=IEC Ferrite Beads$.Library Path|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap205]
+Options=FieldName=IEC Ferrite Beads$.Footprint Ref|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap206]
+Options=FieldName=IEC Ferrite Beads$.Footprint Path|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap207]
+Options=FieldName=IEC Ferrite Beads$.Notes|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap208]
+Options=FieldName=IEC Ferrite Beads$.Dielectric|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap209]
+Options=FieldName=IEC Ferrite Beads$.Comment|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap210]
+Options=FieldName=IEC Ferrite Beads$.Description|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap211]
+Options=FieldName=IEC Ferrite Beads$.Datasheet|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap212]
+Options=FieldName=IEC Ferrite Beads$.ComponentLink1Description|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap213]
+Options=FieldName=IEC Ferrite Beads$.ComponentLink1URL|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap214]
+Options=FieldName=IEC Ferrite Beads$.ComponentLink2Description|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap215]
+Options=FieldName=IEC Ferrite Beads$.ComponentLink2URL|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap216]
+Options=FieldName=IEC Ferrite Beads$.HelpURL|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap217]
+Options=FieldName=IEC Ferrite Beads$.ImpedanceOhm|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=ImpedanceOhm|FieldType=1|ParameterName=ImpedanceOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap218]
+Options=FieldName=IEC Ferrite Beads$.TestFrequencyMHz|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=TestFrequencyMHz|FieldType=1|ParameterName=TestFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap219]
+Options=FieldName=IEC Ferrite Beads$.RatedCurrentA|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=RatedCurrentA|FieldType=1|ParameterName=RatedCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap220]
+Options=FieldName=IEC Ferrite Beads$.RatedCurrent125CA|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=RatedCurrent125CA|FieldType=1|ParameterName=RatedCurrent125CA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap221]
+Options=FieldName=IEC Ferrite Beads$.DCResistanceMaxOhm|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=DCResistanceMaxOhm|FieldType=1|ParameterName=DCResistanceMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap222]
+Options=FieldName=IEC Ferrite Beads$.OperatingTemperatureMin|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap223]
+Options=FieldName=IEC Ferrite Beads$.OperatingTemperatureMax|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap224]
+Options=FieldName=IEC Ferrite Beads$.TemperatureReference|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap225]
+Options=FieldName=IEC Ferrite Beads$.Family|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap226]
+Options=FieldName=IEC Ferrite Beads$.Grade|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Grade|FieldType=1|ParameterName=Grade|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap227]
+Options=FieldName=IEC Ferrite Beads$.Packaging|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Packaging|FieldType=1|ParameterName=Packaging|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap228]
+Options=FieldName=IEC Ferrite Beads$.PackagingQuantity|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=PackagingQuantity|FieldType=1|ParameterName=PackagingQuantity|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap229]
+Options=FieldName=IEC Ferrite Beads$.DatasheetRevision|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table9]
+SchemaName=
+TableName=IEC Diodes$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap230]
+Options=FieldName=IEC Diodes$.ID|TableNameOnly=IEC Diodes$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap231]
+Options=FieldName=IEC Diodes$.Type|TableNameOnly=IEC Diodes$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap232]
+Options=FieldName=IEC Diodes$.Value|TableNameOnly=IEC Diodes$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap233]
+Options=FieldName=IEC Diodes$.Tolerance|TableNameOnly=IEC Diodes$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap234]
+Options=FieldName=IEC Diodes$.Power|TableNameOnly=IEC Diodes$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap235]
+Options=FieldName=IEC Diodes$.Voltage|TableNameOnly=IEC Diodes$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap236]
+Options=FieldName=IEC Diodes$.Package|TableNameOnly=IEC Diodes$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap237]
+Options=FieldName=IEC Diodes$.Manufacturer|TableNameOnly=IEC Diodes$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap238]
+Options=FieldName=IEC Diodes$.MPN|TableNameOnly=IEC Diodes$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap239]
+Options=FieldName=IEC Diodes$.CommentBase|TableNameOnly=IEC Diodes$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap240]
+Options=FieldName=IEC Diodes$.Library Ref|TableNameOnly=IEC Diodes$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap241]
+Options=FieldName=IEC Diodes$.Library Path|TableNameOnly=IEC Diodes$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap242]
+Options=FieldName=IEC Diodes$.Footprint Ref|TableNameOnly=IEC Diodes$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap243]
+Options=FieldName=IEC Diodes$.Footprint Path|TableNameOnly=IEC Diodes$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap244]
+Options=FieldName=IEC Diodes$.Notes|TableNameOnly=IEC Diodes$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap245]
+Options=FieldName=IEC Diodes$.Dielectric|TableNameOnly=IEC Diodes$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap246]
+Options=FieldName=IEC Diodes$.Comment|TableNameOnly=IEC Diodes$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap247]
+Options=FieldName=IEC Diodes$.Description|TableNameOnly=IEC Diodes$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap248]
+Options=FieldName=IEC Diodes$.Datasheet|TableNameOnly=IEC Diodes$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap249]
+Options=FieldName=IEC Diodes$.DatasheetRevision|TableNameOnly=IEC Diodes$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap250]
+Options=FieldName=IEC Diodes$.ComponentLink1Description|TableNameOnly=IEC Diodes$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap251]
+Options=FieldName=IEC Diodes$.ComponentLink1URL|TableNameOnly=IEC Diodes$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap252]
+Options=FieldName=IEC Diodes$.ComponentLink2Description|TableNameOnly=IEC Diodes$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap253]
+Options=FieldName=IEC Diodes$.ComponentLink2URL|TableNameOnly=IEC Diodes$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap254]
+Options=FieldName=IEC Diodes$.HelpURL|TableNameOnly=IEC Diodes$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap255]
+Options=FieldName=IEC Diodes$.Family|TableNameOnly=IEC Diodes$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap256]
+Options=FieldName=IEC Diodes$.Configuration|TableNameOnly=IEC Diodes$|FieldNameOnly=Configuration|FieldType=1|ParameterName=Configuration|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap257]
+Options=FieldName=IEC Diodes$.PinMapping|TableNameOnly=IEC Diodes$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap258]
+Options=FieldName=IEC Diodes$.RatedCurrentA|TableNameOnly=IEC Diodes$|FieldNameOnly=RatedCurrentA|FieldType=1|ParameterName=RatedCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap259]
+Options=FieldName=IEC Diodes$.ReverseVoltageMaxV|TableNameOnly=IEC Diodes$|FieldNameOnly=ReverseVoltageMaxV|FieldType=1|ParameterName=ReverseVoltageMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap260]
+Options=FieldName=IEC Diodes$.ZenerVoltageNominalV|TableNameOnly=IEC Diodes$|FieldNameOnly=ZenerVoltageNominalV|FieldType=1|ParameterName=ZenerVoltageNominalV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap261]
+Options=FieldName=IEC Diodes$.TestCurrentMa|TableNameOnly=IEC Diodes$|FieldNameOnly=TestCurrentMa|FieldType=1|ParameterName=TestCurrentMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap262]
+Options=FieldName=IEC Diodes$.ForwardVoltageMaxV|TableNameOnly=IEC Diodes$|FieldNameOnly=ForwardVoltageMaxV|FieldType=1|ParameterName=ForwardVoltageMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap263]
+Options=FieldName=IEC Diodes$.ReverseRecoveryTimeMaxNs|TableNameOnly=IEC Diodes$|FieldNameOnly=ReverseRecoveryTimeMaxNs|FieldType=1|ParameterName=ReverseRecoveryTimeMaxNs|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap264]
+Options=FieldName=IEC Diodes$.PowerCondition|TableNameOnly=IEC Diodes$|FieldNameOnly=PowerCondition|FieldType=1|ParameterName=PowerCondition|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap265]
+Options=FieldName=IEC Resistors$.Sim Model Name|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap266]
+Options=FieldName=IEC Resistors$.Sim Description|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap267]
+Options=FieldName=IEC Resistors$.Sim Kind|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap268]
+Options=FieldName=IEC Resistors$.Sim SubKind|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap269]
+Options=FieldName=IEC Resistors$.Sim Netlist|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap270]
+Options=FieldName=IEC Resistors$.Sim Spice Prefix|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap271]
+Options=FieldName=IEC Resistors$.Sim Port Map|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap272]
+Options=FieldName=IEC Resistors$.Sim File|TableNameOnly=IEC Resistors$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap273]
+Options=FieldName=IEC Resistors$.TCR|TableNameOnly=IEC Resistors$|FieldNameOnly=TCR|FieldType=1|ParameterName=TCR|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap274]
+Options=FieldName=IEC Capacitors$.CapacitanceNominalF|TableNameOnly=IEC Capacitors$|FieldNameOnly=CapacitanceNominalF|FieldType=1|ParameterName=CapacitanceNominalF|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap275]
+Options=FieldName=IEC Capacitors$.DissipationFactorMax|TableNameOnly=IEC Capacitors$|FieldNameOnly=DissipationFactorMax|FieldType=1|ParameterName=DissipationFactorMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap276]
+Options=FieldName=IEC Capacitors$.DFTestFrequencyHz|TableNameOnly=IEC Capacitors$|FieldNameOnly=DFTestFrequencyHz|FieldType=1|ParameterName=DFTestFrequencyHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap277]
+Options=FieldName=IEC Capacitors$.DFTestVoltageVrms|TableNameOnly=IEC Capacitors$|FieldNameOnly=DFTestVoltageVrms|FieldType=1|ParameterName=DFTestVoltageVrms|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap278]
+Options=FieldName=IEC Capacitors$.DFTestTemperatureC|TableNameOnly=IEC Capacitors$|FieldNameOnly=DFTestTemperatureC|FieldType=1|ParameterName=DFTestTemperatureC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap279]
+Options=FieldName=IEC Capacitors$.InsulationTimeConstantMinS|TableNameOnly=IEC Capacitors$|FieldNameOnly=InsulationTimeConstantMinS|FieldType=1|ParameterName=InsulationTimeConstantMinS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap280]
+Options=FieldName=IEC Capacitors$.InsulationResistanceMinOhm|TableNameOnly=IEC Capacitors$|FieldNameOnly=InsulationResistanceMinOhm|FieldType=1|ParameterName=InsulationResistanceMinOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap281]
+Options=FieldName=IEC Capacitors$.InsulationTestVoltageV|TableNameOnly=IEC Capacitors$|FieldNameOnly=InsulationTestVoltageV|FieldType=1|ParameterName=InsulationTestVoltageV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap282]
+Options=FieldName=IEC Capacitors$.InsulationTestDurationS|TableNameOnly=IEC Capacitors$|FieldNameOnly=InsulationTestDurationS|FieldType=1|ParameterName=InsulationTestDurationS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap283]
+Options=FieldName=IEC Capacitors$.EquivalentSeriesResistanceOhm|TableNameOnly=IEC Capacitors$|FieldNameOnly=EquivalentSeriesResistanceOhm|FieldType=1|ParameterName=EquivalentSeriesResistanceOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap284]
+Options=FieldName=IEC Capacitors$.Sim Model Name|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap285]
+Options=FieldName=IEC Capacitors$.Sim Description|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap286]
+Options=FieldName=IEC Capacitors$.Sim Kind|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap287]
+Options=FieldName=IEC Capacitors$.Sim SubKind|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap288]
+Options=FieldName=IEC Capacitors$.Sim Netlist|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap289]
+Options=FieldName=IEC Capacitors$.Sim Spice Prefix|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap290]
+Options=FieldName=IEC Capacitors$.Sim Port Map|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap291]
+Options=FieldName=IEC Capacitors$.Sim File|TableNameOnly=IEC Capacitors$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap292]
+Options=FieldName=IEC Ferrite Beads$.Sim Model Name|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap293]
+Options=FieldName=IEC Ferrite Beads$.Sim Description|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap294]
+Options=FieldName=IEC Ferrite Beads$.Sim Kind|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap295]
+Options=FieldName=IEC Ferrite Beads$.Sim SubKind|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap296]
+Options=FieldName=IEC Ferrite Beads$.Sim Netlist|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap297]
+Options=FieldName=IEC Ferrite Beads$.Sim Spice Prefix|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap298]
+Options=FieldName=IEC Ferrite Beads$.Sim Port Map|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap299]
+Options=FieldName=IEC Ferrite Beads$.Sim File|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap300]
+Options=FieldName=IEC Ferrite Beads$.SimulationModelSource|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=SimulationModelSource|FieldType=1|ParameterName=SimulationModelSource|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap301]
+Options=FieldName=IEC Ferrite Beads$.SimulationModelType|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=SimulationModelType|FieldType=1|ParameterName=SimulationModelType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap302]
+Options=FieldName=IEC Ferrite Beads$.SimulationReferenceTemperatureC|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=SimulationReferenceTemperatureC|FieldType=1|ParameterName=SimulationReferenceTemperatureC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap303]
+Options=FieldName=IEC Ferrite Beads$.SimulationDCBiasCurrentA|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=SimulationDCBiasCurrentA|FieldType=1|ParameterName=SimulationDCBiasCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap304]
+Options=FieldName=IEC Ferrite Beads$.SimulationSignalCondition|TableNameOnly=IEC Ferrite Beads$|FieldNameOnly=SimulationSignalCondition|FieldType=1|ParameterName=SimulationSignalCondition|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap305]
+Options=FieldName=IEC ICs$.Sim Model Name|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap306]
+Options=FieldName=IEC ICs$.Sim Description|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap307]
+Options=FieldName=IEC ICs$.Sim Kind|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap308]
+Options=FieldName=IEC ICs$.Sim SubKind|TableNameOnly=IEC ICs$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap309]
+Options=FieldName=IEC ICs$.Sim Netlist|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap310]
+Options=FieldName=IEC ICs$.Sim Spice Prefix|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap311]
+Options=FieldName=IEC ICs$.Sim Port Map|TableNameOnly=IEC ICs$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap312]
+Options=FieldName=IEC ICs$.Sim File|TableNameOnly=IEC ICs$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap313]
+Options=FieldName=IEC Diodes$.Sim Model Name|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap314]
+Options=FieldName=IEC Diodes$.Sim Description|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap315]
+Options=FieldName=IEC Diodes$.Sim Kind|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap316]
+Options=FieldName=IEC Diodes$.Sim SubKind|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap317]
+Options=FieldName=IEC Diodes$.Sim Netlist|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap318]
+Options=FieldName=IEC Diodes$.Sim Spice Prefix|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap319]
+Options=FieldName=IEC Diodes$.Sim Port Map|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap320]
+Options=FieldName=IEC Diodes$.Sim File|TableNameOnly=IEC Diodes$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap321]
+Options=FieldName=IEC LEDs$.Sim Model Name|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap322]
+Options=FieldName=IEC LEDs$.Sim Description|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap323]
+Options=FieldName=IEC LEDs$.Sim Kind|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap324]
+Options=FieldName=IEC LEDs$.Sim SubKind|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap325]
+Options=FieldName=IEC LEDs$.Sim Netlist|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap326]
+Options=FieldName=IEC LEDs$.Sim Spice Prefix|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap327]
+Options=FieldName=IEC LEDs$.Sim Port Map|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap328]
+Options=FieldName=IEC LEDs$.Sim File|TableNameOnly=IEC LEDs$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap329]
+Options=FieldName=IEC LEDs$.LED_IS|TableNameOnly=IEC LEDs$|FieldNameOnly=LED_IS|FieldType=1|ParameterName=LED_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap330]
+Options=FieldName=IEC LEDs$.LED_N|TableNameOnly=IEC LEDs$|FieldNameOnly=LED_N|FieldType=1|ParameterName=LED_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap331]
+Options=FieldName=IEC LEDs$.LED_RS|TableNameOnly=IEC LEDs$|FieldNameOnly=LED_RS|FieldType=1|ParameterName=LED_RS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table10]
+SchemaName=
+TableName=IEC Transistors$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap332]
+Options=FieldName=IEC Transistors$.ID|TableNameOnly=IEC Transistors$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap333]
+Options=FieldName=IEC Transistors$.Type|TableNameOnly=IEC Transistors$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap334]
+Options=FieldName=IEC Transistors$.Value|TableNameOnly=IEC Transistors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap335]
+Options=FieldName=IEC Transistors$.Tolerance|TableNameOnly=IEC Transistors$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap336]
+Options=FieldName=IEC Transistors$.Power|TableNameOnly=IEC Transistors$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap337]
+Options=FieldName=IEC Transistors$.Voltage|TableNameOnly=IEC Transistors$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap338]
+Options=FieldName=IEC Transistors$.Package|TableNameOnly=IEC Transistors$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap339]
+Options=FieldName=IEC Transistors$.Manufacturer|TableNameOnly=IEC Transistors$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap340]
+Options=FieldName=IEC Transistors$.MPN|TableNameOnly=IEC Transistors$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap341]
+Options=FieldName=IEC Transistors$.CommentBase|TableNameOnly=IEC Transistors$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap342]
+Options=FieldName=IEC Transistors$.Library Ref|TableNameOnly=IEC Transistors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap343]
+Options=FieldName=IEC Transistors$.Library Path|TableNameOnly=IEC Transistors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap344]
+Options=FieldName=IEC Transistors$.Footprint Ref|TableNameOnly=IEC Transistors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap345]
+Options=FieldName=IEC Transistors$.Footprint Path|TableNameOnly=IEC Transistors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap346]
+Options=FieldName=IEC Transistors$.Notes|TableNameOnly=IEC Transistors$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap347]
+Options=FieldName=IEC Transistors$.ChannelType|TableNameOnly=IEC Transistors$|FieldNameOnly=ChannelType|FieldType=1|ParameterName=ChannelType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap348]
+Options=FieldName=IEC Transistors$.Comment|TableNameOnly=IEC Transistors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap349]
+Options=FieldName=IEC Transistors$.Description|TableNameOnly=IEC Transistors$|FieldNameOnly=Description|FieldType=1|ParameterName=Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap350]
+Options=FieldName=IEC Transistors$.Datasheet|TableNameOnly=IEC Transistors$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap351]
+Options=FieldName=IEC Transistors$.DatasheetRevision|TableNameOnly=IEC Transistors$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap352]
+Options=FieldName=IEC Transistors$.ComponentLink1Description|TableNameOnly=IEC Transistors$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap353]
+Options=FieldName=IEC Transistors$.ComponentLink1URL|TableNameOnly=IEC Transistors$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap354]
+Options=FieldName=IEC Transistors$.ComponentLink2Description|TableNameOnly=IEC Transistors$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap355]
+Options=FieldName=IEC Transistors$.ComponentLink2URL|TableNameOnly=IEC Transistors$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap356]
+Options=FieldName=IEC Transistors$.HelpURL|TableNameOnly=IEC Transistors$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap357]
+Options=FieldName=IEC Transistors$.Family|TableNameOnly=IEC Transistors$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap358]
+Options=FieldName=IEC Transistors$.Configuration|TableNameOnly=IEC Transistors$|FieldNameOnly=Configuration|FieldType=1|ParameterName=Configuration|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap359]
+Options=FieldName=IEC Transistors$.PinMapping|TableNameOnly=IEC Transistors$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap360]
+Options=FieldName=IEC Transistors$.VdsMaxV|TableNameOnly=IEC Transistors$|FieldNameOnly=VdsMaxV|FieldType=1|ParameterName=VdsMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap361]
+Options=FieldName=IEC Transistors$.VgsMaxV|TableNameOnly=IEC Transistors$|FieldNameOnly=VgsMaxV|FieldType=1|ParameterName=VgsMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap362]
+Options=FieldName=IEC Transistors$.IdMaxA|TableNameOnly=IEC Transistors$|FieldNameOnly=IdMaxA|FieldType=1|ParameterName=IdMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap363]
+Options=FieldName=IEC Transistors$.PdMaxW|TableNameOnly=IEC Transistors$|FieldNameOnly=PdMaxW|FieldType=1|ParameterName=PdMaxW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap364]
+Options=FieldName=IEC Transistors$.RdsOnMaxOhm10V|TableNameOnly=IEC Transistors$|FieldNameOnly=RdsOnMaxOhm10V|FieldType=1|ParameterName=RdsOnMaxOhm10V|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap365]
+Options=FieldName=IEC Transistors$.RdsOnMaxOhm5V|TableNameOnly=IEC Transistors$|FieldNameOnly=RdsOnMaxOhm5V|FieldType=1|ParameterName=RdsOnMaxOhm5V|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap366]
+Options=FieldName=IEC Transistors$.VgsThMinV|TableNameOnly=IEC Transistors$|FieldNameOnly=VgsThMinV|FieldType=1|ParameterName=VgsThMinV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap367]
+Options=FieldName=IEC Transistors$.VgsThMaxV|TableNameOnly=IEC Transistors$|FieldNameOnly=VgsThMaxV|FieldType=1|ParameterName=VgsThMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap368]
+Options=FieldName=IEC Transistors$.CissPf|TableNameOnly=IEC Transistors$|FieldNameOnly=CissPf|FieldType=1|ParameterName=CissPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap369]
+Options=FieldName=IEC Transistors$.CossPf|TableNameOnly=IEC Transistors$|FieldNameOnly=CossPf|FieldType=1|ParameterName=CossPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap370]
+Options=FieldName=IEC Transistors$.CrssPf|TableNameOnly=IEC Transistors$|FieldNameOnly=CrssPf|FieldType=1|ParameterName=CrssPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap371]
+Options=FieldName=IEC Transistors$.VsdMaxV|TableNameOnly=IEC Transistors$|FieldNameOnly=VsdMaxV|FieldType=1|ParameterName=VsdMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap372]
+Options=FieldName=IEC Transistors$.Marking|TableNameOnly=IEC Transistors$|FieldNameOnly=Marking|FieldType=1|ParameterName=Marking|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap373]
+Options=FieldName=IEC Transistors$.Sim Model Name|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap374]
+Options=FieldName=IEC Transistors$.Sim Description|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap375]
+Options=FieldName=IEC Transistors$.Sim Kind|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap376]
+Options=FieldName=IEC Transistors$.Sim SubKind|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap377]
+Options=FieldName=IEC Transistors$.Sim Netlist|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap378]
+Options=FieldName=IEC Transistors$.Sim Spice Prefix|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap379]
+Options=FieldName=IEC Transistors$.Sim Port Map|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap380]
+Options=FieldName=IEC Transistors$.Sim File|TableNameOnly=IEC Transistors$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap381]
+Options=FieldName=IEC Transistors$.VT_VTO|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_VTO|FieldType=1|ParameterName=VT_VTO|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap382]
+Options=FieldName=IEC Transistors$.VT_KP|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_KP|FieldType=1|ParameterName=VT_KP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap383]
+Options=FieldName=IEC Transistors$.VT_THETA|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_THETA|FieldType=1|ParameterName=VT_THETA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap384]
+Options=FieldName=IEC Transistors$.VT_CGS|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_CGS|FieldType=1|ParameterName=VT_CGS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap385]
+Options=FieldName=IEC Transistors$.VT_CGD|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_CGD|FieldType=1|ParameterName=VT_CGD|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap386]
+Options=FieldName=IEC Transistors$.VT_CDS|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_CDS|FieldType=1|ParameterName=VT_CDS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap387]
+Options=FieldName=IEC Transistors$.VT_IS|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_IS|FieldType=1|ParameterName=VT_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap388]
+Options=FieldName=IEC Transistors$.VT_N|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_N|FieldType=1|ParameterName=VT_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

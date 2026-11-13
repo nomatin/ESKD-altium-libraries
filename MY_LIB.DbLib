@@ -114,66 +114,102 @@ Options=FieldName=Резисторы$.Dielectric|TableNameOnly=Резисторы$|FieldNameOnly=D
 Options=FieldName=Резисторы$.Comment|TableNameOnly=Резисторы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap38]
 Options=FieldName=Резисторы$.Description|TableNameOnly=Резисторы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap39]
 Options=FieldName=Микросхемы$.ID|TableNameOnly=Микросхемы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap40]
 Options=FieldName=Микросхемы$.Type|TableNameOnly=Микросхемы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap41]
 Options=FieldName=Микросхемы$.Value|TableNameOnly=Микросхемы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap42]
 Options=FieldName=Микросхемы$.ESKD_value|TableNameOnly=Микросхемы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap43]
 Options=FieldName=Микросхемы$.Tolerance|TableNameOnly=Микросхемы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap44]
 Options=FieldName=Микросхемы$.Power|TableNameOnly=Микросхемы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap45]
 Options=FieldName=Микросхемы$.Voltage|TableNameOnly=Микросхемы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap46]
 Options=FieldName=Микросхемы$.Package|TableNameOnly=Микросхемы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap47]
 Options=FieldName=Микросхемы$.Manufacturer|TableNameOnly=Микросхемы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap48]
 Options=FieldName=Микросхемы$.MPN|TableNameOnly=Микросхемы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap49]
 Options=FieldName=Микросхемы$.CommentBase|TableNameOnly=Микросхемы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap50]
 Options=FieldName=Микросхемы$.Library Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap51]
 Options=FieldName=Микросхемы$.Library Path|TableNameOnly=Микросхемы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap52]
 Options=FieldName=Микросхемы$.Footprint Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap53]
 Options=FieldName=Микросхемы$.Footprint Path|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap54]
 Options=FieldName=Микросхемы$.Notes|TableNameOnly=Микросхемы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap55]
 Options=FieldName=Микросхемы$.Dielectric|TableNameOnly=Микросхемы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap56]
 Options=FieldName=Микросхемы$.Comment|TableNameOnly=Микросхемы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap57]
 Options=FieldName=Микросхемы$.Description|TableNameOnly=Микросхемы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap58]
 Options=FieldName=Микросхемы$.OperatingTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap59]
 Options=FieldName=Микросхемы$.OperatingTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap60]
 Options=FieldName=Микросхемы$.TemperatureReference|TableNameOnly=Микросхемы$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap61]
 Options=FieldName=Микросхемы$.StorageTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap62]
 Options=FieldName=Микросхемы$.StorageTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap63]
 Options=FieldName=Микросхемы$.JunctionTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMin|FieldType=1|ParameterName=JunctionTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap64]
 Options=FieldName=Микросхемы$.JunctionTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMax|FieldType=1|ParameterName=JunctionTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap65]
 Options=FieldName=Микросхемы$.Datasheet|TableNameOnly=Микросхемы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap66]
 Options=FieldName=Микросхемы$.DatasheetRevision|TableNameOnly=Микросхемы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap67]
 Options=FieldName=Микросхемы$.ComponentLink1Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap68]
 Options=FieldName=Микросхемы$.ComponentLink1URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table4]
+SchemaName=
+TableName=Разъёмы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap69]
 Options=FieldName=Разъёмы$.ID|TableNameOnly=Разъёмы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
@@ -209,7 +245,7 @@ Options=FieldName=Разъёмы$.Notes|TableNameOnly=Разъёмы$|FieldNameOnly=Notes|Fiel
 [FieldMap85]
 Options=FieldName=Разъёмы$.Dielectric|TableNameOnly=Разъёмы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=Разъёмы$.Comment|TableNameOnly=Разъёмы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Разъёмы$.Comment|TableNameOnly=Разъёмы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
 Options=FieldName=Разъёмы$.Description|TableNameOnly=Разъёмы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
@@ -220,6 +256,12 @@ Options=FieldName=Разъёмы$.DatasheetRevision|TableNameOnly=Разъёмы$|FieldNameOnl
 Options=FieldName=Разъёмы$.ComponentLink1Description|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
 Options=FieldName=Разъёмы$.ComponentLink1URL|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table5]
+SchemaName=
+TableName=Переключатели$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap92]
 Options=FieldName=Переключатели$.ID|TableNameOnly=Переключатели$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
@@ -278,6 +320,12 @@ Options=FieldName=Переключатели$.TemperatureReference|TableNameOnly=Переключател
 Options=FieldName=Переключатели$.ContactForm|TableNameOnly=Переключатели$|FieldNameOnly=ContactForm|FieldType=1|ParameterName=ContactForm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap120]
 Options=FieldName=Переключатели$.Positions|TableNameOnly=Переключатели$|FieldNameOnly=Positions|FieldType=1|ParameterName=Positions|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table6]
+SchemaName=
+TableName=Светодиоды$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap121]
 Options=FieldName=Светодиоды$.ID|TableNameOnly=Светодиоды$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap122]
@@ -346,6 +394,12 @@ Options=FieldName=Светодиоды$.PinMapping|TableNameOnly=Светодиоды$|FieldNameOnly
 Options=FieldName=Светодиоды$.ChipMaterial|TableNameOnly=Светодиоды$|FieldNameOnly=ChipMaterial|FieldType=1|ParameterName=ChipMaterial|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap154]
 Options=FieldName=Светодиоды$.Family|TableNameOnly=Светодиоды$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table7]
+SchemaName=
+TableName=Тестовые точки$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap155]
 Options=FieldName=Тестовые точки$.ID|TableNameOnly=Тестовые точки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap156]
@@ -388,54 +442,84 @@ Options=FieldName=Тестовые точки$.Description|TableNameOnly=Тестовые точки$|Fiel
 Options=FieldName=Тестовые точки$.DiameterMm|TableNameOnly=Тестовые точки$|FieldNameOnly=DiameterMm|FieldType=1|ParameterName=DiameterMm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap175]
 Options=FieldName=Тестовые точки$.ComponentType|TableNameOnly=Тестовые точки$|FieldNameOnly=ComponentType|FieldType=1|ParameterName=ComponentType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap176]
 Options=FieldName=Резисторы$.ComponentLink2URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap177]
 Options=FieldName=Резисторы$.ComponentLink2Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap178]
 Options=FieldName=Резисторы$.HelpURL|TableNameOnly=Резисторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap179]
 Options=FieldName=Резисторы$.ComponentLink1URL|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap180]
 Options=FieldName=Резисторы$.ComponentLink1Description|TableNameOnly=Резисторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap181]
 Options=FieldName=Резисторы$.Datasheet|TableNameOnly=Резисторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap182]
 Options=FieldName=Конденсаторы$.ComponentLink2URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap183]
 Options=FieldName=Конденсаторы$.ComponentLink2Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap184]
 Options=FieldName=Конденсаторы$.HelpURL|TableNameOnly=Конденсаторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap185]
 Options=FieldName=Конденсаторы$.ComponentLink1URL|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap186]
 Options=FieldName=Конденсаторы$.ComponentLink1Description|TableNameOnly=Конденсаторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap187]
 Options=FieldName=Конденсаторы$.Datasheet|TableNameOnly=Конденсаторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap188]
 Options=FieldName=Микросхемы$.ComponentLink2URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap189]
 Options=FieldName=Микросхемы$.ComponentLink2Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap190]
 Options=FieldName=Микросхемы$.HelpURL|TableNameOnly=Микросхемы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap191]
 Options=FieldName=Разъёмы$.ComponentLink2URL|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap192]
 Options=FieldName=Разъёмы$.ComponentLink2Description|TableNameOnly=Разъёмы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap193]
 Options=FieldName=Разъёмы$.HelpURL|TableNameOnly=Разъёмы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap194]
 Options=FieldName=Переключатели$.ComponentLink2URL|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap195]
 Options=FieldName=Переключатели$.ComponentLink2Description|TableNameOnly=Переключатели$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap196]
 Options=FieldName=Переключатели$.HelpURL|TableNameOnly=Переключатели$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap197]
 Options=FieldName=Светодиоды$.ComponentLink2URL|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap198]
 Options=FieldName=Светодиоды$.ComponentLink2Description|TableNameOnly=Светодиоды$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap199]
 Options=FieldName=Светодиоды$.HelpURL|TableNameOnly=Светодиоды$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table8]
+SchemaName=
+TableName=Ферриты$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap200]
 Options=FieldName=Ферриты$.ID|TableNameOnly=Ферриты$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap201]
@@ -512,6 +596,12 @@ Options=FieldName=Ферриты$.Packaging|TableNameOnly=Ферриты$|FieldNameOnly=Packag
 Options=FieldName=Ферриты$.PackagingQuantity|TableNameOnly=Ферриты$|FieldNameOnly=PackagingQuantity|FieldType=1|ParameterName=PackagingQuantity|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap237]
 Options=FieldName=Ферриты$.DatasheetRevision|TableNameOnly=Ферриты$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table9]
+SchemaName=
+TableName=Диоды$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap238]
 Options=FieldName=Диоды$.ID|TableNameOnly=Диоды$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap239]
@@ -680,44 +770,69 @@ Options=FieldName=Микросхемы$.Sim Spice Prefix|TableNameOnly=Микросхемы$|FieldNa
 Options=FieldName=Микросхемы$.Sim Port Map|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap321]
 Options=FieldName=Микросхемы$.Sim File|TableNameOnly=Микросхемы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap322]
 Options=FieldName=Диоды$.Sim Model Name|TableNameOnly=Диоды$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap323]
 Options=FieldName=Диоды$.Sim Description|TableNameOnly=Диоды$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap324]
 Options=FieldName=Диоды$.Sim Kind|TableNameOnly=Диоды$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap325]
 Options=FieldName=Диоды$.Sim SubKind|TableNameOnly=Диоды$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap326]
 Options=FieldName=Диоды$.Sim Netlist|TableNameOnly=Диоды$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap327]
 Options=FieldName=Диоды$.Sim Spice Prefix|TableNameOnly=Диоды$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap328]
 Options=FieldName=Диоды$.Sim Port Map|TableNameOnly=Диоды$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap329]
 Options=FieldName=Диоды$.Sim File|TableNameOnly=Диоды$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap330]
 Options=FieldName=Светодиоды$.Sim Model Name|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap331]
 Options=FieldName=Светодиоды$.Sim Description|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap332]
 Options=FieldName=Светодиоды$.Sim Kind|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap333]
 Options=FieldName=Светодиоды$.Sim SubKind|TableNameOnly=Светодиоды$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap334]
 Options=FieldName=Светодиоды$.Sim Netlist|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap335]
 Options=FieldName=Светодиоды$.Sim Spice Prefix|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap336]
 Options=FieldName=Светодиоды$.Sim Port Map|TableNameOnly=Светодиоды$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap337]
 Options=FieldName=Светодиоды$.Sim File|TableNameOnly=Светодиоды$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap338]
 Options=FieldName=Светодиоды$.LED_IS|TableNameOnly=Светодиоды$|FieldNameOnly=LED_IS|FieldType=1|ParameterName=LED_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap339]
 Options=FieldName=Светодиоды$.LED_N|TableNameOnly=Светодиоды$|FieldNameOnly=LED_N|FieldType=1|ParameterName=LED_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
 [FieldMap340]
 Options=FieldName=Светодиоды$.LED_RS|TableNameOnly=Светодиоды$|FieldNameOnly=LED_RS|FieldType=1|ParameterName=LED_RS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table10]
+SchemaName=
+TableName=Транзисторы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
 [FieldMap341]
 Options=FieldName=Транзисторы$.ID|TableNameOnly=Транзисторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap342]
@@ -834,85 +949,3 @@ Options=FieldName=Транзисторы$.VT_CDS|TableNameOnly=Транзисторы$|FieldNameOnly=V
 Options=FieldName=Транзисторы$.VT_IS|TableNameOnly=Транзисторы$|FieldNameOnly=VT_IS|FieldType=1|ParameterName=VT_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap398]
 Options=FieldName=Транзисторы$.VT_N|TableNameOnly=Транзисторы$|FieldNameOnly=VT_N|FieldType=1|ParameterName=VT_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap399]
-Options=FieldName=Микросхемы$.ID|TableNameOnly=Микросхемы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap400]
-Options=FieldName=Микросхемы$.Type|TableNameOnly=Микросхемы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap401]
-Options=FieldName=Микросхемы$.Value|TableNameOnly=Микросхемы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap402]
-Options=FieldName=Микросхемы$.ESKD_value|TableNameOnly=Микросхемы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap403]
-Options=FieldName=Микросхемы$.Tolerance|TableNameOnly=Микросхемы$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap404]
-Options=FieldName=Микросхемы$.Power|TableNameOnly=Микросхемы$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap405]
-Options=FieldName=Микросхемы$.Voltage|TableNameOnly=Микросхемы$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap406]
-Options=FieldName=Микросхемы$.Package|TableNameOnly=Микросхемы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap407]
-Options=FieldName=Микросхемы$.Manufacturer|TableNameOnly=Микросхемы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap408]
-Options=FieldName=Микросхемы$.MPN|TableNameOnly=Микросхемы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap409]
-Options=FieldName=Микросхемы$.CommentBase|TableNameOnly=Микросхемы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap410]
-Options=FieldName=Микросхемы$.Library Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap411]
-Options=FieldName=Микросхемы$.Library Path|TableNameOnly=Микросхемы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap412]
-Options=FieldName=Микросхемы$.Footprint Ref|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap413]
-Options=FieldName=Микросхемы$.Footprint Path|TableNameOnly=Микросхемы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap414]
-Options=FieldName=Микросхемы$.Notes|TableNameOnly=Микросхемы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap415]
-Options=FieldName=Микросхемы$.Dielectric|TableNameOnly=Микросхемы$|FieldNameOnly=Dielectric|FieldType=1|ParameterName=Dielectric|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap416]
-Options=FieldName=Микросхемы$.Comment|TableNameOnly=Микросхемы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap417]
-Options=FieldName=Микросхемы$.Description|TableNameOnly=Микросхемы$|FieldNameOnly=Description|FieldType=1|ParameterName=Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap418]
-Options=FieldName=Микросхемы$.OperatingTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap419]
-Options=FieldName=Микросхемы$.OperatingTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap420]
-Options=FieldName=Микросхемы$.TemperatureReference|TableNameOnly=Микросхемы$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap421]
-Options=FieldName=Микросхемы$.StorageTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap422]
-Options=FieldName=Микросхемы$.StorageTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap423]
-Options=FieldName=Микросхемы$.JunctionTemperatureMin|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMin|FieldType=1|ParameterName=JunctionTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap424]
-Options=FieldName=Микросхемы$.JunctionTemperatureMax|TableNameOnly=Микросхемы$|FieldNameOnly=JunctionTemperatureMax|FieldType=1|ParameterName=JunctionTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap425]
-Options=FieldName=Микросхемы$.Datasheet|TableNameOnly=Микросхемы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap426]
-Options=FieldName=Микросхемы$.DatasheetRevision|TableNameOnly=Микросхемы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap427]
-Options=FieldName=Микросхемы$.ComponentLink1Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap428]
-Options=FieldName=Микросхемы$.ComponentLink1URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap429]
-Options=FieldName=Микросхемы$.ComponentLink2Description|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap430]
-Options=FieldName=Микросхемы$.ComponentLink2URL|TableNameOnly=Микросхемы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap431]
-Options=FieldName=Микросхемы$.HelpURL|TableNameOnly=Микросхемы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap432]
-Options=FieldName=Микросхемы$.Sim Model Name|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap433]
-Options=FieldName=Микросхемы$.Sim Description|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap434]
-Options=FieldName=Микросхемы$.Sim Kind|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap435]
-Options=FieldName=Микросхемы$.Sim SubKind|TableNameOnly=Микросхемы$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap436]
-Options=FieldName=Микросхемы$.Sim Netlist|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap437]
-Options=FieldName=Микросхемы$.Sim Spice Prefix|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap438]
-Options=FieldName=Микросхемы$.Sim Port Map|TableNameOnly=Микросхемы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap439]
-Options=FieldName=Микросхемы$.Sim File|TableNameOnly=Микросхемы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
