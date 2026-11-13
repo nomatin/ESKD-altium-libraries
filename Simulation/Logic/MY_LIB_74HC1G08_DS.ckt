@@ -1,0 +1,38 @@
+* MY_LIB 74HC1G08GW behavioural AND gate
+* Source: Nexperia 74HC1G08; 74HCT1G08, Rev. 9, 23 September 2024,
+*         static/dynamic characteristics (pages 4-5), function table (page 3).
+* Scope: 74HC1G08 only, VCC 2.0..6.0 V, Tamb = 25 C.
+* Model type: simplified behavioural, NOT a factory model.
+* Implemented : AND function, threshold 0.5*VCC, output levels VCC/0,
+*               output series resistance 25 ohm, ~8 ns internal delay,
+*               static ICC 9.7 uA at 6 V, input leakage and 1.5 pF input capacitance.
+* Not modelled: temperature dependence, input clamp diodes, real VIH/VIL
+*               hysteresis, output stage saturation at current limits,
+*               short-circuit behaviour, CPD/dynamic supply current,
+*               propagation-delay dependence on VCC and load, ESD.
+* Ports: 1=B, 2=A, 3=GND, 4=Y, 5=VCC (same order as the SchLib pins).
+.SUBCKT MY_LIB_74HC1G08_DS B A GND Y VCC
+* VCC/2 reference and differential control voltages
+EREF REF 0 VCC 0 0.5
+EDA  DA 0 A REF 1
+EDB  DB 0 B REF 1
+* AND function: two series switches between VCC and the output node
+S1 VCC N1 DA 0 SW_AND
+S2 N1 N2 DB 0 SW_AND
+RN1 N1 0 1G
+* pull-down sets the low level; ideal buffer + RC sets the internal delay
+RPD  N2 0 10MEG
+EFILT N5 0 N2 0 1
+RDEL N5 N3 1K
+CDEL N3 0 10P
+* stiff output buffer with 25 ohm series resistance
+EBUF N4 0 N3 0 1
+ROUT N4 Y 25
+* static supply current, input leakage and input capacitance
+RICC VCC GND 680K
+RIA  A GND 6MEG
+RIB  B GND 6MEG
+CIA  A GND 1.5P
+CIB  B GND 1.5P
+.MODEL SW_AND SW(RON=20 ROFF=1G VT=0 VH=0.1)
+.ENDS MY_LIB_74HC1G08_DS
