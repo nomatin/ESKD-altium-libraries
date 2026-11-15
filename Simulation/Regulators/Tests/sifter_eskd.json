@@ -1,0 +1,25 @@
+{
+  "spice": "* TLV75533P 250mA nominal operating point\nVIN VIN 0 DC 4.3\nVEN ENABLE 0 DC 4.3\nCIN VIN 0 1u\nCOUT VOUT 0 1u\nRLOAD VOUT 0 13.2\n{{DUT}}\n.OP\n.END\n",
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB.DbLib",
+    "id": "U0007",
+    "designator": "U1",
+    "pins": {
+      "5": "VOUT",
+      "1": "VIN",
+      "2": "0",
+      "3": "ENABLE"
+    },
+    "table": "Микросхемы"
+  },
+  "checks": [
+    {
+      "min": 3.2505,
+      "measurement": "first",
+      "signal": "v(vout)",
+      "max": 3.3495,
+      "analysis": "op"
+    }
+  ],
+  "name": "tlv75533p_u0007_op"
+}

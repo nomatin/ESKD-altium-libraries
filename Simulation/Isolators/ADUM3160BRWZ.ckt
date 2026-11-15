@@ -1,0 +1,90 @@
+.FUNC ADUSBSEL(C,T,F) {(C)*(T)+(1-(C))*(F)}
+* ADUM3160BRWZ: simplified bidirectional isolated USB LS/FS repeater.
+* Port order follows the physical pin numbers, 1 through 16.
+.SUBCKT ADUM3160BRWZ VBUS1 GND1 VDD1 PDEN SPU UDM UDP GND1B GND2 DDP DDM PIN SPD VDD2 GND2B VBUS2
+* Each pair of grounds is internally common. No conductive path between domains.
+RG1 GND1B GND1 1m
+RG2 GND2B GND2 1m
+
+* Supply selection: approximate 5 V-mode regulators, external 3.3 V mode.
+* Independent ideal 3.3 V sources omit input current, dropout and regulator dynamics.
+VREG1 REG1 GND1 3.3
+VREG2 REG2 GND2 3.3
+RREG1 REG1 FEED1 5
+RREG2 REG2 FEED2 5
+SREG1 FEED1 VDD1 VBUS1 GND1 ADUM3160_REG
+SREG2 FEED2 VDD2 VBUS2 GND2 ADUM3160_REG
+RVDD1 VDD1 GND1 10Meg
+RVDD2 VDD2 GND2 10Meg
+
+* Normalized internal control nodes never source current into either input domain.
+BPOWER POWER_OK 0 V={ADUSBSEL(v(VBUS1,GND1)>2.9 && v(VBUS2,GND2)>2.9 && v(VDD1,GND1)>2.8 && v(VDD2,GND2)>2.8,1,0)}
+BEN ENABLE 0 V={ADUSBSEL(v(POWER_OK)>0.5 && v(PIN,GND2)>1.6 && ((v(SPU,GND1)>1.6)==(v(SPD,GND2)>1.6)),1,0)}
+BFS FS 0 V={ADUSBSEL(v(SPU,GND1)>1.6,1,0)}
+BLS LS 0 V={1-v(FS)}
+BPUFS PUFS 0 V={v(ENABLE)*v(FS)}
+BPULS PULS 0 V={v(ENABLE)*v(LS)}
+BPD PD 0 V={ADUSBSEL(v(POWER_OK)>0.5 && v(PDEN,GND1)>1.6,1,0)}
+
+* High-impedance data pin leakage provides a DC path for disconnected ports.
+RLEAKUP UDP GND1 100Meg
+RLEAKUM UDM GND1 100Meg
+RLEAKDP DDP GND2 100Meg
+RLEAKDM DDM GND2 100Meg
+
+* Upstream attachment and downstream termination. PDEN is modeled as live.
+RUP VDD1 PULLUP 1.5k
+SUPP PULLUP UDP PUFS 0 ADUM3160_SW
+SUPM PULLUP UDM PULS 0 ADUM3160_SW
+RDP DDP PULLDP 15k
+RDM DDM PULLDM 15k
+SDPP PULLDP GND2 PD 0 ADUM3160_SW
+SDPM PULLDM GND2 PD 0 ADUM3160_SW
+
+* Direction is acquired from a K state, then held through J and SE0.
+* A locally repeated K cannot acquire the opposite direction.
+BKU KU 0 V={ADUSBSEL(v(ENABLE)>0.5 && v(HOLDD)<0.5 && ((v(FS)>0.5 && v(UDM,GND1)>1.6 && v(UDP,GND1)<1.6) || (v(LS)>0.5 && v(UDP,GND1)>1.6 && v(UDM,GND1)<1.6)),1,0)}
+BKD KD 0 V={ADUSBSEL(v(ENABLE)>0.5 && v(HOLDU)<0.5 && ((v(FS)>0.5 && v(DDM,GND2)>1.6 && v(DDP,GND2)<1.6) || (v(LS)>0.5 && v(DDP,GND2)>1.6 && v(DDM,GND2)<1.6)),1,0)}
+* Retriggerable direction holds: approximately 0.8 us FS, 6.2 us LS.
+* A qualified SE0-to-J sequence releases the owner before the idle timeout.
+CHU HOLDU 0 1p
+CHD HOLDD 0 1p
+BHU 0 HOLDU I={(v(KU)-v(HOLDU))*ADUSBSEL(v(KU)>0.5 || v(ENABLE)<0.5 || v(REL_U)>0.5,0.001,ADUSBSEL(v(FS)>0.5,0.000000866,0.000000112))}
+BHD 0 HOLDD I={(v(KD)-v(HOLDD))*ADUSBSEL(v(KD)>0.5 || v(ENABLE)<0.5 || v(REL_D)>0.5,0.001,ADUSBSEL(v(FS)>0.5,0.000000866,0.000000112))}
+* Upstream wins a simultaneous start. Receiving side holds no authority.
+BDRVD DRVD 0 V={ADUSBSEL(v(ENABLE)>0.5 && v(HOLDU)>0.5,1,0)}
+BDRVU DRVU 0 V={ADUSBSEL(v(ENABLE)>0.5 && v(HOLDU)<=0.5 && v(HOLDD)>0.5,1,0)}
+
+* Qualify SE0 for about 100 ns (FS) or 800 ns (LS).
+* After qualified SE0, allow J through for about 60 ns or 480 ns before release.
+* Each ARMED node can persist briefly during J but clears when the direction releases.
+BSEU SEU 0 V={ADUSBSEL(v(DRVD)>0.5 && v(UDM,GND1)<1.6 && v(UDP,GND1)<1.6,1,0)}
+BSED SED 0 V={ADUSBSEL(v(DRVU)>0.5 && v(DDM,GND2)<1.6 && v(DDP,GND2)<1.6,1,0)}
+CARMU ARM_U 0 1p
+CARMD ARM_D 0 1p
+BARMU 0 ARM_U I={(v(SEU)-v(ARM_U))*ADUSBSEL(v(DRVD)<0.5 || v(KU)>0.5,0.001,ADUSBSEL(v(SEU)>0.5,ADUSBSEL(v(FS)>0.5,6.931u,0.8664u),0.20u))}
+BARMD 0 ARM_D I={(v(SED)-v(ARM_D))*ADUSBSEL(v(DRVU)<0.5 || v(KD)>0.5,0.001,ADUSBSEL(v(SED)>0.5,ADUSBSEL(v(FS)>0.5,6.931u,0.8664u),0.20u))}
+BJU JU 0 V={ADUSBSEL(v(DRVD)>0.5 && v(ARM_U)>0.5 && ((v(FS)>0.5 && v(UDP,GND1)>1.6 && v(UDM,GND1)<1.6) || (v(LS)>0.5 && v(UDM,GND1)>1.6 && v(UDP,GND1)<1.6)),1,0)}
+BJD JD 0 V={ADUSBSEL(v(DRVU)>0.5 && v(ARM_D)>0.5 && ((v(FS)>0.5 && v(DDP,GND2)>1.6 && v(DDM,GND2)<1.6) || (v(LS)>0.5 && v(DDM,GND2)>1.6 && v(DDP,GND2)<1.6)),1,0)}
+CRELU REL_U 0 1p
+CRELD REL_D 0 1p
+BRELU 0 REL_U I={(v(JU)-v(REL_U))*ADUSBSEL(v(JU)>0.5,ADUSBSEL(v(FS)>0.5,11.552u,1.444u),0.001)}
+BRELD 0 REL_D I={(v(JD)-v(REL_D))*ADUSBSEL(v(JD)>0.5,ADUSBSEL(v(FS)>0.5,11.552u,1.444u),0.001)}
+
+* Regenerate each bit against the receiving side's reference and local supply.
+* The behavioral sources do not connect GND1 to GND2.
+BUDP UDP_SRC GND1 V={ADUSBSEL(v(DDP,GND2)>1.6,v(VDD1,GND1),0)}
+BUDM UDM_SRC GND1 V={ADUSBSEL(v(DDM,GND2)>1.6,v(VDD1,GND1),0)}
+BDDP DDP_SRC GND2 V={ADUSBSEL(v(UDP,GND1)>1.6,v(VDD2,GND2),0)}
+BDDM DDM_SRC GND2 V={ADUSBSEL(v(UDM,GND1)>1.6,v(VDD2,GND2),0)}
+RUDP UDP_SRC UDP_DRV 44
+RUDM UDM_SRC UDM_DRV 44
+RDDP DDP_SRC DDP_DRV 44
+RDDM DDM_SRC DDM_DRV 44
+SUDP UDP_DRV UDP DRVU 0 ADUM3160_SW
+SUDM UDM_DRV UDM DRVU 0 ADUM3160_SW
+SDDP DDP_DRV DDP DRVD 0 ADUM3160_SW
+SDDM DDM_DRV DDM DRVD 0 ADUM3160_SW
+.MODEL ADUM3160_SW SW(RON=1 ROFF=1e12 VT=0.5 VH=0.05)
+.MODEL ADUM3160_REG SW(RON=0.1 ROFF=1e12 VT=4.3 VH=0.05)
+.ENDS ADUM3160BRWZ

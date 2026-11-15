@@ -1,0 +1,85 @@
+{
+  "source": "TI SBVS320D, sections 5.3, 5.5, 6.3",
+  "model_sha256": "229e69cc2753ed020a52ea5cd9536e22856101d021b1fc7eb0e075e1d8967aaa",
+  "engine": "ngspice 44 (KiCad 9, diagnostic)",
+  "results": {
+    "unloaded": {
+      "value": 3.3,
+      "min": 3.267,
+      "max": 3.333,
+      "pass": true
+    },
+    "off_before": {
+      "value": 0.0,
+      "min": -0.01,
+      "max": 0.01,
+      "pass": true
+    },
+    "startup_90": {
+      "value": 0.0005540823,
+      "min": 0.0002,
+      "max": 0.001,
+      "pass": true
+    },
+    "on_100ma": {
+      "value": 3.287795,
+      "min": 3.267,
+      "max": 3.333,
+      "pass": true
+    },
+    "off_after": {
+      "value": 3.758441e-15,
+      "min": -0.01,
+      "max": 0.01,
+      "pass": true
+    },
+    "out_1ma": {
+      "value": 3.29994,
+      "min": 3.267,
+      "max": 3.333,
+      "pass": true
+    },
+    "out_500ma": {
+      "value": 3.27,
+      "min": 3.24,
+      "max": 3.333,
+      "pass": true
+    },
+    "dropout_out": {
+      "value": 3.15,
+      "min": 3.085,
+      "max": 3.2,
+      "pass": true
+    },
+    "dropout_recovery": {
+      "value": 3.27,
+      "min": 3.24,
+      "max": 3.333,
+      "pass": true
+    },
+    "current_limit": {
+      "value": 0.72,
+      "min": 0.56,
+      "max": 0.865,
+      "pass": true
+    },
+    "short_limit": {
+      "value": 0.355,
+      "min": 0.3,
+      "max": 0.42,
+      "pass": true
+    },
+    "below_uvlo": {
+      "value": 0.0,
+      "min": -0.01,
+      "max": 0.01,
+      "pass": true
+    },
+    "discharge_1e": {
+      "value": 0.0001197593,
+      "min": 8e-05,
+      "max": 0.00017,
+      "pass": true
+    }
+  }
+}

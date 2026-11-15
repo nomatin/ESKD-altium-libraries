@@ -1,0 +1,185 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-44 shared library
+stdout ** Creation Date: Jun 15 2025   06:22:10
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: tlv75533pdbvr independent verification at 25 c
+Prepare Deck
+Parse
+stdout Doing analysis at TEMP = 25.000000 and TNOM = 27.000000
+Device Setup
+stdout Using SPARSE 1.3 as Direct Linear Solver
+op
+stderr Note: Starting dynamic gmin stepping
+stderr Warning: Dynamic gmin stepping failed
+stderr Note: Starting true gmin stepping
+stderr Warning: True gmin stepping failed
+stderr Note: Starting source stepping
+stderr Warning: singular matrix:  check node xdischarge.soft
+stderr Note: Source stepping completed
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout in1                                          5
+stdout en                                           0
+stdout xstartup.enabled                             0
+stdout xstartup.eenable_int1                        0
+stdout xstartup.soft                                0
+stdout xstartup.gsoft_int1                          0
+stdout startup                                      0
+stdout xstartup.gpass_int1                          0
+stdout xstartup.gdischarge_int1                     0
+stdout xstartup.giq_int1                        1e-07
+stdout in2                                        4.3
+stdout xload.enabled                                1
+stdout xload.eenable_int1                           1
+stdout xload.soft                                   1
+stdout xload.gsoft_int1                             0
+stdout loaded                                 3.29994
+stdout xload.gpass_int1                         0.001
+stdout xload.gdischarge_int1                        0
+stdout xload.giq_int1                         2.5e-05
+stdout in3                                        4.3
+stdout xdrop.enabled                                1
+stdout xdrop.eenable_int1                           1
+stdout xdrop.soft                                   1
+stdout xdrop.gsoft_int1                             0
+stdout drop                                   3.29994
+stdout xdrop.gpass_int1                         0.001
+stdout xdrop.gdischarge_int1                        0
+stdout xdrop.giq_int1                         2.5e-05
+stdout in4                                        3.8
+stdout xlimit.enabled                               1
+stdout xlimit.eenable_int1                          1
+stdout xlimit.soft                                  1
+stdout xlimit.gsoft_int1                            0
+stdout ocout                                     2.97
+stdout xlimit.gpass_int1                         0.72
+stdout xlimit.gdischarge_int1                       0
+stdout xlimit.giq_int1                        2.5e-05
+stdout in5                                        3.8
+stdout xshort.enabled                               1
+stdout xshort.eenable_int1                          1
+stdout xshort.soft                                  1
+stdout xshort.gsoft_int1                            0
+stdout short                                        0
+stdout xshort.gpass_int1                        0.355
+stdout xshort.gdischarge_int1                       0
+stdout xshort.giq_int1                        2.5e-05
+stdout in6                                        1.2
+stdout xuvlo.enabled                                0
+stdout xuvlo.eenable_int1                           0
+stdout xuvlo.soft                                   0
+stdout xuvlo.gsoft_int1                             0
+stdout uvlo                                         0
+stdout xuvlo.gpass_int1                             0
+stdout xuvlo.gdischarge_int1                        0
+stdout xuvlo.giq_int1                     9.23077e-08
+stdout in7                                        5.5
+stdout xdischarge.enabled                           0
+stdout xdischarge.eenable_int1                      0
+stdout xdischarge.soft                              0
+stdout xdischarge.gsoft_int1                        0
+stdout disch                                        0
+stdout xdischarge.gpass_int1                        0
+stdout xdischarge.gdischarge_int1                   0
+stdout xdischarge.giq_int1                      1e-07
+stdout in8                                        3.8
+stdout xopen.enabled                                1
+stdout xopen.eenable_int1                           1
+stdout xopen.soft                                   1
+stdout xopen.gsoft_int1                             0
+stdout unloaded                                   3.3
+stdout xopen.gpass_int1                       3.3e-09
+stdout xopen.gdischarge_int1                        0
+stdout xopen.giq_int1                         2.5e-05
+stdout b.xopen.bgiq#branch                          0
+stdout b.xopen.bgdischarge#branch                   0
+stdout b.xopen.bgpass#branch                        0
+stdout b.xopen.bgsoft#branch                        0
+stdout b.xopen.beenable#branch                      0
+stdout b.xdischarge.bgiq#branch                     0
+stdout b.xdischarge.bgdischarge#branch               0
+stdout b.xdischarge.bgpass#branch                   0
+stdout b.xdischarge.bgsoft#branch                   0
+stdout b.xdischarge.beenable#branch                 0
+stdout b.xuvlo.bgiq#branch                          0
+stdout b.xuvlo.bgdischarge#branch                   0
+stdout b.xuvlo.bgpass#branch                        0
+stdout b.xuvlo.bgsoft#branch                        0
+stdout b.xuvlo.beenable#branch                      0
+stdout b.xshort.bgiq#branch                         0
+stdout b.xshort.bgdischarge#branch                  0
+stdout b.xshort.bgpass#branch                       0
+stdout b.xshort.bgsoft#branch                       0
+stdout b.xshort.beenable#branch                     0
+stdout b.xlimit.bgiq#branch                         0
+stdout b.xlimit.bgdischarge#branch                  0
+stdout b.xlimit.bgpass#branch                       0
+stdout b.xlimit.bgsoft#branch                       0
+stdout b.xlimit.beenable#branch                     0
+stdout b.xdrop.bgiq#branch                          0
+stdout b.xdrop.bgdischarge#branch                   0
+stdout b.xdrop.bgpass#branch                        0
+stdout b.xdrop.bgsoft#branch                        0
+stdout b.xdrop.beenable#branch                      0
+stdout b.xload.bgiq#branch                          0
+stdout b.xload.bgdischarge#branch                   0
+stdout b.xload.bgpass#branch                        0
+stdout b.xload.bgsoft#branch                        0
+stdout b.xload.beenable#branch                      0
+stdout b.xstartup.bgiq#branch                       0
+stdout b.xstartup.bgdischarge#branch                0
+stdout b.xstartup.bgpass#branch                     0
+stdout b.xstartup.bgsoft#branch                     0
+stdout b.xstartup.beenable#branch                   0
+stdout e.xopen.eenable#branch                       0
+stdout e.xdischarge.eenable#branch                  0
+stdout e.xuvlo.eenable#branch                       0
+stdout e.xshort.eenable#branch                      0
+stdout e.xlimit.eenable#branch                      0
+stdout e.xdrop.eenable#branch                       0
+stdout e.xload.eenable#branch                       0
+stdout e.xstartup.eenable#branch                    0
+stdout v8#branch                         -2.50102e-05
+stdout v7#branch                               -1e-07
+stdout v6#branch                         -9.44895e-08
+stdout vshort#branch                            0.355
+stdout v5#branch                            -0.355025
+stdout vlimit#branch                             0.72
+stdout v4#branch                            -0.720025
+stdout v3#branch                          -0.00102501
+stdout v2#branch                          -0.00102501
+stdout ve#branch                                    0
+stdout v1#branch                               -1e-07
+tran init
+tran
+ Reference value :  3.19140e-04
+tran: 13.7%
+tran: 27.2%
+ Reference value :  1.22625e-03
+tran: 40.2%
+ Reference value :  2.11625e-03
+tran: 54.1%
+tran: 67.4%
+ Reference value :  3.00015e-03
+tran: 81.1%
+tran: 96.1%
+ Reference value :  3.98625e-03
+--ready--
+stdout No. of Data Rows : 8042
+stdout unloaded            =  3.300000e+00
+stdout off_before          =  0.000000e+00
+stdout startup_90          =  5.540823e-04 targ=  1.555082e-03 trig=  1.001000e-03
+stdout on_100ma            =  3.287795e+00
+stdout off_after           =  3.758441e-15
+stdout out_1ma             =  3.299940e+00
+stdout out_500ma           =  3.270000e+00
+stdout dropout_out         =  3.150000e+00
+stdout dropout_recovery    =  3.270000e+00
+stdout current_limit       =  7.200000e-01
+stdout short_limit         =  3.550000e-01
+stdout below_uvlo          =  0.000000e+00
+stdout discharge_1e        =  1.197593e-04 targ=  3.129459e-03 trig=  3.009700e-03
