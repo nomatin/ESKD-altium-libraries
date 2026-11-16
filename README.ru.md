@@ -1,5 +1,7 @@
 # ESKD Altium Libraries
 
+[English version](README.md)
+
 Библиотека компонентов для **Altium Designer 24** с условными графическими обозначениями (УГО) ЕСКД и IEC. Для выбора оформления при размещении доступны две связанные базы.
 
 | Стандарт | Файл подключения | Каталог | Язык базы |
@@ -13,7 +15,7 @@
 
 На 16 ноября 2026 года в каждом каталоге **1880 компонентов**, из них **1515 с привязкой к SPICE-модели**. В таблице каждый компонент учтён один раз.
 
-| Категория | Позиций | Покрытие SPICE | Основные серии |
+| Категория | Позиций | Покрытие SPICE | Примеры компонентов и серий |
 |---|---:|---:|---|
 | Резисторы | 582 | 582 / 582 (100%) | YAGEO RC |
 | Конденсаторы | 578 | 578 / 578 (100%) | YAGEO CC X7R, C0G (NP0) |
@@ -36,7 +38,7 @@
 2. Клонируйте репозиторий и перейдите в его каталог:
 
    ```sh
-   git clone --branch dev https://github.com/nomatin/ESKD-altium-libraries.git
+   git clone --branch main https://github.com/nomatin/ESKD-altium-libraries.git
    cd ESKD-altium-libraries
    ```
 
@@ -47,21 +49,21 @@
 
 ## Обновление
 
-Перед обновлением желательно закрыть Excel и открытые в Altium файлы библиотеки. В каталоге репозитория выполните:
+Перед обновлением закройте Excel и открытые в Altium файлы библиотеки. В каталоге репозитория выполните:
 
 ```sh
 git pull --ff-only
 ```
 
-После обновления заново откройте подключённые DbLib. Версия с двумя каталогами доступна в ветке `dev`.
+После обновления заново откройте подключённые DbLib. Оба каталога доступны в ветке `main`.
 
 ## SPICE
 
-Обе базы используют одни и те же модели для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов и ферритов, транзистора 2N7002 и четырёх микросхем. Для [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) используется упрощённая поведенческая модель элемента И при 25 °C. ISOW1432DFMR использует упрощённую функциональную модель DC/DC, RS-485 и GPIO.
+Обе базы используют одни и те же модели для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов, ферритов и кварцевых резонаторов, а также для транзистора 2N7002 и шести микросхем. Для [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) используется упрощённая поведенческая модель элемента И при 25 °C. ISOW1432DFMR использует упрощённую функциональную модель DC/DC, RS-485 и GPIO.
 
 Результаты испытаний приведены отдельно для каждой группы. Для части моделей сохранены результаты standalone MixedSim. Ферриты TDK AT000 и Murata также сравнивались с официальными моделями в ngspice. Эти расчёты не проверяют размещение компонентов через UI DbLib.
 
-Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` (`tests/` у ISOW1432DFMR) и `Results/` рядом с моделями.
+Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [кварцевые резонаторы](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` (`tests/` у ISOW1432DFMR) и `Results/` рядом с моделями.
 
 ## Лицензия
 

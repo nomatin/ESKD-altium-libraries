@@ -38,11 +38,11 @@ Both workbooks contain component parameters. Local datasheets are in `Datasheets
 2. Clone the repository and enter its directory.
 
    ```sh
-   git clone --branch dev https://github.com/nomatin/ESKD-altium-libraries.git
+   git clone --branch main https://github.com/nomatin/ESKD-altium-libraries.git
    cd ESKD-altium-libraries
    ```
 
-3. Open the workbook in Excel, press **Ctrl+Alt+F9**, then save and close it. Set `Data Source` in the corresponding DbLib to the workbook path. Install the DbLib via **Preferences → Data Management → File-based Libraries**. Install both DbLib files to access both symbol styles.
+3. Open the workbook you want to use in Excel, press **Ctrl+Alt+F9**, then save and close it. Set `Data Source` in the corresponding DbLib to the workbook path. Install the DbLib via **Preferences → Data Management → File-based Libraries**. Install both DbLib files to access both symbol styles.
 4. In the **Components** panel, select a table from the database you want and find the part by ID or MPN.
 
 Keep the directory structure intact. Symbol, footprint, and SPICE model paths are relative to the DbLib file. If you move the library, update absolute paths to local datasheets. See the [setup guide](ALTIUM_SETUP.md) for details.
@@ -55,15 +55,15 @@ Close Excel and any library files open in Altium before updating. Run this comma
 git pull --ff-only
 ```
 
-Reopen the installed DbLib files after updating. The two-catalog version is available on the `dev` branch.
+Reopen the installed DbLib files after updating. Both catalogs are available on the `main` branch.
 
 ## SPICE
 
-Both databases use the same models for all cataloged resistors, capacitors, diodes, LEDs, and ferrite beads, as well as the 2N7002 transistor and four ICs. The [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) uses a simplified behavioral AND gate model at 25 °C. The ISOW1432DFMR uses a simplified functional model of its DC/DC converter, RS-485 interface, and GPIO.
+Both databases use the same models for all cataloged resistors, capacitors, diodes, LEDs, ferrite beads, and crystals, as well as the 2N7002 transistor and six ICs. The [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) uses a simplified behavioral AND gate model at 25 °C. The ISOW1432DFMR uses a simplified functional model of its DC/DC converter, RS-485 interface, and GPIO.
 
-Test results are documented for each group. Some models have standalone MixedSim results. The TDK AT000 and Murata ferrite bead models were also compared with manufacturer models in ngspice. These tests cover simulation. Placement through the DbLib interface is outside their scope.
+Test results are documented for each group. Some models have standalone MixedSim results. The TDK AT000 and Murata ferrite bead models were also compared with official manufacturer models in ngspice. These tests cover simulation. Placement through the DbLib interface is outside their scope.
 
-Model documentation and results are available for [resistors](Simulation/Resistors/README.md), [capacitors](Simulation/Capacitors/README.md), [diodes](Simulation/Diodes/README.md), [LEDs](Simulation/LEDs/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), and [TDK](Simulation/Ferrites/TDK/README.md) and [Murata](Simulation/Ferrites/Murata/README.md) ferrite beads. See also the [simulation assumptions](SIMULATION_ASSUMPTIONS.md). Tests and reports are stored alongside the models in `Tests/` (`tests/` for the ISOW1432DFMR) and `Results/`.
+Model documentation and results are available for [resistors](Simulation/Resistors/README.md), [capacitors](Simulation/Capacitors/README.md), [diodes](Simulation/Diodes/README.md), [LEDs](Simulation/LEDs/README.md), [crystals](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), and [TDK](Simulation/Ferrites/TDK/README.md) and [Murata](Simulation/Ferrites/Murata/README.md) ferrite beads. See also the [simulation assumptions](SIMULATION_ASSUMPTIONS.md). Tests and reports are stored alongside the models in `Tests/` (`tests/` for the ISOW1432DFMR) and `Results/`.
 
 ## License
 
