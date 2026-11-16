@@ -23,11 +23,12 @@ As of November 16, 2026, each catalog contains **1,880 components**, of which **
 | Connectors | 358 | 0 / 358 (0%) | GCT, CONNFLY, JST PH/XH |
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
 | LEDs | 10 | 10 / 10 (100%) | Oasistek |
-| ICs | 9 | 6 / 9 (67%) | CP2102N, ISOW1432, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533, ADUM3160, MCP3911, STM32G0B1 |
+| ICs | 9 | 6 / 9 (67%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6 |
 | Transistors | 1 | 1 / 1 (100%) | Youtai (UMW) 2N7002 |
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
-| Crystals | 25 | 25 / 25 (100%) | YXC |
+| Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
+| **Total** | **1,880** | **1,515 / 1,880 (80.6%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 
