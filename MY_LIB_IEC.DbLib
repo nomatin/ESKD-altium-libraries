@@ -929,3 +929,97 @@ Options=FieldName=IEC Transistors$.VT_CDS|TableNameOnly=IEC Transistors$|FieldNa
 Options=FieldName=IEC Transistors$.VT_IS|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_IS|FieldType=1|ParameterName=VT_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap388]
 Options=FieldName=IEC Transistors$.VT_N|TableNameOnly=IEC Transistors$|FieldNameOnly=VT_N|FieldType=1|ParameterName=VT_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table11]
+SchemaName=
+TableName=IEC Crystals$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap389]
+Options=FieldName=IEC Crystals$.ID|TableNameOnly=IEC Crystals$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap390]
+Options=FieldName=IEC Crystals$.Type|TableNameOnly=IEC Crystals$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap391]
+Options=FieldName=IEC Crystals$.Value|TableNameOnly=IEC Crystals$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap392]
+Options=FieldName=IEC Crystals$.Package|TableNameOnly=IEC Crystals$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap393]
+Options=FieldName=IEC Crystals$.Manufacturer|TableNameOnly=IEC Crystals$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap394]
+Options=FieldName=IEC Crystals$.MPN|TableNameOnly=IEC Crystals$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap395]
+Options=FieldName=IEC Crystals$.Series|TableNameOnly=IEC Crystals$|FieldNameOnly=Series|FieldType=1|ParameterName=Series|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap396]
+Options=FieldName=IEC Crystals$.CommentBase|TableNameOnly=IEC Crystals$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap397]
+Options=FieldName=IEC Crystals$.Library Ref|TableNameOnly=IEC Crystals$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap398]
+Options=FieldName=IEC Crystals$.Library Path|TableNameOnly=IEC Crystals$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap399]
+Options=FieldName=IEC Crystals$.Footprint Ref|TableNameOnly=IEC Crystals$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap400]
+Options=FieldName=IEC Crystals$.Footprint Path|TableNameOnly=IEC Crystals$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap401]
+Options=FieldName=IEC Crystals$.Comment|TableNameOnly=IEC Crystals$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap402]
+Options=FieldName=IEC Crystals$.Description|TableNameOnly=IEC Crystals$|FieldNameOnly=Description|FieldType=1|ParameterName=Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap403]
+Options=FieldName=IEC Crystals$.Notes|TableNameOnly=IEC Crystals$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap404]
+Options=FieldName=IEC Crystals$.FrequencyMHz|TableNameOnly=IEC Crystals$|FieldNameOnly=FrequencyMHz|FieldType=1|ParameterName=FrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap405]
+Options=FieldName=IEC Crystals$.LoadCapacitancePf|TableNameOnly=IEC Crystals$|FieldNameOnly=LoadCapacitancePf|FieldType=1|ParameterName=LoadCapacitancePf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap406]
+Options=FieldName=IEC Crystals$.TolerancePpmAt25C|TableNameOnly=IEC Crystals$|FieldNameOnly=TolerancePpmAt25C|FieldType=1|ParameterName=TolerancePpmAt25C|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap407]
+Options=FieldName=IEC Crystals$.TemperatureStabilityPpm|TableNameOnly=IEC Crystals$|FieldNameOnly=TemperatureStabilityPpm|FieldType=1|ParameterName=TemperatureStabilityPpm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap408]
+Options=FieldName=IEC Crystals$.ESRMaxOhm|TableNameOnly=IEC Crystals$|FieldNameOnly=ESRMaxOhm|FieldType=1|ParameterName=ESRMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap409]
+Options=FieldName=IEC Crystals$.ShuntCapacitanceMaxPf|TableNameOnly=IEC Crystals$|FieldNameOnly=ShuntCapacitanceMaxPf|FieldType=1|ParameterName=ShuntCapacitanceMaxPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap410]
+Options=FieldName=IEC Crystals$.DriveLevelTypUw|TableNameOnly=IEC Crystals$|FieldNameOnly=DriveLevelTypUw|FieldType=1|ParameterName=DriveLevelTypUw|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap411]
+Options=FieldName=IEC Crystals$.AgingMaxPpmPerYear|TableNameOnly=IEC Crystals$|FieldNameOnly=AgingMaxPpmPerYear|FieldType=1|ParameterName=AgingMaxPpmPerYear|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap412]
+Options=FieldName=IEC Crystals$.OperatingTemperatureMin|TableNameOnly=IEC Crystals$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap413]
+Options=FieldName=IEC Crystals$.OperatingTemperatureMax|TableNameOnly=IEC Crystals$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap414]
+Options=FieldName=IEC Crystals$.StorageTemperatureMin|TableNameOnly=IEC Crystals$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap415]
+Options=FieldName=IEC Crystals$.StorageTemperatureMax|TableNameOnly=IEC Crystals$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap416]
+Options=FieldName=IEC Crystals$.PinMapping|TableNameOnly=IEC Crystals$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap417]
+Options=FieldName=IEC Crystals$.Datasheet|TableNameOnly=IEC Crystals$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap418]
+Options=FieldName=IEC Crystals$.DatasheetRevision|TableNameOnly=IEC Crystals$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap419]
+Options=FieldName=IEC Crystals$.ComponentLink1Description|TableNameOnly=IEC Crystals$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap420]
+Options=FieldName=IEC Crystals$.ComponentLink1URL|TableNameOnly=IEC Crystals$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap421]
+Options=FieldName=IEC Crystals$.ComponentLink2Description|TableNameOnly=IEC Crystals$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap422]
+Options=FieldName=IEC Crystals$.ComponentLink2URL|TableNameOnly=IEC Crystals$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap423]
+Options=FieldName=IEC Crystals$.HelpURL|TableNameOnly=IEC Crystals$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap424]
+Options=FieldName=IEC Crystals$.MotionalCapacitanceFf|TableNameOnly=IEC Crystals$|FieldNameOnly=MotionalCapacitanceFf|FieldType=1|ParameterName=MotionalCapacitanceFf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap425]
+Options=FieldName=IEC Crystals$.Sim Model Name|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap426]
+Options=FieldName=IEC Crystals$.Sim Description|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap427]
+Options=FieldName=IEC Crystals$.Sim Kind|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap428]
+Options=FieldName=IEC Crystals$.Sim SubKind|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap429]
+Options=FieldName=IEC Crystals$.Sim Netlist|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap430]
+Options=FieldName=IEC Crystals$.Sim Spice Prefix|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap431]
+Options=FieldName=IEC Crystals$.Sim Port Map|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap432]
+Options=FieldName=IEC Crystals$.Sim File|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

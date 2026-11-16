@@ -949,3 +949,99 @@ Options=FieldName=“ранзисторы$.VT_CDS|TableNameOnly=“ранзисторы$|FieldNameOnly=V
 Options=FieldName=“ранзисторы$.VT_IS|TableNameOnly=“ранзисторы$|FieldNameOnly=VT_IS|FieldType=1|ParameterName=VT_IS|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap398]
 Options=FieldName=“ранзисторы$.VT_N|TableNameOnly=“ранзисторы$|FieldNameOnly=VT_N|FieldType=1|ParameterName=VT_N|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table11]
+SchemaName=
+TableName= варцевые резонаторы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap399]
+Options=FieldName= варцевые резонаторы$.ID|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap400]
+Options=FieldName= варцевые резонаторы$.Type|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap401]
+Options=FieldName= варцевые резонаторы$.Value|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap402]
+Options=FieldName= варцевые резонаторы$.ESKD_value|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap403]
+Options=FieldName= варцевые резонаторы$.Package|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap404]
+Options=FieldName= варцевые резонаторы$.Manufacturer|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap405]
+Options=FieldName= варцевые резонаторы$.MPN|TableNameOnly= варцевые резонаторы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap406]
+Options=FieldName= варцевые резонаторы$.Series|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Series|FieldType=1|ParameterName=Series|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap407]
+Options=FieldName= варцевые резонаторы$.CommentBase|TableNameOnly= варцевые резонаторы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap408]
+Options=FieldName= варцевые резонаторы$.Library Ref|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap409]
+Options=FieldName= варцевые резонаторы$.Library Path|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap410]
+Options=FieldName= варцевые резонаторы$.Footprint Ref|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap411]
+Options=FieldName= варцевые резонаторы$.Footprint Path|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap412]
+Options=FieldName= варцевые резонаторы$.Comment|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap413]
+Options=FieldName= варцевые резонаторы$.Description|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Description|FieldType=1|ParameterName=Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap414]
+Options=FieldName= варцевые резонаторы$.Notes|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap415]
+Options=FieldName= варцевые резонаторы$.FrequencyMHz|TableNameOnly= варцевые резонаторы$|FieldNameOnly=FrequencyMHz|FieldType=1|ParameterName=FrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap416]
+Options=FieldName= варцевые резонаторы$.LoadCapacitancePf|TableNameOnly= варцевые резонаторы$|FieldNameOnly=LoadCapacitancePf|FieldType=1|ParameterName=LoadCapacitancePf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap417]
+Options=FieldName= варцевые резонаторы$.TolerancePpmAt25C|TableNameOnly= варцевые резонаторы$|FieldNameOnly=TolerancePpmAt25C|FieldType=1|ParameterName=TolerancePpmAt25C|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap418]
+Options=FieldName= варцевые резонаторы$.TemperatureStabilityPpm|TableNameOnly= варцевые резонаторы$|FieldNameOnly=TemperatureStabilityPpm|FieldType=1|ParameterName=TemperatureStabilityPpm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap419]
+Options=FieldName= варцевые резонаторы$.ESRMaxOhm|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ESRMaxOhm|FieldType=1|ParameterName=ESRMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap420]
+Options=FieldName= варцевые резонаторы$.ShuntCapacitanceMaxPf|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ShuntCapacitanceMaxPf|FieldType=1|ParameterName=ShuntCapacitanceMaxPf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap421]
+Options=FieldName= варцевые резонаторы$.DriveLevelTypUw|TableNameOnly= варцевые резонаторы$|FieldNameOnly=DriveLevelTypUw|FieldType=1|ParameterName=DriveLevelTypUw|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap422]
+Options=FieldName= варцевые резонаторы$.AgingMaxPpmPerYear|TableNameOnly= варцевые резонаторы$|FieldNameOnly=AgingMaxPpmPerYear|FieldType=1|ParameterName=AgingMaxPpmPerYear|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap423]
+Options=FieldName= варцевые резонаторы$.OperatingTemperatureMin|TableNameOnly= варцевые резонаторы$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap424]
+Options=FieldName= варцевые резонаторы$.OperatingTemperatureMax|TableNameOnly= варцевые резонаторы$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap425]
+Options=FieldName= варцевые резонаторы$.StorageTemperatureMin|TableNameOnly= варцевые резонаторы$|FieldNameOnly=StorageTemperatureMin|FieldType=1|ParameterName=StorageTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap426]
+Options=FieldName= варцевые резонаторы$.StorageTemperatureMax|TableNameOnly= варцевые резонаторы$|FieldNameOnly=StorageTemperatureMax|FieldType=1|ParameterName=StorageTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap427]
+Options=FieldName= варцевые резонаторы$.PinMapping|TableNameOnly= варцевые резонаторы$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap428]
+Options=FieldName= варцевые резонаторы$.Datasheet|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap429]
+Options=FieldName= варцевые резонаторы$.DatasheetRevision|TableNameOnly= варцевые резонаторы$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap430]
+Options=FieldName= варцевые резонаторы$.ComponentLink1Description|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap431]
+Options=FieldName= варцевые резонаторы$.ComponentLink1URL|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap432]
+Options=FieldName= варцевые резонаторы$.ComponentLink2Description|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap433]
+Options=FieldName= варцевые резонаторы$.ComponentLink2URL|TableNameOnly= варцевые резонаторы$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap434]
+Options=FieldName= варцевые резонаторы$.HelpURL|TableNameOnly= варцевые резонаторы$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap435]
+Options=FieldName= варцевые резонаторы$.MotionalCapacitanceFf|TableNameOnly= варцевые резонаторы$|FieldNameOnly=MotionalCapacitanceFf|FieldType=1|ParameterName=MotionalCapacitanceFf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap436]
+Options=FieldName= варцевые резонаторы$.Sim Model Name|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap437]
+Options=FieldName= варцевые резонаторы$.Sim Description|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap438]
+Options=FieldName= варцевые резонаторы$.Sim Kind|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap439]
+Options=FieldName= варцевые резонаторы$.Sim SubKind|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap440]
+Options=FieldName= варцевые резонаторы$.Sim Netlist|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap441]
+Options=FieldName= варцевые резонаторы$.Sim Spice Prefix|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap442]
+Options=FieldName= варцевые резонаторы$.Sim Port Map|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap443]
+Options=FieldName= варцевые резонаторы$.Sim File|TableNameOnly= варцевые резонаторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

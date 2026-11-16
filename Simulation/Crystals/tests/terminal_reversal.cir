@@ -1,0 +1,11 @@
+XL2OI-111-8M terminal_reversal
+.include "../MY_LIB_XTAL_BVD.ckt"
+.options tnom=25
+.temp 25
+Vsignal drive 0 dc 0 ac 1
+VterminalReturn ret 0 dc 0
+Vcase2 case2 0 dc 0
+Vcase4 case4 0 dc 0
+Xquartz ret case2 drive case4 MY_LIB_XTAL_BVD FnomMHz=8 CLpF=12 RmOhm=150 C0pF=2 CmfF=5
+.ac lin 11 7995000 8005000
+.end

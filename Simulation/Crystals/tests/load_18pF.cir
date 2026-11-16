@@ -1,0 +1,12 @@
+XL2OI-111-8M load_18pF
+.include "../MY_LIB_XTAL_BVD.ckt"
+.options tnom=25
+.temp 25
+Vsignal drive 0 dc 0 ac 1
+VterminalReturn ret 0 dc 0
+Vcase2 case2 0 dc 0
+Vcase4 case4 0 dc 0
+Xquartz drive case2 ret case4 MY_LIB_XTAL_BVD FnomMHz=8 CLpF=12 RmOhm=150 C0pF=2 CmfF=5
+Cload drive ret 18p
+.ac lin 3501 7999000 8010000
+.end

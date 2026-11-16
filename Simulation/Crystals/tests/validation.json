@@ -1,0 +1,109 @@
+{
+  "engine": "ngspice DLL shipped with KiCad 9.0, not MixedSim",
+  "native_mixedsim": "NOT_AVAILABLE",
+  "scope": "Small-signal checks for documented BVD scenarios, not part measurement or startup validation",
+  "catalog_instance_parameters": "FnomMHz=8 CLpF=12 RmOhm=150 C0pF=2 CmfF=5",
+  "model_sha256": "ad8974129c6ec436d33920c90a78b96eead493ae4cd852a0332a33571d854332",
+  "checks": [
+    {
+      "name": "Motional ESR scenario at series resonance",
+      "status": "PASS",
+      "calculated_esr_ohm": 150.00006383263596,
+      "series_frequency_hz": 7998588.0,
+      "datasheet_esr_limit_ohm": 150
+    },
+    {
+      "name": "Positive real admittance across series sweep",
+      "status": "PASS",
+      "minimum_conductance_siemens": 0.002237402555128982
+    },
+    {
+      "name": "Unique high-impedance phase crossing at CL=0 pF",
+      "status": "PASS",
+      "crossing_count": 1,
+      "phase_crossings_hz": [
+        8008577.6195741305
+      ]
+    },
+    {
+      "name": "Unique high-impedance phase crossing at CL=8 pF",
+      "status": "PASS",
+      "crossing_count": 1,
+      "phase_crossings_hz": [
+        8000575.867975151
+      ]
+    },
+    {
+      "name": "Unique high-impedance phase crossing at CL=12 pF",
+      "status": "PASS",
+      "crossing_count": 1,
+      "phase_crossings_hz": [
+        8000000.001004958
+      ]
+    },
+    {
+      "name": "Unique high-impedance phase crossing at CL=18 pF",
+      "status": "PASS",
+      "crossing_count": 1,
+      "phase_crossings_hz": [
+        7999564.3929406945
+      ]
+    },
+    {
+      "name": "8 MHz phase crossing at specified 12 pF",
+      "status": "PASS",
+      "frequency_hz": 8000000.001004958,
+      "numerical_tolerance_hz": 2
+    },
+    {
+      "name": "Load pulling sign and resonance ordering",
+      "status": "PASS",
+      "series_hz": 7998588.0,
+      "phase_crossings_hz": {
+        "0": 8008577.6195741305,
+        "8": 8000575.867975151,
+        "12": 8000000.001004958,
+        "18": 7999564.3929406945
+      }
+    },
+    {
+      "name": "Low-frequency effective capacitance C0 + Cm",
+      "status": "PASS",
+      "effective_pf": 2.0050000078155317,
+      "selected_c0_pf": 2,
+      "assumed_cm_pf": 0.005
+    },
+    {
+      "name": "Ground pads have no modeled branch or coupling",
+      "status": "PASS",
+      "peak_case_current_amp": 0.0
+    },
+    {
+      "name": "Electrodes 1 and 3 are reciprocal and insensitive to case excitation",
+      "status": "PASS",
+      "max_admittance_difference_siemens": 5.55653613398821e-19
+    },
+    {
+      "name": "Non-default FnomMHz and CLpF recalculate loaded resonance",
+      "status": "PASS",
+      "parameters": "FnomMHz=10 CLpF=20 RmOhm=80 C0pF=3 CmfF=9",
+      "phase_crossings_hz": [
+        9999999.999999998
+      ]
+    },
+    {
+      "name": "Non-default RmOhm changes motional ESR",
+      "status": "PASS",
+      "parameters": "FnomMHz=10 CLpF=20 RmOhm=80 C0pF=3 CmfF=9",
+      "extracted_resistance_ohm": 80.0003217967448,
+      "series_peak_hz": 9998071.0
+    },
+    {
+      "name": "Non-default C0pF and CmfF change low-frequency capacitance",
+      "status": "PASS",
+      "parameters": "FnomMHz=10 CLpF=20 RmOhm=80 C0pF=3 CmfF=9",
+      "capacitance_pf": 3.009000009004297
+    }
+  ],
+  "status": "PASS"
+}

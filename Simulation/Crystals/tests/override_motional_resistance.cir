@@ -1,0 +1,11 @@
+XL2OI-111-8M override_motional_resistance
+.include "../MY_LIB_XTAL_BVD.ckt"
+.options tnom=25
+.temp 25
+Vsignal drive 0 dc 0 ac 1
+VterminalReturn ret 0 dc 0
+Vcase2 case2 0 dc 0
+Vcase4 case4 0 dc 0
+Xquartz drive case2 ret case4 MY_LIB_XTAL_BVD FnomMHz=10 CLpF=20 RmOhm=80 C0pF=3 CmfF=9
+.ac lin 3001 9997000 10000000
+.end
