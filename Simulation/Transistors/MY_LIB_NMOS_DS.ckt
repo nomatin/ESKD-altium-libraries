@@ -22,7 +22,13 @@
 .SUBCKT MY_LIB_NMOS_DS 1 2 3 PARAMS: VTO=2 KP=0.2 THETA=0 RD=0 RS=0
 + CGS=0 CGD=0 CDS=0 ISbody=1e-14 Nbody=1
 Mchannel 3 1 2 2 MY_LIB_NMOS_CORE L=1e-6 W=1e-6
-.MODEL MY_LIB_NMOS_CORE NMOS (LEVEL=3 VTO={VTO} KP={KP} THETA={THETA}
+* IS=1e-30 disables the intrinsic drain-body junction of the LEVEL=3 device.
+* Without it the intrinsic junction (SPICE default IS=1e-14) is in parallel with
+* Dbody and dominates it, so the ISbody parameter stopped having any effect for
+* every realistic diode (found by the run-20261117-mosfets acceptance test:
+* VSD was clamped near 0.78 V instead of following ISbody). Dbody alone now
+* defines the body diode; geometry and everything else are unchanged.
+.MODEL MY_LIB_NMOS_CORE NMOS (IS=1e-30 LEVEL=3 VTO={VTO} KP={KP} THETA={THETA}
 + GAMMA=0 PHI=0.7 RD={RD} RS={RS} CGSO=0 CGDO=0 CGBO=0)
 Cgs 1 2 {CGS}
 Cgd 1 3 {CGD}

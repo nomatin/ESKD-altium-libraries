@@ -24,13 +24,13 @@ As of November 17, 2026, each catalog contains **1,917 components**, of which **
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
 | LEDs | 10 | 10 / 10 (100%) | Oasistek |
 | ICs | 9 | 6 / 9 (67%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6 |
-| Transistors | 1 | 1 / 1 (100%) | Youtai (UMW) 2N7002 |
+| Transistors | 9 | 9 / 9 (100%) | Infineon 2N7002, BSS138N, BSS84P, BSS215P, BSS308PE, IRLML6244, IRLML0030, IRLML6344, IRLML0060 |
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
 | Modules | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
 | Inductors | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
-| **Total** | **1,930** | **1,528 / 1,930 (79.2%)** | |
+| **Total** | **1,938** | **1,536 / 1,938 (79.3%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 
