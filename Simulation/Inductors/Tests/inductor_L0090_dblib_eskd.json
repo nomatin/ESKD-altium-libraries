@@ -1,0 +1,23 @@
+{
+  "name": "vls3012hbx_L0090_dblib_eskd",
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB.DbLib",
+    "table": "Индуктивности",
+    "id": "L0090",
+    "designator": "L1",
+    "pins": {
+      "1": "DUT_P",
+      "2": "0"
+    }
+  },
+  "spice": "* VLS3012HBX-220M-N DC path through the MY_LIB.DbLib component L0090\nV1 SRC 0 DC 0.1\nR1 SRC DUT_P 1\n{{DUT}}\n.OP\n.END",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(dut_p)",
+      "measurement": "first",
+      "min": 0.03903489771359808,
+      "max": 0.04062815884476535
+    }
+  ]
+}

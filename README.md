@@ -28,7 +28,9 @@ As of November 17, 2026, each catalog contains **1,917 components**, of which **
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
-| **Total** | **1,917** | **1,515 / 1,917 (79.0%)** | |
+| Modules | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
+| Inductors | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
+| **Total** | **1,930** | **1,528 / 1,930 (79.2%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 

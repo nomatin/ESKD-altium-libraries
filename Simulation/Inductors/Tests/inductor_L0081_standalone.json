@@ -1,0 +1,125 @@
+{
+  "name": "vls3012hbx_L0081_standalone",
+  "spice": "* VLS3012HBX-R68M-N AC impedance, model MY_LIB_INDUCTOR (Simulation\\Inductors\\MY_LIB_INDUCTOR.ckt)\nVDRV src 0 DC 0 AC 1\nRDRV src sense 1\nVSENSE sense dut 0\nX1 dut 0 MY_LIB_INDUCTOR PARAMS: Lval=6.800000000000001e-07 RDCval=0.032 CPval=4.806675308423654e-12 RPval=877.864\n.AC DEC 200 10k 500Meg\n.PLOT AC V(dut) I(VSENSE)\n.END",
+  "models": [
+    "../MY_LIB_INDUCTOR.ckt"
+  ],
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 100000.0,
+      "component": "imag",
+      "min": 0.41871190997932056,
+      "max": 0.4358021920192929
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 100000.0,
+      "component": "magnitude",
+      "min": 0.41989991216498473,
+      "max": 0.4370386840900861
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "component": "imag",
+      "min": 4.187555830913296,
+      "max": 4.358476477073023
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "component": "magnitude",
+      "min": 4.187875502456717,
+      "max": 4.358809196434543
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 10000000.0,
+      "component": "imag",
+      "min": 42.31562766458615,
+      "max": 44.04279614069171
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 10000000.0,
+      "component": "magnitude",
+      "min": 42.368589288279566,
+      "max": 44.097919463311385
+    }
+  ],
+  "measurements": [
+    {
+      "id": "leff_0p1MHz",
+      "type": "inductance_series",
+      "voltage": "v(dut)",
+      "current": "i(vsense)",
+      "current_sign": 1,
+      "frequency_hz": 100000.0,
+      "limits": {
+        "min": 6.664007020465758e-07,
+        "max": 6.936007307015381e-07
+      }
+    },
+    {
+      "id": "leff_1MHz",
+      "type": "inductance_series",
+      "voltage": "v(dut)",
+      "current": "i(vsense)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "limits": {
+        "min": 6.664702099631402e-07,
+        "max": 6.936730756759215e-07
+      }
+    },
+    {
+      "id": "leff_10MHz",
+      "type": "inductance_series",
+      "voltage": "v(dut)",
+      "current": "i(vsense)",
+      "current_sign": 1,
+      "frequency_hz": 10000000.0,
+      "limits": {
+        "min": 6.734741312855041e-07,
+        "max": 7.009628713379737e-07
+      }
+    },
+    {
+      "id": "esr_1MHz",
+      "type": "esr",
+      "voltage": "v(dut)",
+      "current": "i(vsense)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "limits": {
+        "min": 0.05121547898062088,
+        "max": 0.054383446752618046
+      }
+    }
+  ]
+}

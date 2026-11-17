@@ -1,0 +1,319 @@
+{
+  "status": "PASS",
+  "test": "vls3012hbx_L0084_standalone",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 100000.0,
+      "component": "imag",
+      "min": 1.3546621044725977,
+      "max": 1.4099544352673978,
+      "value": 1.3823082698665436,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 100000.0,
+      "component": "magnitude",
+      "min": 1.3574558734265756,
+      "max": 1.4128622356072522,
+      "value": 1.385159054635994,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "component": "imag",
+      "min": 13.553903444497449,
+      "max": 14.107123993252449,
+      "value": 13.830513715395739,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "component": "magnitude",
+      "min": 13.554931531509537,
+      "max": 14.108194042999722,
+      "value": 13.831562786131192,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 10000000.0,
+      "component": "imag",
+      "min": 143.20670898656442,
+      "max": 149.05188078193441,
+      "value": 146.12929086636237,
+      "unit": "Ohm",
+      "passed": true
+    },
+    {
+      "analysis": "ac",
+      "quantity": "impedance",
+      "voltage": "v(dut)",
+      "current": "i(VSENSE)",
+      "current_sign": 1,
+      "frequency_hz": 10000000.0,
+      "component": "magnitude",
+      "min": 143.4975259650316,
+      "max": 149.35456784115533,
+      "value": 146.42604423067004,
+      "unit": "Ohm",
+      "passed": true
+    }
+  ],
+  "error": null,
+  "run_id": "8f092218bff74690a7119377b4a85fe8",
+  "measurements": [
+    {
+      "id": "leff_0p1MHz",
+      "type": "inductance_series",
+      "value": 2.2000119402606606e-06,
+      "unit": "H",
+      "status": "PASS",
+      "limits": {
+        "min": 2.1560117014608352e-06,
+        "max": 2.2440121790714814e-06
+      },
+      "run_id": "8f092218bff74690a7119377b4a85fe8"
+    },
+    {
+      "id": "leff_1MHz",
+      "type": "inductance_series",
+      "value": 2.201194623305487e-06,
+      "unit": "H",
+      "status": "PASS",
+      "limits": {
+        "min": 2.157170731382036e-06,
+        "max": 2.2452185163364046e-06
+      },
+      "run_id": "8f092218bff74690a7119377b4a85fe8"
+    },
+    {
+      "id": "leff_10MHz",
+      "type": "inductance_series",
+      "value": 2.3257198971894924e-06,
+      "unit": "H",
+      "status": "PASS",
+      "limits": {
+        "min": 2.2792055619134275e-06,
+        "max": 2.372234360358874e-06
+      },
+      "run_id": "8f092218bff74690a7119377b4a85fe8"
+    },
+    {
+      "id": "esr_1MHz",
+      "type": "esr",
+      "value": 0.1703510344541845,
+      "unit": "Ohm",
+      "status": "PASS",
+      "limits": {
+        "min": 0.16524031790383126,
+        "max": 0.17546136849582084
+      },
+      "run_id": "8f092218bff74690a7119377b4a85fe8"
+    }
+  ],
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 10,
+    "completed": 10,
+    "missing": 0,
+    "passed": 10,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:0",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": 1.3823082698665436,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 1.3546621044725977,
+        "max": 1.4099544352673978
+      },
+      "frequency_hz": 100000.0,
+      "component": "imag"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:1",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 1,
+      "status": "PASS",
+      "value": 1.385159054635994,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 1.3574558734265756,
+        "max": 1.4128622356072522
+      },
+      "frequency_hz": 100000.0,
+      "component": "magnitude"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:2",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 2,
+      "status": "PASS",
+      "value": 13.830513715395739,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 13.553903444497449,
+        "max": 14.107123993252449
+      },
+      "frequency_hz": 1000000.0,
+      "component": "imag"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:3",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 3,
+      "status": "PASS",
+      "value": 13.831562786131192,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 13.554931531509537,
+        "max": 14.108194042999722
+      },
+      "frequency_hz": 1000000.0,
+      "component": "magnitude"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:4",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 4,
+      "status": "PASS",
+      "value": 146.12929086636237,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 143.20670898656442,
+        "max": 149.05188078193441
+      },
+      "frequency_hz": 10000000.0,
+      "component": "imag"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:check:5",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "check",
+      "id": 5,
+      "status": "PASS",
+      "value": 146.42604423067004,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 143.4975259650316,
+        "max": 149.35456784115533
+      },
+      "frequency_hz": 10000000.0,
+      "component": "magnitude"
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:measurement:leff_0p1MHz",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "measurement",
+      "id": "leff_0p1MHz",
+      "status": "PASS",
+      "value": 2.2000119402606606e-06,
+      "unit": "H",
+      "error": null,
+      "limits": {
+        "min": 2.1560117014608352e-06,
+        "max": 2.2440121790714814e-06
+      },
+      "frequency_hz": 100000.0
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:measurement:leff_1MHz",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "measurement",
+      "id": "leff_1MHz",
+      "status": "PASS",
+      "value": 2.201194623305487e-06,
+      "unit": "H",
+      "error": null,
+      "limits": {
+        "min": 2.157170731382036e-06,
+        "max": 2.2452185163364046e-06
+      },
+      "frequency_hz": 1000000.0
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:measurement:leff_10MHz",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "measurement",
+      "id": "leff_10MHz",
+      "status": "PASS",
+      "value": 2.3257198971894924e-06,
+      "unit": "H",
+      "error": null,
+      "limits": {
+        "min": 2.2792055619134275e-06,
+        "max": 2.372234360358874e-06
+      },
+      "frequency_hz": 10000000.0
+    },
+    {
+      "result_id": "8f092218bff74690a7119377b4a85fe8:measurement:esr_1MHz",
+      "run_id": "8f092218bff74690a7119377b4a85fe8",
+      "kind": "measurement",
+      "id": "esr_1MHz",
+      "status": "PASS",
+      "value": 0.1703510344541845,
+      "unit": "Ohm",
+      "error": null,
+      "limits": {
+        "min": 0.16524031790383126,
+        "max": 0.17546136849582084
+      },
+      "frequency_hz": 1000000.0
+    }
+  ],
+  "validation_status": "ASSERTIONS",
+  "_process": {
+    "returncode": 0,
+    "elapsed_s": 10.6,
+    "stderr_tail": ""
+  }
+}

@@ -1023,3 +1023,227 @@ Options=FieldName=IEC Crystals$.Sim Spice Prefix|TableNameOnly=IEC Crystals$|Fie
 Options=FieldName=IEC Crystals$.Sim Port Map|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap432]
 Options=FieldName=IEC Crystals$.Sim File|TableNameOnly=IEC Crystals$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table12]
+SchemaName=
+TableName=IEC Modules$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap433]
+Options=FieldName=IEC Modules$.ID|TableNameOnly=IEC Modules$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap434]
+Options=FieldName=IEC Modules$.Type|TableNameOnly=IEC Modules$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap435]
+Options=FieldName=IEC Modules$.Value|TableNameOnly=IEC Modules$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap436]
+Options=FieldName=IEC Modules$.Package|TableNameOnly=IEC Modules$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap437]
+Options=FieldName=IEC Modules$.Manufacturer|TableNameOnly=IEC Modules$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap438]
+Options=FieldName=IEC Modules$.MPN|TableNameOnly=IEC Modules$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap439]
+Options=FieldName=IEC Modules$.Series|TableNameOnly=IEC Modules$|FieldNameOnly=Series|FieldType=1|ParameterName=Series|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap440]
+Options=FieldName=IEC Modules$.CommentBase|TableNameOnly=IEC Modules$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap441]
+Options=FieldName=IEC Modules$.Library Ref|TableNameOnly=IEC Modules$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap442]
+Options=FieldName=IEC Modules$.Library Path|TableNameOnly=IEC Modules$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap443]
+Options=FieldName=IEC Modules$.Footprint Ref|TableNameOnly=IEC Modules$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap444]
+Options=FieldName=IEC Modules$.Footprint Path|TableNameOnly=IEC Modules$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap445]
+Options=FieldName=IEC Modules$.Comment|TableNameOnly=IEC Modules$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap446]
+Options=FieldName=IEC Modules$.Description|TableNameOnly=IEC Modules$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap447]
+Options=FieldName=IEC Modules$.VinMinV|TableNameOnly=IEC Modules$|FieldNameOnly=VinMinV|FieldType=1|ParameterName=VinMinV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap448]
+Options=FieldName=IEC Modules$.VinNomV|TableNameOnly=IEC Modules$|FieldNameOnly=VinNomV|FieldType=1|ParameterName=VinNomV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap449]
+Options=FieldName=IEC Modules$.VinMaxV|TableNameOnly=IEC Modules$|FieldNameOnly=VinMaxV|FieldType=1|ParameterName=VinMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap450]
+Options=FieldName=IEC Modules$.VoutNomV|TableNameOnly=IEC Modules$|FieldNameOnly=VoutNomV|FieldType=1|ParameterName=VoutNomV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap451]
+Options=FieldName=IEC Modules$.IoutMinMa|TableNameOnly=IEC Modules$|FieldNameOnly=IoutMinMa|FieldType=1|ParameterName=IoutMinMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap452]
+Options=FieldName=IEC Modules$.IoutMaxMa|TableNameOnly=IEC Modules$|FieldNameOnly=IoutMaxMa|FieldType=1|ParameterName=IoutMaxMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap453]
+Options=FieldName=IEC Modules$.OutputPowerW|TableNameOnly=IEC Modules$|FieldNameOnly=OutputPowerW|FieldType=1|ParameterName=OutputPowerW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap454]
+Options=FieldName=IEC Modules$.IsolationTestVdc|TableNameOnly=IEC Modules$|FieldNameOnly=IsolationTestVdc|FieldType=1|ParameterName=IsolationTestVdc|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap455]
+Options=FieldName=IEC Modules$.InputCurrentNoLoadTypMa|TableNameOnly=IEC Modules$|FieldNameOnly=InputCurrentNoLoadTypMa|FieldType=1|ParameterName=InputCurrentNoLoadTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap456]
+Options=FieldName=IEC Modules$.InputCurrentFullLoadTypMa|TableNameOnly=IEC Modules$|FieldNameOnly=InputCurrentFullLoadTypMa|FieldType=1|ParameterName=InputCurrentFullLoadTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap457]
+Options=FieldName=IEC Modules$.InputCurrentFullLoadMaxMa|TableNameOnly=IEC Modules$|FieldNameOnly=InputCurrentFullLoadMaxMa|FieldType=1|ParameterName=InputCurrentFullLoadMaxMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap458]
+Options=FieldName=IEC Modules$.ReflectedRippleCurrentTypMa|TableNameOnly=IEC Modules$|FieldNameOnly=ReflectedRippleCurrentTypMa|FieldType=1|ParameterName=ReflectedRippleCurrentTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap459]
+Options=FieldName=IEC Modules$.OutputRippleNoiseTypMvpp|TableNameOnly=IEC Modules$|FieldNameOnly=OutputRippleNoiseTypMvpp|FieldType=1|ParameterName=OutputRippleNoiseTypMvpp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap460]
+Options=FieldName=IEC Modules$.OutputRippleNoiseMaxMvpp|TableNameOnly=IEC Modules$|FieldNameOnly=OutputRippleNoiseMaxMvpp|FieldType=1|ParameterName=OutputRippleNoiseMaxMvpp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap461]
+Options=FieldName=IEC Modules$.SwitchingFrequencyTypKhz|TableNameOnly=IEC Modules$|FieldNameOnly=SwitchingFrequencyTypKhz|FieldType=1|ParameterName=SwitchingFrequencyTypKhz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap462]
+Options=FieldName=IEC Modules$.EfficiencyFullLoadTypPercent|TableNameOnly=IEC Modules$|FieldNameOnly=EfficiencyFullLoadTypPercent|FieldType=1|ParameterName=EfficiencyFullLoadTypPercent|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap463]
+Options=FieldName=IEC Modules$.OutputCapacitanceMaxUf|TableNameOnly=IEC Modules$|FieldNameOnly=OutputCapacitanceMaxUf|FieldType=1|ParameterName=OutputCapacitanceMaxUf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap464]
+Options=FieldName=IEC Modules$.OperatingTemperatureMin|TableNameOnly=IEC Modules$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap465]
+Options=FieldName=IEC Modules$.OperatingTemperatureMax|TableNameOnly=IEC Modules$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap466]
+Options=FieldName=IEC Modules$.PinMapping|TableNameOnly=IEC Modules$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap467]
+Options=FieldName=IEC Modules$.Notes|TableNameOnly=IEC Modules$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap468]
+Options=FieldName=IEC Modules$.Datasheet|TableNameOnly=IEC Modules$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap469]
+Options=FieldName=IEC Modules$.DatasheetRevision|TableNameOnly=IEC Modules$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap470]
+Options=FieldName=IEC Modules$.ComponentLink1Description|TableNameOnly=IEC Modules$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap471]
+Options=FieldName=IEC Modules$.ComponentLink1URL|TableNameOnly=IEC Modules$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap472]
+Options=FieldName=IEC Modules$.ComponentLink2Description|TableNameOnly=IEC Modules$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap473]
+Options=FieldName=IEC Modules$.ComponentLink2URL|TableNameOnly=IEC Modules$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap474]
+Options=FieldName=IEC Modules$.HelpURL|TableNameOnly=IEC Modules$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap475]
+Options=FieldName=IEC Modules$.Sim Model Name|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap476]
+Options=FieldName=IEC Modules$.Sim Kind|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap477]
+Options=FieldName=IEC Modules$.Sim SubKind|TableNameOnly=IEC Modules$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap478]
+Options=FieldName=IEC Modules$.Sim Description|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap479]
+Options=FieldName=IEC Modules$.Sim Spice Prefix|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap480]
+Options=FieldName=IEC Modules$.Sim Netlist|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap481]
+Options=FieldName=IEC Modules$.Sim Port Map|TableNameOnly=IEC Modules$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap482]
+Options=FieldName=IEC Modules$.Sim File|TableNameOnly=IEC Modules$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table13]
+SchemaName=
+TableName=IEC Inductors$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap483]
+Options=FieldName=IEC Inductors$.ID|TableNameOnly=IEC Inductors$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap484]
+Options=FieldName=IEC Inductors$.Type|TableNameOnly=IEC Inductors$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap485]
+Options=FieldName=IEC Inductors$.Value|TableNameOnly=IEC Inductors$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap486]
+Options=FieldName=IEC Inductors$.Tolerance|TableNameOnly=IEC Inductors$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap487]
+Options=FieldName=IEC Inductors$.Power|TableNameOnly=IEC Inductors$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap488]
+Options=FieldName=IEC Inductors$.Voltage|TableNameOnly=IEC Inductors$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap489]
+Options=FieldName=IEC Inductors$.Package|TableNameOnly=IEC Inductors$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap490]
+Options=FieldName=IEC Inductors$.Manufacturer|TableNameOnly=IEC Inductors$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap491]
+Options=FieldName=IEC Inductors$.MPN|TableNameOnly=IEC Inductors$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap492]
+Options=FieldName=IEC Inductors$.CommentBase|TableNameOnly=IEC Inductors$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap493]
+Options=FieldName=IEC Inductors$.Library Ref|TableNameOnly=IEC Inductors$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap494]
+Options=FieldName=IEC Inductors$.Library Path|TableNameOnly=IEC Inductors$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap495]
+Options=FieldName=IEC Inductors$.Footprint Ref|TableNameOnly=IEC Inductors$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap496]
+Options=FieldName=IEC Inductors$.Footprint Path|TableNameOnly=IEC Inductors$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap497]
+Options=FieldName=IEC Inductors$.Notes|TableNameOnly=IEC Inductors$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap498]
+Options=FieldName=IEC Inductors$.Comment|TableNameOnly=IEC Inductors$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap499]
+Options=FieldName=IEC Inductors$.Description|TableNameOnly=IEC Inductors$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap500]
+Options=FieldName=IEC Inductors$.Datasheet|TableNameOnly=IEC Inductors$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap501]
+Options=FieldName=IEC Inductors$.ComponentLink1Description|TableNameOnly=IEC Inductors$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap502]
+Options=FieldName=IEC Inductors$.ComponentLink1URL|TableNameOnly=IEC Inductors$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap503]
+Options=FieldName=IEC Inductors$.ComponentLink2Description|TableNameOnly=IEC Inductors$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap504]
+Options=FieldName=IEC Inductors$.ComponentLink2URL|TableNameOnly=IEC Inductors$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap505]
+Options=FieldName=IEC Inductors$.HelpURL|TableNameOnly=IEC Inductors$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap506]
+Options=FieldName=IEC Inductors$.InductanceuH|TableNameOnly=IEC Inductors$|FieldNameOnly=InductanceuH|FieldType=1|ParameterName=InductanceuH|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap507]
+Options=FieldName=IEC Inductors$.TestFrequencyMHz|TableNameOnly=IEC Inductors$|FieldNameOnly=TestFrequencyMHz|FieldType=1|ParameterName=TestFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap508]
+Options=FieldName=IEC Inductors$.RatedCurrentA|TableNameOnly=IEC Inductors$|FieldNameOnly=RatedCurrentA|FieldType=1|ParameterName=RatedCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap509]
+Options=FieldName=IEC Inductors$.SaturationCurrentMaxA|TableNameOnly=IEC Inductors$|FieldNameOnly=SaturationCurrentMaxA|FieldType=1|ParameterName=SaturationCurrentMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap510]
+Options=FieldName=IEC Inductors$.SaturationCurrentTypA|TableNameOnly=IEC Inductors$|FieldNameOnly=SaturationCurrentTypA|FieldType=1|ParameterName=SaturationCurrentTypA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap511]
+Options=FieldName=IEC Inductors$.TempRiseCurrentMaxA|TableNameOnly=IEC Inductors$|FieldNameOnly=TempRiseCurrentMaxA|FieldType=1|ParameterName=TempRiseCurrentMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap512]
+Options=FieldName=IEC Inductors$.TempRiseCurrentTypA|TableNameOnly=IEC Inductors$|FieldNameOnly=TempRiseCurrentTypA|FieldType=1|ParameterName=TempRiseCurrentTypA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap513]
+Options=FieldName=IEC Inductors$.DCResistanceMaxOhm|TableNameOnly=IEC Inductors$|FieldNameOnly=DCResistanceMaxOhm|FieldType=1|ParameterName=DCResistanceMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap514]
+Options=FieldName=IEC Inductors$.DCResistanceTypOhm|TableNameOnly=IEC Inductors$|FieldNameOnly=DCResistanceTypOhm|FieldType=1|ParameterName=DCResistanceTypOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap515]
+Options=FieldName=IEC Inductors$.SelfResonantFrequencyMHz|TableNameOnly=IEC Inductors$|FieldNameOnly=SelfResonantFrequencyMHz|FieldType=1|ParameterName=SelfResonantFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap516]
+Options=FieldName=IEC Inductors$.Shielding|TableNameOnly=IEC Inductors$|FieldNameOnly=Shielding|FieldType=1|ParameterName=Shielding|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap517]
+Options=FieldName=IEC Inductors$.CoreMaterial|TableNameOnly=IEC Inductors$|FieldNameOnly=CoreMaterial|FieldType=1|ParameterName=CoreMaterial|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap518]
+Options=FieldName=IEC Inductors$.Marking|TableNameOnly=IEC Inductors$|FieldNameOnly=Marking|FieldType=1|ParameterName=Marking|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap519]
+Options=FieldName=IEC Inductors$.OperatingTemperatureMin|TableNameOnly=IEC Inductors$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap520]
+Options=FieldName=IEC Inductors$.OperatingTemperatureMax|TableNameOnly=IEC Inductors$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap521]
+Options=FieldName=IEC Inductors$.TemperatureReference|TableNameOnly=IEC Inductors$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap522]
+Options=FieldName=IEC Inductors$.Family|TableNameOnly=IEC Inductors$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap523]
+Options=FieldName=IEC Inductors$.Grade|TableNameOnly=IEC Inductors$|FieldNameOnly=Grade|FieldType=1|ParameterName=Grade|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap524]
+Options=FieldName=IEC Inductors$.Packaging|TableNameOnly=IEC Inductors$|FieldNameOnly=Packaging|FieldType=1|ParameterName=Packaging|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap525]
+Options=FieldName=IEC Inductors$.PackagingQuantity|TableNameOnly=IEC Inductors$|FieldNameOnly=PackagingQuantity|FieldType=1|ParameterName=PackagingQuantity|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap526]
+Options=FieldName=IEC Inductors$.DatasheetRevision|TableNameOnly=IEC Inductors$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap527]
+Options=FieldName=IEC Inductors$.Sim Model Name|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap528]
+Options=FieldName=IEC Inductors$.Sim Description|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap529]
+Options=FieldName=IEC Inductors$.Sim Kind|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap530]
+Options=FieldName=IEC Inductors$.Sim SubKind|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap531]
+Options=FieldName=IEC Inductors$.Sim Netlist|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap532]
+Options=FieldName=IEC Inductors$.Sim Spice Prefix|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap533]
+Options=FieldName=IEC Inductors$.Sim Port Map|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap534]
+Options=FieldName=IEC Inductors$.Sim File|TableNameOnly=IEC Inductors$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap535]
+Options=FieldName=IEC Inductors$.IND_L|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_L|FieldType=1|ParameterName=IND_L|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap536]
+Options=FieldName=IEC Inductors$.IND_RDC|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_RDC|FieldType=1|ParameterName=IND_RDC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap537]
+Options=FieldName=IEC Inductors$.IND_CP|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_CP|FieldType=1|ParameterName=IND_CP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap538]
+Options=FieldName=IEC Inductors$.IND_RP|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_RP|FieldType=1|ParameterName=IND_RP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

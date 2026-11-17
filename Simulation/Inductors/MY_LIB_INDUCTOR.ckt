@@ -1,0 +1,54 @@
+* ===========================================================================
+* MY_LIB_INDUCTOR -- universal passive behavioural model of a two-terminal
+* power inductor for MY_LIB SPICE
+*
+* MY_LIB Clean-Room Behavioral Passive Model synthesized from datasheet
+* inductor_commercial_power_vls3012hbx-n_en.pdf (Rev. 20210921) and black-box
+* impedance characterization
+*
+* Family of the first synthesis: TDK VLS3012HBX-N, catalogue L0079..L0090,
+* 0.33 uH .. 22 uH, 3.0 x 3.0 x 1.2 mm shielded power inductors.
+*
+* Every number is passed from the component table (MY_LIB.xlsx / MY_LIB.DbLib,
+* Sim Netlist field); nothing in this file is edited per part:
+*
+*   @DESIGNATOR %1 %2 @MODEL PARAMS: Lval=@IND_L RDCval=@IND_RDC CPval=@IND_CP
+*                                   RPval=@IND_RP
+*
+* Working conditions: T = 25 degC, DC bias = 0 A, small-signal AC and linear
+* transient.  Core saturation (Isat), self-heating (Itemp), the DC-bias
+* dependence of the inductance and any ageing or temperature dependence are
+* not modelled.
+*
+* Pin map: 1 = Port 1, 2 = Port 2 (non-polarised winding terminals).
+*
+* Topology, passive R/L/C only:
+*
+*   1 --[ Rdc ]-- mid --+--[ Lmain ]--+-- 2
+*                       |             |
+*                    [ Rp ]        [ Cp ]
+*                       |
+*                       +--[ Rcore1 ]--[ Lcore1 ]-- 2     (optional branch)
+*
+*   Lval    nominal low-frequency inductance                     [H]
+*   RDCval  DC winding resistance                                [ohm]
+*   CPval   self-capacitance that sets f_SRF                     [F]
+*   RPval   parallel loss resistor that sets |Z|max              [ohm]
+*   R1val   core-loss branch resistance, 1e9 switches it off    [ohm]
+*   L1val   core-loss branch inductance                          [H]
+*
+* The defaults describe a 1 uH / 50 mohm inductor with the core-loss branch
+* off, so an instance without parameters is always valid Spice.
+*
+* Validation of this model (12 parts, ngspice 42 from KiCad 9.0):
+*   spice/work/verify_parameterized.py  -> 12/12 PASS, 144/144 checks
+*   spice/work/verify_sifter.py         -> Spice Sifter decks, all limits met
+* ===========================================================================
+.SUBCKT MY_LIB_INDUCTOR 1 2 PARAMS: Lval=1u RDCval=0.05 CPval=1p RPval=1e9 R1val=1e9 L1val=1
+Rdc    1   mid {RDCval}
+Lmain  mid 2   {Lval}
+Rp     mid 2   {RPval}
+Cp     mid 2   {CPval}
+Rcore1 mid n1  {R1val}
+Lcore1 n1  2   {L1val}
+.ENDS MY_LIB_INDUCTOR

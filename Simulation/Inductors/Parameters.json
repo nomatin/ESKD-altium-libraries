@@ -1,0 +1,1546 @@
+{
+  "schema_version": "1.0",
+  "kind": "vls3012hbx_universal_inductor_parameters",
+  "run_id": "run-20261117-vls3012hbx",
+  "model_file": "work/Simulation/Inductors/MY_LIB_INDUCTOR.ckt",
+  "subcircuit": "MY_LIB_INDUCTOR",
+  "model_class": "passive R, L, C only; 4 electrical parameters per part, core-loss branch present but disabled (R1val=1e9)",
+  "conditions": {
+    "temperature_c": 25,
+    "dc_bias_a": 0.0,
+    "analysis": "small-signal AC, linear transient",
+    "not_modelled": [
+      "Isat saturation",
+      "Itemp self-heating",
+      "DC-bias dependence",
+      "temperature dependence"
+    ]
+  },
+  "provenance": {
+    "datasheet": "input/inductor_commercial_power_vls3012hbx-n_en.pdf (Rev. 20210921) via input/spec.json",
+    "blackbox": "spice/blackbox_targets.json (published terminal measurements of the reference black box: Rdc, L, f_SRF, |Z|max, |Z|/phase curves, step response)",
+    "vendor_netlists_read": false,
+    "note": "no vendor subcircuit, node name or internal element value was used"
+  },
+  "synthesis_recipe": {
+    "Lval": "datasheet nominal inductance at the 1 MHz test frequency",
+    "RDCval": "datasheet Rdc typ (the model returns exactly this value at DC)",
+    "CPval": "1 / (2*pi*f_SRF)^2 / Lval, f_SRF = mean(Simple, Precision)",
+    "RPval": "|Z|max = mean(Simple, Precision) at resonance",
+    "R1val_L1val": "left at the disabled defaults; see core_loss_branch_decision"
+  },
+  "core_loss_branch_decision": {
+    "tested": "a parallel R1+L1 core-loss branch was fitted for all 12 parts (see _analysis/variant_C.json)",
+    "result": "the smallest acceptance margin is unchanged (identical to the 4-element tank in 12/12 parts); the optimiser only re-absorbed the branch into RPval",
+    "additional_finding": "a parallel loss branch strong enough to correct the resistive part Re(Z) at 1..10 MHz would take more than 2 % of the step current at 1/tau and would break tran_trace",
+    "decision": "branch kept in the topology for future families, disabled (R1val=1e9) and not written to the Excel table"
+  },
+  "excel_columns": [
+    {
+      "field": "IND_L",
+      "param": "Lval",
+      "unit": "H",
+      "note": "nominal inductance"
+    },
+    {
+      "field": "IND_RDC",
+      "param": "RDCval",
+      "unit": "ohm",
+      "note": "DC resistance"
+    },
+    {
+      "field": "IND_CP",
+      "param": "CPval",
+      "unit": "F",
+      "note": "self-capacitance"
+    },
+    {
+      "field": "IND_RP",
+      "param": "RPval",
+      "unit": "ohm",
+      "note": "parallel loss resistor"
+    }
+  ],
+  "params_defaults_in_model": {
+    "R1val": {
+      "value": 1000000000.0,
+      "meaning": "core-loss branch resistance, 1e9 ohm = branch off"
+    },
+    "L1val": {
+      "value": 1.0,
+      "meaning": "core-loss branch inductance, irrelevant while off"
+    }
+  },
+  "known_limitations": {
+    "esr_q_at_1_to_10_mhz": "the model reproduces the resistive part Re(Z) of the Simple reference variant; the Precision variant has up to 2.5x larger ESR in that decade, so the model Q at 1 MHz coincides with the Simple variant and is that much optimistic against the Precision variant (see q_1mhz_model vs q_1mhz_blackbox in each part)",
+    "not_a_core_loss_ladder": "no frequency-spread core-loss ladder: a parallel branch able to raise ESR at 1..10 MHz would take more than 2 % of the step current and break tran_trace",
+    "no_bias_no_temperature": "Isat, Itemp, DC-bias and temperature dependence unmodelled"
+  },
+  "sim_netlist_template": "@DESIGNATOR %1 %2 @MODEL PARAMS: Lval=@IND_L RDCval=@IND_RDC CPval=@IND_CP RPval=@IND_RP",
+  "pin_map": {
+    "1": "Port 1",
+    "2": "Port 2",
+    "polarity": "non-polarised"
+  },
+  "worst_case_audit": {
+    "band_z_room_rel_percent_min": 2.883,
+    "band_leff_room_rel_percent_min": 2.757,
+    "srf_deviation_rel_percent_max": 0.0,
+    "zpeak_deviation_rel_percent_max": 0.0049,
+    "leff_1mhz_deviation_rel_percent_max": 0.7583
+  },
+  "parts": [
+    {
+      "catalog_id": "L0079",
+      "mpn": "VLS3012HBX-R33N-N",
+      "value_uh": 0.33,
+      "tolerance": "±30%",
+      "params": {
+        "Lval": 3.3e-07,
+        "RDCval": 0.023,
+        "CPval": 2.7525156048236694e-12,
+        "RPval": 549.0274999999999
+      },
+      "datasheet": {
+        "l_nominal_h": 3.3e-07,
+        "rdc_typ_ohm": 0.023,
+        "rdc_max_ohm": 0.03,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 166993000.0,
+        "z_peak_ohm_mean": 549.0274999999999,
+        "srf_hz_simple": 166147000.0,
+        "srf_hz_precision": 167839000.0,
+        "z_peak_simple": 548.823,
+        "z_peak_precision": 549.232
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.993,
+        "band_leff_room_rel_percent": 2.993,
+        "srf_hz_model": 166992999.0,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 549.05,
+        "zpeak_deviation_rel_percent": 0.0042,
+        "leff_1mhz_h_model": 3.300071269335526e-07,
+        "leff_1mhz_deviation_rel_percent": 0.0022,
+        "esr_1mhz_ohm_model": 0.030831,
+        "esr_1mhz_band_ohm": [
+          0.029911,
+          0.048444
+        ],
+        "q_1mhz_model": 67.25,
+        "q_1mhz_blackbox": {
+          "simple": 67.25,
+          "precision": 44.09
+        }
+      }
+    },
+    {
+      "catalog_id": "L0080",
+      "mpn": "VLS3012HBX-R47M-N",
+      "value_uh": 0.47,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 4.6999999999999995e-07,
+        "RDCval": 0.027,
+        "CPval": 4.1667741804604874e-12,
+        "RPval": 548.3344999999999
+      },
+      "datasheet": {
+        "l_nominal_h": 4.6999999999999995e-07,
+        "rdc_typ_ohm": 0.027,
+        "rdc_max_ohm": 0.035,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 113729000.0,
+        "z_peak_ohm_mean": 548.3344999999999,
+        "srf_hz_simple": 113389000.0,
+        "srf_hz_precision": 114069000.0,
+        "z_peak_simple": 548.245,
+        "z_peak_precision": 548.424
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.993,
+        "band_leff_room_rel_percent": 2.757,
+        "srf_hz_model": 113728999.2,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 548.361,
+        "zpeak_deviation_rel_percent": 0.0049,
+        "leff_1mhz_h_model": 4.700227054926551e-07,
+        "leff_1mhz_deviation_rel_percent": 0.0048,
+        "esr_1mhz_ohm_model": 0.042906,
+        "esr_1mhz_band_ohm": [
+          0.041621,
+          0.105145
+        ],
+        "q_1mhz_model": 68.83,
+        "q_1mhz_blackbox": {
+          "simple": 68.83,
+          "precision": 28.94
+        }
+      }
+    },
+    {
+      "catalog_id": "L0081",
+      "mpn": "VLS3012HBX-R68M-N",
+      "value_uh": 0.68,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 6.800000000000001e-07,
+        "RDCval": 0.032,
+        "CPval": 4.806675308423654e-12,
+        "RPval": 877.864
+      },
+      "datasheet": {
+        "l_nominal_h": 6.800000000000001e-07,
+        "rdc_typ_ohm": 0.032,
+        "rdc_max_ohm": 0.038,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 88032550.0,
+        "z_peak_ohm_mean": 877.864,
+        "srf_hz_simple": 87942800.0,
+        "srf_hz_precision": 88122300.0,
+        "z_peak_simple": 877.832,
+        "z_peak_precision": 877.896
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.993,
+        "band_leff_room_rel_percent": 2.993,
+        "srf_hz_model": 88032548.8,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 877.896,
+        "zpeak_deviation_rel_percent": 0.0036,
+        "leff_1mhz_h_model": 6.800716428195308e-07,
+        "leff_1mhz_deviation_rel_percent": 0.0105,
+        "esr_1mhz_ohm_model": 0.052799,
+        "esr_1mhz_band_ohm": [
+          0.05122,
+          0.122516
+        ],
+        "q_1mhz_model": 80.93,
+        "q_1mhz_blackbox": {
+          "simple": 80.93,
+          "precision": 35.93
+        }
+      }
+    },
+    {
+      "catalog_id": "L0082",
+      "mpn": "VLS3012HBX-1R0M-N",
+      "value_uh": 1.0,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 1e-06,
+        "RDCval": 0.039,
+        "CPval": 5.1565413588259e-12,
+        "RPval": 1248.585
+      },
+      "datasheet": {
+        "l_nominal_h": 1e-06,
+        "rdc_typ_ohm": 0.039,
+        "rdc_max_ohm": 0.047,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 70087550.0,
+        "z_peak_ohm_mean": 1248.585,
+        "srf_hz_simple": 70078900.0,
+        "srf_hz_precision": 70096200.0,
+        "z_peak_simple": 1248.58,
+        "z_peak_precision": 1248.59
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.993,
+        "band_leff_room_rel_percent": 2.993,
+        "srf_hz_model": 70087548.6,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 1248.624,
+        "zpeak_deviation_rel_percent": 0.0031,
+        "leff_1mhz_h_model": 1.0001782752261525e-06,
+        "leff_1mhz_deviation_rel_percent": 0.0178,
+        "esr_1mhz_ohm_model": 0.070631,
+        "esr_1mhz_band_ohm": [
+          0.068508,
+          0.206267
+        ],
+        "q_1mhz_model": 88.97,
+        "q_1mhz_blackbox": {
+          "simple": 88.98,
+          "precision": 31.39
+        }
+      }
+    },
+    {
+      "catalog_id": "L0083",
+      "mpn": "VLS3012HBX-1R5M-N",
+      "value_uh": 1.5,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 1.5e-06,
+        "RDCval": 0.056,
+        "CPval": 5.2548348701174345e-12,
+        "RPval": 1696.5349999999999
+      },
+      "datasheet": {
+        "l_nominal_h": 1.5e-06,
+        "rdc_typ_ohm": 0.056,
+        "rdc_max_ohm": 0.067,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 56688500.0,
+        "z_peak_ohm_mean": 1696.5349999999999,
+        "srf_hz_simple": 56673200.0,
+        "srf_hz_precision": 56703800.0,
+        "z_peak_simple": 1696.54,
+        "z_peak_precision": 1696.53
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.993,
+        "band_leff_room_rel_percent": 2.839,
+        "srf_hz_model": 56688498.5,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 1696.591,
+        "zpeak_deviation_rel_percent": 0.0033,
+        "leff_1mhz_h_model": 1.5004205795494534e-06,
+        "leff_1mhz_deviation_rel_percent": 0.028,
+        "esr_1mhz_ohm_model": 0.108389,
+        "esr_1mhz_band_ohm": [
+          0.105135,
+          0.239252
+        ],
+        "q_1mhz_model": 86.98,
+        "q_1mhz_blackbox": {
+          "simple": 86.99,
+          "precision": 40.58
+        }
+      }
+    },
+    {
+      "catalog_id": "L0084",
+      "mpn": "VLS3012HBX-2R2M-N",
+      "value_uh": 2.2,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 2.2e-06,
+        "RDCval": 0.088,
+        "CPval": 6.656677145201158e-12,
+        "RPval": 2322.865
+      },
+      "datasheet": {
+        "l_nominal_h": 2.2e-06,
+        "rdc_typ_ohm": 0.088,
+        "rdc_max_ohm": 0.106,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 41589150.0,
+        "z_peak_ohm_mean": 2322.865,
+        "srf_hz_simple": 41603200.0,
+        "srf_hz_precision": 41575100.0,
+        "z_peak_simple": 2322.87,
+        "z_peak_precision": 2322.86
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.883,
+        "band_leff_room_rel_percent": 2.935,
+        "srf_hz_model": 41589148.2,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 2322.953,
+        "zpeak_deviation_rel_percent": 0.0038,
+        "leff_1mhz_h_model": 2.2011946238592203e-06,
+        "leff_1mhz_deviation_rel_percent": 0.0543,
+        "esr_1mhz_ohm_model": 0.170351,
+        "esr_1mhz_band_ohm": [
+          0.165246,
+          0.358523
+        ],
+        "q_1mhz_model": 81.19,
+        "q_1mhz_blackbox": {
+          "simple": 81.19,
+          "precision": 39.73
+        }
+      }
+    },
+    {
+      "catalog_id": "L0085",
+      "mpn": "VLS3012HBX-3R3M-N",
+      "value_uh": 3.3,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 3.2999999999999997e-06,
+        "RDCval": 0.13,
+        "CPval": 5.9985118542325215e-12,
+        "RPval": 3454.2200000000003
+      },
+      "datasheet": {
+        "l_nominal_h": 3.2999999999999997e-06,
+        "rdc_typ_ohm": 0.13,
+        "rdc_max_ohm": 0.15,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 35771850.0,
+        "z_peak_ohm_mean": 3454.2200000000003,
+        "srf_hz_simple": 35778000.0,
+        "srf_hz_precision": 35765700.0,
+        "z_peak_simple": 3454.26,
+        "z_peak_precision": 3454.18
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.927,
+        "band_leff_room_rel_percent": 2.945,
+        "srf_hz_model": 35771848.0,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 3454.35,
+        "zpeak_deviation_rel_percent": 0.0038,
+        "leff_1mhz_h_model": 3.302461716640461e-06,
+        "leff_1mhz_deviation_rel_percent": 0.0746,
+        "esr_1mhz_ohm_model": 0.254653,
+        "esr_1mhz_band_ohm": [
+          0.247004,
+          0.560809
+        ],
+        "q_1mhz_model": 81.48,
+        "q_1mhz_blackbox": {
+          "simple": 81.49,
+          "precision": 38.1
+        }
+      }
+    },
+    {
+      "catalog_id": "L0086",
+      "mpn": "VLS3012HBX-4R7M-N",
+      "value_uh": 4.7,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 4.7e-06,
+        "RDCval": 0.175,
+        "CPval": 6.937151965173402e-12,
+        "RPval": 4456.82
+      },
+      "datasheet": {
+        "l_nominal_h": 4.7e-06,
+        "rdc_typ_ohm": 0.175,
+        "rdc_max_ohm": 0.201,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 27872800.0,
+        "z_peak_ohm_mean": 4456.82,
+        "srf_hz_simple": 27880300.0,
+        "srf_hz_precision": 27865300.0,
+        "z_peak_simple": 4456.85,
+        "z_peak_precision": 4456.79
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.914,
+        "band_leff_room_rel_percent": 2.929,
+        "srf_hz_model": 27872797.9,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 4456.995,
+        "zpeak_deviation_rel_percent": 0.0039,
+        "leff_1mhz_h_model": 4.705850397320068e-06,
+        "leff_1mhz_deviation_rel_percent": 0.1245,
+        "esr_1mhz_ohm_model": 0.371169,
+        "esr_1mhz_band_ohm": [
+          0.36003,
+          0.791489
+        ],
+        "q_1mhz_model": 79.66,
+        "q_1mhz_blackbox": {
+          "simple": 79.67,
+          "precision": 38.44
+        }
+      }
+    },
+    {
+      "catalog_id": "L0087",
+      "mpn": "VLS3012HBX-6R8M-N",
+      "value_uh": 6.8,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 6.799999999999999e-06,
+        "RDCval": 0.248,
+        "CPval": 7.079942336339276e-12,
+        "RPval": 5981.495
+      },
+      "datasheet": {
+        "l_nominal_h": 6.799999999999999e-06,
+        "rdc_typ_ohm": 0.248,
+        "rdc_max_ohm": 0.285,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 22937750.0,
+        "z_peak_ohm_mean": 5981.495,
+        "srf_hz_simple": 22940700.0,
+        "srf_hz_precision": 22934800.0,
+        "z_peak_simple": 5981.59,
+        "z_peak_precision": 5981.4
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.939,
+        "band_leff_room_rel_percent": 2.959,
+        "srf_hz_model": 22937747.8,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 5981.743,
+        "zpeak_deviation_rel_percent": 0.0041,
+        "leff_1mhz_h_model": 6.812600000632577e-06,
+        "leff_1mhz_deviation_rel_percent": 0.1853,
+        "esr_1mhz_ohm_model": 0.554336,
+        "esr_1mhz_band_ohm": [
+          0.537737,
+          1.096591
+        ],
+        "q_1mhz_model": 77.22,
+        "q_1mhz_blackbox": {
+          "simple": 77.22,
+          "precision": 40.14
+        }
+      }
+    },
+    {
+      "catalog_id": "L0088",
+      "mpn": "VLS3012HBX-100M-N",
+      "value_uh": 10.0,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 9.999999999999999e-06,
+        "RDCval": 0.361,
+        "CPval": 6.810632791772966e-12,
+        "RPval": 9212.845000000001
+      },
+      "datasheet": {
+        "l_nominal_h": 9.999999999999999e-06,
+        "rdc_typ_ohm": 0.361,
+        "rdc_max_ohm": 0.415,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 19285300.0,
+        "z_peak_ohm_mean": 9212.845000000001,
+        "srf_hz_simple": 19290400.0,
+        "srf_hz_precision": 19280200.0,
+        "z_peak_simple": 9212.86,
+        "z_peak_precision": 9212.83
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.899,
+        "band_leff_room_rel_percent": 2.91,
+        "srf_hz_model": 19285297.1,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 9213.206,
+        "zpeak_deviation_rel_percent": 0.0039,
+        "leff_1mhz_h_model": 1.0026490910291176e-05,
+        "leff_1mhz_deviation_rel_percent": 0.2649,
+        "esr_1mhz_ohm_model": 0.791808,
+        "esr_1mhz_band_ohm": [
+          0.768056,
+          1.431903
+        ],
+        "q_1mhz_model": 79.56,
+        "q_1mhz_blackbox": {
+          "simple": 79.57,
+          "precision": 45.2
+        }
+      }
+    },
+    {
+      "catalog_id": "L0089",
+      "mpn": "VLS3012HBX-150M-N",
+      "value_uh": 15.0,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 1.4999999999999999e-05,
+        "RDCval": 0.553,
+        "CPval": 7.0942160323085694e-12,
+        "RPval": 12734.8
+      },
+      "datasheet": {
+        "l_nominal_h": 1.4999999999999999e-05,
+        "rdc_typ_ohm": 0.553,
+        "rdc_max_ohm": 0.636,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 15428450.0,
+        "z_peak_ohm_mean": 12734.8,
+        "srf_hz_simple": 15431200.0,
+        "srf_hz_precision": 15425700.0,
+        "z_peak_simple": 12734.9,
+        "z_peak_precision": 12734.7
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.929,
+        "band_leff_room_rel_percent": 2.935,
+        "srf_hz_model": 15428446.9,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 12735.352,
+        "zpeak_deviation_rel_percent": 0.0043,
+        "leff_1mhz_h_model": 1.506244926641807e-05,
+        "leff_1mhz_deviation_rel_percent": 0.4163,
+        "esr_1mhz_ohm_model": 1.256368,
+        "esr_1mhz_band_ohm": [
+          1.218726,
+          2.178213
+        ],
+        "q_1mhz_model": 75.33,
+        "q_1mhz_blackbox": {
+          "simple": 75.33,
+          "precision": 44.57
+        }
+      }
+    },
+    {
+      "catalog_id": "L0090",
+      "mpn": "VLS3012HBX-220M-N",
+      "value_uh": 22.0,
+      "tolerance": "±20%",
+      "params": {
+        "Lval": 2.2e-05,
+        "RDCval": 0.662,
+        "CPval": 8.760600230200606e-12,
+        "RPval": 15209.0
+      },
+      "datasheet": {
+        "l_nominal_h": 2.2e-05,
+        "rdc_typ_ohm": 0.662,
+        "rdc_max_ohm": 0.761,
+        "test_frequency_hz": 1000000.0
+      },
+      "blackbox": {
+        "srf_hz_mean": 11464150.0,
+        "z_peak_ohm_mean": 15209.0,
+        "srf_hz_simple": 11466400.0,
+        "srf_hz_precision": 11461900.0,
+        "z_peak_simple": 15209.1,
+        "z_peak_precision": 15208.9
+      },
+      "audit": {
+        "band_z_room_rel_percent": 2.886,
+        "band_leff_room_rel_percent": 2.902,
+        "srf_hz_model": 11464147.3,
+        "srf_deviation_rel_percent": 0.0,
+        "zpeak_ohm_model": 15209.661,
+        "zpeak_deviation_rel_percent": 0.0043,
+        "leff_1mhz_h_model": 2.2166817808348738e-05,
+        "leff_1mhz_deviation_rel_percent": 0.7583,
+        "esr_1mhz_ohm_model": 1.937564,
+        "esr_1mhz_band_ohm": [
+          1.879388,
+          2.99453
+        ],
+        "q_1mhz_model": 71.88,
+        "q_1mhz_blackbox": {
+          "simple": 71.89,
+          "precision": 47.56
+        }
+      }
+    }
+  ],
+  "verification": {
+    "ngspice_parameterized": {
+      "harness": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\component_pipeline\\run-20261117-vls3012hbx\\spice\\tests\\run_ngspice_tests.py",
+      "model_file": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\component_pipeline\\run-20261117-vls3012hbx\\spice\\work\\Simulation\\Inductors\\MY_LIB_INDUCTOR.ckt",
+      "model_sha256": "68614c767f4ba00618fde9bcb52ba933e39dc0ba91d708dff6769421f2664aac",
+      "report": "spice/work/Results/parameterized_report.json",
+      "checked_at": "2026-11-17T17:13:31+00:00",
+      "status": "PASS",
+      "summary": {
+        "parts": 12,
+        "passed": 12,
+        "failed": 0,
+        "checks": 144,
+        "checks_failed": 0
+      },
+      "worst_utilisation_of_limits_percent": {
+        "rdc": 0.0,
+        "srf": 0.0,
+        "zpk": 0.1,
+        "leff": 37.9,
+        "tau": 19.5,
+        "3tau": 11.4,
+        "8tau": 3.8,
+        "trace": 52.9
+      },
+      "parts": [
+        {
+          "catalog_id": "L0079",
+          "mpn": "VLS3012HBX-R33N-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.023,
+            "srf_hz": 166993019.01,
+            "z_peak_ohm": 549.050357,
+            "leff_test_hz": 3.30007127e-07,
+            "i_inf_a": 0.099732395
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0042,
+            "leff_1mhz": 0.0022,
+            "tran_tau": -0.3885,
+            "tran_3tau": -0.228,
+            "tran_8tau": -0.0382,
+            "tran_trace": 0.5518
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 3.300031397301962e-07,
+                "min": 3.20101e-07,
+                "max": 3.43535e-07,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 3.3001202330839454e-07,
+                "min": 3.234e-07,
+                "max": 3.366e-07,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 3.307181177027813e-07,
+                "min": 3.18149e-07,
+                "max": 3.40645e-07,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.03083149097959934,
+                "min": 0.029910585,
+                "max": 0.048444396,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0080",
+          "mpn": "VLS3012HBX-R47M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.027,
+            "srf_hz": 113729011.668,
+            "z_peak_ohm": 548.361301,
+            "leff_test_hz": 4.70022705e-07,
+            "i_inf_a": 0.099692613
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0049,
+            "leff_1mhz": 0.0048,
+            "tran_tau": -0.3905,
+            "tran_3tau": -0.228,
+            "tran_8tau": -0.0382,
+            "tran_trace": 1.0585
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 4.700045972967786e-07,
+                "min": 4.559e-07,
+                "max": 4.98901e-07,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 4.7002968077936686e-07,
+                "min": 4.606e-07,
+                "max": 4.794e-07,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 4.722789784754079e-07,
+                "min": 4.43793e-07,
+                "max": 4.86461e-07,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.042907078524492354,
+                "min": 0.041620781,
+                "max": 0.105145498,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0081",
+          "mpn": "VLS3012HBX-R68M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.032,
+            "srf_hz": 88032558.31,
+            "z_peak_ohm": 877.89541,
+            "leff_test_hz": 6.80071643e-07,
+            "i_inf_a": 0.099644622
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0036,
+            "leff_1mhz": 0.0105,
+            "tran_tau": -0.3902,
+            "tran_3tau": -0.1607,
+            "tran_8tau": -0.0365,
+            "tran_trace": 0.4451
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 6.800070393099493e-07,
+                "min": 6.596e-07,
+                "max": 7.1543e-07,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 6.800817398791632e-07,
+                "min": 6.664e-07,
+                "max": 6.936e-07,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 6.872308733893496e-07,
+                "min": 6.52932e-07,
+                "max": 7.07854e-07,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.052800714674505575,
+                "min": 0.051219903,
+                "max": 0.122515526,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0082",
+          "mpn": "VLS3012HBX-1R0M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.039,
+            "srf_hz": 70087556.464,
+            "z_peak_ohm": 1248.622694,
+            "leff_test_hz": 1.000178275e-06,
+            "i_inf_a": 0.099575937
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.003,
+            "leff_1mhz": 0.0178,
+            "tran_tau": -0.3855,
+            "tran_3tau": -0.1279,
+            "tran_8tau": -0.0357,
+            "tran_trace": 0.5872
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 1.0000110809842124e-06,
+                "min": 9.70002e-07,
+                "max": 1.057131e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 1.000193133524779e-06,
+                "min": 9.8e-07,
+                "max": 1.02e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 1.018113163831589e-06,
+                "min": 9.61809e-07,
+                "max": 1.048642e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.0706325183906732,
+                "min": 0.06850826,
+                "max": 0.206266832,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0083",
+          "mpn": "VLS3012HBX-1R5M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.056,
+            "srf_hz": 56688505.294,
+            "z_peak_ohm": 1696.588446,
+            "leff_test_hz": 1.500420579e-06,
+            "i_inf_a": 0.09940808
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0032,
+            "leff_1mhz": 0.028,
+            "tran_tau": -0.3807,
+            "tran_3tau": -0.1076,
+            "tran_8tau": -0.0352,
+            "tran_trace": 0.4255
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 1.500018152640816e-06,
+                "min": 1.455004e-06,
+                "max": 1.573739e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 1.5004428873196299e-06,
+                "min": 1.47e-06,
+                "max": 1.53e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 1.5431344973689097e-06,
+                "min": 1.466569e-06,
+                "max": 1.589424e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.10839174560476242,
+                "min": 0.105135425,
+                "max": 0.239251932,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0084",
+          "mpn": "VLS3012HBX-2R2M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.088,
+            "srf_hz": 41589153.132,
+            "z_peak_ohm": 2322.947949,
+            "leff_test_hz": 2.201194623e-06,
+            "i_inf_a": 0.099093121
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0036,
+            "leff_1mhz": 0.0543,
+            "tran_tau": -0.3799,
+            "tran_3tau": -0.092,
+            "tran_8tau": -0.0349,
+            "tran_trace": 0.454
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 2.200032397620646e-06,
+                "min": 2.134013e-06,
+                "max": 2.31054e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 2.2012274187854303e-06,
+                "min": 2.156e-06,
+                "max": 2.244e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 2.3257769817920894e-06,
+                "min": 2.209009e-06,
+                "max": 2.395393e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.17035593138794014,
+                "min": 0.165245887,
+                "max": 0.358522935,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0085",
+          "mpn": "VLS3012HBX-3R3M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.13,
+            "srf_hz": 35771853.009,
+            "z_peak_ohm": 3454.338642,
+            "leff_test_hz": 3.302461715e-06,
+            "i_inf_a": 0.098682581
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0034,
+            "leff_1mhz": 0.0746,
+            "tran_tau": -0.3761,
+            "tran_3tau": -0.0785,
+            "tran_8tau": -0.0345,
+            "tran_trace": 0.5601
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 3.3000552865048517e-06,
+                "min": 3.20103e-06,
+                "max": 3.471006e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 3.3025109980076657e-06,
+                "min": 3.234e-06,
+                "max": 3.366e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 3.564735448597234e-06,
+                "min": 3.378795e-06,
+                "max": 3.671469e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.2546603534673439,
+                "min": 0.24700446,
+                "max": 0.560809138,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0086",
+          "mpn": "VLS3012HBX-4R7M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.175,
+            "srf_hz": 27872802.052,
+            "z_peak_ohm": 4456.975727,
+            "leff_test_hz": 4.705850395e-06,
+            "i_inf_a": 0.098246294
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": -0.0,
+            "srf": 0.0,
+            "zpeak": 0.0035,
+            "leff_1mhz": 0.1245,
+            "tran_tau": -0.3751,
+            "tran_3tau": -0.0722,
+            "tran_8tau": -0.0344,
+            "tran_trace": 0.6011
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 4.700102141673964e-06,
+                "min": 4.559055e-06,
+                "max": 4.939185e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 4.705920898291919e-06,
+                "min": 4.606e-06,
+                "max": 4.794e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 5.36353229139359e-06,
+                "min": 5.086889e-06,
+                "max": 5.523801e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.3711814136406405,
+                "min": 0.360030008,
+                "max": 0.791488906,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0087",
+          "mpn": "VLS3012HBX-6R8M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.248,
+            "srf_hz": 22937751.669,
+            "z_peak_ohm": 5981.707948,
+            "leff_test_hz": 6.812599995e-06,
+            "i_inf_a": 0.097546576
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0036,
+            "leff_1mhz": 0.1853,
+            "tran_tau": -0.3738,
+            "tran_3tau": -0.0667,
+            "tran_8tau": -0.0343,
+            "tran_trace": 0.5249
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 6.800189015014858e-06,
+                "min": 6.596115e-06,
+                "max": 7.113704e-06,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 6.8127025537185095e-06,
+                "min": 6.664e-06,
+                "max": 6.936e-06,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 8.331359139915414e-06,
+                "min": 7.89687e-06,
+                "max": 8.58035e-06,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.5543561762514143,
+                "min": 0.53773693,
+                "max": 1.096591133,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0088",
+          "mpn": "VLS3012HBX-100M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.361,
+            "srf_hz": 19285301.478,
+            "z_peak_ohm": 9213.122344,
+            "leff_test_hz": 1.0026490898e-05,
+            "i_inf_a": 0.096482834
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.003,
+            "leff_1mhz": 0.2649,
+            "tran_tau": -0.3726,
+            "tran_3tau": -0.061,
+            "tran_8tau": -0.0341,
+            "tran_trace": 0.6216
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 1.0000357233942122e-05,
+                "min": 9.700255e-06,
+                "max": 1.0474751e-05,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 1.0026642788612963e-05,
+                "min": 9.8e-06,
+                "max": 1.02e-05,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 1.3560601879535197e-05,
+                "min": 1.2967317e-05,
+                "max": 1.3963649e-05,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 0.7918383563090148,
+                "min": 0.768056356,
+                "max": 1.43190256,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0089",
+          "mpn": "VLS3012HBX-150M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.553,
+            "srf_hz": 15428451.159,
+            "z_peak_ohm": 12735.192316,
+            "leff_test_hz": 1.5062449236e-05,
+            "i_inf_a": 0.094727499
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": -0.0,
+            "srf": 0.0,
+            "zpeak": 0.0031,
+            "leff_1mhz": 0.4163,
+            "tran_tau": -0.372,
+            "tran_3tau": -0.0581,
+            "tran_8tau": -0.0341,
+            "tran_trace": 0.6246
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 1.5000761490319918e-05,
+                "min": 1.4550605e-05,
+                "max": 1.5681183e-05,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 1.5062680133841498e-05,
+                "min": 1.47e-05,
+                "max": 1.53e-05,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 2.5456339232236172e-05,
+                "min": 2.4333891e-05,
+                "max": 2.6209032e-05,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 1.2564199876769744,
+                "min": 1.218725629,
+                "max": 2.178212509,
+                "pass": true
+              }
+            }
+          }
+        },
+        {
+          "catalog_id": "L0090",
+          "mpn": "VLS3012HBX-220M-N",
+          "status": "PASS",
+          "checks_passed": 12,
+          "checks_total": 12,
+          "measured": {
+            "rdc_ohm": 0.662,
+            "srf_hz": 11464150.693,
+            "z_peak_ohm": 15209.431845,
+            "leff_test_hz": 2.2166817732e-05,
+            "i_inf_a": 0.093759106
+          },
+          "check_ids": [
+            "syntax_altium_mixedsim",
+            "dc_rdc_vs_typ",
+            "dc_rdc_vs_max",
+            "ac_srf",
+            "ac_zpeak",
+            "ac_leff_test_frequency",
+            "ac_curve_z",
+            "ac_curve_leff",
+            "tran_tau",
+            "tran_3tau",
+            "tran_steady_state",
+            "tran_trace"
+          ],
+          "deviation_rel_percent": {
+            "rdc": 0.0,
+            "srf": 0.0,
+            "zpeak": 0.0028,
+            "leff_1mhz": 0.7583,
+            "tran_tau": -0.3718,
+            "tran_3tau": -0.0569,
+            "tran_8tau": -0.034,
+            "tran_trace": 0.5914
+          },
+          "band_violations": {
+            "z": 0,
+            "leff": 0
+          },
+          "sifter": {
+            "status": "PASS",
+            "measurements": {
+              "leff_100khz": {
+                "value": 2.200186058748556e-05,
+                "min": 2.1341612e-05,
+                "max": 2.2924041e-05,
+                "pass": true
+              },
+              "leff_1mhz": {
+                "value": 2.2167166608089463e-05,
+                "min": 2.156e-05,
+                "max": 2.244e-05,
+                "pass": true
+              },
+              "leff_10mhz": {
+                "value": 8.0451463814598e-05,
+                "min": 7.7429919e-05,
+                "max": 8.2723344e-05,
+                "pass": true
+              },
+              "esr_1mhz": {
+                "value": 1.937662323735439,
+                "min": 1.879388105,
+                "max": 2.99452987,
+                "pass": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "spice_sifter": {
+      "report": "spice/work/Results/sifter_report.json",
+      "templates_source": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\component_pipeline\\run-20261117-vls3012hbx\\spice\\tests\\sifter_templates",
+      "templates_written_to": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\work\\component_pipeline\\run-20261117-vls3012hbx\\spice\\work\\sifter_universal",
+      "checked_at": "2026-11-17T17:13:30+00:00",
+      "status": "PASS",
+      "summary": {
+        "parts": 12,
+        "parts_passed": 12,
+        "measurements": 48,
+        "measurements_passed": 48
+      }
+    },
+    "conditions": {
+      "temperature_c": 25,
+      "dc_bias_a": 0.0,
+      "simulator": "ngspice 42 shared library shipped with KiCad 9.0",
+      "altium_native_run": "not performed (Altium UI is not driven by this agent)"
+    }
+  }
+}

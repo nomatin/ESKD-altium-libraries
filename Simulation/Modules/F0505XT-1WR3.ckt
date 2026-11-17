@@ -1,0 +1,29 @@
+* MORNSUN F0505XT-1WR3 typical behavioral model, 25 C.
+* Source: F_XT-1WR3(-TR) datasheet, 2026.08.031-A/9, pp. 2-4.
+* Physical pins: 1 GND, 2 Vin, 4 0V, 5 +Vo. Pin 8 is NC.
+.SUBCKT F0505XT_1WR3 GND_IN VIN GND_OUT VOUT
+
+* Illustrative enable below the specified 4.5 V lower input limit.
+BPWR ENABLE 0 V={V(VIN,GND_IN)>4}
+
+* Typical Fig. 1 endpoints: +5% at 20 mA, -2.5% at 200 mA.
+* The regulator is unregulated: output scales approximately with input.
+* 270 kHz fundamental represents the 30 mVpp typical output ripple/noise.
+VRIPV RIPV 0 DC 0 SIN(0 15m 270k)
+BOUT RAW GND_OUT V={V(ENABLE)*(1.058333333*V(VIN,GND_IN)+V(RIPV))}
+RDROOP RAW SENSE 2.083333333
+VSENSE SENSE VOUT 0
+
+* H source measures output load without a conductive path across isolation.
+HLOAD LOAD_MON 0 VSENSE 1
+* Clamp load to [0, 200 mA] for the input-current approximation.
+BPOS POS 0 V={(V(LOAD_MON)+ABS(V(LOAD_MON)))*0.5}
+BFRAC FRAC 0 V={(V(POS)+0.2-ABS(V(POS)-0.2))*2.5}
+* 8 mA at no load, 270 mA at rated load. Reflected ripple is interpreted
+* as 15 mApp at full load and its amplitude is scaled with load.
+VRIPI RIPI 0 DC 0 SIN(0 7.5m 270k)
+BINPUT VIN GND_IN I={V(ENABLE)*(8m+V(FRAC)*(262m+V(RIPI)))}
+
+* Power limiting, short-circuit recovery, noise spectrum, isolation
+* capacitance and startup behavior are outside this simple approximation.
+.ENDS F0505XT_1WR3

@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "test": "vls3012hbx_L0079_dblib_eskd",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(dut_p)",
+      "measurement": "first",
+      "min": 0.002203323558162268,
+      "max": 0.0022932551319648094,
+      "value": 0.0022482893450635386,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB.DbLib",
+    "table": "Индуктивности",
+    "id": "L0079",
+    "designator": "L1",
+    "pins": {
+      "1": "DUT_P",
+      "2": "0"
+    },
+    "page": "Индуктивности"
+  },
+  "fixture": null,
+  "run_id": "20261117_211244_90a102",
+  "artifacts": {
+    "run_dir": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261117_211244_90a102",
+    "nsx": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261117_211244_90a102\\Project Outputs for Test_20261117_211244_90a102\\Test_20261117_211244_90a102.nsx",
+    "sdf": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261117_211244_90a102\\Simulation\\Test_20261117_211244_90a102.sdf"
+  },
+  "stages": {
+    "library_lookup": "PASS",
+    "component_placement": "PASS",
+    "simulation_model": "PASS",
+    "connectivity": "PASS",
+    "netlist_generation": "PASS",
+    "simulation": "PASS",
+    "sdf_parsing": "PASS",
+    "validation": "PASS",
+    "schematic_cleanup": "PASS"
+  },
+  "component_readback": {
+    "design_item_id": "L0079",
+    "lib_reference": "Inductor",
+    "database_library_name": "MY_LIB.DbLib",
+    "database_table_name": "Индуктивности$",
+    "database_keys": "L0079",
+    "pin_count": 2,
+    "pins": {
+      "pin.1.designator": "1",
+      "pin.1.name": "1",
+      "pin.1.electrical": "4",
+      "pin.1.hidden": "False",
+      "pin.1.hotspot": "8200|4000",
+      "pin.2.designator": "2",
+      "pin.2.name": "2",
+      "pin.2.electrical": "4",
+      "pin.2.hidden": "False",
+      "pin.2.hotspot": "7800|4000"
+    },
+    "pin_map": {
+      "1": "DUT_P",
+      "2": "GND"
+    },
+    "fixtures": [
+      {
+        "type": "V",
+        "name": "V1",
+        "designator": "V1",
+        "x": "1500",
+        "y": "1500",
+        "value": "0.1",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      },
+      {
+        "type": "R",
+        "name": "R1",
+        "designator": "R1",
+        "x": "2900",
+        "y": "1500",
+        "value": "1",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      }
+    ],
+    "sim_model_found": "True",
+    "sim_model_name": "MY_LIB_INDUCTOR",
+    "sim_port_map": "(1:1),(2:2)",
+    "parameters": {
+      "Value": "0,33 мкГн",
+      "Kind": "General",
+      "SubKind": "Spice Subcircuit",
+      "Spice Prefix": "X",
+      "Excluded Parts": "",
+      "Netlist": "@DESIGNATOR %1 %2 @MODEL PARAMS: Lval=@IND_L RDCval=@IND_RDC CPval=@IND_CP RPval=@IND_RP",
+      "ID": "L0079",
+      "Type": "Катушка индуктивности",
+      "ESKD_value": "0,33 мкГн",
+      "Tolerance": "±30%",
+      "Package": "3030 (3,0?3,0?1,2 мм)",
+      "Manufacturer": "TDK",
+      "MPN": "VLS3012HBX-R33N-N",
+      "CommentBase": "Катушка индуктивности VLS3012HBX-R33N-N",
+      "Notes": "Серия VLS3012HBX-N, статус Production (заменяет NRND VLS3012HBX). Неполярный; выводы 1–2. Isat — спад индуктивности на 30 % от начального значения, Itemp — самонагрев на +40 °C; номинальный ток — меньшее из этих двух значений (паспорт, стр. 1). DCR приведён как максимальное и типовое значение (стр. 1). Рабочий диапазон ?40…+105 °C включает самонагрев; хранение ?40…+105 °C после монтажа. Маркировка — 3-символьный код индуктивности из построения артикула (отдельного столбца маркировки в паспорте нет). SPICE: линейная малосигнальная RLC-модель при 25 °C и DC bias 0 А; насыщение сердечника, самонагрев, зависимость L от смещения и температуры не моделируются.",
+      "Datasheet": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\TDK\\inductor_commercial_power_vls3012hbx-n_en.pdf",
+      "ComponentLink1Description": "Даташит — локальный",
+      "ComponentLink1URL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\TDK\\inductor_commercial_power_vls3012hbx-n_en.pdf",
+      "ComponentLink2Description": "Даташит — производитель",
+      "ComponentLink2URL": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012hbx-n_en.pdf",
+      "HelpURL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\TDK\\inductor_commercial_power_vls3012hbx-n_en.pdf",
+      "InductanceuH": "0.33",
+      "TestFrequencyMHz": "1",
+      "RatedCurrentA": "6.1",
+      "SaturationCurrentMaxA": "8.6",
+      "SaturationCurrentTypA": "9.56",
+      "TempRiseCurrentMaxA": "6.1",
+      "TempRiseCurrentTypA": "6.78",
+      "DCResistanceMaxOhm": "0.03",
+      "DCResistanceTypOhm": "0.023",
+      "SelfResonantFrequencyMHz": "166.993",
+      "Shielding": "Магнитоэкранированная",
+      "CoreMaterial": "Металлический магнитный",
+      "Marking": "R33",
+      "OperatingTemperatureMin": "-40",
+      "OperatingTemperatureMax": "105",
+      "TemperatureReference": "Включая самонагрев, °C",
+      "Family": "VLS3012HBX-N",
+      "Grade": "Коммерческий (питание)",
+      "Packaging": "Embossed Tape & Reel",
+      "PackagingQuantity": "2000",
+      "DatasheetRevision": "20210921",
+      "IND_L": "3.3E-7",
+      "IND_RDC": "0.023",
+      "IND_CP": "2.75251560482367E-12",
+      "IND_RP": "549.0275",
+      "Comment": "0,33 мкГн"
+    },
+    "implementations": [
+      "TDK_VLS3012HBX_3030|PCBLIB|current=1|database=0|files=0",
+      "MY_LIB_INDUCTOR|SIM|current=1|database=0|files=0"
+    ],
+    "implementation_maps": [
+      "(1:1),(2:2)",
+      "(1:1),(2:2)"
+    ]
+  },
+  "netlist": {
+    "exists": true,
+    "one_dut_instance": true,
+    "no_duplicate_dut": true,
+    "model_definition": true,
+    "model_name_in_instance": true,
+    "pin_order_matches": true,
+    "port_count_matches": true,
+    "unassigned_ports_not_connected": true,
+    "nodes": [
+      "DUT_P",
+      "0"
+    ],
+    "instance": [
+      "XL1",
+      "DUT_P",
+      "0",
+      "MY_LIB_INDUCTOR",
+      "PARAMS:",
+      "Lval=3.3E-7",
+      "RDCval=0.023"
+    ],
+    "all": true
+  },
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 1,
+    "completed": 1,
+    "missing": 0,
+    "passed": 1,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "20261117_211244_90a102:check:0",
+      "run_id": "20261117_211244_90a102",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": 0.0022482893450635386,
+      "unit": null,
+      "error": null,
+      "limits": {
+        "min": 0.002203323558162268,
+        "max": 0.0022932551319648094
+      },
+      "signal": "v(dut_p)"
+    }
+  ],
+  "validation_status": "ASSERTIONS",
+  "_process": {
+    "returncode": 0,
+    "elapsed_s": 23.4,
+    "stderr_tail": ""
+  }
+}

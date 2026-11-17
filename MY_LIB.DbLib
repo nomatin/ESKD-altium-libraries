@@ -1045,3 +1045,231 @@ Options=FieldName=Кварцевые резонаторы$.Sim Spice Prefix|TableNameOnly=Кварцевые
 Options=FieldName=Кварцевые резонаторы$.Sim Port Map|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap443]
 Options=FieldName=Кварцевые резонаторы$.Sim File|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table12]
+SchemaName=
+TableName=Модули$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap444]
+Options=FieldName=Модули$.ID|TableNameOnly=Модули$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap445]
+Options=FieldName=Модули$.Type|TableNameOnly=Модули$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap446]
+Options=FieldName=Модули$.Value|TableNameOnly=Модули$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap447]
+Options=FieldName=Модули$.ESKD_value|TableNameOnly=Модули$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap448]
+Options=FieldName=Модули$.Package|TableNameOnly=Модули$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap449]
+Options=FieldName=Модули$.Manufacturer|TableNameOnly=Модули$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap450]
+Options=FieldName=Модули$.MPN|TableNameOnly=Модули$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap451]
+Options=FieldName=Модули$.Series|TableNameOnly=Модули$|FieldNameOnly=Series|FieldType=1|ParameterName=Series|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap452]
+Options=FieldName=Модули$.CommentBase|TableNameOnly=Модули$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap453]
+Options=FieldName=Модули$.Library Ref|TableNameOnly=Модули$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap454]
+Options=FieldName=Модули$.Library Path|TableNameOnly=Модули$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap455]
+Options=FieldName=Модули$.Footprint Ref|TableNameOnly=Модули$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap456]
+Options=FieldName=Модули$.Footprint Path|TableNameOnly=Модули$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap457]
+Options=FieldName=Модули$.Comment|TableNameOnly=Модули$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap458]
+Options=FieldName=Модули$.Description|TableNameOnly=Модули$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap459]
+Options=FieldName=Модули$.VinMinV|TableNameOnly=Модули$|FieldNameOnly=VinMinV|FieldType=1|ParameterName=VinMinV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap460]
+Options=FieldName=Модули$.VinNomV|TableNameOnly=Модули$|FieldNameOnly=VinNomV|FieldType=1|ParameterName=VinNomV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap461]
+Options=FieldName=Модули$.VinMaxV|TableNameOnly=Модули$|FieldNameOnly=VinMaxV|FieldType=1|ParameterName=VinMaxV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap462]
+Options=FieldName=Модули$.VoutNomV|TableNameOnly=Модули$|FieldNameOnly=VoutNomV|FieldType=1|ParameterName=VoutNomV|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap463]
+Options=FieldName=Модули$.IoutMinMa|TableNameOnly=Модули$|FieldNameOnly=IoutMinMa|FieldType=1|ParameterName=IoutMinMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap464]
+Options=FieldName=Модули$.IoutMaxMa|TableNameOnly=Модули$|FieldNameOnly=IoutMaxMa|FieldType=1|ParameterName=IoutMaxMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap465]
+Options=FieldName=Модули$.OutputPowerW|TableNameOnly=Модули$|FieldNameOnly=OutputPowerW|FieldType=1|ParameterName=OutputPowerW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap466]
+Options=FieldName=Модули$.IsolationTestVdc|TableNameOnly=Модули$|FieldNameOnly=IsolationTestVdc|FieldType=1|ParameterName=IsolationTestVdc|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap467]
+Options=FieldName=Модули$.InputCurrentNoLoadTypMa|TableNameOnly=Модули$|FieldNameOnly=InputCurrentNoLoadTypMa|FieldType=1|ParameterName=InputCurrentNoLoadTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap468]
+Options=FieldName=Модули$.InputCurrentFullLoadTypMa|TableNameOnly=Модули$|FieldNameOnly=InputCurrentFullLoadTypMa|FieldType=1|ParameterName=InputCurrentFullLoadTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap469]
+Options=FieldName=Модули$.InputCurrentFullLoadMaxMa|TableNameOnly=Модули$|FieldNameOnly=InputCurrentFullLoadMaxMa|FieldType=1|ParameterName=InputCurrentFullLoadMaxMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap470]
+Options=FieldName=Модули$.ReflectedRippleCurrentTypMa|TableNameOnly=Модули$|FieldNameOnly=ReflectedRippleCurrentTypMa|FieldType=1|ParameterName=ReflectedRippleCurrentTypMa|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap471]
+Options=FieldName=Модули$.OutputRippleNoiseTypMvpp|TableNameOnly=Модули$|FieldNameOnly=OutputRippleNoiseTypMvpp|FieldType=1|ParameterName=OutputRippleNoiseTypMvpp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap472]
+Options=FieldName=Модули$.OutputRippleNoiseMaxMvpp|TableNameOnly=Модули$|FieldNameOnly=OutputRippleNoiseMaxMvpp|FieldType=1|ParameterName=OutputRippleNoiseMaxMvpp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap473]
+Options=FieldName=Модули$.SwitchingFrequencyTypKhz|TableNameOnly=Модули$|FieldNameOnly=SwitchingFrequencyTypKhz|FieldType=1|ParameterName=SwitchingFrequencyTypKhz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap474]
+Options=FieldName=Модули$.EfficiencyFullLoadTypPercent|TableNameOnly=Модули$|FieldNameOnly=EfficiencyFullLoadTypPercent|FieldType=1|ParameterName=EfficiencyFullLoadTypPercent|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap475]
+Options=FieldName=Модули$.OutputCapacitanceMaxUf|TableNameOnly=Модули$|FieldNameOnly=OutputCapacitanceMaxUf|FieldType=1|ParameterName=OutputCapacitanceMaxUf|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap476]
+Options=FieldName=Модули$.OperatingTemperatureMin|TableNameOnly=Модули$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap477]
+Options=FieldName=Модули$.OperatingTemperatureMax|TableNameOnly=Модули$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap478]
+Options=FieldName=Модули$.PinMapping|TableNameOnly=Модули$|FieldNameOnly=PinMapping|FieldType=1|ParameterName=PinMapping|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap479]
+Options=FieldName=Модули$.Notes|TableNameOnly=Модули$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap480]
+Options=FieldName=Модули$.Datasheet|TableNameOnly=Модули$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap481]
+Options=FieldName=Модули$.DatasheetRevision|TableNameOnly=Модули$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap482]
+Options=FieldName=Модули$.ComponentLink1Description|TableNameOnly=Модули$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap483]
+Options=FieldName=Модули$.ComponentLink1URL|TableNameOnly=Модули$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap484]
+Options=FieldName=Модули$.ComponentLink2Description|TableNameOnly=Модули$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap485]
+Options=FieldName=Модули$.ComponentLink2URL|TableNameOnly=Модули$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap486]
+Options=FieldName=Модули$.HelpURL|TableNameOnly=Модули$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap487]
+Options=FieldName=Модули$.Sim Model Name|TableNameOnly=Модули$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap488]
+Options=FieldName=Модули$.Sim Kind|TableNameOnly=Модули$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap489]
+Options=FieldName=Модули$.Sim SubKind|TableNameOnly=Модули$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap490]
+Options=FieldName=Модули$.Sim Description|TableNameOnly=Модули$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap491]
+Options=FieldName=Модули$.Sim Spice Prefix|TableNameOnly=Модули$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap492]
+Options=FieldName=Модули$.Sim Netlist|TableNameOnly=Модули$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap493]
+Options=FieldName=Модули$.Sim Port Map|TableNameOnly=Модули$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap494]
+Options=FieldName=Модули$.Sim File|TableNameOnly=Модули$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table13]
+SchemaName=
+TableName=Индуктивности$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap495]
+Options=FieldName=Индуктивности$.ID|TableNameOnly=Индуктивности$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap496]
+Options=FieldName=Индуктивности$.Type|TableNameOnly=Индуктивности$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap497]
+Options=FieldName=Индуктивности$.Value|TableNameOnly=Индуктивности$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap498]
+Options=FieldName=Индуктивности$.ESKD_value|TableNameOnly=Индуктивности$|FieldNameOnly=ESKD_value|FieldType=1|ParameterName=ESKD_value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap499]
+Options=FieldName=Индуктивности$.Tolerance|TableNameOnly=Индуктивности$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap500]
+Options=FieldName=Индуктивности$.Power|TableNameOnly=Индуктивности$|FieldNameOnly=Power|FieldType=1|ParameterName=Power|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap501]
+Options=FieldName=Индуктивности$.Voltage|TableNameOnly=Индуктивности$|FieldNameOnly=Voltage|FieldType=1|ParameterName=Voltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap502]
+Options=FieldName=Индуктивности$.Package|TableNameOnly=Индуктивности$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap503]
+Options=FieldName=Индуктивности$.Manufacturer|TableNameOnly=Индуктивности$|FieldNameOnly=Manufacturer|FieldType=1|ParameterName=Manufacturer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap504]
+Options=FieldName=Индуктивности$.MPN|TableNameOnly=Индуктивности$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap505]
+Options=FieldName=Индуктивности$.CommentBase|TableNameOnly=Индуктивности$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap506]
+Options=FieldName=Индуктивности$.Library Ref|TableNameOnly=Индуктивности$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap507]
+Options=FieldName=Индуктивности$.Library Path|TableNameOnly=Индуктивности$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap508]
+Options=FieldName=Индуктивности$.Footprint Ref|TableNameOnly=Индуктивности$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap509]
+Options=FieldName=Индуктивности$.Footprint Path|TableNameOnly=Индуктивности$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap510]
+Options=FieldName=Индуктивности$.Notes|TableNameOnly=Индуктивности$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap511]
+Options=FieldName=Индуктивности$.Comment|TableNameOnly=Индуктивности$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap512]
+Options=FieldName=Индуктивности$.Description|TableNameOnly=Индуктивности$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap513]
+Options=FieldName=Индуктивности$.Datasheet|TableNameOnly=Индуктивности$|FieldNameOnly=Datasheet|FieldType=1|ParameterName=Datasheet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap514]
+Options=FieldName=Индуктивности$.ComponentLink1Description|TableNameOnly=Индуктивности$|FieldNameOnly=ComponentLink1Description|FieldType=1|ParameterName=ComponentLink1Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap515]
+Options=FieldName=Индуктивности$.ComponentLink1URL|TableNameOnly=Индуктивности$|FieldNameOnly=ComponentLink1URL|FieldType=1|ParameterName=ComponentLink1URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap516]
+Options=FieldName=Индуктивности$.ComponentLink2Description|TableNameOnly=Индуктивности$|FieldNameOnly=ComponentLink2Description|FieldType=1|ParameterName=ComponentLink2Description|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap517]
+Options=FieldName=Индуктивности$.ComponentLink2URL|TableNameOnly=Индуктивности$|FieldNameOnly=ComponentLink2URL|FieldType=1|ParameterName=ComponentLink2URL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap518]
+Options=FieldName=Индуктивности$.HelpURL|TableNameOnly=Индуктивности$|FieldNameOnly=HelpURL|FieldType=1|ParameterName=HelpURL|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap519]
+Options=FieldName=Индуктивности$.InductanceuH|TableNameOnly=Индуктивности$|FieldNameOnly=InductanceuH|FieldType=1|ParameterName=InductanceuH|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap520]
+Options=FieldName=Индуктивности$.TestFrequencyMHz|TableNameOnly=Индуктивности$|FieldNameOnly=TestFrequencyMHz|FieldType=1|ParameterName=TestFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap521]
+Options=FieldName=Индуктивности$.RatedCurrentA|TableNameOnly=Индуктивности$|FieldNameOnly=RatedCurrentA|FieldType=1|ParameterName=RatedCurrentA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap522]
+Options=FieldName=Индуктивности$.SaturationCurrentMaxA|TableNameOnly=Индуктивности$|FieldNameOnly=SaturationCurrentMaxA|FieldType=1|ParameterName=SaturationCurrentMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap523]
+Options=FieldName=Индуктивности$.SaturationCurrentTypA|TableNameOnly=Индуктивности$|FieldNameOnly=SaturationCurrentTypA|FieldType=1|ParameterName=SaturationCurrentTypA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap524]
+Options=FieldName=Индуктивности$.TempRiseCurrentMaxA|TableNameOnly=Индуктивности$|FieldNameOnly=TempRiseCurrentMaxA|FieldType=1|ParameterName=TempRiseCurrentMaxA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap525]
+Options=FieldName=Индуктивности$.TempRiseCurrentTypA|TableNameOnly=Индуктивности$|FieldNameOnly=TempRiseCurrentTypA|FieldType=1|ParameterName=TempRiseCurrentTypA|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap526]
+Options=FieldName=Индуктивности$.DCResistanceMaxOhm|TableNameOnly=Индуктивности$|FieldNameOnly=DCResistanceMaxOhm|FieldType=1|ParameterName=DCResistanceMaxOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap527]
+Options=FieldName=Индуктивности$.DCResistanceTypOhm|TableNameOnly=Индуктивности$|FieldNameOnly=DCResistanceTypOhm|FieldType=1|ParameterName=DCResistanceTypOhm|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap528]
+Options=FieldName=Индуктивности$.SelfResonantFrequencyMHz|TableNameOnly=Индуктивности$|FieldNameOnly=SelfResonantFrequencyMHz|FieldType=1|ParameterName=SelfResonantFrequencyMHz|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap529]
+Options=FieldName=Индуктивности$.Shielding|TableNameOnly=Индуктивности$|FieldNameOnly=Shielding|FieldType=1|ParameterName=Shielding|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap530]
+Options=FieldName=Индуктивности$.CoreMaterial|TableNameOnly=Индуктивности$|FieldNameOnly=CoreMaterial|FieldType=1|ParameterName=CoreMaterial|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap531]
+Options=FieldName=Индуктивности$.Marking|TableNameOnly=Индуктивности$|FieldNameOnly=Marking|FieldType=1|ParameterName=Marking|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap532]
+Options=FieldName=Индуктивности$.OperatingTemperatureMin|TableNameOnly=Индуктивности$|FieldNameOnly=OperatingTemperatureMin|FieldType=1|ParameterName=OperatingTemperatureMin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap533]
+Options=FieldName=Индуктивности$.OperatingTemperatureMax|TableNameOnly=Индуктивности$|FieldNameOnly=OperatingTemperatureMax|FieldType=1|ParameterName=OperatingTemperatureMax|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap534]
+Options=FieldName=Индуктивности$.TemperatureReference|TableNameOnly=Индуктивности$|FieldNameOnly=TemperatureReference|FieldType=1|ParameterName=TemperatureReference|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap535]
+Options=FieldName=Индуктивности$.Family|TableNameOnly=Индуктивности$|FieldNameOnly=Family|FieldType=1|ParameterName=Family|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap536]
+Options=FieldName=Индуктивности$.Grade|TableNameOnly=Индуктивности$|FieldNameOnly=Grade|FieldType=1|ParameterName=Grade|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap537]
+Options=FieldName=Индуктивности$.Packaging|TableNameOnly=Индуктивности$|FieldNameOnly=Packaging|FieldType=1|ParameterName=Packaging|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap538]
+Options=FieldName=Индуктивности$.PackagingQuantity|TableNameOnly=Индуктивности$|FieldNameOnly=PackagingQuantity|FieldType=1|ParameterName=PackagingQuantity|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap539]
+Options=FieldName=Индуктивности$.DatasheetRevision|TableNameOnly=Индуктивности$|FieldNameOnly=DatasheetRevision|FieldType=1|ParameterName=DatasheetRevision|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap540]
+Options=FieldName=Индуктивности$.Sim Model Name|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Model Name|FieldType=1|ParameterName=[Sim Model Name]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap541]
+Options=FieldName=Индуктивности$.Sim Description|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Description|FieldType=1|ParameterName=[Sim Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap542]
+Options=FieldName=Индуктивности$.Sim Kind|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Kind|FieldType=1|ParameterName=[Sim Kind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap543]
+Options=FieldName=Индуктивности$.Sim SubKind|TableNameOnly=Индуктивности$|FieldNameOnly=Sim SubKind|FieldType=1|ParameterName=[Sim SubKind]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap544]
+Options=FieldName=Индуктивности$.Sim Netlist|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Netlist|FieldType=1|ParameterName=[Sim Netlist]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap545]
+Options=FieldName=Индуктивности$.Sim Spice Prefix|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Spice Prefix|FieldType=1|ParameterName=[Sim Spice Prefix]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap546]
+Options=FieldName=Индуктивности$.Sim Port Map|TableNameOnly=Индуктивности$|FieldNameOnly=Sim Port Map|FieldType=1|ParameterName=[Sim Port Map]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap547]
+Options=FieldName=Индуктивности$.Sim File|TableNameOnly=Индуктивности$|FieldNameOnly=Sim File|FieldType=1|ParameterName=[Sim File]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap548]
+Options=FieldName=Индуктивности$.IND_L|TableNameOnly=Индуктивности$|FieldNameOnly=IND_L|FieldType=1|ParameterName=IND_L|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap549]
+Options=FieldName=Индуктивности$.IND_RDC|TableNameOnly=Индуктивности$|FieldNameOnly=IND_RDC|FieldType=1|ParameterName=IND_RDC|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap550]
+Options=FieldName=Индуктивности$.IND_CP|TableNameOnly=Индуктивности$|FieldNameOnly=IND_CP|FieldType=1|ParameterName=IND_CP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap551]
+Options=FieldName=Индуктивности$.IND_RP|TableNameOnly=Индуктивности$|FieldNameOnly=IND_RP|FieldType=1|ParameterName=IND_RP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
