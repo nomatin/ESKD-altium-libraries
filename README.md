@@ -13,14 +13,14 @@ Both catalogs use the same catalog IDs and manufacturer part numbers (MPNs). Eac
 
 ## Library contents
 
-As of November 16, 2026, each catalog contains **1,880 components**, of which **1,515 have a SPICE model linked**. The table counts each component once.
+As of November 17, 2026, each catalog contains **1,917 components**, of which **1,515 have a SPICE model linked**. The table counts each component once.
 
 | Category | Components | SPICE coverage | Representative parts and series |
 |---|---:|---:|---|
 | Resistors | 582 | 582 / 582 (100%) | YAGEO RC |
 | Capacitors | 578 | 578 / 578 (100%) | YAGEO CC X7R, C0G (NP0) |
 | Diodes | 235 | 235 / 235 (100%) | Vishay, Nexperia, Diotec, Yangjie |
-| Connectors | 358 | 0 / 358 (0%) | GCT, CONNFLY, JST PH/XH |
+| Connectors | 395 | 0 / 395 (0%) | GCT, CONNFLY, JST PH/XH, AMASS XT30/XT60/XT90 and MR30/MR60 (37 parts with STEP models) |
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
 | LEDs | 10 | 10 / 10 (100%) | Oasistek |
 | ICs | 9 | 6 / 9 (67%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6 |
@@ -28,7 +28,7 @@ As of November 16, 2026, each catalog contains **1,880 components**, of which **
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
-| **Total** | **1,880** | **1,515 / 1,880 (80.6%)** | |
+| **Total** | **1,917** | **1,515 / 1,917 (79.0%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 
