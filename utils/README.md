@@ -1,11 +1,11 @@
-# Настройка окна выбора компонентов
+# Component Browser Setup
 
-1. Закройте Altium Designer.
-2. Запустите двойным щелчком `configure_component_browser.cmd`.
-3. После сообщения об успехе откройте Altium.
+1. Close Altium Designer.
+2. Double-click `configure_component_browser.cmd`.
+3. Once setup completes successfully, open Altium.
 
-Скрипт настраивает видимые столбцы для обеих библиотек — ЕСКД и IEC. Python и права администратора не нужны.
+The utility configures the visible columns for both the ESKD and IEC libraries. Python and administrator privileges are not required.
 
-**Бекап создаётся автоматически перед каждым изменением** в `Backup/ComponentBrowser/`. Если сохранить бекап не удалось, настройки не меняются. При ошибке применения выполняется откат.
+**Settings are backed up automatically before every change** to `Backup/ComponentBrowser/`. If the backup cannot be saved, no settings are changed. If applying the settings fails, the previous settings are restored automatically.
 
-**Восстановление:** закройте Altium и запустите `restore_component_browser.cmd`. Он восстановит последнюю копию перед применением. Чтобы выбрать другую копию, перетащите нужный `settings.json` на этот CMD-файл. Перед восстановлением также сохраняется бекап текущих настроек.
+**Restore:** close Altium and run `restore_component_browser.cmd` to restore the latest backup created before applying settings. To select another backup, drag its `settings.json` onto this CMD file. The current settings are also backed up before restoration.
