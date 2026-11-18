@@ -49,6 +49,10 @@ Both workbooks contain component parameters. Local datasheets are in `Datasheets
 
 Keep the directory structure intact. Symbol, footprint, and SPICE model paths are relative to the DbLib file. If you move the library, update absolute paths to local datasheets. See the [setup guide](ALTIUM_SETUP.md) for details.
 
+## Component display
+
+For a convenient component selection view, use the setup utility in [utils](utils/): close Altium Designer and run `configure_component_browser.cmd`. Python is not required, and the utility automatically backs up your settings before making changes.
+
 ## Updating
 
 Close Excel and any library files open in Altium before updating. Run this command from the repository directory.

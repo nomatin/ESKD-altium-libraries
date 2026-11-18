@@ -1247,3 +1247,24 @@ Options=FieldName=IEC Inductors$.IND_RDC|TableNameOnly=IEC Inductors$|FieldNameO
 Options=FieldName=IEC Inductors$.IND_CP|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_CP|FieldType=1|ParameterName=IND_CP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap538]
 Options=FieldName=IEC Inductors$.IND_RP|TableNameOnly=IEC Inductors$|FieldNameOnly=IND_RP|FieldType=1|ParameterName=IND_RP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap539]
+Options=FieldName=IEC ICs$.ShortDescription|TableNameOnly=IEC ICs$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap540]
+Options=FieldName=IEC Connectors$.ContactCount|TableNameOnly=IEC Connectors$|FieldNameOnly=ContactCount|FieldType=1|ParameterName=ContactCount|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap541]
+Options=FieldName=IEC Transistors$.TransistorType|TableNameOnly=IEC Transistors$|FieldNameOnly=TransistorType|FieldType=1|ParameterName=TransistorType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap542]
+Options=FieldName=IEC Transistors$.RatedVoltage|TableNameOnly=IEC Transistors$|FieldNameOnly=RatedVoltage|FieldType=1|ParameterName=RatedVoltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap543]
+Options=FieldName=IEC Transistors$.RatedCurrent|TableNameOnly=IEC Transistors$|FieldNameOnly=RatedCurrent|FieldType=1|ParameterName=RatedCurrent|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap544]
+Options=FieldName=IEC Crystals$.OperatingTemperature|TableNameOnly=IEC Crystals$|FieldNameOnly=OperatingTemperature|FieldType=1|ParameterName=OperatingTemperature|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap545]
+Options=FieldName=IEC Modules$.ShortDescription|TableNameOnly=IEC Modules$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

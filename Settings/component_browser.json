@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "stem": "MY_LIB",
+      "sheet": "Резисторы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Конденсаторы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "Dielectric",
+          "width": 120
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Микросхемы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "ShortDescription",
+          "width": 310
+        },
+        {
+          "name": "Description",
+          "width": 460
+        },
+        {
+          "name": "Package",
+          "width": 210
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Разъёмы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "ContactCount",
+          "width": 115
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Переключатели",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "ContactForm",
+          "width": 120
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "CurrentRating",
+          "width": 130
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Светодиоды",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Color",
+          "width": 150
+        },
+        {
+          "name": "ForwardVoltageTypicalV",
+          "width": 160
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Тестовые точки",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "DiameterMm",
+          "width": 110
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Ферриты",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Диоды",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Type",
+          "width": 130
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Транзисторы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "TransistorType",
+          "width": 170
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "RatedVoltage",
+          "width": 140
+        },
+        {
+          "name": "RatedCurrent",
+          "width": 140
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Кварцевые резонаторы",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "TolerancePpmAt25C",
+          "width": 155
+        },
+        {
+          "name": "OperatingTemperature",
+          "width": 165
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Модули",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "ShortDescription",
+          "width": 310
+        },
+        {
+          "name": "Description",
+          "width": 460
+        },
+        {
+          "name": "Package",
+          "width": 210
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB",
+      "sheet": "Индуктивности",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Resistors",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Capacitors",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "Dielectric",
+          "width": 120
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC ICs",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "ShortDescription",
+          "width": 310
+        },
+        {
+          "name": "Description",
+          "width": 460
+        },
+        {
+          "name": "Package",
+          "width": 210
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Connectors",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "ContactCount",
+          "width": 115
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Switches",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "ContactForm",
+          "width": 120
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "CurrentRating",
+          "width": 130
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC LEDs",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Color",
+          "width": 150
+        },
+        {
+          "name": "ForwardVoltageTypicalV",
+          "width": 160
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Test Points",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "DiameterMm",
+          "width": 110
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Ferrite Beads",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Diodes",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Type",
+          "width": 130
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "Voltage",
+          "width": 150
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Transistors",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "TransistorType",
+          "width": 170
+        },
+        {
+          "name": "MPN",
+          "width": 200
+        },
+        {
+          "name": "RatedVoltage",
+          "width": 140
+        },
+        {
+          "name": "RatedCurrent",
+          "width": 140
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Crystals",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "TolerancePpmAt25C",
+          "width": 155
+        },
+        {
+          "name": "OperatingTemperature",
+          "width": 165
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Modules",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "ShortDescription",
+          "width": 310
+        },
+        {
+          "name": "Description",
+          "width": 460
+        },
+        {
+          "name": "Package",
+          "width": 210
+        }
+      ]
+    },
+    {
+      "stem": "MY_LIB_IEC",
+      "sheet": "IEC Inductors",
+      "columns": [
+        {
+          "name": "ID",
+          "width": 75
+        },
+        {
+          "name": "Comment",
+          "width": 130
+        },
+        {
+          "name": "Tolerance",
+          "width": 95
+        },
+        {
+          "name": "RatedCurrentA",
+          "width": 125
+        },
+        {
+          "name": "Package",
+          "width": 210
+        },
+        {
+          "name": "Description",
+          "width": 460
+        }
+      ]
+    }
+  ]
+}

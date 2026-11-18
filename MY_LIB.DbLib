@@ -1273,3 +1273,24 @@ Options=FieldName=Индуктивности$.IND_RDC|TableNameOnly=Индуктивности$|FieldNameO
 Options=FieldName=Индуктивности$.IND_CP|TableNameOnly=Индуктивности$|FieldNameOnly=IND_CP|FieldType=1|ParameterName=IND_CP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap551]
 Options=FieldName=Индуктивности$.IND_RP|TableNameOnly=Индуктивности$|FieldNameOnly=IND_RP|FieldType=1|ParameterName=IND_RP|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap552]
+Options=FieldName=Микросхемы$.ShortDescription|TableNameOnly=Микросхемы$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap553]
+Options=FieldName=Разъёмы$.ContactCount|TableNameOnly=Разъёмы$|FieldNameOnly=ContactCount|FieldType=1|ParameterName=ContactCount|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap554]
+Options=FieldName=Транзисторы$.TransistorType|TableNameOnly=Транзисторы$|FieldNameOnly=TransistorType|FieldType=1|ParameterName=TransistorType|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap555]
+Options=FieldName=Транзисторы$.RatedVoltage|TableNameOnly=Транзисторы$|FieldNameOnly=RatedVoltage|FieldType=1|ParameterName=RatedVoltage|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap556]
+Options=FieldName=Транзисторы$.RatedCurrent|TableNameOnly=Транзисторы$|FieldNameOnly=RatedCurrent|FieldType=1|ParameterName=RatedCurrent|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap557]
+Options=FieldName=Кварцевые резонаторы$.OperatingTemperature|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=OperatingTemperature|FieldType=1|ParameterName=OperatingTemperature|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+
+[FieldMap558]
+Options=FieldName=Модули$.ShortDescription|TableNameOnly=Модули$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
