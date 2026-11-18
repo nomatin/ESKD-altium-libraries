@@ -13,7 +13,7 @@ Both catalogs use the same catalog IDs and manufacturer part numbers (MPNs). Eac
 
 ## Library contents
 
-As of November 17, 2026, each catalog contains **1,917 components**, of which **1,515 have a SPICE model linked**. The table counts each component once.
+As of November 18, 2026, each catalog contains **1,970 components**, of which **1,568 have a SPICE model linked**. The table counts each component once.
 
 | Category | Components | SPICE coverage | Representative parts and series |
 |---|---:|---:|---|
@@ -23,14 +23,14 @@ As of November 17, 2026, each catalog contains **1,917 components**, of which **
 | Connectors | 395 | 0 / 395 (0%) | GCT, CONNFLY, JST PH/XH, AMASS XT30/XT60/XT90 and MR30/MR60 (37 parts with STEP models) |
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
 | LEDs | 10 | 10 / 10 (100%) | Oasistek |
-| ICs | 9 | 6 / 9 (67%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6 |
+| ICs | 41 | 38 / 41 (93%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6, LDK220, LDK320 |
 | Transistors | 9 | 9 / 9 (100%) | Infineon 2N7002, BSS138N, BSS84P, BSS215P, BSS308PE, IRLML6244, IRLML0030, IRLML6344, IRLML0060 |
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Test points | 3 | 0 / 3 (0%) | Pads with diameters of 1, 1.5, and 2 mm |
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
 | Modules | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
 | Inductors | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
-| **Total** | **1,938** | **1,536 / 1,938 (79.3%)** | |
+| **Total** | **1,970** | **1,568 / 1,970 (79.6%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 
@@ -65,11 +65,11 @@ Reopen the installed DbLib files after updating. Both catalogs are available on 
 
 ## SPICE
 
-Both databases use the same models for all cataloged resistors, capacitors, diodes, LEDs, ferrite beads, and crystals, as well as the 2N7002 transistor and six ICs. The [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) uses a simplified behavioral AND gate model at 25 °C. The ISOW1432DFMR uses a simplified functional model of its DC/DC converter, RS-485 interface, and GPIO.
+Both databases use the same models for all cataloged resistors, capacitors, diodes, LEDs, ferrite beads, and crystals, as well as the 2N7002 transistor and 38 ICs. Independent datasheet behavioral models cover all 32 LDK220/LDK320 regulator positions in five subcircuits ([regulator models](Simulation/Regulators/README.md)). The [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) uses a simplified behavioral AND gate model at 25 °C. The ISOW1432DFMR uses a simplified functional model of its DC/DC converter, RS-485 interface, and GPIO.
 
 Test results are documented for each group. Some models have standalone MixedSim results. The TDK AT000 and Murata ferrite bead models were also compared with official manufacturer models in ngspice. These tests cover simulation. Placement through the DbLib interface is outside their scope.
 
-Model documentation and results are available for [resistors](Simulation/Resistors/README.md), [capacitors](Simulation/Capacitors/README.md), [diodes](Simulation/Diodes/README.md), [LEDs](Simulation/LEDs/README.md), [crystals](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), and [TDK](Simulation/Ferrites/TDK/README.md) and [Murata](Simulation/Ferrites/Murata/README.md) ferrite beads. See also the [simulation assumptions](SIMULATION_ASSUMPTIONS.md). Tests and reports are stored alongside the models in `Tests/` (`tests/` for the ISOW1432DFMR) and `Results/`.
+Model documentation and results are available for [resistors](Simulation/Resistors/README.md), [capacitors](Simulation/Capacitors/README.md), [diodes](Simulation/Diodes/README.md), [LEDs](Simulation/LEDs/README.md), [crystals](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), and [TDK](Simulation/Ferrites/TDK/README.md) and [Murata](Simulation/Ferrites/Murata/README.md) ferrite beads, and [LDK220/LDK320](Simulation/Regulators/README.md) regulators. See also the [simulation assumptions](SIMULATION_ASSUMPTIONS.md). Tests and reports are stored alongside the models in `Tests/` (`tests/` for the ISOW1432DFMR) and `Results/`.
 
 ## License
 

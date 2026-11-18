@@ -13,7 +13,7 @@
 
 ## Состав
 
-На 17 ноября 2026 года в каждом каталоге **1917 компонентов**, из них **1515 с привязкой к SPICE-модели**. В таблице каждый компонент учтён один раз.
+На 18 ноября 2026 года в каждом каталоге **1970 компонентов**, из них **1568 с привязкой к SPICE-модели**. В таблице каждый компонент учтён один раз.
 
 | Категория | Позиций | Покрытие SPICE | Примеры компонентов и серий |
 |---|---:|---:|---|
@@ -23,14 +23,14 @@
 | Разъёмы | 395 | 0 / 395 (0%) | GCT, CONNFLY, JST PH/XH, AMASS XT30/XT60/XT90 и MR30/MR60 (37 позиций со STEP-моделями) |
 | Ферриты | 78 | 78 / 78 (100%) | TDK, Murata |
 | Светодиоды | 10 | 10 / 10 (100%) | Oasistek |
-| Микросхемы | 9 | 6 / 9 (67%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6 |
+| Микросхемы | 41 | 38 / 41 (93%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6, LDK220, LDK320 |
 | Транзисторы | 9 | 9 / 9 (100%) | Infineon 2N7002, BSS138N, BSS84P, BSS215P, BSS308PE, IRLML6244, IRLML0030, IRLML6344, IRLML0060 |
 | Переключатели | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
 | Тестовые точки | 3 | 0 / 3 (0%) | Площадки Ø1 / 1,5 / 2 мм |
 | Кварцевые резонаторы | 25 | 25 / 25 (100%) | YXC YSX321SL |
 | Модули | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
 | Индуктивности | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
-| **Итого** | **1 938** | **1 536 / 1 938 (79,3%)** | |
+| **Итого** | **1 970** | **1 568 / 1 970 (79,6%)** | |
 
 Параметры конкретных компонентов приведены в обеих книгах. Локальные даташиты находятся в `Datasheets/`.
 
@@ -65,11 +65,11 @@ git pull --ff-only
 
 ## SPICE
 
-Обе базы используют одни и те же модели для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов, ферритов и кварцевых резонаторов, а также для транзистора 2N7002 и шести микросхем. Для [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) используется упрощённая поведенческая модель элемента И при 25 °C. ISOW1432DFMR использует упрощённую функциональную модель DC/DC, RS-485 и GPIO.
+Обе базы используют одни и те же модели для всех зарегистрированных резисторов, конденсаторов, диодов, светодиодов, ферритов и кварцевых резонаторов, а также для транзистора 2N7002 и 38 микросхем. Для всех 32 позиций LDK220/LDK320 используются собственные поведенческие модели по даташиту ([модели стабилизаторов](Simulation/Regulators/README.md)). Для [74HC1G08GW](Simulation/Logic/MY_LIB_74HC1G08_DS.ckt) используется упрощённая поведенческая модель элемента И при 25 °C. ISOW1432DFMR использует упрощённую функциональную модель DC/DC, RS-485 и GPIO.
 
 Результаты испытаний приведены отдельно для каждой группы. Для части моделей сохранены результаты standalone MixedSim. Ферриты TDK AT000 и Murata также сравнивались с официальными моделями в ngspice. Эти расчёты не проверяют размещение компонентов через UI DbLib.
 
-Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [кварцевые резонаторы](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` (`tests/` у ISOW1432DFMR) и `Results/` рядом с моделями.
+Подробности и результаты: [резисторы](Simulation/Resistors/README.md), [конденсаторы](Simulation/Capacitors/README.md), [диоды](Simulation/Diodes/README.md), [светодиоды](Simulation/LEDs/README.md), [кварцевые резонаторы](Simulation/Crystals/README.md), [ISOW1432DFMR](Simulation/ISOW1432DFMR/README.md), [USBLC6-2SC6](Simulation/USBLC6-2SC6/README.md), [CDSOT23-SM712](Simulation/CDSOT23-SM712/README.md), ферриты [TDK](Simulation/Ferrites/TDK/README.md) и [Murata](Simulation/Ferrites/Murata/README.md), [стабилизаторы LDK220/LDK320](Simulation/Regulators/README.md), а также [допущения симуляции](SIMULATION_ASSUMPTIONS.md). Тесты и отчёты находятся в папках `Tests/` (`tests/` у ISOW1432DFMR) и `Results/` рядом с моделями.
 
 ## Лицензия
 

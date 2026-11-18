@@ -1,0 +1,247 @@
+* STMicroelectronics LDK220 / LDK320 200 mA low-dropout regulators.
+* Independent behavioral model, typical values at TJ = 25 deg C.
+*
+* Sources:
+*   LDK220 - ST DS10219 Rev 7 (November 2021), Tables 6 and 7,
+*            Figures 14 (VEN threshold) and 23 (start-up time).
+*   LDK320 - ST DS11321 Rev 13 (June 2025), Tables 6 and 7,
+*            Figures 13 (VEN threshold) and 22 (SOA current limit).
+*
+* The vendor supplied no public SPICE netlist for these parts; this file was
+* written from the datasheet only.
+*
+* Dialect: only E and G sources with VALUE= expressions built from MIN, MAX
+* and arithmetic. No ternary operator and no ternary_fcn, so the same file is
+* accepted by KiCad 9 ngspice and by Altium MixedSim (Spice Sifter).
+*
+* Ports are listed in physical package pin order. The SchLib pin to .SUBCKT
+* port index maps are documented in README.md and are not the same thing as
+* the physical pin numbers (SOT23-5L pin 4 is NC and is not a model port).
+*
+* Every model needs an external CIN and COUT as required by the datasheet.
+*
+* Shared modelling assumptions, all of them model constructs and not measured
+* data:
+*   - EN logic threshold uses a 20 mV linear transition between 0 and 1.
+*   - Input UVLO uses a 0.2 V linear ramp from 2.0 V to 2.2 V, so the part is
+*     fully enabled at the specified 2.5 V minimum operating input.
+*   - Start-up is a single-pole ramp with tau = 87 us, giving t90 = 200 us
+*     (Figure 23). The state is reset with tau = 1 us when the part is off.
+*     A 1 Gohm resistor on that node only provides a DC path in every analysis
+*     type; it moves the settled value by less than 0.1 uV of output.
+*   - Dropout is a 1.0 ohm equivalent pass resistance: 100 mV at 100 mA and
+*     200 mV at 200 mA.
+*   - Load regulation is an equivalent series regulation resistance. The
+*     quoted 0.001 %/mA becomes 0.01*VNOM ohm, 0.0002 %/mA at the ADJ pin
+*     becomes 0.0024 ohm of transimpedance.
+*   - The load dependent part of IQ is sensed on a 1 mohm input resistor and
+*     re-injected as a ground current; this adds 1 mohm to the input path.
+*   - The pass source is allowed a 1 uA negative floor. Without it an
+*     unloaded output has no defined operating point (the pass current would
+*     be clamped flat at zero) and the operating point may not converge.
+*     The floor is a numerical construct, not reverse-current capability.
+*   - A 100 kohm internal load gives the output node a defined DC operating
+*     point at no load; the ideal pass current source alone leaves it
+*     under-determined and the solver may not converge. GIqComp cancels that
+*     load current at the IN terminal, so the terminal quiescent current
+*     still matches the datasheet. Both are numerical constructs.
+*   - No temperature dependence, thermal shutdown, self-heating, PSRR, noise,
+*     tolerance spread, reverse current or loop stability is modelled.
+*     See README.md for the full NOT_MODELED list.
+*
+* ---------------------------------------------------------------------------
+* LDK220 fixed output, SOT23-5L. Physical pins 1=IN 2=GND 3=EN 5=OUT,
+* pin 4 is NC. Port order 1=IN 2=GND 3=EN 4=OUT.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK220_FIXED_DS IN GND EN OUT PARAMS: VNOM=3.3
+* Enable: EN threshold centred on 0.67 V, 20 mV transition, AND input UVLO.
+EEnable Enabled GND VALUE={MIN(MAX((V(EN,GND)-0.66)/0.02,0),1)
++ *MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+* Soft start, tau = 87 us (t90 = 200 us); reset tau = 1 us when disabled.
+* With CSoft = 1 uF the numeric divisor is the time constant in microseconds.
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+* 1 mohm input sense used only for the load dependent part of IQ.
+RSns IN IN_S 1m
+* Pass current: regulation slope, dropout headroom, 400 mA current limit.
+* 0.01*VNOM ohm is 0.001 %/mA of load regulation (0.033 ohm at 3.3 V).
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VNOM*V(Soft,GND)-V(OUT,GND))/(0.01*VNOM),
++ V(IN,OUT)/1.0),0.400))}
+* Active output discharge, 18 ohm typical, active only when disabled.
+GDischarge OUT GND VALUE={(1-V(Enabled,GND))*V(OUT,GND)/18}
+* Quiescent current: 55 uA at no load, 60 uA at 200 mA, 0.1 uA in off mode.
+* The MIN/MAX factor keeps the sink off on an unpowered VIN node.
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.1u+(55u-0.1u)*V(Enabled,GND))}
+* 2.5e-5 * Iload adds 5 uA between 0 mA and 200 mA of output current.
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.025}
+* 100 kohm numerical load gives the output node a defined DC operating point
+* at no load; GIqComp cancels its current at the IN terminal, so the specified
+* quiescent current is not affected by it.
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+* EN input leakage, 0.1 nA typical at VEN = 5 V.
+REn EN GND 50G
+.ENDS MY_LIB_LDK220_FIXED_DS
+*
+* ---------------------------------------------------------------------------
+* LDK220 adjustable output, SOT23-5L. Physical pins 1=IN 2=GND 3=EN 4=ADJ
+* 5=OUT. Port order 1=IN 2=GND 3=EN 4=ADJ 5=OUT.
+* VOUT = VREF * (1 + R1/R2) with R1 from OUT to ADJ and R2 from ADJ to GND.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK220_ADJ_DS IN GND EN ADJ OUT PARAMS: VREF=1.185
+EEnable Enabled GND VALUE={MIN(MAX((V(EN,GND)-0.66)/0.02,0),1)
++ *MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+* Error amplifier as a transconductance of 1/0.0024 S. At 200 mA the ADJ pin
+* sits 0.48 mV below VREF, which is the specified 0.0002 %/mA.
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VREF*V(Soft,GND)-V(ADJ,GND))/0.0024,
++ V(IN,OUT)/1.0),0.400))}
+GDischarge OUT GND VALUE={(1-V(Enabled,GND))*V(OUT,GND)/18}
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.1u+(55u-0.1u)*V(Enabled,GND))}
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.025}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+* ADJ input bias current, 10 nA typical (datasheet maximum is 1 uA).
+RAdj ADJ GND 120MEG
+REn EN GND 50G
+.ENDS MY_LIB_LDK220_ADJ_DS
+*
+* ---------------------------------------------------------------------------
+* LDK220 fixed output, SOT-89. Physical pins 1=OUT 2=GND/TAB 3=IN.
+* Port order 1=OUT 2=GND 3=IN. No EN pin, enabled whenever VIN is valid.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK220_SOT89_DS OUT GND IN PARAMS: VNOM=3.3
+EEnable Enabled GND VALUE={MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VNOM*V(Soft,GND)-V(OUT,GND))/(0.01*VNOM),
++ V(IN,OUT)/1.0),0.400))}
+GDischarge OUT GND VALUE={(1-V(Enabled,GND))*V(OUT,GND)/18}
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.1u+(55u-0.1u)*V(Enabled,GND))}
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.025}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+.ENDS MY_LIB_LDK220_SOT89_DS
+*
+* ---------------------------------------------------------------------------
+* LDK320 fixed output, SOT23-5L. Physical pins 1=IN 2=GND 3=EN 5=OUT,
+* pin 4 is NC. Port order 1=IN 2=GND 3=EN 4=OUT.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK320_FIXED_DS IN GND EN OUT PARAMS: VNOM=3.3
+* Enable: EN threshold centred on 0.68 V, 20 mV transition, AND input UVLO.
+EEnable Enabled GND VALUE={MIN(MAX((V(EN,GND)-0.67)/0.02,0),1)
++ *MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+* Pass current. Load regulation is 0.001 %/mA (0.01*VNOM ohm) above 2 V
+* output and a flat 10 mV over 1..200 mA (0.050 ohm) at or below 2 V; the
+* two branches are blended over VNOM = 2.00..2.05 V.
+* Current limit follows the SOA curve: 330 mA up to 10 V of input-to-output
+* differential, falling linearly to 200 mA at 12 V and above.
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VNOM*V(Soft,GND)-V(OUT,GND))
++ /(0.05+(0.01*VNOM-0.05)*MIN(MAX((VNOM-2)/0.05,0),1)),
++ V(IN,OUT)/1.0),
++ 0.330-0.130*MIN(MAX((V(IN,OUT)-10)/2,0),1)))}
+* No active output discharge on LDK320.
+* Quiescent current: 60 uA at no load, 70 uA at 200 mA, 0.2 uA in off mode.
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.2u+(60u-0.2u)*V(Enabled,GND))}
+* 5e-5 * Iload adds 10 uA between 0 mA and 200 mA of output current.
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.05}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+REn EN GND 50G
+.ENDS MY_LIB_LDK320_FIXED_DS
+*
+* ---------------------------------------------------------------------------
+* LDK320 adjustable output, SOT23-5L. Physical pins 1=IN 2=GND 3=EN 4=ADJ
+* 5=OUT. Port order 1=IN 2=GND 3=EN 4=ADJ 5=OUT.
+* VREF = 1.185 V for LDK320M-R, 1.200 V for LDK320AM-R.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK320_ADJ_DS IN GND EN ADJ OUT PARAMS: VREF=1.185
+EEnable Enabled GND VALUE={MIN(MAX((V(EN,GND)-0.67)/0.02,0),1)
++ *MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VREF*V(Soft,GND)-V(ADJ,GND))/0.0024,
++ V(IN,OUT)/1.0),
++ 0.330-0.130*MIN(MAX((V(IN,OUT)-10)/2,0),1)))}
+* No active output discharge on LDK320.
+* Quiescent current: 50 uA at no load, 60 uA at 200 mA, 0.2 uA in off mode.
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.2u+(50u-0.2u)*V(Enabled,GND))}
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.05}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+RAdj ADJ GND 120MEG
+REn EN GND 50G
+.ENDS MY_LIB_LDK320_ADJ_DS
+*
+* ---------------------------------------------------------------------------
+* LDK320 fixed output, SOT-89 standard pinout. Physical pins 1=OUT 2=GND/TAB
+* 3=IN. Port order 1=OUT 2=GND 3=IN.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK320_SOT89_STD_DS OUT GND IN PARAMS: VNOM=3.3
+EEnable Enabled GND VALUE={MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VNOM*V(Soft,GND)-V(OUT,GND))
++ /(0.05+(0.01*VNOM-0.05)*MIN(MAX((VNOM-2)/0.05,0),1)),
++ V(IN,OUT)/1.0),
++ 0.330-0.130*MIN(MAX((V(IN,OUT)-10)/2,0),1)))}
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.2u+(60u-0.2u)*V(Enabled,GND))}
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.05}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+.ENDS MY_LIB_LDK320_SOT89_STD_DS
+*
+* ---------------------------------------------------------------------------
+* LDK320 fixed output, SOT-89 D configuration. Physical pins 1=GND 2=IN/TAB
+* 3=OUT. Port order 1=GND 2=IN 3=OUT.
+* ---------------------------------------------------------------------------
+.SUBCKT MY_LIB_LDK320_SOT89_D_DS GND IN OUT PARAMS: VNOM=3.3
+EEnable Enabled GND VALUE={MIN(MAX((V(IN,GND)-2.0)/0.2,0),1)}
+GSoft GND Soft VALUE={(V(Enabled,GND)-V(Soft,GND))
++ *(V(Enabled,GND)/87+(1-V(Enabled,GND))/1)}
+CSoft Soft GND 1u
+RSoft Soft GND 1G
+RSns IN IN_S 1m
+GPass IN_S OUT VALUE={V(Enabled,GND)*MAX(-1u,
++ MIN(MIN((VNOM*V(Soft,GND)-V(OUT,GND))
++ /(0.05+(0.01*VNOM-0.05)*MIN(MAX((VNOM-2)/0.05,0),1)),
++ V(IN,OUT)/1.0),
++ 0.330-0.130*MIN(MAX((V(IN,OUT)-10)/2,0),1)))}
+GIq IN GND VALUE={MIN(MAX(V(IN,GND)/2.0,0),1)
++ *(0.2u+(60u-0.2u)*V(Enabled,GND))}
+GIqLoad IN GND VALUE={V(IN,IN_S)*0.05}
+RNoLoad OUT GND 100k
+GIqComp IN GND VALUE={-1e-5*V(OUT,GND)}
+.ENDS MY_LIB_LDK320_SOT89_D_DS
