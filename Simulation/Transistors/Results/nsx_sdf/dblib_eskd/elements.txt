@@ -1,0 +1,2 @@
+V|VG|g|GND|10||
+I|IDRN|GND|d|0.5||

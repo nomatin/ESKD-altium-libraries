@@ -126,6 +126,22 @@ Ciss/Coss/Crss; `ISbody`/`Nbody` — подгонка точки VSD. Значе
 на установленных файлах: 18 схем, 108 проверок. Совпадение схем обеих баз
 обязательно, потому что строка нетлиста и параметры в книгах идентичны.
 
+## Тесты и результаты
+
+- `Tests/` — 108 входных JSON для Spice Sifter, по 12 на прибор:
+  `mosfet_VTxxxx_T1`…`T6c` — автономные схемы,
+  `mosfet_VTxxxx_eskd_T3`/`T5` и `mosfet_VTxxxx_iec_T3`/`T5` — режим
+  DbLib Component для `MY_LIB.DbLib` и `MY_LIB_IEC.DbLib`.
+  Путь модели относительный: `../MY_LIB_NMOS_DS.ckt` или `../MY_LIB_PMOS_DS.ckt`.
+- `Results/` — по одному отчёту `mosfet_VTxxxx_*.result.json` на каждый тест,
+  сводки `batch_standalone.json`, `batch_dblib_eskd.json`,
+  `batch_dblib_iec.json`, `nsx_sdf.json` с исходными NSX/SDF последнего
+  нативного запуска и журналы `nsx_run.log`, `sifter_run.log`.
+
+Нативный прогон: 108 тестов, 126 проверок, все PASS (Altium MixedSim,
+скрытый экземпляр). Диагностический прогон тех же схем в ngspice даёт
+совпадение с отчётами.
+
 ## Что не моделируется
 
 - выходная проводимость в насыщении: паспорт её не задаёт, а MOS3 в этом

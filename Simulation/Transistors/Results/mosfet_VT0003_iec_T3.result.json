@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "test": "mosfet_VT0003_iec_T3",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "min": -1.36,
+      "max": -0.986,
+      "value": -1.337080093125795,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB_IEC.DbLib",
+    "table": "IEC Transistors",
+    "id": "VT0003",
+    "designator": "X1",
+    "pins": {
+      "1": "g",
+      "2": "0",
+      "3": "d"
+    },
+    "page": "IEC Transistors"
+  },
+  "fixture": null,
+  "run_id": "20261118_015803_f08a65",
+  "artifacts": {
+    "run_dir": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_015803_f08a65",
+    "nsx": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_015803_f08a65\\Project Outputs for Test_20261118_015803_f08a65\\Test_20261118_015803_f08a65.nsx",
+    "sdf": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_015803_f08a65\\Simulation\\Test_20261118_015803_f08a65.sdf"
+  },
+  "stages": {
+    "library_lookup": "PASS",
+    "component_placement": "PASS",
+    "simulation_model": "PASS",
+    "connectivity": "PASS",
+    "netlist_generation": "PASS",
+    "simulation": "PASS",
+    "sdf_parsing": "PASS",
+    "validation": "PASS",
+    "schematic_cleanup": "PASS"
+  },
+  "component_readback": {
+    "design_item_id": "VT0003",
+    "lib_reference": "MOSFET_P_1G2S3D",
+    "database_library_name": "MY_LIB_IEC.DbLib",
+    "database_table_name": "IEC Transistors$",
+    "database_keys": "VT0003",
+    "pin_count": 3,
+    "pins": {
+      "pin.1.designator": "2",
+      "pin.1.name": "SOURCE",
+      "pin.1.electrical": "4",
+      "pin.1.hidden": "False",
+      "pin.1.hotspot": "8100|4200",
+      "pin.2.designator": "3",
+      "pin.2.name": "DRAIN",
+      "pin.2.electrical": "4",
+      "pin.2.hidden": "False",
+      "pin.2.hotspot": "7800|4200",
+      "pin.3.designator": "1",
+      "pin.3.name": "GATE",
+      "pin.3.electrical": "4",
+      "pin.3.hidden": "False",
+      "pin.3.hotspot": "8000|4000"
+    },
+    "pin_map": {
+      "1": "g",
+      "2": "GND",
+      "3": "d"
+    },
+    "fixtures": [
+      {
+        "type": "V",
+        "name": "VG",
+        "designator": "VG",
+        "x": "1500",
+        "y": "1500",
+        "value": "-10",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      },
+      {
+        "type": "I",
+        "name": "IDRN",
+        "designator": "IDRN",
+        "x": "2900",
+        "y": "1500",
+        "value": "-0.17",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      }
+    ],
+    "sim_model_found": "True",
+    "sim_model_name": "MY_LIB_PMOS_DS",
+    "sim_port_map": "(2:2),(3:3),(1:1)",
+    "parameters": {
+      "Kind": "General",
+      "SubKind": "Spice Subcircuit",
+      "Spice Prefix": "X",
+      "Excluded Parts": "",
+      "Netlist": "@DESIGNATOR %1 %2 %3 @MODEL PARAMS: VTO=@VT_VTO KP=@VT_KP THETA=@VT_THETA CGS=@VT_CGS CGD=@VT_CGD CDS=@VT_CDS ISbody=@VT_IS Nbody=@VT_N",
+      "ID": "VT0003",
+      "Type": "Transistor",
+      "Value": "BSS84P",
+      "Voltage": "-60 В (VDS max); ±20 В (VGS max)",
+      "Package": "SOT-23",
+      "Manufacturer": "Infineon Technologies",
+      "MPN": "BSS84P",
+      "CommentBase": "Transistor BSS84P",
+      "Notes": "P-Channel MOSFET -60 V / -0.17 A, SOT-23, datasheet package PG-SOT-23, 1=G, 2=S, 3=D. Datasheet: Infineon, Rev 2.8 (2026-02-09). VDS, ID, VGS(th) and VSD keep the datasheet sign (negative); magnitudes are listed in the spec magnitudes block. VGS max is recorded as +/-20 V. RDS(on) max 8000 mOhm at 10 V and 12000 mOhm at 4.5 V. Capacitances: datasheet maxima 19/8/4 pF (typical 15/6/3). The SOT23-3 footprint is reused (pads 0.60x1.00 mm, pitch 1.90 mm); the manufacturer land pattern recommends 0.8x0.9 mm pads at the same 1.90 mm pitch (see footprint_expectations). In Rev 2.8 the VGS(th) columns run with increasing magnitude: min -1 V, max -2 V. The 15/6/3 pF typical capacitances belong to this revision. SPICE: the parameterised model MY_LIB_PMOS_DS is bound (LEVEL=3 subcircuit, pins 1=G, 2=S, 3=D), calibrated against the Infineon datasheet limits; the VT_* values are set in the catalogue. The Infineon vendor PSpice file was used only as a cross-check and is not shipped. Native Altium rendering not verified.",
+      "ChannelType": "P-Channel",
+      "Description": "Transistor BSS84P",
+      "Datasheet": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_BSS84P_Rev2.8_2026-02-09.pdf",
+      "DatasheetRevision": "Rev 2.8 (2026-02-09)",
+      "ComponentLink1Description": "Datasheet (local)",
+      "ComponentLink1URL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_BSS84P_Rev2.8_2026-02-09.pdf",
+      "ComponentLink2Description": "Datasheet (manufacturer)",
+      "ComponentLink2URL": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bss84p-datasheet-en.pdf",
+      "HelpURL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_BSS84P_Rev2.8_2026-02-09.pdf",
+      "Family": "BSS84P",
+      "Configuration": "Single",
+      "PinMapping": "G=1; S=2; D=3",
+      "VdsMaxV": "-60",
+      "VgsMaxV": "20",
+      "IdMaxA": "-0.17",
+      "PdMaxW": "0.36",
+      "RdsOnMaxOhm10V": "8",
+      "RdsOnMaxOhm5V": "12",
+      "VgsThMinV": "-1",
+      "VgsThMaxV": "-2",
+      "CissPf": "19",
+      "CossPf": "8",
+      "CrssPf": "4",
+      "VsdMaxV": "-1.24",
+      "Marking": "YBs",
+      "VT_VTO": "-1.482115",
+      "VT_KP": "0.16318073",
+      "VT_THETA": "1.065312",
+      "VT_CGS": "1.2E-11",
+      "VT_CGD": "3E-12",
+      "VT_CDS": "3E-12",
+      "VT_IS": "4.40674E-17",
+      "VT_N": "1",
+      "Comment": "BSS84P"
+    },
+    "implementations": [
+      "SOT23-3|PCBLIB|current=1|database=0|files=0",
+      "MY_LIB_PMOS_DS|SIM|current=1|database=0|files=0"
+    ],
+    "implementation_maps": [
+      "(2:2),(3:3),(1:1)",
+      "(2:2),(3:3),(1:1)"
+    ]
+  },
+  "netlist": {
+    "exists": true,
+    "one_dut_instance": true,
+    "no_duplicate_dut": true,
+    "model_definition": true,
+    "model_name_in_instance": true,
+    "pin_order_matches": true,
+    "port_count_matches": true,
+    "unassigned_ports_not_connected": true,
+    "nodes": [
+      "g",
+      "0",
+      "d"
+    ],
+    "instance": [
+      "XX1",
+      "g",
+      "0",
+      "d",
+      "MY_LIB_PMOS_DS",
+      "PARAMS:",
+      "VTO=-1.482115",
+      "KP=0.16318073",
+      "THETA=1.065312"
+    ],
+    "all": true
+  },
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 1,
+    "completed": 1,
+    "missing": 0,
+    "passed": 1,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "20261118_015803_f08a65:check:0",
+      "run_id": "20261118_015803_f08a65",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": -1.337080093125795,
+      "unit": null,
+      "error": null,
+      "limits": {
+        "min": -1.36,
+        "max": -0.986
+      },
+      "signal": "v(d)"
+    }
+  ],
+  "validation_status": "ASSERTIONS"
+}

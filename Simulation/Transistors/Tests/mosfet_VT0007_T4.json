@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0007_T4",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0007 IRLML6344 -- rds_on_second; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* RDS(on): the drain current is forced, VDS is read directly\nVG g 0 DC 2.5\nIDRN 0 d DC 4.0\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.797494 KP=46.83107751 THETA=1.04287 CGS=6.04e-10 CGD=4.6e-11 CDS=1.9e-11 ISbody=3.16847e-17 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.108,
+      "max": 0.148
+    }
+  ],
+  "criteria": "RDS(on) inside [0.027; 0.037] Ohm at VGS=2.5 V, ID=4 A"
+}

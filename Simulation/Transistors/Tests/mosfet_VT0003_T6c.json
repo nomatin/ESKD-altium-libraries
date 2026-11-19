@@ -1,0 +1,38 @@
+{
+  "name": "mosfet_VT0003_T6c",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0003 BSS84P -- switching; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* switching: resistive load, gate pulse 0 -> VGS, two stable states must be reached\nVDD vdd 0 DC -30.0\nRL vdd d 214.28571428571428\nRG g gsrc 25.0\nVG gsrc 0 PULSE(0 -4.5 100n 1n 1n 500n 1u)\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.482115 KP=0.16318073 THETA=1.065312 CGS=1.2e-11 CGD=3e-12 CDS=3e-12 ISbody=4.40674e-17 Nbody=1.0\n.TRAN 20p 400n\n.PLOT TRAN V(d) I(RL)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "vds_off",
+      "type": "at",
+      "signal": "v(d)",
+      "analysis": "tran",
+      "x": 8e-08,
+      "temperature_c": 25,
+      "limits": {
+        "min": -30.0,
+        "max": -25.5
+      }
+    },
+    {
+      "id": "vds_on",
+      "type": "at",
+      "signal": "v(d)",
+      "analysis": "tran",
+      "x": 3.5e-07,
+      "temperature_c": 25,
+      "limits": {
+        "min": -4.5,
+        "max": -0.0
+      }
+    }
+  ],
+  "criteria": "|VDS,off| >= 85% VDD and |VDS,on| <= 15% VDD"
+}

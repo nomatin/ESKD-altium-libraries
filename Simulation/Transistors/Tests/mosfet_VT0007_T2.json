@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0007_T2",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0007 IRLML6344 -- threshold; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* VGS(th): the 0 V source VSENSE forces VDS = VGS, ID is the datasheet test current\nVG g d DC 0\nIDRN 0 d DC 9.999999999999999e-06\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.797494 KP=46.83107751 THETA=1.04287 CGS=6.04e-10 CGD=4.6e-11 CDS=1.9e-11 ISbody=3.16847e-17 Nbody=1.0\n.OP\n.PLOT OP V(g) V(d)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.5,
+      "max": 1.1
+    }
+  ],
+  "criteria": "VGS(th) inside [0.5; 1.1] V"
+}

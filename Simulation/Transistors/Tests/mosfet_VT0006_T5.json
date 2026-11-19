@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0006_T5",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0006 IRLML0030 -- body_diode; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* body diode: gate at 0 V, the datasheet forward current is forced into the diode\nVG g 0 DC 0\nIDIO 0 d DC -1.6\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=1.696232 KP=19.73154799 THETA=0.403321 CGS=3.43e-10 CGD=3.9e-11 CDS=4.5e-11 ISbody=9.32987e-15 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDIO)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": -1.0,
+      "max": -0.7
+    }
+  ],
+  "criteria": "|VSD| inside [0.7; 1] V at IS=1.6 A"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0003_T1",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0003 BSS84P -- cutoff; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* IDSS: gate at 0 V, drain at the rated VDS, VSENSE is a 0 V source between the supply and the drain\nVG g 0 DC 0.0\nVD vdd 0 DC -60\nVSENSE vdd d 0\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.482115 KP=0.16318073 THETA=1.065312 CGS=1.2e-11 CGD=3e-12 CDS=3e-12 ISbody=4.40674e-17 Nbody=1.0\n.OP\n.PLOT OP V(d) I(VSENSE)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "i(VSENSE)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": -1e-06,
+      "max": 1e-06
+    }
+  ],
+  "criteria": "|ID| <= 1e-06 A"
+}

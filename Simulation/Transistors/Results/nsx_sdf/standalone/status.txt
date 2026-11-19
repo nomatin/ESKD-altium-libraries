@@ -1,0 +1,2 @@
+STATUS=OK
+SDF_PATH=C:\Users\Nomatin\AppData\Local\Temp\SpiceSifter\89d2ef668965426580982fd725407fc3\test.sdf

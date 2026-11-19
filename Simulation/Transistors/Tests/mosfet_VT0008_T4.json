@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0008_T4",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0008 BSS308PE -- rds_on_second; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* RDS(on): the drain current is forced, VDS is read directly\nVG g 0 DC -4.5\nIDRN 0 d DC -1.7\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.495291 KP=4.86534581 THETA=0.263157 CGS=3.64e-10 CGD=1.2e-11 CDS=1.84e-10 ISbody=8.16509e-14 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": -0.221,
+      "max": -0.14959999999999998
+    }
+  ],
+  "criteria": "RDS(on) inside [0.088; 0.13] Ohm at VGS=-4.5 V, ID=1.7 A"
+}

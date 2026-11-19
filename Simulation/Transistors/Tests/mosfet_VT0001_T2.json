@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0001_T2",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0001 2N7002 -- threshold; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* VGS(th): the 0 V source VSENSE forces VDS = VGS, ID is the datasheet test current\nVG g d DC 0\nIDRN 0 d DC 0.00025\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=2.069538 KP=0.62202882 THETA=1.508741 CGS=1.1e-11 CGD=2e-12 CDS=2.1e-12 ISbody=4.03031e-17 Nbody=1.0\n.OP\n.PLOT OP V(g) V(d)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 1.5,
+      "max": 2.5
+    }
+  ],
+  "criteria": "VGS(th) inside [1.5; 2.5] V"
+}

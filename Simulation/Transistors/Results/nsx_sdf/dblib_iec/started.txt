@@ -1,0 +1,8 @@
+stage_library_lookup=NOT_RUN
+stage_component_placement=NOT_RUN
+stage_simulation_model=NOT_RUN
+stage_connectivity=NOT_RUN
+stage_netlist_generation=NOT_RUN
+stage_simulation=NOT_RUN
+stage_schematic_cleanup=NOT_RUN
+STARTED

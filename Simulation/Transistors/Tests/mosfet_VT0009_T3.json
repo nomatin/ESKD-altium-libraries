@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0009_T3",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0009 IRLML0060 -- rds_on_main; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* RDS(on): the drain current is forced, VDS is read directly\nVG g 0 DC 10\nIDRN 0 d DC 2.7\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=1.746116 KP=12.15162048 THETA=0.974369 CGS=2.69e-10 CGD=2.1e-11 CDS=1.6e-11 ISbody=7.70417e-19 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.2106,
+      "max": 0.2484
+    }
+  ],
+  "criteria": "RDS(on) inside [0.078; 0.092] Ohm at VGS=10 V, ID=2.7 A"
+}

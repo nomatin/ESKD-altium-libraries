@@ -1,0 +1,27 @@
+{
+  "name": "mosfet_VT0008_T6a",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0008 BSS308PE -- ciss; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* Ciss: gate driven with AC 1 V, drain AC ground, so i(VG) is the current of Cgs + Cgd\nVG g 0 DC 0 AC 1\nVD d 0 DC -15.0 AC 0\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.495291 KP=4.86534581 THETA=0.263157 CGS=3.64e-10 CGD=1.2e-11 CDS=1.84e-10 ISbody=8.16509e-14 Nbody=1.0\n.AC LIN 1 1000000.0 1000000.0\n.PLOT AC V(g) I(VG) V(d) I(VD)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "ciss",
+      "type": "capacitance_series",
+      "voltage": "v(g)",
+      "current": "i(VG)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 3.5719999999999997e-10,
+        "max": 3.948e-10
+      }
+    }
+  ],
+  "criteria": "Ciss within +-5% of the datasheet 376 pF"
+}

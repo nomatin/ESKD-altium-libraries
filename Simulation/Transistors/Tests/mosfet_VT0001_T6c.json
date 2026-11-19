@@ -1,0 +1,38 @@
+{
+  "name": "mosfet_VT0001_T6c",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0001 2N7002 -- switching; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* switching: resistive load, gate pulse 0 -> VGS, two stable states must be reached\nVDD vdd 0 DC 30.0\nRL vdd d 60.0\nRG g gsrc 6.0\nVG gsrc 0 PULSE(0 10.0 100n 1n 1n 500n 1u)\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=2.069538 KP=0.62202882 THETA=1.508741 CGS=1.1e-11 CGD=2e-12 CDS=2.1e-12 ISbody=4.03031e-17 Nbody=1.0\n.TRAN 20p 400n\n.PLOT TRAN V(d) I(RL)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "vds_off",
+      "type": "at",
+      "signal": "v(d)",
+      "analysis": "tran",
+      "x": 8e-08,
+      "temperature_c": 25,
+      "limits": {
+        "min": 25.5,
+        "max": 30.0
+      }
+    },
+    {
+      "id": "vds_on",
+      "type": "at",
+      "signal": "v(d)",
+      "analysis": "tran",
+      "x": 3.5e-07,
+      "temperature_c": 25,
+      "limits": {
+        "min": 0.0,
+        "max": 4.5
+      }
+    }
+  ],
+  "criteria": "|VDS,off| >= 85% VDD and |VDS,on| <= 15% VDD"
+}

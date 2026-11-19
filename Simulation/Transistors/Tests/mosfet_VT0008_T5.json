@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0008_T5",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0008 BSS308PE -- body_diode; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* body diode: gate at 0 V, the datasheet forward current is forced into the diode\nVG g 0 DC 0\nIDIO 0 d DC 2.0\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.495291 KP=4.86534581 THETA=0.263157 CGS=3.64e-10 CGD=1.2e-11 CDS=1.84e-10 ISbody=8.16509e-14 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDIO)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.7200000000000001,
+      "max": 1.1
+    }
+  ],
+  "criteria": "|VSD| inside [0.72; 1.1] V at IS=2 A"
+}

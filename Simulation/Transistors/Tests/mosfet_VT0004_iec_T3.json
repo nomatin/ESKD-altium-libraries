@@ -1,0 +1,26 @@
+{
+  "name": "mosfet_VT0004_iec_T3",
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB_IEC.DbLib",
+    "table": "IEC Transistors",
+    "id": "VT0004",
+    "designator": "X1",
+    "pins": {
+      "1": "g",
+      "2": "0",
+      "3": "d"
+    }
+  },
+  "spice": "* RDS(on) through the component placed from the database\nVG g 0 DC -4.5\nIDRN 0 d DC -1.5\n{{DUT}}\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "min": -0.22499999999999998,
+      "max": -0.1575
+    }
+  ],
+  "criteria": "RDS(on) inside [0.105; 0.15] Ohm",
+  "models": []
+}

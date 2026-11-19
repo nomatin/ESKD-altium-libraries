@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0003_T5",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0003 BSS84P -- body_diode; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* body diode: gate at 0 V, the datasheet forward current is forced into the diode\nVG g 0 DC 0\nIDIO 0 d DC 0.17\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.482115 KP=0.16318073 THETA=1.065312 CGS=1.2e-11 CGD=3e-12 CDS=3e-12 ISbody=4.40674e-17 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDIO)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.8370000000000001,
+      "max": 1.24
+    }
+  ],
+  "criteria": "|VSD| inside [0.837; 1.24] V at IS=0.17 A"
+}

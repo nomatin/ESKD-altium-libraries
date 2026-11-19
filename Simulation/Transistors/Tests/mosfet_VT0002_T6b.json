@@ -1,0 +1,40 @@
+{
+  "name": "mosfet_VT0002_T6b",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0002 BSS138N -- coss_crss; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* Coss/Crss: gate AC ground, drain driven with AC 1 V, so i(VD) is the current of Cds + Cgd and i(VG) is the current of Cgd\nVG g 0 DC 0 AC 0\nVD d 0 DC 25.0 AC 1\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.976153 KP=0.10494113 THETA=0.231032 CGS=2.92e-11 CGD=2.8e-12 CDS=4.4e-12 ISbody=2.92112e-15 Nbody=1.0\n.AC LIN 1 1000000.0 1000000.0\n.PLOT AC V(g) I(VG) V(d) I(VD)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "coss",
+      "type": "capacitance_series",
+      "voltage": "v(d)",
+      "current": "i(VD)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 6.84e-12,
+        "max": 7.560000000000001e-12
+      }
+    },
+    {
+      "id": "crss",
+      "type": "capacitance_series",
+      "voltage": "v(d)",
+      "current": "i(VG)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 2.6599999999999996e-12,
+        "max": 2.94e-12
+      }
+    }
+  ],
+  "criteria": "Coss/Crss within +-5% of the datasheet 7.2/2.8 pF"
+}

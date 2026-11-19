@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0008_T2",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0008 BSS308PE -- threshold; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* VGS(th): the 0 V source VSENSE forces VDS = VGS, ID is the datasheet test current\nVG g d DC 0\nIDRN 0 d DC -1.1e-05\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.495291 KP=4.86534581 THETA=0.263157 CGS=3.64e-10 CGD=1.2e-11 CDS=1.84e-10 ISbody=8.16509e-14 Nbody=1.0\n.OP\n.PLOT OP V(g) V(d)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": -2.0,
+      "max": -1.0
+    }
+  ],
+  "criteria": "VGS(th) inside [-2; -1] V"
+}

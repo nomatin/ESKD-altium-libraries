@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "test": "mosfet_VT0009_iec_T3",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "min": 0.2106,
+      "max": 0.2484,
+      "value": 0.24711659615662268,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB_IEC.DbLib",
+    "table": "IEC Transistors",
+    "id": "VT0009",
+    "designator": "X1",
+    "pins": {
+      "1": "g",
+      "2": "0",
+      "3": "d"
+    },
+    "page": "IEC Transistors"
+  },
+  "fixture": null,
+  "run_id": "20261118_020211_e3ff64",
+  "artifacts": {
+    "run_dir": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_020211_e3ff64",
+    "nsx": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_020211_e3ff64\\Project Outputs for Test_20261118_020211_e3ff64\\Test_20261118_020211_e3ff64.nsx",
+    "sdf": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_020211_e3ff64\\Simulation\\Test_20261118_020211_e3ff64.sdf"
+  },
+  "stages": {
+    "library_lookup": "PASS",
+    "component_placement": "PASS",
+    "simulation_model": "PASS",
+    "connectivity": "PASS",
+    "netlist_generation": "PASS",
+    "simulation": "PASS",
+    "sdf_parsing": "PASS",
+    "validation": "PASS",
+    "schematic_cleanup": "PASS"
+  },
+  "component_readback": {
+    "design_item_id": "VT0009",
+    "lib_reference": "MOSFET_N_1G2S3D",
+    "database_library_name": "MY_LIB_IEC.DbLib",
+    "database_table_name": "IEC Transistors$",
+    "database_keys": "VT0009",
+    "pin_count": 3,
+    "pins": {
+      "pin.1.designator": "2",
+      "pin.1.name": "Source",
+      "pin.1.electrical": "4",
+      "pin.1.hidden": "False",
+      "pin.1.hotspot": "8100|4200",
+      "pin.2.designator": "3",
+      "pin.2.name": "Drain",
+      "pin.2.electrical": "4",
+      "pin.2.hidden": "False",
+      "pin.2.hotspot": "7800|4200",
+      "pin.3.designator": "1",
+      "pin.3.name": "Gate",
+      "pin.3.electrical": "4",
+      "pin.3.hidden": "False",
+      "pin.3.hotspot": "8000|4000"
+    },
+    "pin_map": {
+      "1": "g",
+      "2": "GND",
+      "3": "d"
+    },
+    "fixtures": [
+      {
+        "type": "V",
+        "name": "VG",
+        "designator": "VG",
+        "x": "1500",
+        "y": "1500",
+        "value": "10",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      },
+      {
+        "type": "I",
+        "name": "IDRN",
+        "designator": "IDRN",
+        "x": "2900",
+        "y": "1500",
+        "value": "2.7",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      }
+    ],
+    "sim_model_found": "True",
+    "sim_model_name": "MY_LIB_NMOS_DS",
+    "sim_port_map": "(2:2),(3:3),(1:1)",
+    "parameters": {
+      "Kind": "General",
+      "SubKind": "Spice Subcircuit",
+      "Spice Prefix": "X",
+      "Excluded Parts": "",
+      "Netlist": "@DESIGNATOR %1 %2 %3 @MODEL PARAMS: VTO=@VT_VTO KP=@VT_KP THETA=@VT_THETA CGS=@VT_CGS CGD=@VT_CGD CDS=@VT_CDS ISbody=@VT_IS Nbody=@VT_N",
+      "ID": "VT0009",
+      "Type": "Transistor",
+      "Value": "IRLML0060",
+      "Voltage": "60 В (VDS max); ±16 В (VGS max)",
+      "Package": "SOT-23",
+      "Manufacturer": "Infineon Technologies",
+      "MPN": "IRLML0060",
+      "CommentBase": "Transistor IRLML0060",
+      "Notes": "N-Channel MOSFET 60 V / 2.7 A, SOT-23, datasheet package Micro 3 (SOT-23), 1=G, 2=S, 3=D. Datasheet: Infineon, 2016-12-20. RDS(on) max 92 mOhm at 10 V and 116 mOhm at 4.5 V. Capacitances are typical only (no maximum in the datasheet): 290/37/21 pF. The SOT23-3 footprint is reused (pads 0.60x1.00 mm, pitch 1.90 mm); the manufacturer land pattern recommends 0.972x0.802 mm pads at the same 1.90 mm pitch (see footprint_expectations). SPICE: the parameterised model MY_LIB_NMOS_DS is bound (LEVEL=3 subcircuit, pins 1=G, 2=S, 3=D), calibrated against the Infineon datasheet limits; the VT_* values are set in the catalogue. The vendor Saber/MODPEX file (Symmetry licence) is not used. Native Altium rendering not verified.",
+      "ChannelType": "N-Channel",
+      "Description": "Transistor IRLML0060",
+      "Datasheet": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_IRLML0060_Rev-2016-12-20.pdf",
+      "DatasheetRevision": "2016-12-20",
+      "ComponentLink1Description": "Datasheet (local)",
+      "ComponentLink1URL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_IRLML0060_Rev-2016-12-20.pdf",
+      "ComponentLink2Description": "Datasheet (manufacturer)",
+      "ComponentLink2URL": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irlml0060-datasheet-en.pdf",
+      "HelpURL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_IRLML0060_Rev-2016-12-20.pdf",
+      "Family": "IRLML0060",
+      "Configuration": "Single",
+      "PinMapping": "G=1; S=2; D=3",
+      "VdsMaxV": "60",
+      "VgsMaxV": "16",
+      "IdMaxA": "2.7",
+      "PdMaxW": "1.25",
+      "RdsOnMaxOhm10V": "0.092",
+      "RdsOnMaxOhm5V": "0.116",
+      "VgsThMinV": "1",
+      "VgsThMaxV": "2.5",
+      "CissPf": "290",
+      "CossPf": "37",
+      "CrssPf": "21",
+      "VsdMaxV": "1.3",
+      "Marking": "L",
+      "VT_VTO": "1.746116",
+      "VT_KP": "12.15162048",
+      "VT_THETA": "0.974369",
+      "VT_CGS": "2.69E-10",
+      "VT_CGD": "2.1E-11",
+      "VT_CDS": "1.6E-11",
+      "VT_IS": "7.70417E-19",
+      "VT_N": "1",
+      "Comment": "IRLML0060"
+    },
+    "implementations": [
+      "SOT23-3|PCBLIB|current=1|database=0|files=0",
+      "MY_LIB_NMOS_DS|SIM|current=1|database=0|files=0"
+    ],
+    "implementation_maps": [
+      "(2:2),(3:3),(1:1)",
+      "(2:2),(3:3),(1:1)"
+    ]
+  },
+  "netlist": {
+    "exists": true,
+    "one_dut_instance": true,
+    "no_duplicate_dut": true,
+    "model_definition": true,
+    "model_name_in_instance": true,
+    "pin_order_matches": true,
+    "port_count_matches": true,
+    "unassigned_ports_not_connected": true,
+    "nodes": [
+      "g",
+      "0",
+      "d"
+    ],
+    "instance": [
+      "XX1",
+      "g",
+      "0",
+      "d",
+      "MY_LIB_NMOS_DS",
+      "PARAMS:",
+      "VTO=1.746116",
+      "KP=12.15162048",
+      "THETA=0.974369"
+    ],
+    "all": true
+  },
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 1,
+    "completed": 1,
+    "missing": 0,
+    "passed": 1,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "20261118_020211_e3ff64:check:0",
+      "run_id": "20261118_020211_e3ff64",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": 0.24711659615662268,
+      "unit": null,
+      "error": null,
+      "limits": {
+        "min": 0.2106,
+        "max": 0.2484
+      },
+      "signal": "v(d)"
+    }
+  ],
+  "validation_status": "ASSERTIONS"
+}

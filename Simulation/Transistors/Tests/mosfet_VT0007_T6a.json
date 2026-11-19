@@ -1,0 +1,27 @@
+{
+  "name": "mosfet_VT0007_T6a",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0007 IRLML6344 -- ciss; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* Ciss: gate driven with AC 1 V, drain AC ground, so i(VG) is the current of Cgs + Cgd\nVG g 0 DC 0 AC 1\nVD d 0 DC 25.0 AC 0\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.797494 KP=46.83107751 THETA=1.04287 CGS=6.04e-10 CGD=4.6e-11 CDS=1.9e-11 ISbody=3.16847e-17 Nbody=1.0\n.AC LIN 1 1000000.0 1000000.0\n.PLOT AC V(g) I(VG) V(d) I(VD)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "ciss",
+      "type": "capacitance_series",
+      "voltage": "v(g)",
+      "current": "i(VG)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 6.175e-10,
+        "max": 6.825000000000001e-10
+      }
+    }
+  ],
+  "criteria": "Ciss within +-5% of the datasheet 650 pF"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0006_T1",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0006 IRLML0030 -- cutoff; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* IDSS: gate at 0 V, drain at the rated VDS, VSENSE is a 0 V source between the supply and the drain\nVG g 0 DC 0.0\nVD vdd 0 DC 30\nVSENSE vdd d 0\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=1.696232 KP=19.73154799 THETA=0.403321 CGS=3.43e-10 CGD=3.9e-11 CDS=4.5e-11 ISbody=9.32987e-15 Nbody=1.0\n.OP\n.PLOT OP V(d) I(VSENSE)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "i(VSENSE)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": -1e-06,
+      "max": 1e-06
+    }
+  ],
+  "criteria": "|ID| <= 1e-06 A"
+}

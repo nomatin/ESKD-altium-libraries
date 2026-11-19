@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0002_T3",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0002 BSS138N -- rds_on_main; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* RDS(on): the drain current is forced, VDS is read directly\nVG g 0 DC 10\nIDRN 0 d DC 0.23\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.976153 KP=0.10494113 THETA=0.231032 CGS=2.92e-11 CGD=2.8e-12 CDS=4.4e-12 ISbody=2.92112e-15 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.5060000000000001,
+      "max": 0.805
+    }
+  ],
+  "criteria": "RDS(on) inside [2.2; 3.5] Ohm at VGS=10 V, ID=0.23 A"
+}

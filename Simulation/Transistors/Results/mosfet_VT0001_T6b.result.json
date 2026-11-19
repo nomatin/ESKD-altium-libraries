@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "test": "mosfet_VT0001_T6b",
+  "simulator": "Altium MixedSim",
+  "error": null,
+  "runs": [
+    {
+      "status": "PASS",
+      "checks": [],
+      "error": null,
+      "run_id": "6313ed9cfeb846248c5a6545cf442050",
+      "temperature_c": 25,
+      "temperature_method": "OPTIONS TEMP",
+      "simulation_status": "PASS",
+      "checks_count": 0,
+      "checks_status": "NOT_CONFIGURED",
+      "altium_session": {
+        "mode": "hidden",
+        "session_id": "11c6e30417ed",
+        "desktop": "SpiceSifterHidden-11c6e30417ed",
+        "pid": 39012,
+        "creation_time": "2026-11-17T23:03:01.119764Z",
+        "altium": "C:\\Program Files\\Altium\\AD24\\X2.EXE",
+        "started_at": "2026-11-17T23:03:01.127636Z",
+        "ready_at": "2026-11-17T23:04:02.600033Z",
+        "ready_elapsed": 61.47,
+        "ready_timeout": 300.0,
+        "owned": true,
+        "job_object": true,
+        "job_managed": true,
+        "working_altium_before": [
+          {
+            "pid": 61252,
+            "start_time": "2026-11-17T19:50:17.6966644Z",
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" "
+          }
+        ],
+        "commands": [
+          {
+            "proc_name": "RunSpiceSifterProbe",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\hidden-probes\\c78eceb262\\probe.pas",
+            "launcher_pid": 46004,
+            "launcher_creation_time": "2026-11-17T23:03:54.791426Z",
+            "started_at": "2026-11-17T23:03:54.800330Z",
+            "label": "readiness",
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\hidden-probes\\c78eceb262\\probe.pas\"|ProcName=\"RunSpiceSifterProbe\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\42eff8bd5f334ab6a6b32e5c8daad39b\\run_b3db374314434b9c8425c3704322dd95.pas",
+            "launcher_pid": 44388,
+            "launcher_creation_time": "2026-11-17T23:04:02.621016Z",
+            "started_at": "2026-11-17T23:04:02.629629Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\42eff8bd5f334ab6a6b32e5c8daad39b\\run_b3db374314434b9c8425c3704322dd95.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\42eff8bd5f334ab6a6b32e5c8daad39b\\collect.pas",
+            "launcher_pid": 26208,
+            "launcher_creation_time": "2026-11-17T23:04:06.853062Z",
+            "started_at": "2026-11-17T23:04:06.861033Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\42eff8bd5f334ab6a6b32e5c8daad39b\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\1bba8e7988ca49b79994451c2ef318d2\\run_14028ee0174946428532abad75ce0a8a.pas",
+            "launcher_pid": 28316,
+            "launcher_creation_time": "2026-11-17T23:04:08.395262Z",
+            "started_at": "2026-11-17T23:04:08.403730Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\1bba8e7988ca49b79994451c2ef318d2\\run_14028ee0174946428532abad75ce0a8a.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\1bba8e7988ca49b79994451c2ef318d2\\collect.pas",
+            "launcher_pid": 60812,
+            "launcher_creation_time": "2026-11-17T23:04:12.526756Z",
+            "started_at": "2026-11-17T23:04:12.534934Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\1bba8e7988ca49b79994451c2ef318d2\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\d4e666141e3a43948d4d54252b8f2b49\\run_faf7a1392ffd4cb7a32937003fdcbdc5.pas",
+            "launcher_pid": 54448,
+            "launcher_creation_time": "2026-11-17T23:04:14.068246Z",
+            "started_at": "2026-11-17T23:04:14.077730Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\d4e666141e3a43948d4d54252b8f2b49\\run_faf7a1392ffd4cb7a32937003fdcbdc5.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\d4e666141e3a43948d4d54252b8f2b49\\collect.pas",
+            "launcher_pid": 61976,
+            "launcher_creation_time": "2026-11-17T23:04:18.200838Z",
+            "started_at": "2026-11-17T23:04:18.209122Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\d4e666141e3a43948d4d54252b8f2b49\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\c244e752264c4754a5303847cd67d680\\run_5f53c61a0cae4671a168de77d8ec857d.pas",
+            "launcher_pid": 14208,
+            "launcher_creation_time": "2026-11-17T23:04:19.743230Z",
+            "started_at": "2026-11-17T23:04:19.755782Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\c244e752264c4754a5303847cd67d680\\run_5f53c61a0cae4671a168de77d8ec857d.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\c244e752264c4754a5303847cd67d680\\collect.pas",
+            "launcher_pid": 39348,
+            "launcher_creation_time": "2026-11-17T23:04:23.881564Z",
+            "started_at": "2026-11-17T23:04:23.890826Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\c244e752264c4754a5303847cd67d680\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\419ee56dab7e479589b7f60773195fef\\run_1792d26e852540e293e08cddb80d53f8.pas",
+            "launcher_pid": 18880,
+            "launcher_creation_time": "2026-11-17T23:04:25.329212Z",
+            "started_at": "2026-11-17T23:04:25.336884Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\419ee56dab7e479589b7f60773195fef\\run_1792d26e852540e293e08cddb80d53f8.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\419ee56dab7e479589b7f60773195fef\\collect.pas",
+            "launcher_pid": 36872,
+            "launcher_creation_time": "2026-11-17T23:04:29.562476Z",
+            "started_at": "2026-11-17T23:04:29.570432Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\419ee56dab7e479589b7f60773195fef\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\2d441f2af35e431c8af6883e0bec628d\\run_e84318e370a8415a87b26bab830fbcee.pas",
+            "launcher_pid": 55936,
+            "launcher_creation_time": "2026-11-17T23:04:31.004974Z",
+            "started_at": "2026-11-17T23:04:31.012774Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\2d441f2af35e431c8af6883e0bec628d\\run_e84318e370a8415a87b26bab830fbcee.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\2d441f2af35e431c8af6883e0bec628d\\collect.pas",
+            "launcher_pid": 24032,
+            "launcher_creation_time": "2026-11-17T23:04:35.539782Z",
+            "started_at": "2026-11-17T23:04:35.547831Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\2d441f2af35e431c8af6883e0bec628d\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\6313ed9cfeb846248c5a6545cf442050\\run_55592f40165f4ebb97292ef87b997973.pas",
+            "launcher_pid": 29156,
+            "launcher_creation_time": "2026-11-17T23:04:37.080686Z",
+            "started_at": "2026-11-17T23:04:37.089492Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\6313ed9cfeb846248c5a6545cf442050\\run_55592f40165f4ebb97292ef87b997973.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          },
+          {
+            "proc_name": "RunTests",
+            "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\6313ed9cfeb846248c5a6545cf442050\\collect.pas",
+            "launcher_pid": 54292,
+            "launcher_creation_time": "2026-11-17T23:04:41.515394Z",
+            "started_at": "2026-11-17T23:04:41.524533Z",
+            "label": null,
+            "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\6313ed9cfeb846248c5a6545cf442050\\collect.pas\"|ProcName=\"RunTests\")",
+            "job_assigned": true,
+            "exit_code": null
+          }
+        ],
+        "stop": null,
+        "reason": null
+      }
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "errors": 0
+  },
+  "measurements": [
+    {
+      "id": "coss",
+      "type": "capacitance_series",
+      "value": 4.100000000000025e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 3.895e-12,
+        "max": 4.305e-12
+      },
+      "run_id": "6313ed9cfeb846248c5a6545cf442050",
+      "temperature_c": 25
+    },
+    {
+      "id": "crss",
+      "type": "capacitance_series",
+      "value": 2e-12,
+      "unit": "F",
+      "status": "PASS",
+      "limits": {
+        "min": 1.9e-12,
+        "max": 2.1e-12
+      },
+      "run_id": "6313ed9cfeb846248c5a6545cf442050",
+      "temperature_c": 25
+    }
+  ],
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 2,
+    "completed": 2,
+    "missing": 0,
+    "passed": 2,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "6313ed9cfeb846248c5a6545cf442050:measurement:coss",
+      "run_id": "6313ed9cfeb846248c5a6545cf442050",
+      "kind": "measurement",
+      "id": "coss",
+      "status": "PASS",
+      "value": 4.100000000000025e-12,
+      "unit": "F",
+      "error": null,
+      "limits": {
+        "min": 3.895e-12,
+        "max": 4.305e-12
+      },
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25
+    },
+    {
+      "result_id": "6313ed9cfeb846248c5a6545cf442050:measurement:crss",
+      "run_id": "6313ed9cfeb846248c5a6545cf442050",
+      "kind": "measurement",
+      "id": "crss",
+      "status": "PASS",
+      "value": 2e-12,
+      "unit": "F",
+      "error": null,
+      "limits": {
+        "min": 1.9e-12,
+        "max": 2.1e-12
+      },
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25
+    }
+  ],
+  "validation_status": "ASSERTIONS"
+}

@@ -1,0 +1,198 @@
+{
+  "kind": "mosfets_sifter_nsx_sdf",
+  "run_id": "run-20261117-mosfets",
+  "modes": {
+    "standalone": {
+      "test": "spice/results/tests/mosfet_VT0001_T3.json",
+      "status": "PASS",
+      "source_dirs": [
+        "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\89d2ef668965426580982fd725407fc3"
+      ],
+      "artifacts": [
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\test.nsx",
+          "sha256": "8d69c5d73481bfd09ebb9eb25740c46bbf3b2b9ec9ac4cfbedbadd37d730a191",
+          "bytes": 507
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\test.sdf",
+          "sha256": "0479a38419771edd71dac4974adb8f024bbdd0fa4063d4c17507f1bb8f56570a",
+          "bytes": 2175
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\run.log",
+          "sha256": "dabc3defc2e928282b3c5d5fc7e59dc58d6759131a787e15e67497323e89a4ab",
+          "bytes": 223
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\started.txt",
+          "sha256": "fceb25123c6b2189dbf66867f3b501d913ead3e6234fb6b52e56adc0da8aeb0f",
+          "bytes": 9
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\status.txt",
+          "sha256": "b35cbfe530d2e8ea850e09091c566eff9e630ba167748f0b31059dbb222ae859",
+          "bytes": 111
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\collect.pas",
+          "sha256": "e54f0eda7613e8f5e9aab912f1a5f6c67788bce2f72e3a3a24924a47515263cd",
+          "bytes": 1007
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\standalone\\run_20ce1de8790c440fb574c5845e318be7.pas",
+          "sha256": "64bbcf8ad7cf6af635e967d6ec87bdf3890f2b454651d28aae174248eb0eec64",
+          "bytes": 1610
+        }
+      ],
+      "kept": [
+        "collect.pas",
+        "run.log",
+        "run_20ce1de8790c440fb574c5845e318be7.pas",
+        "started.txt",
+        "status.txt",
+        "test.nsx",
+        "test.sdf"
+      ],
+      "contract": {
+        "status": "OK",
+        "expected": 1,
+        "completed": 1,
+        "missing": 0,
+        "passed": 1,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "error": null
+    },
+    "dblib_eskd": {
+      "test": "spice/results/tests/mosfet_VT0001_eskd_T3.json",
+      "status": "PASS",
+      "source_dirs": [
+        "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021533_00bf60"
+      ],
+      "artifacts": [
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\run.log",
+          "sha256": "c3905eb9d3200e750965720ca9fdfa491211b62f5d1b2dde45f41d09e810ab72",
+          "bytes": 199
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\elements.txt",
+          "sha256": "b15ad9b7181b40c5473512d0170302c13c6da51aa6cabdce21dc64a1604cc79f",
+          "bytes": 37
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\pin_map.txt",
+          "sha256": "2677f21bb9a577ccf7afbfc47af1685b57cce37b5aafc881dfeb218cddc49a36",
+          "bytes": 17
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\started.txt",
+          "sha256": "69a58726f411664fd4b2fec707adc88ab8d25520ac341c698c389ef4e12c4789",
+          "bytes": 227
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\status.txt",
+          "sha256": "a2efd146f08da8ceb845c2ede55f95dfae7290d383db855d033dab1cfa4935bb",
+          "bytes": 6204
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_eskd\\experiment.pas",
+          "sha256": "8d85d5426631f29affd5f19eff12d71d1bf4d00fc38455fd3b7d3bbef6e9df42",
+          "bytes": 37661
+        }
+      ],
+      "kept": [
+        "Status Report.Txt",
+        "Test_20261118_021533_00bf60.nsx",
+        "Test_20261118_021533_00bf60.sdf",
+        "elements.txt",
+        "experiment.pas",
+        "pin_map.txt",
+        "run.log",
+        "started.txt",
+        "status.txt"
+      ],
+      "contract": {
+        "status": "OK",
+        "expected": 1,
+        "completed": 1,
+        "missing": 0,
+        "passed": 1,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "error": null
+    },
+    "dblib_iec": {
+      "test": "spice/results/tests/mosfet_VT0001_iec_T3.json",
+      "status": "PASS",
+      "source_dirs": [
+        "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86"
+      ],
+      "artifacts": [
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\run.log",
+          "sha256": "d2a2173594b231d81df184ca2ecf871813a8385ad19e8de168929a80433123dd",
+          "bytes": 199
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\elements.txt",
+          "sha256": "b15ad9b7181b40c5473512d0170302c13c6da51aa6cabdce21dc64a1604cc79f",
+          "bytes": 37
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\pin_map.txt",
+          "sha256": "2677f21bb9a577ccf7afbfc47af1685b57cce37b5aafc881dfeb218cddc49a36",
+          "bytes": 17
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\started.txt",
+          "sha256": "69a58726f411664fd4b2fec707adc88ab8d25520ac341c698c389ef4e12c4789",
+          "bytes": 227
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\status.txt",
+          "sha256": "6b003a70400f4653466b460d27a58eefd00d5b923c3659410500b88ca9329b67",
+          "bytes": 6190
+        },
+        {
+          "file": "spice\\results\\nsx_sdf\\dblib_iec\\experiment.pas",
+          "sha256": "f033e7a29665cdc65e6e44455848bf13a034db95ee9d719c4d6527290f53d537",
+          "bytes": 37668
+        }
+      ],
+      "kept": [
+        "Status Report.Txt",
+        "Test_20261118_021700_c29b86.nsx",
+        "Test_20261118_021700_c29b86.sdf",
+        "elements.txt",
+        "experiment.pas",
+        "pin_map.txt",
+        "run.log",
+        "started.txt",
+        "status.txt"
+      ],
+      "contract": {
+        "status": "OK",
+        "expected": 1,
+        "completed": 1,
+        "missing": 0,
+        "passed": 1,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "error": null
+    }
+  },
+  "status": "PASS",
+  "failures": [],
+  "note": "One representative test per mode keeps the raw NSX/SDF; the other tests of the same mode are stored as their parsed measurements in spice/results/per_test, because Spice Sifter deletes its working directory by default."
+}

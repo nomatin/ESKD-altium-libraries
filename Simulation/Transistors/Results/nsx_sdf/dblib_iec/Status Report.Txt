@@ -1,0 +1,10 @@
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [Test_20261118_021700_c29b86.PrjPcb]
+   Generated File[Test_20261118_021700_c29b86.nsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 02:17:09 On 18/11/2026

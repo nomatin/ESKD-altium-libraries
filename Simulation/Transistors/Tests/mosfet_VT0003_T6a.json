@@ -1,0 +1,27 @@
+{
+  "name": "mosfet_VT0003_T6a",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0003 BSS84P -- ciss; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* Ciss: gate driven with AC 1 V, drain AC ground, so i(VG) is the current of Cgs + Cgd\nVG g 0 DC 0 AC 1\nVD d 0 DC -25.0 AC 0\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.482115 KP=0.16318073 THETA=1.065312 CGS=1.2e-11 CGD=3e-12 CDS=3e-12 ISbody=4.40674e-17 Nbody=1.0\n.AC LIN 1 1000000.0 1000000.0\n.PLOT AC V(g) I(VG) V(d) I(VD)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "ciss",
+      "type": "capacitance_series",
+      "voltage": "v(g)",
+      "current": "i(VG)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 1.425e-11,
+        "max": 1.575e-11
+      }
+    }
+  ],
+  "criteria": "Ciss within +-5% of the datasheet 15 pF"
+}

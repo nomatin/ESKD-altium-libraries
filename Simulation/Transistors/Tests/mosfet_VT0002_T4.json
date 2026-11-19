@@ -1,0 +1,21 @@
+{
+  "name": "mosfet_VT0002_T4",
+  "models": [
+    "../MY_LIB_NMOS_DS.ckt"
+  ],
+  "spice": "* VT0002 BSS138N -- rds_on_second; catalogue values from Simulation\\Transistors\\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS\n* RDS(on): the drain current is forced, VDS is read directly\nVG g 0 DC 4.5\nIDRN 0 d DC 0.19\nXCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=0.976153 KP=0.10494113 THETA=0.231032 CGS=2.92e-11 CGD=2.8e-12 CDS=4.4e-12 ISbody=2.92112e-15 Nbody=1.0\n.OP\n.PLOT OP V(d) I(IDRN)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "temperature_c": 25,
+      "min": 0.665,
+      "max": 1.1400000000000001
+    }
+  ],
+  "criteria": "RDS(on) inside [3.5; 6] Ohm at VGS=4.5 V, ID=0.19 A"
+}

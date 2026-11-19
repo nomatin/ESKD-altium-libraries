@@ -1,0 +1,10 @@
+* VT0001 2N7002 -- rds_on_main; catalogue values from Simulation\Transistors\MY_LIB_NMOS_DS.ckt; model MY_LIB_NMOS_DS
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Simulation\Transistors\MY_LIB_NMOS_DS.ckt"
+.OPTIONS TEMP=25 
+* RDS(on): the drain current is forced, VDS is read directly
+VG g 0 DC 10
+IDRN 0 d DC 0.5
+XCUT g 0 d MY_LIB_NMOS_DS PARAMS: VTO=2.069538 KP=0.62202882 THETA=1.508741 CGS=1.1e-11 CGD=2e-12 CDS=2.1e-12 ISbody=4.03031e-17 Nbody=1.0
+.OP
+.PLOT OP V(d) I(IDRN)
+.END

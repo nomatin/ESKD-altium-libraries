@@ -1,0 +1,278 @@
+{
+  "status": "PASS",
+  "test": "mosfet_VT0001_iec_T3",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "min": 0.8,
+      "max": 1.5,
+      "value": 1.4459326659852345,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB_IEC.DbLib",
+    "table": "IEC Transistors",
+    "id": "VT0001",
+    "designator": "X1",
+    "pins": {
+      "1": "g",
+      "2": "0",
+      "3": "d"
+    },
+    "page": "IEC Transistors"
+  },
+  "fixture": null,
+  "run_id": "20261118_021700_c29b86",
+  "artifacts": {
+    "run_dir": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86",
+    "nsx": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86\\Project Outputs for Test_20261118_021700_c29b86\\Test_20261118_021700_c29b86.nsx",
+    "sdf": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86\\Simulation\\Test_20261118_021700_c29b86.sdf"
+  },
+  "stages": {
+    "library_lookup": "PASS",
+    "component_placement": "PASS",
+    "simulation_model": "PASS",
+    "connectivity": "PASS",
+    "netlist_generation": "PASS",
+    "simulation": "PASS",
+    "sdf_parsing": "PASS",
+    "validation": "PASS",
+    "schematic_cleanup": "PASS"
+  },
+  "component_readback": {
+    "design_item_id": "VT0001",
+    "lib_reference": "MOSFET_N_1G2S3D",
+    "database_library_name": "MY_LIB_IEC.DbLib",
+    "database_table_name": "IEC Transistors$",
+    "database_keys": "VT0001",
+    "pin_count": 3,
+    "pins": {
+      "pin.1.designator": "2",
+      "pin.1.name": "Source",
+      "pin.1.electrical": "4",
+      "pin.1.hidden": "False",
+      "pin.1.hotspot": "8100|4200",
+      "pin.2.designator": "3",
+      "pin.2.name": "Drain",
+      "pin.2.electrical": "4",
+      "pin.2.hidden": "False",
+      "pin.2.hotspot": "7800|4200",
+      "pin.3.designator": "1",
+      "pin.3.name": "Gate",
+      "pin.3.electrical": "4",
+      "pin.3.hidden": "False",
+      "pin.3.hotspot": "8000|4000"
+    },
+    "pin_map": {
+      "1": "g",
+      "2": "GND",
+      "3": "d"
+    },
+    "fixtures": [
+      {
+        "type": "V",
+        "name": "VG",
+        "designator": "VG",
+        "x": "1500",
+        "y": "1500",
+        "value": "10",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      },
+      {
+        "type": "I",
+        "name": "IDRN",
+        "designator": "IDRN",
+        "x": "2900",
+        "y": "1500",
+        "value": "0.5",
+        "ac_magnitude": "",
+        "ac_phase": ""
+      }
+    ],
+    "sim_model_found": "True",
+    "sim_model_name": "MY_LIB_NMOS_DS",
+    "sim_port_map": "(2:2),(3:3),(1:1)",
+    "parameters": {
+      "Kind": "General",
+      "SubKind": "Spice Subcircuit",
+      "Spice Prefix": "X",
+      "Excluded Parts": "",
+      "Netlist": "@DESIGNATOR %1 %2 %3 @MODEL PARAMS: VTO=@VT_VTO KP=@VT_KP THETA=@VT_THETA CGS=@VT_CGS CGD=@VT_CGD CDS=@VT_CDS ISbody=@VT_IS Nbody=@VT_N",
+      "ID": "VT0001",
+      "Type": "Transistor",
+      "Value": "2N7002",
+      "Voltage": "60 В (VDS max); ±20 В (VGS max)",
+      "Package": "SOT-23",
+      "Manufacturer": "Infineon Technologies",
+      "MPN": "2N7002",
+      "CommentBase": "Transistor 2N7002",
+      "Notes": "N-Channel MOSFET 60 V / 0.3 A, SOT-23, datasheet package PG-SOT-23, 1=G, 2=S, 3=D. Datasheet: Infineon, Rev. 2.4 (2012-09-04). RDS(on) max 3000 mOhm at 10 V and 4000 mOhm at 4.5 V. Capacitances: datasheet maxima 20/6/3 pF (typical 13/4,1/2). The SOT23-3 footprint is reused (pads 0.60x1.00 mm, pitch 1.90 mm); the manufacturer land pattern recommends 0.9x0.8 mm pads at the same 1.90 mm pitch (see footprint_expectations). VT0001 is switched from UMW (Youtai) to Infineon by explicit owner decision: Pd 0.5 W vs 0.225 W, marking 72s vs 7002, VGS(th) 1.5/2.1/2.5 V vs 1/2.5 V, typical capacitances 13/4.1/2.0 pF vs 50/25/5 pF. SPICE: the parameterised model MY_LIB_NMOS_DS is bound (LEVEL=3 subcircuit, pins 1=G, 2=S, 3=D), calibrated against the Infineon datasheet limits; the VT_* values are set in the catalogue. The Infineon vendor PSpice file was used only as a cross-check and is not shipped. Native Altium rendering not verified.",
+      "ChannelType": "N-Channel",
+      "Description": "Transistor 2N7002",
+      "Datasheet": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_2N7002_Rev2.4_2012-09-04.pdf",
+      "DatasheetRevision": "Rev. 2.4 (2012-09-04)",
+      "ComponentLink1Description": "Datasheet (local)",
+      "ComponentLink1URL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_2N7002_Rev2.4_2012-09-04.pdf",
+      "ComponentLink2Description": "Datasheet (manufacturer)",
+      "ComponentLink2URL": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-2n7002-datasheet-en.pdf",
+      "HelpURL": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\Datasheets\\Transistors\\Infineon_2N7002_Rev2.4_2012-09-04.pdf",
+      "Family": "2N7002",
+      "Configuration": "Single",
+      "PinMapping": "G=1; S=2; D=3",
+      "VdsMaxV": "60",
+      "VgsMaxV": "20",
+      "IdMaxA": "0.3",
+      "PdMaxW": "0.5",
+      "RdsOnMaxOhm10V": "3",
+      "RdsOnMaxOhm5V": "4",
+      "VgsThMinV": "1.5",
+      "VgsThMaxV": "2.5",
+      "CissPf": "20",
+      "CossPf": "6",
+      "CrssPf": "3",
+      "VsdMaxV": "1.2",
+      "Marking": "72s",
+      "VT_VTO": "2.069538",
+      "VT_KP": "0.62202882",
+      "VT_THETA": "1.508741",
+      "VT_CGS": "1.1E-11",
+      "VT_CGD": "2E-12",
+      "VT_CDS": "2.1E-12",
+      "VT_IS": "4.03031E-17",
+      "VT_N": "1",
+      "Comment": "2N7002"
+    },
+    "implementations": [
+      "SOT23-3|PCBLIB|current=1|database=0|files=0",
+      "MY_LIB_NMOS_DS|SIM|current=1|database=0|files=0"
+    ],
+    "implementation_maps": [
+      "(2:2),(3:3),(1:1)",
+      "(2:2),(3:3),(1:1)"
+    ]
+  },
+  "netlist": {
+    "exists": true,
+    "one_dut_instance": true,
+    "no_duplicate_dut": true,
+    "model_definition": true,
+    "model_name_in_instance": true,
+    "pin_order_matches": true,
+    "port_count_matches": true,
+    "unassigned_ports_not_connected": true,
+    "nodes": [
+      "g",
+      "0",
+      "d"
+    ],
+    "instance": [
+      "XX1",
+      "g",
+      "0",
+      "d",
+      "MY_LIB_NMOS_DS",
+      "PARAMS:",
+      "VTO=2.069538",
+      "KP=0.62202882",
+      "THETA=1.508741"
+    ],
+    "all": true
+  },
+  "schema_version": "1.0",
+  "coverage": {
+    "status": "OK",
+    "expected": 1,
+    "completed": 1,
+    "missing": 0,
+    "passed": 1,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "20261118_021700_c29b86:check:0",
+      "run_id": "20261118_021700_c29b86",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": 1.4459326659852345,
+      "unit": null,
+      "error": null,
+      "limits": {
+        "min": 0.8,
+        "max": 1.5
+      },
+      "signal": "v(d)"
+    }
+  ],
+  "validation_status": "ASSERTIONS",
+  "altium_session": {
+    "mode": "hidden",
+    "session_id": "736b45c68472",
+    "desktop": "SpiceSifterHidden-736b45c68472",
+    "pid": 51072,
+    "creation_time": "2026-11-17T23:15:58.894150Z",
+    "altium": "C:\\Program Files\\Altium\\AD24\\X2.EXE",
+    "started_at": "2026-11-17T23:15:58.900789Z",
+    "ready_at": "2026-11-17T23:17:00.129634Z",
+    "ready_elapsed": 61.22,
+    "ready_timeout": 300.0,
+    "owned": true,
+    "job_object": true,
+    "job_managed": true,
+    "working_altium_before": [
+      {
+        "pid": 61252,
+        "start_time": "2026-11-17T19:50:17.6966644Z",
+        "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" "
+      }
+    ],
+    "commands": [
+      {
+        "proc_name": "RunSpiceSifterProbe",
+        "script": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\hidden-probes\\4cd000d6e6\\probe.pas",
+        "launcher_pid": 49800,
+        "launcher_creation_time": "2026-11-17T23:16:52.573892Z",
+        "started_at": "2026-11-17T23:16:52.581522Z",
+        "label": "readiness",
+        "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\hidden-probes\\4cd000d6e6\\probe.pas\"|ProcName=\"RunSpiceSifterProbe\")",
+        "job_assigned": true,
+        "exit_code": null
+      },
+      {
+        "proc_name": "RunExperiment",
+        "script": "C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86\\experiment.pas",
+        "launcher_pid": 41128,
+        "launcher_creation_time": "2026-11-17T23:17:00.284652Z",
+        "started_at": "2026-11-17T23:17:00.291736Z",
+        "label": null,
+        "command_line": "\"C:\\Program Files\\Altium\\AD24\\X2.EXE\" -RScriptingSystem:RunScriptFile(FileName=\"C:\\Users\\Nomatin\\projects\\Spice Tester\\temp\\dblib_runs\\20261118_021700_c29b86\\experiment.pas\"|ProcName=\"RunExperiment\")",
+        "job_assigned": true,
+        "exit_code": null
+      }
+    ],
+    "stop": {
+      "session_id": "736b45c68472",
+      "desktop": "SpiceSifterHidden-736b45c68472",
+      "pid": 51072,
+      "creation_time": "2026-11-17T23:15:58.894150Z",
+      "graceful": false,
+      "job_terminated": true,
+      "identity_rechecked": true,
+      "exit_code": 1,
+      "process_gone": true,
+      "reason": "terminated_owned_job_object",
+      "elapsed": 0.55,
+      "state_kept": false
+    },
+    "reason": "terminated_owned_job_object"
+  }
+}

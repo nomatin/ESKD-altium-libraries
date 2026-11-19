@@ -1,0 +1,26 @@
+{
+  "name": "mosfet_VT0001_iec_T5",
+  "component": {
+    "library": "C:\\Users\\Nomatin\\Documents\\Altium\\MY_LIB\\MY_LIB\\MY_LIB_IEC.DbLib",
+    "table": "IEC Transistors",
+    "id": "VT0001",
+    "designator": "X1",
+    "pins": {
+      "1": "g",
+      "2": "0",
+      "3": "d"
+    }
+  },
+  "spice": "* body diode through the component placed from the database\nVG g 0 DC 0\nIDIO 0 d DC -0.5\n{{DUT}}\n.OP\n.PLOT OP V(d) I(IDIO)\n.END",
+  "checks": [
+    {
+      "analysis": "op",
+      "signal": "v(d)",
+      "measurement": "last",
+      "min": -1.2,
+      "max": -0.864
+    }
+  ],
+  "criteria": "|VSD| inside [0.864; 1.2] V",
+  "models": []
+}

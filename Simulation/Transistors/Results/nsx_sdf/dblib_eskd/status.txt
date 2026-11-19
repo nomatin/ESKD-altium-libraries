@@ -1,0 +1,163 @@
+stage_library_lookup=NOT_RUN
+stage_component_placement=NOT_RUN
+stage_simulation_model=NOT_RUN
+stage_connectivity=NOT_RUN
+stage_netlist_generation=NOT_RUN
+stage_simulation=NOT_RUN
+stage_schematic_cleanup=NOT_RUN
+STARTED
+library_path=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\MY_LIB.DbLib
+library_name=MY_LIB.DbLib
+table_name=Транзисторы$
+database_keys=VT0001
+designator=X1
+stage_library_lookup=PASS
+part_count_no_part0=1
+multipart_flag=False
+current_part_id=1
+designator_readback=X1
+unique_id=DVLKDFJY
+lib_reference=MOSFET_N_1G2S3D
+database_library_name=MY_LIB.DbLib
+database_table_name=Транзисторы$
+database_keys=VT0001
+design_item_id=VT0001
+x_mil=8000
+y_mil=4000
+parameter.Kind=General
+parameter.SubKind=Spice Subcircuit
+parameter.Spice Prefix=X
+parameter.Excluded Parts=
+parameter.Netlist=@DESIGNATOR %1 %2 %3 @MODEL PARAMS: VTO=@VT_VTO KP=@VT_KP THETA=@VT_THETA CGS=@VT_CGS CGD=@VT_CGD CDS=@VT_CDS ISbody=@VT_IS Nbody=@VT_N
+parameter.ID=VT0001
+parameter.Type=Транзистор
+parameter.Value=2N7002
+parameter.ESKD_value=2N7002
+parameter.Voltage=60 В (VDS max); ±20 В (VGS max)
+parameter.Package=SOT-23
+parameter.Manufacturer=Infineon Technologies
+parameter.MPN=2N7002
+parameter.CommentBase=Транзистор 2N7002
+parameter.Notes=N-канал MOSFET 60 В / 0,3 А, SOT-23, корпус паспорта PG-SOT-23, 1=G, 2=S, 3=D. Datasheet: Infineon, Rev. 2.4 (2012-09-04). RDS(on) max 3 Ом при 10 В и 4 Ом при 4,5 В. Ёмкости: максимум паспорта 20/6/3 пФ (тип. 13/4,1/2). Футпринт SOT23-3 переиспользован: площадки 0,60?1,00 мм, шаг 1,90 мм; паспортная рекомендация — площадка 0,9?0,8 мм, шаг 1,90 мм (см. footprint_expectations). Запись VT0001 переводится с UMW (Youtai) на Infineon по явному решению владельца: Pd 0,5 Вт вместо 0,225 Вт, маркировка 72s вместо 7002, VGS(th) 1,5/2,1/2,5 В вместо 1/2,5 В, типовые ёмкости 13/4,1/2,0 пФ вместо 50/25/5 пФ. SPICE: привязана параметризованная модель MY_LIB_NMOS_DS (подсхема LEVEL=3, выводы 1=G, 2=S, 3=D), калиброванная по паспортным пределам Infineon; параметры VT_* задаются в каталоге. Заводская PSpice-модель Infineon использована только как контрольное сравнение и в библиотеку не входит. Нативное отображение в Altium не проверялось.
+parameter.ChannelType=N-Channel
+parameter.Description=Транзистор 2N7002
+parameter.Datasheet=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Datasheets\Transistors\Infineon_2N7002_Rev2.4_2012-09-04.pdf
+parameter.DatasheetRevision=Rev. 2.4 (2012-09-04)
+parameter.ComponentLink1Description=Даташит — локальный
+parameter.ComponentLink1URL=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Datasheets\Transistors\Infineon_2N7002_Rev2.4_2012-09-04.pdf
+parameter.ComponentLink2Description=Даташит — производитель
+parameter.ComponentLink2URL=https://www.infineon.com/assets/row/public/documents/24/49/infineon-2n7002-datasheet-en.pdf
+parameter.HelpURL=C:\Users\Nomatin\Documents\Altium\MY_LIB\MY_LIB\Datasheets\Transistors\Infineon_2N7002_Rev2.4_2012-09-04.pdf
+parameter.Family=2N7002
+parameter.Configuration=Одиночный
+parameter.PinMapping=G=1; S=2; D=3
+parameter.VdsMaxV=60
+parameter.VgsMaxV=20
+parameter.IdMaxA=0.3
+parameter.PdMaxW=0.5
+parameter.RdsOnMaxOhm10V=3
+parameter.RdsOnMaxOhm5V=4
+parameter.VgsThMinV=1.5
+parameter.VgsThMaxV=2.5
+parameter.CissPf=20
+parameter.CossPf=6
+parameter.CrssPf=3
+parameter.VsdMaxV=1.2
+parameter.Marking=72s
+parameter.VT_VTO=2.069538
+parameter.VT_KP=0.62202882
+parameter.VT_THETA=1.508741
+parameter.VT_CGS=1.1E-11
+parameter.VT_CGD=2E-12
+parameter.VT_CDS=2.1E-12
+parameter.VT_IS=4.03031E-17
+parameter.VT_N=1
+parameter.Comment=2N7002
+implementation.0=SOT23-3|PCBLIB|current=1|database=0|files=0
+implementation.map.0=(2:2),(3:3),(1:1)
+implementation.description.0=
+implementation.1=MY_LIB_NMOS_DS|SIM|current=1|database=0|files=0
+implementation.map.1=(2:2),(3:3),(1:1)
+implementation.description.1=Datasheet limit fit at 25C; see model comments.
+sim_model_found=True
+sim_model_name=MY_LIB_NMOS_DS
+sim_port_map=(2:2),(3:3),(1:1)
+pin.1.designator=2
+pin.1.name=Source
+pin.1.electrical=4
+pin.1.hidden=False
+pin.1.hotspot=8100|4200
+pin.2.designator=3
+pin.2.name=Drain
+pin.2.electrical=4
+pin.2.hidden=False
+pin.2.hotspot=7800|4200
+pin.3.designator=1
+pin.3.name=Gate
+pin.3.electrical=4
+pin.3.hidden=False
+pin.3.hotspot=8000|4000
+pin_count=3
+stage_simulation_model=PASS
+stage_component_placement=PASS
+pin_map_count=3
+pin_map.0.designator=1
+pin_map.0.net=g
+pin_map.1.designator=2
+pin_map.1.net=GND
+pin_map.2.designator=3
+pin_map.2.net=d
+fixture_count=2
+fixture.0.type=V
+fixture.0.name=VG
+fixture.0.designator=VG
+fixture.0.x=1500
+fixture.0.y=1500
+fixture.0.value=10
+fixture.0.ac_magnitude=
+fixture.0.ac_phase=
+fixture.0.designator_readback=VG
+fixture.0.value_readback=10
+fixture.0.ac_magnitude_readback=0
+fixture.0.x_readback=1500
+fixture.0.y_readback=1500
+fixture.1.type=I
+fixture.1.name=IDRN
+fixture.1.designator=IDRN
+fixture.1.x=2900
+fixture.1.y=1500
+fixture.1.value=0.5
+fixture.1.ac_magnitude=
+fixture.1.ac_phase=
+fixture.1.designator_readback=IDRN
+fixture.1.value_readback=0.5
+fixture.1.ac_magnitude_readback=0
+fixture.1.x_readback=2900
+fixture.1.y_readback=1500
+compile_result=True
+violation_count=19
+net_count=3
+net.0.name=d|pins=2
+net.0.pin=IDRN|2|uid=\MAWXCLJB
+net.0.pin=X1|3|uid=\DVLKDFJY
+net.1.name=g|pins=2
+net.1.pin=VG|1|uid=\FPZYGHYR
+net.1.pin=X1|1|uid=\DVLKDFJY
+net.2.name=GND|pins=3
+net.2.pin=IDRN|1|uid=\MAWXCLJB
+net.2.pin=VG|2|uid=\FPZYGHYR
+net.2.pin=X1|2|uid=\DVLKDFJY
+stage_connectivity=PASS
+schematic_saved_before_sim=1
+stage_netlist_generation=PASS
+nsx_path=C:\Users\Nomatin\projects\Spice Tester\temp\dblib_runs\20261118_021533_00bf60\Project Outputs for Test_20261118_021533_00bf60\Test_20261118_021533_00bf60.nsx
+current_after_sim=C:\Users\Nomatin\projects\Spice Tester\temp\dblib_runs\20261118_021533_00bf60\Simulation\Test_20261118_021533_00bf60.sdf
+stage_simulation=PASS
+sdf_path=C:\Users\Nomatin\projects\Spice Tester\temp\dblib_runs\20261118_021533_00bf60\Simulation\Test_20261118_021533_00bf60.sdf
+components_final=0
+wires_final=0
+netlabels_final=0
+stage_schematic_cleanup=PASS
+schematic_saved_after_cleanup=1
+script_failed=0
+STATUS=OK

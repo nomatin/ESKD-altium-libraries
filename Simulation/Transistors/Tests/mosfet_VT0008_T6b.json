@@ -1,0 +1,40 @@
+{
+  "name": "mosfet_VT0008_T6b",
+  "models": [
+    "../MY_LIB_PMOS_DS.ckt"
+  ],
+  "spice": "* VT0008 BSS308PE -- coss_crss; catalogue values from Simulation\\Transistors\\MY_LIB_PMOS_DS.ckt; model MY_LIB_PMOS_DS\n* Coss/Crss: gate AC ground, drain driven with AC 1 V, so i(VD) is the current of Cds + Cgd and i(VG) is the current of Cgd\nVG g 0 DC 0 AC 0\nVD d 0 DC -15.0 AC 1\nXCUT g 0 d MY_LIB_PMOS_DS PARAMS: VTO=-1.495291 KP=4.86534581 THETA=0.263157 CGS=3.64e-10 CGD=1.2e-11 CDS=1.84e-10 ISbody=8.16509e-14 Nbody=1.0\n.AC LIN 1 1000000.0 1000000.0\n.PLOT AC V(g) I(VG) V(d) I(VD)\n.END",
+  "temperatures_c": [
+    25
+  ],
+  "checks": [],
+  "measurements": [
+    {
+      "id": "coss",
+      "type": "capacitance_series",
+      "voltage": "v(d)",
+      "current": "i(VD)",
+      "current_sign": -1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 1.862e-10,
+        "max": 2.058e-10
+      }
+    },
+    {
+      "id": "crss",
+      "type": "capacitance_series",
+      "voltage": "v(d)",
+      "current": "i(VG)",
+      "current_sign": 1,
+      "frequency_hz": 1000000.0,
+      "temperature_c": 25,
+      "limits": {
+        "min": 1.14e-11,
+        "max": 1.26e-11
+      }
+    }
+  ],
+  "criteria": "Coss/Crss within +-5% of the datasheet 196/12 pF"
+}
