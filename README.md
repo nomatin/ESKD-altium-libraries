@@ -13,11 +13,11 @@ Both catalogs use the same catalog IDs and manufacturer part numbers (MPNs). Eac
 
 ## Library contents
 
-As of November 18, 2026, each catalog contains **1,970 components**, of which **1,568 have a SPICE model linked**. The table counts each component once.
+As of November 19, 2026, each catalog contains **1,980 components**, of which **1,578 have a SPICE model linked**. The table counts each component once.
 
 | Category | Components | SPICE coverage | Representative parts and series |
 |---|---:|---:|---|
-| Resistors | 582 | 582 / 582 (100%) | YAGEO RC |
+| Resistors | 592 | 592 / 592 (100%) | YAGEO RC, Vishay WSK2512 |
 | Capacitors | 578 | 578 / 578 (100%) | YAGEO CC X7R, C0G (NP0) |
 | Diodes | 235 | 235 / 235 (100%) | Vishay, Nexperia, Diotec, Yangjie |
 | Connectors | 395 | 0 / 395 (0%) | GCT, CONNFLY, JST PH/XH, AMASS XT30/XT60/XT90 and MR30/MR60 (37 parts with STEP models) |
@@ -30,7 +30,7 @@ As of November 18, 2026, each catalog contains **1,970 components**, of which **
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
 | Modules | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
 | Inductors | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
-| **Total** | **1,970** | **1,568 / 1,970 (79.6%)** | |
+| **Total** | **1,980** | **1,578 / 1,980 (79.7%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 

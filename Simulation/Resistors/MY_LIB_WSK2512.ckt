@@ -1,0 +1,17 @@
+* MY_LIB four-terminal Kelvin shunt, Vishay Dale WSK2512.
+* Source: Vishay 30108, 11-Dec-2023, pp. 1-2.
+* https://www.vishay.com/docs/30108/wsk2512.pdf
+* Local catalog pads and ports: 1=I+, 2=S+, 3=S-, 4=I-.
+* Rvalue is the nominal resistance in ohms. Default TC1value=0.
+* A signed TC1value can exercise a linear corner around 25 deg C.
+* Datasheet TCR limits (relevant variants): +/-250 ppm/C at 1 mOhm,
+* +/-75 ppm/C at 3 mOhm and +/-35 ppm/C at 5 through 25 mOhm.
+* Sense links are 1 microohm numerical regularizers (not measured).
+* The nominal model omits force contact resistance, tolerance,
+* self-heating, power limits, aging and AC parasitics.
+.SUBCKT MY_LIB_WSK2512 1 2 3 4 PARAMS: Rvalue=0.01 TC1value=0
+Rshunt 1 4 RWSK {Rvalue}
+Rsensep 1 2 1u
+Rsensem 4 3 1u
+.MODEL RWSK R (TC1={TC1value} TNOM=25)
+.ENDS MY_LIB_WSK2512
