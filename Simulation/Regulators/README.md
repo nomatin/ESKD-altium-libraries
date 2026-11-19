@@ -81,7 +81,7 @@ Excel/DbLib is what joins them.
 SOT23-5L pin 4 is NC on the fixed versions and is not a model port. The pad
 stays in the footprint without a net.
 
-Suggested netlist lines, matching `input/spec.json`:
+Suggested netlist lines, matching `Tests/ldk_spec.json`:
 
 ```
 @DESIGNATOR %1 %2 %3 %4 @MODEL PARAMS: VNOM=<nominal>
@@ -221,56 +221,44 @@ measurement. See NOT_MODELED.
   internal feedback divider and it is invisible at the terminals only because
   `GIqComp` cancels it exactly.
 
-## Verification status
+## Verification (independent SPICE Test Agent)
 
-The author of a model does not approve its acceptance tests (TZ v1.1
-section 6.3). The acceptance tests are written and run by the independent
-SPICE Test Agent.
+Tests and saved reports are published in this directory, next to the model:
 
-What was done here is a developer sanity check only, with
-`_dev_sanity.py` / `_dev_sanity.json` / `_dev_sanity.log` in this directory:
-ngspice-44 from the KiCad 9 DLL, `.op`, `.dc`, `.ac` and `.tran`, all seven
-subcircuits, 67 recorded measurements (23 of them with a datasheet-derived
-target band), all on target, no convergence warnings and no singular-matrix
-messages. Representative results (diagnostic, not acceptance criteria):
+- `Tests/test_ldk_ngspice.py` with `Tests/ngspice_bridge.py` and `Tests/ldk_spec.json` —
+  independent acceptance suite covering all 32 catalogue variants and all seven
+  subcircuits (nominal VOUT, load regulation, dropout, IQ, EN logic, output
+  discharge, current limit and start-up). Run with
+  `python Tests/test_ldk_ngspice.py` from `Simulation/Regulators/` with KiCad 9
+  installed; results are written to `Results/ngspice_ldk_acceptance.json` and
+  `.log`. **369/369 checks PASS.**
+- `Tests/sifter_ldk*.json` and `Tests/run_sifter_ldk.py` — seven standalone
+  Altium MixedSim (Spice Sifter) tests verifying that `PARAMS: VNOM=/VREF=`
+  inside `VALUE={...}` is accepted natively. Reports, NSX and SDF copies are in
+  `Results/sifter_ldk*`. **7/7 tests PASS** with Altium Designer 24.4.1.13.
+- `Results/ldk_validation.json` — consolidated machine-readable summary,
+  including model SHA-256, check counts, criteria basis and findings.
 
-| Check | Result |
-|---|---|
-| LDK220 fixed VOUT, no load | 3.299999 V |
-| LDK220 fixed VOUT at 200 mA | 3.293412 V (0.033 ohm slope) |
-| LDK220 fixed IQ, no load / 200 mA / off | 55.00 / 59.99 / 0.100 uA |
-| LDK220 fixed ISC | 400.07 mA |
-| LDK220 fixed dropout resistance at VIN = 3.0 V | 1.0002 ohm |
-| LDK220 fixed EN turn-on threshold | 0.68 V |
-| LDK220 fixed t90 from the EN edge | 201.0 us |
-| LDK220 fixed VOUT after disable, 1 uF COUT | 3.273 V at +1 us, 1.960 V at +10 us, 0.211 V at +50 us |
-| LDK220 ADJ VOUT, R1 = R2 = 10 k | 2.369409 V, V(ADJ) = 1.184655 V |
-| LDK220 ADJ VOUT, R1 = 10 k, R2 = 1.65 k | 8.3655 V (nominal 8.3668 V) |
-| LDK320 fixed IQ, no load / 200 mA / off | 60.00 / 69.98 / 0.200 uA |
-| LDK320 fixed ISC at VIN = 5 / 11 / 12 / 16 V | 330.08 / 265.09 / 200.08 / 200.07 mA |
-| LDK320 fixed VOUT 1.8 V at 200 mA | 1.790054 V (0.050 ohm slope) |
-| LDK320 fixed VOUT 12 V at 200 mA | 11.97603 V |
-| LDK320 ADJ VOUT, VREF = 1.2, R1 = R2 = 10 k | 2.399401 V |
-| SOT-89 variants, 200 mA / no load | 3.293412 / 3.299999 V |
+Known findings (documented, not silently fixed): in ngspice `.op`, LDK320 fixed
+subcircuits with an ideal current-sink load can fall back to a non-physical
+operating point; the acceptance suite therefore uses resistive loads, and the
+native Altium calculation passed. A second informational finding is that
+ngspice aliases the subcircuit port name `GND` to the global ground node 0;
+this is harmless when the evaluated pin is wired to SPICE ground, as in every
+acceptance deck.
 
-Not verified here:
-
-- Altium MixedSim / Spice Sifter was not run for this model. The construct
-  set matches `MY_LIB_TLV75533P_DS.ckt`, but native acceptance of
-  `PARAMS:` values inside `VALUE={...}` for these subcircuits still has to be
-  confirmed by the Test Agent.
-- DbLib binding, Sim Port Map and the Excel rows are outside this file.
-- No native Altium display of the symbol or footprint was involved.
+Not covered: DbLib placement through the Altium Components panel, native symbol
+and footprint rendering, temperature dependence, tolerance spread, PSRR,
+noise, thermal shutdown and loop stability. The model is a typical-value
+behavioural approximation at TJ = 25 C, not a factory netlist.
 
 ## Notes for integration
 
 - The model is shared by both the ESKD and the IEC catalogue; only one file is
   needed and it is referenced relatively.
-- `VNOM` must be set per fixed variant (1.5, 1.8, 2.5, 3.0, 3.3, 3.6, 5.0,
-  12.0 V as listed in `input/spec.json`) and `VREF` per adjustable variant
+- `VNOM` is set per fixed variant (1.5, 1.8, 2.5, 3.0, 3.3, 3.6, 5.0,
+  12.0 V as listed in `Tests/ldk_spec.json`) and `VREF` per adjustable variant
   (1.185 V or 1.2 V).
 - The adjustable subcircuits expect an external divider. With ADJ left open
   the internal 120 Mohm pulls the pin to ground and the output runs to the
   current limit, exactly as an open-feedback regulator would.
-- `_dev_sanity.py` is a developer diagnostic, not a test suite. Do not use it
-  as evidence of acceptance.

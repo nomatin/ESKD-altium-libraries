@@ -1,0 +1,126 @@
+{
+  "kind": "standalone_spice_sifter",
+  "tool": "C:\\Users\\Nomatin\\projects\\Spice Tester\\spice_sifter.py",
+  "simulator": "Altium MixedSim 24.4.1.13 (standalone SPICE mode)",
+  "tests": [
+    {
+      "test": "sifter_ldk220_fixed.json",
+      "name": "sifter_ldk220_fixed_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.298909983965018
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk220_fixed.nsx",
+        ".sdf": "sifter_ldk220_fixed.sdf",
+        "run.log": "sifter_ldk220_fixed_run.log"
+      },
+      "report": "sifter_ldk220_fixed_report.json"
+    },
+    {
+      "test": "sifter_ldk220_adj.json",
+      "name": "sifter_ldk220_adj_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.3179534635475534
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk220_adj.nsx",
+        ".sdf": "sifter_ldk220_adj.sdf",
+        "run.log": "sifter_ldk220_adj_run.log"
+      },
+      "report": "sifter_ldk220_adj_report.json"
+    },
+    {
+      "test": "sifter_ldk220_sot89.json",
+      "name": "sifter_ldk220_sot89_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.29890998396499
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk220_sot89.nsx",
+        ".sdf": "sifter_ldk220_sot89.sdf",
+        "run.log": "sifter_ldk220_sot89_run.log"
+      },
+      "report": "sifter_ldk220_sot89_report.json"
+    },
+    {
+      "test": "sifter_ldk320_fixed.json",
+      "name": "sifter_ldk320_fixed_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.298909983965018
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk320_fixed.nsx",
+        ".sdf": "sifter_ldk320_fixed.sdf",
+        "run.log": "sifter_ldk320_fixed_run.log"
+      },
+      "report": "sifter_ldk320_fixed_report.json"
+    },
+    {
+      "test": "sifter_ldk320_adj.json",
+      "name": "sifter_ldk320_adj_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.3599528744785516
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk320_adj.nsx",
+        ".sdf": "sifter_ldk320_adj.sdf",
+        "run.log": "sifter_ldk320_adj_run.log"
+      },
+      "report": "sifter_ldk320_adj_report.json"
+    },
+    {
+      "test": "sifter_ldk320_sot89_std.json",
+      "name": "sifter_ldk320_sot89_std_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.29890998396499
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk320_sot89_std.nsx",
+        ".sdf": "sifter_ldk320_sot89_std.sdf",
+        "run.log": "sifter_ldk320_sot89_std_run.log"
+      },
+      "report": "sifter_ldk320_sot89_std_report.json"
+    },
+    {
+      "test": "sifter_ldk320_sot89_d.json",
+      "name": "sifter_ldk320_sot89_d_params",
+      "status": "PASS",
+      "returncode": 0,
+      "error": null,
+      "values": [
+        3.29890998396499
+      ],
+      "artifacts": {
+        ".nsx": "sifter_ldk320_sot89_d.nsx",
+        ".sdf": "sifter_ldk320_sot89_d.sdf",
+        "run.log": "sifter_ldk320_sot89_d_run.log"
+      },
+      "report": "sifter_ldk320_sot89_d_report.json"
+    }
+  ],
+  "started_utc": "2026-11-18T11:14:49Z",
+  "checks_total": 7,
+  "passed": 7,
+  "failed": 0,
+  "errors": 0,
+  "status": "PASS",
+  "duration_s": 51.2
+}

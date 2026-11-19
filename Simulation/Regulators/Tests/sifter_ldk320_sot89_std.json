@@ -1,0 +1,8 @@
+{
+  "name": "sifter_ldk320_sot89_std_params",
+  "models": ["../MY_LIB_LDK_REGULATORS_DS.ckt"],
+  "spice": "* LDK320 SOT-89 standard pinout (OUT GND IN), PARAMS VNOM\nVIN IN 0 DC 4.3\nCIN IN 0 1u\nCOUT OUT 0 1u\nRL OUT 0 100\nXU1 OUT 0 IN MY_LIB_LDK320_SOT89_STD_DS PARAMS: VNOM=3.3\n.TRAN 1u 2m\n.PLOT TRAN V(out)\n.END",
+  "checks": [
+    {"analysis": "tran", "signal": "v(out)", "measurement": "last", "min": 3.234, "max": 3.366}
+  ]
+}

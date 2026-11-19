@@ -1,0 +1,8 @@
+{
+  "name": "sifter_ldk320_adj_params",
+  "models": ["../MY_LIB_LDK_REGULATORS_DS.ckt"],
+  "spice": "* LDK320 ADJ SOT23-5L, PARAMS VREF=1.2 inside VALUE={}\nVIN IN 0 DC 5\nVEN EN 0 DC 5\nCIN IN 0 1u\nCOUT OUT 0 1u\nR1 OUT ADJ 18k\nR2 ADJ 0 10k\nRL OUT 0 100\nXU1 IN 0 EN ADJ OUT MY_LIB_LDK320_ADJ_DS PARAMS: VREF=1.2\n.TRAN 1u 2m\n.PLOT TRAN V(out)\n.END",
+  "checks": [
+    {"analysis": "tran", "signal": "v(out)", "measurement": "last", "min": 3.2928, "max": 3.4272}
+  ]
+}

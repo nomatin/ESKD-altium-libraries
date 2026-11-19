@@ -1,0 +1,11 @@
+* LDK220 fixed SOT23-5L, PARAMS VNOM in VALUE={}
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\work\component_pipeline\run-20261118-ldk220-ldk320\spice\work\MY_LIB_LDK_REGULATORS_DS.ckt"
+VIN IN 0 DC 4.3
+VEN EN 0 DC 5
+CIN IN 0 1u
+COUT OUT 0 1u
+RL OUT 0 100
+XU1 IN 0 EN OUT MY_LIB_LDK220_FIXED_DS PARAMS: VNOM=3.3
+.TRAN 1u 2m
+.PLOT TRAN V(out)
+.END

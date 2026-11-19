@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "kind": "independent_spice_validation",
+  "run_id": "run-20261118-ldk220-ldk320",
+  "stage": "TZ v1.1 section 6.3 - independent SPICE acceptance",
+  "agent": "independent SPICE Test Agent",
+  "checked_at_utc": "2026-11-18T11:16:04Z",
+  "status": "PASS",
+  "inputs": {
+    "spec_file": "Tests/ldk_spec.json",
+    "spec_sha256": "4f2939b42bac839804562521ae62b960ac747257a558673bb04727a2031d3d74",
+    "variants": 32,
+    "id_range": "U0012..U0043",
+    "note": "spec.json was re-read from disk after the final renumbering; LDK320AM15R is absent and no U0011 appears. The independent suite reads the variant list directly from this file.",
+    "datasheets": [
+      "LDK220 ST DS10219 Rev 7 (11/2021), Tables 6/7, Figs 14/23",
+      "LDK320 ST DS11321 Rev 13 (06/2025), Tables 6/7, Figs 13/22"
+    ],
+    "author_dev_sanity_read": false
+  },
+  "model": {
+    "file": "Simulation/Regulators/MY_LIB_LDK_REGULATORS_DS.ckt",
+    "sha256": "6ef3a57c7429d8c5dbbb02fa0fd7dc3fa30f33eb8601bdaefe12dea3e1033b32",
+    "subcircuits": 7,
+    "names": [
+      "MY_LIB_LDK220_FIXED_DS",
+      "MY_LIB_LDK220_ADJ_DS",
+      "MY_LIB_LDK220_SOT89_DS",
+      "MY_LIB_LDK320_FIXED_DS",
+      "MY_LIB_LDK320_ADJ_DS",
+      "MY_LIB_LDK320_SOT89_STD_DS",
+      "MY_LIB_LDK320_SOT89_D_DS"
+    ]
+  },
+  "ngspice": {
+    "status": "PASS",
+    "engine": "ngspice-44 from KiCad 9.0 ngspice.dll (CDLL bridge, one child process per deck)",
+    "suite": "Simulation/Regulators/Tests/test_ldk_ngspice.py",
+    "results_file": "Simulation/Regulators/Results/ngspice_ldk_acceptance.json",
+    "log_file": "Simulation/Regulators/Results/ngspice_ldk_acceptance.log",
+    "counts": {
+      "checks": 369,
+      "passed": 369,
+      "failed": 0,
+      "variants": 32,
+      "subcircuits": 7
+    },
+    "checks_by_group": {
+      "structure": 4,
+      "accuracy": 35,
+      "load_regulation": 32,
+      "dropout": 24,
+      "quiescent": 87,
+      "enable": 49,
+      "discharge": 23,
+      "current_limit": 51,
+      "startup": 64
+    },
+    "coverage": [
+      "Nominal VOUT at 1 mA with VIN = max(VNOM+1, 2.5) V; ADJ uses R1=18k/R2=10k and target VREF*(1+R1/R2) = 2.8*VREF",
+      "VOUT at 200 mA plus 1 mA-to-200 mA load slope against datasheet %%/mA and mV limits",
+      "Dropout at 100 and 200 mA by the datasheet definition (VIN-VOUT at VOUT = VNOM-100 mV): all 12 fixed 3.3/5.0 V catalogue positions, the only VOUT values with a published dropout condition",
+      "IQ at no load, 200 mA and off mode (EN=0); EN logic at 0.4/1.2 V; 18 ohm discharge on LDK220 SOT23-5L and its absence on LDK320",
+      "ISC ~400 mA (LDK220); ~330 mA at low drop and ~200 mA at VIN=16 V (LDK320 SOA); startup t90 with COUT=1 uF",
+      "VEN threshold sweep and structural/portability checks of the model file"
+    ],
+    "criteria_basis": "Datasheet min/max limits for guaranteed parameters; documented engineering windows around datasheet typicals for dropout, ISC, Rdis, Ton and IQ. No criterion was fitted to author-reported values. Model has no tolerance or temperature modelling, so only TJ = 25 C typical behaviour is asserted.",
+    "findings": [
+      {
+        "id": "LDK320_STIFF_LOAD_CONVERGENCE",
+        "severity": "WARNING",
+        "summary": "In ngspice .op, LDK320 fixed subcircuits with an ideal 100 mA current-sink load fall back to the transient operating point and return a non-physical VOUT. Resistive loads converge; the acceptance suite uses resistive loads everywhere."
+      }
+    ],
+    "operating_point_fallbacks": 6,
+    "fallback_note": "5 acceptance decks (IQ at no load) plus the dedicated convergence probe used ngspice's transient OP fallback; their recorded values are inside the acceptance windows and are not hidden. Native Altium convergence was checked separately by the Sifter tests below.",
+    "duration_s": 85.6
+  },
+  "spice_sifter": {
+    "status": "PASS",
+    "tool": "C:/Users/Nomatin/projects/Spice Tester/spice_sifter.py",
+    "tool_note": "The dbur_test.py name referenced in the task no longer exists on disk; spice_sifter.py is the current standalone SPICE runner of the same Spice Tester project.",
+    "mode": "standalone SPICE (test JSON with spice deck + models include), Altium Designer 24.4.1.13",
+    "objective": "Verify native MixedSim acceptance of PARAMS: VNOM=/VREF= substituted inside VALUE={...} in all seven subcircuits",
+    "tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "errors": 0,
+    "summary_file": "Simulation/Regulators/Results/sifter_ldk_summary.json",
+    "results": [
+      {
+        "test": "tests/sifter_ldk220_fixed.json",
+        "subcircuit": "MY_LIB_LDK220_FIXED_DS",
+        "param": "VNOM=3.3",
+        "vout_v": 3.298909983965018,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk220_fixed.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk220_fixed.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk220_fixed_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk220_adj.json",
+        "subcircuit": "MY_LIB_LDK220_ADJ_DS",
+        "param": "VREF=1.185",
+        "vout_v": 3.3179534635475534,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk220_adj.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk220_adj.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk220_adj_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk220_sot89.json",
+        "subcircuit": "MY_LIB_LDK220_SOT89_DS",
+        "param": "VNOM=3.3",
+        "vout_v": 3.29890998396499,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk220_sot89.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk220_sot89.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk220_sot89_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk320_fixed.json",
+        "subcircuit": "MY_LIB_LDK320_FIXED_DS",
+        "param": "VNOM=3.3",
+        "vout_v": 3.298909983965018,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk320_fixed.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk320_fixed.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk320_fixed_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk320_adj.json",
+        "subcircuit": "MY_LIB_LDK320_ADJ_DS",
+        "param": "VREF=1.2",
+        "vout_v": 3.3599528744785516,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk320_adj.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk320_adj.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk320_adj_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk320_sot89_std.json",
+        "subcircuit": "MY_LIB_LDK320_SOT89_STD_DS",
+        "param": "VNOM=3.3",
+        "vout_v": 3.29890998396499,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk320_sot89_std.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk320_sot89_std.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk320_sot89_std_report.json"
+      },
+      {
+        "test": "tests/sifter_ldk320_sot89_d.json",
+        "subcircuit": "MY_LIB_LDK320_SOT89_D_DS",
+        "param": "VNOM=3.3",
+        "vout_v": 3.29890998396499,
+        "status": "PASS",
+        "nsx": "Simulation/Regulators/Results/sifter_ldk320_sot89_d.nsx",
+        "sdf": "Simulation/Regulators/Results/sifter_ldk320_sot89_d.sdf",
+        "report": "Simulation/Regulators/Results/sifter_ldk320_sot89_d_report.json"
+      }
+    ],
+    "duration_s": 51.2
+  },
+  "scope_notes": [
+    "No author diagnostics (_dev_sanity.py / _dev_sanity.json) were read or used as evidence.",
+    "No files in MY_LIB/ or spice/work/ were modified; only spice/tests/, spice/results/ and this validation.json were written.",
+    "Native Altium symbol/footprint display, DbLib binding and Sim Port Map integration are outside this SPICE test.",
+    "The model has no temperature dependence, tolerance spread, PSRR, noise, thermal shutdown or loop dynamics; those properties were not asserted."
+  ]
+}

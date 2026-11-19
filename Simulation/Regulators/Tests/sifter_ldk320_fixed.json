@@ -1,0 +1,8 @@
+{
+  "name": "sifter_ldk320_fixed_params",
+  "models": ["../MY_LIB_LDK_REGULATORS_DS.ckt"],
+  "spice": "* LDK320 fixed SOT23-5L, PARAMS VNOM in VALUE={}\nVIN IN 0 DC 4.3\nVEN EN 0 DC 5\nCIN IN 0 1u\nCOUT OUT 0 1u\nRL OUT 0 100\nXU1 IN 0 EN OUT MY_LIB_LDK320_FIXED_DS PARAMS: VNOM=3.3\n.TRAN 1u 2m\n.PLOT TRAN V(out)\n.END",
+  "checks": [
+    {"analysis": "tran", "signal": "v(out)", "measurement": "last", "min": 3.234, "max": 3.366}
+  ]
+}

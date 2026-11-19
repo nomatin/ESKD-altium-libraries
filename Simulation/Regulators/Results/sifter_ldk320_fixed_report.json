@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "test": "sifter_ldk320_fixed_params",
+  "simulator": "Altium MixedSim",
+  "checks": [
+    {
+      "analysis": "tran",
+      "signal": "v(out)",
+      "measurement": "last",
+      "min": 3.234,
+      "max": 3.366,
+      "value": 3.298909983965018,
+      "passed": true
+    }
+  ],
+  "error": null,
+  "artifacts": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\71e4038334cd4935974d03c25ae13649",
+  "diagnostics": {
+    "script_started": true,
+    "status": {
+      "STATUS": "OK",
+      "SDF_PATH": "C:\\Users\\Nomatin\\AppData\\Local\\Temp\\SpiceSifter\\71e4038334cd4935974d03c25ae13649\\test.sdf"
+    },
+    "files": [
+      "collect.pas",
+      "run.log",
+      "run_22526eea11234bb895b88960c258c66c.pas",
+      "started.txt",
+      "status.txt",
+      "test.nsx",
+      "test.sdf"
+    ]
+  },
+  "schema_version": "1.0",
+  "run_id": "run_001",
+  "coverage": {
+    "status": "OK",
+    "expected": 1,
+    "completed": 1,
+    "missing": 0,
+    "passed": 1,
+    "failed": 0,
+    "measured": 0,
+    "errors": 0,
+    "not_run": 0
+  },
+  "results": [
+    {
+      "result_id": "run_001:check:0",
+      "run_id": "run_001",
+      "kind": "check",
+      "id": 0,
+      "status": "PASS",
+      "value": 3.298909983965018,
+      "unit": null,
+      "error": null,
+      "limits": {
+        "min": 3.234,
+        "max": 3.366
+      },
+      "signal": "v(out)"
+    }
+  ],
+  "validation_status": "ASSERTIONS"
+}

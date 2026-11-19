@@ -1,0 +1,13 @@
+* LDK320 ADJ SOT23-5L, PARAMS VREF=1.2 inside VALUE={}
+.include "C:\Users\Nomatin\Documents\Altium\MY_LIB\work\component_pipeline\run-20261118-ldk220-ldk320\spice\work\MY_LIB_LDK_REGULATORS_DS.ckt"
+VIN IN 0 DC 5
+VEN EN 0 DC 5
+CIN IN 0 1u
+COUT OUT 0 1u
+R1 OUT ADJ 18k
+R2 ADJ 0 10k
+RL OUT 0 100
+XU1 IN 0 EN ADJ OUT MY_LIB_LDK320_ADJ_DS PARAMS: VREF=1.2
+.TRAN 1u 2m
+.PLOT TRAN V(out)
+.END
