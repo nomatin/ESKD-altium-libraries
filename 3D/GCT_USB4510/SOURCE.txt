@@ -1,0 +1,7 @@
+USB4510-03-1-A STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fhorizontal%2Fusb4510%2Fusb4510.prj
+SHA256: 5A262820311606E893ED91566A5FCAF13B3608B2793C232D0F45EB642A322773
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.

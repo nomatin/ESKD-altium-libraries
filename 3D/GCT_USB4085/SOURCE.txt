@@ -1,0 +1,7 @@
+USB4085-GF-A STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fhorizontal%2Fusb4085%2Fusb4085.prj
+SHA256: 8462DEAD54966AF34BF8751EF466C4670619236997B3A2E9E6E19B13CF232F0A
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.

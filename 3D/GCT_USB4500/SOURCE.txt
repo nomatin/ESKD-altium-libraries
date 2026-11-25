@@ -1,0 +1,8 @@
+USB4500-03-1-A STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fhorizontal%2Fusb4500%2Fusb4500.prj&mident=SSPRING=1
+Выбран вариант серии: SSPRING=1.
+SHA256: F642C40C1D7F462DF9E7012A34ECD56527692C761DD4860895333CB034107126
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.

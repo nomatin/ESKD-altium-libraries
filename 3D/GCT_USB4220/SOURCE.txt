@@ -1,0 +1,8 @@
+USB4220-03-0880-C STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fvertical%2Fusb4220%2Fusb4220.prj&mident=PROFILE=0880
+Выбран вариант серии: PROFILE=0880.
+SHA256: 046EA1ACEF6913C55FFBEBCA30C5BB3735E17DDD08CB88BE8631BEFBAA2F463A
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.

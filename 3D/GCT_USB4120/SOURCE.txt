@@ -1,0 +1,7 @@
+USB4120-03-C STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fvertical%2Fusb4120%2Fusb4120.prj
+SHA256: BAA80C0DD75D59B6C216414D3DCBCC307B07541FE58938F5861B8BA0B7A38FCA
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.

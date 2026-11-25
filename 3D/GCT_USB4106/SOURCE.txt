@@ -1,0 +1,8 @@
+USB4106-GF-A STEP model
+Retrieved: 2026-11-25
+Source: https://raw.githubusercontent.com/RemiFM/USB-LiDAR-VL53L9/HEAD/pcb/3d/USB4106-GF-A.stp
+SHA256: 04BD8933382DA9C12BD7076B34470C2788E9B1CDAA46D45AD10FB62C3B88D67F
+Format: ISO-10303-21 STEP, units millimetres.
+Origin: открытое зеркало GitHub (SolidWorks 2026), модель НЕ подтверждена производителем.
+Note: на портале GCT CADENAS позиция USB4106 на 25.11.2026 отсутствует.
+Validation: структура STEP проверена; габарит по одной оси выходит за ±0,3 мм от чертежа.

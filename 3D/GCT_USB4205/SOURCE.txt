@@ -1,0 +1,7 @@
+USB4205-GF-A STEP model
+Retrieved: 2026-11-25
+Source: https://gct-embedded.partcommunity.com/service/export?language=en&rt=File&format=STEP&path=gct%2Fusb_connector%2Ftype_c%2Ftype_c%2Fflag_type%2Fusb4205%2Fusb4205.prj
+SHA256: 3F7109639389476BA9A42363B43EE0FBF29ACC3D7A0BD81758F68BF3A9A48D19
+Format: ISO-10303-21 STEP, AP214/AP203 (выбирает портал), units millimetres.
+Origin: Официальная модель GCT с портала CADENAS (gct-embedded.partcommunity.com), получена через /service/export без входа в аккаунт. Лицензия CC BY-ND 4.0.
+Validation: структура STEP проверена, габариты сверены с чертежом GCT.
