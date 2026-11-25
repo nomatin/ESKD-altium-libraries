@@ -1268,3 +1268,31 @@ Options=FieldName=IEC Crystals$.OperatingTemperature|TableNameOnly=IEC Crystals$
 
 [FieldMap545]
 Options=FieldName=IEC Modules$.ShortDescription|TableNameOnly=IEC Modules$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table14]
+SchemaName=
+TableName=IEC Special Symbols$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap546]
+Options=FieldName=IEC Special Symbols$.ID|TableNameOnly=IEC Special Symbols$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap547]
+Options=FieldName=IEC Special Symbols$.Type|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap548]
+Options=FieldName=IEC Special Symbols$.MPN|TableNameOnly=IEC Special Symbols$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap549]
+Options=FieldName=IEC Special Symbols$.Comment|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap550]
+Options=FieldName=IEC Special Symbols$.CommentBase|TableNameOnly=IEC Special Symbols$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap551]
+Options=FieldName=IEC Special Symbols$.Description|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap552]
+Options=FieldName=IEC Special Symbols$.Library Ref|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap553]
+Options=FieldName=IEC Special Symbols$.Library Path|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap554]
+Options=FieldName=IEC Special Symbols$.Footprint Ref|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap555]
+Options=FieldName=IEC Special Symbols$.Footprint Path|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap556]
+Options=FieldName=IEC Special Symbols$.Notes|TableNameOnly=IEC Special Symbols$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

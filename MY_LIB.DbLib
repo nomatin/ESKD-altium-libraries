@@ -1294,3 +1294,31 @@ Options=FieldName=Кварцевые резонаторы$.OperatingTemperature|TableNameOnly=Кварц
 
 [FieldMap558]
 Options=FieldName=Модули$.ShortDescription|TableNameOnly=Модули$|FieldNameOnly=ShortDescription|FieldType=1|ParameterName=ShortDescription|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[Table14]
+SchemaName=
+TableName=Специальные символы$
+Enabled=True
+UserWhere=0
+UserWhereText=[ID] = '{ID}'
+[FieldMap559]
+Options=FieldName=Специальные символы$.ID|TableNameOnly=Специальные символы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap560]
+Options=FieldName=Специальные символы$.Type|TableNameOnly=Специальные символы$|FieldNameOnly=Type|FieldType=1|ParameterName=Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap561]
+Options=FieldName=Специальные символы$.MPN|TableNameOnly=Специальные символы$|FieldNameOnly=MPN|FieldType=1|ParameterName=MPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap562]
+Options=FieldName=Специальные символы$.Comment|TableNameOnly=Специальные символы$|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap563]
+Options=FieldName=Специальные символы$.CommentBase|TableNameOnly=Специальные символы$|FieldNameOnly=CommentBase|FieldType=1|ParameterName=CommentBase|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap564]
+Options=FieldName=Специальные символы$.Description|TableNameOnly=Специальные символы$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap565]
+Options=FieldName=Специальные символы$.Library Ref|TableNameOnly=Специальные символы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap566]
+Options=FieldName=Специальные символы$.Library Path|TableNameOnly=Специальные символы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap567]
+Options=FieldName=Специальные символы$.Footprint Ref|TableNameOnly=Специальные символы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap568]
+Options=FieldName=Специальные символы$.Footprint Path|TableNameOnly=Специальные символы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap569]
+Options=FieldName=Специальные символы$.Notes|TableNameOnly=Специальные символы$|FieldNameOnly=Notes|FieldType=1|ParameterName=Notes|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
