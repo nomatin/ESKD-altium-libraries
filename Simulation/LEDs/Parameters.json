@@ -667,6 +667,326 @@
         "DiodeAREA=ISvalue/1e-28 is numerical scaling, not die area; modelRS is compensated byAREA to preserve fittedRS",
         "N=2 and RS=0 are explicitly assumed; other currents are unvalidated interpolation/extrapolation"
       ]
+    },
+    {
+      "id": "HL0015",
+      "mpn": "TO-2106BC-BF",
+      "params": {
+        "ISvalue": 1.4089445462511115e-16,
+        "Nvalue": 3.4020360420272717,
+        "RSvalue": 14.955948520615065
+      },
+      "instance_parameters": "ISvalue=1.40894454625e-16 Nvalue=3.40203604203 RSvalue=14.9559485206",
+      "basis": "digitized_forward_curve_fit",
+      "source": "../../Datasheets/Oasistek_LED/TO-2106BC-BF.pdf",
+      "source_sha256": "6b5b9d8a7445e95696f3370a0ff6f5f015bb2a068082031e5dab4c93fb860c8e",
+      "revision": "Rev A-1; 2018-03-27; GS1803024",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": null,
+        "vf_min_v": 2.8,
+        "vf_max_v": 3.5
+      },
+      "model_vf20_v": 3.1474095795813937,
+      "fit_points": [
+        {
+          "if_a": 0.002,
+          "vf_v": 2.6778,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.005,
+          "vf_v": 2.7988,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 2.94,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.015,
+          "vf_v": 3.0509,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 3.1417,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.025,
+          "vf_v": 3.2426,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.03,
+          "vf_v": 3.3333,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.007,
+          "vf_v": 2.8593,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 2.9904,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.018000000000000002,
+          "vf_v": 3.1014,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.023,
+          "vf_v": 3.2022,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.028,
+          "vf_v": 3.293,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": null,
+        "printed_max": "10 Ma",
+        "unit_ambiguous": true
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.002,
+          0.03
+        ]
+      },
+      "assumptions": [
+        "Approximation of a printed curve. The electrical table only specifies minimum and maximum VF.",
+        "Only fit the forward curve after the visually located knee. Approximate digitization error +/-30 mV.",
+        "Is is a forward fit coefficient. Reverse leakage and breakdown are uncharacterized by this model.",
+        "Fixed junction temperature +25 C. Capacitance, recovery, self-heating and optical behavior are omitted."
+      ],
+      "maximum_graph_error_v": 0.007287784838600597
+    },
+    {
+      "id": "HL0016",
+      "mpn": "TO-2106BC-MGD",
+      "params": {
+        "ISvalue": 1.6630641719828778e-14,
+        "Nvalue": 2.748967435506929,
+        "RSvalue": 4.010095986685651
+      },
+      "instance_parameters": "ISvalue=1.66306417198e-14 Nvalue=2.74896743551 RSvalue=4.01009598669",
+      "basis": "digitized_forward_curve_fit",
+      "source": "../../Datasheets/Oasistek_LED/TO-2106BC-MGD.pdf",
+      "source_sha256": "9ddd24a7cad81bceb4aa8de191585afefef0cb596808af2ef435b80a67ddfb1f",
+      "revision": "Rev A-1; 2017-06-06; GS1803021",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": null,
+        "vf_min_v": 1.8,
+        "vf_max_v": 2.4
+      },
+      "model_vf20_v": 2.044757275193945,
+      "fit_points": [
+        {
+          "if_a": 0.003,
+          "vf_v": 1.8406,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.005,
+          "vf_v": 1.89,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 1.9535,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.015,
+          "vf_v": 2.0099,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 2.0381,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.025,
+          "vf_v": 2.0804,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.03,
+          "vf_v": 2.1157,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.004,
+          "vf_v": 1.8688,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.007,
+          "vf_v": 1.9182,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 1.9817,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.018000000000000002,
+          "vf_v": 2.024,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.028,
+          "vf_v": 2.1016,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.003,
+          0.03
+        ]
+      },
+      "assumptions": [
+        "Approximation of a printed curve. The electrical table only specifies minimum and maximum VF.",
+        "Only fit the forward curve after the visually located knee. Approximate digitization error +/-30 mV.",
+        "Is is a forward fit coefficient. Reverse leakage and breakdown are uncharacterized by this model.",
+        "Fixed junction temperature +25 C. Capacitance, recovery, self-heating and optical behavior are omitted."
+      ],
+      "maximum_graph_error_v": 0.0066572751939451
+    },
+    {
+      "id": "HL0017",
+      "mpn": "TO-2106BC-MRF",
+      "params": {
+        "ISvalue": 4.6698374728502205e-14,
+        "Nvalue": 2.8897553190022442,
+        "RSvalue": 5.586560847141659
+      },
+      "instance_parameters": "ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714",
+      "basis": "digitized_forward_curve_fit",
+      "source": "../../Datasheets/Oasistek_LED/TO-2106BC-MRF.pdf",
+      "source_sha256": "84c9c0f3ca8fa35dbb3ce7808aa83e8ffc8dafe0ab6d6d2cf709f8cb9557c7c3",
+      "revision": "Rev A-1; 2018-03-27; GS1803022",
+      "source_pages": {
+        "electrical_table": 2,
+        "curve": 4
+      },
+      "table_at_20ma": {
+        "vf_typ_v": null,
+        "vf_min_v": 1.8,
+        "vf_max_v": 2.4
+      },
+      "model_vf20_v": 2.100245476487758,
+      "fit_points": [
+        {
+          "if_a": 0.002,
+          "vf_v": 1.8298,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.004,
+          "vf_v": 1.8901,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.006,
+          "vf_v": 1.9303,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.01,
+          "vf_v": 1.9973,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.014,
+          "vf_v": 2.0375,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.018000000000000002,
+          "vf_v": 2.0845,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.02,
+          "vf_v": 2.0979,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "independent_graph_samples": [
+        {
+          "if_a": 0.003,
+          "vf_v": 1.8566,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.005,
+          "vf_v": 1.9102,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.008,
+          "vf_v": 1.9571,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.012,
+          "vf_v": 2.0107,
+          "reading_tolerance_v": 0.03
+        },
+        {
+          "if_a": 0.016,
+          "vf_v": 2.071,
+          "reading_tolerance_v": 0.03
+        }
+      ],
+      "reverse_datasheet": {
+        "vr_v": 5.0,
+        "ir_max_a": 1e-05
+      },
+      "recommended_model_scope": {
+        "temp_c": 25,
+        "forward_current_a": [
+          0.002,
+          0.02
+        ]
+      },
+      "assumptions": [
+        "Approximation of a printed curve. The electrical table only specifies minimum and maximum VF.",
+        "Only fit the forward curve after the visually located knee. Approximate digitization error +/-30 mV.",
+        "Is is a forward fit coefficient. Reverse leakage and breakdown are uncharacterized by this model.",
+        "Fixed junction temperature +25 C. Capacitance, recovery, self-heating and optical behavior are omitted."
+      ],
+      "maximum_graph_error_v": 0.009668119485974902
     }
   ],
   "model_file": "MY_LIB_LED_DS.ckt",

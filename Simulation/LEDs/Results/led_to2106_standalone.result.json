@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "altium_instance": "hidden",
+  "summary": {
+    "planned_runs": 3,
+    "completed_runs": 3,
+    "not_run": 0,
+    "errors": 0
+  },
+  "session": {
+    "started_at": "2026-11-25T15:07:33.560615Z",
+    "ready_at": "2026-11-25T15:09:33.053240Z",
+    "stop": {
+      "session_id": "80e48c81684c",
+      "desktop": "SpiceSifterHidden-80e48c81684c",
+      "pid": 29536,
+      "creation_time": "2026-11-25T15:07:33.553400Z",
+      "graceful": false,
+      "job_terminated": true,
+      "identity_rechecked": true,
+      "exit_code": 1,
+      "process_gone": true,
+      "reason": "terminated_owned_job_object",
+      "elapsed": 0.46,
+      "state_kept": false
+    }
+  },
+  "runs": [
+    {
+      "name": "led_HL0015_forward_curve",
+      "status": "PASS",
+      "simulator": "Altium MixedSim",
+      "coverage": {
+        "status": "OK",
+        "expected": 7,
+        "completed": 7,
+        "missing": 0,
+        "passed": 7,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "checks": [
+        {
+          "analysis": "dc",
+          "signal": "v(forward0)",
+          "measurement": "last",
+          "min": 2.8293000000000004,
+          "max": 2.8893,
+          "value": 2.8612197950406983,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward1)",
+          "measurement": "last",
+          "min": 2.9604000000000004,
+          "max": 3.0204,
+          "value": 2.9831103049122216,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward2)",
+          "measurement": "last",
+          "min": 3.0714,
+          "max": 3.1313999999999997,
+          "value": 3.108285504125105,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward3)",
+          "measurement": "last",
+          "min": 3.1722,
+          "max": 3.2321999999999997,
+          "value": 3.2044900725848993,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward4)",
+          "measurement": "last",
+          "min": 3.2630000000000003,
+          "max": 3.323,
+          "value": 3.2964631961296917,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward5)",
+          "measurement": "last",
+          "min": 3.1444095795813936,
+          "max": 3.150409579581394,
+          "value": 3.1474063929424436,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "i(VSREV)",
+          "measurement": "last",
+          "min": 0,
+          "max": 1e-8,
+          "value": 5.000140893368109e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "led_HL0016_forward_curve",
+      "status": "PASS",
+      "simulator": "Altium MixedSim",
+      "coverage": {
+        "status": "OK",
+        "expected": 7,
+        "completed": 7,
+        "missing": 0,
+        "passed": 7,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "checks": [
+        {
+          "analysis": "dc",
+          "signal": "v(forward0)",
+          "measurement": "last",
+          "min": 1.8388,
+          "max": 1.8988,
+          "value": 1.8669345106761903,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward1)",
+          "measurement": "last",
+          "min": 1.8881999999999999,
+          "max": 1.9482,
+          "value": 1.9184883010935785,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward2)",
+          "measurement": "last",
+          "min": 1.9517,
+          "max": 2.0117,
+          "value": 1.9766059721043492,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward3)",
+          "measurement": "last",
+          "min": 1.994,
+          "max": 2.054,
+          "value": 2.0293029447118105,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward4)",
+          "measurement": "last",
+          "min": 2.0716,
+          "max": 2.1315999999999997,
+          "value": 2.100608804112803,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward5)",
+          "measurement": "last",
+          "min": 2.041757275193945,
+          "max": 2.0477572751939452,
+          "value": 2.0447643331312437,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "i(VSREV)",
+          "measurement": "last",
+          "min": 0,
+          "max": 1e-8,
+          "value": 5.016630578694836e-12,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "name": "led_HL0017_forward_curve",
+      "status": "PASS",
+      "simulator": "Altium MixedSim",
+      "coverage": {
+        "status": "OK",
+        "expected": 7,
+        "completed": 7,
+        "missing": 0,
+        "passed": 7,
+        "failed": 0,
+        "measured": 0,
+        "errors": 0,
+        "not_run": 0
+      },
+      "checks": [
+        {
+          "analysis": "dc",
+          "signal": "v(forward0)",
+          "measurement": "last",
+          "min": 1.8266,
+          "max": 1.8866,
+          "value": 1.8644353990618805,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward1)",
+          "measurement": "last",
+          "min": 1.8801999999999999,
+          "max": 1.9402,
+          "value": 1.9135338216374083,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward2)",
+          "measurement": "last",
+          "min": 1.9271,
+          "max": 1.9871,
+          "value": 1.9651880516543778,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward3)",
+          "measurement": "last",
+          "min": 1.9807,
+          "max": 2.0406999999999997,
+          "value": 2.0176372997491834,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward4)",
+          "measurement": "last",
+          "min": 2.0410000000000004,
+          "max": 2.101,
+          "value": 2.061341964879307,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "v(forward5)",
+          "measurement": "last",
+          "min": 2.0972454764877577,
+          "max": 2.103245476487758,
+          "value": 2.1002550872434096,
+          "passed": true
+        },
+        {
+          "analysis": "dc",
+          "signal": "i(VSREV)",
+          "measurement": "last",
+          "min": 0,
+          "max": 1e-8,
+          "value": 5.046698169186431e-12,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

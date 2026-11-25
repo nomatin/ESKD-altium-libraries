@@ -1,0 +1,58 @@
+{
+  "name": "led_HL0017_forward_curve",
+  "models": [
+    "../MY_LIB_LED_DS.ckt"
+  ],
+  "spice": "* HL0017 TO-2106BC-MRF digitized forward curve\n.OPTIONS TEMP=25\nVSCALE scale 0 DC 1\nXforward0 0 forward0 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward0 0 forward0 scale 0 0.003\nXforward1 0 forward1 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward1 0 forward1 scale 0 0.005\nXforward2 0 forward2 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward2 0 forward2 scale 0 0.008\nXforward3 0 forward3 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward3 0 forward3 scale 0 0.012\nXforward4 0 forward4 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward4 0 forward4 scale 0 0.016\nXforward5 0 forward5 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\nGforward5 0 forward5 scale 0 0.02\nEREV supply 0 scale 0 5\nVSREV supply cathode 0\nXreverse cathode 0 MY_LIB_LED_DS PARAMS: ISvalue=4.66983747285e-14 Nvalue=2.889755319 RSvalue=5.58656084714\n.DC VSCALE 0.5 1 0.5\n.PLOT DC V(forward0) V(forward1) V(forward2) V(forward3) V(forward4) V(forward5) I(VSREV)\n.END\n",
+  "checks": [
+    {
+      "analysis": "dc",
+      "signal": "v(forward0)",
+      "measurement": "last",
+      "min": 1.8266,
+      "max": 1.8866
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(forward1)",
+      "measurement": "last",
+      "min": 1.8801999999999999,
+      "max": 1.9402
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(forward2)",
+      "measurement": "last",
+      "min": 1.9271,
+      "max": 1.9871
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(forward3)",
+      "measurement": "last",
+      "min": 1.9807,
+      "max": 2.0406999999999997
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(forward4)",
+      "measurement": "last",
+      "min": 2.0410000000000004,
+      "max": 2.101
+    },
+    {
+      "analysis": "dc",
+      "signal": "v(forward5)",
+      "measurement": "last",
+      "min": 2.0972454764877577,
+      "max": 2.103245476487758
+    },
+    {
+      "analysis": "dc",
+      "signal": "i(VSREV)",
+      "measurement": "last",
+      "min": 0,
+      "max": 1e-08
+    }
+  ]
+}

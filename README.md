@@ -13,7 +13,7 @@ Both catalogs use the same catalog IDs and manufacturer part numbers (MPNs). Eac
 
 ## Library contents
 
-As of November 19, 2026, each catalog contains **1,980 components**, of which **1,578 have a SPICE model linked**. The table counts each component once.
+As of November 25, 2026, each catalog contains **1,983 components**, of which **1,581 have a SPICE model linked**. The table counts each component once.
 
 | Category | Components | SPICE coverage | Representative parts and series |
 |---|---:|---:|---|
@@ -22,7 +22,7 @@ As of November 19, 2026, each catalog contains **1,980 components**, of which **
 | Diodes | 235 | 235 / 235 (100%) | Vishay, Nexperia, Diotec, Yangjie |
 | Connectors | 395 | 0 / 395 (0%) | GCT, CONNFLY, JST PH/XH, AMASS XT30/XT60/XT90 and MR30/MR60 (37 parts with STEP models) |
 | Ferrite beads | 78 | 78 / 78 (100%) | TDK, Murata |
-| LEDs | 10 | 10 / 10 (100%) | Oasistek |
+| LEDs | 13 | 13 / 13 (100%) | Oasistek |
 | ICs | 41 | 38 / 41 (93%) | CP2102N-A02-GQFN24, ISOW1432DFMR, USBLC6-2SC6, CDSOT23-SM712, 74HC1G08GW, TLV75533PDBVR, ADUM3160BRWZ, MCP3911A0-E/SS, STM32G0B1CBT6, LDK220, LDK320 |
 | Transistors | 9 | 9 / 9 (100%) | Infineon 2N7002, BSS138N, BSS84P, BSS215P, BSS308PE, IRLML6244, IRLML0030, IRLML6344, IRLML0060 |
 | Switches | 1 | 0 / 1 (0%) | CONNFLY DS1040-01RT |
@@ -30,7 +30,7 @@ As of November 19, 2026, each catalog contains **1,980 components**, of which **
 | Crystals | 25 | 25 / 25 (100%) | YXC YSX321SL |
 | Modules | 1 | 1 / 1 (100%) | MORNSUN F0505XT-1WR3 |
 | Inductors | 12 | 12 / 12 (100%) | TDK VLS3012HBX-N |
-| **Total** | **1,980** | **1,578 / 1,980 (79.7%)** | |
+| **Total** | **1,983** | **1,581 / 1,983 (79.7%)** | |
 
 Both workbooks contain component parameters. Local datasheets are in `Datasheets/`.
 
